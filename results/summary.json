@@ -1,0 +1,165 @@
+{
+  "seed": 20260911,
+  "data_type": "synthetic",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "cpa": {
+    "best_candidate": 43,
+    "true_key": 43,
+    "true_rank_1_based": 1,
+    "true_score": 0.48885538180961385,
+    "best_wrong_score": 0.12911871005982212,
+    "traces": 2048,
+    "samples_per_trace": 128,
+    "injected_center": 64,
+    "peak_sample": 64,
+    "shuffled_max_score": 0.09162633632808842,
+    "dpa": {
+      "best_candidate": 43,
+      "true_key": 43,
+      "true_rank_1_based": 1,
+      "true_score": 0.7881753135901508,
+      "best_wrong_score": 0.5301567146345516
+    }
+  },
+  "noise": {
+    "trials_per_noise": 40,
+    "model": "HW(AES_SBOX(P xor K)) + independent Gaussian noise",
+    "attack_feature": "One predetermined leakage sample; no time search",
+    "csv": "noise_sweep.csv"
+  },
+  "model_mismatch": {
+    "traces": 12000,
+    "HW": {
+      "best_candidate": 209,
+      "true_key": 43,
+      "true_rank_1_based": 233,
+      "true_score": 0.0009045039784928996,
+      "best_wrong_score": 0.02284408852638847
+    },
+    "HD": {
+      "best_candidate": 43,
+      "true_key": 43,
+      "true_rank_1_based": 1,
+      "true_score": 0.7671486620407566,
+      "best_wrong_score": 0.05988301816784439
+    },
+    "assumption": "The old register state is public/known in this teaching model",
+    "xor_complement_correlation": -1.0
+  },
+  "masking": {
+    "traces": 40000,
+    "share_0_first_order": {
+      "best_candidate": 172,
+      "true_key": 43,
+      "true_rank_1_based": 221,
+      "true_score": 0.0006889006174042875,
+      "best_wrong_score": 0.014144664050326734
+    },
+    "share_1_first_order": {
+      "best_candidate": 75,
+      "true_key": 43,
+      "true_rank_1_based": 160,
+      "true_score": 0.002645609180299501,
+      "best_wrong_score": 0.015297119115381397
+    },
+    "second_order": {
+      "best_candidate": 43,
+      "true_key": 43,
+      "true_rank_1_based": 1,
+      "true_score": 0.28110501490275036,
+      "best_wrong_score": 0.065330689171647
+    },
+    "exact_expectation_verified_for_all_256_bytes": true,
+    "transition_identity_verified": true,
+    "note": "First-order scores fluctuate under finite sampling; low score is not a proof"
+  },
+  "tvla_counterexample": {
+    "samples_per_group": 12000,
+    "first_order_t": 1.932111362569361,
+    "centered_square_t": -56.67321869146685,
+    "note": "A distributional teaching example, not a full TVLA certification procedure"
+  },
+  "toy_ntt": {
+    "q": 17,
+    "n": 4,
+    "root": 4,
+    "input": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "ntt": [
+      10,
+      7,
+      15,
+      6
+    ],
+    "inverse": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "butterfly": {
+      "input": [
+        3,
+        6
+      ],
+      "output": [
+        10,
+        13
+      ],
+      "inverse": [
+        3,
+        6
+      ]
+    },
+    "note": "Cyclic length-4 teaching NTT, not the ML-KEM transform"
+  },
+  "toy_interval_oracle": {
+    "noiseless_steps": [
+      {
+        "u": 1,
+        "v": 5,
+        "observed_bit": 0,
+        "remaining": [
+          1,
+          2
+        ]
+      },
+      {
+        "u": 1,
+        "v": 6,
+        "observed_bit": 1,
+        "remaining": [
+          1
+        ]
+      }
+    ],
+    "noisy_log_scores": {
+      "-2": -307.1327402479051,
+      "-1": -245.61045208249092,
+      "0": -157.72146898904214,
+      "1": -65.43803674092095,
+      "2": -140.1436723703524
+    },
+    "noise_model_used_for_scoring": "Independent symmetric error approximation with epsilon=0.1",
+    "noise_generation": "Independent Bernoulli flips with epsilon=0.1",
+    "number_of_flips": 20,
+    "note": "An abstract scalar interval oracle, not an ML-KEM ciphertext attack"
+  },
+  "toy_signature": {
+    "q": 17,
+    "secret": 3,
+    "ephemeral": 5,
+    "challenge": 4,
+    "public_response": 0,
+    "recovered_secret": 3,
+    "note": "Scalar algebra only; a polynomial challenge need not be invertible"
+  }
+}
