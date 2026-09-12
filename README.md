@@ -2,6 +2,14 @@
 
 本项目整理硬件侧信道基础、NIST 后量子密码算法的攻击研究、安全实现方法与可复现评价路线。
 
+## ML-KEM 与 NTT 互动课件
+
+新增 [17 章互动课件与使用说明](courses/ml-kem/README.md)，从多项式的四个格子、单位根、四点 NTT、蝶形运算，逐步走到真实 256 系数 NTT、完整 ML-KEM 与寄存器 HW/HD。支持暂停、回退、调参、完整中间值和离线使用。
+
+- [逐步讲义与八道自测](courses/ml-kem/TEACHING_GUIDE.zh-CN.md)
+- [单文件离线 HTML](courses/ml-kem/ML-KEM_Interactive_Offline.html)：在文件页面选择 **Download raw file**，下载后用浏览器打开；GitHub 文件预览显示的是源代码。
+- [真实 NTT 数学模型与验证说明](courses/ml-kem/REAL-NTT-NOTES.md)
+
 ## 研究资料
 
 - [完整中文研究报告](docs/research/nist-pqc-hardware-sidechannel-report.md)：13 个章节，覆盖物理与统计基础、ML-KEM、ML-DSA、SLH-DSA、Falcon/HQC、故障交叉、硬件防护、随机数受限统一 IP、实验方案和研究选题。
@@ -71,3 +79,4 @@ python labs/run_experiments.py
 主线是非侵入式、被动观测的功耗、电磁和时序分析；对主动激励测量、故障注入、开封探针只作边界区分。教学实验使用自建模型；真实测量应在自己的设备或获授权的评估环境开展。
 
 本教程是原理教材与精选文献导读，不声称穷尽截至核验日的所有论文。文中区分已核验的文献结论、从算法结构作出的分析，以及用于解释思想的简化模型。旧版 Kyber/Dilithium 的实验结论不能直接当成所有 ML-KEM/ML-DSA 实现的结论。参见[文献核验范围](docs/16-references.md)。
+

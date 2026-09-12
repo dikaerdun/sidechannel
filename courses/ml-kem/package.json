@@ -1,0 +1,17 @@
+{
+  "name": "mlkem-interactive-course",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Chinese ML-KEM and NTT teaching course; runs offline without npm",
+  "scripts": {
+    "test": "node tests/verify-course.cjs && node tests/verify-real-ntt.cjs",
+    "test:ui": "node tests/verify-ui.cjs",
+    "build:crypto": "node build-crypto.mjs"
+  },
+  "devDependencies": {
+    "@noble/post-quantum": "0.7.1",
+    "@noble/hashes": "2.4.0",
+    "esbuild": "0.25.10",
+    "jsdom": "26.1.0"
+  }
+}

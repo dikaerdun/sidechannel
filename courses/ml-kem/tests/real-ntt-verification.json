@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "reference": "FIPS 203 algorithms 9–12; independently checked with BigInt convolution and CRT remainders",
+  "parameters": {
+    "q": 3329,
+    "n": 256,
+    "zeta": 17,
+    "layers": 7,
+    "butterflies": 896,
+    "blocks": 128
+  },
+  "roundTrips": 280,
+  "directCRTCases": 24,
+  "productCases": 26,
+  "replayedTraces": 24,
+  "assertions": 65165,
+  "boundaryExamples": {
+    "X^255 * X": "-1",
+    "X^255 * X^255": "-X^254"
+  },
+  "productionCertification": false
+}

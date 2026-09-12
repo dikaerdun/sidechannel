@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#113a42">
+  <title>ML-KEM 交互课堂 · 看懂每一步计算</title>
+  <meta name="description" content="从模17手算、噪声判决、多项式与NTT，到真实ML-KEM密钥封装。可单步播放、调参和检查中间值的中文教学课程。">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./extra.css">
+</head>
+<body>
+  <a class="skip" href="#lesson">跳到课程内容</a>
+  <aside class="sidebar" aria-label="课程目录">
+    <a class="brand" href="#start"><span class="brand-symbol">M<span>+</span></span><span>ML-KEM<small>交互课堂</small></span></a>
+    <p class="nav-caption">先看图，再动手算</p>
+    <nav id="lessonNav"></nav>
+    <div class="side-foot"><span>中文互动课件 · 第二版</span><p>系数 → 点值 → 蝶形 → 真实算法。</p><a href="https://csrc.nist.gov/pubs/fips/203/final" target="_blank" rel="noopener">打开 NIST 正式标准 ↗</a></div>
+  </aside>
+  <div class="mobile-bar"><a href="#start">ML-KEM <span>交互课堂</span></a><label class="sr-only" for="mobileNav">选择课程</label><select id="mobileNav"></select></div>
+  <main id="lesson" tabindex="-1"></main>
+  <noscript><p class="noscript">请启用 JavaScript，以使用单步动画和计算实验。</p></noscript>
+  <script src="./crypto-bundle.js"></script>
+  <script src="./math.js"></script>
+  <script src="./real-ntt.js"></script>
+  <script src="./extra.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
