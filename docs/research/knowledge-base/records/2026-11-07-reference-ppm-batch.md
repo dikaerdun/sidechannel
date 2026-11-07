@@ -70,6 +70,6 @@ q=7，S ⟂ B，公开 B 条件化，`P(S|B)=1/7`，状态 168/168/84=420，全�
 ## 入库与同步
 
 - 更新：本记录、`MODEL_INDEX.md`（三个候选状态）、`SOURCE_INDEX.md`（SRC-001 已核实项）、`NEXT_ACTION.md`、`README.md` 入口。
-- 公开：[复算脚本 `scripts/h001_representation.py`](scripts/h001_representation.py)、[精确算例 `scripts/h002_exact.py`](scripts/h002_exact.py)、[小型结果 `results/reference-ppm-2026-11-07/summary.json`](results/reference-ppm-2026-11-07/summary.json)（已删除固定秘密系数数值与原始标签）。使用流程见 [README](README.md)。
+- 公开：[复算脚本 `scripts/h001_representation.py`](../scripts/h001_representation.py)、[精确算例 `scripts/h002_exact.py`](../scripts/h002_exact.py)、[小型结果 `results/reference-ppm-2026-11-07/summary.json`](../results/reference-ppm-2026-11-07/summary.json)（已删除固定秘密系数数值与原始标签）。使用流程见 [README](../README.md)。
 - 不公开：原始波形、原始标签字段、批次会话日志、本机路径、代理完整原始输出（本地保留，注明删节范围）。
 - 远端：见提交记录；推送后须回读远端 SHA 与内容才算同步。
