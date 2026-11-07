@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """EXP-20261107-02 / PQC-H002 v1 -- exact rational enumeration (no waveforms).
 
-Published copy. Set H002_OUTDIR to choose the output directory (default: cwd).
+Published copy. Public B is CONDITIONED on (protocol: B is public, h=f(S,B));
+an earlier main run that marginalised B was found wrong by the independent
+verifier and is superseded. Set H002_OUTDIR to choose the output directory.
 
 Frozen protocol (SHA-256
 cc4eac9f9ab2ccbb1ca858ee031ea4527b8b22e187413a439af29339ef8d4fe9).
@@ -9,11 +11,9 @@ cc4eac9f9ab2ccbb1ca858ee031ea4527b8b22e187413a439af29339ef8d4fe9).
 All posteriors and expectations are exact Fractions; only natural logs are
 float64. MAP ties -> smallest S. Nothing here is fitted to any data.
 """
-import argparse
 import json
 import math
 import os
-import sys
 from fractions import Fraction as F
 
 Q = 7
@@ -51,20 +51,18 @@ def lik_marg(v, s, b, binding=h_true):
     return P1[v[0] ^ h1] * P1[v[1] ^ h2]
 
 
-def posterior(lik, v):
-    """Posterior over S given observation v (tuple). lik(v,s,b) -> Fraction."""
+def posterior(lik, v, b):
+    """Posterior over S given public B and observation v. B is public: it is
+    conditioned on, not marginalized (protocol: h = f(S,B) with B published)."""
     out = {}
     for s in SSET:
-        acc = F(0)
-        for b in BSET:
-            acc += lik(v, s, b) * PRIOR_B
-        out[s] = acc * PRIOR_S
+        out[s] = lik(v, s, b) * PRIOR_S
     tot = sum(out.values())
     assert tot > 0, (v, tot)
     return {s: p / tot for s, p in out.items()}
 
 
-def model_uniform(v):
+def model_uniform(v, b):
     return {s: PRIOR_S for s in SSET}
 
 
@@ -85,7 +83,7 @@ def metrics(post_fn, truth_table):
                 h1, h2 = h_true(s, b)
                 v = (h1 ^ e[0], h2 ^ e[1])
                 w = PRIOR_B * PRIOR_S * we
-                post = post_fn(v)
+                post = post_fn(v, b)
                 ps = post[s]
                 assert ps > 0
                 assert sum(post.values()) == 1, (v, sum(post.values()))
@@ -108,10 +106,11 @@ def metrics(post_fn, truth_table):
 
 def map_by_condition(post_fn):
     out = {}
-    for v in all_v():
-        post = post_fn(v)
-        best = max(post.values())
-        out[str(v)] = min(k for k in SSET if post[k] == best)
+    for b in BSET:
+        for v in all_v():
+            post = post_fn(v, b)
+            best = max(post.values())
+            out[f"B{b}{v}"] = min(k for k in SSET if post[k] == best)
     return out
 
 
@@ -119,19 +118,20 @@ def scenario_pair(truth_name):
     tt = TABLES[truth_name]
     models = {
         "uniform": model_uniform,
-        "single_V1": lambda v: posterior(lambda vv, s, b: P1[vv[0] ^ h_true(s, b)[0]], v),
-        "joint_correct": lambda v: posterior(lambda vv, s, b: lik_joint(tt, h_true, vv, s, b), v),
-        "joint_marginal_indep": lambda v: posterior(lambda vv, s, b: lik_marg(vv, s, b), v),
-        "joint_wrong_binding": lambda v: posterior(lambda vv, s, b: lik_joint(tt, h_wrong, vv, s, b), v),
+        "single_V1": lambda v, b: posterior(lambda vv, s, bb: P1[vv[0] ^ h_true(s, bb)[0]], v, b),
+        "joint_correct": lambda v, b: posterior(lambda vv, s, bb: lik_joint(tt, h_true, vv, s, bb), v, b),
+        "joint_marginal_indep": lambda v, b: posterior(lambda vv, s, bb: lik_marg(vv, s, bb), v, b),
+        "joint_wrong_binding": lambda v, b: posterior(lambda vv, s, bb: lik_joint(tt, h_wrong, vv, s, bb), v, b),
     }
     res = {name: metrics(fn, tt) for name, fn in models.items()}
     # exact identity check: correct joint == marginal-independent in the
     # independent-noise scenario, condition by condition
     ident = {}
     for v in all_v():
-        pc = models["joint_correct"](v)
-        pm = models["joint_marginal_indep"](v)
-        ident[str(v)] = max(abs(float(pc[s] - pm[s])) for s in SSET)
+        for bb in BSET:
+            pc = models["joint_correct"](v, bb)
+            pm = models["joint_marginal_indep"](v, bb)
+            ident[f"B{bb}{v}"] = max(abs(float(pc[s] - pm[s])) for s in SSET)
     res["_identity_max_abs_diff_correct_vs_indep"] = max(ident.values())
     res["_map_by_condition"] = {name: map_by_condition(fn) for name, fn in models.items()}
     return res
@@ -149,9 +149,9 @@ def scenario_replication():
         return p * p
 
     models = {
-        "uniform": lambda v: model_uniform(v),
-        "single_once": lambda v: posterior(lik_single, v),
-        "replication_weighted": lambda v: posterior(lik_rep, v),
+        "uniform": lambda v, b: model_uniform(v, b),
+        "single_once": lambda v, b: posterior(lik_single, v, b),
+        "replication_weighted": lambda v, b: posterior(lik_rep, v, b),
     }
 
     def metrics_rep(post_fn):
@@ -163,7 +163,7 @@ def scenario_replication():
                     v = (h_true(s, b)[0] ^ e,)
                     v2 = (v[0], v[0])
                     w = PRIOR_B * PRIOR_S * we
-                    post = post_fn(v2)
+                    post = post_fn(v2, b)
                     ps = post[s]
                     assert ps > 0 and sum(post.values()) == 1
                     best = max(post.values())
@@ -177,7 +177,7 @@ def scenario_replication():
 
     res = {name: metrics_rep(fn) for name, fn in models.items()}
     res["_map_by_condition"] = {
-        name: map_by_condition(lambda v: fn((v[0], v[0]))) for name, fn in models.items()
+        name: map_by_condition(lambda v, b: fn((v[0], v[0]), b)) for name, fn in models.items()
     }
     # MAP identity check per condition (single vs replication)
     a = res["_map_by_condition"]["single_once"]
@@ -205,6 +205,7 @@ def main():
         "protocol_sha256": "cc4eac9f9ab2ccbb1ca858ee031ea4527b8b22e187413a439af29339ef8d4fe9",
         "q": Q,
         "states": {"indep": 6 * 7 * 4, "corr": 6 * 7 * 4, "replication": 6 * 7 * 2},
+        "note_B_conditioning": "public B is conditioned on per protocol; an earlier main run marginalized B and is kept as h002-marginalB-superseded.json",
         "table_marginals": table_marginals(),
         "scenario_independent_noise": scenario_pair("indep"),
         "scenario_correlated_noise": scenario_pair("corr"),

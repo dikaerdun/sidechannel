@@ -105,6 +105,7 @@
   },
   "h002": {
     "status": "logic_only",
+    "B_conditioning": "public B is conditioned on (corrected after independent verification; earlier marginal-B run kept locally as superseded)",
     "states": {
       "indep": 168,
       "corr": 168,
@@ -127,24 +128,24 @@
           "mean_max_post": 0.14285714285714285
         },
         "single_V1": {
-          "nll": 1.9297759094317897,
-          "map_acc": 0.17857142857142858,
-          "mean_max_post": 0.17857142857142858
+          "nll": 1.8176513071965295,
+          "map_acc": 0.21428571428571427,
+          "mean_max_post": 0.21428571428571427
         },
         "joint_correct": {
-          "nll": 1.915927633666358,
-          "map_acc": 0.18452380952380953,
-          "mean_max_post": 0.18452380952380953
+          "nll": 1.6946580739411963,
+          "map_acc": 0.32142857142857145,
+          "mean_max_post": 0.32142857142857145
         },
         "joint_marginal_indep": {
-          "nll": 1.915927633666358,
-          "map_acc": 0.18452380952380953,
-          "mean_max_post": 0.18452380952380953
+          "nll": 1.6946580739411963,
+          "map_acc": 0.32142857142857145,
+          "mean_max_post": 0.32142857142857145
         },
         "joint_wrong_binding": {
-          "nll": 1.9175396996131417,
-          "map_acc": 0.18452380952380953,
-          "mean_max_post": 0.19586520104003297
+          "nll": 1.8412823179360551,
+          "map_acc": 0.26785714285714285,
+          "mean_max_post": 0.3236049026178155
         }
       },
       "scenario_correlated_noise": {
@@ -154,24 +155,24 @@
           "mean_max_post": 0.14285714285714285
         },
         "single_V1": {
-          "nll": 1.9297759094317897,
-          "map_acc": 0.17857142857142858,
-          "mean_max_post": 0.17857142857142858
+          "nll": 1.8176513071965295,
+          "map_acc": 0.21428571428571427,
+          "mean_max_post": 0.21428571428571427
         },
         "joint_correct": {
-          "nll": 1.9084007452384895,
-          "map_acc": 0.19642857142857142,
-          "mean_max_post": 0.19642857142857142
+          "nll": 1.5341168875365212,
+          "map_acc": 0.39285714285714285,
+          "mean_max_post": 0.39285714285714285
         },
         "joint_marginal_indep": {
-          "nll": 1.9261434103559893,
-          "map_acc": 0.19642857142857142,
-          "mean_max_post": 0.19118291761148903
+          "nll": 1.7168062852496253,
+          "map_acc": 0.39285714285714285,
+          "mean_max_post": 0.31448979591836734
         },
         "joint_wrong_binding": {
-          "nll": 1.9240240733058336,
-          "map_acc": 0.17857142857142858,
-          "mean_max_post": 0.235670018841797
+          "nll": 1.907709319534723,
+          "map_acc": 0.30357142857142855,
+          "mean_max_post": 0.4135831195659576
         }
       },
       "scenario_replication": {
@@ -181,14 +182,14 @@
           "mean_max_post": 0.14285714285714285
         },
         "single_once": {
-          "nll": 1.9297759094317897,
-          "map_acc": 0.17857142857142858,
-          "mean_max_post": 0.17857142857142858
+          "nll": 1.8176513071965295,
+          "map_acc": 0.21428571428571427,
+          "mean_max_post": 0.21428571428571427
         },
         "replication_weighted": {
-          "nll": 1.9420383828508763,
-          "map_acc": 0.17857142857142858,
-          "mean_max_post": 0.19851116625310175
+          "nll": 1.909055079506821,
+          "map_acc": 0.21428571428571427,
+          "mean_max_post": 0.25841900035448423
         }
       }
     }
@@ -204,9 +205,13 @@
     }
   },
   "verification": {
-    "phase_a_by": "independent GPT verification agent (no inherited context)",
-    "label_match_all_six_files": "100/100 both Montgomery outputs vs locally compiled PQClean C",
-    "residue_to_machine_word": "1:1 over 546 distinct words (dev+holdout)",
-    "phase_c": "not sealed at time of writing"
+    "phase_a": "independent GPT: data qualification + reference-C word-level match (100/100 all six files) + b1 export",
+    "phase_b": "independent GPT: own implementation of H001/H002/H004; frozen 2026-11-07T19:43:15+08:00 (FROZEN) before seeing main results",
+    "phase_c": {
+      "h001": "full agreement (max abs diff 4e-13; same point 13812; 12/12 gates)",
+      "h002": "disagreement found: main marginalised public B; verifier conditioned on B; main fixed, then exact agreement (NLL diff 0)",
+      "h004": "agreement: condition missing, zero fits"
+    },
+    "first_unblinding": "2026-11-07T19:43:15+08:00 (verifier sealed before comparison)"
   }
 }
