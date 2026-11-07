@@ -13,6 +13,13 @@
 - [模板：实验记录](templates/experiment-record.md)
 - [实验记录：Reference-PPM 批次 EXP-20261107-01/02/03](records/2026-11-07-reference-ppm-batch.md)
 - [复算脚本](scripts/h001_representation.py)、[精确算例](scripts/h002_exact.py)、[小型结果](results/reference-ppm-2026-11-07/summary.json)
+
+### 复算 H001 的最小步骤
+
+1. 从 DOI [10.5281/zenodo.15352482](https://doi.org/10.5281/zenodo.15352482)（CC BY 4.0）取发布包，按 `manifest.json` 验收开发/留出成员（本仓库不含波形）。
+2. 由**独立**核对方从留出标签的第二个 LE signed16 字导出 `b1_A*.csv`（100 行、原始行序、无标题），并保存 SHA-256 清单；主拟合不得打开留出 `noncesA*.mat`。
+3. `.venv/bin/python scripts/h001_representation.py --mode freeze-dev --root <repo-root>` 冻结开发选点与系数；再 `--mode holdout --root <repo-root>` 读一次留出并出判定。
+4. 精确算例无需数据：`.venv/bin/python scripts/h002_exact.py`（`H002_OUTDIR` 指定输出目录）。
 - [下一步与当前缺口](NEXT_ACTION.md)
 - [本次知识库初始化记录](records/2026-11-07-initialization.md)
 
