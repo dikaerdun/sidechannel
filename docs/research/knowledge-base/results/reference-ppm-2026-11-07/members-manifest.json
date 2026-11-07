@@ -1,0 +1,94 @@
+{
+  "source": {
+    "doi": "10.5281/zenodo.15352482",
+    "archive_member_prefix": "Reference-PPM/",
+    "license": "CC BY 4.0"
+  },
+  "note": "Verification metadata for the 12 members used in EXP-20261107-01. No waveform samples are redistributed here; fetch the archive from the DOI and check the values below.",
+  "members": [
+    {
+      "split": "development",
+      "file": "noncesA99.mat",
+      "bytes": 769,
+      "crc32": "d25cadd6",
+      "sha256": "3c2c6c8abc075fddd68149edc52b37ea8846881fcf402d4b607a130723295152"
+    },
+    {
+      "split": "development",
+      "file": "noncesA199.mat",
+      "bytes": 774,
+      "crc32": "ea24cb70",
+      "sha256": "0d3e7b294bed0a58d1fb959daae07855279410a4ff893d50873b1eac1b7355ab"
+    },
+    {
+      "split": "development",
+      "file": "tracesA99.mat",
+      "bytes": 3593299,
+      "crc32": "0fcaf37a",
+      "sha256": "fede979ea13991775e552367292923a3f0a54809baba8ce68e1ce4d7b5a95c09"
+    },
+    {
+      "split": "development",
+      "file": "tracesA199.mat",
+      "bytes": 3569897,
+      "crc32": "96b89e56",
+      "sha256": "711e685a909bdedbbccc89a60ebf5066f1f4305c90787bd5761749d45d0e90b7"
+    },
+    {
+      "split": "holdout",
+      "file": "noncesA499.mat",
+      "bytes": 774,
+      "crc32": "d11099c5",
+      "sha256": "ff4d5a4f3553c0049a5428782f427444ffbde769986d39d9de21091b1c8357ec"
+    },
+    {
+      "split": "holdout",
+      "file": "noncesA599.mat",
+      "bytes": 774,
+      "crc32": "1d2be1a1",
+      "sha256": "cbc673ba62d4737a97800bff4c09dbf5e268cd63212f4932eeeb8a39bb57f37f"
+    },
+    {
+      "split": "holdout",
+      "file": "noncesA699.mat",
+      "bytes": 764,
+      "crc32": "5990a959",
+      "sha256": "ae582ff867bf007caefa5ea43103d779eb5e5e19c7b827912abf5334d0dcf956"
+    },
+    {
+      "split": "holdout",
+      "file": "noncesA799.mat",
+      "bytes": 763,
+      "crc32": "2bde76a3",
+      "sha256": "adcba2ea9893c3395dc402e83905b3e97c1973b9fa93582ea1080e64cdb04bdb"
+    },
+    {
+      "split": "holdout",
+      "file": "tracesA499.mat",
+      "bytes": 3550590,
+      "crc32": "77342687",
+      "sha256": "d51930f5096e6bab65b979d4b5533545027064987f6a246ffc680ca32e2428a1"
+    },
+    {
+      "split": "holdout",
+      "file": "tracesA599.mat",
+      "bytes": 3559418,
+      "crc32": "3a4848d1",
+      "sha256": "91b6c0439e0d5b1120a9d4aab9633252a3d3c080c49049dc994fb49c86e6715d"
+    },
+    {
+      "split": "holdout",
+      "file": "tracesA699.mat",
+      "bytes": 3571875,
+      "crc32": "6ef7d335",
+      "sha256": "33f723ac951e45f324e47f8b5838e31f909529976b164d014a69d00615a8a74f"
+    },
+    {
+      "split": "holdout",
+      "file": "tracesA799.mat",
+      "bytes": 3614489,
+      "crc32": "f7f92dd6",
+      "sha256": "033a536c3f7315806681b21c06dfa7716383fcf98efcf54d37f473ffeea9b9f3"
+    }
+  ]
+}
