@@ -1,8 +1,8 @@
 # 侧信道科研知识库
 
-更新日期：2026-11-07。用途：让研究问题、证据、失败条件和下一步工作可检索、可复算、可接续。
+更新日期：2026-11-07（追加 Reference-PPM 批次）。用途：让研究问题、证据、失败条件和下一步工作可检索、可复算、可接续。
 
-本次初始化整理了研究方法、三个待验证模型和 GPT Agent 协作提示词。**没有开展新的功耗实验，也没有将对话中的历史实验数字认定为已复核事实。**
+2026-11-07 追加批次 EXP-20261107-01/02/03 基于作者公开的 Reference-PPM 实测波形（CC BY 4.0）完成了：一次固定实现下的表示预测实验（四个留出文件，PQC-H001 → 有限支持）、一个 q=7 精确枚举算例（PQC-H002 → 仅逻辑有限支持）、一次前史交互资料资格核对（PQC-H004 → 条件缺失）。**不声称任何密钥恢复或物理机制归因**；独立 GPT 核验的阶段 A 已封存，阶段 B/C 尚未封存。
 
 ## 从这里开始
 
@@ -10,7 +10,9 @@
 - [工作流程与知识入库规则](WORKFLOW.md)
 - [模型索引与三张候选卡](MODEL_INDEX.md)
 - [来源索引与实际阅读范围](SOURCE_INDEX.md)
-- [实验记录模板](templates/experiment-record.md)
+- [模板：实验记录](templates/experiment-record.md)
+- [实验记录：Reference-PPM 批次 EXP-20261107-01/02/03](records/2026-11-07-reference-ppm-batch.md)
+- [复算脚本](scripts/h001_representation.py)、[精确算例](scripts/h002_exact.py)、[小型结果](results/reference-ppm-2026-11-07/summary.json)
 - [下一步与当前缺口](NEXT_ACTION.md)
 - [本次知识库初始化记录](records/2026-11-07-initialization.md)
 

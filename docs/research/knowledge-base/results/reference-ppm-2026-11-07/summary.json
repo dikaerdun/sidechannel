@@ -1,0 +1,212 @@
+{
+  "experiment_ids": [
+    "EXP-20261107-01",
+    "EXP-20261107-02",
+    "EXP-20261107-03"
+  ],
+  "source": "SRC-001 (Zenodo 10.5281/zenodo.15352482, CC BY 4.0); ePrint 2025/811",
+  "reference_impl": "PQClean 0586a824fc0d49df0b6b6e9179d8d15d06d0974f (clean reduce.c / ntt.c)",
+  "protocol_sha256": "cc4eac9f9ab2ccbb1ca858ee031ea4527b8b22e187413a439af29339ef8d4fe9",
+  "h001": {
+    "status": "limited_support",
+    "sample_point": 13812,
+    "selection_gain": 107.75953755617567,
+    "rank_all_full": true,
+    "dev_folds": {
+      "A99->A199": {
+        "B": 206.14051026127115,
+        "A": 24.390085707750476,
+        "C": 182.9232887755661
+      },
+      "A199->A99": {
+        "B": 217.41202545080415,
+        "A": 25.344489878640434,
+        "C": 183.4090568374909
+      }
+    },
+    "holdout_per_file": {
+      "A499": {
+        "mse": {
+          "I": 218.23759999999987,
+          "B": 225.2371894182465,
+          "A": 25.083230656463737,
+          "C": 198.5012636060363,
+          "W": 232.8210374100344
+        },
+        "improvement": {
+          "A_vs_B": 0.8886363716344982,
+          "A_vs_C": 0.7699351665570195,
+          "A_vs_W": 0.9223068681070204
+        }
+      },
+      "A599": {
+        "mse": {
+          "I": 229.41160000000002,
+          "B": 219.47261988478814,
+          "A": 35.23543048037097,
+          "C": 188.93691332222446,
+          "W": 217.87105124057425
+        },
+        "improvement": {
+          "A_vs_B": 0.8394540945523511,
+          "A_vs_C": 0.7003219031264076,
+          "A_vs_W": 0.832156743998762
+        }
+      },
+      "A699": {
+        "mse": {
+          "I": 229.93399999999994,
+          "B": 241.88431305237296,
+          "A": 24.310579043952966,
+          "C": 190.3715583327501,
+          "W": 254.00488206335635
+        },
+        "improvement": {
+          "A_vs_B": 0.899495015872777,
+          "A_vs_C": 0.6865305864330338,
+          "A_vs_W": 0.9496039661309901
+        }
+      },
+      "A799": {
+        "mse": {
+          "I": 242.16559999999987,
+          "B": 257.9584122072645,
+          "A": 23.089701695123775,
+          "C": 199.29245964113315,
+          "W": 250.77922536349044
+        },
+        "improvement": {
+          "A_vs_B": 0.9104906039017961,
+          "A_vs_C": 0.6830665316874177,
+          "A_vs_W": 0.8826598121770987
+        }
+      }
+    },
+    "holdout_pooled_mse": {
+      "I": 229.9371999999999,
+      "B": 236.13813364066803,
+      "A": 26.92973546897786,
+      "C": 194.27554872553603,
+      "W": 238.86904901936384
+    },
+    "all_four_files_gate": true,
+    "b1_distinct_dev": {
+      "A99": 98,
+      "A199": 100
+    },
+    "b1_cross_dev_shared": 2,
+    "b1_holdout_hashes": {
+      "A499": "0e12a0f1e8d47078b67f1fbc458fbf1bed94820760ce105a8dc80392314f1858",
+      "A599": "b83b4a45ab6c742e707eb941ca047521fa5679d37db2127780d46a71d462512f",
+      "A699": "61384a0560afd7a149c983ed14455d1839db5865a4c8fdbe70aabba97807b2cc",
+      "A799": "ea96801b2b2c7b17ed0b2dbf5c11acd695efbe6644a3b354b099559ea5d72e28"
+    },
+    "scrub": "fixed secret-key coefficient values (a0,a1) are NOT included"
+  },
+  "h002": {
+    "status": "logic_only",
+    "states": {
+      "indep": 168,
+      "corr": 168,
+      "replication": 84,
+      "total": 420
+    },
+    "predictions": {
+      "P1_joint_beats_single_indep": true,
+      "P2_correct_equals_indep_approx_indep": true,
+      "P3_correct_beats_indep_approx_corr": true,
+      "P4_correct_beats_wrong_binding_corr": true,
+      "P5_replication_inflates_nll_and_confidence": true,
+      "P6_replication_map_identical": true
+    },
+    "table": {
+      "scenario_independent_noise": {
+        "uniform": {
+          "nll": 1.9459101490553135,
+          "map_acc": 0.14285714285714285,
+          "mean_max_post": 0.14285714285714285
+        },
+        "single_V1": {
+          "nll": 1.9297759094317897,
+          "map_acc": 0.17857142857142858,
+          "mean_max_post": 0.17857142857142858
+        },
+        "joint_correct": {
+          "nll": 1.915927633666358,
+          "map_acc": 0.18452380952380953,
+          "mean_max_post": 0.18452380952380953
+        },
+        "joint_marginal_indep": {
+          "nll": 1.915927633666358,
+          "map_acc": 0.18452380952380953,
+          "mean_max_post": 0.18452380952380953
+        },
+        "joint_wrong_binding": {
+          "nll": 1.9175396996131417,
+          "map_acc": 0.18452380952380953,
+          "mean_max_post": 0.19586520104003297
+        }
+      },
+      "scenario_correlated_noise": {
+        "uniform": {
+          "nll": 1.9459101490553135,
+          "map_acc": 0.14285714285714285,
+          "mean_max_post": 0.14285714285714285
+        },
+        "single_V1": {
+          "nll": 1.9297759094317897,
+          "map_acc": 0.17857142857142858,
+          "mean_max_post": 0.17857142857142858
+        },
+        "joint_correct": {
+          "nll": 1.9084007452384895,
+          "map_acc": 0.19642857142857142,
+          "mean_max_post": 0.19642857142857142
+        },
+        "joint_marginal_indep": {
+          "nll": 1.9261434103559893,
+          "map_acc": 0.19642857142857142,
+          "mean_max_post": 0.19118291761148903
+        },
+        "joint_wrong_binding": {
+          "nll": 1.9240240733058336,
+          "map_acc": 0.17857142857142858,
+          "mean_max_post": 0.235670018841797
+        }
+      },
+      "scenario_replication": {
+        "uniform": {
+          "nll": 1.9459101490553135,
+          "map_acc": 0.14285714285714285,
+          "mean_max_post": 0.14285714285714285
+        },
+        "single_once": {
+          "nll": 1.9297759094317897,
+          "map_acc": 0.17857142857142858,
+          "mean_max_post": 0.17857142857142858
+        },
+        "replication_weighted": {
+          "nll": 1.9420383828508763,
+          "map_acc": 0.17857142857142858,
+          "mean_max_post": 0.19851116625310175
+        }
+      }
+    }
+  },
+  "h004": {
+    "status": "condition_missing",
+    "archive_members": {
+      "total": 2001,
+      "traces_mat": 1000,
+      "nonces_mat": 1000,
+      "directories": 1,
+      "other_files": 0
+    }
+  },
+  "verification": {
+    "phase_a_by": "independent GPT verification agent (no inherited context)",
+    "label_match_all_six_files": "100/100 both Montgomery outputs vs locally compiled PQClean C",
+    "residue_to_machine_word": "1:1 over 546 distinct words (dev+holdout)",
+    "phase_c": "not sealed at time of writing"
+  }
+}
