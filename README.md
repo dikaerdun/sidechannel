@@ -2,6 +2,16 @@
 
 本项目整理硬件侧信道基础、NIST 后量子密码算法的攻击研究、安全实现方法与可复现评价路线。
 
+## 科研知识库与自主研究
+
+[科研知识库入口](docs/research/knowledge-base/README.md)收录可接续的研究问题、待验证模型、来源索引、实验模板与核验流程。
+
+- [Codex + 独立 GPT Agent 自主研究提示词](docs/research/knowledge-base/prompts/autonomous-gpt-research.md)
+- [三个待验证模型](docs/research/knowledge-base/MODEL_INDEX.md)
+- [当前状态与下一步](docs/research/knowledge-base/NEXT_ACTION.md)
+
+知识库初始化于 **2026-11-07**；新增模型是研究提案，没有据此开展新实测或声称恢复秘密。文献报告、本地复现、模拟验证与实测验证分别标注。
+
 ## ML-KEM 与 NTT 互动课件
 
 新增 [17 章互动课件与使用说明](courses/ml-kem/README.md)，从多项式的四个格子、单位根、四点 NTT、蝶形运算，逐步走到真实 256 系数 NTT、完整 ML-KEM 与寄存器 HW/HD。支持暂停、回退、调参、完整中间值和离线使用。
@@ -79,4 +89,5 @@ python labs/run_experiments.py
 主线是非侵入式、被动观测的功耗、电磁和时序分析；对主动激励测量、故障注入、开封探针只作边界区分。教学实验使用自建模型；真实测量应在自己的设备或获授权的评估环境开展。
 
 本教程是原理教材与精选文献导读，不声称穷尽截至核验日的所有论文。文中区分已核验的文献结论、从算法结构作出的分析，以及用于解释思想的简化模型。旧版 Kyber/Dilithium 的实验结论不能直接当成所有 ML-KEM/ML-DSA 实现的结论。参见[文献核验范围](docs/16-references.md)。
+
 
