@@ -1,0 +1,80 @@
+{
+ "experiment_ids": [
+  "EXP-20261111-01",
+  "EXP-20261111-02",
+  "EXP-20261111-03"
+ ],
+ "source": "SRC-001",
+ "protocol_sha256": "60186559d76f8d8f8851fb2c76f55323ba475ad3fe47da374d039184f36f2091",
+ "amend": [
+  "71c84c78925a9dbc6b6924d738aa2fd77a1e6a4ed337d8a241034a8d218cdafa",
+  "7f7630a66ea3c1f064ed5754dd54e36c712be2d1d4440e0c3792f7c123e034ba"
+ ],
+ "points": {
+  "P_sign": 30705,
+  "P_final": 14559,
+  "from": "develop A99/A199 only; hygiene: A499/A599 contaminated; confirm A699/A799"
+ },
+ "confirm": {
+  "699": {
+   "P_sign": {
+    "cold_t_hi": -64.5452182622475,
+    "cold_t_final": 0.764338960186111,
+    "cold_t_sign": -92.66572353834381,
+    "ratio_final_over_sign": 0.008248346109010178,
+    "ctrl_t_sign": -102.7821277145521,
+    "ctrl_t_sign_wrong": -2.6352506394633695,
+    "cold_t_W_wrongbind": 1.0252628839786424
+   },
+   "P_final": {
+    "cold_t_hi": 0.025875164509044573,
+    "cold_t_final": 16.451290534054493,
+    "cold_t_sign": -0.6638349188926083,
+    "ratio_final_over_sign": 24.7822012157753,
+    "ctrl_t_sign": -0.6875841239113598,
+    "ctrl_t_sign_wrong": -0.7863640326043632,
+    "cold_t_W_wrongbind": -1.901662485234159
+   }
+  },
+  "799": {
+   "P_sign": {
+    "cold_t_hi": -58.75098629811866,
+    "cold_t_final": 0.6149710048321316,
+    "cold_t_sign": -84.83421039241409,
+    "ratio_final_over_sign": 0.0072490921055018455,
+    "ctrl_t_sign": -108.22621918917898,
+    "ctrl_t_sign_wrong": -0.7945925330090919,
+    "cold_t_W_wrongbind": -0.15950543190348315
+   },
+   "P_final": {
+    "cold_t_hi": 2.069594923194769,
+    "cold_t_final": 15.2914824117935,
+    "cold_t_sign": 0.6427470206272178,
+    "ratio_final_over_sign": 23.790825816464263,
+    "ctrl_t_sign": 0.6625693836022547,
+    "ctrl_t_sign_wrong": 1.247869928723775,
+    "cold_t_W_wrongbind": 2.1266415385392508
+   }
+  }
+ },
+ "h007_ctrl_t": {
+  "699": -102.7821277145521,
+  "799": -108.22621918917898
+ },
+ "h008_cold_R2_P_final": {
+  "holdout/699": 0.7342256666090063,
+  "holdout/799": 0.7058432523172782
+ },
+ "verdict": {
+  "H006": "limited_support",
+  "H007": "limited_support",
+  "H008": "not_supported_by_this_experiment"
+ },
+ "label_fact": "r10==Mont(a0*b1), r00==Mont(a1*b1), 400/400; no physical prior state in labels",
+ "limits": [
+  "local variable level",
+  "no instruction identity",
+  "no key recovery",
+  "single implementation and fixed a"
+ ]
+}
