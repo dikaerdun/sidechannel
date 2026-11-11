@@ -12,6 +12,7 @@
 
 ## 从这里开始
 
+- [两小时深入发散记录（2026-11-11，进行中；仅理论与设计）](brainstorms/2026-11-11-two-hour/README.md)
 - [发散假设池：八个跨层方向（2026-11-11，供他人验证，未运行实验）](brainstorms/2026-11-11-cross-layer-directions.md)
 - [自主研究提示词：Codex + 独立 GPT Agent](prompts/autonomous-gpt-research.md)
 - [工作流程与知识入库规则](WORKFLOW.md)
