@@ -1,0 +1,160 @@
+{
+ "batch": "EXP-20261111-07/08/09",
+ "protocol_sha256": "467af3c04408b6a2a9fe38c728774758d2f17899333db1463710bd040f06ea56",
+ "sites_sha256": "ff3a10dfd64047c85a7892052d0e7ad48702918de1562275c04667cc1a90dba1",
+ "sites": {
+  "sign_b1": {
+   "center": 30688,
+   "region": [
+    30659,
+    30718
+   ],
+   "width": 60,
+   "copy": 26,
+   "phase": 710,
+   "t_design": 36.209438262319296,
+   "auc_design": 0.9935974389755903,
+   "argmax": 30703
+  },
+  "sign_r10": {
+   "center": 14360,
+   "region": [
+    14349,
+    14371
+   ],
+   "width": 23,
+   "copy": 12,
+   "phase": 524,
+   "t_design": 54.29487106857691,
+   "auc_design": 1.0,
+   "argmax": 14355
+  },
+  "sign_r00": {
+   "center": 33145,
+   "region": [
+    33134,
+    33156
+   ],
+   "width": 23,
+   "copy": 28,
+   "phase": 861,
+   "t_design": 47.18315487676242,
+   "auc_design": 1.0,
+   "argmax": 33140
+  },
+  "_sha_note": "frozen on development/A99 only"
+ },
+ "verdict": {
+  "H013": "limited_support",
+  "H014": "not_supported",
+  "H015": "not_supported"
+ },
+ "claim": "three discrete sign channels at fixed code positions, single-sample AUC 0.994-1.000, mutually orthogonal (cross AUC 0.37-0.65), survives |b1| stratification; b1-target linear ceiling 13.9-16.5 was model misfit not SNR",
+ "per_file": {
+  "199": {
+   "own_auc": {
+    "sign_b1": 0.9972,
+    "sign_r10": 1.0,
+    "sign_r00": 1.0
+   },
+   "jaccard": {
+    "sign_b1": 0.867,
+    "sign_r10": 0.957,
+    "sign_r00": 0.957
+   },
+   "cross_max": 0.554,
+   "h014": {
+    "sign_acc": 1.0,
+    "median_set": 14.0,
+    "hit": 0.23
+   },
+   "h015_ratio": 0.328,
+   "min": 22.0,
+   "max": 236.0
+  },
+  "499": {
+   "own_auc": {
+    "sign_b1": 0.9963,
+    "sign_r10": 1.0,
+    "sign_r00": 1.0
+   },
+   "jaccard": {
+    "sign_b1": 0.983,
+    "sign_r10": 1.0,
+    "sign_r00": 0.913
+   },
+   "cross_max": 0.561,
+   "h014": {
+    "sign_acc": 1.0,
+    "median_set": 11.0,
+    "hit": 0.26
+   },
+   "h015_ratio": 0.381,
+   "min": 23.0,
+   "max": 235.0
+  },
+  "599": {
+   "own_auc": {
+    "sign_b1": 0.9936,
+    "sign_r10": 1.0,
+    "sign_r00": 1.0
+   },
+   "jaccard": {
+    "sign_b1": 0.933,
+    "sign_r10": 0.957,
+    "sign_r00": 0.917
+   },
+   "cross_max": 0.504,
+   "h014": {
+    "sign_acc": 1.0,
+    "median_set": 7.0,
+    "hit": 0.19
+   },
+   "h015_ratio": 0.356,
+   "min": 21.0,
+   "max": 235.0
+  },
+  "699": {
+   "own_auc": {
+    "sign_b1": 0.9992,
+    "sign_r10": 1.0,
+    "sign_r00": 1.0
+   },
+   "jaccard": {
+    "sign_b1": 1.0,
+    "sign_r10": 0.917,
+    "sign_r00": 1.0
+   },
+   "cross_max": 0.648,
+   "h014": {
+    "sign_acc": 1.0,
+    "median_set": 11.0,
+    "hit": 0.24
+   },
+   "h015_ratio": 0.263,
+   "min": 22.0,
+   "max": 235.0
+  },
+  "799": {
+   "own_auc": {
+    "sign_b1": 1.0,
+    "sign_r10": 1.0,
+    "sign_r00": 1.0
+   },
+   "jaccard": {
+    "sign_b1": 1.0,
+    "sign_r10": 0.957,
+    "sign_r00": 0.957
+   },
+   "cross_max": 0.54,
+   "h014": {
+    "sign_acc": 1.0,
+    "median_set": 8.0,
+    "hit": 0.24
+   },
+   "h015_ratio": 0.338,
+   "min": 22.0,
+   "max": 235.0
+  }
+ }
+}

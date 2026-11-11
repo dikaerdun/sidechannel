@@ -1,0 +1,42 @@
+{
+ "sign_b1": {
+  "center": 30688,
+  "region": [
+   30659,
+   30718
+  ],
+  "width": 60,
+  "copy": 26,
+  "phase": 710,
+  "t_design": 36.209438262319296,
+  "auc_design": 0.9935974389755903,
+  "argmax": 30703
+ },
+ "sign_r10": {
+  "center": 14360,
+  "region": [
+   14349,
+   14371
+  ],
+  "width": 23,
+  "copy": 12,
+  "phase": 524,
+  "t_design": 54.29487106857691,
+  "auc_design": 1.0,
+  "argmax": 14355
+ },
+ "sign_r00": {
+  "center": 33145,
+  "region": [
+   33134,
+   33156
+  ],
+  "width": 23,
+  "copy": 28,
+  "phase": 861,
+  "t_design": 47.18315487676242,
+  "auc_design": 1.0,
+  "argmax": 33140
+ },
+ "_sha_note": "frozen on development/A99 only"
+}
