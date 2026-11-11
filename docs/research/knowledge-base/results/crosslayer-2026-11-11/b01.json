@@ -1,0 +1,14 @@
+{
+ "uniq_b": 546,
+ "codewords_nonempty": 8,
+ "cell_mean": 68.25,
+ "cell_max": 89,
+ "cell_min": 59,
+ "mi_bits": 2.9884874990377854,
+ "full_range": 3321,
+ "ber_mean": 0.0,
+ "ber_max": 0.0,
+ "hit_cell_mean": 69.29333333333334,
+ "hit_cell_median": 65.0,
+ "frac_hit_le_65": 0.58
+}

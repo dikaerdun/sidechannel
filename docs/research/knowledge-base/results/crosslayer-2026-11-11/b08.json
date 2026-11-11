@@ -1,0 +1,16 @@
+{
+ "equivariance_all_ok": true,
+ "random_perms_commuting": 0,
+ "mult_perms_commuting": 50,
+ "mult_tested": 50,
+ "obs_n": 600,
+ "uniq_values": 546,
+ "hw_classes": 11,
+ "class_mean": 49.63636363636363,
+ "class_max": 138,
+ "entropy_bits": 2.752589225350491,
+ "hw16_rotation_ok": true,
+ "anchors_needed_for_scale": 1,
+ "c_solutions_one_anchor": 1,
+ "residual_group_order_unknown_f": 3328
+}
