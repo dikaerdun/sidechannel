@@ -1,0 +1,38 @@
+{
+  "sources": [
+    {
+      "source_id": "ccs-official-2023",
+      "url": "https://www.sigsac.org/ccs/CCS2023/assets/data/accepted_papers.xml",
+      "response_url": "https://www.sigsac.org/ccs/CCS2023/assets/data/accepted_papers.xml",
+      "status": 200,
+      "retrieved_at": "2026-11-12T07:03:39.233379+00:00",
+      "sha256": "eb7d4abd08d480c74b9c6e1bba78f97a2913824f467d21379f8b650c171d0d06",
+      "bytes": 81018,
+      "content_type": "application/xml"
+    },
+    {
+      "source_id": "ccs-authors-2023",
+      "url": "https://www.sigsac.org/ccs/CCS2023/assets/data/author_profiles.xml",
+      "response_url": "https://www.sigsac.org/ccs/CCS2023/assets/data/author_profiles.xml",
+      "status": 200,
+      "retrieved_at": "2026-11-12T07:03:41.640138+00:00",
+      "sha256": "ce2c9d93a829b39bdc40656383061b60f0376a2fd310dfd9a561bb1c0b856c37",
+      "bytes": 119232,
+      "content_type": "application/xml"
+    }
+  ],
+  "selector": "official accepted_papers.xml paper nodes joined with public author_profiles.xml",
+  "section_counts": {
+    "paper_nodes": 234
+  },
+  "retained_total": 234,
+  "source_sections_reconciled": true,
+  "count_reconciled": false,
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending",
+  "warnings": [
+    "ISBN-only Crossref lookup was insufficient; official catalog used instead"
+  ],
+  "date_note": null
+}

@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "source_id": "usenix-2022",
+      "url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+      "response_url": "https://www.usenix.org/conference/usenixsecurity22/technical-sessions",
+      "status": 200,
+      "retrieved_at": "2026-11-12T06:57:24.927434+00:00",
+      "sha256": "3748a43cddd98947ba0e99bc9905d31680e52f008fd31fada90fd7fa6f9005b6",
+      "bytes": 1106295,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "page_title": "USENIX Security '22 Technical Sessions | USENIX",
+  "selector": "article.node-paper > h2 > presentation link",
+  "matched_nodes": 256,
+  "parsed_records": 256,
+  "retained_total": 256,
+  "duplicate_occurrences": 0,
+  "nonpaper_entries": 0,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

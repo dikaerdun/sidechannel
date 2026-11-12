@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "source_id": "sp-2023",
+      "url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "response_url": "https://www.ieee-security.org/TC/SP2023/program-papers.html",
+      "status": 200,
+      "retrieved_at": "2026-11-12T07:00:17.950473+00:00",
+      "sha256": "6815b86c3dd0935ad7f9dae71e432538a8abe1f4475297e8454d4ec92e9da10d",
+      "bytes": 97939,
+      "content_type": "text/html"
+    }
+  ],
+  "page_title": "IEEE Symposium on Security and Privacy 2023",
+  "selector": "div.list-group-item > bold title",
+  "matched_nodes": 196,
+  "parsed_records": 195,
+  "retained_total": 195,
+  "duplicate_occurrences": 0,
+  "nonpaper_entries": 1,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "source_id": "ccs-official-2025",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/assets/accepted-papers.json",
+      "status": 200,
+      "retrieved_at": "2026-11-12T07:00:25.031722+00:00",
+      "sha256": "a24e83c0dfb13188a4be3f63461cdef546c372f7f318a484d4cb51aa6f357464",
+      "bytes": 325798,
+      "content_type": "application/json"
+    }
+  ],
+  "selector": "official JSON firstCycle + secondCycle",
+  "section_counts": {
+    "firstCycle": 102,
+    "secondCycle": 214
+  },
+  "retained_total": 316,
+  "source_sections_reconciled": true,
+  "count_reconciled": false,
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending",
+  "warnings": [
+    "ISBN-only Crossref lookup was insufficient; official catalog used instead"
+  ],
+  "date_note": null
+}

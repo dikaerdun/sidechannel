@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "source_id": "ndss-2021",
+      "url": "https://www.ndss-symposium.org/ndss2021/accepted-papers/",
+      "response_url": "https://www.ndss-symposium.org/ndss2021/accepted-papers/",
+      "status": 200,
+      "retrieved_at": "2026-11-12T06:57:10.383248+00:00",
+      "sha256": "0cd99381dc90a738e12b08ff6ba883e1dc459ace624e2d965e9e3da5342c4c7f",
+      "bytes": 131535,
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ],
+  "page_title": "NDSS 2021: Accepted Papers",
+  "selector": "h2 > ndss-paper link",
+  "matched_nodes": 90,
+  "parsed_records": 90,
+  "retained_total": 90,
+  "duplicate_occurrences": 0,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

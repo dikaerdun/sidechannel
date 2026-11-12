@@ -12,6 +12,7 @@
 
 ## 从这里开始
 
+- [近五年文献库（建设中）：会议年度目录、覆盖审计、首批摘要卡片与引用追踪](literature/README.md)
 - [六个更大胆的方向（2026-11-12）：随机依赖关系、随机位供给、长期器件变化等；全部待验证](brainstorms/2026-11-12-bolder-directions.md)
 - [本轮构思与交接记录（未运行新实验）](records/2026-11-12-bold-research-handoff.md)
 - [两小时深入发散记录（2026-11-11，已完成；13 篇专题与验证交接）](brainstorms/2026-11-11-two-hour/README.md)

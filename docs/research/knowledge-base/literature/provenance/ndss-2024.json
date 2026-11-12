@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "source_id": "ndss-2024",
+      "url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
+      "response_url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
+      "status": 200,
+      "retrieved_at": "2026-11-12T06:57:30.098015+00:00",
+      "sha256": "3d5cf390ec270388d7719ccc0e6caeeb79d15579a222d409a129d9f53092c375",
+      "bytes": 174459,
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ],
+  "page_title": "NDSS Symposium 2024 Accepted Papers - NDSS Symposium",
+  "selector": "h2 > ndss-paper link",
+  "matched_nodes": 140,
+  "parsed_records": 140,
+  "retained_total": 140,
+  "duplicate_occurrences": 0,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

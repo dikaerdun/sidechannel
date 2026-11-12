@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "source_id": "usenix-2024",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions",
+      "response_url": "https://www.usenix.org/conference/usenixsecurity24/technical-sessions",
+      "status": 200,
+      "retrieved_at": "2026-11-12T06:57:42.670081+00:00",
+      "sha256": "b5cdc94548b152d42f2efc68c0282f288f279af85f5e7c91f37068cae1d6110a",
+      "bytes": 1761996,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "page_title": "USENIX Security '24 Technical Sessions | USENIX",
+  "selector": "article.node-paper > h2 > presentation link",
+  "matched_nodes": 418,
+  "parsed_records": 417,
+  "retained_total": 417,
+  "duplicate_occurrences": 0,
+  "nonpaper_entries": 1,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

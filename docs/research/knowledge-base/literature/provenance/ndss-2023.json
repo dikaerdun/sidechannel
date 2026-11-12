@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "source_id": "ndss-2023",
+      "url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
+      "response_url": "https://www.ndss-symposium.org/ndss2023/accepted-papers/",
+      "status": 200,
+      "retrieved_at": "2026-11-12T06:57:22.440966+00:00",
+      "sha256": "2eb212c6f2ddc48d67ad90e13a0a3177e4967aa985d1025410c13bbec76edb21",
+      "bytes": 137028,
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ],
+  "page_title": "NDSS Symposium 2023 Accepted Papers - NDSS Symposium",
+  "selector": "h2 > ndss-paper link",
+  "matched_nodes": 94,
+  "parsed_records": 94,
+  "retained_total": 94,
+  "duplicate_occurrences": 0,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

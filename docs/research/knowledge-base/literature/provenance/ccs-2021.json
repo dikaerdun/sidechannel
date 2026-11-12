@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "source_id": "ccs-official-2021",
+      "url": "https://www.sigsac.org/ccs/CCS2021/accepted-papers.html",
+      "response_url": "https://www.sigsac.org/ccs/CCS2021/accepted-papers.html",
+      "status": 200,
+      "retrieved_at": "2026-11-12T07:00:20.388652+00:00",
+      "sha256": "949ab4f13fc8851c0799a34cdca41073eb6f5e0d02f3a24c39780c9ed7bb7682",
+      "bytes": 101250,
+      "content_type": "text/html"
+    }
+  ],
+  "selector": "div.papers-item title and author paragraph",
+  "section_counts": {
+    "paper_nodes": 196
+  },
+  "retained_total": 196,
+  "source_sections_reconciled": true,
+  "count_reconciled": false,
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending",
+  "warnings": [
+    "ISBN-only Crossref lookup was insufficient; official catalog used instead"
+  ],
+  "date_note": null
+}

@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "id": "usenix-2025",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "response_url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "status": 200,
+      "sha256": "2d2071294c2e368212a07bda13be08d3400a3e481f20030e2c90c17e70480351",
+      "bytes": 1839092,
+      "type": "text/html; charset=utf-8",
+      "retrieved_at": "2026-11-12T06:53:59.474474+00:00",
+      "retrieval_time_basis": "local cache creation timestamp",
+      "source_id": "usenix-2025"
+    }
+  ],
+  "page_title": "USENIX Security '25 Technical Sessions | USENIX",
+  "selector": "article.node-paper > h2 > presentation link",
+  "matched_nodes": 455,
+  "parsed_records": 438,
+  "retained_total": 438,
+  "duplicate_occurrences": 0,
+  "nonpaper_entries": 17,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

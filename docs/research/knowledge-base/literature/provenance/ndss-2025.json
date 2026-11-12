@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "id": "ndss-2025",
+      "url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
+      "response_url": "https://www.ndss-symposium.org/ndss2025/accepted-papers/",
+      "status": 200,
+      "sha256": "37aa2bbedfae62db13c78bc6d288db67c18f4379fd9c0da563e9f101daa5fc55",
+      "bytes": 229375,
+      "type": "text/html; charset=UTF-8",
+      "retrieved_at": "2026-11-12T06:53:42.921881+00:00",
+      "retrieval_time_basis": "local cache creation timestamp"
+    }
+  ],
+  "page_title": "NDSS Symposium 2025 Accepted Papers - NDSS Symposium",
+  "selector": "h2 > ndss-paper link",
+  "matched_nodes": 211,
+  "parsed_records": 211,
+  "retained_total": 211,
+  "duplicate_occurrences": 0,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

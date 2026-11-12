@@ -1,0 +1,217 @@
+{
+  "sources": [
+    {
+      "source_id": "tches-crossref-page1",
+      "url": "https://api.crossref.org/journals/2569-2925/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-11-12&rows=1000&cursor=%2A",
+      "response_url": "https://api.crossref.org/journals/2569-2925/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-11-12&rows=1000&cursor=%2A",
+      "status": 200,
+      "retrieved_at": "2026-11-12T06:57:10.886054+00:00",
+      "sha256": "8801199da551a98bdbabd5eb45dd9045a9d7d4e72f7cd10daac9fc1ab30b1892",
+      "bytes": 2683805,
+      "content_type": "application/json",
+      "reported_total": 648,
+      "returned_items": 648
+    }
+  ],
+  "reported_total": 648,
+  "parsed_total": 648,
+  "retained_total": 600,
+  "excluded": [
+    {
+      "doi": "10.46586/tches.v2020.i2.222-244",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i2.300-326",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i2.99-127",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.147-168",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.169-195",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.243-268",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.336-357",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.73-96",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.281-308",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.337-364",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.365-388",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.389-415",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i2.1-25",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i2.128-171",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i2.172-195",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i2.196-221",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i2.245-271",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i2.26-48",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i2.272-299",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i2.327-357",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i2.49-72",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i2.73-98",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.1-21",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.121-146",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.196-218",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.219-242",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.22-72",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.269-306",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.307-335",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.358-401",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.402-427",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.428-453",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.454-482",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.483-507",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.508-543",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i3.97-120",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.1-23",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.129-153",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.154-188",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.189-208",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.209-238",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.239-280",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.24-48",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.309-336",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.416-442",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.443-466",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.49-85",
+      "reason": "volume before 2021; lookback only"
+    },
+    {
+      "doi": "10.46586/tches.v2020.i4.86-128",
+      "reason": "volume before 2021; lookback only"
+    }
+  ],
+  "count_reconciled": true,
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "source_id": "sp-2024",
+      "url": "https://www.ieee-security.org/TC/SP2024/accepted-papers.html",
+      "response_url": "https://www.ieee-security.org/TC/SP2024/accepted-papers.html",
+      "status": 200,
+      "retrieved_at": "2026-11-12T06:57:32.586539+00:00",
+      "sha256": "662b6ba495bf7171462ee9b35d4ce3bf9d5d396a40f62510924c800f6222bd5e",
+      "bytes": 108473,
+      "content_type": "text/html"
+    }
+  ],
+  "page_title": "IEEE Symposium on Security and Privacy 2024 Accepted Papers",
+  "selector": "div.list-group-item > bold title",
+  "matched_nodes": 261,
+  "parsed_records": 261,
+  "retained_total": 261,
+  "duplicate_occurrences": 0,
+  "nonpaper_entries": 0,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

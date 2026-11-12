@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "source_id": "ccs-official-2024",
+      "url": "https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html",
+      "response_url": "https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html",
+      "status": 200,
+      "retrieved_at": "2026-11-12T07:00:22.983032+00:00",
+      "sha256": "4db51f130f7717dc39d469e69a804ac7a5b999da73c6d5059c77c0c3abd558d1",
+      "bytes": 144747,
+      "content_type": "text/html"
+    }
+  ],
+  "selector": "two-column title/author table, excluding header rows",
+  "section_counts": {
+    "paper_nodes": 328
+  },
+  "retained_total": 328,
+  "source_sections_reconciled": true,
+  "count_reconciled": false,
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending",
+  "warnings": [
+    "ISBN-only Crossref lookup was insufficient; official catalog used instead"
+  ],
+  "date_note": null
+}

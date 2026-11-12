@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "source_id": "ccs-official-2026",
+      "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "response_url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+      "status": 200,
+      "retrieved_at": "2026-11-12T07:01:34.476585+00:00",
+      "sha256": "bd0ca88cdc2c00426642c69b6a5588c53dae1d1726b9549f588497eaf0c125a7",
+      "bytes": 198186,
+      "content_type": "text/html"
+    }
+  ],
+  "selector": "two-column title/author table, excluding header rows",
+  "section_counts": {
+    "paper_nodes": 483
+  },
+  "retained_total": 483,
+  "source_sections_reconciled": true,
+  "count_reconciled": false,
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending",
+  "warnings": [
+    "ISBN-only Crossref lookup was insufficient; official catalog used instead"
+  ],
+  "date_note": "Conference 2026-11-15 to 2026-11-19, after cutoff"
+}

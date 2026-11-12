@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "id": "sp-2026",
+      "url": "https://www.ieee-security.org/TC/SP2026/accepted-papers.html",
+      "response_url": "https://www.ieee-security.org/TC/SP2026/accepted-papers.html",
+      "status": 200,
+      "sha256": "ee58a5d42c2309a5ab38d0d1009f12e14758b1f062f1e3d456894b9ba10227ed",
+      "bytes": 178208,
+      "type": "text/html",
+      "retrieved_at": "2026-11-12T06:53:45.890709+00:00",
+      "retrieval_time_basis": "local cache creation timestamp",
+      "source_id": "sp-2026"
+    }
+  ],
+  "page_title": "IEEE Symposium on Security and Privacy 2026",
+  "selector": "div.list-group-item > bold title",
+  "matched_nodes": 254,
+  "parsed_records": 254,
+  "retained_total": 254,
+  "duplicate_occurrences": 0,
+  "nonpaper_entries": 0,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [
+    "Cycle heading has another year; verify proceedings against official page"
+  ],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

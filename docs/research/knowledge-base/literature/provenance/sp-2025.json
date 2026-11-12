@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "source_id": "sp-2025",
+      "url": "https://www.ieee-security.org/TC/SP2025/accepted-papers.html",
+      "response_url": "https://www.ieee-security.org/TC/SP2025/accepted-papers.html",
+      "status": 200,
+      "retrieved_at": "2026-11-12T06:57:37.706819+00:00",
+      "sha256": "c51716bcff778e6970b468f61f26cdf618410ae4f2c9e4c4c3368fca23e47d0d",
+      "bytes": 180315,
+      "content_type": "text/html"
+    }
+  ],
+  "page_title": "IEEE Symposium on Security and Privacy 2025",
+  "selector": "div.list-group-item > bold title",
+  "matched_nodes": 255,
+  "parsed_records": 255,
+  "retained_total": 255,
+  "duplicate_occurrences": 0,
+  "nonpaper_entries": 0,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

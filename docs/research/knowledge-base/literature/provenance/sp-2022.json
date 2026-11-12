@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "source_id": "sp-2022",
+      "url": "https://www.ieee-security.org/TC/SP2022/program-papers.html",
+      "response_url": "https://www.ieee-security.org/TC/SP2022/program-papers.html",
+      "status": 200,
+      "retrieved_at": "2026-11-12T07:00:17.962805+00:00",
+      "sha256": "d0552d3e1d3df6f8fb3307a585a1a6c04a2e2895c6a7448b80e958cfc67ad7f1",
+      "bytes": 88209,
+      "content_type": "text/html"
+    }
+  ],
+  "page_title": "IEEE Symposium on Security and Privacy 2022",
+  "selector": "div.list-group-item > bold title",
+  "matched_nodes": 147,
+  "parsed_records": 147,
+  "retained_total": 147,
+  "duplicate_occurrences": 0,
+  "nonpaper_entries": 0,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}

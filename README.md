@@ -22,6 +22,7 @@
 
 ## 研究资料
 
+- [近五年侧信道与后量子文献库](docs/research/knowledge-base/literature/README.md)：2021–2026 年核心会议目录、覆盖缺口、摘要卡片与引用追踪；建设中，尚未完成逐篇筛查。
 - [完整中文研究报告](docs/research/nist-pqc-hardware-sidechannel-report.md)：13 个章节，覆盖物理与统计基础、ML-KEM、ML-DSA、SLH-DSA、Falcon/HQC、故障交叉、硬件防护、随机数受限统一 IP、实验方案和研究选题。
 - [原始研究证据索引](docs/research/evidence-matrix.md)：按平台、攻击结果粒度和核验范围整理 19 项代表性研究。
 

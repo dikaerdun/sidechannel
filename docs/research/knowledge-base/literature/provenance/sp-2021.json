@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "source_id": "sp-2021",
+      "url": "https://www.ieee-security.org/TC/SP2021/program-papers.html",
+      "response_url": "https://www.ieee-security.org/TC/SP2021/program-papers.html",
+      "status": 200,
+      "retrieved_at": "2026-11-12T07:00:17.971679+00:00",
+      "sha256": "2202f28894c3e3ca55e8b0a372f1b33ad18da3184b7cc0e9ebc16c5ba621193e",
+      "bytes": 62253,
+      "content_type": "text/html"
+    }
+  ],
+  "page_title": "IEEE Symposium on Security and Privacy 2021",
+  "selector": "div.list-group-item > bold title",
+  "matched_nodes": 115,
+  "parsed_records": 115,
+  "retained_total": 115,
+  "duplicate_occurrences": 0,
+  "nonpaper_entries": 0,
+  "reported_total": null,
+  "count_reconciled": false,
+  "warnings": [],
+  "external_toc_crosscheck": "pending",
+  "subject_screening": "pending",
+  "citation_chasing": "pending"
+}
