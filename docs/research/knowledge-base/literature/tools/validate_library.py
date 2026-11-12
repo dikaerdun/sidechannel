@@ -30,20 +30,53 @@ decisions=read_rows(ROOT/'screening/decisions.jsonl')
 assert len({p['id'] for p in papers})==len(papers)
 assert all(p['id'] in ids for p in papers)
 assert {p['id'] for p in papers}=={d['id'] for d in decisions if d['decision']=='include'}
-assert all(p['reading_level']=='abstract_and_bibliographic_metadata' for p in papers)
+allowed_reading={'abstract_and_bibliographic_metadata','selected_full_text_sections'}
+assert all(p['reading_level'] in allowed_reading for p in papers)
+assert all(p.get('reading_sections') and p.get('reading_source_ids') for p in papers if p['reading_level']=='selected_full_text_sections')
 assert all('abstract' not in p for p in papers),'Do not mirror full abstracts'
+assert len({d['id'] for d in decisions})==len(decisions)
+assert all(d['id'] in ids for d in decisions)
+titles=read_rows(ROOT/'screening/title-decisions.jsonl')
+assert len({t['id'] for t in titles})==len(titles)
+assert {t['id'] for t in titles}=={r['id'] for r in catalog if r['venue']=='TCHES'},'TCHES title pass must account for every retained record'
+assert all(t['decision'] in {'candidate','adjacent','outside_title_scope','uncertain'} and t['final_scope_decision'] is False for t in titles)
+assert coverage['title_screened_records']==len(titles)
+assert coverage['abstract_screened_records']==len(decisions)
+assert coverage['included_papers']==len(papers)
+assert coverage['reading_level_counts']==dict(Counter(p['reading_level'] for p in papers))
+assert coverage['core_catalog_records']==sum(c['catalog_records'] for c in coverage['core_cells'])
+assert coverage['core_catalog_records']+coverage['citation_expansion_records']==len(catalog)
 queue=read_rows(ROOT/'screening/reading-queue.jsonl')
 assert {q['id'] for q in queue}==ids
 assert all(q['automatically_excluded'] is False for q in queue)
+for cell in coverage['core_cells']:
+    assert cell['title_screened_records']==sum(t['venue']==cell['venue'] and t['venue_year']==cell['year'] for t in titles)
+    assert cell['abstract_screened_records']==sum(q['venue']==cell['venue'] and q['venue_year']==cell['year'] and q['screening_status']!='pending' for q in queue)
 citation_tasks=read_rows(ROOT/'citations/queue.jsonl')
 assert all(t['seed_id'] in {p['id'] for p in papers} for t in citation_tasks)
 assert len({(t['seed_id'],t['direction']) for t in citation_tasks})==len(citation_tasks)
 sources={s.get('source_id',s.get('id')) for p in (ROOT/'provenance').glob('*.json') for s in json.loads(p.read_text()).get('sources',[])}
 assert all(s in sources for r in catalog for s in r['source_ids']),'Missing source provenance'
+assert all(s in sources for p in papers for s in p.get('reading_source_ids',[]))
+edges=read_rows(ROOT/'citations/edges.jsonl')
+assert len({(e['from'],e['to'],e['type']) for e in edges})==len(edges)
+assert all(e['to'] in ids for e in edges)
+cites=[e for e in edges if e['type']=='cites']
+assert all(e['from'] in ids and e['source_id'] in sources and len(e['source_sha256'])==64 for e in cites)
+assert len({(e['from'],e['reference_number']) for e in cites})==len(cites)
+refs=read_rows(ROOT/'citations/gofetch-reference-screen.jsonl')
+assert len(refs)==98 and {r['reference_number'] for r in refs}==set(range(1,99))
+assert all(r['final_scope_decision'] is False for r in refs)
+assert {(r['seed_id'],r['reference_number'],r['target_id']) for r in refs if r['status']=='linked_catalog'}=={(e['from'],e['reference_number'],e['to']) for e in cites if e['source_id']=='gofetch-2024-fulltext'}
+discoveries=read_rows(ROOT/'citations/discoveries.jsonl')
+assert {r['reference_number'] for r in refs if r['status']=='discovery_queued'}=={d['reference_number'] for d in discoveries}
+assert coverage['citation_progress']['verified_citation_edges']==len(cites)
+assert coverage['citation_progress']['verified_version_edges']==len(edges)-len(cites)
+assert coverage['citation_progress']['task_status_counts']==dict(Counter(t['status'] for t in citation_tasks))
 excluded=[r for p in (ROOT/'catalog-exclusions').glob('*.jsonl') for r in read_rows(p)]
 assert all(r.get('reason') and r.get('source_ids') for r in excluded)
 broken=[];links=0
-docs=list(ROOT.rglob('*.md'))+[ROOT.parent/'README.md',ROOT.parent/'SOURCE_INDEX.md',ROOT.parent/'NEXT_ACTION.md',ROOT.parent/'records/2026-11-12-literature-catalog-batch.md']
+docs=list(ROOT.rglob('*.md'))+[ROOT.parent/'README.md',ROOT.parent/'SOURCE_INDEX.md',ROOT.parent/'NEXT_ACTION.md',*ROOT.parent.joinpath('records').glob('*literature*.md')]
 for p in docs:
     for target in re.findall(r'\[[^\]]*\]\(([^)]+)\)',p.read_text()):
         if re.match(r'^(?:https?://|mailto:|#)',target):continue
@@ -57,5 +90,7 @@ for p in ROOT.rglob('*'):
     text=p.read_text()
     assert not re.search(r'/(?:Users|home)/[A-Za-z0-9][^\s/]*|AKIA[0-9A-Z]{16}|gh[pousr]_[A-Za-z0-9]{30,}',text)
 print(json.dumps({'catalog_records':len(catalog),'core_cells':30,'nonpaper_entries':len(excluded),
-                  'reviewed_abstracts':len(papers),'citation_tasks_pending':len(citation_tasks),
+                  'title_screened':len(titles),'abstract_or_above_decisions':len(decisions),'included_papers':len(papers),
+                  'citation_task_status_counts':dict(Counter(t['status'] for t in citation_tasks)),
+                  'citation_edges':len(cites),'version_edges':len(edges)-len(cites),
                   'relative_links_checked':links,'artifact_checks':'passed','literature_goal_complete':False}))

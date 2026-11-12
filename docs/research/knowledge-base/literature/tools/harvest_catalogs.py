@@ -23,6 +23,9 @@ CCS_PARENTS = {2021:'10.1145/3460120', 2022:'10.1145/3548606',
                2023:'10.1145/3576915', 2024:'10.1145/3658644',
                2025:'10.1145/3719027', 2026:'10.1145/3830454'}
 UA = {'User-Agent':'SidechannelResearchBibliography/0.1 (public scholarly metadata)'}
+TCHES_NONPAPER_DOIS = {
+    '10.46586/tches.v2021.i1.i-iv': 'Volume preface/editorial, not a research paper; title and Roman-numeral pages checked manually'
+}
 
 def clean(s):
     return ' '.join(unescape(s or '').split())
@@ -96,7 +99,14 @@ class Harvest:
         doi=item['DOI'].lower()
         dates={k:item[k]['date-parts'][0] for k in ['published','published-online','published-print','issued']
                if item.get(k,{}).get('date-parts')}
-        return {'id':'doi:'+doi,'title':clean(' '.join(item.get('title',[]))),
+        def plain(parts):
+            text=' '.join(parts)
+            return clean(html.fromstring('<span>'+text+'</span>').text_content())
+        title=plain(item.get('title',[]));subtitle=plain(item.get('subtitle',[]))
+        if subtitle:
+            title=title.rstrip(': ') + ': ' + subtitle
+        return {'id':'doi:'+doi,'title':title,
+                'source_title':item.get('title',[]),'source_subtitle':item.get('subtitle',[]),
                 'authors':[clean(' '.join([a.get('given',''),a.get('family','')])) for a in item.get('author',[])],
                 'venue':venue,'venue_year':year,'doi':doi,'url':'https://doi.org/'+doi,
                 'publisher_url':item.get('resource',{}).get('primary',{}).get('URL'),
@@ -110,7 +120,7 @@ class Harvest:
         items,metas,total=self.crossref_list('tches-crossref','https://api.crossref.org/journals/2569-2925/works',
                   {'filter':'from-pub-date:2020-01-01,until-pub-date:'+CUTOFF})
         records=[]
-        excluded=[]
+        excluded=[];nonpapers=[]
         for item in items:
             m=re.search(r'tches\.v(\d{4})\.i(\d+)\.',item['DOI'],re.I)
             if not m:
@@ -121,10 +131,17 @@ class Harvest:
                 continue
             rec=self.normalize_crossref(item,'TCHES',year)
             rec['issue']=issue
+            if rec['doi'] in TCHES_NONPAPER_DOIS:
+                rec['reason']=TCHES_NONPAPER_DOIS[rec['doi']]
+                rec['reviewed_on']=CUTOFF
+                nonpapers.append(rec)
+                continue
             records.append(rec)
         write_jsonl(self.output/'catalogs/tches.jsonl',sorted(records,key=lambda r:(r['venue_year'],r['issue'],r['doi'])))
+        write_jsonl(self.output/'catalog-exclusions/tches.jsonl',nonpapers)
         write_json(self.output/'provenance/tches.json',{'sources':metas,'reported_total':total,
                    'parsed_total':len(items),'retained_total':len(records),'excluded':excluded,
+                   'nonpaper_total':len(nonpapers),'nonpaper_file':'catalog-exclusions/tches.jsonl',
                    'count_reconciled':len(items)==total,'external_toc_crosscheck':'pending',
                    'subject_screening':'pending','citation_chasing':'pending'})
         return {'venue':'TCHES','records':len(records),'source_total':total,'status':'catalog collected; review pending'}
@@ -307,12 +324,52 @@ class Harvest:
             if rec['id'] in unique and rec['title']!=unique[rec['id']]['title']:
                 raise ValueError('Same identity with conflicting titles')
             unique[rec['id']]=rec
+        duplicate_occurrences=len(records)-len(unique)
+        sources=[meta];supplement=None
+        if venue=='SP' and year==2023:
+            # Citation chasing found a real paper absent from program-papers.html.
+            # Reconcile the complete official schedule; it also contains a TC meeting.
+            skey='sp-2023-program';surl='https://sp2023.ieee-security.org/program.html'
+            sraw,smeta=self.get(skey,surl);sources.append(smeta)
+            sd=html.fromstring(sraw);bytitle={r['title'].casefold():r for r in unique.values()}
+            added=[];schedule_papers=0;meeting_count=0
+            for node in sd.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," list-group-item ")]'):
+                title=node_text(node.xpath('./b|./strong'))
+                if not title:continue
+                if title.startswith('TC Meeting (Hybrid meeting)'):
+                    nonpapers.append({'title':'TC Meeting (Hybrid meeting)','url':surl,'source_ids':[skey],
+                      'disposition':'nonpaper_schedule_entry','reason':'Technical Committee meeting, not a research paper; meeting access details omitted'})
+                    meeting_count+=1
+                    continue
+                schedule_papers+=1
+                if title.casefold() in bytitle:
+                    bytitle[title.casefold()]['source_ids'].append(skey)
+                    continue
+                whole=clean(node.text_content())
+                rec={'id':'title:sp:2023:'+digest(title.casefold().encode())[:16],
+                     'title':title,'url':surl,'authors_display':whole[len(title):].strip(),
+                     'venue':venue,'venue_year':year,'source_ids':[skey],'metadata_read_level':'catalog_metadata',
+                     'abstract_available':False,'screening_status':'pending','scientific_claims_verified':False}
+                if title.startswith('DVFS Frequently Leaks Secrets:'):
+                    dkey='dvfs-sp2023-crossref'
+                    draw,dmeta=self.get(dkey,'https://api.crossref.org/works/10.1109/SP46215.2023.10179326')
+                    sources.append(dmeta);item=json.loads(draw)['message'];item['_source_id']=dkey
+                    rec=self.normalize_crossref(item,venue,year)
+                    rec['source_ids'].append(skey);rec['catalog_url']=surl
+                    if item.get('abstract'):
+                        abstracts[rec['id']]=clean(html.fromstring(item['abstract']).text_content())
+                unique[rec['id']]=rec;bytitle[title.casefold()]=rec;added.append(rec['id'])
+            supplement={'source_id':skey,'paper_records':schedule_papers,'nonpaper_meetings':meeting_count,
+              'added_records':added,'reason':'GoFetch reference [89] exposed a missing paper in the primary official list',
+              'independent_publisher_toc_crosscheck':False}
+            warnings.append('Primary list omits DVFS Frequently Leaks Secrets; official schedule supplement adds it. Full independent proceedings crosscheck still pending.')
         write_jsonl(self.output/f'catalogs/{key}.jsonl',sorted(unique.values(),key=lambda r:r['title'].casefold()))
         if nonpapers: write_jsonl(self.output/f'catalog-exclusions/{key}.jsonl',nonpapers)
         write_json(self.cache/(key+'.abstracts.json'),abstracts)
-        write_json(self.output/f'provenance/{key}.json',{'sources':[meta],'page_title':page_title,
+        write_json(self.output/f'provenance/{key}.json',{'sources':sources,'page_title':page_title,
                    'selector':selector,'matched_nodes':len(nodes),'parsed_records':len(records),
-                   'retained_total':len(unique),'duplicate_occurrences':len(records)-len(unique),
+                   'retained_total':len(unique),'duplicate_occurrences':duplicate_occurrences,
+                   'supplemental_reconciliation':supplement,
                    'nonpaper_entries':len(nonpapers),
                    'reported_total':None,'count_reconciled':False,'warnings':warnings,
                    'external_toc_crosscheck':'pending','subject_screening':'pending','citation_chasing':'pending'})

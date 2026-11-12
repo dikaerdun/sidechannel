@@ -14,7 +14,8 @@
 
 - [再扩大研究对象：自动模型反例、测量与格求解联合设计、物理同步；BOLD-13 至 15 待验证](brainstorms/2026-11-12-model-breaking-directions.md)
 - [第三批构思修订与验证交接](records/2026-11-12-model-breaking-handoff.md)
-- [近五年文献库（建设中）：会议年度目录、覆盖审计、首批摘要卡片与引用追踪](literature/README.md)
+- [近五年文献库（建设中）：599 条 TCHES 标题初筛、56 篇阅读卡片、引用扩展与版本追踪](literature/README.md)
+- [文献筛查与引用补漏批次：S&P 官方目录遗漏、扩展来源和阅读边界](records/2026-11-12-literature-screening-citation-batch.md)
 - [继续扩大构思（2026-11-12）：噪声动力学、模拟混合、控制器补偿等六项；全部待验证](brainstorms/2026-11-12-beyond-values.md)
 - [本次构思修订与三个交接问题](records/2026-11-12-beyond-values-handoff.md)
 - [六个更大胆的方向（2026-11-12）：随机依赖关系、随机位供给、长期器件变化等；全部待验证](brainstorms/2026-11-12-bolder-directions.md)

@@ -9,18 +9,50 @@
       "sha256": "6815b86c3dd0935ad7f9dae71e432538a8abe1f4475297e8454d4ec92e9da10d",
       "bytes": 97939,
       "content_type": "text/html"
+    },
+    {
+      "source_id": "sp-2023-program",
+      "url": "https://sp2023.ieee-security.org/program.html",
+      "response_url": "https://sp2023.ieee-security.org/program.html",
+      "status": 200,
+      "retrieved_at": "2026-11-12T07:47:15.025704+00:00",
+      "sha256": "845a77d36a48e7b032c3241064eeb7b3d83d1f5d1d75d19c83816552c49f8e25",
+      "bytes": 143654,
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "dvfs-sp2023-crossref",
+      "url": "https://api.crossref.org/works/10.1109/SP46215.2023.10179326",
+      "response_url": "https://api.crossref.org/works/10.1109/SP46215.2023.10179326",
+      "status": 200,
+      "retrieved_at": "2026-11-12T07:48:28.860420+00:00",
+      "sha256": "815139a52b089b7b74269ba4f648c84c8362e20e4772abb560f7cdf2d4493b47",
+      "bytes": 8126,
+      "content_type": "application/json"
     }
   ],
   "page_title": "IEEE Symposium on Security and Privacy 2023",
   "selector": "div.list-group-item > bold title",
   "matched_nodes": 196,
   "parsed_records": 195,
-  "retained_total": 195,
+  "retained_total": 196,
   "duplicate_occurrences": 0,
-  "nonpaper_entries": 1,
+  "supplemental_reconciliation": {
+    "source_id": "sp-2023-program",
+    "paper_records": 196,
+    "nonpaper_meetings": 1,
+    "added_records": [
+      "doi:10.1109/sp46215.2023.10179326"
+    ],
+    "reason": "GoFetch reference [89] exposed a missing paper in the primary official list",
+    "independent_publisher_toc_crosscheck": false
+  },
+  "nonpaper_entries": 2,
   "reported_total": null,
   "count_reconciled": false,
-  "warnings": [],
+  "warnings": [
+    "Primary list omits DVFS Frequently Leaks Secrets; official schedule supplement adds it. Full independent proceedings crosscheck still pending."
+  ],
   "external_toc_crosscheck": "pending",
   "subject_screening": "pending",
   "citation_chasing": "pending"

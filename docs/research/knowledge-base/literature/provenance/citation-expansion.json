@@ -1,0 +1,138 @@
+{
+  "sources": [
+    {
+      "source_id": "sac2022-dilithium-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-58411-4_1",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-58411-4_1",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:03:28.626927+00:00",
+      "sha256": "269710dd9fa8f7cc87fa20ac9b342543b5a52e52ee3f0fb88e7d6e64a2593de6",
+      "bytes": 21925,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqcrypto2023-crystal-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-40003-2_25",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-40003-2_25",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:03:28.646186+00:00",
+      "sha256": "4047c0a398f4fdf421289aa101cedbeff10765a56a311671cdc40089fe3678a8",
+      "bytes": 19004,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "iccd2021-dilithium-crossref",
+      "url": "https://api.crossref.org/works/10.1109/ICCD53106.2021.00094",
+      "response_url": "https://api.crossref.org/works/10.1109/ICCD53106.2021.00094",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:03:28.540671+00:00",
+      "sha256": "3f48916d58011da44ae7b19f5fa206a4f4bdc6676a5028c706f849778d528ad0",
+      "bytes": 5273,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "host2021-sampling-crossref",
+      "url": "https://api.crossref.org/works/10.1109/HOST49136.2021.9702284",
+      "response_url": "https://api.crossref.org/works/10.1109/HOST49136.2021.9702284",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:04:05.366623+00:00",
+      "sha256": "c449ff29d196d014e45b6bcc73c7a51aef185853aa65f437aa255fa6280dab2a",
+      "bytes": 7906,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "dvfs2023-institution",
+      "url": "https://experts.illinois.edu/en/publications/dvfs-frequently-leaks-secrets-hertzbleed-attacks-beyond-sike-cryp/",
+      "response_url": "https://experts.illinois.edu/en/publications/dvfs-frequently-leaks-secrets-hertzbleed-attacks-beyond-sike-cryp/",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:03:32.216521+00:00",
+      "sha256": "caedb30c4de83ed603a6eb0912324bcb3fc68bd5f853f2f3ecc5fad4ccf18ec4",
+      "bytes": 59427,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "eprint-2022-106",
+      "url": "https://eprint.iacr.org/2022/106",
+      "response_url": "https://eprint.iacr.org/2022/106",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:03:28.813298+00:00",
+      "sha256": "e6e740cd2f66823f5ced12bf91a846a8aaaec57825b0014fbeb225ed73883c9e",
+      "bytes": 14794,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "eprint-2022-1410",
+      "url": "https://eprint.iacr.org/2022/1410",
+      "response_url": "https://eprint.iacr.org/2022/1410",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:03:30.195343+00:00",
+      "sha256": "ce00eaacb82c908c0bc3ddca0be3cfd5f30c516d77f2d7d1e64ecfe7fc956d56",
+      "bytes": 17293,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "iccd2021-dilithium-authorpdf",
+      "url": "https://research.ece.ncsu.edu/wp-content/uploads/sites/8/Dilithium_SCA_cameraready.pdf",
+      "response_url": "https://research.ece.ncsu.edu/wp-content/uploads/sites/8/Dilithium_SCA_cameraready.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:03:34.472557+00:00",
+      "sha256": "8f1da8da0c56b5b95f1a43acabe5e6471c049f66d9a4c1d5d13a35a1e00ee00b",
+      "bytes": 1899932,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "eprint-2022-494",
+      "url": "https://eprint.iacr.org/2022/494",
+      "response_url": "https://eprint.iacr.org/2022/494",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:04:07.759836+00:00",
+      "sha256": "577a9453fe9e141f928a3c89b764ac6782178e6bd9d3f4865c19bb08b939854b",
+      "bytes": 16641,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "eprint-2023-1931",
+      "url": "https://eprint.iacr.org/2023/1931",
+      "response_url": "https://eprint.iacr.org/2023/1931",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:03:30.320536+00:00",
+      "sha256": "875007eefeb80ed412e871d1129f9547ea49e716eac9b550f1ff7f8f4686c9a0",
+      "bytes": 18229,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "gofetch-2024-fulltext",
+      "url": "https://www.usenix.org/system/files/usenixsecurity24-chen-boru.pdf",
+      "response_url": "https://www.usenix.org/system/files/usenixsecurity24-chen-boru.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-12T07:47:19.131421+00:00",
+      "sha256": "872943d9f2dd5578d19e60195312f12cc5f7ae2755f27e814d6eefbbf304f96e",
+      "bytes": 873945,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "eprint-2021-735",
+      "url": "https://eprint.iacr.org/2021/735",
+      "response_url": "https://eprint.iacr.org/2021/735",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:03:30.965848+00:00",
+      "sha256": "89dec2dd8b014dd88b60fdab51b3039ca1f7527277c5f6dfe74d61da58a05778",
+      "bytes": 16590,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "eprint-2026-777",
+      "url": "https://eprint.iacr.org/2026/777",
+      "response_url": "https://eprint.iacr.org/2026/777",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:03:30.824192+00:00",
+      "sha256": "11a99476da1b72f9ff0bc64d12319585f68221a5819f5b0d0e84722cf0308895",
+      "bytes": 18454,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "method": "primary abstract reading and GoFetch reference matching",
+  "new_catalog_records": 5,
+  "full_venue_catalog": false,
+  "independent_second_review": false
+}

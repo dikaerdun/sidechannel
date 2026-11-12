@@ -4,7 +4,9 @@
 
 ## 2026-11-12 文献库建设接续
 
-已建立[统一文献入口](literature/README.md)、30 个核心会议年单元的原始目录及 24 篇已读摘要卡片。当前仍未完成：独立目录交叉核对、其余逐条筛查、PQC 全文整理、扩展会议、版本归并与前后向引用追踪。接续时先读[覆盖与缺口](literature/COVERAGE.md)，使用[引用队列](literature/citations/queue.jsonl)，不要把元数据收集完成视为研究普查完成。
+已建立[统一文献入口](literature/README.md)、30 个核心会议年单元目录及 5 条引用扩展记录；TCHES 599 条已做标题初筛，59 条有摘要及以上判定，纳入 56 篇。GoFetch 参考文献 [1]–[98] 已逐条初筛，核对 21 条引用与累计 6 条版本关系；引用发现促成补回 S&P 2023 漏列的 DVFS 论文。详见[本批记录](records/2026-11-12-literature-screening-citation-batch.md)。
+
+下一步先处理[9 条未解析引用](literature/citations/discoveries.jsonl)与 TCHES 尚未读摘要的 PQC 候选；核对其正式版本，继续前后向追踪。其余核心目录的逐题筛查、独立目录交叉核对、PQC 全文整理、扩展会议系统目录与专题综述仍未完成。接续时先读[覆盖与缺口](literature/COVERAGE.md)，不要把条目初筛或脚本通过视为普查完成。
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 

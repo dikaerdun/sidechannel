@@ -32,11 +32,13 @@ PQC 加深索引至少覆盖：ML-KEM/Kyber、ML-DSA/Dilithium、SLH-DSA/SPHINCS
 
 每条目录记录先处于 pending。关键词只用于安排阅读顺序，不会自动把未命中的论文判为不相关。
 
-1. 全目录逐题筛查，记录 include / exclude / adjacent / uncertain 及理由。
+1. 全目录逐题筛查，在 `title-decisions.jsonl` 记录 candidate / adjacent / outside_title_scope / uncertain 及理由。它们均为暂判，不构成最终纳入/排除，后续证据可以修订。
 2. 对候选和不确定条目阅读原始摘要；对标题不足以判定的未命中条目补查摘要。
 3. PQC 核心条目、关键机制和核心主张进一步阅读全文相关章节，记录具体阅读范围。
 4. 对待入库主张分别标明作者报告、数学推导、仿真、实测、代码可得性与本地复现状态。标题与摘要不能支持未读的实验数字。
 5. 确认研究对象、威胁模型、所需访问、实现/平台、防护条件、恢复目标、限制及反例。无法核实的字段写未知。
+
+摘要及以上阅读后的 include / exclude / adjacent / uncertain 判定另存 `decisions.jsonl`。标题初筛数量、摘要及以上判定数量、正式纳入数量分开统计。未读正文的卡片标为 `abstract_and_bibliographic_metadata`；只读若干章节标为 `selected_full_text_sections`，必须列出范围，不能称为全文精读。
 
 ## 引用追踪
 

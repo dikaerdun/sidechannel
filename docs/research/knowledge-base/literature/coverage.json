@@ -1,22 +1,42 @@
 {
   "cutoff": "2026-11-12",
   "rolling_window_start": "2021-11-12",
-  "total_catalog_records": 6629,
+  "total_catalog_records": 6634,
   "priority_counts": {
-    "unmatched_pending": 5435,
-    "sca_terms": 887,
-    "pqc_terms": 181,
-    "pqc_and_sca_terms": 126
+    "unmatched_pending": 5422,
+    "sca_terms": 879,
+    "pqc_terms": 193,
+    "pqc_and_sca_terms": 140
+  },
+  "core_catalog_records": 6629,
+  "citation_expansion_records": 5,
+  "title_screened_records": 599,
+  "abstract_screened_records": 59,
+  "included_papers": 56,
+  "reading_level_counts": {
+    "abstract_and_bibliographic_metadata": 54,
+    "selected_full_text_sections": 2
+  },
+  "citation_progress": {
+    "verified_citation_edges": 21,
+    "verified_version_edges": 6,
+    "task_status_counts": {
+      "pending": 103,
+      "in_progress": 9
+    },
+    "unresolved_discoveries": 9
   },
   "core_cells": [
     {
       "venue": "TCHES",
       "year": 2021,
-      "catalog_records": 79,
+      "catalog_records": 78,
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 2,
+      "screened_records": 3,
+      "title_screened_records": 78,
+      "abstract_screened_records": 3,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -27,7 +47,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 4,
+      "screened_records": 8,
+      "title_screened_records": 83,
+      "abstract_screened_records": 8,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -38,7 +60,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 3,
+      "screened_records": 4,
+      "title_screened_records": 78,
+      "abstract_screened_records": 4,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -49,7 +73,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 2,
+      "screened_records": 8,
+      "title_screened_records": 101,
+      "abstract_screened_records": 8,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -60,7 +86,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 4,
+      "screened_records": 6,
+      "title_screened_records": 111,
+      "abstract_screened_records": 6,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -71,7 +99,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 5,
+      "screened_records": 20,
+      "title_screened_records": 148,
+      "abstract_screened_records": 20,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -83,6 +113,8 @@
       "provenance_file": "provenance/sp-2021.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -94,17 +126,21 @@
       "provenance_file": "provenance/sp-2022.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
     {
       "venue": "SP",
       "year": 2023,
-      "catalog_records": 195,
+      "catalog_records": 196,
       "catalog_parsed": true,
       "provenance_file": "provenance/sp-2023.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 0,
+      "screened_records": 1,
+      "title_screened_records": 0,
+      "abstract_screened_records": 1,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -116,6 +152,8 @@
       "provenance_file": "provenance/sp-2024.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -127,6 +165,8 @@
       "provenance_file": "provenance/sp-2025.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -138,6 +178,8 @@
       "provenance_file": "provenance/sp-2026.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -149,6 +191,8 @@
       "provenance_file": "provenance/usenix-2021.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -160,6 +204,8 @@
       "provenance_file": "provenance/usenix-2022.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 1,
+      "title_screened_records": 0,
+      "abstract_screened_records": 1,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -171,6 +217,8 @@
       "provenance_file": "provenance/usenix-2023.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -182,6 +230,8 @@
       "provenance_file": "provenance/usenix-2024.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 1,
+      "title_screened_records": 0,
+      "abstract_screened_records": 1,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -193,6 +243,8 @@
       "provenance_file": "provenance/usenix-2025.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 1,
+      "title_screened_records": 0,
+      "abstract_screened_records": 1,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -204,6 +256,8 @@
       "provenance_file": "provenance/usenix-2026.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 1,
+      "title_screened_records": 0,
+      "abstract_screened_records": 1,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -215,6 +269,8 @@
       "provenance_file": "provenance/ccs-2021.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -226,6 +282,8 @@
       "provenance_file": "provenance/ccs-2022.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -237,6 +295,8 @@
       "provenance_file": "provenance/ccs-2023.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -248,6 +308,8 @@
       "provenance_file": "provenance/ccs-2024.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -259,6 +321,8 @@
       "provenance_file": "provenance/ccs-2025.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -270,6 +334,8 @@
       "provenance_file": "provenance/ccs-2026.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -281,6 +347,8 @@
       "provenance_file": "provenance/ndss-2021.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -292,6 +360,8 @@
       "provenance_file": "provenance/ndss-2022.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -303,6 +373,8 @@
       "provenance_file": "provenance/ndss-2023.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -314,6 +386,8 @@
       "provenance_file": "provenance/ndss-2024.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -325,6 +399,8 @@
       "provenance_file": "provenance/ndss-2025.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -336,6 +412,8 @@
       "provenance_file": "provenance/ndss-2026.json",
       "independent_toc_crosscheck": "pending",
       "screened_records": 0,
+      "title_screened_records": 0,
+      "abstract_screened_records": 0,
       "citation_chasing": "pending",
       "complete": false
     }

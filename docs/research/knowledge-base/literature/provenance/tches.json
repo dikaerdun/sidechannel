@@ -15,7 +15,7 @@
   ],
   "reported_total": 648,
   "parsed_total": 648,
-  "retained_total": 600,
+  "retained_total": 599,
   "excluded": [
     {
       "doi": "10.46586/tches.v2020.i2.222-244",
@@ -210,6 +210,8 @@
       "reason": "volume before 2021; lookback only"
     }
   ],
+  "nonpaper_total": 1,
+  "nonpaper_file": "catalog-exclusions/tches.jsonl",
   "count_reconciled": true,
   "external_toc_crosscheck": "pending",
   "subject_screening": "pending",
