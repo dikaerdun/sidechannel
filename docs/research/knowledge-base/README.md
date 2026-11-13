@@ -12,6 +12,8 @@
 
 ## 从这里开始
 
+- [秘密算子、物理操作语法与面向观察者的实现设计：三个长期目标，待他人验证](brainstorms/2026-11-14-secret-operators-physical-grammar-observation-design.md)
+- [本轮交接：合法等价类、组合预测与可实现的共同盲区](records/2026-11-14-operator-grammar-observation-handoff.md)
 - [PQC 文献接续：25 条论文/版本卡片、恢复目标与引用初筛](records/2026-11-13-literature-pqc-citation-followups.md)
 - [计算轨迹的防护编码、任务安全与物理可辨识性：六个开放问题，三项详细提案](brainstorms/2026-11-13-trajectory-codes-task-security-identifiability.md)
 - [本轮交接：观察族、任务定义、等价模型与独立锚点](records/2026-11-13-trajectory-task-identifiability-handoff.md)

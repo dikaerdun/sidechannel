@@ -22,6 +22,8 @@
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-14 增补[秘密算子、物理操作语法与面向观察者的实现设计](brainstorms/2026-11-14-secret-operators-physical-grammar-observation-design.md)。分别先交实际读出与合法碰撞类、两套操作语义的留出组合预测、多端口约束下的正确构造或不可行证书。第三项保留小规模理论诊断机会。三项深化旧方向，不增加 BOLD 编号，待用户安排其他研究者验证；未派发或执行任务，见[本批交接](records/2026-11-14-operator-grammar-observation-handoff.md)。
+
 2026-11-13 增补[轨迹编码、任务安全与物理可辨识性](brainstorms/2026-11-13-trajectory-codes-task-security-identifiability.md)。先由掩码/RTL 研究者界定真实观察族，由密码学/推断研究者明确任务与公开信息基线，由系统辨识/测量研究者提交等价范围和分叉干预。六个开放问题中详细展开这三项，保留可辨识性的理论诊断机会。均待用户安排他人验证，未派发、未执行，不增加 BOLD 种子数；见[交接记录](records/2026-11-13-trajectory-task-identifiability-handoff.md)。
 
 2026-11-13 增补[时间方向、模约减商与混合算法的物理组合](brainstorms/2026-11-13-time-arrow-quotients-hybrid-composition.md)。分别交给随机过程/电路、编译器/格侧信息、组合密码学/实现研究者：先核对同谱反向链并找真实状态；导出固定内核的整数语义；写出含分支披露与共享状态的观察游戏。保留时间方向的小规模理论诊断。三项均待验证，未派发、未执行，不增加 BOLD 种子数；见[交接记录](records/2026-11-13-time-quotient-hybrid-handoff.md)。

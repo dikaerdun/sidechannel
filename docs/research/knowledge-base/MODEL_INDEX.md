@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-14 追加[秘密算子、物理操作语法与面向观察者的实现设计](brainstorms/2026-11-14-secret-operators-physical-grammar-observation-design.md)：三项分别要求合法观察等价类、由短操作预测未见组合、针对联合观察的可实现构造或不可行证书。深化已有方向，BOLD 种子仍为 40 条；无实验、仿真、训练或独立核验，验证由用户安排。见[交接记录](records/2026-11-14-operator-grammar-observation-handoff.md)。
+
 2026-11-13 追加[计算轨迹的防护编码、任务安全与物理可辨识性](brainstorms/2026-11-13-trajectory-codes-task-security-identifiability.md)：列出六个开放问题，详细深化前三项。首轮分别检查真实时空观察族、完整秘密有歧义时的指定任务能力、等价模型与独立物理锚点。三个手工见证待用户安排他人核验；仍追踪 40 条 BOLD 种子，不升级实验状态，详见[交接记录](records/2026-11-13-trajectory-task-identifiability-handoff.md)。
 
 2026-11-13 追加[时间方向、模约减商与混合算法的物理组合](brainstorms/2026-11-13-time-arrow-quotients-hybrid-composition.md)：分别深化 BOLD-07、PQC-H001/H002 与 BOLD-20/29/30。三项先交同谱反向链的独立核对、固定实现的整数等式、包含分支披露的完整观察游戏。仍追踪 40 条 BOLD 种子，不增加编号或升级实验状态；由用户安排他人验证，详见[交接记录](records/2026-11-13-time-quotient-hybrid-handoff.md)。
