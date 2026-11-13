@@ -4,6 +4,8 @@
 
 ## 2026-11-14 扩大构思交接
 
+[对称性诊断、交互路径与集体推断](brainstorms/2026-11-14-symmetry-interaction-collective-inference.md)把既有种子推进到跨实现规律：验证者先交合法变换及四种正确配置、实际节点与断开路径的预测、有精确答案的关系图及秘密等价类。第二项保留一次理论诊断。由用户安排他人验证，未派发或运行任务，不改变实验判定、种子计数与文献覆盖。
+
 [参数规模、随机性实现与物理密码原语](brainstorms/2026-11-14-parameter-scaling-randomness-realization-physical-primitives.md)要求验证者先交资源边界与同预算协议、匹配输出联合分布的实现对、物理状态方程及模拟命题或反例。第三项保留理论诊断机会；由用户安排他人验证，未派发或执行任务，不增加种子计数，见[本轮交接](records/2026-11-14-parameter-randomness-physical-primitive-handoff.md)。
 
 此前把已有方向推进为三个待验证目标：约束物理关系的证明、可迁移的物理状态、从允许泄漏反向设计实现；详见[基础引用与交接](records/2026-11-14-kyber-foundations-saber.md)。当前全库 576 张卡片、327 条引用、80 条版本关系、139 条待解析发现；SABER 八条基础引用已解析，44 个参考位置为 22 条对应、0 条身份待查、22 条暂列背景。没有新增实验或派发任务。下文批次数字保留为历史快照，实时计数以[覆盖文件](literature/COVERAGE.md)为准。

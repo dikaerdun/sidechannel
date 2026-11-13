@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-14 追加[对称性诊断、交互路径与集体推断](brainstorms/2026-11-14-symmetry-interaction-collective-inference.md)：分别要求合法变换和资源映射的留出预测、有真实状态方程的跨份额路径、控制观测预算后的秘密等价类比较。第二项保留理论机制诊断。三项深化既有路线，不增加 40 条种子计数；待用户安排他人验证，未运行或派发实验，不升级既有证据状态。
+
 2026-11-14 追加[参数规模、随机性实现与物理密码原语](brainstorms/2026-11-14-parameter-scaling-randomness-realization-physical-primitives.md)：分别要求真实资源边界及同预算任务比较、输出联合分布相同的实现对、带完整观察条件的物理状态方程与模拟命题。第三项保留理论诊断机会。三项深化既有路线，不增加 40 条种子计数或升级实验状态；验证由用户安排，见[交接记录](records/2026-11-14-parameter-randomness-physical-primitive-handoff.md)。
 
 2026-11-14 追加[瞬态响应、顺序放大与防护相容性](brainstorms/2026-11-14-transients-switching-compatibility.md)：先交固定物理度量下的留出响应预测、合法编排的状态转移、逻辑方向明确的有限约束问题。前两项同属动力学路线，第三项保留不同于波形建模的理论诊断。由用户安排他人验证，不增加 40 条 BOLD 种子计数或升级实验状态；见[交接记录](records/2026-11-14-transient-switching-compatibility-handoff.md)。

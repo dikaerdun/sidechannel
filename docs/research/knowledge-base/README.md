@@ -12,6 +12,7 @@
 
 ## 从这里开始
 
+- [对称性诊断、物理交互路径与集体推断：三个待他人验证的研究目标](brainstorms/2026-11-14-symmetry-interaction-collective-inference.md)
 - [NDSS 2025 摘要补齐：211/211 篇、SketchFeature 与观察机制边界](records/2026-11-14-literature-ndss2025-completion.md)
 - [参数规模、随机性实现与物理密码原语：三个待他人验证的方向](brainstorms/2026-11-14-parameter-scaling-randomness-realization-physical-primitives.md)
 - [本轮交接：资源边界、同分布实现对与完整物理接口](records/2026-11-14-parameter-randomness-physical-primitive-handoff.md)
