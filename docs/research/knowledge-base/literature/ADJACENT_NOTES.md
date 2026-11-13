@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 336 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 340 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA
 
@@ -1010,6 +1010,13 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## Formally Verified Correctness Bounds for Lattice-Based Cryptography
+
+- 来源：[CCS 2025](https://dl.acm.org/doi/10.1145/3719027.3765218)。
+- 判定依据：形式化格 KEM 的解密正确性概率界；ML-KEM 部分针对文献使用的近似统计事件，FrodoKEM 展示非启发式界。摘要没有侧信道观察或实现泄漏保证，保留为 PQC 相邻理论。
+- 阅读来源：https://kannwischer.eu/papers/2025_ec_lattice_bounds.pdf。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## GPUHammer: Rowhammer Attacks on GPU Memories are Practical
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/lin-shaopeng)。
@@ -1071,6 +1078,13 @@
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/auerbach)。
 - 判定依据：后量子消息协议在带宽约束下的安全比较和优化；非实现泄漏。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## How to Recover a Cryptographic Secret From the Cloud
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765127)。
+- 判定依据：云端秘密备份与恢复协议，讨论凭据丢失及恶意云，不是通过功耗或侧信道恢复秘密。仅读明确对应题名与作者的 ePrint 摘要，正式版本差异待核。
+- 阅读来源：https://eprint.iacr.org/2023/1308。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## HyTrack: Resurrectable and Persistent Tracking Across Android Apps and the Web
@@ -1232,6 +1246,13 @@
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/shoaib)。
 - 判定依据：从 AR/VR 日志建立攻击来源图和因果关联；日志审计不是秘密侧信道观察。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Prompt Inference Attack on Distributed Large Language Model Inference Frameworks
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3744820)。
+- 判定依据：从分布式 LLM 传输的中间输出重建提示，摘要未显示额外物理或微架构观察；保留为相邻隐私研究，与 MoEcho 硬件侧信道区分。
+- 阅读来源：https://arxiv.org/abs/2503.09291。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt
@@ -1436,6 +1457,13 @@
 - 判定依据：VeloFHE 通过 GPU NTT、批处理与异步执行优化 FHEW/TFHE 自举，摘要未研究侧信道。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Wanilla: Sound Noninterference Analysis for WebAssembly
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765156)。
+- 判定依据：为 WebAssembly 提供静态非干扰与内存完整性分析；摘要没有明确的计时/物理泄漏模型，保留相邻层，不能由 noninterference 标题自动当作侧信道证明。
+- 阅读来源：https://arxiv.org/abs/2509.08758。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Who Pays Whom? Anonymous EMV-Compliant Contactless Payments
 

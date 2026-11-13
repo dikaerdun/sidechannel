@@ -1,0 +1,682 @@
+{
+  "updated_on": "2026-11-14",
+  "batch": "ccs2025-first-title-and-primary-reading",
+  "sources": [
+    {
+      "source_id": "ccs25-blackout-arxiv",
+      "url": "https://arxiv.org/abs/2504.14654",
+      "response_url": "https://arxiv.org/abs/2504.14654",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:30:27.438858+00:00",
+      "sha256": "672734db0c00240ee93e49bb4e250f8063ee3fdaa4cacae8a442d926984995b7",
+      "bytes": 41670,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-bolt-arxiv",
+      "url": "https://arxiv.org/abs/2509.01742",
+      "response_url": "https://arxiv.org/abs/2509.01742",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:30:27.365687+00:00",
+      "sha256": "a9b15b6305dbe15b571d3e2716abe51eaf869d0547da464c2cf62bb710244725",
+      "bytes": 44375,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-bounds-paper",
+      "url": "https://kannwischer.eu/papers/2025_ec_lattice_bounds.pdf",
+      "response_url": "https://kannwischer.eu/papers/2025_ec_lattice_bounds.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:31:30.423881+00:00",
+      "sha256": "33b9e0eeeb278f50ebfaae5f3b18eb4d156317a2c55c3253abd3b6297da53e6d",
+      "bytes": 745843,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25-cloud-eprint",
+      "url": "https://eprint.iacr.org/2023/1308",
+      "response_url": "https://eprint.iacr.org/2023/1308",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:16:50.526832+00:00",
+      "sha256": "915b85306e10a9bf29f52144e3030b0350468ba77052e2f487aab8c70d28056f",
+      "bytes": 17096,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-crossref-112",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765218",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765218",
+      "status": 429,
+      "retrieved_at": "2026-11-13T18:32:26.743460+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "Failure status only; not scholarly content"
+    },
+    {
+      "source_id": "ccs25-crossref-122",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3744833",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3744833",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:49.078064+00:00",
+      "sha256": "2afec59cd560e3b401ba2a534263d59ca30f69b8932dafe23581a009ec9b95b3",
+      "bytes": 22501,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-131",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765209",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765209",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:49.257278+00:00",
+      "sha256": "9a053feeb3bc0f166358782c1cd6930b49b3e4790b4f2346562e5a41f2fe3e72",
+      "bytes": 15782,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-138",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765127",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765127",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:14:13.518134+00:00",
+      "sha256": "a1896222a7016877f4b49782bc980f02489fac0f3b9881b647a520d3248b5883",
+      "bytes": 15980,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-146",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765121",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765121",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:49.351658+00:00",
+      "sha256": "d90a3b122f7caa3fde363482cab9a5cbba976d622a8f5230c03c0797c1f67e3b",
+      "bytes": 35768,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-166",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765066",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765066",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:50.231292+00:00",
+      "sha256": "5961172f1a4ed83b7138fe9a44c87fd51bb1a18d66a25b3cfe850e6e10a2ad05",
+      "bytes": 20626,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-169",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765130",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765130",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:50.361157+00:00",
+      "sha256": "a779464702fee84bba76dab5891b14b99d32cba0ea70e95e8bf3270331ce9977",
+      "bytes": 14713,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-171",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765174",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765174",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:50.564824+00:00",
+      "sha256": "ce816ab447e704bca81524b432cc169f66a2ce734653c77c5662bc4a94eb1d03",
+      "bytes": 19938,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-176",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765188",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765188",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:14:14.608776+00:00",
+      "sha256": "c7b128540cd08748b9928788daf0ef95bda8f79033e1797ed2898a5667649ce5",
+      "bytes": 14005,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-19",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3744881",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3744881",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:47.972933+00:00",
+      "sha256": "d75c9a306df391be6f7de08e43c715a74c4e0bf39ca2cc8d750bcb27d9a3efb7",
+      "bytes": 17206,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-204",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765093",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765093",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:32:28.043083+00:00",
+      "sha256": "f26e3f4077d15ea94615158b2701f6571bb6012103e98c5a908b3793423e024e",
+      "bytes": 18596,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-217",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3744820",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3744820",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:50.636233+00:00",
+      "sha256": "f5f2c719cb1a76dbcd68ea3e6365504cf7c901e471f7adffb6f5fbfb7cc3a022",
+      "bytes": 17180,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-249",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765116",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765116",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:51.386095+00:00",
+      "sha256": "6d06ca5d77c4d808040622d66c7d9d17b54daa46ff98d7165b159a3a031e498b",
+      "bytes": 18759,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-269",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765148",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765148",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:51.516536+00:00",
+      "sha256": "8ba5139c02bfcf64e1612382081d0a14f1fbc5f2b6fe4414139c4402d534caff",
+      "bytes": 14571,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-274",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3744817",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3744817",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:51.634328+00:00",
+      "sha256": "6c5aebc0910f3e5f15dc7e57a28481bf9638a078793c20b89c156a576e5f68d9",
+      "bytes": 17194,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-287",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765146",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765146",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:32:28.036992+00:00",
+      "sha256": "c6df18d4153c8e6a2ef534d72c02bfe19dc49f2e6c97c918fa537b029609b821",
+      "bytes": 10247,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-304",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765156",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765156",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:51.848607+00:00",
+      "sha256": "2ba27ac6cb1661a7bb6c0845b3a17ba26c01b6db58fecd0cb8c2b6de14d2c598",
+      "bytes": 15819,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-310",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765204",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765204",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:51.928909+00:00",
+      "sha256": "609ce1fd580f1573a0f3c61fb9628a2783204253578d411069057112300f7a5d",
+      "bytes": 23102,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-35",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765169",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765169",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:32:26.750941+00:00",
+      "sha256": "f8c7afe1bf11f23e79b5d1c993c587a2d783d20ba45281537f4d402b04760c75",
+      "bytes": 21108,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-36",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765069",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765069",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:32:27.261955+00:00",
+      "sha256": "e3f9871faebbbfbc71d893f3a5ca789bf3c55894c40046e68c02d21ebbc1bf01",
+      "bytes": 32463,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-crossref-96",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765061",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765061",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:48.961102+00:00",
+      "sha256": "60f68780b1d3e1d3ef06655e19bf6dd6afad0dbabcfe4657c2e1659422083295",
+      "bytes": 24089,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-discover-js-0",
+      "url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/6494-58fd626dd2e58f05.js",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/6494-58fd626dd2e58f05.js",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:15:23.909361+00:00",
+      "sha256": "dc3a683d8968f71d10a05652e045a747e41c67993a79daedea0838d2ca0a10d5",
+      "bytes": 15677,
+      "content_type": "application/javascript",
+      "evidence_use": "Read-only source navigation, not scientific evidence"
+    },
+    {
+      "source_id": "ccs25-discover-js-1",
+      "url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/6499-bfc4efa69335719e.js",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/6499-bfc4efa69335719e.js",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:15:23.930642+00:00",
+      "sha256": "edfdc5a0807cc22798ed8aa07588f770bbe3dd4a771ec5f7cb2d6164eb556383",
+      "bytes": 19681,
+      "content_type": "application/javascript",
+      "evidence_use": "Read-only source navigation, not scientific evidence"
+    },
+    {
+      "source_id": "ccs25-discover-js-2",
+      "url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/app/accepted-papers/page-c4ee98bccbf4a08d.js",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/app/accepted-papers/page-c4ee98bccbf4a08d.js",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:15:24.058224+00:00",
+      "sha256": "ce1045390fb9e7712dc8d6b70c09bc37d0367b6e62cb14daf3e8c29a3edd231c",
+      "bytes": 11264,
+      "content_type": "application/javascript",
+      "evidence_use": "Read-only source navigation, not scientific evidence"
+    },
+    {
+      "source_id": "ccs25-discover-js-3",
+      "url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/app/layout-9610c1814e649a47.js",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/app/layout-9610c1814e649a47.js",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:15:25.052781+00:00",
+      "sha256": "e04fa2baba636bfec87801c39bf28a5feae76a29f7c0e2eb57296efedefab4ca",
+      "bytes": 13618,
+      "content_type": "application/javascript",
+      "evidence_use": "Read-only source navigation, not scientific evidence"
+    },
+    {
+      "source_id": "ccs25-discover-js-4",
+      "url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/c16f53c3-70ad8f6fecab9ef2.js",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/c16f53c3-70ad8f6fecab9ef2.js",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:15:25.034474+00:00",
+      "sha256": "a3f0589770e90444d6572a9bd156aac15f291c0d288a7b9d5b05c15d01482469",
+      "bytes": 2710,
+      "content_type": "application/javascript",
+      "evidence_use": "Read-only source navigation, not scientific evidence"
+    },
+    {
+      "source_id": "ccs25-discover-js-5",
+      "url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/9710-431cb1dd92967fa2.js",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/9710-431cb1dd92967fa2.js",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:15:25.465876+00:00",
+      "sha256": "5c9467767c5342f396fceb8923e1cc128cdf516ffb148f11d9ee3e3132fef4f3",
+      "bytes": 15150,
+      "content_type": "application/javascript",
+      "evidence_use": "Read-only source navigation, not scientific evidence"
+    },
+    {
+      "source_id": "ccs25-discover-js-6",
+      "url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/8406-2468c072fb14937a.js",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/8406-2468c072fb14937a.js",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:15:26.307051+00:00",
+      "sha256": "0f98a5bfa21b6faac57bd12861b79ecd8079e64dfeae2f3e376c13c743f939e6",
+      "bytes": 48044,
+      "content_type": "application/javascript",
+      "evidence_use": "Read-only source navigation, not scientific evidence"
+    },
+    {
+      "source_id": "ccs25-discover-js-7",
+      "url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/9490-f332c4896b2effed.js",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/9490-f332c4896b2effed.js",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:15:26.419272+00:00",
+      "sha256": "ecdb2a9664c3ec16ab4af31dde0b2b4a92a36cf69c88f935f57c534d69910843",
+      "bytes": 26796,
+      "content_type": "application/javascript",
+      "evidence_use": "Read-only source navigation, not scientific evidence"
+    },
+    {
+      "source_id": "ccs25-discover-js-8",
+      "url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/8722-4f7740bbdf83bcfd.js",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/8722-4f7740bbdf83bcfd.js",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:15:26.930901+00:00",
+      "sha256": "e4240297e3b6f648bf2c28ab7b1cde433fca9877f470ae4cbb96dd3be65775a0",
+      "bytes": 47646,
+      "content_type": "application/javascript",
+      "evidence_use": "Read-only source navigation, not scientific evidence"
+    },
+    {
+      "source_id": "ccs25-discover-js-9",
+      "url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/app/template-4cb8cf0538a44f06.js",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/app/template-4cb8cf0538a44f06.js",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:15:27.710381+00:00",
+      "sha256": "95ffdaf3188cde86d134e82817e88184aa83de69448db90892bacd9ddc27e1da",
+      "bytes": 13757,
+      "content_type": "application/javascript",
+      "evidence_use": "Read-only source navigation, not scientific evidence"
+    },
+    {
+      "source_id": "ccs25-exfil-page",
+      "url": "https://fabianthomas.de/publications/2025/thomas2025exfilstate/",
+      "response_url": "https://fabianthomas.de/publications/2025/thomas2025exfilstate/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:47.662310+00:00",
+      "sha256": "ae0c9ad2ef35461fa633e510270b2d62e8fb6ea7913faaab26a2c9d643b5cdd2",
+      "bytes": 29318,
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "ccs25-ghost-page",
+      "url": "https://www.thu-haslab.org/publication/2025-ghostcache/",
+      "response_url": "https://www.thu-haslab.org/publication/2025-ghostcache/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:29:37.995944+00:00",
+      "sha256": "2cbc271da93e3c74a95d7671c396052aa0e7362f790e594106e7f1af8e059d63",
+      "bytes": 28974,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-heracles-page",
+      "url": "https://heracles-attack.github.io/",
+      "response_url": "https://heracles-attack.github.io/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:29:37.458561+00:00",
+      "sha256": "1121d6efce4e3e5346f5d1e100911ef4790bf59e16cf11ca22f146734236021e",
+      "bytes": 11343,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-iovalve-web",
+      "url": "https://www.microsoft.com/en-us/research/publication/iovalve-leakage-free-i-o-sandbox-for-large-scale-untrusted-data-processing/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:32:26.474488+00:00",
+      "sha256": "8e13903027fa90b3b405543630d035d3c206b8aa063e0d64781c0b23e7b424b2",
+      "bytes": 5276,
+      "content_type": "text/plain; web tool extracted source",
+      "retrieval_method": "web open; original HTML requests failed TLS; cached text is tool extraction, not HTTP response bytes",
+      "evidence_use": "Full primary institutional abstract, displayed lines 12-15; no full paper reading"
+    },
+    {
+      "source_id": "ccs25-leasyn-paper",
+      "url": "https://mguarnieri.github.io/publication/ccs2025/ccs2025.pdf",
+      "response_url": "https://mguarnieri.github.io/publication/ccs2025/ccs2025.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:48.043616+00:00",
+      "sha256": "e8f6ee54f68c574c8d06bf86ad4bdcf8ed80b20722fdbb5f53ee61237f420238",
+      "bytes": 1662353,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25-milesan-page",
+      "url": "https://comsec.ethz.ch/research/hardware-design-security/milesan-detecting-exploitable-microarchitectural-leakage-via-differential-hardware-software-taint-tracking/",
+      "response_url": "https://comsec.ethz.ch/research/hardware-design-security/milesan-detecting-exploitable-microarchitectural-leakage-via-differential-hardware-software-taint-tracking/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:47.766842+00:00",
+      "sha256": "5ebf5648587817064bf6287c27b3241dd8694c1c32558afce2e8db9c90a369ff",
+      "bytes": 54076,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ccs25-milesan-paper",
+      "url": "https://comsec-files.ethz.ch/papers/milesan_ccs25.pdf",
+      "response_url": "https://comsec-files.ethz.ch/papers/milesan_ccs25.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:30:30.907499+00:00",
+      "sha256": "86f36d3339036983138e02c11863b16e7f8441dedc1483298c92047168933069",
+      "bytes": 1156829,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25-mlcube-author",
+      "url": "https://bianyiby.github.io/publications/",
+      "response_url": "https://bianyiby.github.io/publications/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:31:27.120383+00:00",
+      "sha256": "d4e0dd0eef2ba74f0a67315e3a03b6498e3a00740e037efc28a613e40d1fe503",
+      "bytes": 49296,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-moecho-arxiv",
+      "url": "https://arxiv.org/abs/2508.15036",
+      "response_url": "https://arxiv.org/abs/2508.15036",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:29:37.374932+00:00",
+      "sha256": "437f4b41f48b5d105964f3fef8b23a8edb2a00e4b3e485dca0a79f28902fa23b",
+      "bytes": 43161,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-muov-eprint",
+      "url": "https://eprint.iacr.org/2024/1875",
+      "response_url": "https://eprint.iacr.org/2024/1875",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:16:49.504915+00:00",
+      "sha256": "316e8993b5116f0c024e14f16af0bbaff4545198cff3e3cce1b4766ed5b362f5",
+      "bytes": 18358,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-muov-nist-paper",
+      "url": "https://csrc.nist.gov/csrc/media/events/2025/sixth-pqc-standardization-conference/muov%20masking%20the%20unbalanced%20oil%20and%20vinegar.pdf",
+      "response_url": "https://csrc.nist.gov/csrc/media/events/2025/sixth-pqc-standardization-conference/muov%20masking%20the%20unbalanced%20oil%20and%20vinegar.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:16:50.419552+00:00",
+      "sha256": "0b69bbf7b933235b0565cd35850e788dd89c3323ffeb8ed84276c24b5c73721d",
+      "bytes": 1304958,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25-muov-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765188",
+      "response_url": "https://dl.acm.org/doi/10.1145/3719027.3765188",
+      "status": 403,
+      "retrieved_at": "2026-11-13T18:16:51.186270+00:00",
+      "sha256": "b9041c2e2878aef606f3a18941477a852b6a4f1f7ab2fda1752f96c67ebfdd2b",
+      "bytes": 5641,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "Failure status only; not scholarly content"
+    },
+    {
+      "source_id": "ccs25-patches-author",
+      "url": "https://researchportal.hkust.edu.hk/en/publications/an-empirical-study-measuring-in-the-wild-cryptographic-microarchi/",
+      "response_url": "https://researchportal.hkust.edu.hk/en/publications/an-empirical-study-measuring-in-the-wild-cryptographic-microarchi/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:31:29.122619+00:00",
+      "sha256": "8a67ac0f824085dd30eef08bd01fee10336413ffb2f73a97e5c85ff863981b6b",
+      "bytes": 56098,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "ccs25-pixnapping-page",
+      "url": "https://www.pixnapping.com/",
+      "response_url": "https://www.pixnapping.com/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:31:27.231168+00:00",
+      "sha256": "4dd9554a074573b573ab3574cdb6920c9cff75ebfbb823bc6f44c1fbbcbf9315",
+      "bytes": 13132,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-pixnapping-paper",
+      "url": "https://www.pixnapping.com/pixnapping.pdf",
+      "response_url": "https://www.pixnapping.com/pixnapping.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:32:27.150718+00:00",
+      "sha256": "d6cb1f5b04269ba6ef9e74c125ebb98d171e72719727d1aff16cb4724258003f",
+      "bytes": 1460765,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25-prompt-arxiv",
+      "url": "https://arxiv.org/abs/2503.09291",
+      "response_url": "https://arxiv.org/abs/2503.09291",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:29:37.812609+00:00",
+      "sha256": "e7815758ae44b061c8c915c51b3b8addf3f3b40201ed475c8094f53331683eca",
+      "bytes": 44092,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-schedule-js",
+      "url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/app/schedule/page-fb9559b5b609b022.js",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/_next/static/chunks/app/schedule/page-fb9559b5b609b022.js",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:16:07.017032+00:00",
+      "sha256": "7d607f19c1883f7250e192e9f8fd03c83894d384ad7aaa63f2749ea147cc6a48",
+      "bytes": 11727,
+      "content_type": "application/javascript",
+      "evidence_use": "Read-only source navigation, not scientific evidence"
+    },
+    {
+      "source_id": "ccs25-schedule-page",
+      "url": "https://www.sigsac.org/ccs/CCS2025/schedule/",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/schedule/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:16:05.609376+00:00",
+      "sha256": "378d7400c15684a8526c2da994d71ebe96788447079a66c36cee9cf6fc736ae7",
+      "bytes": 20915,
+      "content_type": "text/html",
+      "evidence_use": "Read-only source navigation, not scientific evidence"
+    },
+    {
+      "source_id": "ccs25-schedule",
+      "url": "https://www.sigsac.org/ccs/CCS2025/assets/schedule.json",
+      "response_url": "https://www.sigsac.org/ccs/CCS2025/assets/schedule.json",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:16:50.333362+00:00",
+      "sha256": "0be5dfada71d115bea86cbc56e64ffec198a7b692f9832b6f0af11b85427a9d7",
+      "bytes": 170875,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25-secsep-arxiv",
+      "url": "https://arxiv.org/abs/2509.08727",
+      "response_url": "https://arxiv.org/abs/2509.08727",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:46.513972+00:00",
+      "sha256": "59c0bf7bfbcb4d8bf15090f36fa0163f28f67fc988f18cde588ce73d1114b142",
+      "bytes": 43187,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-secsep-paper",
+      "url": "https://people.csail.mit.edu/mengjia/data/2025.CCS.SecSep.pdf",
+      "response_url": "https://people.csail.mit.edu/mengjia/data/2025.CCS.SecSep.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:28:50.088393+00:00",
+      "sha256": "9e09ef85c87218f5aa31a37b9e8655463824a97124949a4ac64c86b3e8efd134",
+      "bytes": 831811,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25-tempest-arxiv",
+      "url": "https://arxiv.org/abs/2506.21069",
+      "response_url": "https://arxiv.org/abs/2506.21069",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:30:27.452795+00:00",
+      "sha256": "6795a82c9db52b0fc73cabdcb776b59169332a799a2674d121ab580e55476920",
+      "bytes": 43842,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-timingdp-paper",
+      "url": "https://zacharyratliff.org/files/dp-timing-attacks.pdf",
+      "response_url": "https://zacharyratliff.org/files/dp-timing-attacks.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:30:29.981410+00:00",
+      "sha256": "e7593126f56cf81e98c8c6cffc221d3cec29d8c09f0430b18c3dbd388d612c88",
+      "bytes": 813585,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25-wanilla-arxiv",
+      "url": "https://arxiv.org/abs/2509.08758",
+      "response_url": "https://arxiv.org/abs/2509.08758",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:29:38.223722+00:00",
+      "sha256": "1ce89a2d39f94ee89984771151331346c1c21349af65006488904da5f2bda9db",
+      "bytes": 42057,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-wiretap-page",
+      "url": "https://wiretap.fail/",
+      "response_url": "https://wiretap.fail/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:29:38.690674+00:00",
+      "sha256": "018da146f3a128fc268d91477afe182164f4998843721addea9b51117bcc1390",
+      "bytes": 61036,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25-wiretap-paper",
+      "url": "https://wiretap.fail/files/wiretap.pdf",
+      "response_url": "https://wiretap.fail/files/wiretap.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:29:44.485250+00:00",
+      "sha256": "0e0f17bccf01c1c096101256bb8d67e2641429b374c6ea3c78ef1d4196f9d541",
+      "bytes": 21376364,
+      "content_type": "application/pdf"
+    }
+  ],
+  "counts": {
+    "title_screened": 316,
+    "ccs_abstract_decisions": 21,
+    "ccs_included": 17,
+    "ccs_adjacent": 4,
+    "other_new_cards": 2,
+    "new_cards": 19,
+    "new_citation_edges": 11,
+    "new_version_edges": 7,
+    "new_reference_positions": 52,
+    "new_pending_discoveries": 17
+  },
+  "official_schedule_consistency": {
+    "accepted_records": 316,
+    "scheduled_records": 316,
+    "doi_matches": 316,
+    "missing": [],
+    "extra": [],
+    "independent_print_toc_verified": false,
+    "source_ids": [
+      "ccs-official-2025",
+      "ccs25-schedule"
+    ]
+  },
+  "publication_title_changes": [
+    {
+      "id": "doi:10.1145/3719027.3765209",
+      "accepted_title": "Heracles: Chosen Plaintext Attack on AMD SEV-SNP",
+      "published_title": "H eracles : Chosen Plaintext Attack on AMD SEV-SNP",
+      "source_id": "ccs25-crossref-131",
+      "change_type": "formatting_only",
+      "display_title": "Heracles: Chosen Plaintext Attack on AMD SEV-SNP"
+    },
+    {
+      "id": "doi:10.1145/3719027.3765116",
+      "accepted_title": "Securing Cryptographic Software via Typed Assembly Language and a Hardware Extension",
+      "published_title": "Securing Cryptographic Software via Typed Assembly Language",
+      "source_id": "ccs25-crossref-249",
+      "change_type": "accepted_vs_published_title"
+    }
+  ],
+  "gaps": [
+    "295 CCS 2025 abstracts still pending, including unscreened candidate/uncertain titles",
+    "Independent publication TOC pending; official schedule is not independent proof",
+    "Formal ACM mUOV page HTTP 403; read explicitly linked author version and NIST-hosted manuscript",
+    "Crossref correctness-bounds article HTTP 429; accepted metadata and author PDF retained",
+    "IOValve HTTP request TLS failed; full primary abstract read using web tool and extracted text cached",
+    "No experiments, simulations, training or author code execution",
+    "ArXiv/author manuscripts may differ from final publications; only explicit version relationships recorded",
+    "mUOV full signing composition not wholly mechanically verified; practical TVLA reduced parameters and first order"
+  ]
+}

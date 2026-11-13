@@ -8,7 +8,7 @@
 | TCHES | 2021 | 78 | 待核对 | 78/78 | 19/78 | [记录](provenance/tches.json) |
 | TCHES | 2022 | 83 | 待核对 | 83/83 | 29/83 | [记录](provenance/tches.json) |
 | TCHES | 2023 | 78 | 待核对 | 78/78 | 25/78 | [记录](provenance/tches.json) |
-| TCHES | 2024 | 101 | 待核对 | 101/101 | 32/101 | [记录](provenance/tches.json) |
+| TCHES | 2024 | 101 | 待核对 | 101/101 | 33/101 | [记录](provenance/tches.json) |
 | TCHES | 2025 | 111 | 待核对 | 111/111 | 39/111 | [记录](provenance/tches.json) |
 | TCHES | 2026 | 148 | 待核对 | 148/148 | 73/148 | [记录](provenance/tches.json) |
 | SP | 2021 | 115 | 待核对 | 0/115 | 0/115 | [记录](provenance/sp-2021.json) |
@@ -27,7 +27,7 @@
 | CCS | 2022 | 218 | 待核对 | 0/218 | 0/218 | [记录](provenance/ccs-2022.json) |
 | CCS | 2023 | 234 | 待核对 | 0/234 | 0/234 | [记录](provenance/ccs-2023.json) |
 | CCS | 2024 | 328 | 待核对 | 0/328 | 0/328 | [记录](provenance/ccs-2024.json) |
-| CCS | 2025 | 316 | 待核对 | 0/316 | 0/316 | [记录](provenance/ccs-2025.json) |
+| CCS | 2025 | 316 | 待核对 | 316/316 | 21/316 | [记录](provenance/ccs-2025.json) |
 | CCS | 2026 | 483 | 待核对 | 0/483 | 0/483 | [记录](provenance/ccs-2026.json) |
 | NDSS | 2021 | 90 | 待核对 | 0/90 | 0/90 | [记录](provenance/ndss-2021.json) |
 | NDSS | 2022 | 85 | 待核对 | 0/85 | 0/85 | [记录](provenance/ndss-2022.json) |
@@ -38,6 +38,7 @@
 
 ## 当前已知缺口
 
+- CCS 2025 的 316 条标题及 21 篇选定摘要已读，295 篇摘要仍待复核。官方日程与录用表的 DOI 集合一致，但同源列表不算独立出版目录核对。mUOV 的模型、机械验证与缩小参数一阶检测范围分别记录；ML-Cube 的缓存缓解仍待正文。作者稿 52 条引用初筛新增 17 条待查，见 [CCS 2025 证据笔记](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)。
 - S&P 2022、2023、2024、2025 与 USENIX 2025、2026 共六个单元已和另取的论文集目录逐项对应；S&P 2026 部分对应（252/254，缺两条），其余 23 个单元待独立核对。同一个 HTML 的两种导出不算独立证据，目录核对也不是独立科学审查。
 - USENIX 2025 的 438 条标题及 103 篇选定摘要已读，335 篇摘要仍待复核。438 条与印刷目录逐项对应，但主席致辞 407+32=439 的总数差异未解决。DL-BSCA 的单系数 GE、真实 HW 选点与 TEEcorrelate 的模拟/成本估计及公式问题见 [证据笔记](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)；原 38 条引用发现已解析 12 条，其余 26 条及 MORE 新增 19 条继续追踪。
 - USENIX 2026 的 381 个议程节点已分为 362 篇论文和 19 条其他活动；2016 论文的回顾讨论不计作 2026 新论文。362 个标题已读、76 篇有摘要及以上判定，286 篇摘要仍待复核。五条 SDitH 及后续 CiC/HQC 的 23 条发现已解析；继续沿 Falcon/HQC RM/RS 登记 21 条新线索，仍不构成递归闭合。目录一处 L∞/L_infinity 仅为数学记号差异。

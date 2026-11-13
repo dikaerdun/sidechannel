@@ -113,6 +113,23 @@
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
 | ASPLOS | [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) | selected_full_text_sections |
+| CCS | [An Empirical Study Measuring In-The-Wild Cryptographic Microarchitectural Side-Channel Patches](https://doi.org/10.1145/3719027.3744881) | abstract_and_bibliographic_metadata |
+| CCS | [BLACKOUT: Data-Oblivious Computation with Blinded Capabilities](https://doi.org/10.1145/3719027.3765169) | abstract_and_bibliographic_metadata |
+| CCS | [BOLT: Bandwidth-Optimized Lightning-Fast Oblivious Map powered by Secure HBM Accelerators](https://doi.org/10.1145/3719027.3765069) | abstract_and_bibliographic_metadata |
+| CCS | [ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs](https://doi.org/10.1145/3719027.3765061) | abstract_and_bibliographic_metadata |
+| CCS | [GhostCache: Timer- and Counter-Free Cache Attacks Exploiting Weak Coherence on RISC-V and ARM Chips](https://doi.org/10.1145/3719027.3744833) | abstract_and_bibliographic_metadata |
+| CCS | [Heracles: Chosen Plaintext Attack on AMD SEV-SNP](https://doi.org/10.1145/3719027.3765209) | abstract_and_bibliographic_metadata |
+| CCS | [IOValve: Leakage-Free I/O Sandbox for Large-Scale Untrusted Data Processing](https://doi.org/10.1145/3719027.3765121) | abstract_and_bibliographic_metadata |
+| CCS | [ML-Cube: Accelerating Module-Lattice-Based Cryptography using Machine Learning Accelerators with a Memory-Less Design](https://doi.org/10.1145/3719027.3765130) | abstract_and_bibliographic_metadata |
+| CCS | [MileSan: Detecting Exploitable Microarchitectural Leakage via Differential Hardware-Software Taint Tracking](https://doi.org/10.1145/3719027.3765066) | abstract_and_bibliographic_metadata |
+| CCS | [MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs](https://doi.org/10.1145/3719027.3765174) | abstract_and_bibliographic_metadata |
+| CCS | [Pixnapping: Bringing Pixel Stealing out of the Stone Age](https://doi.org/10.1145/3719027.3765093) | abstract_and_bibliographic_metadata |
+| CCS | [Securing Cryptographic Software via Typed Assembly Language](https://doi.org/10.1145/3719027.3765116) | selected_full_text_sections |
+| CCS | [Synthesis of Sound and Precise Leakage Contracts for Open-Source RISC-V Processors](https://doi.org/10.1145/3719027.3765148) | selected_full_text_sections |
+| CCS | [TEMPEST-LoRa: Cross-Technology Covert Communication](https://doi.org/10.1145/3719027.3744817) | abstract_and_bibliographic_metadata |
+| CCS | [Timing Attacks on Differential Privacy are Practical](https://doi.org/10.1145/3719027.3765146) | abstract_and_bibliographic_metadata |
+| CCS | [WireTap: Breaking Server SGX via DRAM Bus Interposition](https://doi.org/10.1145/3719027.3765204) | abstract_and_bibliographic_metadata |
+| CCS | [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) | selected_full_text_sections |
 | IACR ePrint | [A Practical Tutorial on Deep Learning-based Side-channel Analysis](https://eprint.iacr.org/2025/471) | abstract_and_bibliographic_metadata |
 | IACR ePrint | [FAEST for Memory-Constrained Devices](https://eprint.iacr.org/2025/1261) | abstract_and_bibliographic_metadata |
 | Journal of Cryptographic Engineering | [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) | selected_full_text_sections |
@@ -223,6 +240,7 @@
 | IACR ePrint | [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://eprint.iacr.org/2024/1715) | abstract_and_bibliographic_metadata |
 | IACR ePrint | [Single-trace side-channel attacks on MAYO exploiting leaky modular multiplication](https://eprint.iacr.org/2024/1850) | abstract_and_bibliographic_metadata |
 | IACR ePrint | [Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Side-Channel Analysis](https://eprint.iacr.org/2024/170) | abstract_and_bibliographic_metadata |
+| IACR ePrint | [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://eprint.iacr.org/2024/1875) | abstract_and_bibliographic_metadata |
 | INDOCRYPT | [OccPoIs: Points of Interest Based on Neural Network’s Key Recovery in Side-Channel Analysis Through Occlusion](https://doi.org/10.1007/978-3-031-80311-6_1) | abstract_and_bibliographic_metadata |
 | JCEN | [Regularizers to the rescue: fighting overfitting in deep learning-based side-channel analysis](https://doi.org/10.1007/s13389-024-00361-5) | abstract_and_bibliographic_metadata |
 | Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | abstract_and_bibliographic_metadata |
@@ -265,6 +283,7 @@
 | TCHES | [Masking FALCON’s Floating-Point Multiplication in Hardware](https://doi.org/10.46586/tches.v2024.i4.483-508) | abstract_and_bibliographic_metadata |
 | TCHES | [Masking Floating-Point Number Multiplication and Addition of Falcon: First- and Higher-order Implementations and Evaluations](https://doi.org/10.46586/tches.v2024.i2.276-303) | abstract_and_bibliographic_metadata |
 | TCHES | [MiRitH: Efficient Post-Quantum Signatures from MinRank in the Head](https://doi.org/10.46586/tches.v2024.i2.304-328) | abstract_and_bibliographic_metadata |
+| TCHES | [PoMMES: Prevention of Micro-architectural Leakages in Masked Embedded Software](https://doi.org/10.46586/tches.v2024.i3.342-376) | abstract_and_bibliographic_metadata |
 | TCHES | [SPA-GPT: General Pulse Tailor for Simple Power Analysis Based on Reinforcement Learning](https://doi.org/10.46586/tches.v2024.i4.40-83) | abstract_and_bibliographic_metadata |
 | TCHES | [Single trace HQC shared key recovery with SASCA](https://doi.org/10.46586/tches.v2024.i2.64-87) | abstract_and_bibliographic_metadata |
 | TCHES | [TPMScan: A wide-scale study of security-relevant properties of TPM 2.0 chips](https://doi.org/10.46586/tches.v2024.i2.714-734) | abstract_and_bibliographic_metadata |

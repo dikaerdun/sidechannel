@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 425 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 444 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Differential Power Analysis
 
@@ -2116,6 +2116,18 @@
 - [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
 - 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
 
+## mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order
+
+- 来源：[IACR ePrint 2024](https://eprint.iacr.org/2024/1875)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Suparna Kundu; Quinten Norga; Angshuman Karmakar; Uttam Kumar Ojha; Anindya Ganguly; Ingrid Verbauwhede
+- 对象：UOV, MQ signatures, masking；类型：masking。
+- 核心想法：保存 mUOV 的作者修订版及 CCS 2025 关联。
+- 作者报告：作者摘要提出 UOV 任意阶掩码、探针模型证明及 TVLA 评估。
+- 限制与下一步：明确声明 CCS 2025 的 minor revision；与正式条目不是独立复现。实测与机械验证边界见正式条目的选读笔记，NIST 稿与最终 ACM 未逐字比对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2024/1875。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
 ## OccPoIs: Points of Interest Based on Neural Network’s Key Recovery in Side-Channel Analysis Through Occlusion
 
 - 来源：[INDOCRYPT 2024](https://doi.org/10.1007/978-3-031-80311-6_1)；时间标记：within frozen rolling window by recorded publication or author-upload date。
@@ -2590,6 +2602,18 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## PoMMES: Prevention of Micro-architectural Leakages in Masked Embedded Software
+
+- 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i3.342-376)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Jannik Zeitschner; Amir Moradi
+- 对象：PoMMES, masking, register allocation, Cortex-M0+；类型：compiler countermeasure。
+- 核心想法：用微架构感知的寄存器分配，把高层掩码函数编译为避免份额意外重组合的汇编。
+- 作者报告：作者摘要报告任意阶方法面向顺序执行处理器，并提供模拟与 Cortex-M0+ 功耗泄漏评估。
+- 限制与下一步：仅读出版商提交的摘要；通用微架构模型及各阶实测范围待正文，不把理论阶数直接当作全部高阶硬件验证。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/journals/2569-2925/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-11-12&rows=1000&cursor=%2A。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
 ## SPA-GPT: General Pulse Tailor for Simple Power Analysis Based on Reinforcement Learning
 
 - 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i4.40-83)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
@@ -2685,6 +2709,213 @@
 - 已读章节：PDF p.1 abstract and bibliography; PDF p.4 section 3 Threat Model
 - [详细阅读记录](notes/power-observation-and-pqc-boundaries-20261113.md)
 - 代码/数据核查：not checked；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
+
+## An Empirical Study Measuring In-The-Wild Cryptographic Microarchitectural Side-Channel Patches
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3744881)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Sen Deng; Zhibo Liu; Shuai Wang; Yinqian Zhang
+- 对象：cryptographic libraries, patches, cache, ciphertext leakage；类型：evaluation。
+- 核心想法：整理真实密码库的微架构侧信道补丁，并用污点分析与符号执行评估。
+- 作者报告：作者报告 SideBench 含 OpenSSL、wolfSSL、MbedTLS 的 165 个补丁，其中 25 个仍有泄漏；不同泄漏模型之间可能发生修复冲突。
+- 限制与下一步：仅读作者机构摘要；具体版本、漏洞判据及补丁性能基线尚待读，不能当作当前所有库版本均受影响。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://researchportal.hkust.edu.hk/en/publications/an-empirical-study-measuring-in-the-wild-cryptographic-microarchi/。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## BLACKOUT: Data-Oblivious Computation with Blinded Capabilities
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765169)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Hossam ElAtali; Merve Gülmez; Thomas Nyman; N. Asokan
+- 对象：CHERI, data-oblivious computation, blinded capabilities；类型：countermeasure。
+- 核心想法：扩展 CHERI 能力机制，让违反数据无关操作规则的秘密访问显式触发异常。
+- 作者报告：作者在 CHERI-Toooba FPGA 软核及配套编译器、系统上实现 BLACKOUT，所选基准几何平均开销为 1.5%。
+- 限制与下一步：作者明确关联的 CCS 预印本摘要；具体观察模型与异常本身的可见性仍待正文，不能推广到功耗、电磁和所有 CHERI 部署。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2504.14654。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## BOLT: Bandwidth-Optimized Lightning-Fast Oblivious Map powered by Secure HBM Accelerators
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765069)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Yitong Guo; Hongbo Chen; Haobin Hiroki Chen; Yukui Luo; XiaoFeng Wang; Chenghong Wang
+- 对象：OMAP, HBM, access patterns；类型：countermeasure。
+- 核心想法：利用隔离的 HBM 作为不可观察缓存，并将执行和内存控制卸载到加速器。
+- 作者报告：作者报告在 Xilinx U55C 上实现 BOLT，改善 OMAP 带宽与所选负载的初始化和查询时间。
+- 限制与下一步：依赖隔离 HBM 的数据与访问轨迹不可观察这一威胁模型前提；封装困难不等于所有物理信号无泄漏。仅读作者预印本摘要。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2509.01742。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765061)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Fabian Thomas; Michael Torres; Daniel Moghimi; Michael Schwarz
+- 对象：ARM64, cache, timer-free, AES；类型：automated discovery。
+- 核心想法：自动寻找将缓存状态映射到架构状态的指令序列，以绕开计时器限制。
+- 作者报告：作者页面报告覆盖 160 台设备、37 种微架构，发现五种未记录通道，展示无计时器 Spectre 与 AES 恢复案例。
+- 限制与下一步：仅读作者项目摘要；五种发现不等于全部都可靠可利用，作者区分其中两种的广泛可靠性。芯片条件、权限和恢复预算待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://fabianthomas.de/publications/2025/thomas2025exfilstate/。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## GhostCache: Timer- and Counter-Free Cache Attacks Exploiting Weak Coherence on RISC-V and ARM Chips
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3744833)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Yu Jin; Minghong Sun; Dongsheng Wang; Pengfei Qiu; Yinqian Zhang; Shuwen Deng
+- 对象：RISC-V, ARM, instruction cache, weak coherence；类型：attack。
+- 核心想法：利用一级缓存弱一致性构造无计时器、无计数器的指令缓存观察。
+- 作者报告：作者报告商业与开源 RISC 处理器案例，涉及网站指纹、内核泄漏及密码密钥重建。
+- 限制与下一步：仅读实验室摘要；隐蔽通道带宽、分类准确率及密钥恢复不是同一个指标，不能相互替代或推广为所有 ARM/RISC-V 芯片。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.thu-haslab.org/publication/2025-ghostcache/。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## Heracles: Chosen Plaintext Attack on AMD SEV-SNP
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765209)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Benedict Schlüter; Christoph Wech; Shweta Shinde
+- 对象：SEV-SNP, ciphertext side channel, page relocation；类型：attack。
+- 核心想法：结合确定性内存重加密与虚拟机页移动能力，建立密文观察关系。
+- 作者报告：作者项目摘要报告块与字节级泄漏原语，以及内核、密码密钥、口令和会话案例。
+- 限制与下一步：需要恶意管理程序和特定页移动及密文观察能力；不是被动功耗攻击。项目页与论文版本的原语数量及固件适用范围尚待核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://heracles-attack.github.io/。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## IOValve: Leakage-Free I/O Sandbox for Large-Scale Untrusted Data Processing
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765121)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Sangho Lee; Jules Drean; Yue Tan; Marcus Peinado
+- 对象：covert channels, network I/O, sandbox；类型：countermeasure。
+- 核心想法：将 I/O 沙箱放到与计算处理器物理隔离的可编程网络设备，规整并加密网络流量。
+- 作者报告：作者机构摘要报告支持 LLM 微调、批量推理和分子模拟，开销较小。
+- 限制与下一步：保护依赖全部网络 I/O 被拦截和隔离边界；摘要不证明功耗、电磁等任意外部观察无泄漏。HTTP 抓取失败，完整摘要由网页工具读取并保留提取文本。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.microsoft.com/en-us/research/publication/iovalve-leakage-free-i-o-sandbox-for-large-scale-untrusted-data-processing/。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## ML-Cube: Accelerating Module-Lattice-Based Cryptography using Machine Learning Accelerators with a Memory-Less Design
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765130)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Tian Zhou; Fangyu Zheng; Zhuoyu Xie; Wenxu Tang; Guang Fan; Yijing Ning; Yi Bian; Jingqiang Lin; Jiwu Jing
+- 对象：ML-KEM, ML-DSA, NTT, Tensor Cores, cache；类型：implementation and countermeasure claim。
+- 核心想法：在机器学习加速器内部以寄存器承载主要 NTT 和多项式运算，减少外部内存依赖。
+- 作者报告：作者摘要报告 Tensor Core 加速，并明确声称寄存器内核心计算可缓解内存披露和缓存侧信道。
+- 限制与下一步：只有作者公开摘要及正式元数据；缓存缓解尚无本库读到的攻击/防护评估，不能由 memory-less 推断恒时、功耗安全或完整实现无泄漏。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://bianyiby.github.io/publications/。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## MileSan: Detecting Exploitable Microarchitectural Leakage via Differential Hardware-Software Taint Tracking
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765066)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Tobias Kovats; Flavien Solt; Katharina Ceesay-Seitz; Kaveh Razavi
+- 对象：RTL, taint tracking, RISC-V, transient execution；类型：automated discovery。
+- 核心想法：比较软件架构污点流与 RTL 微架构污点流，寻找额外且可被架构观察的影响。
+- 作者报告：作者报告 RandOS 在五种 RISC-V CPU 上发现 19 个新的恒时违例或瞬态执行问题。
+- 限制与下一步：仅论文摘要和作者项目说明；对给定程序的检测、随机程序搜索覆盖与整个 CPU 的无漏洞证明不同，不涵盖未建模模拟功耗。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://comsec-files.ethz.ch/papers/milesan_ccs25.pdf。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765174)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Ruyi Ding; Tianhong Xu; Xinyi Shen; Aidong Adam Ding; Yunsi Fei
+- 对象：MoE, LLM, VLM, CPU, GPU；类型：attack。
+- 核心想法：研究专家路由引起的输入相关硬件执行痕迹，并用于用户内容推断。
+- 作者报告：作者摘要列出 CPU 缓存占用及 Pageout+Reload、GPU 计数器及 TLB 通道，报告提示、响应和视觉任务。
+- 限制与下一步：非密码目标侧信道；四类推断/重建任务的访问条件和准确率未读正文，不解释为任意提示逐字恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2508.15036。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## Pixnapping: Bringing Pixel Stealing out of the Stone Age
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765093)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Alan Wang; Pranav Gopalkrishnan; Yingchen Wang; Christopher W. Fletcher; Hovav Shacham; David Kohlbrenner; Riccardo Paccagnella
+- 对象：Android, GPU compression, pixel stealing；类型：attack。
+- 核心想法：利用 Android 渲染接口与像素相关时间差，在浏览器外重建其他应用显示的内容。
+- 作者报告：作者摘要报告 Google 和 Samsung 手机案例，并演示获取 Google Authenticator 显示的短时 2FA 码。
+- 限制与下一步：需要运行恶意应用且秘密进入可见渲染流程；不是读取从未显示的任意密钥。具体型号和补丁时点按作者材料限定，不外推当前所有 Android 版本。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.pixnapping.com/pixnapping.pdf。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## Securing Cryptographic Software via Typed Assembly Language
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765116)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Shixin Song; Tingzhen Dong; Kosi Nwabueze; Julian Zanders; Andres Erbsen; Adam Chlipala; Mengjia Yan
+- 对象：SecSep, Octal, typed assembly, speculation；类型：countermeasure。
+- 核心想法：通过汇编类型推断和重写分离秘密与公开栈数据，配合硬件污点跟踪保护推测执行。
+- 作者报告：作者报告所测密码程序平均开销 1.2%，并定义软件和硬件两侧的公开非干扰契约。
+- 限制与下一步：前提是恒时软件及满足相应契约的硬件（引用 ProSpeCT）；不是单靠汇编变换保护任意现有处理器，也不是功耗安全证明。录用题名比出版/作者 PDF 多出硬件扩展短语。
+- 阅读层级：selected_full_text_sections；来源：https://people.csail.mit.edu/mengjia/data/2025.CCS.SecSep.pdf。
+- 已读章节：Author CCS-format PDF pages 1 and 3: abstract, threat model, software/hardware public noninterference and stack-rewriting motivation. Remaining proofs and evaluation not fully reviewed.
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## Synthesis of Sound and Precise Leakage Contracts for Open-Source RISC-V Processors
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765148)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Zilong Wang; Gideon Mohr; Klaus von Gleissenthall; Jan Reineke; Marco Guarnieri
+- 对象：LeaSyn, leakage contracts, RISC-V, RTL；类型：formal verification。
+- 核心想法：在用户给定模板内交替进行经验泄漏表征、契约合成与健全性验证。
+- 作者报告：作者报告在六个开源 RISC-V CPU 上生成更精确的契约。
+- 限制与下一步：精确性针对模板与探索到的测试对；健全性相对于给定 RTL 和攻击者观察模型，不表示覆盖所有物理功耗/电磁通道。仅读摘要和第 2 节概览。
+- 阅读层级：selected_full_text_sections；来源：https://mguarnieri.github.io/publication/ccs2025/ccs2025.pdf。
+- 已读章节：Author CCS-format PDF pages 1 and 3: abstract and Section 2 overview, observation example, soundness/precision and template scope. Remaining proof and evaluation sections not reviewed.
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## TEMPEST-LoRa: Cross-Technology Covert Communication
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3744817)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Xieyang Sun; Yuanqing Zheng; Wei Xi; Zuhao Chen; Zhizhen Chen; Han Hao; Zhiping Jiang; Sheng Zhong
+- 对象：electromagnetic, video cable, LoRa；类型：covert channel。
+- 核心想法：操控视频线电磁辐射，使其可由商用 LoRa 接收端解码。
+- 作者报告：作者摘要报告远距离或较高速率的隐蔽传输案例，并可在显示器关闭时发送。
+- 限制与下一步：主动调制的隐蔽通信需要发送端控制与数据获取条件；不是无需执行控制的被动密码能耗泄漏。最大距离与最大速率不能视为同时达到。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2506.21069。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## Timing Attacks on Differential Privacy are Practical
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765146)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Zachary Ratliff; Nicolas Berrios; James Mickens
+- 对象：differential privacy, timing, preprocessing；类型：evaluation。
+- 核心想法：将运行时间和输出联合纳入 DP 实现的隐私审计，包括排序、过滤等预处理。
+- 作者报告：作者报告 diffprivlib、OpenDP、PyDP 的计时问题，并给出观察输出和时间时的经验隐私损失下界。
+- 限制与下一步：输出分布的 DP 保证不自动覆盖时间；数据库大小是否公开、邻接关系和观测噪声都影响结论。仅读摘要，审计下界不是完备安全证明。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://zacharyratliff.org/files/dp-timing-attacks.pdf。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## WireTap: Breaking Server SGX via DRAM Bus Interposition
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765204)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Alex Seto; Oytun Kuday Duran; Samy Amer; Jalen Chuang; Stephan van Schaik; Daniel Genkin; Christina Garman
+- 对象：SGX, DRAM bus, deterministic encryption；类型：physical attack。
+- 核心想法：通过物理 DRAM 总线观察与服务器 SGX 的确定性加密行为分析机密执行。
+- 作者报告：作者报告提取服务器 SGX 证明密钥及区块链部署的后果。
+- 限制与下一步：明确需要物理接触并超出 Intel 所声明的物理攻击保护边界；不能描述为仅远程或软件级攻击。仅读论文摘要。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://wiretap.fail/files/wiretap.pdf。
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765188)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Suparna Kundu; Quinten Norga; Angshuman Karmakar; Uttam Kumar Ojha; Anindya Ganguly; Ingrid Verbauwhede
+- 对象：UOV, MQ signatures, masking, t-probing, Cortex-M4；类型：masking。
+- 核心想法：为 UOV 的点积、矩阵运算和签名流程提出掩码部件，并处理实现中的微架构重组合。
+- 作者报告：NIST 托管稿给出任意阶探针模型论证；部分 maskVerif 检查为一/二阶；实测为缩小参数 m=4、n=10 的一阶 TVLA。
+- 限制与下一步：完整签名组合因 NIo 工具限制未机械验证；Cortex-M4 泄漏测试与 i7 周期基准分开。未超检测阈值不是完整安全证明，正式 ACM 与 NIST 托管稿未逐字比对。
+- 阅读层级：selected_full_text_sections；来源：https://eprint.iacr.org/2024/1875。
+- 已读章节：NIST-hosted author manuscript: PDF page 1; pages 15-18 (composition caveat, implementation, TVLA, performance); pages 19-22 bibliography and discussion; page 23 Appendix A only. Page 17 table/figure visually checked. Remaining proofs and appendices not fully reviewed.
+- [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：52 author-manuscript entries screened: 11 linked, 17 pending, 24 provisional background; not closure。
 
 ## A Practical Tutorial on Deep Learning-based Side-channel Analysis
 

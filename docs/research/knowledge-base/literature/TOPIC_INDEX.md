@@ -23,6 +23,7 @@
 
 - 2023 SP · [Rethinking Searchable Symmetric Encryption](https://doi.org/10.1109/sp46215.2023.10179460) · system_metadata_side_channel · abstract_and_bibliographic_metadata
 - 2024 SP · [BULKOR: Enabling Bulk Loading for Path ORAM](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
+- 2025 CCS · [BOLT: Bandwidth-Optimized Lightning-Fast Oblivious Map powered by Secure HBM Accelerators](https://doi.org/10.1145/3719027.3765069) · countermeasure · abstract_and_bibliographic_metadata
 - 2026 USENIX · [DDR-SSE: Duplicated Retrieval of Documents for System-wide Secure Searchable Symmetric Encryption](https://www.usenix.org/conference/usenixsecurity26/presentation/gui) · metadata_countermeasure · abstract_and_bibliographic_metadata
 - 2026 USENIX · [DuetORAM: Two-Server Distributed ORAM with Constant Rounds and O(log N) Communication](https://www.usenix.org/conference/usenixsecurity26/presentation/li-feng) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
 - 2026 SP · [LatORAM: ORAMs from Lateral Stashes and Delayed Shuffling](https://doi.org/10.1109/sp63933.2026.00075) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
@@ -59,6 +60,7 @@
 - 2020 EUROCRYPT · [Side-Channel Masking with Pseudo-Random Generator](https://doi.org/10.1007/978-3-030-45727-3_12) · countermeasure · abstract_and_bibliographic_metadata
 - 2023 SP · [Spectre Declassified: Reading from the Right Place at the Wrong Time](https://doi.org/10.1109/sp46215.2023.10179355) · formal_and_experimental_side_channel · abstract_and_bibliographic_metadata
 - 2025 USENIX · [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) · blind side-channel analysis · selected_full_text_sections
+- 2025 CCS · [ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs](https://doi.org/10.1145/3719027.3765061) · automated discovery · abstract_and_bibliographic_metadata
 - 2025 TCHES · [PhaseSCA: Exploiting Phase-Modulated Emanations in Side Channels](https://doi.org/10.46586/tches.v2025.i1.392-419) · measurement · abstract_and_bibliographic_metadata
 - 2025 USENIX · [SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution](https://www.usenix.org/conference/usenixsecurity25/presentation/weber) · automated side-channel inference · abstract_and_bibliographic_metadata
 - 2025 USENIX · [Systematic Evaluation of Randomized Cache Designs against Cache Occupancy](https://www.usenix.org/conference/usenixsecurity25/presentation/chakraborty) · cache security evaluation · abstract_and_bibliographic_metadata
@@ -97,6 +99,7 @@
 ## Android
 
 - 2025 SP · [I Know What You Sync: Covert and Side Channel Attacks on File Systems via syncfs](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-158) · shared_resource_timing_side_channel · abstract_and_bibliographic_metadata
+- 2025 CCS · [Pixnapping: Bringing Pixel Stealing out of the Stone Age](https://doi.org/10.1145/3719027.3765093) · attack · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Bridges to Self: Silent Web-to-App Tracking on Mobile via Localhost](https://www.usenix.org/conference/usenixsecurity26/presentation/vlummens) · cross_context_tracking · abstract_and_bibliographic_metadata
 
 ## AnonSat
@@ -139,6 +142,7 @@
 
 ## ARM
 
+- 2025 CCS · [GhostCache: Timer- and Counter-Free Cache Attacks Exploiting Weak Coherence on RISC-V and ARM Chips](https://doi.org/10.1145/3719027.3744833) · attack · abstract_and_bibliographic_metadata
 - 2026 SP · [RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence](https://doi.org/10.1109/sp63933.2026.00192) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
 
 ## ARM Cortex-M0/M3
@@ -156,6 +160,10 @@
 ## ARM pointer authentication
 
 - 2022 ISCA · [PACMAN: attacking ARM pointer authentication with speculative execution](https://doi.org/10.1145/3470496.3527429) · attack · abstract_and_bibliographic_metadata
+
+## ARM64
+
+- 2025 CCS · [ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs](https://doi.org/10.1145/3719027.3765061) · automated discovery · abstract_and_bibliographic_metadata
 
 ## ARMv8-A
 
@@ -276,6 +284,10 @@
 - 2024 IACR ePrint · [Machine Learning based Blind Side-Channel Attacks on PQC-based KEMs - A Case Study of Kyber KEM](https://eprint.iacr.org/2024/169) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [TAME: A Deep Learning-based Blind Side-Channel Analysis Framework](https://doi.org/10.46586/tches.v2026.i4.632-655) · method · abstract_and_bibliographic_metadata
 
+## blinded capabilities
+
+- 2025 CCS · [BLACKOUT: Data-Oblivious Computation with Blinded Capabilities](https://doi.org/10.1145/3719027.3765169) · countermeasure · abstract_and_bibliographic_metadata
+
 ## blood pressure
 
 - 2025 SP · [BPSniff: Continuously Surveilling Private Blood Pressure Information in the Metaverse via Unrestricted Inbuilt Motion Sensors](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-81) · sensor_side_channel · abstract_and_bibliographic_metadata
@@ -350,6 +362,9 @@
 ## cache
 
 - 2023 SP · [A Security RISC: Microarchitectural Attacks on Hardware RISC-V CPUs](https://doi.org/10.1109/sp46215.2023.10179399) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
+- 2025 CCS · [An Empirical Study Measuring In-The-Wild Cryptographic Microarchitectural Side-Channel Patches](https://doi.org/10.1145/3719027.3744881) · evaluation · abstract_and_bibliographic_metadata
+- 2025 CCS · [ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs](https://doi.org/10.1145/3719027.3765061) · automated discovery · abstract_and_bibliographic_metadata
+- 2025 CCS · [ML-Cube: Accelerating Module-Lattice-Based Cryptography using Machine Learning Accelerators with a Memory-Less Design](https://doi.org/10.1145/3719027.3765130) · implementation and countermeasure claim · abstract_and_bibliographic_metadata
 - 2026 SP · [Keytar: Practical Keystroke Timing Attacks and Input Reconstruction](https://doi.org/10.1109/sp63933.2026.00106) · side_channel_reconstruction · abstract_and_bibliographic_metadata
 - 2026 SP · [RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence](https://doi.org/10.1109/sp63933.2026.00192) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
 
@@ -413,6 +428,10 @@
 - 2020 SP · [The Last Mile: High-Assurance and High-Speed Cryptographic Implementations](https://doi.org/10.1109/sp40000.2020.00028) · formal_verification_and_implementation · selected_full_text_sections
 - 2025 TCHES · [HADES: Automated Hardware Design Exploration for Cryptographic Primitives](https://doi.org/10.46586/tches.v2025.i4.1-45) · countermeasure_design_tool · abstract_and_bibliographic_metadata
 
+## CHERI
+
+- 2025 CCS · [BLACKOUT: Data-Oblivious Computation with Blinded Capabilities](https://doi.org/10.1145/3719027.3765169) · countermeasure · abstract_and_bibliographic_metadata
+
 ## chosen ciphertext
 
 - 2022 TC · [Magnifying Side-Channel Leakage of Lattice-Based Cryptosystems With Chosen Ciphertexts: The Case Study of Kyber](https://doi.org/10.1109/tc.2021.3122997) · attack · abstract_and_bibliographic_metadata
@@ -444,6 +463,10 @@
 
 - 2025 USENIX · [Relocate-Vote: Using Sparsity Information to Exploit Ciphertext Side-Channels](https://www.usenix.org/conference/usenixsecurity25/presentation/yan-yuqin) · ciphertext side-channel attack · abstract_and_bibliographic_metadata
 
+## ciphertext leakage
+
+- 2025 CCS · [An Empirical Study Measuring In-The-Wild Cryptographic Microarchitectural Side-Channel Patches](https://doi.org/10.1145/3719027.3744881) · evaluation · abstract_and_bibliographic_metadata
+
 ## ciphertext length
 
 - 2023 SP · [DBREACH: Stealing from Databases Using Compression Side-Channels](https://doi.org/10.1109/sp46215.2023.10179359) · compression_side_channel · abstract_and_bibliographic_metadata
@@ -456,6 +479,7 @@
 ## ciphertext side channel
 
 - 2022 SP · [A Systematic Look at Ciphertext Side Channels on AMD SEV-SNP](https://doi.org/10.1109/sp46214.2022.9833768) · side_channel_analysis · abstract_and_bibliographic_metadata
+- 2025 CCS · [Heracles: Chosen Plaintext Attack on AMD SEV-SNP](https://doi.org/10.1145/3719027.3765209) · attack · abstract_and_bibliographic_metadata
 
 ## Classic McEliece
 
@@ -550,6 +574,10 @@
 
 - 2024 SP · [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · hardware_supported_side_channel_countermeasure · abstract_and_bibliographic_metadata
 
+## Cortex-M0+
+
+- 2024 TCHES · [PoMMES: Prevention of Micro-architectural Leakages in Masked Embedded Software](https://doi.org/10.46586/tches.v2024.i3.342-376) · compiler countermeasure · abstract_and_bibliographic_metadata
+
 ## Cortex-M3
 
 - 2019 ACNS · [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) · countermeasure_and_evaluation · abstract_and_bibliographic_metadata
@@ -565,6 +593,7 @@
 - 2022 TCHES · [Multi-moduli NTTs for Saber on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2022.i1.127-151) · masked_implementation_optimization · abstract_and_bibliographic_metadata
 - 2024 TCHES · [HAETAE: Shorter Lattice-Based Fiat-Shamir Signatures](https://doi.org/10.46586/tches.v2024.i3.25-75) · countermeasure_and_scheme_design · abstract_and_bibliographic_metadata
 - 2024 ACM TECS · [Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication](https://doi.org/10.1145/3569420) · polynomial_multiplication_side_channel · selected_full_text_sections
+- 2025 CCS · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) · masking · selected_full_text_sections
 - 2026 TCHES · [Adapting AES-Oriented Optimizations to Rijndael-256: Cortex-M4, ARMv8-A, and CUDA](https://doi.org/10.46586/tches.v2026.i4.575-596) · constant_time_implementation · abstract_and_bibliographic_metadata
 
 ## covert channel
@@ -574,11 +603,19 @@
 - 2026 SP · [Practical Covert Channel Across Isolated Browser Instances via GPU Command Queue Contention](https://doi.org/10.1109/sp63933.2026.00254) · covert_channel · abstract_and_bibliographic_metadata
 - 2026 USENIX · [TrojPix: Electromagnetic Covert Channels via Imperceptible Pixel Modulation](https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-guoming) · physical_covert_channel · abstract_and_bibliographic_metadata
 
+## covert channels
+
+- 2025 CCS · [IOValve: Leakage-Free I/O Sandbox for Large-Scale Untrusted Data Processing](https://doi.org/10.1145/3719027.3765121) · countermeasure · abstract_and_bibliographic_metadata
+
 ## CPA
 
 - 2023 IACR ePrint · [Lightweight but Not Easy: Side-channel Analysis of the Ascon Authenticated Cipher on a 32-bit Microcontroller](https://eprint.iacr.org/2023/1598) · attack · abstract_and_bibliographic_metadata
 - 2024 ACM TECS · [Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication](https://doi.org/10.1145/3569420) · polynomial_multiplication_side_channel · selected_full_text_sections
 - 2025 TCAS-II · [A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber](https://doi.org/10.1109/tcsii.2025.3528751) · hardware_countermeasure · selected_full_text_sections
+
+## CPU
+
+- 2025 CCS · [MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs](https://doi.org/10.1145/3719027.3765174) · attack · abstract_and_bibliographic_metadata
 
 ## CPU cache
 
@@ -603,6 +640,10 @@
 ## Crucible
 
 - 2026 SP · [Crucible: Retrofitting Commodity CPUs with Vulnerabilities via Transparent Software Emulation](https://doi.org/10.1109/sp63933.2026.00186) · research_infrastructure · abstract_and_bibliographic_metadata
+
+## cryptographic libraries
+
+- 2025 CCS · [An Empirical Study Measuring In-The-Wild Cryptographic Microarchitectural Side-Channel Patches](https://doi.org/10.1145/3719027.3744881) · evaluation · abstract_and_bibliographic_metadata
 
 ## CSIDH
 
@@ -663,6 +704,10 @@
 
 - 2025 SP · [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) · attack · selected_full_text_sections
 
+## data-oblivious computation
+
+- 2025 CCS · [BLACKOUT: Data-Oblivious Computation with Blinded Capabilities](https://doi.org/10.1145/3719027.3765169) · countermeasure · abstract_and_bibliographic_metadata
+
 ## database
 
 - 2023 SP · [DBREACH: Stealing from Databases Using Compression Side-Channels](https://doi.org/10.1109/sp46215.2023.10179359) · compression_side_channel · abstract_and_bibliographic_metadata
@@ -715,6 +760,10 @@
 
 - 2025 SP · [Sparta: Practical Anonymity with Long-Term Resistance to Traffic Analysis](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-103) · traffic_analysis_countermeasure · selected_full_text_sections
 
+## deterministic encryption
+
+- 2025 CCS · [WireTap: Breaking Server SGX via DRAM Bus Interposition](https://doi.org/10.1145/3719027.3765204) · physical attack · abstract_and_bibliographic_metadata
+
 ## developer survey
 
 - 2022 SP · ["They're not that hard to mitigate": What Cryptographic Library Developers Think About Timing Attacks](https://doi.org/10.1109/sp46214.2022.9833713) · developer_study · abstract_and_bibliographic_metadata
@@ -739,6 +788,7 @@
 
 - 2022 SP · [Are We There Yet? Timing and Floating-Point Attacks on Differential Privacy Systems](https://doi.org/10.1109/sp46214.2022.9833672) · implementation_side_channel · abstract_and_bibliographic_metadata
 - 2024 DSN · [Protecting Confidential Virtual Machines from Hardware Performance Counter Side Channels](https://doi.org/10.1109/DSN58291.2024.00031) · countermeasure · selected_full_text_sections
+- 2025 CCS · [Timing Attacks on Differential Privacy are Practical](https://doi.org/10.1145/3719027.3765146) · evaluation · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors](https://www.usenix.org/conference/usenixsecurity26/presentation/murakami) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
 
 ## Diffie-Hellman
@@ -862,6 +912,10 @@
 - 2022 SP · [Noise-SDR: Arbitrary Modulation of Electromagnetic Noise from Unprivileged Software and Its Impact on Emission Security](https://doi.org/10.1109/sp46214.2022.9833767) · physical_channel_construction · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Principled Design of Indexing Functions for Memory Coloring](https://www.usenix.org/conference/usenixsecurity26/presentation/duebler) · microarchitectural_countermeasure · abstract_and_bibliographic_metadata
 
+## DRAM bus
+
+- 2025 CCS · [WireTap: Breaking Server SGX via DRAM Bus Interposition](https://doi.org/10.1145/3719027.3765204) · physical attack · abstract_and_bibliographic_metadata
+
 ## DRAMA
 
 - 2025 SP · [Rapid Reversing of Non-Linear CPU Cache Slice Functions: Unlocking Physical Address Leakage](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-143) · microarchitectural_mapping_and_side_channel · abstract_and_bibliographic_metadata
@@ -921,6 +975,7 @@
 - 2022 SP · [Graphics Peeping Unit: Exploiting EM Side-Channel Information of GPUs to Eavesdrop on Your Neighbors](https://doi.org/10.1109/sp46214.2022.9833773) · physical_side_channel · abstract_and_bibliographic_metadata
 - 2023 SP · [DeHiREC: Detecting Hidden Voice Recorders via ADC Electromagnetic Radiation](https://doi.org/10.1109/sp46215.2023.10179480) · physical_side_channel_detection · abstract_and_bibliographic_metadata
 - 2023 TCAS-I · [Side Channel Security Oriented Evaluation and Protection on Hardware Implementations of Kyber](https://doi.org/10.1109/tcsi.2023.3288600) · hardware_evaluation_and_countermeasure · selected_full_text_sections
+- 2025 CCS · [TEMPEST-LoRa: Cross-Technology Covert Communication](https://doi.org/10.1145/3719027.3744817) · covert channel · abstract_and_bibliographic_metadata
 - 2026 SP · [PrintSpy: Pixel-Level Eavesdropping on Commodity Laser Printers via Electromagnetic Side Channels](https://doi.org/10.1109/sp63933.2026.00119) · physical_side_channel · abstract_and_bibliographic_metadata
 
 ## electromagnetic emission
@@ -1216,12 +1271,17 @@
 
 - 2022 SP · [Graphics Peeping Unit: Exploiting EM Side-Channel Information of GPUs to Eavesdrop on Your Neighbors](https://doi.org/10.1109/sp46214.2022.9833773) · physical_side_channel · abstract_and_bibliographic_metadata
 - 2024 SP · [GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · compression_side_channel · abstract_and_bibliographic_metadata
+- 2025 CCS · [MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs](https://doi.org/10.1145/3719027.3765174) · attack · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Behind Bars: A Side-Channel Attack on NVIDIA MIG Cache Partitioning Using Memory Barriers](https://www.usenix.org/conference/usenixsecurity26/presentation/gu-cheng) · microarchitectural_attack · abstract_and_bibliographic_metadata
 - 2026 USENIX · [TIMESLICE-SANDWICH: A GPU Side-Channel Attack Exploiting Time-Sliced Scheduling](https://www.usenix.org/conference/usenixsecurity26/presentation/kim-hodong) · scheduling_side_channel · abstract_and_bibliographic_metadata
 
 ## GPU command queues
 
 - 2026 SP · [Practical Covert Channel Across Isolated Browser Instances via GPU Command Queue Contention](https://doi.org/10.1109/sp63933.2026.00254) · covert_channel · abstract_and_bibliographic_metadata
+
+## GPU compression
+
+- 2025 CCS · [Pixnapping: Bringing Pixel Stealing out of the Stone Age](https://doi.org/10.1145/3719027.3765093) · attack · abstract_and_bibliographic_metadata
 
 ## GPU workload
 
@@ -1271,6 +1331,10 @@
 ## HAWK
 
 - 2024 TCHES · [A Not So Discrete Sampler: Power Analysis Attacks on HAWK signature scheme](https://doi.org/10.46586/tches.v2024.i4.156-178) · attack · abstract_and_bibliographic_metadata
+
+## HBM
+
+- 2025 CCS · [BOLT: Bandwidth-Optimized Lightning-Fast Oblivious Map powered by Secure HBM Accelerators](https://doi.org/10.1145/3719027.3765069) · countermeasure · abstract_and_bibliographic_metadata
 
 ## HDD vibration
 
@@ -1399,6 +1463,10 @@
 ## information flow
 
 - 2023 SP · [Only Pay for What You Leak: Leveraging Sandboxes for a Minimally Invasive Browser Fingerprinting Defense](https://doi.org/10.1109/sp46215.2023.10179385) · browser_countermeasure · abstract_and_bibliographic_metadata
+
+## instruction cache
+
+- 2025 CCS · [GhostCache: Timer- and Counter-Free Cache Attacks Exploiting Weak Coherence on RISC-V and ARM Chips](https://doi.org/10.1145/3719027.3744833) · attack · abstract_and_bibliographic_metadata
 
 ## instruction extraction
 
@@ -1672,9 +1740,17 @@
 
 - 2026 USENIX · [Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles](https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian) · attack · selected_full_text_sections
 
+## leakage contracts
+
+- 2025 CCS · [Synthesis of Sound and Precise Leakage Contracts for Open-Source RISC-V Processors](https://doi.org/10.1145/3719027.3765148) · formal verification · selected_full_text_sections
+
 ## Lean
 
 - 2026 TCHES · [Verified non-recursive calculation of Beneš networks applied to Classic McEliece](https://doi.org/10.46586/tches.v2026.i3.306-333) · constant_time_implementation_and_verification · selected_full_text_sections
+
+## LeaSyn
+
+- 2025 CCS · [Synthesis of Sound and Precise Leakage Contracts for Open-Source RISC-V Processors](https://doi.org/10.1145/3719027.3765148) · formal verification · selected_full_text_sections
 
 ## LEO satellite
 
@@ -1723,6 +1799,7 @@
 
 ## LLM
 
+- 2025 CCS · [MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs](https://doi.org/10.1145/3719027.3765174) · attack · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Behind Bars: A Side-Channel Attack on NVIDIA MIG Cache Partitioning Using Memory Barriers](https://www.usenix.org/conference/usenixsecurity26/presentation/gu-cheng) · microarchitectural_attack · abstract_and_bibliographic_metadata
 - 2026 USENIX · [From Length to Content: Token-Length Side-Channel Attacks on LLM API Merged Outputs](https://www.usenix.org/conference/usenixsecurity26/presentation/li-sijia) · traffic_side_channel · abstract_and_bibliographic_metadata
 - 2026 SP · [Keytar: Practical Keystroke Timing Attacks and Input Reconstruction](https://doi.org/10.1109/sp63933.2026.00106) · side_channel_reconstruction · abstract_and_bibliographic_metadata
@@ -1768,6 +1845,10 @@
 ## LoongArch
 
 - 2026 SP · [RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence](https://doi.org/10.1109/sp63933.2026.00192) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
+
+## LoRa
+
+- 2025 CCS · [TEMPEST-LoRa: Cross-Technology Covert Communication](https://doi.org/10.1145/3719027.3744817) · covert channel · abstract_and_bibliographic_metadata
 
 ## LowMC
 
@@ -1859,6 +1940,9 @@
 - 2023 TCAS-I · [Side Channel Security Oriented Evaluation and Protection on Hardware Implementations of Kyber](https://doi.org/10.1109/tcsi.2023.3288600) · hardware_evaluation_and_countermeasure · selected_full_text_sections
 - 2024 HOST · [Breaking SCA-Protected CRYSTALS-Kyber with a Single Trace](https://doi.org/10.1109/host55342.2024.10545390) · combined_fault_and_side_channel · abstract_and_bibliographic_metadata
 - 2024 Journal of Cryptology · [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) · countermeasure · abstract_and_bibliographic_metadata
+- 2024 TCHES · [PoMMES: Prevention of Micro-architectural Leakages in Masked Embedded Software](https://doi.org/10.46586/tches.v2024.i3.342-376) · compiler countermeasure · abstract_and_bibliographic_metadata
+- 2024 IACR ePrint · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://eprint.iacr.org/2024/1875) · masking · abstract_and_bibliographic_metadata
+- 2025 CCS · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) · masking · selected_full_text_sections
 - 2026 TCHES · [Keep it Simple: Refreshing the NTT of Kyber’s Decapsulation to Prevent Plaintext-Checking Side-Channel Attacks](https://doi.org/10.46586/tches.v2026.i1.472-499) · countermeasure · abstract_and_bibliographic_metadata
 
 ## masking conversion
@@ -1978,6 +2062,7 @@
 
 ## ML-DSA
 
+- 2025 CCS · [ML-Cube: Accelerating Module-Lattice-Based Cryptography using Machine Learning Accelerators with a Memory-Less Design](https://doi.org/10.1145/3719027.3765130) · implementation and countermeasure claim · abstract_and_bibliographic_metadata
 - 2025 SP · [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) · implementation_security_design · selected_full_text_sections
 - 2026 TCHES · [ML-DSA masking sweetened with SUCRE: Shuffle-and-Unmask Countermeasure for REjection sampling](https://doi.org/10.46586/tches.v2026.i1.618-659) · countermeasure · abstract_and_bibliographic_metadata
 
@@ -1988,6 +2073,7 @@
 ## ML-KEM
 
 - 2024 CRYPTO · [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) · formal_pqc_security_and_constant_time · selected_full_text_sections
+- 2025 CCS · [ML-Cube: Accelerating Module-Lattice-Based Cryptography using Machine Learning Accelerators with a Memory-Less Design](https://doi.org/10.1145/3719027.3765130) · implementation and countermeasure claim · abstract_and_bibliographic_metadata
 - 2025 TCHES · [Tailorable codes for lattice-based KEMs with applications to compact ML-KEM instantiations](https://doi.org/10.46586/tches.v2025.i3.139-163) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2025 SP · [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) · implementation_security_design · selected_full_text_sections
 - 2026 TCHES · [A Framework for designing High-Order Side-Channel Protected Hardware Implementations of ML-KEM](https://doi.org/10.46586/tches.v2026.i2.272-295) · countermeasure · abstract_and_bibliographic_metadata
@@ -2019,6 +2105,10 @@
 
 - 2025 SP · [EUCLEAK](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-239) · attack · abstract_and_bibliographic_metadata
 
+## MoE
+
+- 2025 CCS · [MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs](https://doi.org/10.1145/3719027.3765174) · attack · abstract_and_bibliographic_metadata
+
 ## motion privacy
 
 - 2022 SP · [IRShield: A Countermeasure Against Adversarial Physical-Layer Wireless Sensing](https://doi.org/10.1109/sp46214.2022.9833676) · physical_side_channel_countermeasure · abstract_and_bibliographic_metadata
@@ -2040,6 +2130,11 @@
 - 2021 PQCrypto · [Differential Power Analysis of the Picnic Signature Scheme](https://doi.org/10.1007/978-3-030-81293-5_10) · attack · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei) · masking_countermeasure · selected_full_text_sections
 - 2026 IACR ePrint · [HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without Masking](https://eprint.iacr.org/2026/081) · countermeasure_protocol · abstract_and_bibliographic_metadata
+
+## MQ signatures
+
+- 2024 IACR ePrint · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://eprint.iacr.org/2024/1875) · masking · abstract_and_bibliographic_metadata
+- 2025 CCS · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) · masking · selected_full_text_sections
 
 ## MSR
 
@@ -2086,6 +2181,10 @@
 ## NaCL
 
 - 2025 USENIX · [Place Protections at the Right Place: Targeted Hardening for Cryptographic Code against Spectre v1](https://www.usenix.org/conference/usenixsecurity25/presentation/zhu-yiming) · targeted hardening · abstract_and_bibliographic_metadata
+
+## network I/O
+
+- 2025 CCS · [IOValve: Leakage-Free I/O Sandbox for Large-Scale Untrusted Data Processing](https://doi.org/10.1145/3719027.3765121) · countermeasure · abstract_and_bibliographic_metadata
 
 ## network side channels
 
@@ -2153,6 +2252,7 @@
 - 2023 TCAD · [Low-Cost Shuffling Countermeasures Against Side-Channel Attacks for NTT-Based Post-Quantum Cryptography](https://doi.org/10.1109/tcad.2022.3174142) · countermeasure · abstract_and_bibliographic_metadata
 - 2024 TCHES · [Hints from Hertz: Dynamic Frequency Scaling Side-Channel Analysis of Number Theoretic Transform in Lattice-Based KEMs](https://doi.org/10.46586/tches.v2024.i3.200-223) · attack · abstract_and_bibliographic_metadata
 - 2024 ACM TECS · [Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication](https://doi.org/10.1145/3569420) · polynomial_multiplication_side_channel · selected_full_text_sections
+- 2025 CCS · [ML-Cube: Accelerating Module-Lattice-Based Cryptography using Machine Learning Accelerators with a Memory-Less Design](https://doi.org/10.1145/3719027.3765130) · implementation and countermeasure claim · abstract_and_bibliographic_metadata
 - 2026 TC · [Hardware Implementation and Security Analysis of Local-Masked NTT for CRYSTALS-Kyber](https://doi.org/10.1109/tc.2026.3729145) · countermeasure_evaluation · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Keep it Simple: Refreshing the NTT of Kyber’s Decapsulation to Prevent Plaintext-Checking Side-Channel Attacks](https://doi.org/10.46586/tches.v2026.i1.472-499) · countermeasure · abstract_and_bibliographic_metadata
 - 2026 TCHES · [NTT-PEEL: Bit Shift Side-Channel in FALCON’s Number Theoretic Transform](https://doi.org/10.46586/tches.v2026.i2.709-735) · attack · abstract_and_bibliographic_metadata
@@ -2202,6 +2302,10 @@
 
 - 2024 INDOCRYPT · [OccPoIs: Points of Interest Based on Neural Network’s Key Recovery in Side-Channel Analysis Through Occlusion](https://doi.org/10.1007/978-3-031-80311-6_1) · feature selection · abstract_and_bibliographic_metadata
 
+## Octal
+
+- 2025 CCS · [Securing Cryptographic Software via Typed Assembly Language](https://doi.org/10.1145/3719027.3765116) · countermeasure · selected_full_text_sections
+
 ## offline templates
 
 - 2024 IACR ePrint · [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://eprint.iacr.org/2024/1715) · attack · abstract_and_bibliographic_metadata
@@ -2210,6 +2314,10 @@
 ## OIS
 
 - 2023 SP · [Side Eye: Characterizing the Limits of POV Acoustic Eavesdropping from Smartphone Cameras with Rolling Shutters and Movable Lenses](https://doi.org/10.1109/sp46215.2023.10179313) · physical_side_channel · abstract_and_bibliographic_metadata
+
+## OMAP
+
+- 2025 CCS · [BOLT: Bandwidth-Optimized Lightning-Fast Oblivious Map powered by Secure HBM Accelerators](https://doi.org/10.1145/3719027.3765069) · countermeasure · abstract_and_bibliographic_metadata
 
 ## OMR
 
@@ -2275,6 +2383,10 @@
 
 - 2025 USENIX · [Found in Translation: A Generative Language Modeling Approach to Memory Access Pattern Attacks](https://www.usenix.org/conference/usenixsecurity25/presentation/jia-grace) · controlled-channel inference · abstract_and_bibliographic_metadata
 
+## page relocation
+
+- 2025 CCS · [Heracles: Chosen Plaintext Attack on AMD SEV-SNP](https://doi.org/10.1145/3719027.3765209) · attack · abstract_and_bibliographic_metadata
+
 ## page walks
 
 - 2025 SP · [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) · attack · selected_full_text_sections
@@ -2290,6 +2402,10 @@
 ## patch lifecycle
 
 - 2024 SP · [SoK: SGX.Fail: How Stuff Gets eXposed](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · systematization_of_side_channel_security · abstract_and_bibliographic_metadata
+
+## patches
+
+- 2025 CCS · [An Empirical Study Measuring In-The-Wild Cryptographic Microarchitectural Side-Channel Patches](https://doi.org/10.1145/3719027.3744881) · evaluation · abstract_and_bibliographic_metadata
 
 ## Path ORAM
 
@@ -2341,6 +2457,10 @@
 
 - 2020 PLDI · [Constant-time foundations for the new spectre era](https://doi.org/10.1145/3385412.3385970) · formal_model_and_analysis · abstract_and_bibliographic_metadata
 
+## pixel stealing
+
+- 2025 CCS · [Pixnapping: Bringing Pixel Stealing out of the Stone Age](https://doi.org/10.1145/3719027.3765093) · attack · abstract_and_bibliographic_metadata
+
 ## plaintext labels
 
 - 2023 IACR ePrint · [An End-to-end Plaintext-based Side-channel Collision Attack without Trace Segmentation](https://eprint.iacr.org/2023/1109) · attack · abstract_and_bibliographic_metadata
@@ -2362,6 +2482,10 @@
 ## polynomial constraints
 
 - 2025 USENIX · [PolySys: an Algebraic Leakage Attack Engine](https://www.usenix.org/conference/usenixsecurity25/presentation/espiritu) · leakage inference framework · abstract_and_bibliographic_metadata
+
+## PoMMES
+
+- 2024 TCHES · [PoMMES: Prevention of Micro-architectural Leakages in Masked Embedded Software](https://doi.org/10.46586/tches.v2024.i3.342-376) · compiler countermeasure · abstract_and_bibliographic_metadata
 
 ## PostgreSQL
 
@@ -2416,6 +2540,10 @@
 ## PRELOAD+TIME
 
 - 2025 SP · [Half Spectre, Full Exploit: Hardening Rowhammer Attacks with Half Spectre Gadgets](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-174) · microarchitectural_side_channel_enabling_fault_attack · selected_full_text_sections
+
+## preprocessing
+
+- 2025 CCS · [Timing Attacks on Differential Privacy are Practical](https://doi.org/10.1145/3719027.3765146) · evaluation · abstract_and_bibliographic_metadata
 
 ## PRG
 
@@ -2557,6 +2685,10 @@
 
 - 2022 PQCrypto · [A Power Side-Channel Attack on the Reed-Muller Reed-Solomon Version of the HQC Cryptosystem](https://doi.org/10.1007/978-3-031-17234-2_16) · attack · abstract_and_bibliographic_metadata
 
+## register allocation
+
+- 2024 TCHES · [PoMMES: Prevention of Micro-architectural Leakages in Masked Embedded Software](https://doi.org/10.46586/tches.v2024.i3.342-376) · compiler countermeasure · abstract_and_bibliographic_metadata
+
 ## Register Hiding
 
 - 2026 SP · [Defeating Transient Execution Attacks by Limiting Secret Reachability Through Register Hiding and ShadowCFI](https://doi.org/10.1109/sp63933.2026.00015) · microarchitectural_countermeasure · abstract_and_bibliographic_metadata
@@ -2627,7 +2759,10 @@
 - 2023 SP · [A Security RISC: Microarchitectural Attacks on Hardware RISC-V CPUs](https://doi.org/10.1109/sp46215.2023.10179399) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
 - 2024 SP · [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · hardware_supported_side_channel_countermeasure · abstract_and_bibliographic_metadata
 - 2024 SP · [CONJUNCT: Learning Inductive Invariants to Prove Unbounded Instruction Safety Against Microarchitectural Timing Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · formal_side_channel_verification · abstract_and_bibliographic_metadata
+- 2025 CCS · [GhostCache: Timer- and Counter-Free Cache Attacks Exploiting Weak Coherence on RISC-V and ARM Chips](https://doi.org/10.1145/3719027.3744833) · attack · abstract_and_bibliographic_metadata
+- 2025 CCS · [MileSan: Detecting Exploitable Microarchitectural Leakage via Differential Hardware-Software Taint Tracking](https://doi.org/10.1145/3719027.3765066) · automated discovery · abstract_and_bibliographic_metadata
 - 2025 USENIX · [Phantom Trails: Practical Pre-Silicon Discovery of Transient Data Leaks](https://www.usenix.org/conference/usenixsecurity25/presentation/de-faveri-tron) · pre-silicon leak detection · abstract_and_bibliographic_metadata
+- 2025 CCS · [Synthesis of Sound and Precise Leakage Contracts for Open-Source RISC-V Processors](https://doi.org/10.1145/3719027.3765148) · formal verification · selected_full_text_sections
 - 2026 TCHES · [AIPS: AI-Based Power Simulation for Pre-Silicon Side-Channel Security Evaluation](https://doi.org/10.46586/tches.v2026.i2.441-467) · method · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Exploiting Hidden Resource Contention in Selective Speculation Defenses](https://www.usenix.org/conference/usenixsecurity26/presentation/cheng) · microarchitectural_attack · abstract_and_bibliographic_metadata
 - 2026 SP · [RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence](https://doi.org/10.1109/sp63933.2026.00192) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
@@ -2682,6 +2817,8 @@
 ## RTL
 
 - 2024 SP · [CONJUNCT: Learning Inductive Invariants to Prove Unbounded Instruction Safety Against Microarchitectural Timing Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · formal_side_channel_verification · abstract_and_bibliographic_metadata
+- 2025 CCS · [MileSan: Detecting Exploitable Microarchitectural Leakage via Differential Hardware-Software Taint Tracking](https://doi.org/10.1145/3719027.3765066) · automated discovery · abstract_and_bibliographic_metadata
+- 2025 CCS · [Synthesis of Sound and Precise Leakage Contracts for Open-Source RISC-V Processors](https://doi.org/10.1145/3719027.3765148) · formal verification · selected_full_text_sections
 - 2026 USENIX · [microSCALE: Static Analysis for Microarchitectural Side-channel Leakage Evaluation](https://www.usenix.org/conference/usenixsecurity26/presentation/kumar-e) · leakage_analysis · selected_full_text_sections
 
 ## Rust parsing
@@ -2713,6 +2850,10 @@
 ## sampling timing
 
 - 2022 SP · [Are We There Yet? Timing and Floating-Point Attacks on Differential Privacy Systems](https://doi.org/10.1109/sp46214.2022.9833672) · implementation_side_channel · abstract_and_bibliographic_metadata
+
+## sandbox
+
+- 2025 CCS · [IOValve: Leakage-Free I/O Sandbox for Large-Scale Untrusted Data Processing](https://doi.org/10.1145/3719027.3765121) · countermeasure · abstract_and_bibliographic_metadata
 
 ## SASCA
 
@@ -2755,6 +2896,10 @@
 
 - 2025 USENIX · [ALERT: Machine Learning-Enhanced Risk Estimation for Databases Supporting Encrypted Queries](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-longxiang) · leakage risk estimation · abstract_and_bibliographic_metadata
 
+## SecSep
+
+- 2025 CCS · [Securing Cryptographic Software via Typed Assembly Language](https://doi.org/10.1145/3719027.3765116) · countermeasure · selected_full_text_sections
+
 ## secure speculation
 
 - 2026 SP · [Interplay of Efficient Model Checking and Secure Processor Design: A Case Study on Secure Speculation](https://doi.org/10.1109/sp63933.2026.00203) · formal_side_channel_verification · abstract_and_bibliographic_metadata
@@ -2783,6 +2928,7 @@
 ## SEV-SNP
 
 - 2025 SP · [BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-39) · physical_memory_attack_and_write_pattern_leakage · selected_full_text_sections
+- 2025 CCS · [Heracles: Chosen Plaintext Attack on AMD SEV-SNP](https://doi.org/10.1145/3719027.3765209) · attack · abstract_and_bibliographic_metadata
 
 ## SGX
 
@@ -2792,6 +2938,7 @@
 - 2025 USENIX · [Flexway O-Sort: Enclave-Friendly and Optimal Oblivious Sorting](https://www.usenix.org/conference/usenixsecurity25/presentation/gu-tianyao) · access-pattern defense · abstract_and_bibliographic_metadata
 - 2025 USENIX · [SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution](https://www.usenix.org/conference/usenixsecurity25/presentation/weber) · automated side-channel inference · abstract_and_bibliographic_metadata
 - 2025 USENIX · [TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms](https://www.usenix.org/conference/usenixsecurity25/presentation/vanoverloop) · controlled-channel defense · abstract_and_bibliographic_metadata
+- 2025 CCS · [WireTap: Breaking Server SGX via DRAM Bus Interposition](https://doi.org/10.1145/3719027.3765204) · physical attack · abstract_and_bibliographic_metadata
 - 2026 SP · [AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX](https://doi.org/10.1109/sp63933.2026.00035) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors](https://www.usenix.org/conference/usenixsecurity26/presentation/murakami) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
 - 2026 USENIX · [UncoreBleed: AEX-Free, High-Resolution, and Low-Noise Side-Channel Attacks on SGX Enclaved Execution](https://www.usenix.org/conference/usenixsecurity26/presentation/chen-decheng) · microarchitectural_attack · abstract_and_bibliographic_metadata
@@ -2947,6 +3094,7 @@
 ## speculation
 
 - 2022 SP · [Mitigating Information Leakage Vulnerabilities with Type-based Data Isolation](https://doi.org/10.1109/sp46214.2022.9833675) · microarchitectural_countermeasure · abstract_and_bibliographic_metadata
+- 2025 CCS · [Securing Cryptographic Software via Typed Assembly Language](https://doi.org/10.1145/3719027.3765116) · countermeasure · selected_full_text_sections
 
 ## speculative constant time
 
@@ -3018,11 +3166,13 @@
 
 ## t-probing
 
+- 2025 CCS · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) · masking · selected_full_text_sections
 - 2026 TCHES · [t-Probing (In-)Security: Pitfalls on Noise Assumptions](https://doi.org/10.46586/tches.v2026.i2.1-27) · attack_and_model_analysis · abstract_and_bibliographic_metadata
 
 ## taint tracking
 
 - 2022 SP · [SpecHammer: Combining Spectre and Rowhammer for New Speculative Attacks](https://doi.org/10.1109/sp46214.2022.9833802) · combined_fault_and_side_channel · abstract_and_bibliographic_metadata
+- 2025 CCS · [MileSan: Detecting Exploitable Microarchitectural Leakage via Differential Hardware-Software Taint Tracking](https://doi.org/10.1145/3719027.3765066) · automated discovery · abstract_and_bibliographic_metadata
 
 ## TCitH
 
@@ -3069,6 +3219,10 @@
 
 - 2024 ACNS · [Breaking DPA-Protected Kyber via the Pair-Pointwise Multiplication](https://doi.org/10.1007/978-3-031-54773-7_5) · template_side_channel · abstract_and_bibliographic_metadata
 
+## Tensor Cores
+
+- 2025 CCS · [ML-Cube: Accelerating Module-Lattice-Based Cryptography using Machine Learning Accelerators with a Memory-Less Design](https://doi.org/10.1145/3719027.3765130) · implementation and countermeasure claim · abstract_and_bibliographic_metadata
+
 ## TensorFlow
 
 - 2025 SP · [CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels](https://doi.org/10.1109/sp61157.2025.00079) · attack · abstract_and_bibliographic_metadata
@@ -3085,6 +3239,10 @@
 
 - 2026 USENIX · [TIMESLICE-SANDWICH: A GPU Side-Channel Attack Exploiting Time-Sliced Scheduling](https://www.usenix.org/conference/usenixsecurity26/presentation/kim-hodong) · scheduling_side_channel · abstract_and_bibliographic_metadata
 
+## timer-free
+
+- 2025 CCS · [ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs](https://doi.org/10.1145/3719027.3765061) · automated discovery · abstract_and_bibliographic_metadata
+
 ## timing
 
 - 2019 SAC · [A Timing Attack on the HQC Encryption Scheme](https://doi.org/10.1007/978-3-030-38471-5_22) · attack · abstract_and_bibliographic_metadata
@@ -3093,6 +3251,7 @@
 - 2023 SP · [Practical Timing Side-Channel Attacks on Memory Compression](https://doi.org/10.1109/sp46215.2023.10179297) · compression_timing_side_channel · abstract_and_bibliographic_metadata
 - 2024 SP · [Rethinking IC Layout Vulnerability: Simulation-Based Hardware Trojan Threat Assessment with High Fidelity](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_based_trojan_assessment · abstract_and_bibliographic_metadata
 - 2025 arXiv · [A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography](https://arxiv.org/abs/2512.22301) · synthetic_risk_model · abstract_and_bibliographic_metadata
+- 2025 CCS · [Timing Attacks on Differential Privacy are Practical](https://doi.org/10.1145/3719027.3765146) · evaluation · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Network-Level Prompt and Trait Leakage in Local Research Agents](https://www.usenix.org/conference/usenixsecurity26/presentation/jeong) · traffic_side_channel · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Plaintext Recovery Against Post-Filtering Access Control](https://www.usenix.org/conference/usenixsecurity26/presentation/espiritu) · application_side_channel · abstract_and_bibliographic_metadata
 
@@ -3158,6 +3317,7 @@
 ## transient execution
 
 - 2022 SP · [Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks](https://doi.org/10.1109/sp46214.2022.9833692) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
+- 2025 CCS · [MileSan: Detecting Exploitable Microarchitectural Leakage via Differential Hardware-Software Taint Tracking](https://doi.org/10.1145/3719027.3765066) · automated discovery · abstract_and_bibliographic_metadata
 - 2025 USENIX · [Phantom Trails: Practical Pre-Silicon Discovery of Transient Data Leaks](https://www.usenix.org/conference/usenixsecurity25/presentation/de-faveri-tron) · pre-silicon leak detection · abstract_and_bibliographic_metadata
 - 2026 SP · [Crucible: Retrofitting Commodity CPUs with Vulnerabilities via Transparent Software Emulation](https://doi.org/10.1109/sp63933.2026.00186) · research_infrastructure · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Exploiting Hidden Resource Contention in Selective Speculation Defenses](https://www.usenix.org/conference/usenixsecurity26/presentation/cheng) · microarchitectural_attack · abstract_and_bibliographic_metadata
@@ -3191,6 +3351,10 @@
 
 - 2022 SP · [Mitigating Information Leakage Vulnerabilities with Type-based Data Isolation](https://doi.org/10.1109/sp46214.2022.9833675) · microarchitectural_countermeasure · abstract_and_bibliographic_metadata
 
+## typed assembly
+
+- 2025 CCS · [Securing Cryptographic Software via Typed Assembly Language](https://doi.org/10.1145/3719027.3765116) · countermeasure · selected_full_text_sections
+
 ## UAI
 
 - 2024 SP · [Leaky Address Masking: Exploiting Unmasked Spectre Gadgets with Noncanonical Address Translation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · transient_execution_side_channel · selected_full_text_sections
@@ -3207,6 +3371,8 @@
 
 - 2022 TCHES · [Efficient Implementations of Rainbow and UOV using AVX2](https://doi.org/10.46586/tches.v2022.i1.245-269) · implementation_and_leakage_analysis · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Separating Oil and Vinegar with a Single Trace: Side-Channel Assisted Kipnis-Shamir Attack on UOV](https://doi.org/10.46586/tches.v2023.i3.221-245) · attack · abstract_and_bibliographic_metadata
+- 2024 IACR ePrint · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://eprint.iacr.org/2024/1875) · masking · abstract_and_bibliographic_metadata
+- 2025 CCS · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) · masking · selected_full_text_sections
 - 2026 TCHES · [Masked Solving of Linear Equations System and Application to UOV Signatures](https://doi.org/10.46586/tches.v2026.i2.51-72) · countermeasure · abstract_and_bibliographic_metadata
 
 ## USB
@@ -3234,6 +3400,10 @@
 
 - 2023 SP · [Private Eye: On the Limits of Textual Screen Peeking via Eyeglass Reflections in Video Conferencing](https://doi.org/10.1109/sp46215.2023.10179423) · physical_side_channel · abstract_and_bibliographic_metadata
 
+## video cable
+
+- 2025 CCS · [TEMPEST-LoRa: Cross-Technology Covert Communication](https://doi.org/10.1145/3719027.3744817) · covert channel · abstract_and_bibliographic_metadata
+
 ## video conferencing
 
 - 2025 SP · [Sniffing Location Privacy of Video Conference Users Using Free Audio Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-192) · active_acoustic_privacy_side_channel · abstract_and_bibliographic_metadata
@@ -3246,6 +3416,10 @@
 ## virtual keyboard
 
 - 2025 SP · [Eyes on Your Typing: Snooping Finger Motions on Virtual Keyboards](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-106) · sensor_side_channel · abstract_and_bibliographic_metadata
+
+## VLM
+
+- 2025 CCS · [MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs](https://doi.org/10.1145/3719027.3765174) · attack · abstract_and_bibliographic_metadata
 
 ## VMExit
 
@@ -3278,6 +3452,10 @@
 ## WASM
 
 - 2024 SP · [On (the Lack of) Code Confidentiality in Trusted Execution Environments](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · code_confidentiality_side_channel · abstract_and_bibliographic_metadata
+
+## weak coherence
+
+- 2025 CCS · [GhostCache: Timer- and Counter-Free Cache Attacks Exploiting Weak Coherence on RISC-V and ARM Chips](https://doi.org/10.1145/3719027.3744833) · attack · abstract_and_bibliographic_metadata
 
 ## WebAssembly
 

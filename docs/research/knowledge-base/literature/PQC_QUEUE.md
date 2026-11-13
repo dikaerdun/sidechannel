@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6742 条，其中 413 条命中后量子相关关键词。
+当前目录记录 6743 条，其中 415 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -123,9 +123,10 @@
 | 2026 arXiv | [Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach](https://arxiv.org/abs/2611.01144) | include |
 | 2026 ePrint | [From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight](https://eprint.iacr.org/2026/1081) | include |
 | 2025 CCS | [CROSS-X: Generalized and Stable Cross-Cache Attack on the Linux Kernel](https://dl.acm.org/doi/10.1145/3719027.3765152) | pending |
-| 2025 CCS | [Formally Verified Correctness Bounds for Lattice-Based Cryptography](https://dl.acm.org/doi/10.1145/3719027.3765218) | pending |
+| 2025 CCS | [Formally Verified Correctness Bounds for Lattice-Based Cryptography](https://dl.acm.org/doi/10.1145/3719027.3765218) | adjacent |
 | 2025 CCS | [LZKSA: Lattice-based special zero-knowledge proofs for secure aggregation's input verification](https://dl.acm.org/doi/10.1145/3719027.3744812) | pending |
-| 2025 CCS | [ML-Cube: Accelerating Module-Lattice-Based Cryptography using Machine Learning Accelerators with a Memory-Less Design](https://dl.acm.org/doi/10.1145/3719027.3765130) | pending |
+| 2025 CCS | [ML-Cube: Accelerating Module-Lattice-Based Cryptography using Machine Learning Accelerators with a Memory-Less Design](https://doi.org/10.1145/3719027.3765130) | include |
+| 2025 CCS | [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) | include |
 | 2025 CCS | [Post-Quantum Threshold Ring Signature Applications from VOLE-in-the-Head](https://dl.acm.org/doi/10.1145/3719027.3744854) | pending |
 | 2025 CCS | [Sliced PIR: Offloading Heavyweight Work with NTT](https://dl.acm.org/doi/10.1145/3719027.3765154) | pending |
 | 2025 CCS | [Subversion-resilient key-exchange in the post-quantum world](https://dl.acm.org/doi/10.1145/3719027.3765165) | pending |
@@ -210,6 +211,7 @@
 | 2024 Design & Test | [Securing CRYSTALS-Kyber in FPGA Using Duplication and Clock Randomization](https://doi.org/10.1109/mdat.2023.3298805) | include |
 | 2024 HOST | [Breaking SCA-Protected CRYSTALS-Kyber with a Single Trace](https://doi.org/10.1109/host55342.2024.10545390) | include |
 | 2024 IACR ePrint | [Machine Learning based Blind Side-Channel Attacks on PQC-based KEMs - A Case Study of Kyber KEM](https://eprint.iacr.org/2024/169) | include |
+| 2024 IACR ePrint | [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://eprint.iacr.org/2024/1875) | include |
 | 2024 IACR ePrint | [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://eprint.iacr.org/2024/1715) | include |
 | 2024 IACR ePrint | [Single-trace side-channel attacks on MAYO exploiting leaky modular multiplication](https://eprint.iacr.org/2024/1850) | include |
 | 2024 Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | include |

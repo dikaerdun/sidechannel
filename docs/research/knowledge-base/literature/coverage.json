@@ -2,31 +2,31 @@
   "cutoff": "2026-11-12",
   "rolling_window_start": "2021-11-12",
   "reading_updated_on": "2026-11-14",
-  "total_catalog_records": 6742,
+  "total_catalog_records": 6743,
   "priority_counts": {
-    "unmatched_pending": 5366,
-    "sca_terms": 963,
-    "pqc_terms": 208,
-    "pqc_and_sca_terms": 205
+    "unmatched_pending": 5361,
+    "sca_terms": 967,
+    "pqc_terms": 207,
+    "pqc_and_sca_terms": 208
   },
   "core_catalog_records": 6628,
-  "citation_expansion_records": 114,
-  "title_screened_records": 2512,
-  "abstract_screened_records": 761,
-  "included_papers": 425,
+  "citation_expansion_records": 115,
+  "title_screened_records": 2828,
+  "abstract_screened_records": 784,
+  "included_papers": 444,
   "reading_level_counts": {
-    "abstract_and_bibliographic_metadata": 377,
-    "selected_full_text_sections": 48
+    "abstract_and_bibliographic_metadata": 393,
+    "selected_full_text_sections": 51
   },
   "citation_progress": {
-    "verified_citation_edges": 207,
-    "verified_version_edges": 37,
+    "verified_citation_edges": 218,
+    "verified_version_edges": 44,
     "inferred_version_edges": 6,
     "task_status_counts": {
-      "pending": 790,
-      "in_progress": 60
+      "pending": 827,
+      "in_progress": 61
     },
-    "unresolved_discoveries": 84,
+    "unresolved_discoveries": 101,
     "resolved_discoveries": 73
   },
   "core_cells": [
@@ -76,9 +76,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 32,
+      "screened_records": 33,
       "title_screened_records": 101,
-      "abstract_screened_records": 32,
+      "abstract_screened_records": 33,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -330,9 +330,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/ccs-2025.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 0,
-      "title_screened_records": 0,
-      "abstract_screened_records": 0,
+      "screened_records": 21,
+      "title_screened_records": 316,
+      "abstract_screened_records": 21,
       "citation_chasing": "pending",
       "complete": false
     },
