@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 340 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 343 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA
 
@@ -730,6 +730,13 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/10646815/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## One Vector to Rule Them All: Key Recovery from One Vector in UOV Schemes
+
+- 来源：[PQCrypto 2024](https://doi.org/10.1007/978-3-031-62746-0_5)。
+- 判定依据：给定 oil 子空间向量后的代数密钥恢复，保留为侧信息后处理的相邻理论；摘要没有证明从波形获取该向量。正式摘要为最多 13 秒，ePrint 页面写 15 秒，版本差异未消除，不能混用数值。
+- 阅读来源：https://link.springer.com/chapter/10.1007/978-3-031-62746-0_5。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Optimized Hardware-Software Co-Design for Kyber and Dilithium on RISC-V SoC FPGA
 
 - 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i3.99-135)。
@@ -764,6 +771,13 @@
 - 判定依据：对 IEEE 802.15.4z STS 接收器做安全测距证明和数值实验，主要保证主动距离操纵下的距离上界；不能等同秘密侧信道或实际芯片泄漏测量。
 - 阅读来源：https://xplorestaging.ieee.org/document/10646848/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Singular points of UOV and VOX
+
+- 来源：[IACR ePrint 2024](https://eprint.iacr.org/2024/219)。
+- 判定依据：mUOV 实际引用的 ePrint 2024/219；研究 UOV-hat-plus/VOX 的奇异点代数分析，不是新物理测量论文。作者记录 VOX 恢复从指数改成多项式的修订，不能沿用旧版结论。
+- 阅读来源：https://eprint.iacr.org/2024/219。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## SoK: Efficient Design and Implementation of Polynomial Hash Functions over Prime Fields
 
@@ -1359,6 +1373,13 @@
 - 判定依据：研究格筛的访存成本和 SVP 攻击资源估计，属于数学安全与后处理背景；不是观测受害实现的缓存攻击。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Singular Points of UOV and VOX
+
+- 来源：[EUROCRYPT 2025](https://doi.org/10.1007/978-3-031-91095-1_11)。
+- 判定依据：EUROCRYPT 2025 正式代数分析，建立与实际被引 ePrint 的显式关系；不是已完成侧信道采集或一般 UOV 失效的证据。
+- 阅读来源：https://link.springer.com/chapter/10.1007/978-3-031-91095-1_11。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## SoK: A Security Architect's View of Printed Circuit Board Attacks
 

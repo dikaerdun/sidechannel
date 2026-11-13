@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 444 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 450 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Differential Power Analysis
 
@@ -171,6 +171,18 @@
 - [详细阅读记录](notes/pqc-citation-followups-and-evidence-20261113.md)
 - 代码/数据核查：no author code or data executed; artifact contents not inspected；引用追踪：pending except explicitly inventoried citations。
 
+## Side-Channel Attacks on Post-Quantum Signature Schemes based on Multivariate Quadratic Equations: - Rainbow and UOV -
+
+- 来源：[TCHES 2018](https://doi.org/10.46586/tches.v2018.i3.500-523)；时间标记：pre-window foundational reference。
+- 作者：Aesun Park; Kyung-Ah Shim; Namhun Koo; Dong-Guk Han
+- 对象：Rainbow, UOV, CPA, AVR；类型：attack。
+- 核心想法：分析仿射映射与矩阵向量乘法泄漏；区分等价密钥结构和 CPA 后接代数恢复的情形。
+- 作者报告：出版商摘要报告 8 位 AVR 上 Rainbow 的 CPA 案例，并分析对多层及特定单层 UOV 实现的适用性。
+- 限制与下一步：五年窗口外基础文献。实测 Rainbow 不等于 UOV 同配置实测；UOV 结论带有简单结构等价密钥的实现条件，不能自动套用现行规范。仅摘要。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/works/10.46586/tches.v2018.i3.500-523。
+- [详细阅读记录](notes/muov-followups-and-masked-sampling-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventories。
+
 ## Masking Dilithium: Efficient Implementation and Side-Channel Evaluation
 
 - 来源：[ACNS 2019](https://doi.org/10.1007/978-3-030-21568-2_17)；时间标记：outside rolling window; cited foundation retained。
@@ -216,6 +228,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-35423-7_27。
 - [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto
+
+- 来源：[PKC 2019](https://doi.org/10.1007/978-3-030-17259-6_18)；时间标记：pre-window foundational reference。
+- 作者：Tobias Schneider; Clara Paglialonga; Tobias Oder; Tim Güneysu
+- 对象：binomial sampler, B2A, NewHope, Kyber, Saber；类型：masking。
+- 核心想法：组合布尔到算术掩码转换与位切片二项采样器，讨论任意阶保护。
+- 作者报告：正式摘要给出任意阶方法；出版页脚注 8 明确所报周期不计输入比特向量生成。
+- 限制与下一步：五年窗口外基础文献；不能把二项采样当成任意参数精确高斯采样，也不能直接与包含随机输入生成的周期数比较。正文证明与物理评估未完整审读。
+- 阅读层级：selected_full_text_sections；来源：https://link.springer.com/chapter/10.1007/978-3-030-17259-6_18。
+- 已读章节：Publisher abstract and visible Notes 1-8, especially note 8 excluding input bit-vector generation from cycle counts. Main chapter proofs/evaluation not read.
+- [详细阅读记录](notes/muov-followups-and-masked-sampling-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventories。
 
 ## A Timing Attack on the HQC Encryption Scheme
 
@@ -2915,7 +2940,33 @@
 - 阅读层级：selected_full_text_sections；来源：https://eprint.iacr.org/2024/1875。
 - 已读章节：NIST-hosted author manuscript: PDF page 1; pages 15-18 (composition caveat, implementation, TVLA, performance); pages 19-22 bibliography and discussion; page 23 Appendix A only. Page 17 table/figure visually checked. Remaining proofs and appendices not fully reviewed.
 - [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
-- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：52 author-manuscript entries screened: 11 linked, 17 pending, 24 provisional background; not closure。
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：52 author-manuscript entries screened: 18 linked, 10 pending, 24 provisional background; not closure。
+
+## Masking Gaussian Elimination at Arbitrary Order with Application to Multivariate-and Code-Based PQC
+
+- 来源：[CT-RSA 2025](https://doi.org/10.1007/978-3-031-88661-4_11)；时间标记：within frozen rolling window。
+- 作者：Quinten Norga; Suparna Kundu; Uttam Kumar Ojha; Anindya Ganguly; Angshuman Karmakar; Ingrid Verbauwhede
+- 对象：Gaussian elimination, UOV, MAYO, SNOVA, QR-UOV, MQ-Sign；类型：masking。
+- 核心想法：为行阶梯化和回代提出任意阶掩码部件，区分探针模型证明与实现安全。
+- 作者报告：作者报告 Cortex-M4 上一至三阶周期基准，计入片上 TRNG；一阶 UOV-I/III/V 开销约 15.1/15.2/15.4 倍。
+- 限制与下一步：作者稿第 21 页明确是概念验证，微架构泄漏缓解不在本文范围；并非三阶物理泄漏验证。主要保护 GE 子过程，完整签名防护另需组合；正式版与 major revision 作者稿未全文比对。
+- 阅读层级：selected_full_text_sections；来源：https://link.springer.com/chapter/10.1007/978-3-031-88661-4_11。
+- 已读章节：Publisher abstract; author-hosted 31-page manuscript PDF pages 1, 21-22 (implementation, Table 3, conclusion), page 23 references only; page 21 visually checked. Remaining proofs and references not fully screened.
+- [详细阅读记录](notes/muov-followups-and-masked-sampling-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventories。
+
+## Masked Computation of the Floor Function and Its Application to the FALCON Signature
+
+- 来源：[CiC 2025](https://doi.org/10.62056/ay73zl7s)；时间标记：within frozen rolling window。
+- 作者：Pierre-Augustin Berthet; Justine Paillet; Cédric Tavernier; Lilian Bossuet; Brice Colombier
+- 对象：FALCON, floating-point, floor, MIMO-SNI；类型：masking。
+- 核心想法：补充浮点 floor 与除法掩码部件，并用于 FALCON 采样流程。
+- 作者报告：正式稿报告探针模型组合安全论证及 i7-11800H/GCC 9.4.0 性能；表 6 的签名流程计时不含签名拒绝。
+- 限制与下一步：秒级表 6 不是完整生产签名时延；作者认为该实现不适于部署。选读没有建立功耗/电磁实测保证，未独立验证全部证明；作者 22 页稿与正式 23 页稿的参考条目存在差异。
+- 阅读层级：selected_full_text_sections；来源：https://cic.iacr.org/p/1/4/9。
+- 已读章节：Formal publisher PDF pages 1, 18-23: abstract, performance Tables 5-6, conclusion, all 31 bibliography positions; page 19 visually checked. Author 22-page PDF pages 1, 16-22 also consulted, but formal bibliography controls this inventory. Proofs not fully reviewed.
+- [详细阅读记录](notes/muov-followups-and-masked-sampling-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventories。
 
 ## A Practical Tutorial on Deep Learning-based Side-channel Analysis
 
@@ -2977,6 +3028,18 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-86602-9_10; https://eprint.iacr.org/2024/1882。
 - [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## SoK: On the Physical Security of UOV-Based Signature Schemes
+
+- 来源：[PQCrypto 2025](https://doi.org/10.1007/978-3-031-86599-2_7)；时间标记：within frozen rolling window。
+- 作者：Thomas Aulbach; Fabio Campos; Juliane Krämer
+- 对象：UOV, MAYO, QR-UOV, SNOVA；类型：survey and countermeasure。
+- 核心想法：按 UOV 规范及实现选择重新梳理侧信道与故障攻击，并讨论向相关签名方案的迁移。
+- 作者报告：作者摘要报告 UOV/MAYO 的 Cortex-M4 一阶掩码与部分故障防护，并对所选子程序进行 TVLA。
+- 限制与下一步：仅读正式及 ePrint 摘要；保护范围与密钥压缩、随机化选择相关。更小 t 值不等于全面无泄漏，不能把 UOV/MAYO 实测外推为 QR-UOV/SNOVA 同板实测。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-86599-2_7。
+- [详细阅读记录](notes/muov-followups-and-masked-sampling-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventories。
 
 ## Single-trace Side-Channel Attacks on MAYO Exploiting Leaky Modular Multiplication
 
@@ -3970,6 +4033,18 @@
 - 限制与下一步：算法家族差异来自设定的泄漏模型与合成数据，不是实际恒时实现测量或三种 KEM 的风险排名；需平台验证。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2512.22301。
 - 代码/数据核查：not checked；引用追踪：pending。
+
+## Maskaglia: A New, Efficient Approach to Masked Discrete Gaussian Sampling
+
+- 来源：[CRYPTO 2026](https://doi.org/10.1007/978-3-032-35415-0_6)；时间标记：within frozen rolling window。
+- 作者：Calvin Abou Haidar; Thomas Espitau; Clément Hoffmann; Mehdi Tibouchi
+- 对象：discrete Gaussian, HAWK, bitslicing, t-probing；类型：masking。
+- 核心想法：从离散化的 Marsaglia 类拒绝采样构造新的、便于掩码的采样结构。
+- 作者报告：正式摘要在 HAWK 用例报告 masked AND 数量优势，比较原有及经过优化的比较树采样器。
+- 限制与下一步：摘要的分布范围为固定中心和固定标准差；AND 数量不是全签名墙钟时间或实测泄漏安全，不能直接推为 FALCON 可变中心采样的完整解法。仅读摘要和第 5 条参考。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-032-35415-0_6。
+- [详细阅读记录](notes/muov-followups-and-masked-sampling-20261114.md)
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventories。
 
 ## Side-Channel Attacks on VOLEitH Signature Schemes: Breaking Masked FAEST
 

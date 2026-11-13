@@ -6,6 +6,7 @@
 
 ## 阅读入口
 
+- [mUOV 引用接续与掩码采样](notes/muov-followups-and-masked-sampling-20261114.md)：七条引用解析、floor 正式版书目与 Maskaglia 前向追踪。
 - [CCS 2025 掩码、契约与观察范围](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)：316 条标题、21 篇摘要，mUOV 的模型/检测边界、ML-Cube 安全主张及 52 条作者稿引用初筛。
 - [USENIX 2025 范围、盲分析与计数器防护](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)：438 条标题、103 篇摘要、单系数 GE、成本估计及印刷公式待查项。
 - [USENIX 2025 目录对应](toc-crosschecks/usenix-2025.jsonl)：438 条成员对应；主席致辞合计 439 的差异另行保留。
@@ -19,8 +20,8 @@
 - [S&P 2022 范围与身份](notes/sp2022-scope-and-identity-20261113.md)及 [Kyber 乘法与打乱证据](notes/kyber-multiplication-and-shuffling-20261113.md)：故障到泄漏组合、局部恢复、模拟/实测与版本条件。
 - [S&P 2022 印刷目录对应](toc-crosschecks/sp-2022.jsonl)：147 条双向对应，含七处改题名；146 个可用出版起始页匹配，一处页码字段缺失。
 - [范围与筛查协议](PROTOCOL.md)：纳入标准、时间边界、证据层级和完成条件。
-- [444 条阅读卡片](PAPER_NOTES.md)：按主要对象分为 181 条 PQC、263 条通用研究；393 条以摘要为主，51 条补读正文部分章节，均未本地复现。会议/期刊版本分别保留，不能把记录数当作独立研究数量。
-- [340 条相邻主题与方法背景](ADJACENT_NOTES.md)：保留纯故障、防护交互、格约简、数值安全和实现背景，不混入侧信道纳入数。
+- [450 条阅读卡片](PAPER_NOTES.md)：按主要对象分为 181 条 PQC、263 条通用研究；393 条以摘要为主，51 条补读正文部分章节，均未本地复现。会议/期刊版本分别保留，不能把记录数当作独立研究数量。
+- [343 条相邻主题与方法背景](ADJACENT_NOTES.md)：保留纯故障、防护交互、格约简、数值安全和实现背景，不混入侧信道纳入数。
 - [掩码版本演变与 Kyber 硬件证据](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)：Leveling/Protecting 的实质修正、Mitaka 恒时限制、硬件恢复对象，以及模拟与测量的边界。
 - [S&P 2023 掩码、推测与观察条件](notes/sp2023-masking-speculation-observation-20261113.md)：Raccoon 的随机数/测试条件与 Jasmin 的应用边界，含九条引用选读。
 - [Episode V 恒时保证与证明边界](notes/kyber-verification-episode-v-20261113.md)：区分规范证明、恒时实现、经典模型、版本差异和两篇窗口外基础文献。
@@ -56,11 +57,13 @@
 
 自动候选本身不构成范围判定；只有实际阅读后才更新 include/adjacent 等状态。未命中关键词的论文也必须经过目录筛查，不能直接排除。逐篇条目区分作者报告与本地复现；本次文献整理不运行攻击实验。
 
-当前已解析 30 个核心会议年单元的 6,628 条目录记录，另有 115 条扩展/基础记录，总计 6,743 条；这些覆盖所有主题，不是 6,743 篇侧信道论文。另有 73 条前言、索引、主题演讲、Enigma/圆桌、历史回顾、会议活动与占位记录单列到 catalog-exclusions/，保留排除依据。
+当前已解析 30 个核心会议年单元的 6,628 条目录记录，另有 126 条扩展/基础记录，总计 6,754 条；这些覆盖所有主题，不是 6,754 篇侧信道论文。另有 73 条前言、索引、主题演讲、Enigma/圆桌、历史回顾、会议活动与占位记录单列到 catalog-exclusions/，保留排除依据。
 
-已完成 2,828 条标题初筛和 784 条摘要及以上阅读判定，其中纳入 444 条、相邻主题 340 条。888 项前后向任务中，61 项进行中、827 项待处理，没有任务被标为全面追踪完成。GoFetch 的 98 条参考文献初筛保持原状：30 条身份对应、58 条基础文献待处理、10 条背景/实现记录。Scheduled Disclosure 的 79 条引用中有 15 条身份对应、16 条基础文献待处理、48 条背景/实现记录。OpenTitan、Peek-a-Walk、EasyCrypt 以及 Episode V 的指定选读继续保留。S&P 2023 的九条选读均已对应；追加 GLP、Protecting、3D-Shield 的九条选读已全部对应；硬件打乱论文全部 17 条引用已作身份与范围判定，七条发现已解析；另连入后续论文三条关系，其中一条证据来自出版商提交的 DOI。其余指定选读仍不代表完整参考文献筛查，17 条对应也不代表递归追踪完成。
+已完成 2,828 条标题初筛和 793 条摘要及以上阅读判定，其中纳入 450 条、相邻主题 343 条。900 项前后向任务中，64 项进行中、836 项待处理，没有任务被标为全面追踪完成。GoFetch 的 98 条参考文献初筛保持原状：30 条身份对应、58 条基础文献待处理、10 条背景/实现记录。Scheduled Disclosure 的 79 条引用中有 15 条身份对应、16 条基础文献待处理、48 条背景/实现记录。OpenTitan、Peek-a-Walk、EasyCrypt 以及 Episode V 的指定选读继续保留。S&P 2023 的九条选读均已对应；追加 GLP、Protecting、3D-Shield 的九条选读已全部对应；硬件打乱论文全部 17 条引用已作身份与范围判定，七条发现已解析；另连入后续论文三条关系，其中一条证据来自出版商提交的 DOI。其余指定选读仍不代表完整参考文献筛查，17 条对应也不代表递归追踪完成。
 
-最新批次完成 CCS 2025 的 316 条标题初筛和 21 篇选定摘要判定，新增 19 条卡片（包括一个作者版本及引用促成的 PoMMES）、11 条引用边、七条显式版本关系。mUOV 的 52 条作者稿引用初筛另产生 17 条待查。官方录用表与日程对应不等于独立出版目录核对。见[本批记录](../records/2026-11-14-literature-ccs2025-first-pass.md)与[证据笔记](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)。
+最新批次解析 mUOV 七条待查，新增六张卡片、18 条引用边与五条显式版本关系；floor 正式版 31 条参考初筛又产生 11 条待查。当前引用边 236、版本关系 55（49 核实、六条推定），发现 80 条已解析、105 条待查。见[批次记录](../records/2026-11-14-literature-muov-followups.md)和[证据笔记](notes/muov-followups-and-masked-sampling-20261114.md)。
+
+此前批次完成 CCS 2025 的 316 条标题初筛和 21 篇选定摘要判定，新增 19 条卡片（包括一个作者版本及引用促成的 PoMMES）、11 条引用边、七条显式版本关系。mUOV 的 52 条作者稿引用初筛另产生 17 条待查。官方录用表与日程对应不等于独立出版目录核对。见[本批记录](../records/2026-11-14-literature-ccs2025-first-pass.md)与[证据笔记](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)。
 
 此前批次解析十二条 USENIX 2025 引用发现，新增十五条论文/版本卡片、十五条引用边及四条版本关系（三条核实、一条推定）。MORE 的 27 条引用完整初筛新增十九条待查，Aegis 指定正文区分实际任务、离线成本与理论保证边界。见[本批记录](../records/2026-11-14-literature-usenix2025-citation-followup.md)与[证据笔记](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)。
 

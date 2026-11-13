@@ -6,6 +6,7 @@
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| CRYPTO | [Maskaglia: A New, Efficient Approach to Masked Discrete Gaussian Sampling](https://doi.org/10.1007/978-3-032-35415-0_6) | abstract_and_bibliographic_metadata |
 | IACR CiC | [Side-Channel Attacks on VOLEitH Signature Schemes: Breaking Masked FAEST](https://doi.org/10.62056/aebngyl7s) | selected_full_text_sections |
 | IACR ePrint | [HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without Masking](https://eprint.iacr.org/2026/081) | abstract_and_bibliographic_metadata |
 | SP | [AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX](https://doi.org/10.1109/sp63933.2026.00035) | abstract_and_bibliographic_metadata |
@@ -130,11 +131,14 @@
 | CCS | [Timing Attacks on Differential Privacy are Practical](https://doi.org/10.1145/3719027.3765146) | abstract_and_bibliographic_metadata |
 | CCS | [WireTap: Breaking Server SGX via DRAM Bus Interposition](https://doi.org/10.1145/3719027.3765204) | abstract_and_bibliographic_metadata |
 | CCS | [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) | selected_full_text_sections |
+| CT-RSA | [Masking Gaussian Elimination at Arbitrary Order with Application to Multivariate-and Code-Based PQC](https://doi.org/10.1007/978-3-031-88661-4_11) | selected_full_text_sections |
+| CiC | [Masked Computation of the Floor Function and Its Application to the FALCON Signature](https://doi.org/10.62056/ay73zl7s) | selected_full_text_sections |
 | IACR ePrint | [A Practical Tutorial on Deep Learning-based Side-channel Analysis](https://eprint.iacr.org/2025/471) | abstract_and_bibliographic_metadata |
 | IACR ePrint | [FAEST for Memory-Constrained Devices](https://eprint.iacr.org/2025/1261) | abstract_and_bibliographic_metadata |
 | Journal of Cryptographic Engineering | [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) | selected_full_text_sections |
 | PQCrypto | [Et tu, Brute? Side-Channel Assisted Chosen Ciphertext Attacks Using Valid Ciphertexts on HQC KEM](https://doi.org/10.1007/978-3-031-86602-9_11) | abstract_and_bibliographic_metadata |
 | PQCrypto | [Single Trace Side-Channel Attack on the MPC-in-the-Head Framework](https://doi.org/10.1007/978-3-031-86602-9_10) | abstract_and_bibliographic_metadata |
+| PQCrypto | [SoK: On the Physical Security of UOV-Based Signature Schemes](https://doi.org/10.1007/978-3-031-86599-2_7) | abstract_and_bibliographic_metadata |
 | QRSEC | [Single-trace Side-Channel Attacks on MAYO Exploiting Leaky Modular Multiplication](https://doi.org/10.1145/3733820.3764682) | abstract_and_bibliographic_metadata |
 | SP | [BPSniff: Continuously Surveilling Private Blood Pressure Information in the Metaverse via Unrestricted Inbuilt Motion Sensors](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-81) | abstract_and_bibliographic_metadata |
 | SP | [BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-39) | selected_full_text_sections |
@@ -470,6 +474,7 @@
 | CARDIS | [An Efficient and Provable Masked Implementation of qTESLA](https://doi.org/10.1007/978-3-030-42068-0_5) | abstract_and_bibliographic_metadata |
 | COSADE | [Practical Evaluation of Masking for NTRUEncrypt on ARM Cortex-M4](https://doi.org/10.1007/978-3-030-16350-1_14) | abstract_and_bibliographic_metadata |
 | INDOCRYPT | [FPGA Implementation and Comparison of Protections Against SCAs for RLWE](https://doi.org/10.1007/978-3-030-35423-7_27) | abstract_and_bibliographic_metadata |
+| PKC | [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) | selected_full_text_sections |
 | SAC | [A Timing Attack on the HQC Encryption Scheme](https://doi.org/10.1007/978-3-030-38471-5_22) | abstract_and_bibliographic_metadata |
 
 ## 2018
@@ -478,6 +483,7 @@
 |---|---|---|
 | EUROCRYPT | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | abstract_and_bibliographic_metadata |
 | TCHES | [Practical CCA2-Secure and Masked Ring-LWE Implementation](https://doi.org/10.46586/tches.v2018.i1.142-174) | abstract_and_bibliographic_metadata |
+| TCHES | [Side-Channel Attacks on Post-Quantum Signature Schemes based on Multivariate Quadratic Equations: - Rainbow and UOV -](https://doi.org/10.46586/tches.v2018.i3.500-523) | abstract_and_bibliographic_metadata |
 
 ## 2017
 

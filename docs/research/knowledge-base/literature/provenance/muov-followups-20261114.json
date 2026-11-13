@@ -1,0 +1,323 @@
+{
+  "updated_on": "2026-11-14",
+  "batch": "muov-citation-followup-and-masked-sampling",
+  "sources": [
+    {
+      "source_id": "muovfollow-binomial-crossref-query",
+      "url": "https://api.crossref.org/works?query.title=Efficiently+Masking+Binomial+Sampling+at+Arbitrary+Orders+for+Lattice-Based+Crypto&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Efficiently+Masking+Binomial+Sampling+at+Arbitrary+Orders+for+Lattice-Based+Crypto&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:49:27.513710+00:00",
+      "sha256": "f30eb8b9bc4949794915837b9217367ac9b80558857bc829f33381785c11f616",
+      "bytes": 18383,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "muovfollow-binomial-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-17259-6_18",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-17259-6_18",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:50:35.518379+00:00",
+      "sha256": "6dec144888612221597ad2f0f85b76336ce624b186edf37d404471969997d502",
+      "bytes": 340071,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "muovfollow-floor-crossref-query",
+      "url": "https://api.crossref.org/works?query.title=Masked+Computation+of+the+Floor+Function+and+Its+Application+to+the+FALCON+Signature&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Masked+Computation+of+the+Floor+Function+and+Its+Application+to+the+FALCON+Signature&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:48:29.042725+00:00",
+      "sha256": "0392efe679e46ae45f7da4b3dcd418f3e5b40d0af60eb3b0720e072975604add",
+      "bytes": 35481,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "muovfollow-floor-pdf",
+      "url": "https://bcolombier.fr/assets/PDFs/BPT%2B_Masked_25.pdf",
+      "response_url": "https://bcolombier.fr/assets/PDFs/BPT%2B_Masked_25.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:48:29.392721+00:00",
+      "sha256": "c3e90a95a5d0f5d0758f04ae81324534c5107f7dde46cc186ded4f6e61fdfeca",
+      "bytes": 917013,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "muovfollow-floor-published-pdf",
+      "url": "https://cic.iacr.org/p/1/4/9/pdf",
+      "response_url": "https://cic.iacr.org/p/1/4/9/pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:49:24.551986+00:00",
+      "sha256": "ca2dd0160747609bb3d8370b8d6fd198a3353180f6f42b313861ebc5a5b0ae5a",
+      "bytes": 922885,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "muovfollow-floor-publisher",
+      "url": "https://cic.iacr.org/p/1/4/9",
+      "response_url": "https://cic.iacr.org/p/1/4/9",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:49:23.139912+00:00",
+      "sha256": "c17194c365a1da92d412c36778b1adca9c2824159367ab1bd3f65407111f2f7c",
+      "bytes": 65757,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "muovfollow-ge-arxiv",
+      "url": "https://arxiv.org/abs/2411.00067",
+      "response_url": "https://arxiv.org/abs/2411.00067",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:48:26.527284+00:00",
+      "sha256": "6552c66fa85dc8b688fb50a407e0836c861b6fe10b3e8a31e88dba1f1c41b81d",
+      "bytes": 43934,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "muovfollow-ge-crossref-query",
+      "url": "https://api.crossref.org/works?query.title=Masking+Gaussian+Elimination+at+Arbitrary+Order+with+Application+to+Multivariate+and+Code+Based+PQC&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Masking+Gaussian+Elimination+at+Arbitrary+Order+with+Application+to+Multivariate+and+Code+Based+PQC&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:48:29.119545+00:00",
+      "sha256": "ddce25622dee1887ec9fda3a73f321783ccfb815e94b18df0a1df2da518ca909",
+      "bytes": 23279,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "muovfollow-ge-eprint",
+      "url": "https://eprint.iacr.org/2024/1777",
+      "response_url": "https://eprint.iacr.org/2024/1777",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:48:26.761381+00:00",
+      "sha256": "9171758aec5ff312c65614debbf25a22966bd51d858a0c282596b1ee307265f5",
+      "bytes": 19321,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "muovfollow-ge-pdf",
+      "url": "https://www.cse.iitk.ac.in/users/angshuman/assets/pdf/Masked_GaussianElimination_PQC.pdf",
+      "response_url": "https://www.cse.iitk.ac.in/users/angshuman/assets/pdf/Masked_GaussianElimination_PQC.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:48:28.878151+00:00",
+      "sha256": "de86d60564c1da8830e69afe372ff6a876d5517a8a5c1609dd50aa44802e2a6b",
+      "bytes": 526801,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "muovfollow-ge-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-88661-4_11",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-88661-4_11",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:49:25.065453+00:00",
+      "sha256": "e5e26652cc085689ffa955fffb26346d602b510146bc9cfe5daec65b001e14ce",
+      "bytes": 336707,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "muovfollow-iccd-crossref",
+      "url": "https://api.crossref.org/works/10.1109/ICCD65941.2025.00078",
+      "response_url": "https://api.crossref.org/works/10.1109/ICCD65941.2025.00078",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:51:34.862684+00:00",
+      "sha256": "2984538c01d422f48f24b496f0d3da1c2392461635b3f2e004a12412e72f8d31",
+      "bytes": 5759,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "muovfollow-maskaglia-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-032-35415-0_6",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-032-35415-0_6",
+      "status": 429,
+      "retrieved_at": "2026-11-13T18:51:34.866066+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "HTTP failure only; cached response is not scholarly content"
+    },
+    {
+      "source_id": "muovfollow-maskaglia-eprint",
+      "url": "https://eprint.iacr.org/2026/988",
+      "response_url": "https://eprint.iacr.org/2026/988",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:51:34.482571+00:00",
+      "sha256": "a4d22e541d2b1201eacc064cf78a8c1d164e3513dd7bb1cc7dd0c1788e594611",
+      "bytes": 19172,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "muovfollow-maskaglia-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-35415-0_6",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-032-35415-0_6",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:51:37.047628+00:00",
+      "sha256": "713546f2db25691ef4794eab78c4cf12a4dbaac065567b50b5a7861bf89e5b83",
+      "bytes": 330269,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "muovfollow-mq2018-crossref",
+      "url": "https://api.crossref.org/works/10.46586/tches.v2018.i3.500-523",
+      "response_url": "https://api.crossref.org/works/10.46586/tches.v2018.i3.500-523",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:49:25.825723+00:00",
+      "sha256": "89701ccd1af84f1f3974ac82df7b453a34ec4885d65344dc1fc91bf0239f1e92",
+      "bytes": 4465,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "muovfollow-singular-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-91095-1_11",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-91095-1_11",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:49:25.425890+00:00",
+      "sha256": "39df7f8b784eb7886d7b898e53077529a341eac6e57d5d3c1299da16b78d4973",
+      "bytes": 15519,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "muovfollow-singular-eprint",
+      "url": "https://eprint.iacr.org/2024/219",
+      "response_url": "https://eprint.iacr.org/2024/219",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:49:24.166698+00:00",
+      "sha256": "3b91fbeeed5e1d81ceecbcc7bef4939ee38552a14b92017fd3c7347fb291a77e",
+      "bytes": 15126,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "muovfollow-singular-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-91095-1_11",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-91095-1_11",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:50:41.173153+00:00",
+      "sha256": "b2254c78bbd1272c04d68d5d43d412b6f27f7b2c39b93594a1951b7c51da370e",
+      "bytes": 314439,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "muovfollow-sok-crossref-query",
+      "url": "https://api.crossref.org/works?query.title=SoK+On+the+Physical+Security+of+UOV-Based+Signature+Schemes&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=SoK+On+the+Physical+Security+of+UOV-Based+Signature+Schemes&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:48:29.441689+00:00",
+      "sha256": "5418e2bcf143b1ac324a3bfad3e83050a0009a687a897c3e5b7a310002094e2c",
+      "bytes": 39901,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "muovfollow-sok-eprint",
+      "url": "https://eprint.iacr.org/2024/1818",
+      "response_url": "https://eprint.iacr.org/2024/1818",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:48:26.696341+00:00",
+      "sha256": "b505639dfaeedfed9f1545b9e46fa1cf0658e8c097a5b00ee225c9799ffef487",
+      "bytes": 18322,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "muovfollow-sok-pdf",
+      "url": "https://eprint.iacr.org/2024/1818.pdf",
+      "response_url": "https://eprint.iacr.org/2024/1818.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T18:48:26.400944+00:00",
+      "sha256": "c0bf65c879e2a055c368e8944b227d2165bf360545bf7116f74a9f4cd90d6af1",
+      "bytes": 5583,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "HTTP failure only; cached response is not scholarly content"
+    },
+    {
+      "source_id": "muovfollow-sok-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-86599-2_7",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-86599-2_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:49:25.023033+00:00",
+      "sha256": "74bce700c7998c3ccfcb526617093ce1bfcfd050a3f4eec17928ae554d32a184",
+      "bytes": 329103,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "muovfollow-uov2018-crossref-query",
+      "url": "https://api.crossref.org/works?query.title=Side-Channel+Security+Analysis+of+UOV+Signature+for+Cloud-Based+Internet+of+Things&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Side-Channel+Security+Analysis+of+UOV+Signature+for+Cloud-Based+Internet+of+Things&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:49:27.500360+00:00",
+      "sha256": "13400e6b3b593147dd80764b9916721881528f090a02328c24223c1329ef74b9",
+      "bytes": 15862,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "muovfollow-uov2018-publisher",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167739X18304151",
+      "response_url": "https://www.sciencedirect.com/science/article/abs/pii/S0167739X18304151",
+      "status": 403,
+      "retrieved_at": "2026-11-13T18:50:37.164198+00:00",
+      "sha256": "248858e17b92bb16de2429c17fba6ac33718d27dd1e23147d90a17544a89b3f9",
+      "bytes": 832982,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "HTTP failure only; cached response is not scholarly content"
+    },
+    {
+      "source_id": "muovfollow-vector-crossref-query",
+      "url": "https://api.crossref.org/works?query.title=One+Vector+to+Rule+Them+All+Key+Recovery+from+One+Vector+in+UOV+Schemes&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=One+Vector+to+Rule+Them+All+Key+Recovery+from+One+Vector+in+UOV+Schemes&rows=3",
+      "status": 429,
+      "retrieved_at": "2026-11-13T18:48:28.112707+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "HTTP failure only; cached response is not scholarly content"
+    },
+    {
+      "source_id": "muovfollow-vector-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-62746-0_5",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-62746-0_5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:49:23.015918+00:00",
+      "sha256": "321a6da05566f39c941035716035a5a645c5ee83482580bf9ea842752a3f1b51",
+      "bytes": 11141,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "muovfollow-vector-eprint",
+      "url": "https://eprint.iacr.org/2023/1131",
+      "response_url": "https://eprint.iacr.org/2023/1131",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:48:26.710305+00:00",
+      "sha256": "86cbcad12a48e320bc0b2c4ea8a6d22f1e5cc91d5706b5cdd19aaa1aabfd38c1",
+      "bytes": 15441,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "muovfollow-vector-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-62746-0_5",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-62746-0_5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:49:25.079459+00:00",
+      "sha256": "a2e9f70e7b83ae86274e96f4bc49ffaa6861982cb7337ef1663bc88cc739f581",
+      "bytes": 300736,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "counts": {
+    "new_catalog_records": 11,
+    "new_cards": 6,
+    "new_abstract_decisions": 9,
+    "resolved_discoveries": 7,
+    "new_citation_edges": 18,
+    "new_version_edges": 5,
+    "new_reference_positions": 32,
+    "new_pending_discoveries": 11,
+    "separate_forward_leads": 2
+  },
+  "reading_note": "notes/muov-followups-and-masked-sampling-20261114.md",
+  "scope_note": "Frozen cutoff 2026-11-12; 2018/2019 foundations separately marked; no experiments or author-code execution",
+  "gaps": [
+    "mUOV remaining 10 discoveries, final ACM bibliography and recursive/forward closure",
+    "UOV 2018 primary abstract HTTP 403 despite identified DOI; no scope decision from search excerpts",
+    "ICCD 2025 conversion primary abstract and citing bibliography unread; metadata only",
+    "GE author major revision and formal chapter not fully compared",
+    "SoK author PDF HTTP 403; full primary abstracts read, full experiments/proofs still pending",
+    "Falcon floor proofs not fully reviewed; formal vs author references differ",
+    "Maskaglia only full abstract and selected citation read; not a demonstrated full Falcon sampler",
+    "All other core and extension venue coverage remains incomplete"
+  ]
+}

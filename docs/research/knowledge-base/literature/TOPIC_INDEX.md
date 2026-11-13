@@ -212,6 +212,10 @@
 
 - 2022 SP · [AccEar: Accelerometer Acoustic Eavesdropping with Unconstrained Vocabulary](https://doi.org/10.1109/sp46214.2022.9833716) · physical_side_channel · abstract_and_bibliographic_metadata
 
+## AVR
+
+- 2018 TCHES · [Side-Channel Attacks on Post-Quantum Signature Schemes based on Multivariate Quadratic Equations: - Rainbow and UOV -](https://doi.org/10.46586/tches.v2018.i3.500-523) · attack · abstract_and_bibliographic_metadata
+
 ## AVX-512
 
 - 2021 TCHES · [Batching CSIDH Group Actions using AVX-512](https://doi.org/10.46586/tches.v2021.i4.618-649) · constant_time_implementation · abstract_and_bibliographic_metadata
@@ -232,6 +236,10 @@
 ## B+ trees
 
 - 2026 SP · [Leafblower: a Leakage Attack Against Tee-Based Encrypted Databases](https://doi.org/10.1109/sp63933.2026.00008) · system_metadata_side_channel · abstract_and_bibliographic_metadata
+
+## B2A
+
+- 2019 PKC · [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) · masking · selected_full_text_sections
 
 ## backscatter
 
@@ -261,6 +269,10 @@
 - 2022 TCHES · [Faster Constant-Time Decoder for MDPC Codes and Applications to BIKE KEM](https://doi.org/10.46586/tches.v2022.i4.110-134) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Racing BIKE: Improved Polynomial Multiplication and Inversion in Hardware](https://doi.org/10.46586/tches.v2022.i1.557-588) · constant_time_implementation · abstract_and_bibliographic_metadata
 
+## binomial sampler
+
+- 2019 PKC · [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) · masking · selected_full_text_sections
+
 ## bit interaction
 
 - 2020 TCHES · [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) · leakage_model_and_evaluation · selected_full_text_sections
@@ -272,6 +284,10 @@
 ## bitsliced masking conversion
 
 - 2022 TCHES · [Bitslicing Arithmetic/Boolean Masking Conversions for Fun and Profit: with Application to Lattice-Based KEMs](https://doi.org/10.46586/tches.v2022.i4.553-588) · countermeasure · abstract_and_bibliographic_metadata
+
+## bitslicing
+
+- 2026 CRYPTO · [Maskaglia: A New, Efficient Approach to Masked Discrete Gaussian Sampling](https://doi.org/10.1007/978-3-032-35415-0_6) · masking · abstract_and_bibliographic_metadata
 
 ## BLE
 
@@ -609,6 +625,7 @@
 
 ## CPA
 
+- 2018 TCHES · [Side-Channel Attacks on Post-Quantum Signature Schemes based on Multivariate Quadratic Equations: - Rainbow and UOV -](https://doi.org/10.46586/tches.v2018.i3.500-523) · attack · abstract_and_bibliographic_metadata
 - 2023 IACR ePrint · [Lightweight but Not Easy: Side-channel Analysis of the Ascon Authenticated Cipher on a 32-bit Microcontroller](https://eprint.iacr.org/2023/1598) · attack · abstract_and_bibliographic_metadata
 - 2024 ACM TECS · [Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication](https://doi.org/10.1145/3569420) · polynomial_multiplication_side_channel · selected_full_text_sections
 - 2025 TCAS-II · [A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber](https://doi.org/10.1109/tcsii.2025.3528751) · hardware_countermeasure · selected_full_text_sections
@@ -833,6 +850,10 @@
 ## direct-to-cell
 
 - 2025 SP · [Mind the Location Leakage in LEO Direct-to-Cell Satellite Networks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-108) · protocol_metadata_location_leakage · abstract_and_bibliographic_metadata
+
+## discrete Gaussian
+
+- 2026 CRYPTO · [Maskaglia: A New, Efficient Approach to Masked Discrete Gaussian Sampling](https://doi.org/10.1007/978-3-032-35415-0_6) · masking · abstract_and_bibliographic_metadata
 
 ## discrete Gaussian sampling
 
@@ -1073,6 +1094,10 @@
 - 2026 TCHES · [Secret Key Recovery of FALCON using Simple Power Analysis in Conditional Calculator](https://doi.org/10.46586/tches.v2026.i2.953-975) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [When Masking Multiplication Isn’t Enough: Exploiting Floating-Point Leakage in Falcon’s Pre-Image Computation](https://doi.org/10.46586/tches.v2026.i2.686-708) · attack · abstract_and_bibliographic_metadata
 
+## FALCON
+
+- 2025 CiC · [Masked Computation of the Floor Function and Its Application to the FALCON Signature](https://doi.org/10.62056/ay73zl7s) · masking · selected_full_text_sections
+
 ## Falcon LLM
 
 - 2025 USENIX · [I Know What You Said: Unveiling Hardware Cache Side-Channels in Local Large Language Model Inference](https://www.usenix.org/conference/usenixsecurity25/presentation/gao-zibo) · cache attack · abstract_and_bibliographic_metadata
@@ -1136,9 +1161,17 @@
 - 2021 DAC · [FALCON Down: Breaking FALCON Post-Quantum Signature Scheme through Side-Channel Attacks](https://doi.org/10.1109/dac18074.2021.9586131) · attack · selected_full_text_sections
 - 2022 SP · [Are We There Yet? Timing and Floating-Point Attacks on Differential Privacy Systems](https://doi.org/10.1109/sp46214.2022.9833672) · implementation_side_channel · abstract_and_bibliographic_metadata
 
+## floating-point
+
+- 2025 CiC · [Masked Computation of the Floor Function and Its Application to the FALCON Signature](https://doi.org/10.62056/ay73zl7s) · masking · selected_full_text_sections
+
 ## floating-point conditional calculator
 
 - 2026 TCHES · [Secret Key Recovery of FALCON using Simple Power Analysis in Conditional Calculator](https://doi.org/10.46586/tches.v2026.i2.953-975) · attack · abstract_and_bibliographic_metadata
+
+## floor
+
+- 2025 CiC · [Masked Computation of the Floor Function and Its Application to the FALCON Signature](https://doi.org/10.62056/ay73zl7s) · masking · selected_full_text_sections
 
 ## flow correlation
 
@@ -1225,6 +1258,7 @@
 ## Gaussian elimination
 
 - 2025 TCHES · [Leaky McEliece: Secret Key Recovery From Highly Erroneous Side-Channel Information](https://doi.org/10.46586/tches.v2025.i2.94-125) · attack · abstract_and_bibliographic_metadata
+- 2025 CT-RSA · [Masking Gaussian Elimination at Arbitrary Order with Application to Multivariate-and Code-Based PQC](https://doi.org/10.1007/978-3-031-88661-4_11) · masking · selected_full_text_sections
 
 ## Gaussian sampling
 
@@ -1331,6 +1365,7 @@
 ## HAWK
 
 - 2024 TCHES · [A Not So Discrete Sampler: Power Analysis Attacks on HAWK signature scheme](https://doi.org/10.46586/tches.v2024.i4.156-178) · attack · abstract_and_bibliographic_metadata
+- 2026 CRYPTO · [Maskaglia: A New, Efficient Approach to Masked Discrete Gaussian Sampling](https://doi.org/10.1007/978-3-032-35415-0_6) · masking · abstract_and_bibliographic_metadata
 
 ## HBM
 
@@ -1619,6 +1654,7 @@
 
 ## Kyber
 
+- 2019 PKC · [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) · masking · selected_full_text_sections
 - 2020 SPACE · [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) · countermeasure · abstract_and_bibliographic_metadata
 - 2020 IEEE Access · [Single-Trace Attacks on Message Encoding in Lattice-Based KEMs](https://doi.org/10.1109/access.2020.3029521) · attack · abstract_and_bibliographic_metadata
 - 2021 TCHES · [Chosen Ciphertext k-Trace Attacks on Masked CCA2 Secure Kyber](https://doi.org/10.46586/tches.v2021.i4.88-113) · attack · abstract_and_bibliographic_metadata
@@ -1953,7 +1989,9 @@
 ## MAYO
 
 - 2024 IACR ePrint · [Single-trace side-channel attacks on MAYO exploiting leaky modular multiplication](https://eprint.iacr.org/2024/1850) · attack · abstract_and_bibliographic_metadata
+- 2025 CT-RSA · [Masking Gaussian Elimination at Arbitrary Order with Application to Multivariate-and Code-Based PQC](https://doi.org/10.1007/978-3-031-88661-4_11) · masking · selected_full_text_sections
 - 2025 QRSEC · [Single-trace Side-Channel Attacks on MAYO Exploiting Leaky Modular Multiplication](https://doi.org/10.1145/3733820.3764682) · attack · abstract_and_bibliographic_metadata
+- 2025 PQCrypto · [SoK: On the Physical Security of UOV-Based Signature Schemes](https://doi.org/10.1007/978-3-031-86599-2_7) · survey and countermeasure · abstract_and_bibliographic_metadata
 
 ## Mbed TLS
 
@@ -2035,6 +2073,10 @@
 ## MIMO
 
 - 2024 SP · [mimoCrypt: Multi-User Privacy-Preserving Wi-Fi Sensing via MIMO Encryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · physical_sensing_countermeasure · abstract_and_bibliographic_metadata
+
+## MIMO-SNI
+
+- 2025 CiC · [Masked Computation of the Floor Function and Its Application to the FALCON Signature](https://doi.org/10.62056/ay73zl7s) · masking · selected_full_text_sections
 
 ## MinRank
 
@@ -2136,6 +2178,10 @@
 - 2024 IACR ePrint · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://eprint.iacr.org/2024/1875) · masking · abstract_and_bibliographic_metadata
 - 2025 CCS · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) · masking · selected_full_text_sections
 
+## MQ-Sign
+
+- 2025 CT-RSA · [Masking Gaussian Elimination at Arbitrary Order with Application to Multivariate-and Code-Based PQC](https://doi.org/10.1007/978-3-031-88661-4_11) · masking · selected_full_text_sections
+
 ## MSR
 
 - 2022 SP · [Finding and Exploiting CPU Features using MSR Templating](https://doi.org/10.1109/sp46214.2022.9833599) · configuration_assisted_side_channel · abstract_and_bibliographic_metadata
@@ -2196,6 +2242,7 @@
 
 ## NewHope
 
+- 2019 PKC · [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) · masking · selected_full_text_sections
 - 2020 PQCrypto · [Defeating NewHope with a Single Trace](https://doi.org/10.1007/978-3-030-44223-1_11) · attack · abstract_and_bibliographic_metadata
 - 2021 TCHES · [Compact Dilithium Implementations on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2021.i1.1-24) · constant_time_implementation · abstract_and_bibliographic_metadata
 
@@ -2600,6 +2647,11 @@
 
 - 2026 SP · [VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments](https://doi.org/10.1109/sp63933.2026.00046) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
 
+## QR-UOV
+
+- 2025 CT-RSA · [Masking Gaussian Elimination at Arbitrary Order with Application to Multivariate-and Code-Based PQC](https://doi.org/10.1007/978-3-031-88661-4_11) · masking · selected_full_text_sections
+- 2025 PQCrypto · [SoK: On the Physical Security of UOV-Based Signature Schemes](https://doi.org/10.1007/978-3-031-86599-2_7) · survey and countermeasure · abstract_and_bibliographic_metadata
+
 ## qTESLA
 
 - 2019 CARDIS · [An Efficient and Provable Masked Implementation of qTESLA](https://doi.org/10.1007/978-3-030-42068-0_5) · countermeasure · abstract_and_bibliographic_metadata
@@ -2628,6 +2680,7 @@
 
 ## Rainbow
 
+- 2018 TCHES · [Side-Channel Attacks on Post-Quantum Signature Schemes based on Multivariate Quadratic Equations: - Rainbow and UOV -](https://doi.org/10.46586/tches.v2018.i3.500-523) · attack · abstract_and_bibliographic_metadata
 - 2021 TCHES · [Rainbow on Cortex-M4](https://doi.org/10.46586/tches.v2021.i4.650-675) · constant_time_component · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Efficient Implementations of Rainbow and UOV using AVX2](https://doi.org/10.46586/tches.v2022.i1.245-269) · implementation_and_leakage_analysis · abstract_and_bibliographic_metadata
 
@@ -2827,6 +2880,7 @@
 
 ## Saber
 
+- 2019 PKC · [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) · masking · selected_full_text_sections
 - 2020 IEEE Access · [Single-Trace Attacks on Message Encoding in Lattice-Based KEMs](https://doi.org/10.1109/access.2020.3029521) · attack · abstract_and_bibliographic_metadata
 - 2021 TCHES · [A Side-Channel Attack on a Masked IND-CCA Secure Saber KEM Implementation](https://doi.org/10.46586/tches.v2021.i4.676-707) · attack · abstract_and_bibliographic_metadata
 - 2021 ASHES · [Breaking Masked and Shuffled CCA Secure Saber KEM by Power Analysis](https://doi.org/10.1145/3474376.3487277) · attack · abstract_and_bibliographic_metadata
@@ -3019,6 +3073,11 @@
 - 2016 CCS · [Strong Non-Interference and Type-Directed Higher-Order Masking](https://doi.org/10.1145/2976749.2978427) · formal_countermeasure · abstract_and_bibliographic_metadata
 - 2020 CCS · [SNI-in-the-head: Protecting MPC-in-the-head Protocols against Side-channel Analysis](https://doi.org/10.1145/3372297.3417889) · countermeasure_protocol · abstract_and_bibliographic_metadata
 
+## SNOVA
+
+- 2025 CT-RSA · [Masking Gaussian Elimination at Arbitrary Order with Application to Multivariate-and Code-Based PQC](https://doi.org/10.1007/978-3-031-88661-4_11) · masking · selected_full_text_sections
+- 2025 PQCrypto · [SoK: On the Physical Security of UOV-Based Signature Schemes](https://doi.org/10.1007/978-3-031-86599-2_7) · survey and countermeasure · abstract_and_bibliographic_metadata
+
 ## software cache
 
 - 2026 USENIX · [Side-Channel Attacks on Open vSwitch](https://www.usenix.org/conference/usenixsecurity26/presentation/kim-daewoo) · network_side_channel · abstract_and_bibliographic_metadata
@@ -3167,6 +3226,7 @@
 ## t-probing
 
 - 2025 CCS · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) · masking · selected_full_text_sections
+- 2026 CRYPTO · [Maskaglia: A New, Efficient Approach to Masked Discrete Gaussian Sampling](https://doi.org/10.1007/978-3-032-35415-0_6) · masking · abstract_and_bibliographic_metadata
 - 2026 TCHES · [t-Probing (In-)Security: Pitfalls on Noise Assumptions](https://doi.org/10.46586/tches.v2026.i2.1-27) · attack_and_model_analysis · abstract_and_bibliographic_metadata
 
 ## taint tracking
@@ -3369,9 +3429,12 @@
 
 ## UOV
 
+- 2018 TCHES · [Side-Channel Attacks on Post-Quantum Signature Schemes based on Multivariate Quadratic Equations: - Rainbow and UOV -](https://doi.org/10.46586/tches.v2018.i3.500-523) · attack · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Efficient Implementations of Rainbow and UOV using AVX2](https://doi.org/10.46586/tches.v2022.i1.245-269) · implementation_and_leakage_analysis · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Separating Oil and Vinegar with a Single Trace: Side-Channel Assisted Kipnis-Shamir Attack on UOV](https://doi.org/10.46586/tches.v2023.i3.221-245) · attack · abstract_and_bibliographic_metadata
 - 2024 IACR ePrint · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://eprint.iacr.org/2024/1875) · masking · abstract_and_bibliographic_metadata
+- 2025 CT-RSA · [Masking Gaussian Elimination at Arbitrary Order with Application to Multivariate-and Code-Based PQC](https://doi.org/10.1007/978-3-031-88661-4_11) · masking · selected_full_text_sections
+- 2025 PQCrypto · [SoK: On the Physical Security of UOV-Based Signature Schemes](https://doi.org/10.1007/978-3-031-86599-2_7) · survey and countermeasure · abstract_and_bibliographic_metadata
 - 2025 CCS · [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) · masking · selected_full_text_sections
 - 2026 TCHES · [Masked Solving of Linear Equations System and Application to UOV Signatures](https://doi.org/10.46586/tches.v2026.i2.51-72) · countermeasure · abstract_and_bibliographic_metadata
 

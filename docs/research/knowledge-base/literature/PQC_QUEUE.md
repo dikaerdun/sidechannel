@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6743 条，其中 415 条命中后量子相关关键词。
+当前目录记录 6754 条，其中 424 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -130,12 +130,16 @@
 | 2025 CCS | [Post-Quantum Threshold Ring Signature Applications from VOLE-in-the-Head](https://dl.acm.org/doi/10.1145/3719027.3744854) | pending |
 | 2025 CCS | [Sliced PIR: Offloading Heavyweight Work with NTT](https://dl.acm.org/doi/10.1145/3719027.3765154) | pending |
 | 2025 CCS | [Subversion-resilient key-exchange in the post-quantum world](https://dl.acm.org/doi/10.1145/3719027.3765165) | pending |
+| 2025 CiC | [Masked Computation of the Floor Function and Its Application to the FALCON Signature](https://doi.org/10.62056/ay73zl7s) | include |
+| 2025 EUROCRYPT | [Singular Points of UOV and VOX](https://doi.org/10.1007/978-3-031-91095-1_11) | adjacent |
 | 2025 IACR ePrint | [FAEST for Memory-Constrained Devices](https://eprint.iacr.org/2025/1261) | include |
+| 2025 ICCD | [Masked Gadgets for Integer-Floating-Point Conversion with Applications to Falcon](https://doi.org/10.1109/iccd65941.2025.00078) | pending |
 | 2025 Journal of Cryptographic Engineering | [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) | include |
 | 2025 NDSS | [L-HAWK: A Controllable Physical Adversarial Patch Against a Long-Distance Target](https://www.ndss-symposium.org/ndss-paper/l-hawk-a-controllable-physical-adversarial-patch-against-a-long-distance-target/) | pending |
 | 2025 NDSS | [PQConnect: Automated Post-Quantum End-to-End Tunnels](https://www.ndss-symposium.org/ndss-paper/pqconnect-automated-post-quantum-end-to-end-tunnels/) | pending |
 | 2025 PQCrypto | [Et tu, Brute? Side-Channel Assisted Chosen Ciphertext Attacks Using Valid Ciphertexts on HQC KEM](https://doi.org/10.1007/978-3-031-86602-9_11) | include |
 | 2025 PQCrypto | [Single Trace Side-Channel Attack on the MPC-in-the-Head Framework](https://doi.org/10.1007/978-3-031-86602-9_10) | include |
+| 2025 PQCrypto | [SoK: On the Physical Security of UOV-Based Signature Schemes](https://doi.org/10.1007/978-3-031-86599-2_7) | include |
 | 2025 QRSEC | [Single-trace Side-Channel Attacks on MAYO Exploiting Leaky Modular Multiplication](https://doi.org/10.1145/3733820.3764682) | include |
 | 2025 SP | [Gold OPRF: Post-Quantum Oblivious Power-Residue PRF](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-197) | pending |
 | 2025 SP | [Papercraft: Lattice-based Verifiable Delay Function Implemented](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-153) | pending |
@@ -214,8 +218,10 @@
 | 2024 IACR ePrint | [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://eprint.iacr.org/2024/1875) | include |
 | 2024 IACR ePrint | [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://eprint.iacr.org/2024/1715) | include |
 | 2024 IACR ePrint | [Single-trace side-channel attacks on MAYO exploiting leaky modular multiplication](https://eprint.iacr.org/2024/1850) | include |
+| 2024 IACR ePrint | [Singular points of UOV and VOX](https://eprint.iacr.org/2024/219) | adjacent |
 | 2024 Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | include |
 | 2024 NDSS | [When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications](https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/) | pending |
+| 2024 PQCrypto | [One Vector to Rule Them All: Key Recovery from One Vector in UOV Schemes](https://doi.org/10.1007/978-3-031-62746-0_5) | adjacent |
 | 2024 SP | [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | include |
 | 2024 SP | [Ligetron: Lightweight Scalable End-to-End Zero-Knowledge Proofs. Post-Quantum ZK-SNARKs on a Browser](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | pending |
 | 2024 SP | [MPC-in-the-Head Framework without Repetition and its Applications to the Lattice-based Cryptography](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | pending |
@@ -417,7 +423,10 @@
 | 2019 ACNS | [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) | include |
 | 2019 COSADE | [Practical Evaluation of Masking for NTRUEncrypt on ARM Cortex-M4](https://doi.org/10.1007/978-3-030-16350-1_14) | include |
 | 2019 INDOCRYPT | [FPGA Implementation and Comparison of Protections Against SCAs for RLWE](https://doi.org/10.1007/978-3-030-35423-7_27) | include |
+| 2019 PKC | [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) | include |
 | 2019 SAC | [A Timing Attack on the HQC Encryption Scheme](https://doi.org/10.1007/978-3-030-38471-5_22) | include |
 | 2018 EUROCRYPT | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | include |
+| 2018 Future Generation Computer Systems | [Side-channel security analysis of UOV signature for cloud-based Internet of Things](https://doi.org/10.1016/j.future.2018.04.083) | pending |
 | 2018 TCHES | [Practical CCA2-Secure and Masked Ring-LWE Implementation](https://doi.org/10.46586/tches.v2018.i1.142-174) | include |
+| 2018 TCHES | [Side-Channel Attacks on Post-Quantum Signature Schemes based on Multivariate Quadratic Equations: - Rainbow and UOV -](https://doi.org/10.46586/tches.v2018.i3.500-523) | include |
 | 2017 CHES | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | include |
