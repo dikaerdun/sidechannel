@@ -12,16 +12,29 @@
     }
   ],
   "page_title": "USENIX Security '26 Technical Sessions | USENIX",
-  "selector": "article.node-paper > h2 > presentation link",
+  "selector": "article.node-paper h2 > a[href]; classify all nodes, including nonstandard talk URLs and retrospective discussions",
   "matched_nodes": 381,
-  "parsed_records": 363,
-  "retained_total": 363,
+  "parsed_records": 362,
+  "retained_total": 362,
   "duplicate_occurrences": 0,
-  "nonpaper_entries": 15,
-  "reported_total": null,
-  "count_reconciled": false,
+  "supplemental_reconciliation": null,
+  "nonpaper_entries": 19,
+  "reported_total": 362,
+  "count_reconciled": true,
   "warnings": [],
-  "external_toc_crosscheck": "pending",
-  "subject_screening": "pending",
-  "citation_chasing": "pending"
+  "external_toc_crosscheck": "matched separately retrieved official print TOC",
+  "subject_screening": "362 titles; 76 abstract-or-above decisions; 286 abstracts remain unreviewed",
+  "citation_chasing": "selected PQC references only; incomplete",
+  "count_evidence": {
+    "matched_schedule_nodes": 381,
+    "research_papers": 362,
+    "nonpaper_entries": 19,
+    "print_toc_records": 362,
+    "chairs_reported_total": 362,
+    "source_ids": [
+      "usenix-2026-print-toc",
+      "usenix-2026-chairs",
+      "usenix-2026-tot"
+    ]
+  }
 }

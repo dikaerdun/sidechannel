@@ -1,0 +1,47 @@
+{
+  "sources": [
+    {
+      "source_id": "usenix-2026-print-toc",
+      "url": "https://www.usenix.org/sites/default/files/sec26_contents.pdf",
+      "response_url": "https://www.usenix.org/sites/default/files/sec26_contents.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:02:37.072629+00:00",
+      "sha256": "8f6721918022aeddaa9c697a2abd129bc234dbb2c77d2d350f5510cbdb28cb5e",
+      "bytes": 442299,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix-2026-chairs",
+      "url": "https://www.usenix.org/sites/default/files/sec26_message.pdf",
+      "response_url": "https://www.usenix.org/sites/default/files/sec26_message.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:02:36.963050+00:00",
+      "sha256": "2c520c8a4d86727c653cfbbdffefd605e1a82f26bb262be58aa95f9903524fb3",
+      "bytes": 143736,
+      "content_type": "application/pdf"
+    }
+  ],
+  "reviewed_on": "2026-11-13",
+  "source_role": "separate official proceedings PDF, independently retrieved from HTML schedule",
+  "manual_checks": [
+    "PDF title page and first TOC page",
+    "TOC page 13 L-infinity notation",
+    "program chairs PDF page 4: 166 + 196 = 362 accepted papers"
+  ],
+  "core_cell_crosschecks": [
+    {
+      "venue": "USENIX",
+      "year": 2026,
+      "status": "matched_print_toc",
+      "inventory_file": "toc-crosschecks/usenix-2026.jsonl",
+      "accepted_records": 362,
+      "print_toc_records": 362,
+      "exact_normalized_title_matches": 361,
+      "manually_matched_title_changes": 1,
+      "unpaginated_records": 0,
+      "missing_from_toc": 0,
+      "extra_in_toc": 0,
+      "scope": "schedule versus separately retrieved publisher print TOC; same publishing organization, not an independent scientific review; mathematical spelling difference only"
+    }
+  ]
+}

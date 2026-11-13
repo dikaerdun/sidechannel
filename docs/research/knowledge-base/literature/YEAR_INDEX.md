@@ -37,7 +37,41 @@
 | TCHES | [Verified non-recursive calculation of Beneš networks applied to Classic McEliece](https://doi.org/10.46586/tches.v2026.i3.306-333) | selected_full_text_sections |
 | TCHES | [When Masking Multiplication Isn’t Enough: Exploiting Floating-Point Leakage in Falcon’s Pre-Image Computation](https://doi.org/10.46586/tches.v2026.i2.686-708) | abstract_and_bibliographic_metadata |
 | TCHES | [t-Probing (In-)Security: Pitfalls on Noise Assumptions](https://doi.org/10.46586/tches.v2026.i2.1-27) | abstract_and_bibliographic_metadata |
-| USENIX | [Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles](https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian) | abstract_and_bibliographic_metadata |
+| USENIX | [Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei) | selected_full_text_sections |
+| USENIX | [Attacks on Approximate Caches in Text-to-Image Diffusion Models](https://www.usenix.org/conference/usenixsecurity26/presentation/sun-desen) | abstract_and_bibliographic_metadata |
+| USENIX | [Behind Bars: A Side-Channel Attack on NVIDIA MIG Cache Partitioning Using Memory Barriers](https://www.usenix.org/conference/usenixsecurity26/presentation/gu-cheng) | abstract_and_bibliographic_metadata |
+| USENIX | [Bridges to Self: Silent Web-to-App Tracking on Mobile via Localhost](https://www.usenix.org/conference/usenixsecurity26/presentation/vlummens) | abstract_and_bibliographic_metadata |
+| USENIX | [Charting the Cache Side-Channel Frontier: A Systematic Study of Eviction Set Construction on Apple Silicon](https://www.usenix.org/conference/usenixsecurity26/presentation/wang-han) | abstract_and_bibliographic_metadata |
+| USENIX | [DDR-SSE: Duplicated Retrieval of Documents for System-wide Secure Searchable Symmetric Encryption](https://www.usenix.org/conference/usenixsecurity26/presentation/gui) | abstract_and_bibliographic_metadata |
+| USENIX | [DuetORAM: Two-Server Distributed ORAM with Constant Rounds and O(log N) Communication](https://www.usenix.org/conference/usenixsecurity26/presentation/li-feng) | abstract_and_bibliographic_metadata |
+| USENIX | [Exploiting Hidden Resource Contention in Selective Speculation Defenses](https://www.usenix.org/conference/usenixsecurity26/presentation/cheng) | abstract_and_bibliographic_metadata |
+| USENIX | [From Length to Content: Token-Length Side-Channel Attacks on LLM API Merged Outputs](https://www.usenix.org/conference/usenixsecurity26/presentation/li-sijia) | abstract_and_bibliographic_metadata |
+| USENIX | [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors](https://www.usenix.org/conference/usenixsecurity26/presentation/murakami) | abstract_and_bibliographic_metadata |
+| USENIX | [Injected and Leaked: Actively Inducing Side-Channel Leakage Using Electromagnetic Injection and Hardware Nonlinearity](https://www.usenix.org/conference/usenixsecurity26/presentation/yan-haoran) | abstract_and_bibliographic_metadata |
+| USENIX | [InstantOMR: Oblivious Message Retrieval with Low Latency and Optimal Parallelizability](https://www.usenix.org/conference/usenixsecurity26/presentation/liang) | abstract_and_bibliographic_metadata |
+| USENIX | [LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks](https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan) | abstract_and_bibliographic_metadata |
+| USENIX | [M-Step: A Single-Stepping Framework for Side-Channel Analysis on TrustZone-M](https://www.usenix.org/conference/usenixsecurity26/presentation/rodrigues) | abstract_and_bibliographic_metadata |
+| USENIX | [Network-Level Prompt and Trait Leakage in Local Research Agents](https://www.usenix.org/conference/usenixsecurity26/presentation/jeong) | abstract_and_bibliographic_metadata |
+| USENIX | [Oblivious Signaling](https://www.usenix.org/conference/usenixsecurity26/presentation/shuhan) | abstract_and_bibliographic_metadata |
+| USENIX | [PROBE+DETECT+MITIGATE (PDM): Enabling Cloud Tenants to Self-Defend against Microarchitectural Attacks](https://www.usenix.org/conference/usenixsecurity26/presentation/daneshmand) | abstract_and_bibliographic_metadata |
+| USENIX | [Plaintext Recovery Against Post-Filtering Access Control](https://www.usenix.org/conference/usenixsecurity26/presentation/espiritu) | abstract_and_bibliographic_metadata |
+| USENIX | [Principled Design of Indexing Functions for Memory Coloring](https://www.usenix.org/conference/usenixsecurity26/presentation/duebler) | abstract_and_bibliographic_metadata |
+| USENIX | [Remise: Authorized Anonymous Communication Systems](https://www.usenix.org/conference/usenixsecurity26/presentation/ravi-rohan) | abstract_and_bibliographic_metadata |
+| USENIX | [SONIC: Concurrent Oblivious RAM & Data Structures for Low-Latency and High-Throughput](https://www.usenix.org/conference/usenixsecurity26/presentation/talur) | abstract_and_bibliographic_metadata |
+| USENIX | [Side-Channel Attacks on Open vSwitch](https://www.usenix.org/conference/usenixsecurity26/presentation/kim-daewoo) | abstract_and_bibliographic_metadata |
+| USENIX | [SoK: Deep Learning-based Physical Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity26/presentation/karayalcin) | abstract_and_bibliographic_metadata |
+| USENIX | [SophOMR: Improved Oblivious Message Retrieval from SIMD-Aware Homomorphic Compression](https://www.usenix.org/conference/usenixsecurity26/presentation/lee-keewoo) | abstract_and_bibliographic_metadata |
+| USENIX | [Spectre on RISC-V Silicon: Attacks and Defenses on Commercial Out-of-Order Processors](https://www.usenix.org/conference/usenixsecurity26/presentation/gerlach) | abstract_and_bibliographic_metadata |
+| USENIX | [TIMESLICE-SANDWICH: A GPU Side-Channel Attack Exploiting Time-Sliced Scheduling](https://www.usenix.org/conference/usenixsecurity26/presentation/kim-hodong) | abstract_and_bibliographic_metadata |
+| USENIX | [Towards Practical Few-shot Multi-tab Website Fingerprinting](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-lin) | abstract_and_bibliographic_metadata |
+| USENIX | [TrojPix: Electromagnetic Covert Channels via Imperceptible Pixel Modulation](https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-guoming) | abstract_and_bibliographic_metadata |
+| USENIX | [Turn Your Face Into An Attack Surface: Screen Attack Using Facial Reflections in Video Conferencing](https://www.usenix.org/conference/usenixsecurity26/presentation/huang-yong) | abstract_and_bibliographic_metadata |
+| USENIX | [UncoreBleed: AEX-Free, High-Resolution, and Low-Noise Side-Channel Attacks on SGX Enclaved Execution](https://www.usenix.org/conference/usenixsecurity26/presentation/chen-decheng) | abstract_and_bibliographic_metadata |
+| USENIX | [Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles](https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian) | selected_full_text_sections |
+| USENIX | [VROOM: Accelerating (Almost All) Number-Theoretic Cryptography Using Vectorization and the Residue Number System](https://www.usenix.org/conference/usenixsecurity26/presentation/langowski) | abstract_and_bibliographic_metadata |
+| USENIX | [VeCT: Secure and Efficient Constant-Time Code Rewriting with Vector Extensions](https://www.usenix.org/conference/usenixsecurity26/presentation/jiang-qisheng) | abstract_and_bibliographic_metadata |
+| USENIX | [Your Keywords Know Each Other: Breaking SSE with <1% Leaked Documents](https://www.usenix.org/conference/usenixsecurity26/presentation/bian-mingyu) | abstract_and_bibliographic_metadata |
+| USENIX | [microSCALE: Static Analysis for Microarchitectural Side-channel Leakage Evaluation](https://www.usenix.org/conference/usenixsecurity26/presentation/kumar-e) | selected_full_text_sections |
 | arXiv | [Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach](https://arxiv.org/abs/2611.01144) | selected_full_text_sections |
 
 ## 2025

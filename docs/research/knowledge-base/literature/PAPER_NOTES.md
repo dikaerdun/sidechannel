@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 267 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 301 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## An architecture-independent instruction shuffler to protect against side-channel attacks
 
@@ -2996,16 +2996,393 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Guowei Liu, Weijia Wang, Lixuan Wu, Chaoran Wang, Yanhong Fan, Jinliang Wang, and Meiqin Wang, Shandong University
+- 对象：SDitH, MPC-in-the-Head, Common Shares, Keccak；类型：masking_countermeasure。
+- 核心想法：为 SDitH-Hypercube 的 last-party completion、BN 算术与秘密相关 Keccak 调用组织选择性掩码。
+- 作者报告：Cortex-M4 上比较保护配置；Common Shares 的 16 B/签名只计算术掩码随机性。一阶 EM TVLA 针对指定热点与 RNI+opt+IND-Keccak 配置。
+- 限制与下一步：选择性 Seed 边界不覆盖隐藏种子/种子树的完整单迹线恢复。IND 仅有一阶独立性，不能借用 DOM/SNI 的组合保证；不把局部 TVLA 未检出改写为完整签名无泄漏。
+- 阅读层级：selected_full_text_sections；来源：official final proceedings PDF and session abstract。
+- 已读章节：PDF pp.5,9,12-16: Seed boundary, masking randomness, selected measurements/limits and references; figure 4 visually checked
+- 代码/数据核查：author declares https://doi.org/10.5281/zenodo.20432040 in PDF p15; contents not inspected or run；引用追踪：pending。
+
+## Attacks on Approximate Caches in Text-to-Image Diffusion Models
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/sun-desen)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Desen Sun, Shuncheng Jie, and Sihang Liu, University of Waterloo
+- 对象：diffusion models, approximate cache, remote covert channel；类型：cache_side_channel。
+- 核心想法：近似缓存复用形成跨用户隐蔽通信及提示词命中泄漏。
+- 作者报告：作者还讨论缓存投毒，报告远程服务场景的验证。
+- 限制与下一步：隐蔽通信、缓存提示词恢复与投毒是不同能力；具体缓存接口、辅助信息和部署条件待正文核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Behind Bars: A Side-Channel Attack on NVIDIA MIG Cache Partitioning Using Memory Barriers
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/gu-cheng)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Cheng Gu, University of Rochester; Reese Levine, UC Santa Cruz; Zhenkai Zhang, Clemson University; Tyler Sorensen, Microsoft and UC Santa Cruz; Yanan Guo, University of Rochester
+- 对象：NVIDIA MIG, memory barriers, GPU, LLM；类型：microarchitectural_attack。
+- 核心想法：GPU memory barrier 的跨 MIG 分区副作用使攻击者推断其他实例的内核启动模式。
+- 作者报告：作者在 MIG 开启时观察跨 L2 分区时序干扰，并讨论 LLM 推理场景。
+- 限制与下一步：内核模式泄漏不等于任意 GPU 内存读出；具体设备、权限和内容恢复范围待正文核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Bridges to Self: Silent Web-to-App Tracking on Mobile via Localhost
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/vlummens)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Tim Vlummens, COSIC, KU Leuven; Aniketh Girish and Nipuna Weerasekara, IMDEA Networks Institute; Frederik Zuiderveen Borgesius and Gunes Acar, Radboud University; Narseo Vallina-Rodriguez, IMDEA Networks Institute Distinguished Paper Award Winner
+- 对象：Android, localhost, WebRTC, mDNS；类型：cross_context_tracking。
+- 核心想法：分析网页与本地应用桥接身份，以及绕过隔离防护的额外网络侧通道。
+- 作者报告：作者结合网页测量和 Android 分析讨论 localhost 跟踪与补丁绕过。
+- 限制与下一步：核心 localhost 通信包含直接跨上下文连接；纳入的是隔离/侧通道部分，不能统一称为被动功耗或缓存攻击。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Charting the Cache Side-Channel Frontier: A Systematic Study of Eviction Set Construction on Apple Silicon
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/wang-han)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Han Wang, Yakun Wu, Yusi Feng, and Yinqian Zhang, Southern University of Science and Technology
+- 对象：Apple Silicon, M4, eviction sets, SLC；类型：microarchitectural_measurement。
+- 核心想法：逆向 M4 的 victim buffer、预取与分配行为，改进 L2/SLC eviction set 构造。
+- 作者报告：摘要报告 L2 与 SLC 构造成功率，并形成跨 cluster 的细粒度原语。
+- 限制与下一步：构造成功率不等于密钥恢复成功率；M4 结果不自动适用于所有 Apple 芯片。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## DDR-SSE: Duplicated Retrieval of Documents for System-wide Secure Searchable Symmetric Encryption
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/gui)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Zichen Gui, University of Georgia; Simon-Philipp Merz and Kenneth G. Paterson, ETH Zürich; Sikhar Patranabis, IBM Research India
+- 对象：SSE, access patterns, document retrieval；类型：metadata_countermeasure。
+- 核心想法：DDR-SSE 用重复存储与随机取回抑制索引和文档取回的全系统泄漏。
+- 作者报告：作者给出模拟式泄漏模型证明、查询重建评估与性能实验。
+- 限制与下一步：需核查泄漏函数及辅助知识；协议模型不能覆盖全部端点物理通道。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## DuetORAM: Two-Server Distributed ORAM with Constant Rounds and O(log N) Communication
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/li-feng)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Feng Li and Xiangfu Song, Nanyang Technological University; Yingying Li, Hangzhou Normal University; Lisha Yao and Guomin Yang, Singapore Management University; Tianwei Zhang, Nanyang Technological University; Robert H. Deng, Singapore Management University
+- 对象：ORAM, DORAM, access patterns；类型：access_pattern_countermeasure。
+- 核心想法：DuetORAM 在双服务器模型中以复制到份额编码及预处理打乱隐藏访问模式。
+- 作者报告：作者报告常数轮访问与网络环境下的实现比较。
+- 限制与下一步：服务器串谋和对手模型须从正文确认；访问模式隐私不等于密码实现功耗安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Exploiting Hidden Resource Contention in Selective Speculation Defenses
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/cheng)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Xiaoyu Cheng, Southeast University; Fei Tong, Southeast University; Purple Mountain Laboratories; Jiangsu Province Engineering Research Center of Security for Ubiquitous Network; Zhenyu Lei, Fang Jiang, Zhe Zhou, and Guang Cheng, Southeast University; Trevor E. Carlson, National University of Singapore (NUS)
+- 对象：transient execution, reservation station, RISC-V, x86；类型：microarchitectural_attack。
+- 核心想法：调度前的微操作展开、条件执行与依赖链造成选择性推测防护遗漏的 reservation-station 争用。
+- 作者报告：防护绕过在 x86/RISC-V gem5 模型中构造；另在真实 CPU 验证争用信号和程序模式。
+- 限制与下一步：模拟中的 STT/DOLMA 绕过与真实 CPU 争用验证必须分开，不能称为已攻破部署中的相同硬件防护。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## From Length to Content: Token-Length Side-Channel Attacks on LLM API Merged Outputs
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/li-sijia)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Sijia Li, Tianyu Cui, Miao Chen, Xinjie Lin, and Zheyuan Gu, Zhongguancun Laboratory; Xinhao Deng, Tsinghua University; Ke Xu and Qi Li, Tsinghua University and Zhongguancun Laboratory
+- 对象：LLM, encrypted traffic, token length；类型：traffic_side_channel。
+- 核心想法：PromptEcho 从合并 token 的加密响应长度约束恢复部分语义。
+- 作者报告：作者在商用 API 交互流量上评价主题识别及语义相似度。
+- 限制与下一步：语义相似不等于逐字恢复；服务版本、训练先验和真实流量条件待正文核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/murakami)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Takao Murakami, ISM/ROIS/AIST/RIKEN AIP; Yuichi Sei, UEC; Reo Eriguchi, AIST
+- 对象：SGX, obliviousness, differential privacy；类型：access_pattern_countermeasure。
+- 核心想法：FODP 为可信处理器中的 shuffle-DP 同时建模内外存访问和控制流。
+- 作者报告：作者给出内存规模混淆框架、具体算法及 SGX 上的比较。
+- 限制与下一步：DP 输出隐私与 TEE 内部观测保护分开；FODP 定义覆盖范围待正文证明核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Injected and Leaked: Actively Inducing Side-Channel Leakage Using Electromagnetic Injection and Hardware Nonlinearity
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/yan-haoran)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Haoran Yan, Ziyu Shao, and Shuhao Zhang, The Hong Kong University of Science and Technology (Guangzhou); Qinhong Jiang, The Hong Kong Polytechnic University; Yan Long, The Hong Kong University of Science and Technology (Guangzhou)
+- 对象：electromagnetic injection, nonlinearity, analog signals；类型：active_physical_side_channel。
+- 核心想法：利用非线性硬件把低频敏感信号调制到主动注入的 EM 载波上。
+- 作者报告：作者在耳机音频、传感器和设备功耗场景报告注入诱发的泄漏。
+- 限制与下一步：属于主动激励与非线性混合，不是无需发射的纯被动窃听，也未证明 PQC 密钥恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## InstantOMR: Oblivious Message Retrieval with Low Latency and Optimal Parallelizability
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/liang)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Haofei Liang, Shanghai Jiao Tong University; Zeyu Liu, Yale University; Eran Tromer, Boston University; Xiang Xie, Primus Labs; Yu Yu, Shanghai Jiao Tong University
+- 对象：OMR, receiver metadata, FHE；类型：metadata_privacy_protocol。
+- 核心想法：InstantOMR 联合 TFHE 与 RLWE 操作降低隐藏消息接收关联的检索延迟。
+- 作者报告：作者给出实现与并行性能比较，部分评估使用另一库的估计。
+- 限制与下一步：按通信元数据防护纳入；使用格技术不等于研究 PQC 实现侧信道，估计和实测性能应分列。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Quan Shi, National University of Singapore; Liying Wang, Peking University; Prosanta Gope, University of Sheffield; Qi Liang and Haowen Wang, Beijing University of Posts and Telecommunications; Qirui Liu, Peking University; Chenren Xu, Peking University and Key Laboratory of High Confidence Software Technologies, Ministry of Education (PKU); Shangguang Wang and Qing Li, Beijing University of Posts and Telecommunications; Biplab Sikdar, National University of Singapore Distinguished Paper Award Winner
+- 对象：LEO satellite, location metadata, identity privacy；类型：metadata_privacy_protocol。
+- 核心想法：LPG 将卫星运营商所见位置与移动运营商管理的身份解耦。
+- 作者报告：作者报告在轨卫星与手机验证，并允许配置位置披露粒度。
+- 限制与下一步：这是协议层身份位置关联防护，不是功耗攻击；官方勘误仅改通讯作者脚注。 Erratum source: usenix-2026-errata-shi.
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## M-Step: A Single-Stepping Framework for Side-Channel Analysis on TrustZone-M
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/rodrigues)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Cristiano Rodrigues, Centro ALGORITMI, Universidade do Minho; Marton Bognar, DistriNet, KU Leuven; Sandro Pinto, Centro ALGORITMI, Universidade do Minho; Jo Van Bulck, DistriNet, KU Leuven
+- 对象：TrustZone-M, interrupt latency, RSA, Mbed TLS；类型：side_channel_framework。
+- 核心想法：M-Step 利用中断延迟反馈在 TrustZone-M 上实现高分辨率单步观察。
+- 作者报告：作者报告针对 Mbed TLS 的单迹线 RSA 密钥恢复。
+- 限制与下一步：需要相应定时中断控制；单迹线不等于远程无权限，受影响版本和配置待正文核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Network-Level Prompt and Trait Leakage in Local Research Agents
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/jeong)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Hyejun Jeong, Mohammadreza Teymoorianfard, Abhinav Kumar, Amir Houmansadr, and Eugene Bagdasarian, University of Massachusetts Amherst
+- 对象：research agents, IP metadata, timing；类型：traffic_side_channel。
+- 核心想法：利用研究 Agent 访问域名/IP 及时间模式推断用户请求和跨会话特征。
+- 作者报告：作者使用真实查询与合成人设评价功能语义恢复，并讨论部分观察。
+- 限制与下一步：网络元数据推断不等于读取加密载荷；合成人设、真实请求及语义评分须分别理解。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Oblivious Signaling
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/shuhan)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Mirza Kamrul Bashar Shuhan, George Mason University; Foteini Baldimtsi, George Mason University & Mysten Labs; Giuseppe Ateniese, George Mason University
+- 对象：receiver metadata, FHE, oblivious signaling；类型：metadata_privacy_protocol。
+- 核心想法：用均匀同态更新隐藏消息目的地，把接收检索成本转移到发送。
+- 作者报告：作者形式化不可信服务器下的接收者隐私，并比较原型成本。
+- 限制与下一步：接收者隐私定义和串谋范围需正文核查；不声称消除全部通信时序泄漏。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## PROBE+DETECT+MITIGATE (PDM): Enabling Cloud Tenants to Self-Defend against Microarchitectural Attacks
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/daneshmand)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Arash Daneshmand, University of British Columbia Okanagan and Concordia University; Hugo Kermabon-Bobinnec, Concordia University; Lingyu Wang, University of British Columbia Okanagan and Concordia University; Makan Pourzandi, Ericsson Security Research, Ericsson Canada; Suryadipta Majumdar, Concordia University; Yosr Jarraya, Ericsson Security Research, Ericsson Canada
+- 对象：cloud, Prime+Probe, Spectre, attack detection；类型：countermeasure。
+- 核心想法：PDM 让云租户以探测观察攻击活动，并按需启动混淆与内存加密。
+- 作者报告：作者在测试床和 AWS Fargate 评价检测率、误报及开销。
+- 限制与下一步：结果依赖被测试攻击与噪声；检测有效不等于所有隐蔽攻击都可发现。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Plaintext Recovery Against Post-Filtering Access Control
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/espiritu)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Zachary Espiritu, MongoDB Research; David Cash, University of Chicago
+- 对象：PostgreSQL, Elasticsearch, timing, query reconstruction；类型：application_side_channel。
+- 核心想法：后过滤访问控制中的存在性泄漏可与范围或前缀查询结合，放大成记录与文本恢复。
+- 作者报告：作者分别利用 PostgreSQL RLS 时序与 Elasticsearch/OpenSearch DLS 评分/扩展行为。
+- 限制与下一步：需要丰富查询接口及相应访问能力；不同系统通道不能统一称为单一时间攻击。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Principled Design of Indexing Functions for Memory Coloring
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/duebler)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Stephan Dübler and Jana Hofmann, Max Planck Institute for Security and Privacy (MPI-SP); Boris Köpf and Stavros Volos, Azure Research, Microsoft Distinguished Artifact Award Winner
+- 对象：cache coloring, DRAM, index functions；类型：microarchitectural_countermeasure。
+- 核心想法：以索引函数核空间交集为约束，合成支持多资源隔离的 memory coloring 函数。
+- 作者报告：作者在服务器级 CPU 案例中同时划分 L3 cache 与 DRAM bank。
+- 限制与下一步：设计空间和隔离资源有限；平均性能开销不证明全部共享资源通道关闭。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Remise: Authorized Anonymous Communication Systems
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/ravi-rohan)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Rohan Ravi, Paritosh Shukla, and Adithya Vadapalli, IIT Kanpur
+- 对象：DORAM, anonymous communication, access patterns；类型：metadata_countermeasure。
+- 核心想法：Remise 以双服务器 DORAM 保护访问索引、授权令牌及通信关系。
+- 作者报告：作者在两种通信模式中给出协议和原型比较。
+- 限制与下一步：两服务器不串谋与半诚实等假设需保留，不能改写为无信任匿名通信。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## SONIC: Concurrent Oblivious RAM & Data Structures for Low-Latency and High-Throughput
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/talur)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Nihal Talur and Ioannis Demertzis, UC Santa Cruz
+- 对象：ORAM, TEE, access patterns, concurrency；类型：access_pattern_countermeasure。
+- 核心想法：SONIC 将 RingORAM 并发化，处理 enclave 中的访问、驱逐和 stash 协同。
+- 作者报告：作者比较单服务器吞吐、延迟及多服务器扩展成本。
+- 限制与下一步：必须区分不同数据量、服务器预算与比较实现；ORAM 不自动屏蔽全部物理通道。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Side-Channel Attacks on Open vSwitch
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/kim-daewoo)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Daewoo Kim and Sihang Liu, University of Waterloo
+- 对象：Open vSwitch, software cache, remote timing；类型：network_side_channel。
+- 核心想法：OVS 缓存层级形成远程隐蔽通道、报头字段恢复与流量率监测原语。
+- 作者报告：作者比较不同缓存的攻击方式并讨论防护。
+- 限制与下一步：报头、流量率和载荷内容是不同恢复目标；网络可达性及环境条件待正文核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## SoK: Deep Learning-based Physical Side-channel Analysis
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/karayalcin)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Sengim Karayalcin, Leiden University; Marina Krček, Radboud University; Stjepan Picek, University of Zagreb Faculty of Electrical Engineering and Computing & Radboud University
+- 对象：deep learning, physical side channels, reproducibility；类型：systematization。
+- 核心想法：梳理深度学习物理侧信道分析的分类、趋势和复现问题。
+- 作者报告：摘要强调攻击评价与完整复现依赖谨慎的实验设置。
+- 限制与下一步：目前只读摘要；已取得全文但未将自动抽取片段算作完整阅读，综述引文仍待逐项追踪。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## SophOMR: Improved Oblivious Message Retrieval from SIMD-Aware Homomorphic Compression
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/lee-keewoo)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Keewoo Lee, Ethereum Foundation; Yongdong Yeo, Seoul National University
+- 对象：OMR, FHE, receiver metadata；类型：metadata_privacy_protocol。
+- 核心想法：SophOMR 用 SIMD 友好的同态压缩降低隐私消息检索开销。
+- 作者报告：作者比较给定消息数量及相关消息上界下的时间和摘要体积。
+- 限制与下一步：协议接收者隐私与实现物理泄漏分开；未核查完整安全模型或代码。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Spectre on RISC-V Silicon: Attacks and Defenses on Commercial Out-of-Order Processors
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/gerlach)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Lukas Gerlach, CISPA Helmholtz Center for Information Security; Marton Bognar, DistriNet, KU Leuven; Daniel Weber and Michael Schwarz, CISPA Helmholtz Center for Information Security; Jo Van Bulck, DistriNet, KU Leuven
+- 对象：RISC-V, Spectre, kernel memory；类型：transient_execution_attack。
+- 核心想法：在商业乱序 RISC-V 硅片上评价 Spectre，并研究可抑制推测的指令。
+- 作者报告：作者报告 P550、C910/C920 的攻击与软件防护比较。
+- 限制与下一步：论文所列商业核心不等于所有未来 RISC-V；内核、编译器版本和补丁状态须固定。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## TIMESLICE-SANDWICH: A GPU Side-Channel Attack Exploiting Time-Sliced Scheduling
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/kim-hodong)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Hodong Kim and Gyeongsup Lim, Korea University; Seunghee Shin, State University of New York at Binghamton; Youngjoo Shin and Junbeom Hur, Korea University
+- 对象：GPU, time slicing, website fingerprinting；类型：scheduling_side_channel。
+- 核心想法：TIMESLICE-SANDWICH 由 GPU 时间片长度变化推断并发任务执行模式。
+- 作者报告：作者评价神经网络结构恢复和浏览器网站指纹。
+- 限制与下一步：该通道不要求特定共享资源争用，但仍依赖 GPU 调度和共驻条件；不是任意内存读出。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Towards Practical Few-shot Multi-tab Website Fingerprinting
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-lin)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Lin Liu and Ziling Wei, National University of Defense Technology; Zhuotao Liu and Xinhao Deng, Tsinghua University; Zixuan Dong and Shuhui Chen, National University of Defense Technology
+- 对象：Tor, website fingerprinting, few-shot；类型：traffic_side_channel。
+- 核心想法：MMF 将多标签混合流量分类改为支持集引导的网站存在性检测。
+- 作者报告：作者使用公开及新采集的多标签页数据评价少样本识别。
+- 限制与下一步：Novel Precision@k 改善不是任意开放世界去匿名成功率；训练、采集与标签划分待核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## TrojPix: Electromagnetic Covert Channels via Imperceptible Pixel Modulation
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-guoming)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Guoming Zhang, Shandong University and Quan Cheng Laboratory; Huiting Zhang, Zhenwei Lu, Heqiang Fu, Xin Gao, Riccardo Spolaor, and Yetong Cao, Shandong University; Yanni Yang and Pengfei Hu, Shandong University and Quan Cheng Laboratory
+- 对象：EM emissions, display cables, covert channel；类型：physical_covert_channel。
+- 核心想法：TrojPix 用不可察觉的像素调制控制显示电缆电磁发射。
+- 作者报告：作者在多种显示器与电缆上评价两种主动编码模式。
+- 限制与下一步：需要发送端参与调制；最高吞吐与最大距离不可假定同配置同时达到，不是自然泄漏密钥的结果。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Turn Your Face Into An Attack Surface: Screen Attack Using Facial Reflections in Video Conferencing
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/huang-yong)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Yong Huang, Yanzhao Lu, Mingyang Chen, En Zhang, and Jiazi Li, Zhengzhou University; Wanqing Tu, Durham University
+- 对象：optical reflections, video conferencing, application inference；类型：physical_side_channel。
+- 核心想法：FaceTell 从视频会议中的面部屏幕反射推断应用活动。
+- 作者报告：作者报告多设备、会议平台、参与者和室内环境实验。
+- 限制与下一步：应用类别识别不等于屏幕文字或密码恢复；受控类别与开放环境泛化需区分。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## UncoreBleed: AEX-Free, High-Resolution, and Low-Noise Side-Channel Attacks on SGX Enclaved Execution
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/chen-decheng)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Decheng Chen, South China University of Technology; Zhi Zhang, The University of Western Australia; Zhenkai Zhang, Clemson University; Xin Zhang, Shandong University; Yansong Gao, Southeast University; Yi Zou, South China University of Technology
+- 对象：SGX, uncore PMC, RSA；类型：microarchitectural_attack。
+- 核心想法：UncoreBleed 研究 enclave 执行时仍活动的 uncore 性能计数器及地址过滤。
+- 作者报告：摘要报告 64 B 观察粒度、图像重建及单次 RSA 解密相关恢复。
+- 限制与下一步：计数器配置权限、Xeon 型号和 TLBlur/AEX-Notify 配置待正文核查；不泛化为普通用户通道。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles
 
-- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian)；时间标记：exact public date not yet verified。
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
 - 作者：Qian Guo, Denis Nabokov, and Thomas Johansson, Lund University
-- 对象：ML-KEM；类型：attack。
+- 对象：ML-KEM, decryption failure oracle, LDPC, GoFetch；类型：attack。
 - 核心想法：将自适应查询与 LDPC 信念传播结合，利用有误差的解密失败预言机。
-- 作者报告：摘要给出预言机模型结果，并报告在 GoFetch 场景下的应用。
-- 限制与下一步：抽象预言机查询数与底层测量迹线数分开；引用全文与实测复现仍待补查。
-- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX session abstract。
+- 作者报告：正文在 M1 MacBook Air/macOS 13.5 讨论 GoFetch 实例。100 次 ML-KEM-512 尝试中，作者把距离真值不超过四个系数的 73 次归为成功；表 3 只汇总这部分。
+- 限制与下一步：2,950 是抽象预言机查询数。实测表 3 的 6,047.84 平均迹线只计成功子集的恢复阶段，排除校准；约 25 分钟包含近半校准时间。不能把成功判据等同于逐系数零差错，也不能把 1024 的适用性讨论当实测。
+- 阅读层级：selected_full_text_sections；来源：official final proceedings PDF and session abstract。
+- 已读章节：PDF pp.12-16: GoFetch threat model, measurement setup, results and success definition, limitations, artifact statement, refs.1-4; Table 3 visually checked
+- 代码/数据核查：author declares https://doi.org/10.5281/zenodo.17899501 in PDF p16; contents not inspected or run；引用追踪：pending。
+
+## VROOM: Accelerating (Almost All) Number-Theoretic Cryptography Using Vectorization and the Residue Number System
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/langowski)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Simon Langowski, Kaiwen He, and Srinivas Devadas, MIT
+- 对象：RNS, vectorization, constant time, RSA, BLS；类型：constant_time_implementation。
+- 核心想法：VROOM 用剩余数系统和向量运算设计通用模乘，摘要声明恒时算法。
+- 作者报告：作者报告 RSA/BLS 和 GPU 模乘性能。
+- 限制与下一步：算法和性能贡献含恒时实现，但恒时依据、指令数据依赖及全部物理通道未核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
 - 代码/数据核查：not checked；引用追踪：pending。
+
+## VeCT: Secure and Efficient Constant-Time Code Rewriting with Vector Extensions
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/jiang-qisheng)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Qisheng Jiang and Danfeng Zhang, Duke University
+- 对象：constant time, AVX-512, LLVM；类型：constant_time_rewriting。
+- 核心想法：VeCT 用向量扩展改善恒时代码转换，并为 AVX-512 建立经验安全使用规则。
+- 作者报告：作者报告已有重写器中的漏洞及 AES/Blowfish 等程序性能比较。
+- 限制与下一步：统计筛查指令不构成所有微架构的普遍保证；恒时时间模型不等于功耗安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Your Keywords Know Each Other: Breaking SSE with <1% Leaked Documents
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/bian-mingyu)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Mingyu Bian, Jiabei Wang, Dandan Xu, Guangyu Huang, and Yongbin Zhou, School of Cyber Science and Engineering, Nanjing University of Science and Technology
+- 对象：SSE, query recovery, language models；类型：leakage_abuse_attack。
+- 核心想法：Whisper 用语言模型生成语料及词向量补充关键词关系，增强 SSE 模式泄漏的查询恢复。
+- 作者报告：作者在多个语料上评价少量文档泄漏及 padding/volume-hiding 防护。
+- 限制与下一步：辅助语言知识与已知文档比例必须列明；官方摘要的 1727% 字串疑似格式丢失，不据此计算提升幅度。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX 2026 session abstract; print TOC used only for bibliographic identity。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## microSCALE: Static Analysis for Microarchitectural Side-channel Leakage Evaluation
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/kumar-e)；时间标记：USENIX 2026 proceedings; conference 2026-08-12 to 2026-08-14 is within window; earliest online date not established。
+- 作者：Akshay Kumar E, Pranav Krishna N, Annapurna Valiveti, Pallavi Borkar, Aditi Roy, and Chester Rebeiro, IIT Madras
+- 对象：RTL, RISC-V, Rocket Core, GIFT, ASCON, AES；类型：leakage_analysis。
+- 核心想法：microSCALE 静态追踪 CPU RTL 中份额重组并映射到软件指令交互。
+- 作者报告：正文以 FPGA 上一轮 GIFT 的百万 EM 迹线作验证；90.3% 指 TVLA 超阈样点减少，而非攻击成功率减少。
+- 限制与下一步：表 4 的静态转换泄漏和 TVLA 样点是不同指标。PDF p13 的 500 kS/s、2 µs、50 MHz、约十点每周期互不相容，已视读确认，采集参数待更正。
+- 阅读层级：selected_full_text_sections；来源：official final proceedings PDF and session abstract。
+- 已读章节：PDF pp.13-14: one-round GIFT FPGA validation and metric definitions; p13 visually checked, sampling-rate inconsistency retained
+- 代码/数据核查：artifact PDF link available on official page; contents not inspected or run；引用追踪：pending。
 
 ## Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach
 

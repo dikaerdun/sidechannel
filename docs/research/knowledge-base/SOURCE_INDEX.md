@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-13 USENIX 接续：[筛查与选读来源](literature/provenance/usenix2026-candidates-20261113.json)、[另取目录与数量核对](literature/provenance/usenix2026-print-toc-crosscheck-20261113.json)保存 362 篇目录与 76 篇摘要判定依据。34 条新增卡片、已有 ML-KEM 卡片升级；SDitH、microSCALE 与 ML-KEM 的指定页码、渲染页核查及三份勘误范围见[证据笔记](literature/notes/usenix2026-scope-and-pqc-evidence-20261113.md)。本批后卡片 301 条、引用 103 条、待解析发现五条；没有作者代码执行或科学结果复现。
+
 2026-11-13 构思增补：[随机源反馈、求解难度与物理状态发现](brainstorms/2026-11-13-randomness-feedback-hardness-state-discovery.md)记录振荡器随机源、NIST 熵源说明、distribution hints、结构化提示与计算力学五个原始页面的摘要及元数据阅读。区分熵源耦合与最终随机性、合成约束实验与实际功耗、预测状态与物理因果。没有全文证明复核、独立验证或新增文献卡片。
 
 2026-11-13 打乱引用接续：[来源与哈希](literature/provenance/kyber-shuffle-followup-20261113.json)保存七条发现解析、全部 17 条种子引用、NIST 错误 DOI、出版年份及访问限制。[证据笔记](literature/notes/kyber-shuffle-followups-and-evidence-20261113.md)区分零值过滤计算时间和迹线、裁减 FPGA 与完整原设计、消息/会话恢复及长期私钥。新增九条卡片，升级已有 JCEN 卡片，未运行作者代码。

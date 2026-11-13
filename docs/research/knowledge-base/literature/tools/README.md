@@ -55,3 +55,15 @@ python3 docs/research/knowledge-base/literature/tools/audit_sp2023_print_toc.py 
 ## S&P 2022 印刷目录提取复核
 
 在仓库根目录运行 `python3 docs/research/knowledge-base/literature/tools/audit_sp2022_print_toc.py --pdf <local-sp2022-print-toc.pdf>`。需要 PyMuPDF；脚本检查冻结 PDF 哈希、已视觉校准的源专用字形与 147 条提取结果。原 PDF 留在仓库外。成员映射另由 `validate_library.py` 检查；两者均不证明主题或引用覆盖完成。
+
+## USENIX 2026 议程与正式目录
+
+`harvest_catalogs.py` 现在逐个记账 USENIX 议程中的 paper 类节点，不再要求演讲链接必须含 `/presentation/`；缺少链接标题时直接报错。官方明确标注早年发表的回顾讨论单列为非当年论文。六年缓存回归检查中，2021–2025 的论文数量不变，2026 从 363 改为 362，另列 19 条其他议程活动。
+
+在仓库外缓存中备好 [provenance](../provenance/usenix2026-print-toc-crosscheck-20261113.json) 所列 `usenix-2026-print-toc.raw/.meta.json` 和 `usenix-2026-chairs.raw/.meta.json`，运行：
+
+```sh
+python3 docs/research/knowledge-base/literature/tools/reconcile_usenix2026_toc.py --cache <outside-repository-cache>
+```
+
+该工具需要 PyMuPDF，会核对缓存哈希并重新生成 362 条对应清单、来源记录及目录中的出版起始页。保留 O(1) 的混合字体，并显式处理已视读的 L∞/L_infinity 记号差异。它不执行 OCR，不重新阅读正文，也不自动更新人工摘要判定。重跑议程抓取后应再运行对应工具，避免覆盖补充的出版元数据。

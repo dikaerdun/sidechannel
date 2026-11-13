@@ -2,31 +2,31 @@
   "cutoff": "2026-11-12",
   "rolling_window_start": "2021-11-12",
   "reading_updated_on": "2026-11-13",
-  "total_catalog_records": 6686,
+  "total_catalog_records": 6685,
   "priority_counts": {
-    "unmatched_pending": 5388,
+    "unmatched_pending": 5387,
     "sca_terms": 923,
     "pqc_terms": 204,
     "pqc_and_sca_terms": 171
   },
-  "core_catalog_records": 6629,
+  "core_catalog_records": 6628,
   "citation_expansion_records": 57,
-  "title_screened_records": 1458,
-  "abstract_screened_records": 453,
-  "included_papers": 267,
+  "title_screened_records": 1820,
+  "abstract_screened_records": 528,
+  "included_papers": 301,
   "reading_level_counts": {
-    "abstract_and_bibliographic_metadata": 231,
-    "selected_full_text_sections": 36
+    "abstract_and_bibliographic_metadata": 262,
+    "selected_full_text_sections": 39
   },
   "citation_progress": {
-    "verified_citation_edges": 96,
+    "verified_citation_edges": 103,
     "verified_version_edges": 23,
     "inferred_version_edges": 1,
     "task_status_counts": {
-      "pending": 486,
-      "in_progress": 48
+      "pending": 552,
+      "in_progress": 50
     },
-    "unresolved_discoveries": 0,
+    "unresolved_discoveries": 5,
     "resolved_discoveries": 33
   },
   "core_cells": [
@@ -258,15 +258,16 @@
     {
       "venue": "USENIX",
       "year": 2026,
-      "catalog_records": 363,
+      "catalog_records": 362,
       "catalog_parsed": true,
       "provenance_file": "provenance/usenix-2026.json",
-      "independent_toc_crosscheck": "pending",
-      "screened_records": 1,
-      "title_screened_records": 0,
-      "abstract_screened_records": 1,
+      "independent_toc_crosscheck": "matched_print_toc",
+      "screened_records": 76,
+      "title_screened_records": 362,
+      "abstract_screened_records": 76,
       "citation_chasing": "pending",
-      "complete": false
+      "complete": false,
+      "toc_crosscheck_provenance": "provenance/usenix2026-print-toc-crosscheck-20261113.json"
     },
     {
       "venue": "CCS",

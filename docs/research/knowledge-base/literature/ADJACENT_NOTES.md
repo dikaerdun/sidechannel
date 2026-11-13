@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 186 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 227 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA
 
@@ -1003,6 +1003,20 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## "Tap" Without Tapping: A Tag Discovery Forgery Attack on Android NFC
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/li-yilin)。
+- 判定依据：Android 标签派发伪造，无需物理 NFC 交互；摘要研究授权语义，非侧信道读出。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## A Formal Security Analysis of CAN XL
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/tang-zhaozhou)。
+- 判定依据：CAN XL MAC 子层形式化与信号协议攻击；摘要未建立秘密侧信道推断。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## A High-Performance and Reconfigurable Hardware Architecture for FrodoKEM
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i3.171-197)。
@@ -1015,6 +1029,13 @@
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i4.970-997)。
 - 判定依据：RISC-V 向量框架适配 FHE/ZKP 大规模 NTT 并在 gem5 上评价性能，摘要未报告泄漏评估。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## ARM MTE Performance in Practice
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/noh)。
+- 判定依据：MTE 性能与微架构开销测量；性能现象不自动构成秘密相关通道。
+- 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## AVX2 Implementation of QR-UOV for Modern x86 Processors
@@ -1052,6 +1073,20 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Analyzing Cryptography in Context: A Cryptography-Native Approach to Threat Modeling
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/canetti)。
+- 判定依据：密码协议的社会技术威胁建模；未评价实现泄漏。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## BLE Theft Auto: Evaluating the Security of Aftermarket BLE-based Automotive Remote Control Systems
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/yu-jerry)。
+- 判定依据：BLE 私有应用协议的控制与认证缺陷；摘要未建立侧信道。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## BOLT-FHE: An Efficient Unified Framework for GPU-based TFHE Bootstrapping via On-Chip Local Tiling Strategies
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i3.198-223)。
@@ -1073,10 +1108,31 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Certified in Theory, Broken in Practice: Assumption Gaps in Cryptographic Model Certification
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/luck)。
+- 判定依据：零知识模型审计的泛化假设缺口；非时序或物理实现泄漏。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## CompLeak: Deep Learning Model Compression Exacerbates Privacy Leakage
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/li-na)。
+- 判定依据：利用模型置信输出的成员推断；本条为功能输出隐私，不是压缩计算耗时/硬件通道。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Completing the Chain: Verified Implementations of Hash-Based Signatures and Their Security
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i3.958-981)。
 - 判定依据：摘要连接 XMSS/XMSSMT 功能实现、规范与密码学安全证明，未提出侧信道安全保证；保留为验证工具与哈希签名背景。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Concretely Efficient Blind Signatures Based on VOLE-in-the-Head Proofs and the MAYO Trapdoor
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/baum)。
+- 判定依据：MAYO/VOLE-in-the-head 盲签名构造与性能，未给出实现泄漏分析。
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
@@ -1087,6 +1143,20 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Cryptanalysis of LDPC-Based Pseudorandom Error-Correcting Codes
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/wang-tianrui)。
+- 判定依据：LDPC 伪随机码的数学攻击与水印分析，不是编码型 PQC 的功耗攻击。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Crypto Wars in Secure Messaging: Covert Channels in Signal Despite Leaked Keys
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/giustolisi)。
+- 判定依据：Signal 密码文本中主动嵌入变形加密通信；非实现副作用产生的通道。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## DRR-NTT: Efficient NTT Accelerator in Lattice-Based Cryptography By Dimensionality Reduction in RRAM
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i2.808-833)。
@@ -1094,11 +1164,53 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## DRVFuzz: Data-Sensitive RISC-V CPU Fuzzing
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/yu-zehong)。
+- 判定依据：数据敏感 CPU fuzzing 查逻辑错误；未报告泄漏观测模型。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Design and Implementation of a Physical Implant Attack on the Boeing 737
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/crow)。
+- 判定依据：物理总线植入与信号操纵；摘要主要是完整性攻击，非旁路观测恢复秘密。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Download More RAM: Dismantling Windows Operating System Defences with Mischievous Memory
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/collins)。
+- 判定依据：内存别名导致直接任意读写；与基于侧信道的推断区分。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Efficient Polynomial Multiplication for HQC on ARM Cortex-M4
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i4.998-1021)。
 - 判定依据：HQC 在 Cortex-M4 上以混合 FAFFT-CRT 和调度优化乘法，摘要未说明物理防护。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Efficient Threshold ML-DSA
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/celi)。
+- 判定依据：兼容 ML-DSA 的阈值签名 MPC 协议；分布式秘密共享不自动等于实现掩码。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## FABRICKED: Misconfiguring Infinity Fabric to Break AMD SEV-SNP
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/schlueter-1)。
+- 判定依据：修改互连路由导致直接读写与伪造证明；非隐含物理或时序推断。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## FLOSS: Fast Linear Online Secret-Shared Shuffling
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/chang-ian)。
+- 判定依据：两方安全计算的秘密共享打乱；未声明本地实现的侧信道保护。
+- 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Fault Attack Countermeasures for SPHINCS+: WOTS+ with Checksum Segmentation and Subtree Root Children Caching
@@ -1129,6 +1241,27 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-12；没有独立第二审读或本地复现。
 
+## Fuzzing Open-Source GPU Hardware with SIMT Program Generation
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/gao-zibo)。
+- 判定依据：GPU RTL 与 ISA 差分 fuzzing 查正确性错误；未建立侧信道判据。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/wu-lichao)。
+- 判定依据：定位并禁用 MoE 安全神经元的模型篡改；不是通过硬件路由时序推断。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## HAMLOCK: HArdware-Model LOgically Combined attacK
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/amgain)。
+- 判定依据：硬件木马与模型后门配合改变输出；低功耗开销不是秘密侧信道实验。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## HawkPU: An Efficient and Low-Latency Hardware Architecture for HAWK Signature Generation and Verification
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i3.719-743)。
@@ -1148,6 +1281,13 @@
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i4.496-521)。
 - 判定依据：MAYO 的 GPU 数据复用、矩阵重排和流并发提高吞吐率；摘要未分析共享硬件的观测泄漏。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## HijackKV: New Threat in Position-Independent KV Cache Reuse
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-yichi)。
+- 判定依据：KV 缓存复用造成上下文投毒与行为劫持；本篇摘要不报告缓存时序提取。
+- 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Homomorphic Field Trace Revisited : Breaking the Cubic Noise Barrier
@@ -1171,6 +1311,27 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## InstrSem: Automatically and Generically Inferring Semantics of (Undocumented) CPU Instructions
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/hetterich-lorenz-instrsem)。
+- 判定依据：从架构可见状态推断指令语义；属于相关逆向工具，非泄漏检测本身。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Jailbreaking the AMD Secure Processor: Enabling Live Analysis of SEV-SNP's Undocumented Security Boundaries
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/shen)。
+- 判定依据：内存别名与 TOCTOU 破解 ASP 并直接读取/伪造；非被动 SCA。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Libra: Pattern-Scheduling Co-Optimization for Cross-Scheme FHE Code Generation over GPGPU
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/bian-song)。
+- 判定依据：跨 FHE 方案的 GPU 编译与调度性能；未分析敏感执行副作用。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Lightening CROSS: Memory Optimized Implementations of CROSS
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i2.630-658)。
@@ -1183,6 +1344,13 @@
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i2.372-408)。
 - 判定依据：CTRU-Light、AVR 算术和混合 KEM–MQTT 的资源/握手优化，摘要未提供侧信道证据。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Loongleak: Architectural Cross-Privilege-Boundary Data Leakage on LoongArch CPUs
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/hetterich-lorenz-loongleak)。
+- 判定依据：作者明确为架构可见 stale bits 直接读出，不需要 timing 或 side channels。
+- 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Low-Stack HAETAE for Memory-Constrained Microcontrollers
@@ -1199,11 +1367,39 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## MULCOTAINT: Towards Efficient Multi-tag Dynamic Taint Analysis via Hardware/Software Co-design
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/qi-bing)。
+- 判定依据：通用多标签动态污点分析加速；摘要没有秘密泄漏专项验证。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Memclave: Secure In-Memory Enclave for Untrusted Hosts
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/choudhari)。
+- 判定依据：PIM 的隔离、完整性和保护数据路径；摘要提及 cache footprint，但未给出侧信道保证范围。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Motion in the Clear: Reconstructing VR User Behavior from Network Traffic
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/lee-jiho)。
+- 判定依据：通过未加密 UDP 载荷字节恢复运动；不能归为加密流量侧信道。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## NeonCROSS: Vectorized Implementation of Post-Quantum Signature CROSS on Cortex-A72 and Apple M3
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i1.250-272)。
 - 判定依据：NeonCROSS 优化模约减、矩阵和树哈希的向量执行，摘要未报告侧信道性质。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Non-Interactive Key Exchange from Lattices in the Standard Model
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/li-ying)。
+- 判定依据：标准模型格 NIKE 构造与性能；未分析实现泄漏。官方勘误为通讯作者标记。
+- 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Optimized Implementations of Keccak, Kyber, and Dilithium on the MSP430 Microcontroller
@@ -1241,6 +1437,13 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Quorus: Efficient, Scalable Threshold ML-DSA Signatures from MPC
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/bienstock)。
+- 判定依据：可扩展 ML-DSA 阈值 MPC 协议；协议份额安全不等于物理掩码安全。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## RainHash2.0: Hardware- and Arithmetization-friendly Hash Function
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i4.62-115)。
@@ -1262,10 +1465,59 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## SING: Improving the Efficiency of MPC Protocol Assignment using Graph Neural Networks
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/blueml)。
+- 判定依据：GNN 优化 MPC 协议选择；勘误披露 E2 训练集混入比较基准并重训，非侧信道工作。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## SQISign on ARM
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i4.471-495)。
 - 判定依据：在 ARM NEON 上向量化 SQIsign 有限域与同源链，结合 Qlapoti 提升性能；摘要没有明确侧信道防护或评估贡献。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## STALEUS: Breaking AMD SEV-SNP via Memory Incoherence
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/schlueter-2)。
+- 判定依据：破坏 PSP cache coherence 后获得直接读写；与泄漏推断区分。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Shadowfax: Hybrid Security and Deniability for AKEMs
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/gajland)。
+- 判定依据：混合 AKEM 的可否认性与实现性能；未分析实现侧信道。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Silicon Heist: (Ransom) Attacks for Cloud FPGAs via Privilege Escalation
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/klix)。
+- 判定依据：FPGA ICAP/JTAG 权限提升及配置破坏；不把可重新启用其他攻击当成本文 SCA 结果。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Sirens' Whisper: Inaudible Near-Ultrasonic Jailbreaks of Speech-Driven LLMs
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/ling)。
+- 判定依据：利用麦克风非线性注入近超声指令；主要为输入完整性攻击，非窃听秘密。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## SoK: Security of Cyber-physical Systems Under Intentional Electromagnetic Interference Attacks
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/jiang-qinhong)。
+- 判定依据：IEMI 注入与信号操纵综述；相关物理机制保留，未把纯完整性攻击混入 SCA 主库。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## StackWarp: Breaking AMD SEV-SNP Integrity via Deterministic Stack-Pointer Manipulation through the CPU's Stack Engine
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-ruiyi)。
+- 判定依据：Stack engine 控制产生架构状态操纵；RSA-CRT 恢复基于完整性破坏，非侧信道读出。
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
@@ -1290,10 +1542,38 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Tracegram: Framing Trace-Level Traffic Analysis with Temporally-Aware Multiple Instance Learning
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/qu)。
+- 判定依据：一般跨流量攻击检测与归因，没有建立被加密秘密的旁路恢复。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Trust Nothing: RTOS Security without Run-Time Software TCB
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/ackermann)。
+- 判定依据：能力架构隔离 RTOS 与外围设备；摘要未给出侧信道防护模型。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Vectorized Falcon-Sign Implementations using SSE2, AVX2, AVX-512F, NEON, and RVV
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i1.302-324)。
 - 判定依据：跨指令集向量化 Falcon BaseSampler 与 FFT/iFFT，报告签名性能；摘要没有采样时序或物理泄漏防护结论。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## WAVED: Principled Identification of Off-Path Exploitable Weak Verifications within the TCP/IP Protocol Suite
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/zhao-yizhou)。
+- 判定依据：TCP/IP 弱校验语义漏洞检测；摘要未描述旁路信息恢复。
+- 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## What You Decode Depends on Where You Stand: Distance-Based Optical QR Code
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/garg-pulkit)。
+- 判定依据：多层 QR 设计与校验器规避，属于有意编码的视觉输入差异，非隐藏秘密泄漏。
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
@@ -1302,4 +1582,11 @@
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i1.325-352)。
 - 判定依据：YATA 芯片压缩 TFHE 自举密钥并优化 NTT；硅片延迟/功耗效率不等于泄漏测试。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## mmCipher: Batching Post-Quantum Public Key Encryption Made Bandwidth-Optimal
+
+- 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/wang-hongxiao)。
+- 判定依据：基于 MLWE 的批量 PKE/KEM 构造；密码学提示不是测量泄漏的同义词。
+- 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。

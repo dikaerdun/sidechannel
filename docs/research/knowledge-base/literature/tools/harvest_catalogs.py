@@ -265,12 +265,20 @@ class Harvest:
         if venue=='USENIX':
             nodes=d.xpath('//article[contains(concat(" ",normalize-space(@class)," ")," node-paper ")]')
             for node in nodes:
-                links=node.xpath('.//h2/a[contains(@href,"/presentation/")]')
-                if not links: continue
+                # Invited talks also use presentation-NAME or arbitrary slugs.
+                # Account for every schedule node before classifying it.
+                links=node.xpath('.//h2/a[@href]')
+                if not links:
+                    raise ValueError('USENIX paper node lacks a linked title: '+str(node.get('id')))
                 a=links[0];url=urljoin(meta.get('response_url',urls[venue]),a.get('href'))
                 rec={'id':'url:'+url,'title':clean(a.text_content()),'url':url,
                      'authors_display':node_text(node.xpath('.//*[contains(@class,"field-name-field-paper-people-text")]'))}
                 presented_by=node_text(node.xpath('.//*[contains(@class,"field-name-field-presented-by")]'))
+                if re.search(r'Originally presented at USENIX Security',rec['authors_display'],re.I):
+                    rec.update(source_ids=[key],disposition='retrospective_schedule_entry',
+                               reason='Official schedule explicitly identifies an earlier-conference paper; retrospective discussion is not a new paper for this proceedings year')
+                    nonpapers.append(rec)
+                    continue
                 if not rec['authors_display'] and (presented_by or rec['title'].startswith('Panel: ')):
                     rec.update(presented_by=presented_by,source_ids=[key],
                                disposition='nonpaper_schedule_entry',
@@ -280,7 +288,7 @@ class Harvest:
                 abstract=node_text(node.xpath('.//*[contains(@class,"field-name-field-paper-description-long")]'))
                 if abstract: abstracts[rec['id']]=abstract
                 records.append(rec)
-            selector='article.node-paper > h2 > presentation link'
+            selector='article.node-paper h2 > a[href]; classify all nodes, including nonstandard talk URLs and retrospective discussions'
             all_presentation_links={urljoin(urls[venue],x.get('href')) for x in d.xpath('//a[contains(@href,"/presentation/")]')}
             if all_presentation_links-{r['url'] for r in records+nonpapers}:
                 warnings.append('Some presentation links are outside parsed paper nodes; reconcile separately')

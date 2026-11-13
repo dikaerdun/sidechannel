@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6686 条，其中 375 条命中后量子相关关键词。
+当前目录记录 6685 条，其中 375 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -102,17 +102,17 @@
 | 2026 TCHES | [Verified non-recursive calculation of Beneš networks applied to Classic McEliece](https://doi.org/10.46586/tches.v2026.i3.306-333) | include |
 | 2026 TCHES | [When Masking Multiplication Isn’t Enough: Exploiting Floating-Point Leakage in Falcon’s Pre-Image Computation](https://doi.org/10.46586/tches.v2026.i2.686-708) | include |
 | 2026 TCHES | [YATA: Yet Another TFHE Accelerator with Key Compression and Radix-8 NTT](https://doi.org/10.46586/tches.v2026.i1.325-352) | adjacent |
-| 2026 USENIX | [Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei) | pending |
+| 2026 USENIX | [Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei) | include |
 | 2026 USENIX | [Anamorphic Messaging: Analyzing the Double Ratchet, Triple Ratchet, PQ3, and MLS](https://www.usenix.org/conference/usenixsecurity26/presentation/chu) | pending |
-| 2026 USENIX | [Concretely Efficient Blind Signatures Based on VOLE-in-the-Head Proofs and the MAYO Trapdoor](https://www.usenix.org/conference/usenixsecurity26/presentation/baum) | pending |
-| 2026 USENIX | [Efficient Threshold ML-DSA](https://www.usenix.org/conference/usenixsecurity26/presentation/celi) | pending |
-| 2026 USENIX | [InstantOMR: Oblivious Message Retrieval with Low Latency and Optimal Parallelizability](https://www.usenix.org/conference/usenixsecurity26/presentation/liang) | pending |
-| 2026 USENIX | [mmCipher: Batching Post-Quantum Public Key Encryption Made Bandwidth-Optimal](https://www.usenix.org/conference/usenixsecurity26/presentation/wang-hongxiao) | pending |
-| 2026 USENIX | [Non-Interactive Key Exchange from Lattices in the Standard Model](https://www.usenix.org/conference/usenixsecurity26/presentation/li-ying) | pending |
-| 2026 USENIX | [Quorus: Efficient, Scalable Threshold ML-DSA Signatures from MPC](https://www.usenix.org/conference/usenixsecurity26/presentation/bienstock) | pending |
-| 2026 USENIX | [Shadowfax: Hybrid Security and Deniability for AKEMs](https://www.usenix.org/conference/usenixsecurity26/presentation/gajland) | pending |
+| 2026 USENIX | [Concretely Efficient Blind Signatures Based on VOLE-in-the-Head Proofs and the MAYO Trapdoor](https://www.usenix.org/conference/usenixsecurity26/presentation/baum) | adjacent |
+| 2026 USENIX | [Efficient Threshold ML-DSA](https://www.usenix.org/conference/usenixsecurity26/presentation/celi) | adjacent |
+| 2026 USENIX | [InstantOMR: Oblivious Message Retrieval with Low Latency and Optimal Parallelizability](https://www.usenix.org/conference/usenixsecurity26/presentation/liang) | include |
+| 2026 USENIX | [mmCipher: Batching Post-Quantum Public Key Encryption Made Bandwidth-Optimal](https://www.usenix.org/conference/usenixsecurity26/presentation/wang-hongxiao) | adjacent |
+| 2026 USENIX | [Non-Interactive Key Exchange from Lattices in the Standard Model](https://www.usenix.org/conference/usenixsecurity26/presentation/li-ying) | adjacent |
+| 2026 USENIX | [Quorus: Efficient, Scalable Threshold ML-DSA Signatures from MPC](https://www.usenix.org/conference/usenixsecurity26/presentation/bienstock) | adjacent |
+| 2026 USENIX | [Shadowfax: Hybrid Security and Deniability for AKEMs](https://www.usenix.org/conference/usenixsecurity26/presentation/gajland) | adjacent |
 | 2026 USENIX | [Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles](https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian) | include |
-| 2026 USENIX | [VROOM: Accelerating (Almost All) Number-Theoretic Cryptography Using Vectorization and the Residue Number System](https://www.usenix.org/conference/usenixsecurity26/presentation/langowski) | pending |
+| 2026 USENIX | [VROOM: Accelerating (Almost All) Number-Theoretic Cryptography Using Vectorization and the Residue Number System](https://www.usenix.org/conference/usenixsecurity26/presentation/langowski) | include |
 | 2026 USENIX | [ZipPIR: High-throughput Single-server PIR without Client-side Storage](https://www.usenix.org/conference/usenixsecurity26/presentation/mahdavi) | pending |
 | 2026 arXiv | [Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach](https://arxiv.org/abs/2611.01144) | include |
 | 2025 CCS | [CROSS-X: Generalized and Stable Cross-Cache Attack on the Linux Kernel](https://dl.acm.org/doi/10.1145/3719027.3765152) | pending |

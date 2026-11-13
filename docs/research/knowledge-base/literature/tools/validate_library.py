@@ -129,6 +129,11 @@ assert coverage['citation_progress']['inferred_version_edges']==len(inferred_ver
 assert coverage['citation_progress']['task_status_counts']==dict(Counter(t['status'] for t in citation_tasks))
 excluded=[r for p in (ROOT/'catalog-exclusions').glob('*.jsonl') for r in read_rows(p)]
 assert all(r.get('reason') and r.get('source_ids') for r in excluded)
+for year in range(2021,2027):
+    prov=json.loads((ROOT/f'provenance/usenix-{year}.json').read_text())
+    assert prov['matched_nodes']==prov['parsed_records']+prov['nonpaper_entries'],f'Unaccounted USENIX schedule nodes in {year}'
+    assert prov['retained_total']==counts[('USENIX',year)]
+assert not ({r.get('id') for r in excluded if r.get('id')} & ids),'Excluded schedule entry retained as a paper'
 broken=[];links=0
 docs=list(ROOT.rglob('*.md'))+[ROOT.parent/'README.md',ROOT.parent/'SOURCE_INDEX.md',ROOT.parent/'NEXT_ACTION.md',*ROOT.parent.joinpath('records').glob('*literature*.md')]
 for p in docs:

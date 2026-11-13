@@ -1,0 +1,143 @@
+{
+  "sources": [
+    {
+      "source_id": "usenix-2026-tot",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/tot-discussion",
+      "response_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/tot-discussion",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:02:37.776487+00:00",
+      "sha256": "3114235f94239befc19df42f07e4988774fb06ba7a72aad622ebdbab268d2368",
+      "bytes": 31282,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "usenix-2026-errata-shi",
+      "url": "https://www.usenix.org/sites/default/files/sec26-errata_shi-quan.pdf",
+      "response_url": "https://www.usenix.org/sites/default/files/sec26-errata_shi-quan.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:02:37.224496+00:00",
+      "sha256": "b528080fc9ca21fb24a3dd387f5c7885dc1e92f72ac82d7f22f26b7aa3df882d",
+      "bytes": 162881,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix-2026-errata-blueml",
+      "url": "https://www.usenix.org/sites/default/files/sec26-errata_blueml.pdf",
+      "response_url": "https://www.usenix.org/sites/default/files/sec26-errata_blueml.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:02:39.350607+00:00",
+      "sha256": "3569a46dc4fed35d290a96812d0a796773ed254da85f30e2f8af7ec262cf4751",
+      "bytes": 1868024,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix-2026-errata-li",
+      "url": "https://www.usenix.org/system/files/sec26-errata_li-ying.pdf",
+      "response_url": "https://www.usenix.org/system/files/sec26-errata_li-ying.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:02:37.246982+00:00",
+      "sha256": "7fae8b454caa980e44fa6440d5665099c32f085da7747c3d441b9d291550e648",
+      "bytes": 84855,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix26-page-liu-guowei",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei",
+      "response_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:05:30.603641+00:00",
+      "sha256": "b7e9cbc7ed9fefc74a9056ffd60350601ba4f3e494e1dc659df6c79b5d505ab5",
+      "bytes": 37876,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "usenix26-page-guo-qian",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian",
+      "response_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:05:30.701506+00:00",
+      "sha256": "403a22f22a39c7f6f23760654b490cabec3d90080d1aa7b301ce7cfe1d6aebbb",
+      "bytes": 36493,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "usenix26-page-kumar-e",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kumar-e",
+      "response_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/kumar-e",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:05:35.621015+00:00",
+      "sha256": "ea0724d7f50cf692b6b3e6c183bacc66e38df5be78dd420ae82388c4794f784c",
+      "bytes": 38474,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "usenix26-page-karayalcin",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/karayalcin",
+      "response_url": "https://www.usenix.org/conference/usenixsecurity26/presentation/karayalcin",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:05:32.276449+00:00",
+      "sha256": "f2ee531c6b8d481bb87eb362217853dccdbe566dcf0750654437a142d036eca5",
+      "bytes": 34749,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "usenix26-paper-liu-guowei",
+      "url": "https://www.usenix.org/system/files/usenixsecurity26-liu-guowei.pdf",
+      "response_url": "https://www.usenix.org/system/files/usenixsecurity26-liu-guowei.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:06:36.165839+00:00",
+      "sha256": "6b2e054507f02c73c47c2b7c268cd1731a0e0dff246e46f72374601e240cb75a",
+      "bytes": 1449138,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix26-paper-guo-qian",
+      "url": "https://www.usenix.org/system/files/usenixsecurity26-guo-qian.pdf",
+      "response_url": "https://www.usenix.org/system/files/usenixsecurity26-guo-qian.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:06:33.451521+00:00",
+      "sha256": "14dc91f794c1508f42b6b1de3d6daa9821e2bbc057e56fdf07cdb28a2596e318",
+      "bytes": 629772,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix26-paper-kumar-e",
+      "url": "https://www.usenix.org/system/files/usenixsecurity26-kumar-e.pdf",
+      "response_url": "https://www.usenix.org/system/files/usenixsecurity26-kumar-e.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:06:45.139129+00:00",
+      "sha256": "a37e538d53b6de71e2f34790d6d0fc8f6cfca724dde8be3f82c8e325abc20252",
+      "bytes": 3762162,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix26-paper-karayalcin",
+      "url": "https://www.usenix.org/system/files/usenixsecurity26-karayalcin.pdf",
+      "response_url": "https://www.usenix.org/system/files/usenixsecurity26-karayalcin.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:06:33.156574+00:00",
+      "sha256": "11b43827a3221fad5ba66a5c73691848666ae960383cb6c2207122b62c9d671c",
+      "bytes": 799327,
+      "content_type": "application/pdf"
+    }
+  ],
+  "reviewed_on": "2026-11-13",
+  "title_entries_read": 362,
+  "abstracts_read": 76,
+  "new_included_cards": 34,
+  "existing_card_upgraded": [
+    "url:https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian"
+  ],
+  "adjacent_decisions": 41,
+  "selected_full_text_records": [
+    "url:https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei",
+    "url:https://www.usenix.org/conference/usenixsecurity26/presentation/kumar-e",
+    "url:https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian"
+  ],
+  "selected_reference_links": 7,
+  "new_pending_discoveries": 5,
+  "parser_regression_check": "cached USENIX 2021-2026: 246,256,422,417,438 unchanged; 2026 363 to 362; every schedule node accounted for",
+  "scope": "abstracts from cached official technical sessions; final PDFs used only for recorded selected sections; SoK PDF acquired but remains abstract-level",
+  "errata_reading": "all prose of three slips; SING revised plots/tables not independently transcribed; no new numeric claim based on them",
+  "scientific_evidence_status": "author reports and source consistency checks; no local experiment or author code execution"
+}

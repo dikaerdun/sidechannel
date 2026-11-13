@@ -12,6 +12,7 @@
 
 ## 从这里开始
 
+- [USENIX 2026 文献接续：362 条目录对应、34 条新卡片与 PQC 证据边界](records/2026-11-13-literature-usenix2026.md)
 - [随机源反馈、求解难度与物理状态发现：一个新种子及两项深化，待他人验证](brainstorms/2026-11-13-randomness-feedback-hardness-state-discovery.md)
 - [本轮交接：耦合闭环、约束成本与分叉干预](records/2026-11-13-randomness-hardness-state-handoff.md)
 - [Kyber 打乱引用后续：九条新卡片、已有硬件攻击的正文升级及错链纠正](records/2026-11-13-literature-kyber-shuffle-followups.md)
@@ -38,7 +39,7 @@
 - [第四批交接：三项最小资格诊断与已知反例](records/2026-11-12-observation-handoff.md)
 - [再扩大研究对象：自动模型反例、测量与格求解联合设计、物理同步；BOLD-13 至 15 待验证](brainstorms/2026-11-12-model-breaking-directions.md)
 - [第三批构思修订与验证交接](records/2026-11-12-model-breaking-handoff.md)
-- [近五年文献库（建设中）：1,458 条标题初筛、267 条阅读卡片、引用扩展与版本追踪](literature/README.md)
+- [近五年文献库（建设中）：1,820 条标题初筛、301 条阅读卡片、引用扩展与版本追踪](literature/README.md)
 - [掩码与硬件补读：16 条新增记录、八条发现解析及版本/模拟边界](records/2026-11-13-literature-masking-lineage-hardware.md)
 - [S&P 2023 全标题、47 篇摘要补读及掩码/恒时引用](records/2026-11-13-literature-sp2023-candidates.md)
 - [S&P 2024 摘要补读、261 条目录核对与 Episode V 引用补漏](records/2026-11-13-literature-sp2024-candidates-kyber-v.md)
