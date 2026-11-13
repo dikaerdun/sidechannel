@@ -12,6 +12,8 @@
 
 ## 从这里开始
 
+- [计算冗余、拒绝轨迹与随机计算图：三个待他人验证的方向](brainstorms/2026-11-14-computation-codes-rejected-transcripts-random-graphs.md)
+- [本轮交接：跨实现预测、完整转录与路线的联合推断](records/2026-11-14-computation-rejection-graph-handoff.md)
 - [USENIX 2025 文献接续：36 条新卡片、438 条目录对应及盲分析/计数器证据边界](records/2026-11-14-literature-usenix2025.md)
 - [物理遗忘、份额的时空隔离与可逆计算：三个待验证方向](brainstorms/2026-11-14-physical-forgetting-spacetime-reversible-computation.md)
 - [本轮交接：未来观察、传播图与完整能量记账](records/2026-11-14-forgetting-spacetime-reversible-handoff.md)
