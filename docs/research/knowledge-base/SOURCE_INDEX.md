@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-13 研究主线整理：[物理状态发现、关系计算与实现逆向设计](brainstorms/2026-11-13-three-research-programs.md)文末列出 Scam-V、输入输出预测状态、Rosita++、可模拟泄漏反例及 Pantomime 的原始摘要和元数据阅读范围。特别区分 Pantomime 的明确泄漏输入与仅公开信息的模拟目标；未复核完整证明，不改变正式文献卡片数量。
+
 2026-11-13 第九批构思增补：[调度器的关系计算、防护的不变量与采集选择](brainstorms/2026-11-13-schedulers-invariants-selection.md)文末记录 Self-Timed Masking、QTFlow、Kyber 硬件打乱、密文可塑性防护的摘要及元数据阅读，以及 AAAI 2014 选择偏差作者 PDF 第 1 页的阅读范围。数学例子未经独立核验，没有新实验或完整新颖性审查，不改变正式文献卡片数量。
 
 2026-11-13 第八批构思增补：[闭合路径、后续公开信息与组合契约](brainstorms/2026-11-13-closed-loops-delayed-disclosure-leakage-contracts.md)文末记录经典几何泵送、可模拟泄漏、定时隐私和拒绝签名工作的实际阅读范围；另核 FIPS 204 正文第 24–25 页、Algorithm 7 与第 36 页。没有新实验、独立核验或完整新颖性审查，不改变正式文献卡片数量。

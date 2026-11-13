@@ -12,6 +12,8 @@
 
 ## 从这里开始
 
+- [三条研究主线：物理状态发现、关系计算与实现逆向设计；待验证](brainstorms/2026-11-13-three-research-programs.md)
+- [研究主线交接：从 33 条种子到三个可持续推进的问题](records/2026-11-13-research-programs-handoff.md)
 - [调度器的关系计算、防护的不变量与采集选择；BOLD-31 至 33 待验证](brainstorms/2026-11-13-schedulers-invariants-selection.md)
 - [第九批交接：控制节点、变换轨道和未保存的执行](records/2026-11-13-scheduler-invariant-selection-handoff.md)
 - [闭合路径、后续公开信息与组合契约；BOLD-28 至 30 待验证](brainstorms/2026-11-13-closed-loops-delayed-disclosure-leakage-contracts.md)

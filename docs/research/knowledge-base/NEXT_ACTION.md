@@ -14,6 +14,8 @@
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-13 增补[三条研究主线 RP-A 至 C](brainstorms/2026-11-13-three-research-programs.md)：A 先提交模型等价对及跨操作预测；B 先提交真实物理节点、关系函数及切断交互的预测；C 先提交有限观察模型、正确实现和受限模拟器。它们组织既有 33 条种子，不另增机制计数；用户安排其他人验证。详见[主线交接](records/2026-11-13-research-programs-handoff.md)，未运行实验或派发任务。
+
 2026-11-13 增补[第九批 BOLD-20261113-31 至 33](brainstorms/2026-11-13-schedulers-invariants-selection.md)：31 先提交真实支路时序和共同控制规则；32 先核对变换族、功能正确性、不变量与读出资格；33 先提交触发丢弃的依赖图及目标独立的审计采样方案。均由用户安排其他人验证；详见[交接记录](records/2026-11-13-scheduler-invariant-selection-handoff.md)。未运行实验或派发任务，不改变已有实验判定和文献普查队列。
 
 2026-11-13 增补[第八批 BOLD-20261113-28 至 30](brainstorms/2026-11-13-closed-loops-delayed-disclosure-leakage-contracts.md)：28 先核对闭合积分及真实恢复状态；29 先提交随机量与公开信息时间图，区分事后检验和自适应交互；30 先给出非平凡状态关系与逐历史组合前提。均由用户安排其他人验证；详见[交接记录](records/2026-11-13-closed-loop-disclosure-contract-handoff.md)。未启动实验或派发任务，也未更新既有实验判定。

@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-13 将既有 33 条 BOLD 种子组织为[三条研究主线 RP-A 至 C](brainstorms/2026-11-13-three-research-programs.md)：物理状态发现、物理关系计算、实现与泄漏说明的共同设计。均待验证，不增加独立机制数量，不升级下表实验状态；详见[交接记录](records/2026-11-13-research-programs-handoff.md)。用户另行安排验证者。
+
 2026-11-13 追加 [BOLD-20261113-31 至 33](brainstorms/2026-11-13-schedulers-invariants-selection.md)：共同控制节点对份额时序的关系计算、等价随机化的轨道与不变量、采集选择造成的条件关系。三项均为**待验证提案**，手工例子待独立核验；已有异步掩码、随机化和选择偏差先例，未声称首创或 PQC 实测支持。详见[第九批交接](records/2026-11-13-scheduler-invariant-selection-handoff.md)，由用户安排他人验证。
 
 2026-11-13 追加 [BOLD-20261113-28 至 30](brainstorms/2026-11-13-closed-loops-delayed-disclosure-leakage-contracts.md)：闭合控制路径的净响应、后续公开信息与波形的联合关系、覆盖观察历史的物理泄漏契约。三项均为**待验证提案**；恢复模型、信息见证和组合前提待独立核查，没有 PQC 实测支持。详见[第八批交接](records/2026-11-13-closed-loop-disclosure-contract-handoff.md)，由用户安排他人验证。
