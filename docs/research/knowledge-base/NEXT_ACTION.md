@@ -14,6 +14,8 @@
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-13 增补[第九批 BOLD-20261113-31 至 33](brainstorms/2026-11-13-schedulers-invariants-selection.md)：31 先提交真实支路时序和共同控制规则；32 先核对变换族、功能正确性、不变量与读出资格；33 先提交触发丢弃的依赖图及目标独立的审计采样方案。均由用户安排其他人验证；详见[交接记录](records/2026-11-13-scheduler-invariant-selection-handoff.md)。未运行实验或派发任务，不改变已有实验判定和文献普查队列。
+
 2026-11-13 增补[第八批 BOLD-20261113-28 至 30](brainstorms/2026-11-13-closed-loops-delayed-disclosure-leakage-contracts.md)：28 先核对闭合积分及真实恢复状态；29 先提交随机量与公开信息时间图，区分事后检验和自适应交互；30 先给出非平凡状态关系与逐历史组合前提。均由用户安排其他人验证；详见[交接记录](records/2026-11-13-closed-loop-disclosure-contract-handoff.md)。未启动实验或派发任务，也未更新既有实验判定。
 
 2026-11-13 增补[第七批 BOLD-20261113-25 至 27](brainstorms/2026-11-13-spatial-modes-port-response-noise-geometry.md)：25 先提交空间与回流映射及留出位置预测；26 先提交允许激励、端口响应模型及主动/被动条件；27 先提交同实际成本的噪声配置与联合观察预算。三项均待验证，由用户安排其他人推进；详见[交接记录](records/2026-11-13-spatial-port-noise-handoff.md)。本轮未启动实验或派发任务。

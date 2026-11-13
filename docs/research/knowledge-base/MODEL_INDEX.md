@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-13 追加 [BOLD-20261113-31 至 33](brainstorms/2026-11-13-schedulers-invariants-selection.md)：共同控制节点对份额时序的关系计算、等价随机化的轨道与不变量、采集选择造成的条件关系。三项均为**待验证提案**，手工例子待独立核验；已有异步掩码、随机化和选择偏差先例，未声称首创或 PQC 实测支持。详见[第九批交接](records/2026-11-13-scheduler-invariant-selection-handoff.md)，由用户安排他人验证。
+
 2026-11-13 追加 [BOLD-20261113-28 至 30](brainstorms/2026-11-13-closed-loops-delayed-disclosure-leakage-contracts.md)：闭合控制路径的净响应、后续公开信息与波形的联合关系、覆盖观察历史的物理泄漏契约。三项均为**待验证提案**；恢复模型、信息见证和组合前提待独立核查，没有 PQC 实测支持。详见[第八批交接](records/2026-11-13-closed-loop-disclosure-contract-handoff.md)，由用户安排他人验证。
 
 2026-11-13 追加 [BOLD-20261113-25 至 27](brainstorms/2026-11-13-spatial-modes-port-response-noise-geometry.md)：总量相同的空间电流差异、允许激励下的端口响应、防护噪声的方向覆盖。三项均为**待验证提案**；已有局部 EM、阻抗与噪声优化先例，具体增量未确认。手工例子待独立核对，详见[第七批交接](records/2026-11-13-spatial-port-noise-handoff.md)。验证由用户另行安排。
