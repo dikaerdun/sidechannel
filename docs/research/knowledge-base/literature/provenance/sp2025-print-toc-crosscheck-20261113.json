@@ -1,0 +1,37 @@
+{
+  "sources": [
+    {
+      "source_id": "sp2025-proceedings-vendor-toc",
+      "url": "https://www.proceedings.com/content/080/080624webtoc.pdf",
+      "response_url": "https://www.proceedings.com/content/080/080624webtoc.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:57:59.352310+00:00",
+      "sha256": "f6fbbb78afd49fcc86ed594160486ead81b1711c8898382d2b170b1503f91f37",
+      "bytes": 487883,
+      "content_type": "application/pdf"
+    }
+  ],
+  "reviewed_on": "2026-11-13",
+  "source_role": "Curran print-on-demand representation of IEEE Digital Library proceedings; independent retrieval from conference accepted list",
+  "book_identity": {
+    "ieee_catalog": "CFP25020-POD",
+    "print_isbn": "979-8-3315-2237-7",
+    "online_isbn": "979-8-3315-2236-0"
+  },
+  "core_cell_crosschecks": [
+    {
+      "venue": "SP",
+      "year": 2025,
+      "status": "matched_print_toc_with_caveat",
+      "inventory_file": "toc-crosschecks/sp-2025.jsonl",
+      "accepted_records": 255,
+      "print_toc_records": 255,
+      "exact_normalized_title_matches": 254,
+      "manually_matched_title_changes": 1,
+      "unpaginated_records": 1,
+      "missing_from_toc": 0,
+      "extra_in_toc": 0,
+      "scope": "entry membership only; N/A record publication status unresolved; no abstract/full-text/citation completion claim"
+    }
+  ]
+}

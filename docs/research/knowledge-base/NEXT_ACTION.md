@@ -4,9 +4,11 @@
 
 ## 2026-11-13 文献库建设接续
 
-已建立[统一文献入口](literature/README.md)、30 个核心会议年单元目录及 14 条引用扩展记录；TCHES 599 条和 S&P 2025 的 255 条标题已初筛，累计 153 条摘要及以上判定，纳入 118 篇。GoFetch 的 98 条与 Scheduled Disclosure 的 79 条引用均完成第一轮条目初筛，累计 42 条核对引用、10 条版本关系（9 条核实、1 条推定）；9 条旧发现已解析，4 条新发现待查。详见[本批记录](records/2026-11-13-literature-scope-and-sp2025.md)和[S&P 正文边界](literature/notes/sp2025-protection-and-observation-boundaries-20261113.md)。
+[统一文献入口](literature/README.md)当前包含 30 个核心会议年单元和 18 条引用扩展/基础记录；854 条标题已初筛，165 条摘要及以上判定，纳入 130 篇。已核对 48 条引用、10 条版本关系（9 条核实、1 条推定），13 条已登记发现完成身份与范围解析。S&P 2025 的 255 条录用记录已与独立取得的 IEEE 印刷目录双向对应，含一处改题名和一条页码 N/A 的记录。详见[本批记录](records/2026-11-13-literature-power-sp2025-followup.md)。
 
-下一步优先处理 Red Alert、The Finger in the Power、Controlled Preemption 和 Share-slicing 四条引用发现，继续 S&P 2025 候选/不确定项及 TCHES 剩余 PQC 摘要，推进其他核心目录逐题筛查。GoFetch 仍有 58 条基础文献待处理；Scheduled Disclosure 另有 16 条。独立目录交叉核对、扩展会议系统目录、代码/数据实查和全文专题综述仍未完成。接续时先读[覆盖与缺口](literature/COVERAGE.md)，不能把条目初筛或脚本通过视为普查完成。
+下一步继续 S&P 2025 剩余候选/不确定项及 TCHES 剩余 86 条冻结 PQC 候选摘要，并推进其他目录逐题筛查。S&P 2025 仍有 244 条无摘要判定，其余 29 个核心单元待独立目录核对；扩展会议系统目录和全文专题也未完成。GoFetch 尚有 58 条基础引用待处理，Scheduled Disclosure 另有 16 条。补查 N/A 记录的最终出版状态，以及 Finger in the Power 链接仓库返回 404 的原因；Peek-a-Walk 的端到端材料完整性仍待实查。
+
+新阅读明确了 Peek-a-Walk 的参考 Dilithium-2 案例、Share-slicing 的位交互假设与重复成本，以及软件功耗读取/调度权限条件，见[专题记录](literature/notes/power-observation-and-pqc-boundaries-20261113.md)。接续时先读[覆盖与缺口](literature/COVERAGE.md)，不能把目录对应、已登记发现清零或脚本通过视为普查完成。
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 

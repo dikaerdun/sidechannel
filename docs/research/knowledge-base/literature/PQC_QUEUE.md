@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6643 条，其中 335 条命中后量子相关关键词。
+当前目录记录 6647 条，其中 336 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -124,6 +124,7 @@
 | 2025 NDSS | [PQConnect: Automated Post-Quantum End-to-End Tunnels](https://www.ndss-symposium.org/ndss-paper/pqconnect-automated-post-quantum-end-to-end-tunnels/) | pending |
 | 2025 SP | [Gold OPRF: Post-Quantum Oblivious Power-Residue PRF](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-197) | pending |
 | 2025 SP | [Papercraft: Lattice-based Verifiable Delay Function Implemented](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-153) | pending |
+| 2025 SP | [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) | include |
 | 2025 SP | [Phecda: Post-Quantum Transparent zkSNARKs from Improved Polynomial Commitment and VOLE-in-the-Head with Application in Publicly Verifiable AES](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-49) | pending |
 | 2025 SP | [Post-quantum Cryptographic Analysis of SSH](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-195) | pending |
 | 2025 SP | [PQ-Hammer: End-to-end Key Recovery Attacks on Post-Quantum Cryptography Using Rowhammer](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-86) | pending |

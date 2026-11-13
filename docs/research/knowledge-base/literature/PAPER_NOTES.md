@@ -2,7 +2,31 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 118 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 130 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+
+## Share-slicing: Friend or Foe?
+
+- 来源：[TCHES 2020](https://doi.org/10.46586/tches.v2020.i1.152-174)；时间标记：foundation outside rolling window; TCHES volume 2020(1), online 2019-11-19。
+- 作者：Si Gao; Ben Marshall; Dan Page; Elisabeth Oswald
+- 对象：software masking, share slicing, ISW, bit interaction, ARM Cortex-M0/M3；类型：leakage_model_and_evaluation。
+- 核心想法：检验同一机器字内份额的逐位独立假设，研究微架构位交互如何降低预期掩码阶数。
+- 作者报告：作者在 NXP LPC Cortex-M0/M3 上报告位交互和安全阶数下降；结论指出具体物理原因仍难唯一定位。
+- 限制与下一步：证明的前提与实现不匹配不等于证明本身错误；器件、指令方向、重复与平均条件不可省略。正文讨论重复带来的观测成本，README 另述不同测试设置，不能合并为同一组实验或任意平台结论。
+- 阅读层级：selected_full_text_sections；来源：https://tches.iacr.org/index.php/TCHES/article/download/8396/7780。
+- 已读章节：TCHES landing-page abstract; PDF pp.16–17 (printed pp.167–168): repetition/SNR limitations, sections 5–6
+- [详细阅读记录](notes/power-observation-and-pqc-boundaries-20261113.md)
+- 代码/数据核查：author README fully read; explicit no security claim for the supplied AES implementation and distinct supplemental setup; source/data files and build not verified；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
+
+## Red Alert for Power Leakage: Exploiting Intel RAPL-Induced Side Channels
+
+- 来源：[ASIACCS 2021](https://doi.org/10.1145/3433210.3437517)；时间标记：before rolling window; online 2021-05-24; retained as cited 2021 boundary paper。
+- 作者：Zhenkai Zhang; Sisheng Liang; Fan Yao; Xing Gao
+- 对象：RAPL, software power observation, website fingerprinting, covert channel；类型：attack。
+- 核心想法：利用软件可读的 RAPL 能量信息构造跨隔离隐蔽通道并进行网站指纹识别。
+- 作者报告：作者报告跨软件/硬件边界通信及普通浏览器、Tor 场景下的页面辨识。
+- 限制与下一步：不是密码密钥恢复；依赖可访问相应 RAPL 读数，2021 年接口条件不能外推为当前系统默认权限。正式上线 2021-05-24，早于滚动窗口，作为边界引用保留。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://zhenkai-zhang.github.io/papers/rapl.pdf。
+- 代码/数据核查：not checked；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
 
 ## A Systematic Approach and Analysis of Key Mismatch Attacks on Lattice-Based NIST Candidate KEMs
 
@@ -399,7 +423,7 @@
 - 作者报告：作者评估密码学维度的提示数量与实际约简恢复时间。
 - 限制与下一步：提示是给定的正确内积信息，不等于已经从同数量功耗迹线取得；提示获取、分布及误差条件须单独核查。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2023/777。
-- 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
+- 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending; forward citation observed; exhaustive backward/forward closure pending。
 
 ## AfterImage: Leaking Control Flow Data and Tracking Load Operations via the Hardware Prefetcher
 
@@ -411,6 +435,18 @@
 - 限制与下一步：不依赖投机执行这一条件不意味着不需同机执行或训练能力；具体调度、实现和隔离假设仍需全文。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.comp.nus.edu.sg/~tcarlson/pdfs/chen2023lcfivthp.pdf。
 - 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
+
+## The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption
+
+- 来源：[DIMVA 2023](https://doi.org/10.1007/978-3-031-35504-2_2)；时间标记：within rolling window; online 2023-06-10; print year 2023。
+- 作者：Marina Botvinnik; Tomer Laor; Thomas Rokicki; Clémentine Maurice; Yossi Oren
+- 对象：power fingerprinting, device identification, Intel and AMD, WebAssembly；类型：measurement_and_fingerprinting。
+- 核心想法：用相同指令的低速功耗响应区分不同机器，包括软硬件配置相同的个体。
+- 作者报告：作者摘要报告跨多代处理器的设备研究、温度影响和降低精度的 WebAssembly 概念验证。
+- 限制与下一步：设备身份是恢复对象，不是程序秘密。论文明确说明其功耗读取依赖当时的高权限接口；WebAssembly 计算不等于浏览器能够无权限取得功耗。公开仓库链接本轮返回 404，可取得性未确认。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-35504-2_2。
+- [详细阅读记录](notes/power-observation-and-pqc-boundaries-20261113.md)
+- 代码/数据核查：publisher-linked repository and README API requests returned 404 on 2026-11-13; no code or dataset retrieved; reason unknown；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
 
 ## Exploiting the microarchitectural leakage of prefetching activities for side-channel attacks
 
@@ -766,7 +802,53 @@
 - 阅读层级：selected_full_text_sections；来源：official PDF: https://www.usenix.org/system/files/usenixsecurity24-chen-boru.pdf。
 - 已读章节：abstract/introduction; section 3; selected overview/target passages in 7.1 and 7.2; section 8; references [1]–[98]. Tables, complete attack derivations and appendices not fully audited.
 - [详细阅读记录](notes/gofetch-2024.md)
-- 代码/数据核查：not checked；引用追踪：in_progress; 98 reference entries screened, selected identities resolved; forward search pending。
+- 代码/数据核查：not checked；引用追踪：in_progress; 98 reference entries screened, selected identities resolved; forward search pending; forward citation observed; exhaustive backward/forward closure pending。
+
+## Controlled Preemption: Amplifying Side-Channel Attacks from Userspace
+
+- 来源：[ASPLOS 2025](https://doi.org/10.1145/3676641.3715985)；时间标记：within rolling window; published 2025-03-30。
+- 作者：Yongye Zhu; Boru Chen; Zirui Neil Zhao; Christopher W. Fletcher
+- 对象：Linux CFS, Linux EEVDF, microarchitectural timing resolution, Intel SGX；类型：attack_primitive。
+- 核心想法：利用调度公平性机制细化受害执行与侧信道观察的交错，提高有状态通道的时间分辨率。
+- 作者报告：作者研究单个非特权线程、同逻辑核共置及 SGX 内外场景。
+- 限制与下一步：需要同机本地攻击能力、相应调度器并能够触发受害程序；正文不要求 SMT。它增强已有泄漏的观察条件，不是无条件制造秘密通道，也不能直接归为远程 PQC 密钥恢复。
+- 阅读层级：selected_full_text_sections；来源：https://cwfletcher.github.io/content/research/2025.asplos.controlledpreemption.paper.pdf。
+- 已读章节：PDF p.1 abstract and bibliography; PDF p.4 section 3 Threat Model
+- [详细阅读记录](notes/power-observation-and-pqc-boundaries-20261113.md)
+- 代码/数据核查：not checked；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
+
+## Breaking the Barrier: Post-Barrier Spectre Attacks
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-70)；时间标记：conference year 2025 within frozen window; exact publication date not verified。
+- 作者：Johannes Wikner, Kaveh Razavi ETH Zurich
+- 对象：IBPB, Intel and AMD, speculative return prediction, Spectre；类型：attack。
+- 核心想法：区分分支预测清理在微码实现和内核使用方式中的缺陷，研究屏障后的返回目标劫持。
+- 作者报告：作者分别报告 Intel 跨进程密码哈希读出及 AMD Zen 1(+)/2 特权内存泄漏，并提出对应缓解。
+- 限制与下一步：两类攻击的缺陷层次和平台不同；摘要中的论文时点不代表当前系统状态。该工作与 Training Solo 的域内自训练机制不能合并成同一漏洞。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://comsec-files.ethz.ch/papers/ibpb_sp25.pdf。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Ceviche: Capability-Enhanced Secure Virtualization of Caches
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-85)；时间标记：conference year 2025 within frozen window; exact publication date not verified。
+- 作者：Arnabjyoti Kalita, Yilong Yang, Alenkruth Krishnan Murali, Ashish Venkat University of Virginia
+- 对象：cache capabilities, cache partitioning, multicore isolation；类型：countermeasure。
+- 核心想法：将地址与安全域映射为缓存访问能力，在缓存行粒度控制资源权限与分配。
+- 作者报告：作者给出多级缓存虚拟化设计、策略及性能评估，目标包含保密性、可用性与公平性。
+- 限制与下一步：保护范围是所建模的缓存资源与策略；摘要不支持全芯片功耗安全或量产硅片验证。性能代价需要结合正文的配置及基线，不能视为普遍常数。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.cs.virginia.edu/~av6ds/papers/sp2025.pdf。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels
+
+- 来源：[SP 2025](https://doi.org/10.1109/sp61157.2025.00079)；时间标记：within rolling window; published 2025-05-12。
+- 作者：Yuanyuan Yuan; Zhibo Liu; Sen Deng; Yanzuo Chen; Shuai Wang; Yinqian Zhang; Zhendong Su
+- 对象：TEE ciphertext side channels, neural-network inputs, TensorFlow, PyTorch, TVM, Glow；类型：attack。
+- 核心想法：把密文侧信道泄露的内存写入模式转换为局部输入信息，再重建神经网络的图像或视频输入。
+- 作者报告：作者比较不同先验和执行框架，并报告以恢复输入训练替代网络等后续用途。
+- 限制与下一步：攻击者为不可信宿主，输入重建依赖部分泄漏与先验；不等于破解内存加密算法，视觉近似也不保证逐字节一致。模型知识、TEE 实现与采集条件仍需正文核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://yuanyuan-yuan.github.io/files/sp25-Cipher-Steal.pdf。
+- 代码/数据核查：not checked；引用追踪：pending。
 
 ## EUCLEAK
 
@@ -779,6 +861,30 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://ninjalab.io/wp-content/uploads/2024/10/20241022_eucleak.pdf。
 - 代码/数据核查：not checked; author technical report only；引用追踪：pending。
 
+## Peek-a-Walk: Leaking Secrets via Page Walk Side Channels
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76)；时间标记：conference year 2025 within frozen window; exact publication date not verified。
+- 作者：Alan Wang1, Boru Chen2, Yingchen Wang3, Christopher W. Fletcher2, Daniel Genkin4, David Kohlbrenner5, Riccardo Paccagnella6 1: University of Illinois at Urbana-Champaign, 2: University of California, Berkeley, 3: University of Texas at Austin, 4: Georgia Institute of Technology, 5: University of Washington, 6: Carnegie Mellon University
+- 对象：Dilithium-2, page walks, Spectre-BHI, Intel LAM, data-memory-dependent prefetching；类型：attack。
+- 核心想法：以页表遍历为读出通道，使不指向有效映射的秘密值也可能留下可恢复的地址位信息；包含 Dilithium 案例。
+- 作者报告：§4.4 结合本机推测执行、签名 nonce 系数泄漏与格提示后处理，报告恢复参考 Dilithium-2 的 s1；另有 LAM 内存读取和 DMP 沙箱案例。
+- 限制与下一步：需通过地址规范性检查；42 位是特定读出上限，不是任意 64 位值都可读。Dilithium 案例无需 LAM，但依赖同机与目标地址等条件；不能混同为 DMP 直接攻击 ML-DSA，参考为版本 3.1。公开 README 尚留移植/TODO 说明，端到端材料完整性未核。
+- 阅读层级：selected_full_text_sections；来源：https://www.cs.cmu.edu/~rpaccagn/papers/peek-a-walk-sp2025.pdf。
+- 已读章节：PDF p.1 abstract; p.7 sections 3.3 and 4.1; pp.10–11 section 4.4 and continuation; p.12 section 5.2; selected references [15] p.14 and [53] p.15
+- [详细阅读记录](notes/power-observation-and-pqc-boundaries-20261113.md)
+- 代码/数据核查：author README fully read (platform and code overview, incomplete-porting/TODO statements); no build/run or end-to-end artifact completeness audit；引用追踪：selected references 15 and 53 linked; full inventory and forward search pending。
+
+## SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon
+
+- 来源：[SP 2025](https://doi.org/10.1109/sp61157.2025.00098)；时间标记：within rolling window; published 2025-05-12。
+- 作者：Jason Kim; Daniel Genkin; Yuval Yarom
+- 对象：Apple Silicon, load address prediction, data speculation, Safari；类型：attack。
+- 核心想法：研究加载地址预测错误造成的数据推测执行，从秘密静态存储读出进一步构造泄漏。
+- 作者报告：作者在 M2/A15 及所测更新型号报告地址预测，并演示越界读出、函数调用、ASLR 与 Safari 跨站数据泄漏。
+- 限制与下一步：加载地址预测不同于控制流预测、DMP 或加载值预测；不能把所测 Apple 产品外推到全部 Arm 或其他浏览器。已读摘要不能证明当前固件/浏览器仍有相同状态。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://predictors.fail/files/SLAP.pdf。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling
 
 - 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254)；时间标记：conference year 2025 within frozen window; exact publication date not verified。
@@ -790,7 +896,29 @@
 - 阅读层级：selected_full_text_sections；来源：https://www.hertzbleed.com/scheduled-disclosure-sp2025.pdf。
 - 已读章节：PDF pp. 1, 14–15: abstract/introduction and section 6; pp. 17–18: complete printed reference entries 1–79
 - [详细阅读记录](notes/sp2025-protection-and-observation-boundaries-20261113.md)
-- 代码/数据核查：README read via GitHub connector (blob 14c91f1d5eb761600091b682adefcfeeec2d2108); environment and source layout inspected; no build/run or completeness verification；引用追踪：79 printed references first-pass screened; 12 catalog links, 3 new discoveries; recursive and forward closure pending。
+- 代码/数据核查：README read via GitHub connector (blob 14c91f1d5eb761600091b682adefcfeeec2d2108); environment and source layout inspected; no build/run or completeness verification；引用追踪：79 printed references first-pass screened; 15 catalog links, 0 unresolved registered discoveries; 16 foundation records and recursive/forward closure pending。
+
+## Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-131)；时间标记：conference year 2025 within frozen window; preprint initially 2025-04-15。
+- 作者：Bradley Morgan1,2, Gal Horowitz3, Sioli O’Connell1, Stephan van Schaik4, Chitchanok Chuengsatiansup5, Daniel Genkin6, Olaf Maennel1, Paul Montague2, Eyal Ronen3, Yuval Yarom7 1: The University of Adelaide, 2: Defence Science and Technology Group, 3: Tel-Aviv University, 4: University of Michigan, 5: The University of Klagenfurt, 6: Georgia Tech, 7: Ruhr University Bochum
+- 对象：LLC eviction sets, cache slice mapping, nonlinear address hash；类型：attack_primitive。
+- 核心想法：结合微架构竞速、已知切片哈希和跨页内偏移关系，降低末级缓存逐出集构造成本。
+- 作者报告：作者预印本摘要报告在两款 Intel 处理器上生成完整 LLC 逐出集，并与既有方法比较。
+- 限制与下一步：评估对象是逐出集构造，不是完整攻击或密钥恢复时间；需要核查地址知识、页面与平台条件。预印本和会议标题、作者对应，全文版本等价未核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2504.11208。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15)；时间标记：conference year 2025 within frozen window; exact publication date not verified。
+- 作者：Juhee Kim1, Jinbum Park2, Sihyeon Roh1, Jaeyoung Chung1, Youngjoo Lee1, Taesoo Kim2,3, Byoungyoung Lee1 1: Seoul National University, 2: Samsung Research, 3: Georgia Institute of Technology
+- 对象：ARM MTE, speculative execution, memory tags, Chrome, Linux；类型：attack。
+- 核心想法：用推测执行形成的可观察差异推断内存标签，削弱 MTE 对内存破坏利用的概率防护。
+- 作者报告：作者摘要报告 Chrome 与 Linux 场景的标签读取及防护绕过，并提出缓解机制。
+- 限制与下一步：标签恢复不等于自动获得任意代码执行；还依赖可利用的程序缺陷和执行条件。读取的是作者 PDF 摘要，最终会议版差异与当前修复状态未核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://lifeasageek.github.io/papers/tiktag.pdf。
+- 代码/数据核查：repository discovered but contents not checked；引用追踪：pending。
 
 ## Towards ML-KEM & ML-DSA on OpenTitan
 
@@ -803,7 +931,18 @@
 - 阅读层级：selected_full_text_sections；来源：https://cryptojedi.org/papers/otpqc-20250514.pdf。
 - 已读章节：PDF p.1 abstract; relevant protection paragraphs pp.2,4,6,8,11,14–15 (including sections 2.4, 5.2.5, 8); selected reference entries p.17
 - [详细阅读记录](notes/sp2025-protection-and-observation-boundaries-20261113.md)
-- 代码/数据核查：author README read via GitHub connector (blob 4a797446f26d4e4d8ccf945fdf099dc64fa58fc0); submodule pointers, documented DB archive and platform restrictions inspected in README only; no build/run or data-file verification；引用追踪：selected reference 61 registered for foundation reading; complete inventory and forward search pending。
+- 代码/数据核查：author README read via GitHub connector (blob 4a797446f26d4e4d8ccf945fdf099dc64fa58fc0); submodule pointers, documented DB archive and platform restrictions inspected in README only; no build/run or data-file verification；引用追踪：selected reference 61 resolved to Share-slicing foundation; complete inventory and forward search pending。
+
+## Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-194)；时间标记：conference year 2025 within frozen window; exact publication date not verified。
+- 作者：Sander Wiebing, Cristiano Giuffrida Vrije Universiteit Amsterdam
+- 对象：Spectre-v2, branch predictor, domain isolation, self-training；类型：attack。
+- 核心想法：研究训练与推测控制流劫持都发生在受害域内的自训练机制，检验域隔离策略的边界。
+- 作者报告：作者描述三类内核攻击及两个端到端演示，并另外报告破坏域隔离实现的硬件问题。
+- 限制与下一步：域内自训练的设计限制与另发现的隔离实现缺陷是不同结论；并非任何代码或任何受保护系统都可攻击，实际构件和配置仍须正文核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://download.vusec.net/papers/trainingsolo_sp25.pdf。
+- 代码/数据核查：repository discovered but contents not checked；引用追踪：pending。
 
 ## Adaptive Template Attacks on the Kyber Binomial Sampler
 

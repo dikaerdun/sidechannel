@@ -17,7 +17,15 @@ python3 docs/research/knowledge-base/literature/tools/build_indexes.py --cache <
 
 2026-11-13 更新：发现记录区分待处理与已解析，已解析记录继续保留；引用表显示实际被引预印本及相邻主题阅读状态。覆盖表同时保留目录截点与实际阅读更新日期。校验器检查解析状态、目录身份、范围判定和引用边一致，仍不判断引用闭包是否完整。
 
-2026-11-13 接续：标题记录已覆盖 TCHES 六卷与 S&P 2025；校验器按实际登记的会议年单元核对整批身份，不再假定标题记录全部属于 TCHES。多个引用初筛文件以“起点论文 + 引用号”关联发现与引用边，避免不同论文的相同编号相互混淆。GoFetch 98 条和 Scheduled Disclosure 79 条是完整条目初筛；OpenTitan 的文件目前只登记选读的一条。
+2026-11-13 接续：标题记录已覆盖 TCHES 六卷与 S&P 2025；校验器按实际登记的会议年单元核对整批身份，不再假定标题记录全部属于 TCHES。多个引用初筛文件以“起点论文 + 引用号”关联发现与引用边，避免不同论文的相同编号相互混淆。GoFetch 98 条和 Scheduled Disclosure 79 条是完整条目初筛；OpenTitan 目前仅选读一条，Peek-a-Walk 仅选读两条。
+
+S&P 2025 印刷目录另有只读复查工具，需要额外安装 PyMuPDF。先从 [provenance](../provenance/sp2025-print-toc-crosscheck-20261113.json) 所列 URL 将 PDF 保存到仓库外，然后运行：
+
+```sh
+python3 docs/research/knowledge-base/literature/tools/audit_sp2025_print_toc.py --pdf <outside-repository-pdf>
+```
+
+它先核对来源 SHA-256，再按该 PDF 的字形布局提取题名及页码，逐行比较 255 条已保存目录；不接受已变化的来源。`validate_library.py` 再核对目录到当前身份的双向对应、改题名及 N/A 例外。只证明目录成员对应，不证明那条 N/A 记录最终正式发表，也不代替摘要筛查。生成器把核心会议的窗口外卷年（如 TCHES 2020 基础论文）列入引用扩展，避免漏计或混入核心 30 单元。
 
 正式条目在 `papers.jsonl`；摘要卡片是人工构思并经来源阅读后写入的整理，不由关键词推导。引用队列中的 pending 不表示关系已经核实。当前没有对目录覆盖或实验结论作自动完成判定。
 

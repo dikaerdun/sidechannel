@@ -4,6 +4,7 @@ from collections import Counter
 import json
 from pathlib import Path
 import re
+import unicodedata
 from urllib.parse import unquote
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -62,6 +63,35 @@ assert len({(t['seed_id'],t['direction']) for t in citation_tasks})==len(citatio
 sources={s.get('source_id',s.get('id')) for p in (ROOT/'provenance').glob('*.json') for s in json.loads(p.read_text()).get('sources',[])}
 assert all(s in sources for r in catalog for s in r['source_ids']),'Missing source provenance'
 assert all(s in sources for p in papers for s in p.get('reading_source_ids',[]))
+catalog_map={r['id']:r for r in catalog}
+toc_cells={}
+normalize_title=lambda s: ''.join(c for c in unicodedata.normalize('NFKD',s).casefold() if c.isalnum())
+for provenance in (ROOT/'provenance').glob('*.json'):
+    data=json.loads(provenance.read_text())
+    source_hashes={s.get('source_id',s.get('id')):s.get('sha256') for s in data.get('sources',[])}
+    for check in data.get('core_cell_crosschecks',[]):
+        key=(check['venue'],check['year'])
+        assert key not in toc_cells
+        toc_cells[key]=check
+        inventory=read_rows(ROOT/check['inventory_file'])
+        expected_ids={r['id'] for r in catalog if (r['venue'],r['venue_year'])==key}
+        assert len(inventory)==len({r['catalog_id'] for r in inventory})==check['print_toc_records']
+        assert {r['catalog_id'] for r in inventory}==expected_ids
+        assert len(expected_ids)==check['accepted_records']
+        assert check['missing_from_toc']==check['extra_in_toc']==0
+        assert sum(r['start_page']=='N/A' for r in inventory)==check['unpaginated_records']
+        exact=[r for r in inventory if r['match']=='normalized_title_exact']
+        changed=[r for r in inventory if r['match'].startswith('title_changed;')]
+        assert len(exact)==check['exact_normalized_title_matches']
+        assert len(changed)==check['manually_matched_title_changes']
+        assert len(exact)+len(changed)==len(inventory)
+        assert all(normalize_title(r['title'])==normalize_title(catalog_map[r['catalog_id']]['title']) for r in exact)
+        assert all(r['title']==catalog_map[r['catalog_id']]['published_title'] for r in changed)
+        assert all(r['source_id'] in sources and r['source_sha256']==source_hashes[r['source_id']] for r in inventory)
+        cell=next(c for c in coverage['core_cells'] if (c['venue'],c['year'])==key)
+        assert cell['independent_toc_crosscheck']==check['status']
+        assert cell['toc_crosscheck_provenance']==str(provenance.relative_to(ROOT))
+assert all((c['venue'],c['year']) in toc_cells or c['independent_toc_crosscheck']=='pending' for c in coverage['core_cells'])
 edges=read_rows(ROOT/'citations/edges.jsonl')
 assert len({(e['from'],e['to'],e['type']) for e in edges})==len(edges)
 assert all(e['to'] in ids for e in edges)

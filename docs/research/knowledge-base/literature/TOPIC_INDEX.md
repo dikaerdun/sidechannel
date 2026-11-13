@@ -27,6 +27,18 @@
 
 - 2022 ISCA · [PACMAN: attacking ARM pointer authentication with speculative execution](https://doi.org/10.1145/3470496.3527429) · attack · abstract_and_bibliographic_metadata
 
+## Apple Silicon
+
+- 2025 SP · [SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon](https://doi.org/10.1109/sp61157.2025.00098) · attack · abstract_and_bibliographic_metadata
+
+## ARM Cortex-M0/M3
+
+- 2020 TCHES · [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) · leakage_model_and_evaluation · selected_full_text_sections
+
+## ARM MTE
+
+- 2025 SP · [TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15) · attack · abstract_and_bibliographic_metadata
+
 ## ARM pointer authentication
 
 - 2022 ISCA · [PACMAN: attacking ARM pointer authentication with speculative execution](https://doi.org/10.1145/3470496.3527429) · attack · abstract_and_bibliographic_metadata
@@ -57,6 +69,10 @@
 - 2022 TCHES · [Don’t Reject This: Key-Recovery Timing Attacks Due to Rejection-Sampling in HQC and BIKE](https://doi.org/10.46586/tches.v2022.i3.223-263) · attack · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Faster Constant-Time Decoder for MDPC Codes and Applications to BIKE KEM](https://doi.org/10.46586/tches.v2022.i4.110-134) · constant_time_implementation · abstract_and_bibliographic_metadata
 
+## bit interaction
+
+- 2020 TCHES · [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) · leakage_model_and_evaluation · selected_full_text_sections
+
 ## bitsliced field arithmetic
 
 - 2021 TCHES · [Rainbow on Cortex-M4](https://doi.org/10.46586/tches.v2021.i4.650-675) · constant_time_component · abstract_and_bibliographic_metadata
@@ -72,6 +88,22 @@
 ## Botan
 
 - 2025 TCHES · [Leaky McEliece: Secret Key Recovery From Highly Erroneous Side-Channel Information](https://doi.org/10.46586/tches.v2025.i2.94-125) · attack · abstract_and_bibliographic_metadata
+
+## branch predictor
+
+- 2025 SP · [Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-194) · attack · abstract_and_bibliographic_metadata
+
+## cache capabilities
+
+- 2025 SP · [Ceviche: Capability-Enhanced Secure Virtualization of Caches](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-85) · countermeasure · abstract_and_bibliographic_metadata
+
+## cache partitioning
+
+- 2025 SP · [Ceviche: Capability-Enhanced Secure Virtualization of Caches](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-85) · countermeasure · abstract_and_bibliographic_metadata
+
+## cache slice mapping
+
+- 2025 SP · [Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-131) · attack_primitive · abstract_and_bibliographic_metadata
 
 ## CAPA
 
@@ -90,6 +122,10 @@
 ## chosen ciphertext
 
 - 2024 TCHES · [Defeating Low-Cost Countermeasures against Side-Channel Attacks in Lattice-based Encryption: A Case Study on Crystals-Kyber](https://doi.org/10.46586/tches.v2024.i2.795-818) · attack · abstract_and_bibliographic_metadata
+
+## Chrome
+
+- 2025 SP · [TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15) · attack · abstract_and_bibliographic_metadata
 
 ## ciphertext comparison
 
@@ -119,6 +155,10 @@
 - 2021 TCHES · [Optimizing BIKE for the Intel Haswell and ARM Cortex-M4](https://doi.org/10.46586/tches.v2021.i3.97-124) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2021 TCHES · [Rainbow on Cortex-M4](https://doi.org/10.46586/tches.v2021.i4.650-675) · constant_time_component · abstract_and_bibliographic_metadata
 
+## covert channel
+
+- 2021 ASIACCS · [Red Alert for Power Leakage: Exploiting Intel RAPL-Induced Side Channels](https://doi.org/10.1145/3433210.3437517) · attack · abstract_and_bibliographic_metadata
+
 ## CSIDH
 
 - 2021 TCHES · [Batching CSIDH Group Actions using AVX-512](https://doi.org/10.46586/tches.v2021.i4.618-649) · constant_time_implementation · abstract_and_bibliographic_metadata
@@ -138,9 +178,17 @@
 - 2021 TCHES · [CTIDH: faster constant-time CSIDH](https://doi.org/10.46586/tches.v2021.i4.351-387) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2025 TCHES · [dCTIDH: Fast & Deterministic CTIDH](https://doi.org/10.46586/tches.v2025.i3.516-541) · constant_time_implementation · abstract_and_bibliographic_metadata
 
+## data speculation
+
+- 2025 SP · [SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon](https://doi.org/10.1109/sp61157.2025.00098) · attack · abstract_and_bibliographic_metadata
+
 ## data-dependent prefetchers
 
 - 2021 ISCA · [Opening Pandora’s Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data](https://doi.org/10.1109/isca52012.2021.00035) · model_analysis · abstract_and_bibliographic_metadata
+
+## data-memory-dependent prefetching
+
+- 2025 SP · [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) · attack · selected_full_text_sections
 
 ## DCA
 
@@ -149,6 +197,10 @@
 ## dCTIDH
 
 - 2025 TCHES · [dCTIDH: Fast & Deterministic CTIDH](https://doi.org/10.46586/tches.v2025.i3.516-541) · constant_time_implementation · abstract_and_bibliographic_metadata
+
+## device identification
+
+- 2023 DIMVA · [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) · measurement_and_fingerprinting · abstract_and_bibliographic_metadata
 
 ## Diffie-Hellman
 
@@ -173,6 +225,7 @@
 ## Dilithium-2
 
 - 2023 ePrint · [Single-Trace Side-Channel Attacks on CRYSTALS-Dilithium: Myth or Reality?](https://eprint.iacr.org/2023/1931) · attack · abstract_and_bibliographic_metadata
+- 2025 SP · [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) · attack · selected_full_text_sections
 
 ## dimension-4 lattice reduction
 
@@ -185,6 +238,10 @@
 ## DLP
 
 - 2026 TCHES · [FrozenTRU: Cold Boot Attacks on NTRU-Based Hash-and-Sign Signatures](https://doi.org/10.46586/tches.v2026.i3.1007-1031) · attack · abstract_and_bibliographic_metadata
+
+## domain isolation
+
+- 2025 SP · [Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-194) · attack · abstract_and_bibliographic_metadata
 
 ## ECDAA
 
@@ -262,6 +319,10 @@
 
 - 2025 TCHES · [Leaky McEliece: Secret Key Recovery From Highly Erroneous Side-Channel Information](https://doi.org/10.46586/tches.v2025.i2.94-125) · attack · abstract_and_bibliographic_metadata
 
+## Glow
+
+- 2025 SP · [CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels](https://doi.org/10.1109/sp61157.2025.00079) · attack · abstract_and_bibliographic_metadata
+
 ## GPU/Chrome
 
 - 2023 SP · [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) · attack · abstract_and_bibliographic_metadata
@@ -287,9 +348,18 @@
 - 2026 TCHES · [From Multiplication to Recovery: A Single-trace Side-Channel Attack on HQC](https://doi.org/10.46586/tches.v2026.i4.890-916) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Sota Voce: Low-Noise Sampling of Sparse Fixed-Weight Vectors](https://doi.org/10.46586/tches.v2026.i1.353-375) · constant_time_implementation · abstract_and_bibliographic_metadata
 
+## IBPB
+
+- 2025 SP · [Breaking the Barrier: Post-Barrier Spectre Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-70) · attack · abstract_and_bibliographic_metadata
+
 ## Infineon secure elements
 
 - 2025 SP · [EUCLEAK](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-239) · attack · abstract_and_bibliographic_metadata
+
+## Intel and AMD
+
+- 2023 DIMVA · [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) · measurement_and_fingerprinting · abstract_and_bibliographic_metadata
+- 2025 SP · [Breaking the Barrier: Post-Barrier Spectre Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-70) · attack · abstract_and_bibliographic_metadata
 
 ## Intel Haswell
 
@@ -300,6 +370,14 @@
 - 2023 ASPLOS · [AfterImage: Leaking Control Flow Data and Tracking Load Operations via the Hardware Prefetcher](https://doi.org/10.1145/3575693.3575719) · attack · abstract_and_bibliographic_metadata
 - 2023 Journal of Systems Architecture · [Exploiting the microarchitectural leakage of prefetching activities for side-channel attacks](https://doi.org/10.1016/j.sysarc.2023.102877) · attack · selected_full_text_sections
 
+## Intel LAM
+
+- 2025 SP · [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) · attack · selected_full_text_sections
+
+## Intel SGX
+
+- 2025 ASPLOS · [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) · attack_primitive · selected_full_text_sections
+
 ## inverse NTT
 
 - 2021 TCHES · [Chosen Ciphertext k-Trace Attacks on Masked CCA2 Secure Kyber](https://doi.org/10.46586/tches.v2021.i4.88-113) · attack · abstract_and_bibliographic_metadata
@@ -307,6 +385,10 @@
 ## isogeny group actions
 
 - 2026 TCHES · [Efficient and Parallel Implementation of Isogeny-based Deterministic Group Actions](https://doi.org/10.46586/tches.v2026.i3.541-565) · constant_time_implementation · abstract_and_bibliographic_metadata
+
+## ISW
+
+- 2020 TCHES · [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) · leakage_model_and_evaluation · selected_full_text_sections
 
 ## Jasmin
 
@@ -379,6 +461,26 @@
 
 - 2024 TCHES · [High-assurance zeroization](https://doi.org/10.46586/tches.v2024.i1.375-397) · countermeasure · abstract_and_bibliographic_metadata
 
+## Linux
+
+- 2025 SP · [TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15) · attack · abstract_and_bibliographic_metadata
+
+## Linux CFS
+
+- 2025 ASPLOS · [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) · attack_primitive · selected_full_text_sections
+
+## Linux EEVDF
+
+- 2025 ASPLOS · [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) · attack_primitive · selected_full_text_sections
+
+## LLC eviction sets
+
+- 2025 SP · [Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-131) · attack_primitive · abstract_and_bibliographic_metadata
+
+## load address prediction
+
+- 2025 SP · [SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon](https://doi.org/10.1109/sp61157.2025.00098) · attack · abstract_and_bibliographic_metadata
+
 ## LPN
 
 - 2023 TCHES · [LPN-based Attacks in the White-box Setting](https://doi.org/10.46586/tches.v2023.i4.318-343) · attack_method · abstract_and_bibliographic_metadata
@@ -418,9 +520,17 @@
 - 2022 TCHES · [High-order Table-based Conversion Algorithms and Masking Lattice-based Encryption](https://doi.org/10.46586/tches.v2022.i2.1-40) · countermeasure · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Improved Gadgets for the High-Order Masking of Dilithium](https://doi.org/10.46586/tches.v2023.i4.110-145) · countermeasure · abstract_and_bibliographic_metadata
 
+## memory tags
+
+- 2025 SP · [TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15) · attack · abstract_and_bibliographic_metadata
+
 ## microarchitectural optimizations
 
 - 2021 ISCA · [Opening Pandora’s Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data](https://doi.org/10.1109/isca52012.2021.00035) · model_analysis · abstract_and_bibliographic_metadata
+
+## microarchitectural timing resolution
+
+- 2025 ASPLOS · [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) · attack_primitive · selected_full_text_sections
 
 ## ML-DSA
 
@@ -452,14 +562,26 @@
 - 2021 TCHES · [Side-Channel Protections for Picnic Signatures](https://doi.org/10.46586/tches.v2021.i4.239-282) · countermeasure · abstract_and_bibliographic_metadata
 - 2025 TCHES · [Masking-Friendly Post-Quantum Signatures in the Threshold-Computation-in-the-Head Framework](https://doi.org/10.46586/tches.v2025.i4.667-710) · countermeasure · abstract_and_bibliographic_metadata
 
+## multicore isolation
+
+- 2025 SP · [Ceviche: Capability-Enhanced Secure Virtualization of Caches](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-85) · countermeasure · abstract_and_bibliographic_metadata
+
 ## MV-PC oracle
 
 - 2023 TCHES · [Multiple-Valued Plaintext-Checking Side-Channel Attacks on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2023.i3.473-503) · attack · abstract_and_bibliographic_metadata
 - 2025 TCHES · [Multi-Value Plaintext-Checking and Full-Decryption Oracle-Based Attacks on HQC from Offline Templates](https://doi.org/10.46586/tches.v2025.i4.254-289) · attack · abstract_and_bibliographic_metadata
 
+## neural-network inputs
+
+- 2025 SP · [CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels](https://doi.org/10.1109/sp61157.2025.00079) · attack · abstract_and_bibliographic_metadata
+
 ## NewHope
 
 - 2021 TCHES · [Compact Dilithium Implementations on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2021.i1.1-24) · constant_time_implementation · abstract_and_bibliographic_metadata
+
+## nonlinear address hash
+
+- 2025 SP · [Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-131) · attack_primitive · abstract_and_bibliographic_metadata
 
 ## NTRU
 
@@ -505,6 +627,10 @@
 
 - 2025 SP · [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) · implementation_security_design · selected_full_text_sections
 
+## page walks
+
+- 2025 SP · [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) · attack · selected_full_text_sections
+
 ## PAKE
 
 - 2026 TCHES · [Tempo: An ML-KEM to PAKE Compiler Resilient to Timing Attacks](https://doi.org/10.46586/tches.v2026.i3.744-768) · countermeasure · abstract_and_bibliographic_metadata
@@ -532,6 +658,10 @@
 
 - 2023 TCHES · [High-order Polynomial Comparison and Masking Lattice-based Encryption](https://doi.org/10.46586/tches.v2023.i1.153-192) · countermeasure · abstract_and_bibliographic_metadata
 
+## power fingerprinting
+
+- 2023 DIMVA · [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) · measurement_and_fingerprinting · abstract_and_bibliographic_metadata
+
 ## PQC evaluation
 
 - 2025 TCHES · [Optimal Dimensionality Reduction using Conditional Variational AutoEncoder](https://doi.org/10.46586/tches.v2025.i3.164-211) · method · abstract_and_bibliographic_metadata
@@ -556,6 +686,10 @@
 
 - 2024 TCHES · [SPA-GPT: General Pulse Tailor for Simple Power Analysis Based on Reinforcement Learning](https://doi.org/10.46586/tches.v2024.i4.40-83) · method · abstract_and_bibliographic_metadata
 
+## PyTorch
+
+- 2025 SP · [CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels](https://doi.org/10.1109/sp61157.2025.00079) · attack · abstract_and_bibliographic_metadata
+
 ## QC-MDPC
 
 - 2022 TCHES · [Faster Constant-Time Decoder for MDPC Codes and Applications to BIKE KEM](https://doi.org/10.46586/tches.v2022.i4.110-134) · constant_time_implementation · abstract_and_bibliographic_metadata
@@ -569,6 +703,10 @@
 
 - 2021 TCHES · [Rainbow on Cortex-M4](https://doi.org/10.46586/tches.v2021.i4.650-675) · constant_time_component · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Efficient Implementations of Rainbow and UOV using AVX2](https://doi.org/10.46586/tches.v2022.i1.245-269) · implementation_and_leakage_analysis · abstract_and_bibliographic_metadata
+
+## RAPL
+
+- 2021 ASIACCS · [Red Alert for Power Leakage: Exploiting Intel RAPL-Induced Side Channels](https://doi.org/10.1145/3433210.3437517) · attack · abstract_and_bibliographic_metadata
 
 ## reinforcement learning
 
@@ -605,6 +743,10 @@
 - 2022 TCHES · [Single-Trace Side-Channel Attacks on the Toom-Cook: The Case Study of Saber](https://doi.org/10.46586/tches.v2022.i4.285-310) · attack · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Multiple-Valued Plaintext-Checking Side-Channel Attacks on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2023.i3.473-503) · attack · abstract_and_bibliographic_metadata
 
+## Safari
+
+- 2025 SP · [SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon](https://doi.org/10.1109/sp61157.2025.00098) · attack · abstract_and_bibliographic_metadata
+
 ## schoolbook multiplication
 
 - 2023 TCHES · [Kavach: Lightweight masking techniques for polynomial arithmetic in lattice-based cryptography](https://doi.org/10.46586/tches.v2023.i3.366-390) · countermeasure · abstract_and_bibliographic_metadata
@@ -612,6 +754,14 @@
 ## SDitH
 
 - 2026 TCHES · [Non-supervised SASCA on the VOLEitH Framework](https://doi.org/10.46586/tches.v2026.i2.468-494) · attack · abstract_and_bibliographic_metadata
+
+## self-training
+
+- 2025 SP · [Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-194) · attack · abstract_and_bibliographic_metadata
+
+## share slicing
+
+- 2020 TCHES · [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) · leakage_model_and_evaluation · selected_full_text_sections
 
 ## ShiftMod
 
@@ -633,13 +783,41 @@
 
 - 2025 TCHES · [Improved Attacks Against Lattice-Based KEMs Using Hints From Hertzbleed](https://doi.org/10.46586/tches.v2025.i4.463-485) · attack · abstract_and_bibliographic_metadata
 
+## software masking
+
+- 2020 TCHES · [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) · leakage_model_and_evaluation · selected_full_text_sections
+
+## software power observation
+
+- 2021 ASIACCS · [Red Alert for Power Leakage: Exploiting Intel RAPL-Induced Side Channels](https://doi.org/10.1145/3433210.3437517) · attack · abstract_and_bibliographic_metadata
+
 ## sparse fixed-weight sampling
 
 - 2026 TCHES · [Sota Voce: Low-Noise Sampling of Sparse Fixed-Weight Vectors](https://doi.org/10.46586/tches.v2026.i1.353-375) · constant_time_implementation · abstract_and_bibliographic_metadata
 
+## Spectre
+
+- 2025 SP · [Breaking the Barrier: Post-Barrier Spectre Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-70) · attack · abstract_and_bibliographic_metadata
+
+## Spectre-BHI
+
+- 2025 SP · [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) · attack · selected_full_text_sections
+
 ## Spectre-PHT
 
 - 2022 DIMVA · [Branch Different - Spectre Attacks on Apple Silicon](https://doi.org/10.1007/978-3-031-09484-2_7) · attack · abstract_and_bibliographic_metadata
+
+## Spectre-v2
+
+- 2025 SP · [Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-194) · attack · abstract_and_bibliographic_metadata
+
+## speculative execution
+
+- 2025 SP · [TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15) · attack · abstract_and_bibliographic_metadata
+
+## speculative return prediction
+
+- 2025 SP · [Breaking the Barrier: Post-Barrier Spectre Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-70) · attack · abstract_and_bibliographic_metadata
 
 ## SQIsign
 
@@ -657,9 +835,17 @@
 
 - 2025 TCHES · [Masking-Friendly Post-Quantum Signatures in the Threshold-Computation-in-the-Head Framework](https://doi.org/10.46586/tches.v2025.i4.667-710) · countermeasure · abstract_and_bibliographic_metadata
 
+## TEE ciphertext side channels
+
+- 2025 SP · [CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels](https://doi.org/10.1109/sp61157.2025.00079) · attack · abstract_and_bibliographic_metadata
+
 ## template adaptation
 
 - 2025 TCHES · [Adaptive Template Attacks on the Kyber Binomial Sampler](https://doi.org/10.46586/tches.v2025.i3.470-492) · attack · abstract_and_bibliographic_metadata
+
+## TensorFlow
+
+- 2025 SP · [CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels](https://doi.org/10.1109/sp61157.2025.00079) · attack · abstract_and_bibliographic_metadata
 
 ## Thread Director
 
@@ -672,6 +858,10 @@
 ## TPM
 
 - 2024 TCHES · [TPMScan: A wide-scale study of security-relevant properties of TPM 2.0 chips](https://doi.org/10.46586/tches.v2024.i2.714-734) · evaluation · abstract_and_bibliographic_metadata
+
+## TVM
+
+- 2025 SP · [CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels](https://doi.org/10.1109/sp61157.2025.00079) · attack · abstract_and_bibliographic_metadata
 
 ## UOV
 
@@ -686,6 +876,14 @@
 ## VOLEitH
 
 - 2026 TCHES · [Non-supervised SASCA on the VOLEitH Framework](https://doi.org/10.46586/tches.v2026.i2.468-494) · attack · abstract_and_bibliographic_metadata
+
+## WebAssembly
+
+- 2023 DIMVA · [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) · measurement_and_fingerprinting · abstract_and_bibliographic_metadata
+
+## website fingerprinting
+
+- 2021 ASIACCS · [Red Alert for Power Leakage: Exploiting Intel RAPL-Induced Side Channels](https://doi.org/10.1145/3433210.3437517) · attack · abstract_and_bibliographic_metadata
 
 ## white-box masking
 

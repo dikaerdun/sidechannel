@@ -40,9 +40,18 @@
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| ASPLOS | [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) | selected_full_text_sections |
+| SP | [Breaking the Barrier: Post-Barrier Spectre Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-70) | abstract_and_bibliographic_metadata |
+| SP | [Ceviche: Capability-Enhanced Secure Virtualization of Caches](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-85) | abstract_and_bibliographic_metadata |
+| SP | [CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels](https://doi.org/10.1109/sp61157.2025.00079) | abstract_and_bibliographic_metadata |
 | SP | [EUCLEAK](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-239) | abstract_and_bibliographic_metadata |
+| SP | [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) | selected_full_text_sections |
+| SP | [SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon](https://doi.org/10.1109/sp61157.2025.00098) | abstract_and_bibliographic_metadata |
 | SP | [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | selected_full_text_sections |
+| SP | [Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-131) | abstract_and_bibliographic_metadata |
+| SP | [TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15) | abstract_and_bibliographic_metadata |
 | SP | [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) | selected_full_text_sections |
+| SP | [Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-194) | abstract_and_bibliographic_metadata |
 | TCHES | [Adaptive Template Attacks on the Kyber Binomial Sampler](https://doi.org/10.46586/tches.v2025.i3.470-492) | abstract_and_bibliographic_metadata |
 | TCHES | [Avengers assemble! Supervised learning meets lattice reduction: A single power trace attack against CRYSTALS-Kyber Key Generation](https://doi.org/10.46586/tches.v2025.i4.409-436) | abstract_and_bibliographic_metadata |
 | TCHES | [Constant time lattice reduction in dimension 4 with application to SQIsign](https://doi.org/10.46586/tches.v2025.i2.511-534) | abstract_and_bibliographic_metadata |
@@ -86,6 +95,7 @@
 |---|---|---|
 | ASIACRYPT | [Too Many Hints – When LLL Breaks LWE](https://doi.org/10.1007/978-981-99-8730-6_4) | abstract_and_bibliographic_metadata |
 | ASPLOS | [AfterImage: Leaking Control Flow Data and Tracking Load Operations via the Hardware Prefetcher](https://doi.org/10.1145/3575693.3575719) | abstract_and_bibliographic_metadata |
+| DIMVA | [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) | abstract_and_bibliographic_metadata |
 | Journal of Systems Architecture | [Exploiting the microarchitectural leakage of prefetching activities for side-channel attacks](https://doi.org/10.1016/j.sysarc.2023.102877) | selected_full_text_sections |
 | PQCrypto | [Breaking and Protecting the Crystal: Side-Channel Analysis of Dilithium in Hardware](https://doi.org/10.1007/978-3-031-40003-2_25) | abstract_and_bibliographic_metadata |
 | SP | [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) | abstract_and_bibliographic_metadata |
@@ -133,6 +143,7 @@
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| ASIACCS | [Red Alert for Power Leakage: Exploiting Intel RAPL-Induced Side Channels](https://doi.org/10.1145/3433210.3437517) | abstract_and_bibliographic_metadata |
 | ASIACRYPT | [A Systematic Approach and Analysis of Key Mismatch Attacks on Lattice-Based NIST Candidate KEMs](https://doi.org/10.1007/978-3-030-92068-5_4) | abstract_and_bibliographic_metadata |
 | HOST | [Single-Trace Side-Channel Attacks on ω-Small Polynomial Sampling: With Applications to NTRU, NTRU Prime, and CRYSTALS-DILITHIUM](https://doi.org/10.1109/host49136.2021.9702284) | abstract_and_bibliographic_metadata |
 | ICCD | [An Efficient Non-Profiled Side-Channel Attack on the CRYSTALS-Dilithium Post-Quantum Signature](https://doi.org/10.1109/iccd53106.2021.00094) | selected_full_text_sections |
@@ -149,3 +160,9 @@
 | TCHES | [Optimizing BIKE for the Intel Haswell and ARM Cortex-M4](https://doi.org/10.46586/tches.v2021.i3.97-124) | abstract_and_bibliographic_metadata |
 | TCHES | [Rainbow on Cortex-M4](https://doi.org/10.46586/tches.v2021.i4.650-675) | abstract_and_bibliographic_metadata |
 | TCHES | [Side-Channel Protections for Picnic Signatures](https://doi.org/10.46586/tches.v2021.i4.239-282) | abstract_and_bibliographic_metadata |
+
+## 2020
+
+| 来源 | 论文 | 阅读层级 |
+|---|---|---|
+| TCHES | [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) | selected_full_text_sections |

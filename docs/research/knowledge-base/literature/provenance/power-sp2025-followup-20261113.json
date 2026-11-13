@@ -1,0 +1,250 @@
+{
+  "sources": [
+    {
+      "source_id": "ceviche-author-pdf",
+      "url": "https://www.cs.virginia.edu/~av6ds/papers/sp2025.pdf",
+      "response_url": "https://www.cs.virginia.edu/~av6ds/papers/sp2025.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:57:37.141752+00:00",
+      "sha256": "9792a7d05a4338fd8f2f68bbfd253304daadbe3604955056265faf4750600dc2",
+      "bytes": 694028,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ciphersteal-author-pdf",
+      "url": "https://yuanyuan-yuan.github.io/files/sp25-Cipher-Steal.pdf",
+      "response_url": "https://yuanyuan-yuan.github.io/files/sp25-Cipher-Steal.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:57:34.525714+00:00",
+      "sha256": "0695675e973ced326d46a9e435a1b7564f658470b4c7263174124aae330f7513",
+      "bytes": 1155608,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ciphersteal-crossref",
+      "url": "https://api.crossref.org/works/10.1109/SP61157.2025.00079",
+      "response_url": "https://api.crossref.org/works/10.1109/SP61157.2025.00079",
+      "status": 200,
+      "retrieved_at": "2026-11-13T03:01:46.753346+00:00",
+      "sha256": "cbf7c4a7b7797ba309825655191c0914176eb7fe7fa31f9ad4d432ff99620f98",
+      "bytes": 15135,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "controlled-preemption-author-pdf",
+      "url": "https://cwfletcher.github.io/content/research/2025.asplos.controlledpreemption.paper.pdf",
+      "response_url": "https://cwfletcher.github.io/content/research/2025.asplos.controlledpreemption.paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:57:29.735316+00:00",
+      "sha256": "ba94e35a6dde729f289e8fd07404d737cf514d4f2254aacc0b88f98fdd70383d",
+      "bytes": 1051525,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "controlled-preemption-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3676641.3715985",
+      "response_url": "https://api.crossref.org/works/10.1145/3676641.3715985",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:57:29.491243+00:00",
+      "sha256": "ae57bc3d44cf05063d4d3e484454f35965be55ab28464d86db71677521c92c5a",
+      "bytes": 29042,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "finger-power-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-35504-2_2",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-35504-2_2",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:55:21.274593+00:00",
+      "sha256": "0bbbcd1d290858395181ee5c73e58c03a47981d39880402221b9d95970c3c2f3",
+      "bytes": 18120,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "finger-power-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-35504-2_2",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-35504-2_2",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:57:30.941344+00:00",
+      "sha256": "68f7d7951bdb3c75056a9dadae16495e546df152de594e943520f51237a08891",
+      "bytes": 335122,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "peek-walk-author-pdf",
+      "url": "https://www.cs.cmu.edu/~rpaccagn/papers/peek-a-walk-sp2025.pdf",
+      "response_url": "https://www.cs.cmu.edu/~rpaccagn/papers/peek-a-walk-sp2025.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:57:34.644995+00:00",
+      "sha256": "2071717eebae9bbd5a45d064a72dd17423453d91d8c78c2e09cc80ee05f46fe9",
+      "bytes": 748786,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "post-barrier-author-pdf",
+      "url": "https://comsec-files.ethz.ch/papers/ibpb_sp25.pdf",
+      "response_url": "https://comsec-files.ethz.ch/papers/ibpb_sp25.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:57:36.335558+00:00",
+      "sha256": "bc1086d4164e7e644f88e149dcbef747530f1287845cbdce905880dc2ba0a350",
+      "bytes": 1744555,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "red-alert-author-pdf",
+      "url": "https://zhenkai-zhang.github.io/papers/rapl.pdf",
+      "response_url": "https://zhenkai-zhang.github.io/papers/rapl.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:55:22.416623+00:00",
+      "sha256": "697dfc0c07ffaeafb34cab0723a44d170d74a03636d2a6f8b0b10b9572050937",
+      "bytes": 4607492,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "red-alert-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3433210.3437517",
+      "response_url": "https://api.crossref.org/works/10.1145/3433210.3437517",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:55:21.251725+00:00",
+      "sha256": "2af3178f2d322754deac99111c727d2169f039584ab74805ef63b7dfc6e2d567",
+      "bytes": 27951,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "share-slicing-crossref",
+      "url": "https://api.crossref.org/works/10.46586/tches.v2020.i1.152-174",
+      "response_url": "https://api.crossref.org/works/10.46586/tches.v2020.i1.152-174",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:55:21.319580+00:00",
+      "sha256": "2b61e279cdbff87043efbf264975dfc8dbb752039ac2296a0846286f12f56c2f",
+      "bytes": 3864,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "share-slicing-tches-page",
+      "url": "https://tches.iacr.org/index.php/TCHES/article/view/8396",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/view/8396",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:55:24.877305+00:00",
+      "sha256": "7c9073a6684430e5908371a4a80c557d43f714f1172b2fc80fad08b54c0692f0",
+      "bytes": 27137,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "share-slicing-tches-pdf",
+      "url": "https://tches.iacr.org/index.php/TCHES/article/download/8396/7780",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/download/8396/7780",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:57:32.042276+00:00",
+      "sha256": "894b76d804d06671296db10afd05bcb6cbf414266caf165c97ea188570e58408",
+      "bytes": 1265738,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "slap-author-pdf",
+      "url": "https://predictors.fail/files/SLAP.pdf",
+      "response_url": "https://predictors.fail/files/SLAP.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:57:32.133762+00:00",
+      "sha256": "0e5ef1d4500f004b101ade65114ca2da99afc39d0efb27087305550fd81cada2",
+      "bytes": 698239,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "slap-crossref",
+      "url": "https://api.crossref.org/works/10.1109/SP61157.2025.00098",
+      "response_url": "https://api.crossref.org/works/10.1109/SP61157.2025.00098",
+      "status": 200,
+      "retrieved_at": "2026-11-13T03:01:44.844719+00:00",
+      "sha256": "462bd230687b7a62d9e281218b811d732fa21c349dfe2c752f511c6d199faa05",
+      "bytes": 10746,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "slice-baby-arxiv",
+      "url": "https://arxiv.org/abs/2504.11208",
+      "response_url": "https://arxiv.org/abs/2504.11208",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:57:35.432740+00:00",
+      "sha256": "b2bcef1e2833026380590f6334cc9f6301ff0d095e5e75dfdff4276e796568a7",
+      "bytes": 43560,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "tiktag-alternate-author-pdf",
+      "url": "https://lifeasageek.github.io/papers/tiktag.pdf",
+      "response_url": "https://lifeasageek.github.io/papers/tiktag.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:58:50.103577+00:00",
+      "sha256": "c513cb822a4c26faa6808273a1061da771c3d43768ad4eb7764e9b3f9e8abd4f",
+      "bytes": 9361040,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "training-solo-author-pdf",
+      "url": "https://download.vusec.net/papers/trainingsolo_sp25.pdf",
+      "response_url": "https://download.vusec.net/papers/trainingsolo_sp25.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:58:00.822444+00:00",
+      "sha256": "4adb773fd63070ec15e14c3bda2bad5b02b3e8c85feda7c38edea64d63c65b38",
+      "bytes": 601792,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "peek-walk-artifact-readme",
+      "url": "https://github.com/FPSG-UIUC/Peek-a-Walk/blob/master/README.md",
+      "git_blob_sha": "ccc0dce3681b1a64337bc6d962da7d98b16d268b",
+      "retrieval_method": "GitHub connector fetch_file",
+      "retrieved_on": "2026-11-13",
+      "read_scope": "README full text; no build, run or file completeness audit",
+      "raw_content_available_locally": true,
+      "local_file_sha256": "6f920670b8fa6dbcbf6ea64ea5a2a7a857f9e877f29a500e3479493384d06312"
+    },
+    {
+      "source_id": "share-slicing-artifact-readme",
+      "url": "https://github.com/sca-research/ShareSlicing_AES/blob/master/README.md",
+      "git_blob_sha": "14937588ff8de47959a4a6f6672cd5bf9f6c558b",
+      "retrieval_method": "GitHub connector fetch_file",
+      "retrieved_on": "2026-11-13",
+      "read_scope": "README full text; no build, run or file completeness audit",
+      "raw_content_available_locally": true,
+      "local_file_sha256": "403fcc048306c6b5a57fe0cdaf2adbd80b333fd3a30f2195e8060a851c5ff1dc"
+    }
+  ],
+  "reviewed_on": "2026-11-13",
+  "new_included": 12,
+  "new_citation_edges": 6,
+  "resolved_discoveries": [
+    "scheduled2025-ref-13",
+    "scheduled2025-ref-17",
+    "scheduled2025-ref-64",
+    "opentitan2025-ref-61"
+  ],
+  "identity_upgrades": {
+    "title:sp:2025:e77a671db5e5c5ed": "doi:10.1109/sp61157.2025.00098",
+    "title:sp:2025:75fe30b4c9fa78b1": "doi:10.1109/sp61157.2025.00079"
+  },
+  "selected_full_text_new_cards": 3,
+  "access_checks": [
+    {
+      "url": "https://github.com/FingerInThePower/Finger_In_The_Power",
+      "checked_on": "2026-11-13",
+      "result": "GitHub connector README and repository contents REST API both returned 404; public access unconfirmed, cause unknown"
+    },
+    {
+      "url": "https://orenlab.sise.bgu.ac.il/p/FingerInThePower.pdf",
+      "result": "local HTTPS certificate failure; publisher abstract used instead"
+    },
+    {
+      "url": "https://compsec.snu.ac.kr/papers/tiktag.pdf",
+      "result": "local TLS connection failed; alternate author-hosted PDF used"
+    }
+  ],
+  "no_experiments_or_independent_replication": true,
+  "before": {
+    "papers": 118,
+    "decisions": 153,
+    "edges": 52,
+    "extended": 14
+  }
+}
