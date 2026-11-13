@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-14 构思增补：[算法噪声、高维匿名性与跨尺度模型](brainstorms/2026-11-14-noise-labels-anonymity-and-scale.md)记录 FIPS 203 官方说明、distribution hints、NTT 去打乱与 robust probing 三篇论文的 ePrint 摘要及元数据阅读。区分三类随机性、三类推断困难、物理读出与数字后处理。TCHES 2026 Keep it Simple 页面受限；未据其页面新增事实。没有实验、独立核验或新增正式文献卡片。
+
 2026-11-14 构思增补：[秘密算子、物理操作语法与观察族设计](brainstorms/2026-11-14-secret-operators-physical-grammar-observation-design.md)记录 PhaseLift、主动符号回归、单位约束符号回归、Scam-V、局部电磁双轨研究、robust probing、Rosita++ 与人工噪声设计八项原始页面的摘要及元数据阅读。区分理想算子与实际模运算、组合预测与物理归因、单端口抵消与联合观察；手工见证待核验，未运行实验，不增加正式文献卡片。
 
 2026-11-13 PQC 引用接续：[来源与哈希](literature/provenance/pqc-citation-followup-20261113.json)保存原 23 条发现解析、25 条论文/版本卡片、八条版本关系及访问限制。[证据笔记](literature/notes/pqc-citation-followups-and-evidence-20261113.md)区分译码器版本、MAYO 摘要数字、Falcon 编译和置信水平、消息与长期私钥、剖析及故障条件。Falcon 28 个引用位置中含一个重复，HQC RM/RS 17 条已初筛，Saber 仅读第 41 条；新登记 21 条待查，没有执行作者代码或实验。

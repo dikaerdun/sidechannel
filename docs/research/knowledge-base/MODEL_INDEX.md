@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-14 追加[算法噪声的侧信息、高维去匿名化与跨尺度模型](brainstorms/2026-11-14-noise-labels-anonymity-and-scale.md)：分别研究物理标签如何改变困难问题、关系约束如何消除部分排列歧义、模型如何预测观察尺度变化。深化既有方向，BOLD 种子仍为 40 条；待用户安排他人验证，无实验或独立核验。见[交接记录](records/2026-11-14-noise-anonymity-scale-handoff.md)。
+
 2026-11-14 追加[秘密算子、物理操作语法与面向观察者的实现设计](brainstorms/2026-11-14-secret-operators-physical-grammar-observation-design.md)：三项分别要求合法观察等价类、由短操作预测未见组合、针对联合观察的可实现构造或不可行证书。深化已有方向，BOLD 种子仍为 40 条；无实验、仿真、训练或独立核验，验证由用户安排。见[交接记录](records/2026-11-14-operator-grammar-observation-handoff.md)。
 
 2026-11-13 追加[计算轨迹的防护编码、任务安全与物理可辨识性](brainstorms/2026-11-13-trajectory-codes-task-security-identifiability.md)：列出六个开放问题，详细深化前三项。首轮分别检查真实时空观察族、完整秘密有歧义时的指定任务能力、等价模型与独立物理锚点。三个手工见证待用户安排他人核验；仍追踪 40 条 BOLD 种子，不升级实验状态，详见[交接记录](records/2026-11-13-trajectory-task-identifiability-handoff.md)。

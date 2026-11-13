@@ -22,6 +22,8 @@
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-14 增补[算法噪声、高维匿名性与跨尺度模型](brainstorms/2026-11-14-noise-labels-anonymity-and-scale.md)。验证者先交误差生命周期及侧信息通道、小图的排列与秘密等价类、两种模型对留出尺度的分叉预测。第三项保留理论诊断机会。三项深化已有种子，未增加编号、派发任务或执行实验；验证由用户安排，见[交接记录](records/2026-11-14-noise-anonymity-scale-handoff.md)。
+
 2026-11-14 增补[秘密算子、物理操作语法与面向观察者的实现设计](brainstorms/2026-11-14-secret-operators-physical-grammar-observation-design.md)。分别先交实际读出与合法碰撞类、两套操作语义的留出组合预测、多端口约束下的正确构造或不可行证书。第三项保留小规模理论诊断机会。三项深化旧方向，不增加 BOLD 编号，待用户安排其他研究者验证；未派发或执行任务，见[本批交接](records/2026-11-14-operator-grammar-observation-handoff.md)。
 
 2026-11-13 增补[轨迹编码、任务安全与物理可辨识性](brainstorms/2026-11-13-trajectory-codes-task-security-identifiability.md)。先由掩码/RTL 研究者界定真实观察族，由密码学/推断研究者明确任务与公开信息基线，由系统辨识/测量研究者提交等价范围和分叉干预。六个开放问题中详细展开这三项，保留可辨识性的理论诊断机会。均待用户安排他人验证，未派发、未执行，不增加 BOLD 种子数；见[交接记录](records/2026-11-13-trajectory-task-identifiability-handoff.md)。
