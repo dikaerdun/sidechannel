@@ -20,6 +20,8 @@
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-13 增补[时间方向、模约减商与混合算法的物理组合](brainstorms/2026-11-13-time-arrow-quotients-hybrid-composition.md)。分别交给随机过程/电路、编译器/格侧信息、组合密码学/实现研究者：先核对同谱反向链并找真实状态；导出固定内核的整数语义；写出含分支披露与共享状态的观察游戏。保留时间方向的小规模理论诊断。三项均待验证，未派发、未执行，不增加 BOLD 种子数；见[交接记录](records/2026-11-13-time-quotient-hybrid-handoff.md)。
+
 2026-11-13 增补[安全资源下界、难问题泄漏与跨实现预测](brainstorms/2026-11-13-resource-bounds-lwe-leakage-counterfactuals.md)。第一项先交有限计算图中的完整资源规则及证明或反例；第二项先交允许接口、安全游戏及全执行模拟器或反例，保留小规模理论诊断；第三项先交四份功能等价实现及对留出实现的分叉预测。三项深化既有方向，不增加种子计数，由用户安排他人验证；详见[交接记录](records/2026-11-13-resource-lwe-counterfactual-handoff.md)。本轮未运行实验、仿真、训练或派发任务。
 
 2026-11-13 增补[随机源反馈及两项研究深化](brainstorms/2026-11-13-randomness-feedback-hardness-state-discovery.md)：新种子 BOLD-40 先交实际耦合闭环、调理器与可见性；BOLD-14 的深化先交两套约束及完整求解成本；BOLD-22 与原型 M 的深化先交两个竞争状态模型及分叉干预。后两项不重复计为新机制。用户安排他人验证，随机源方向保留小规模探索机会；详见[交接记录](records/2026-11-13-randomness-hardness-state-handoff.md)。未运行实验、仿真、训练或派发任务，原有文献与实验接续保持不变。

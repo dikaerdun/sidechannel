@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-13 构思增补：[时间方向、模约减商与混合算法的物理组合](brainstorms/2026-11-13-time-arrow-quotients-hybrid-composition.md)记录两项时间不对称基础论文的作者摘要、中心约减论文的机构摘要，以及 Hybrid KEM 草案第 12 版相关定义和实现注意事项。区分有向路径与不可逆程度、整数商与新增秘密熵、LEAK-BIND 与物理泄漏保密性。三项手工见证待独立核验，没有新实验，不增加正式文献卡片数。
+
 2026-11-13 MPCitH 接续：[来源与哈希](literature/provenance/mpcith-followup-20261113.json)保存五条发现解析、16 条卡片与 95 条参考文献初筛依据。[证据笔记](literature/notes/mpcith-revisions-and-evidence-20261113.md)记录 FAEST 当前掩码撤回、CiC 剖析/枚举和未实验策略、HQC 摘要范围，以及模拟/实测与出版年份区别。本批后卡片 317 条、引用 134 条、待查发现 23 条；没有作者代码执行或科学复现。
 
 此前 2026-11-13 USENIX 接续：[筛查与选读来源](literature/provenance/usenix2026-candidates-20261113.json)、[另取目录与数量核对](literature/provenance/usenix2026-print-toc-crosscheck-20261113.json)保存 362 篇目录与 76 篇摘要判定依据。34 条新增卡片、已有 ML-KEM 卡片升级；SDitH、microSCALE 与 ML-KEM 的指定页码、渲染页核查及三份勘误范围见[证据笔记](literature/notes/usenix2026-scope-and-pqc-evidence-20261113.md)。本批后卡片 301 条、引用 103 条、待解析发现五条；没有作者代码执行或科学结果复现。
