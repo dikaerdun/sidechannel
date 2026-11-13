@@ -12,6 +12,8 @@
 
 ## 从这里开始
 
+- [跨密钥物理关系、光子事件与后量子求解成本：三个待他人验证的问题](brainstorms/2026-11-14-key-populations-photon-events-quantum-costs.md)
+- [本轮交接：独立秘密的关系图、同次事件观察与完整资源账本](records/2026-11-14-key-photon-quantum-handoff.md)
 - [USENIX 2025 引文接续：15 条新卡片、版本核实及 Aegis 防护边界](records/2026-11-14-literature-usenix2025-citation-followup.md)
 - [计算冗余、拒绝轨迹与随机计算图：三个待他人验证的方向](brainstorms/2026-11-14-computation-codes-rejected-transcripts-random-graphs.md)
 - [本轮交接：跨实现预测、完整转录与路线的联合推断](records/2026-11-14-computation-rejection-graph-handoff.md)
