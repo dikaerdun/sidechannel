@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-13 第七批构思增补：[空间电流、端口响应与噪声方向](brainstorms/2026-11-13-spatial-modes-port-response-noise-geometry.md)文末记录 CHES 局部 EM、ASIC 阻抗、主动 EM 非线性调制、能效人工噪声四项原始来源及实际阅读范围。仅摘要、元数据与列明的引言段落；没有结果复现或完整新颖性核查，不改变正式文献库计数。
+
 2026-11-13 第六批构思增补：[预测状态、临界响应与防护信息偏序](brainstorms/2026-11-13-predictive-states-criticality-security-order.md) 文末记录计算力学、输入输出过程、临界减速、局部读出与信号比较的实际阅读范围。仅定位理论背景；没有 PQC 实测、独立推导核验或完整新颖性审查，不改变系统文献库数量。
 
 2026-11-13 第五批构思增补：[保护干预、时间组合与器件互补](brainstorms/2026-11-13-interventions-memory-device-diversity.md) 文末记录 PSVC、MIRACLE、NDSS 多设备模型、持续泄漏与矩阵刷新的摘要及页面元数据阅读范围。仅定位背景与模型条件，未复核证明或运行实验；不改变系统文献库纳入数量。

@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-13 追加 [BOLD-20261113-25 至 27](brainstorms/2026-11-13-spatial-modes-port-response-noise-geometry.md)：总量相同的空间电流差异、允许激励下的端口响应、防护噪声的方向覆盖。三项均为**待验证提案**；已有局部 EM、阻抗与噪声优化先例，具体增量未确认。手工例子待独立核对，详见[第七批交接](records/2026-11-13-spatial-port-noise-handoff.md)。验证由用户另行安排。
+
 2026-11-13 追加 [BOLD-20261113-22 至 24](brainstorms/2026-11-13-predictive-states-criticality-security-order.md)：从预测等价修补物理状态抽象、临界响应的增益与噪声预算、防护通道的信息偏序。三项均为**待验证提案**；随机模型与两个信息反例待独立核对，不构成 PQC 实现证据。详见[第六批交接](records/2026-11-13-predictive-criticality-order-handoff.md)，验证由用户另行安排。
 
 2026-11-13 追加 [BOLD-20261113-19 至 21](brainstorms/2026-11-13-interventions-memory-device-diversity.md)：保护干预的机制辨认、跨调用物理记忆的安全组合、不同器件的互补观测。三项均为**待验证提案**；含两个待独立核对的数学例子，不构成实际芯片或 PQC 实现的证据。详见[第五批交接](records/2026-11-13-interventions-memory-diversity-handoff.md)，验证由用户另行安排。
