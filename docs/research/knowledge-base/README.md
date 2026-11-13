@@ -12,6 +12,8 @@
 
 ## 从这里开始
 
+- [参数规模、随机性实现与物理密码原语：三个待他人验证的方向](brainstorms/2026-11-14-parameter-scaling-randomness-realization-physical-primitives.md)
+- [本轮交接：资源边界、同分布实现对与完整物理接口](records/2026-11-14-parameter-randomness-physical-primitive-handoff.md)
 - [NDSS 2025 第二轮：70 篇新增摘要、211 个目录成员对应与 MineShark](records/2026-11-14-literature-ndss2025-second-toc.md)
 - [NDSS 2024 全部摘要与目录对应、SABER 八条基础引用解析](records/2026-11-14-literature-ndss2024-completion-saber.md)
 - [Kyber 基础引用与 SABER 44 条书目：证据范围及三个研究命题](records/2026-11-14-kyber-foundations-saber.md)
