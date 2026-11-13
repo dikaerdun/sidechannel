@@ -1,7 +1,7 @@
 {"direction": "backward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2021.i4.173-214", "status": "pending"}
 {"direction": "forward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2021.i4.173-214", "status": "pending"}
 {"direction": "backward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2021.i4.676-707", "status": "pending"}
-{"direction": "forward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2021.i4.676-707", "status": "pending"}
+{"direction": "forward", "reason": "selected citation(s) verified in this batch; full backward/forward coverage remains open", "seed_id": "doi:10.46586/tches.v2021.i4.676-707", "status": "in_progress"}
 {"direction": "backward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2022.i1.296-322", "status": "pending"}
 {"direction": "forward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2022.i1.296-322", "status": "pending"}
 {"direction": "backward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2022.i3.141-164", "status": "pending"}
@@ -11,7 +11,7 @@
 {"direction": "backward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2022.i4.800-827", "status": "pending"}
 {"direction": "forward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2022.i4.800-827", "status": "pending"}
 {"direction": "backward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2023.i1.60-88", "status": "pending"}
-{"direction": "forward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2023.i1.60-88", "status": "pending"}
+{"direction": "forward", "reason": "selected citation(s) verified in this batch; full backward/forward coverage remains open", "seed_id": "doi:10.46586/tches.v2023.i1.60-88", "status": "in_progress"}
 {"direction": "backward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2023.i3.136-163", "status": "pending"}
 {"direction": "forward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2023.i3.136-163", "status": "pending"}
 {"direction": "backward", "reason": "retrieve actual references/citing works; no references in metadata does not mean no citations", "seed_id": "doi:10.46586/tches.v2023.i4.188-210", "status": "pending"}
@@ -117,7 +117,7 @@
 {"direction": "backward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2021.i4.351-387", "status": "pending"}
 {"direction": "forward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2021.i4.351-387", "status": "pending"}
 {"direction": "backward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2021.i4.88-113", "status": "pending"}
-{"direction": "forward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2021.i4.88-113", "status": "pending"}
+{"direction": "forward", "reason": "selected citation(s) verified in this batch; full backward/forward coverage remains open", "seed_id": "doi:10.46586/tches.v2021.i4.88-113", "status": "in_progress"}
 {"direction": "backward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2022.i1.414-460", "status": "pending"}
 {"direction": "forward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2022.i1.414-460", "status": "pending"}
 {"direction": "backward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2022.i2.1-40", "status": "pending"}
@@ -145,7 +145,7 @@
 {"direction": "backward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2023.i4.110-145", "status": "pending"}
 {"direction": "forward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2023.i4.110-145", "status": "pending"}
 {"direction": "backward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2023.i4.287-317", "status": "pending"}
-{"direction": "forward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2023.i4.287-317", "status": "pending"}
+{"direction": "forward", "reason": "selected citation(s) verified in this batch; full backward/forward coverage remains open", "seed_id": "doi:10.46586/tches.v2023.i4.287-317", "status": "in_progress"}
 {"direction": "backward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2023.i4.58-79", "status": "pending"}
 {"direction": "forward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2023.i4.58-79", "status": "pending"}
 {"direction": "backward", "reason": "inspect actual references/citing works; no claim of exhaustive citation closure", "seed_id": "doi:10.46586/tches.v2024.i1.1-26", "status": "pending"}
@@ -308,3 +308,63 @@
 {"direction": "forward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.1109/sp61157.2025.00258", "status": "pending"}
 {"direction": "backward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.1109/sp61157.2025.00254", "status": "pending"}
 {"direction": "forward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.1109/sp61157.2025.00254", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00047", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00047", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00103", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00103", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00062", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00062", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00180", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00180", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00250", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00250", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00153", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00153", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00066", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00066", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00028", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00028", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00084", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00084", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00115", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00115", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00082", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00082", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00158", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00158", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00100", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00100", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00025", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00025", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00261", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00261", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00259", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00259", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00073", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00073", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00173", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00173", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00247", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00247", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00160", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00160", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00048", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00048", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00001", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00001", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00260", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00260", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00263", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00263", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00265", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00265", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00069", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00069", "status": "pending"}
+{"direction": "backward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00163", "status": "pending"}
+{"direction": "forward", "reason": "full actual bibliography and citing-work review remain pending", "seed_id": "doi:10.1109/sp54263.2024.00163", "status": "pending"}
+{"direction": "backward", "reason": "selected citation(s) verified in this batch; full backward/forward coverage remains open", "seed_id": "doi:10.1007/978-3-031-68379-4_12", "status": "in_progress"}
+{"direction": "forward", "reason": "selected citation(s) verified in this batch; full backward/forward coverage remains open", "seed_id": "doi:10.1007/978-3-031-68379-4_12", "status": "in_progress"}
+{"direction": "backward", "reason": "full citation tracing remains pending; selected edges only", "seed_id": "doi:10.1007/978-3-030-56880-1_13", "status": "pending"}
+{"direction": "forward", "reason": "selected citation(s) verified in this batch; full backward/forward coverage remains open", "seed_id": "doi:10.1007/978-3-030-56880-1_13", "status": "in_progress"}
+{"direction": "backward", "reason": "full citation tracing remains pending; selected edges only", "seed_id": "doi:10.1007/978-3-319-66787-4_25", "status": "pending"}
+{"direction": "forward", "reason": "selected citation(s) verified in this batch; full backward/forward coverage remains open", "seed_id": "doi:10.1007/978-3-319-66787-4_25", "status": "in_progress"}

@@ -64,7 +64,7 @@ def render_citations(root,catalogs):
       f'已核对 {len(citations)} 条引用条目；版本关系共 {len(versions)} 条，其中 {len(versions)-len(inferred_versions)} 条书目核实、{len(inferred_versions)} 条为原始来源推定。它们不等于被引论文已全部读完。',
       f'追踪任务共 {len(tasks)} 项：'+', '.join(f'{k}={v}' for k,v in sorted(Counter(t['status'] for t in tasks).items()))+'。',
       f'已登记发现中，{len(resolved_discoveries)} 条完成身份与范围判定，{len(pending_discoveries)} 条仍待核查；已解析记录继续保留历史。','',
-      'GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 选读 [61]，Peek-a-Walk 选读 [15]、[53]，EasyCrypt S&P 2025 选读 [11]、[12]。这些选读不构成完整参考文献筛查。',
+      'GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 选读 [61]，Peek-a-Walk 选读 [15]、[53]，EasyCrypt S&P 2025 选读 [11]、[12]，CRYPTO Episode V 选读八条。这些选读不构成完整参考文献筛查。',
       '[GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)','',
       '| 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |','|---|---:|---|---|']
     papers={p['id']:p for p in (json.loads(x) for x in (root/'papers.jsonl').read_text().splitlines())}
@@ -90,7 +90,7 @@ def render_citations(root,catalogs):
       '- GoFetch [71] 的 Flatter 已读摘要并归为格约简方法背景，见 [相邻主题记录](ADJACENT_NOTES.md)；未计作独立侧信道攻击。',
       '- Scheduled Disclosure 的密码实验对象为 SIKE-751；15 条引用已与目录对应，ASIACCS/DIMVA/ASPLOS 三条发现已读并解析。OpenTitan 的 Share-slicing 引用已补读摘要与讨论，作为窗口外基础文献保留；完整追踪仍未完成。',
       '- Peek-a-Walk 标题无 PQC 名称，正文包含参考 Dilithium-2 的 nonce 泄漏与格后处理；已对应 GoFetch 与 Too Many Hints 两条引用，其余参考文献尚待逐条筛查。',
-      '- EasyCrypt S&P 2025 的 [11] 已对应 TCHES Episode IV，[12] 的 CRYPTO Episode V 登记为待核查发现。ePrint 2025/1607 明确标为同一 DOI 的 minor revision；题名别名与全文差异分别处理。见 [两条选读](citations/easycrypt-selected-reference-screen.jsonl)。',
+      '- EasyCrypt S&P 2025 的 [11]、[12] 已对应 Episode IV、Episode V；后者补读恒时证明范围及 [八条选读引用](citations/kyber-v-selected-reference-screen.jsonl)，新增 CRYPTO 2020 与 CHES 2017 两篇窗口外基础卡片。ePrint 2025/1607 的 minor revision 与 2024/843 的 major revision 均有显式书目关系，全文差异尚未核对。见 [Episode V 范围记录](notes/kyber-verification-episode-v-20261113.md)。',
       '- 前向关系只记录当前实际看到的引用，不等于枚举了所有后续论文。扩展会议的系统目录、未解析引用及基础文献筛查继续进行。','']
     (root/'CITATION_PROGRESS.md').write_text('\n'.join(lines))
     return {'verified_citation_edges':len(citations),'verified_version_edges':len(versions)-len(inferred_versions),'inferred_version_edges':len(inferred_versions),
@@ -183,10 +183,11 @@ def main():
             if toc:cell['toc_crosscheck_provenance']=toc['provenance_file']
             cells.append(cell)
             link=f'[记录](provenance/{filename}.json)' if prov else '待取得'
-            toc_label=f"[{toc['print_toc_records']} 条对应；含 {toc['unpaginated_records']} 条无页码记录]({toc['provenance_file']})" if toc else '待核对'
+            toc_caveat=f"；含 {toc['unpaginated_records']} 条无页码记录" if toc and toc['unpaginated_records'] else ''
+            toc_label=f"[{toc['print_toc_records']} 条对应{toc_caveat}]({toc['provenance_file']})" if toc else '待核对'
             lines.append(f'| {venue} | {year} | {n if n else "待补齐"} | {toc_label} | {title_reviewed}/{n} | {reviewed}/{n} | {link} |')
     lines.extend(['','## 当前已知缺口','',
-      '- S&P 2025 已与另一来源取得的 IEEE 印刷论文集目录逐项对应；其余 29 个单元仍待独立核对。同一个来源的 JSON 与 HTML 不算独立证据。',
+      '- S&P 2024、2025 已与另一来源取得的 IEEE 印刷论文集目录逐项对应；其余 28 个单元仍待独立核对。同一个来源的 JSON 与 HTML 不算独立证据。',
       '- IEEE S&P 2026 页面标题与目录年度为 2026，但有一个 cycle 小标题写 2025，保留为需复核的页面不一致。',
       '- IEEE S&P 2023 主列表漏列 DVFS Frequently Leaks Secrets；GoFetch 引用与另一官方日程促成补录。两份官方页面的对照不替代独立论文集全量审计。',
       '- CCS 2026 为截至截点的官方录用目录；会议尚未举行，不能统一标为已正式发表。',
@@ -194,7 +195,7 @@ def main():
       '- TCHES 按卷年与出版日期分别处理，回看 2020 年元数据以补齐 2021 卷首期。Crossref 未提交引用列表不等于没有引用。',
       '- TCHES 已逐题初筛完整标题及可用副标题；标题暂判不是最终纳入/排除。卷首前言另存于 catalog-exclusions/tches.jsonl。',
       '- S&P 2025 的 255 条标题已初筛；印刷目录也有 255 条，254 条规范化题名相同、1 条经作者与主题核对为改题名。另有 1 条页码为 N/A，其最终出版状态待查；目录对应不等于全部摘要已读。',
-      '- S&P 2024 的 261 条标题已初筛，其中 19 个候选、23 个不确定项待补摘要；独立目录对应仍未完成。S&P 2025 的 36 个标题候选/不确定项已有摘要判定，另 219 条仍待摘要复核，不能视为最终排除。',
+      '- S&P 2024 的 261 条标题已初筛，42 个候选/不确定项已有摘要判定；独立印刷目录 259 条规范化题名相同、2 条改题名，四条需渲染页转录。出版元数据另保留五处题名变化与九条作者字段差异。S&P 2024、2025 各有 219 条仍待摘要复核，不能视为最终排除。',
       '- EasyCrypt S&P 2025 论文在录用/印刷目录与 IEEE 出版页间改题名；已按 DOI 合并身份并保留别名。ePrint 作者修订关系已核实，全文差异尚未逐项核对。',
       '- 摘要占位文本 Not Available 不计为可读摘要；标题层的相邻/范围外条目仍可被后续摘要或引用证据修订。',
       '- CRYPTO/EUROCRYPT/ASIACRYPT、PQCrypto、COSADE、HOST 等扩展来源仍待系统补齐；引用扩展取得少量条目不等于补齐会议年度目录。',
@@ -209,7 +210,7 @@ def main():
             '| 会议/来源 | 年份 | 已取得条目 | 完整目录与独立核对 |','|---|---:|---:|---|']
     for (v,y),n in sorted(Counter((r['venue'],r['venue_year']) for r in extended).items()):
         elines.append(f'| {v} | {y} | {n} | 未完成；仅引用扩展 |')
-    elines+=['','SAC 2022 的会议年与 2024 年上线日期分别记录；ICCD 2021-10、ISCA 2021-06 和 ASIACCS 2021-05 论文作为窗口前边界引用保留。TCHES 2020 卷的 Share-slicing 于 2019-11 发表，属于基础引用，不计入 2021–2026 核心单元。CRYPTO、EUROCRYPT、ASIACRYPT、COSADE 等扩展会议仍有系统目录收集任务；已有个别记录不等于完整覆盖。',
+    elines+=['','SAC 2022 的会议年与 2024 年上线日期分别记录；ICCD 2021-10、ISCA 2021-06 和 ASIACCS 2021-05 论文作为窗口前边界引用保留。TCHES 2020 卷的 Share-slicing 于 2019-11 发表；CRYPTO 2020 的 FO 时序与 CHES 2017 的单轨迹论文也作为窗口外基础引用，不计入 2021–2026 核心单元。CRYPTO、EUROCRYPT、ASIACRYPT、COSADE 等扩展会议仍有系统目录收集任务；已有个别记录不等于完整覆盖。',
              '[元数据](catalogs/citation-expansion.jsonl) · [首批来源与哈希](provenance/citation-expansion.json) · [本批来源及实际读取方式](provenance/citation-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl)','']
     (root/'EXTENDED_SOURCES.md').write_text('\n'.join(elines))
     title_lines=['# 标题与副标题初筛','','这是一轮人工阅读后的 Codex 判定，不是关键词自动分类。全部判定均为标题层暂判；后续摘要判定见 decisions.jsonl。','',

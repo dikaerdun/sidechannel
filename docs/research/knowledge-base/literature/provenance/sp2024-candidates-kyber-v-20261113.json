@@ -1,0 +1,2772 @@
+{
+  "reviewed_on": "2026-11-13",
+  "sources": [
+    {
+      "source_id": "kyber-episode5-author-pdf",
+      "url": "https://cryptosith.org/papers/hakyberv-20240529.pdf",
+      "response_url": "https://cryptosith.org/papers/hakyberv-20240529.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:21:38.334191+00:00",
+      "sha256": "a5ed0be5587f26b6849657bd571d364dffd2342972e6520056d79bf5e76fcddc",
+      "bytes": 1478718,
+      "content_type": "application/pdf",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "kyber-episode5-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-68379-4_12",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-68379-4_12",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:20:13.241896+00:00",
+      "sha256": "f0784900640ce75484dbeb8e5242012fc6fa860cf91484767af4a3a6513cf7fa",
+      "bytes": 33002,
+      "content_type": "application/json",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "kyber-episode5-eprint",
+      "url": "https://eprint.iacr.org/2024/843",
+      "response_url": "https://eprint.iacr.org/2024/843",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:20:12.230845+00:00",
+      "sha256": "67f90601df38798d29c5a3211a8ca3a15456801998a6680c4c0162b4b154133b",
+      "bytes": 21834,
+      "content_type": "text/html; charset=utf-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "kyber-episode5-eprint-pdf",
+      "url": "https://eprint.iacr.org/2024/843.pdf",
+      "response_url": "https://eprint.iacr.org/2024/843.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T08:20:12.041486+00:00",
+      "sha256": "06351277a16389b010e75058000f5285ba9580c745bb5100eab2c5531289dcd4",
+      "bytes": 5580,
+      "content_type": "text/html; charset=UTF-8",
+      "role": "retrieval/version lookup only; failed PDF response is not completed reading"
+    },
+    {
+      "source_id": "kyber-episode5-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-68379-4_12",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-68379-4_12",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:21:39.143761+00:00",
+      "sha256": "abccda0f8d53f140d89763c28e9ca217a2a3fe4c3317d71500ff6fba0dedcea2",
+      "bytes": 583621,
+      "content_type": "text/html; charset=utf-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "kyber-v-ref36-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-56880-1_13",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-56880-1_13",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:44:37.143292+00:00",
+      "sha256": "17ae9fc2f5acaffa222ae4ba7e04374f4eb717997c7b63a8ff273f9d8f0b16da",
+      "bytes": 18250,
+      "content_type": "application/json",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "kyber-v-ref36-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-56880-1_13",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-56880-1_13",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:47:39.423737+00:00",
+      "sha256": "c145c124c90feced5c33180d8ce7421852eacfbaafeceb79e8b3ce79c9f7eb4d",
+      "bytes": 397770,
+      "content_type": "text/html; charset=utf-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "kyber-v-ref58-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-319-66787-4_25",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-319-66787-4_25",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:44:35.826640+00:00",
+      "sha256": "10d933b9ae05f26227a17c4d481107a1075e1b064d60db41fcc9116b682d64a0",
+      "bytes": 19092,
+      "content_type": "application/json",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "kyber-v-ref58-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-66787-4_25",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-319-66787-4_25",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:47:39.734319+00:00",
+      "sha256": "2660206a0c2fd4a5be6a020eb42fd58f1bd1d620e40f72e9ffd16449f95f13e2",
+      "bytes": 387079,
+      "content_type": "text/html; charset=utf-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp2024-crossref-container-discovery",
+      "url": "https://api.crossref.org/works?query.container-title=2024+IEEE+Symposium+on+Security+and+Privacy+%28SP%29&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2024-12-31%2Ctype%3Aproceedings-article&rows=1000&select=DOI%2Ctitle%2Cauthor%2Cresource%2Cpublished%2Cpage%2CISBN%2Ccontainer-title",
+      "response_url": "https://api.crossref.org/works?query.container-title=2024+IEEE+Symposium+on+Security+and+Privacy+%28SP%29&filter=from-pub-date%3A2024-01-01%2Cuntil-pub-date%3A2024-12-31%2Ctype%3Aproceedings-article&rows=1000&select=DOI%2Ctitle%2Cauthor%2Cresource%2Cpublished%2Cpage%2CISBN%2Ccontainer-title",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:21:38.003974+00:00",
+      "sha256": "ca968d7b84f9157175e24ba13fdf6a3b9cbc4495c16a19d6ade6b9bb71c301d5",
+      "bytes": 1144102,
+      "content_type": "application/json",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-busted-author-pdf",
+      "url": "https://bustedattack.com/resources/BUSted.pdf",
+      "response_url": "https://bustedattack.com/resources/BUSted.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:44:35.583585+00:00",
+      "sha256": "790787c574c3c1b3428dae85762e1a3f04facc97010c7a34825c4be068b7ab6e",
+      "bytes": 1705745,
+      "content_type": "application/pdf",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-0",
+      "url": "https://xplorestaging.ieee.org/document/10646778/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646778/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:40:49.038096+00:00",
+      "sha256": "883cb3a705e0e197531cb49198cf935ff36964c29cfdabadc4e5a4b5de7b2def",
+      "bytes": 50448,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-1",
+      "url": "https://xplorestaging.ieee.org/document/10646672/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646672/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:40:48.404213+00:00",
+      "sha256": "ccd7939f7596ff65eed643a8cf1b277933cf6b71d2d738dded0719f1efd168e1",
+      "bytes": 51628,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-10",
+      "url": "https://xplorestaging.ieee.org/document/10646747/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646747/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:18.956981+00:00",
+      "sha256": "a00b9c51835a62b277d6d3fed1a061baa5e3e90c5d6bcfcdec92ea3a50e96664",
+      "bytes": 49061,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-11",
+      "url": "https://xplorestaging.ieee.org/document/10646827/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646827/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:18.773208+00:00",
+      "sha256": "180006348a822e025c2262ca0389f88870f7e9b9f230c7ffec21b69d07161c84",
+      "bytes": 48855,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-12",
+      "url": "https://xplorestaging.ieee.org/document/10646718/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646718/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:25.976591+00:00",
+      "sha256": "4d0a7fd95033f92b4e7cd5b861fadf7ab80980d7dc4fe56dacad36a2fb810164",
+      "bytes": 48627,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-13",
+      "url": "https://xplorestaging.ieee.org/document/10646845/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646845/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:30.521857+00:00",
+      "sha256": "5d802fbeb311032f7315db7714cf8b5001d369d64e88c7037c64a42fc28ea7b8",
+      "bytes": 49165,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-14",
+      "url": "https://xplorestaging.ieee.org/document/10646746/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646746/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:31.328213+00:00",
+      "sha256": "b87832636100eea4f468ffd7271bf6b837bb4e7d2d9e4da3f296b9b54530631a",
+      "bytes": 49378,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-15",
+      "url": "https://xplorestaging.ieee.org/document/10646784/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646784/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:35.633112+00:00",
+      "sha256": "09915501b28dd94a754b45bbad7f9f91083d34309277672c93821b91d9ed2cee",
+      "bytes": 50191,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-16",
+      "url": "https://xplorestaging.ieee.org/document/10646849/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646849/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:37.449432+00:00",
+      "sha256": "f16a664749cecd806e99d10e7835dd4b7e6da291d97c3f98fccf6a0dedceb03e",
+      "bytes": 48742,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-17",
+      "url": "https://xplorestaging.ieee.org/document/10646722/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646722/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:37.284932+00:00",
+      "sha256": "2c216b6798cdfefffbb4b124a49e693be595fed6f0e0c1249b1f8e569b24a1eb",
+      "bytes": 47535,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-18",
+      "url": "https://xplorestaging.ieee.org/document/10646870/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646870/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:47.345638+00:00",
+      "sha256": "41c66651c9a33f93f313ae9515863acee65c5ba0bf06d21884fa7409546eca1d",
+      "bytes": 50041,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-19",
+      "url": "https://xplorestaging.ieee.org/document/10646706/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646706/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:50.397229+00:00",
+      "sha256": "080f54e68688a84cb4a0263e5088cca468da7f4d469bbc91f41e6913a9e2f300",
+      "bytes": 50592,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-2",
+      "url": "https://xplorestaging.ieee.org/document/10646702/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646702/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:40:48.266213+00:00",
+      "sha256": "9eb0e4abb17cdbcbb8899efb627b51b465dff23dd81eaa2e7f6c0bd2128a16ef",
+      "bytes": 50322,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-20",
+      "url": "https://xplorestaging.ieee.org/document/10646843/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646843/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:50.816582+00:00",
+      "sha256": "f844495da8fec219e54aa4ec9906642bdab0d0bc899845a0fb1d728a77705402",
+      "bytes": 49318,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-21",
+      "url": "https://xplorestaging.ieee.org/document/10646878/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646878/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:53.717568+00:00",
+      "sha256": "da90d882949ee17e90d4f22db1ca9655996d73e2aac3cd20c269bc2248f57bb4",
+      "bytes": 49050,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-22",
+      "url": "https://xplorestaging.ieee.org/document/10646699/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646699/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:53.925928+00:00",
+      "sha256": "c3c4a3f6449d5196e5587f1c2ac3fccac0a313c1df9d29afa13e986c00d266e9",
+      "bytes": 49525,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-23",
+      "url": "https://xplorestaging.ieee.org/document/10646815/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646815/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:54.263671+00:00",
+      "sha256": "2737fac0e802362eeb812aa3da062508eac4e9d52966559075d6073384dcb5b4",
+      "bytes": 52290,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-24",
+      "url": "https://xplorestaging.ieee.org/document/10646762/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646762/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:03.972350+00:00",
+      "sha256": "18658188f42b2f1e447840ee1095ad5b06753337c6e4675af2523e08ee33d947",
+      "bytes": 49076,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-25",
+      "url": "https://xplorestaging.ieee.org/document/10646767/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646767/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:02.961143+00:00",
+      "sha256": "b5e6e6979c86bf8fea0a906c77a99e1c2c839c682de77fb92b82c2c3ea98168b",
+      "bytes": 48682,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-26",
+      "url": "https://xplorestaging.ieee.org/document/10646841/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646841/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:58.975998+00:00",
+      "sha256": "e4eb5945a869a5beff07d257b8f55a4650d740e8301c14dee771409a0b62399a",
+      "bytes": 49553,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-27",
+      "url": "https://xplorestaging.ieee.org/document/10646661/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646661/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:04.977121+00:00",
+      "sha256": "44f0e3d5870f1d4efc51731aa2f49f0b7b5686f22cb77bd950734dec93f87131",
+      "bytes": 48682,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-28",
+      "url": "https://xplorestaging.ieee.org/document/10646765/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646765/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:05.411191+00:00",
+      "sha256": "969ff9e8aea183f1584e85d3e0c36246588584c951fc55f3625098f209f6975c",
+      "bytes": 48782,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-29",
+      "url": "https://xplorestaging.ieee.org/document/10646653/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646653/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:05.965467+00:00",
+      "sha256": "9e779b4cbae373e856b4922e283eadae1a34667661001882f184bb30a66afb37",
+      "bytes": 49024,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-3",
+      "url": "https://xplorestaging.ieee.org/document/10646859/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646859/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:00.258026+00:00",
+      "sha256": "aa4c8fdf694f8d69e976f96436e4adbebc7cd9a2357e7d7f390a8a3fdf5fced8",
+      "bytes": 49216,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-30",
+      "url": "https://xplorestaging.ieee.org/document/10646854/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646854/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:06.753842+00:00",
+      "sha256": "bbdb1bdbbf5df03aa174530055fdfdc683e6f03b3c30507a1c4c274e01f2fc8f",
+      "bytes": 50967,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-31",
+      "url": "https://xplorestaging.ieee.org/document/10646848/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646848/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:07.306721+00:00",
+      "sha256": "bf0c3c53adddc79e5d2c2fb0486d25129167bc21729a5ba9c288a4ef506fdc45",
+      "bytes": 48116,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-32",
+      "url": "https://xplorestaging.ieee.org/document/10646752/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646752/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:08.113650+00:00",
+      "sha256": "f892d714d2e41a98065f89af96593a1df448e788b68e0071c893d18191bbb5b1",
+      "bytes": 47884,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-33",
+      "url": "https://xplorestaging.ieee.org/document/10646839/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646839/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:16.423490+00:00",
+      "sha256": "5b5f43e08a8810ebb378cd7c8635448e17f78fc13366ddf9107f87a9ace8d59d",
+      "bytes": 50713,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-34",
+      "url": "https://xplorestaging.ieee.org/document/10646805/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646805/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:15.833923+00:00",
+      "sha256": "8b09895623bb1bc95066713ed3664201007e5c4cca979cc2e59bc3b1721e667a",
+      "bytes": 48535,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-35",
+      "url": "https://xplorestaging.ieee.org/document/10646750/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646750/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:16.717849+00:00",
+      "sha256": "2f7ee2069519cdeaa2f3f9b65f337a0dfbe724d174e5eb85f89729d695daa8b5",
+      "bytes": 50014,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-36",
+      "url": "https://xplorestaging.ieee.org/document/10646704/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646704/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:17.576049+00:00",
+      "sha256": "3e84cd8e1e9f25c9dc54ff659c7df658034705be9a9418b76e20db92483e35d2",
+      "bytes": 50165,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-37",
+      "url": "https://xplorestaging.ieee.org/document/10646810/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646810/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:17.831866+00:00",
+      "sha256": "4d6402b5d97753ce10b70f3b4670849018a5aae764ddef6f99d55228b13f5265",
+      "bytes": 49423,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-38",
+      "url": "https://xplorestaging.ieee.org/document/10646838/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646838/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:18.431729+00:00",
+      "sha256": "9b9896a36b716d173f4f59dba15114185cc37aa3dab7498ab4ffe7408f696713",
+      "bytes": 49253,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-39",
+      "url": "https://xplorestaging.ieee.org/document/10646850/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646850/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:21.465165+00:00",
+      "sha256": "b6ac9c94bba0dfd0772cb8b3f76735641c6fb6394ee50bf3dd50c7f00f5382e0",
+      "bytes": 49368,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-4",
+      "url": "https://xplorestaging.ieee.org/document/10646846/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646846/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:01.594262+00:00",
+      "sha256": "d076d321c9be5ff811cc648f55982b20d80dd0b20d7847abd4ac45b75dcd10f8",
+      "bytes": 48368,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-40",
+      "url": "https://xplorestaging.ieee.org/document/10646649/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646649/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:21.713990+00:00",
+      "sha256": "a23bda15541c096f0052b335e236490897ac4a149eaf8edcd63b076f1a4aa909",
+      "bytes": 49681,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-41",
+      "url": "https://xplorestaging.ieee.org/document/10646886/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646886/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:42:22.376981+00:00",
+      "sha256": "3f30b1351df55ffed680a6ab00acc412e050c7ed2b47d7e76d1b5dbbf82b6d13",
+      "bytes": 51443,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-5",
+      "url": "https://xplorestaging.ieee.org/document/10646647/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646647/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:00.561090+00:00",
+      "sha256": "8cf90d913ef17ce6b078788847dc084b8df40011e1de11a730244c9223d8b986",
+      "bytes": 48268,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-6",
+      "url": "https://xplorestaging.ieee.org/document/10646711/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646711/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:10.600919+00:00",
+      "sha256": "31e00fe1bff99c97c863064a8fd413f585cf858446a6d44db15d822d7c60c649",
+      "bytes": 50874,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-7",
+      "url": "https://xplorestaging.ieee.org/document/10646681/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646681/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:10.662625+00:00",
+      "sha256": "999cb7f539ca64cad6ae5de584aafd4854aeef8893627bec6135a63b8b43abd4",
+      "bytes": 51257,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-8",
+      "url": "https://xplorestaging.ieee.org/document/10646804/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646804/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:14.219073+00:00",
+      "sha256": "a157dc4d9a38087227ecafbdbeb139adbb38727dc8bb4a625a22f0d832855fb4",
+      "bytes": 50913,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-candidates-publisher-9",
+      "url": "https://xplorestaging.ieee.org/document/10646696/",
+      "response_url": "https://xplorestaging.ieee.org/document/10646696/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:41:17.981339+00:00",
+      "sha256": "cb16d31defeaba6a566a5c1cf8924da9c33baa2553b7a85c017e2eda8b01b5c7",
+      "bytes": 49704,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-serberus-author-pdf",
+      "url": "https://cs.stanford.edu/people/trippel/pubs/mosier_SP24.pdf",
+      "response_url": "https://cs.stanford.edu/people/trippel/pubs/mosier_SP24.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:43:02.179556+00:00",
+      "sha256": "c56021b3122cc582c8c0736dabc01fbf2433fb00d781cc012e4dcb420c0cc87d",
+      "bytes": 634230,
+      "content_type": "application/pdf",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-slam-author-pdf",
+      "url": "https://download.vusec.net/papers/slam_sp24.pdf",
+      "response_url": "https://download.vusec.net/papers/slam_sp24.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:43:03.459366+00:00",
+      "sha256": "b3e82a77f75fb0cac8edce06aa368b5b74432ffb3f519ed972c1d356d0a8702c",
+      "bytes": 519681,
+      "content_type": "application/pdf",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-untrustzone-author-pdf",
+      "url": "https://forte-research.com/UnTrustZone/docs/UnTrustZone_version_v0.pdf",
+      "response_url": "https://forte-research.com/UnTrustZone/docs/UnTrustZone_version_v0.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:44:34.233749+00:00",
+      "sha256": "fcb766e19a44a4563f7203a2cbd433cf9521efb23437a15bf7110a7d2c03afbf",
+      "bytes": 2783459,
+      "content_type": "application/pdf",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-untrustzone-project",
+      "url": "https://forte-research.com/UnTrustZone/",
+      "response_url": "https://forte-research.com/UnTrustZone/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:43:03.526375+00:00",
+      "sha256": "f1031b19d0e03c9643124ce0cedf1fcd9d644b80c6668d49247b425effd23d39",
+      "bytes": 8487,
+      "content_type": "text/html; charset=utf-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    },
+    {
+      "source_id": "sp24-video-eprint",
+      "url": "https://eprint.iacr.org/2023/923",
+      "response_url": "https://eprint.iacr.org/2023/923",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:44:32.371906+00:00",
+      "sha256": "f422f4dca2f35911fdd0a2f732e614a67be6ebaf0617388af6ca875316c9620f",
+      "bytes": 18650,
+      "content_type": "text/html; charset=utf-8",
+      "role": "retrieval/version lookup only; failed PDF response is not completed reading"
+    },
+    {
+      "source_id": "sp24-video-eprint-pdf",
+      "url": "https://eprint.iacr.org/2023/923.pdf",
+      "response_url": "https://eprint.iacr.org/2023/923.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T08:44:33.407374+00:00",
+      "sha256": "1af75bc507c973ded020a5cda938ddc057236057f9ab650c2d3a3720c60406d8",
+      "bytes": 5580,
+      "content_type": "text/html; charset=UTF-8",
+      "role": "retrieval/version lookup only; failed PDF response is not completed reading"
+    },
+    {
+      "source_id": "sp24-video-project",
+      "url": "https://www.nassiben.com/video-based-crypta",
+      "response_url": "https://www.nassiben.com/video-based-crypta",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:47:37.511617+00:00",
+      "sha256": "5667cd43c0f540436878fa5f6a9cb6ebe0397ae41072dbe787bc3c7f25e5e926",
+      "bytes": 549031,
+      "content_type": "text/html; charset=UTF-8",
+      "role": "read primary abstract, specified passages or verified metadata"
+    }
+  ],
+  "batch": {
+    "sp2024_primary_abstracts_read": 42,
+    "sp2024_new_includes": 27,
+    "sp2024_new_adjacent": 15,
+    "sp2024_selected_manuscript_checks": 4,
+    "citation_expansion_abstracts_read": 3,
+    "citation_expansion_new_includes": 3,
+    "new_verified_citation_edges": 9,
+    "new_verified_version_edges": 1,
+    "canonical_doi_upgrades": 261,
+    "nonpaper_metadata_separated": 9,
+    "inventory_file": "screening/batches/sp2024-candidates-20261113.jsonl"
+  },
+  "identity_upgrades": [
+    {
+      "previous_id": "title:sp:2024:2b6a9efc3bc65f57",
+      "canonical_id": "doi:10.1109/sp54263.2024.00019",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:c6cc7c43a20c7fb1",
+      "canonical_id": "doi:10.1109/sp54263.2024.00152",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:cd168e6a92ccb61d",
+      "canonical_id": "doi:10.1109/sp54263.2024.00202",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:87daae9277bda027",
+      "canonical_id": "doi:10.1109/sp54263.2024.00203",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:4169c2790d023b73",
+      "canonical_id": "doi:10.1109/sp54263.2024.00159",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b7f2637687ee81a6",
+      "canonical_id": "doi:10.1109/sp54263.2024.00219",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:648899ef885e73c0",
+      "canonical_id": "doi:10.1109/sp54263.2024.00143",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:840dd7fd7589c1a8",
+      "canonical_id": "doi:10.1109/sp54263.2024.00162",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:3965a544f399b556",
+      "canonical_id": "doi:10.1109/sp54263.2024.00011",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ee7b082a33d0977c",
+      "canonical_id": "doi:10.1109/sp54263.2024.00045",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ce2abec5330c33c8",
+      "canonical_id": "doi:10.1109/sp54263.2024.00056",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:95e3f18ead2d92be",
+      "canonical_id": "doi:10.1109/sp54263.2024.00194",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:50c64135c9bab9dd",
+      "canonical_id": "doi:10.1109/sp54263.2024.00043",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:da82d46376054fe9",
+      "canonical_id": "doi:10.1109/sp54263.2024.00201",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:31c4028479b2494b",
+      "canonical_id": "doi:10.1109/sp54263.2024.00047",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:156fcf9843fc8d1e",
+      "canonical_id": "doi:10.1109/sp54263.2024.00220",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:944aedbd2c9743ba",
+      "canonical_id": "doi:10.1109/sp54263.2024.00128",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:76bee0beacc93c83",
+      "canonical_id": "doi:10.1109/sp54263.2024.00083",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:44868cd2333edcfa",
+      "canonical_id": "doi:10.1109/sp54263.2024.00217",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:200fc86a7755f962",
+      "canonical_id": "doi:10.1109/sp54263.2024.00064",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:a50e88a852bba3aa",
+      "canonical_id": "doi:10.1109/sp54263.2024.00155",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:cf47638db09bc3c0",
+      "canonical_id": "doi:10.1109/sp54263.2024.00031",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:2374c4029ec0c042",
+      "canonical_id": "doi:10.1109/sp54263.2024.00008",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:44a526db6b9c301c",
+      "canonical_id": "doi:10.1109/sp54263.2024.00224",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:32dd1326b5f7244f",
+      "canonical_id": "doi:10.1109/sp54263.2024.00226",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:4fda993041379a98",
+      "canonical_id": "doi:10.1109/sp54263.2024.00074",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:822f5de0fb3b7102",
+      "canonical_id": "doi:10.1109/sp54263.2024.00130",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:7d2556c65d2876d4",
+      "canonical_id": "doi:10.1109/sp54263.2024.00068",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ad045ac7e4b3a59a",
+      "canonical_id": "doi:10.1109/sp54263.2024.00108",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:75037dcb46b019ec",
+      "canonical_id": "doi:10.1109/sp54263.2024.00114",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:7db2d25c338e3974",
+      "canonical_id": "doi:10.1109/sp54263.2024.00129",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:358f86678dab39e3",
+      "canonical_id": "doi:10.1109/sp54263.2024.00212",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:0d2a23114dc0bf8f",
+      "canonical_id": "doi:10.1109/sp54263.2024.00103",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:a8cacd308aa4233d",
+      "canonical_id": "doi:10.1109/sp54263.2024.00062",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:9849e24ef3cd43c9",
+      "canonical_id": "doi:10.1109/sp54263.2024.00200",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:edc55b31497bf90e",
+      "canonical_id": "doi:10.1109/sp54263.2024.00218",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:0ce0132e8c7d2040",
+      "canonical_id": "doi:10.1109/sp54263.2024.00176",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:40b8a4d81dd2c2fb",
+      "canonical_id": "doi:10.1109/sp54263.2024.00088",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:0691a86d771c7f48",
+      "canonical_id": "doi:10.1109/sp54263.2024.00016",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:19d5bf52a970c955",
+      "canonical_id": "doi:10.1109/sp54263.2024.00078",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:4761b6db483bd34e",
+      "canonical_id": "doi:10.1109/sp54263.2024.00221",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:bc61720a44420908",
+      "canonical_id": "doi:10.1109/sp54263.2024.00109",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:516d4c387a3c7bf5",
+      "canonical_id": "doi:10.1109/sp54263.2024.00122",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:abb06e516ac5f287",
+      "canonical_id": "doi:10.1109/sp54263.2024.00041",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:eeced977c61b602c",
+      "canonical_id": "doi:10.1109/sp54263.2024.00168",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ece1565145f76cad",
+      "canonical_id": "doi:10.1109/sp54263.2024.00180",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:4374cbd854d7daae",
+      "canonical_id": "doi:10.1109/sp54263.2024.00156",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b0395fcac4db77dc",
+      "canonical_id": "doi:10.1109/sp54263.2024.00233",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:7e4c737fee1f147d",
+      "canonical_id": "doi:10.1109/sp54263.2024.00246",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:c7573a15dc6a61bb",
+      "canonical_id": "doi:10.1109/sp54263.2024.00034",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:989cfa5ef8f922de",
+      "canonical_id": "doi:10.1109/sp54263.2024.00250",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:47418d84d1cae992",
+      "canonical_id": "doi:10.1109/sp54263.2024.00223",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:f24150f0d04338b6",
+      "canonical_id": "doi:10.1109/sp54263.2024.00075",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:66ef36354e6bd4ef",
+      "canonical_id": "doi:10.1109/sp54263.2024.00027",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:6940959b5a4e527b",
+      "canonical_id": "doi:10.1109/sp54263.2024.00153",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:eb07db73b1c3bd5e",
+      "canonical_id": "doi:10.1109/sp54263.2024.00029",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:18cc807eea6e8b47",
+      "canonical_id": "doi:10.1109/sp54263.2024.00264",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:9c38df11a8b74b71",
+      "canonical_id": "doi:10.1109/sp54263.2024.00060",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:0e630cdf76a8cd27",
+      "canonical_id": "doi:10.1109/sp54263.2024.00164",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ee3ca9b7debcc823",
+      "canonical_id": "doi:10.1109/sp54263.2024.00066",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:164b7870400d02d5",
+      "canonical_id": "doi:10.1109/sp54263.2024.00195",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:bfe2e24103beffa1",
+      "canonical_id": "doi:10.1109/sp54263.2024.00124",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:1d640b3bd9714e41",
+      "canonical_id": "doi:10.1109/sp54263.2024.00026",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:5864eabc4572e117",
+      "canonical_id": "doi:10.1109/sp54263.2024.00145",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:0480f118d695ae86",
+      "canonical_id": "doi:10.1109/sp54263.2024.00096",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b3e87983a7bbe828",
+      "canonical_id": "doi:10.1109/sp54263.2024.00252",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:dfbbb04e00935a1e",
+      "canonical_id": "doi:10.1109/sp54263.2024.00087",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:cb0b9d2ccd8d219f",
+      "canonical_id": "doi:10.1109/sp54263.2024.00205",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:58a37607239fab26",
+      "canonical_id": "doi:10.1109/sp54263.2024.00028",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:cb753d4edb3b6dd4",
+      "canonical_id": "doi:10.1109/sp54263.2024.00150",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:6895df611d009b99",
+      "canonical_id": "doi:10.1109/sp54263.2024.00093",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:5d8c0b69d2eacd05",
+      "canonical_id": "doi:10.1109/sp54263.2024.00236",
+      "matching_basis": "manual_title_change"
+    },
+    {
+      "previous_id": "title:sp:2024:1132a87ee01ffd0c",
+      "canonical_id": "doi:10.1109/sp54263.2024.00258",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:7d1a0660bfd7d11c",
+      "canonical_id": "doi:10.1109/sp54263.2024.00166",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ac4f677f9935f841",
+      "canonical_id": "doi:10.1109/sp54263.2024.00214",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:6b3ec50bf0c1e626",
+      "canonical_id": "doi:10.1109/sp54263.2024.00142",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:7471282951a30b73",
+      "canonical_id": "doi:10.1109/sp54263.2024.00225",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:5df4022e0fc70af8",
+      "canonical_id": "doi:10.1109/sp54263.2024.00240",
+      "matching_basis": "manual_title_change"
+    },
+    {
+      "previous_id": "title:sp:2024:c9eb91f65b558c86",
+      "canonical_id": "doi:10.1109/sp54263.2024.00249",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:3117bcb1dd51da01",
+      "canonical_id": "doi:10.1109/sp54263.2024.00139",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:4851dcdb793cf44c",
+      "canonical_id": "doi:10.1109/sp54263.2024.00148",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ef43e60c2df065a0",
+      "canonical_id": "doi:10.1109/sp54263.2024.00141",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:0391b806d419ef83",
+      "canonical_id": "doi:10.1109/sp54263.2024.00017",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:a659a1b6bbb6b423",
+      "canonical_id": "doi:10.1109/sp54263.2024.00182",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:2dc3d533a1490473",
+      "canonical_id": "doi:10.1109/sp54263.2024.00101",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:1dc24431755d2e65",
+      "canonical_id": "doi:10.1109/sp54263.2024.00089",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:fdd049ac376b3821",
+      "canonical_id": "doi:10.1109/sp54263.2024.00231",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:394e3fbfeabe8adc",
+      "canonical_id": "doi:10.1109/sp54263.2024.00131",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:1a987a30ce567184",
+      "canonical_id": "doi:10.1109/sp54263.2024.00084",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:8b1a0dbd60ed4522",
+      "canonical_id": "doi:10.1109/sp54263.2024.00115",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:30029472313f71ab",
+      "canonical_id": "doi:10.1109/sp54263.2024.00050",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:0dbb85cdd4aa312e",
+      "canonical_id": "doi:10.1109/sp54263.2024.00042",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:bad9876907b59a15",
+      "canonical_id": "doi:10.1109/sp54263.2024.00057",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:9990f9384973ddfe",
+      "canonical_id": "doi:10.1109/sp54263.2024.00237",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:1d6d8c85e2644170",
+      "canonical_id": "doi:10.1109/sp54263.2024.00197",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:a19adca94e1dc869",
+      "canonical_id": "doi:10.1109/sp54263.2024.00107",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:39498df9e3e1c231",
+      "canonical_id": "doi:10.1109/sp54263.2024.00082",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:5549b832777f8c62",
+      "canonical_id": "doi:10.1109/sp54263.2024.00262",
+      "matching_basis": "manual_title_change"
+    },
+    {
+      "previous_id": "title:sp:2024:a4f2d74c2937fc53",
+      "canonical_id": "doi:10.1109/sp54263.2024.00136",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:e10d8f5fdf03e4df",
+      "canonical_id": "doi:10.1109/sp54263.2024.00018",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b0b757a9b268bf2b",
+      "canonical_id": "doi:10.1109/sp54263.2024.00065",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:77e76215695e26e9",
+      "canonical_id": "doi:10.1109/sp54263.2024.00116",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:30ced273dee173be",
+      "canonical_id": "doi:10.1109/sp54263.2024.00183",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:11a0ad12298ba8ed",
+      "canonical_id": "doi:10.1109/sp54263.2024.00009",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:7a357825f2ad0a9f",
+      "canonical_id": "doi:10.1109/sp54263.2024.00005",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:c2fd0147cdb59d49",
+      "canonical_id": "doi:10.1109/sp54263.2024.00127",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:129e9b6f6e725f46",
+      "canonical_id": "doi:10.1109/sp54263.2024.00242",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:268382c6198af624",
+      "canonical_id": "doi:10.1109/sp54263.2024.00230",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:84ccc2691093ff06",
+      "canonical_id": "doi:10.1109/sp54263.2024.00227",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:830888720cadaa4b",
+      "canonical_id": "doi:10.1109/sp54263.2024.00158",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:f00fc15d4e558f33",
+      "canonical_id": "doi:10.1109/sp54263.2024.00248",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:55553ebd06d1f84f",
+      "canonical_id": "doi:10.1109/sp54263.2024.00267",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:8814f97edb0bbe8e",
+      "canonical_id": "doi:10.1109/sp54263.2024.00086",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:4b2e116db582d91f",
+      "canonical_id": "doi:10.1109/sp54263.2024.00211",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:1b05f00e8976c239",
+      "canonical_id": "doi:10.1109/sp54263.2024.00210",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:8b2a18cbd8b420da",
+      "canonical_id": "doi:10.1109/sp54263.2024.00030",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:1ddfd49238b8b1d5",
+      "canonical_id": "doi:10.1109/sp54263.2024.00134",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:1b88559d64cf0070",
+      "canonical_id": "doi:10.1109/sp54263.2024.00100",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:6f83abf7744e0658",
+      "canonical_id": "doi:10.1109/sp54263.2024.00049",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:fe109b50e1307aba",
+      "canonical_id": "doi:10.1109/sp54263.2024.00099",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:e3c1bdced04e9435",
+      "canonical_id": "doi:10.1109/sp54263.2024.00213",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:304cbde2513212aa",
+      "canonical_id": "doi:10.1109/sp54263.2024.00022",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:fde50f2d256e8a8b",
+      "canonical_id": "doi:10.1109/sp54263.2024.00151",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:11bd7abbbd6bea22",
+      "canonical_id": "doi:10.1109/sp54263.2024.00025",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:38d8212cde32cd73",
+      "canonical_id": "doi:10.1109/sp54263.2024.00015",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b5d58ee9051f8261",
+      "canonical_id": "doi:10.1109/sp54263.2024.00181",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ab962bc21f911262",
+      "canonical_id": "doi:10.1109/sp54263.2024.00138",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:215587f394929591",
+      "canonical_id": "doi:10.1109/sp54263.2024.00095",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:797af7017ba16595",
+      "canonical_id": "doi:10.1109/sp54263.2024.00157",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:e79668f5d4b0c137",
+      "canonical_id": "doi:10.1109/sp54263.2024.00013",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:9d1750e2f7a6a1e4",
+      "canonical_id": "doi:10.1109/sp54263.2024.00006",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:cdc4e49da2e7761f",
+      "canonical_id": "doi:10.1109/sp54263.2024.00037",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:86e94d7151e1577b",
+      "canonical_id": "doi:10.1109/sp54263.2024.00092",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:de9b2635c3f627cb",
+      "canonical_id": "doi:10.1109/sp54263.2024.00216",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:72a489cd1e9b4be9",
+      "canonical_id": "doi:10.1109/sp54263.2024.00036",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:c010513a893ed3bc",
+      "canonical_id": "doi:10.1109/sp54263.2024.00165",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:e42ab9f598938987",
+      "canonical_id": "doi:10.1109/sp54263.2024.00207",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:d5ab965344f78ebb",
+      "canonical_id": "doi:10.1109/sp54263.2024.00007",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:7b028e2b84a30786",
+      "canonical_id": "doi:10.1109/sp54263.2024.00052",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:03e6ce338f0627db",
+      "canonical_id": "doi:10.1109/sp54263.2024.00241",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:c6e81c118cebacc3",
+      "canonical_id": "doi:10.1109/sp54263.2024.00256",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:16c55b03ca26aa16",
+      "canonical_id": "doi:10.1109/sp54263.2024.00125",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:6364c3d240a35718",
+      "canonical_id": "doi:10.1109/sp54263.2024.00146",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:371921656b7557e6",
+      "canonical_id": "doi:10.1109/sp54263.2024.00261",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:92722ff7bc620cf4",
+      "canonical_id": "doi:10.1109/sp54263.2024.00119",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:5cc564a1d3c8fad7",
+      "canonical_id": "doi:10.1109/sp54263.2024.00259",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:00fa6db8aaf7cccd",
+      "canonical_id": "doi:10.1109/sp54263.2024.00208",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ddc849a1c2281108",
+      "canonical_id": "doi:10.1109/sp54263.2024.00169",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:2624b1f3941809ef",
+      "canonical_id": "doi:10.1109/sp54263.2024.00251",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:d24db6da65153996",
+      "canonical_id": "doi:10.1109/sp54263.2024.00135",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:db2911f3a78116a8",
+      "canonical_id": "doi:10.1109/sp54263.2024.00063",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:7b6f0c9bffe0ffdf",
+      "canonical_id": "doi:10.1109/sp54263.2024.00147",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:1c480f6ed16656ae",
+      "canonical_id": "doi:10.1109/sp54263.2024.00090",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:53211451b15b85a3",
+      "canonical_id": "doi:10.1109/sp54263.2024.00177",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:f6d03c43edae83ed",
+      "canonical_id": "doi:10.1109/sp54263.2024.00020",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b9103e832350a2ff",
+      "canonical_id": "doi:10.1109/sp54263.2024.00154",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:d5ed502a9f76c386",
+      "canonical_id": "doi:10.1109/sp54263.2024.00035",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ad2f55d0f9767cb7",
+      "canonical_id": "doi:10.1109/sp54263.2024.00055",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:8629c62efc769583",
+      "canonical_id": "doi:10.1109/sp54263.2024.00039",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:2ce9a11b113034b0",
+      "canonical_id": "doi:10.1109/sp54263.2024.00120",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:cb053b48f88436ad",
+      "canonical_id": "doi:10.1109/sp54263.2024.00046",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:0b8ccb44a52cab3c",
+      "canonical_id": "doi:10.1109/sp54263.2024.00179",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:0592cb2d4b67157a",
+      "canonical_id": "doi:10.1109/sp54263.2024.00044",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:12c8451714c614c7",
+      "canonical_id": "doi:10.1109/sp54263.2024.00257",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:1536396962e55d79",
+      "canonical_id": "doi:10.1109/sp54263.2024.00266",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:5655dbba44fa427e",
+      "canonical_id": "doi:10.1109/sp54263.2024.00073",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:e9559a730730c86f",
+      "canonical_id": "doi:10.1109/sp54263.2024.00040",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:12195e56b38f66e7",
+      "canonical_id": "doi:10.1109/sp54263.2024.00270",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:6250db5ec976c5c2",
+      "canonical_id": "doi:10.1109/sp54263.2024.00170",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:beaa34a6d2506638",
+      "canonical_id": "doi:10.1109/sp54263.2024.00245",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:edbca24bf8518c7d",
+      "canonical_id": "doi:10.1109/sp54263.2024.00235",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b2ecbfb4081bef81",
+      "canonical_id": "doi:10.1109/sp54263.2024.00209",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:34b61593adc7e184",
+      "canonical_id": "doi:10.1109/sp54263.2024.00113",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:e083296a3b3cf798",
+      "canonical_id": "doi:10.1109/sp54263.2024.00173",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ee2f056062aca62b",
+      "canonical_id": "doi:10.1109/sp54263.2024.00144",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:caf91a7117f88dbb",
+      "canonical_id": "doi:10.1109/sp54263.2024.00167",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:9e43e34c24826bb1",
+      "canonical_id": "doi:10.1109/sp54263.2024.00228",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ce1bdfed3c841b8f",
+      "canonical_id": "doi:10.1109/sp54263.2024.00253",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:8fae64502f6b7c86",
+      "canonical_id": "doi:10.1109/sp54263.2024.00247",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:d76a07c2ff292da2",
+      "canonical_id": "doi:10.1109/sp54263.2024.00160",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:24524de1d02ba052",
+      "canonical_id": "doi:10.1109/sp54263.2024.00080",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:fbca15755637b0f4",
+      "canonical_id": "doi:10.1109/sp54263.2024.00232",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:1bf39f6c94e114bd",
+      "canonical_id": "doi:10.1109/sp54263.2024.00174",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:28db4edd8034af1d",
+      "canonical_id": "doi:10.1109/sp54263.2024.00254",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b55180e4170d4210",
+      "canonical_id": "doi:10.1109/sp54263.2024.00076",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:7ceb2422ac74af07",
+      "canonical_id": "doi:10.1109/sp54263.2024.00051",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:8cf13b217eeef0e1",
+      "canonical_id": "doi:10.1109/sp54263.2024.00106",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ef88939a2ff6f744",
+      "canonical_id": "doi:10.1109/sp54263.2024.00133",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:6d65022f97a99887",
+      "canonical_id": "doi:10.1109/sp54263.2024.00161",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:24b37032b4cac531",
+      "canonical_id": "doi:10.1109/sp54263.2024.00038",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:de82eb951ecd53d9",
+      "canonical_id": "doi:10.1109/sp54263.2024.00238",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:ba65a6e10c501126",
+      "canonical_id": "doi:10.1109/sp54263.2024.00244",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:4c1587adfbf45bc3",
+      "canonical_id": "doi:10.1109/sp54263.2024.00110",
+      "matching_basis": "manual_title_change"
+    },
+    {
+      "previous_id": "title:sp:2024:c295c794bf4b7f6a",
+      "canonical_id": "doi:10.1109/sp54263.2024.00004",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:a5f1f77d9b655e29",
+      "canonical_id": "doi:10.1109/sp54263.2024.00048",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:f35fefed991156e4",
+      "canonical_id": "doi:10.1109/sp54263.2024.00058",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:622751752af24121",
+      "canonical_id": "doi:10.1109/sp54263.2024.00271",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:c4b56cd1cd9be814",
+      "canonical_id": "doi:10.1109/sp54263.2024.00001",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:c9720276c21dd8b0",
+      "canonical_id": "doi:10.1109/sp54263.2024.00215",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:072458736e36e401",
+      "canonical_id": "doi:10.1109/sp54263.2024.00199",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:71fcb352e244020b",
+      "canonical_id": "doi:10.1109/sp54263.2024.00126",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:efa2723247707ad8",
+      "canonical_id": "doi:10.1109/sp54263.2024.00123",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:3e240782dea45c21",
+      "canonical_id": "doi:10.1109/sp54263.2024.00268",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:72ab2cb147d33813",
+      "canonical_id": "doi:10.1109/sp54263.2024.00079",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:2959d34f6e945044",
+      "canonical_id": "doi:10.1109/sp54263.2024.00132",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:c6d4c8d85095a582",
+      "canonical_id": "doi:10.1109/sp54263.2024.00021",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b335f268e105709d",
+      "canonical_id": "doi:10.1109/sp54263.2024.00002",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:259bf6ce23004023",
+      "canonical_id": "doi:10.1109/sp54263.2024.00137",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:9f726d050cc937ad",
+      "canonical_id": "doi:10.1109/sp54263.2024.00071",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:62b1b6fc14807046",
+      "canonical_id": "doi:10.1109/sp54263.2024.00255",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:f0bbb772ef71f33f",
+      "canonical_id": "doi:10.1109/sp54263.2024.00260",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:a0a872b1f1fe7568",
+      "canonical_id": "doi:10.1109/sp54263.2024.00206",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:3ce6f328c05a0996",
+      "canonical_id": "doi:10.1109/sp54263.2024.00023",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:352ce244268012e5",
+      "canonical_id": "doi:10.1109/sp54263.2024.00243",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b2053e6637732fa7",
+      "canonical_id": "doi:10.1109/sp54263.2024.00234",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:6e37e650223f2173",
+      "canonical_id": "doi:10.1109/sp54263.2024.00171",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:886e4b61859a75fb",
+      "canonical_id": "doi:10.1109/sp54263.2024.00175",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:16a4fde0b08b2f9b",
+      "canonical_id": "doi:10.1109/sp54263.2024.00067",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:f8ae5b8218bc9b8c",
+      "canonical_id": "doi:10.1109/sp54263.2024.00097",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:47f579611be79e49",
+      "canonical_id": "doi:10.1109/sp54263.2024.00263",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:9d4bfd977f051b62",
+      "canonical_id": "doi:10.1109/sp54263.2024.00239",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:63577660f9cc678b",
+      "canonical_id": "doi:10.1109/sp54263.2024.00081",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:3a4dff03e4bc69ca",
+      "canonical_id": "doi:10.1109/sp54263.2024.00054",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:a6d1c1d294a9bc8c",
+      "canonical_id": "doi:10.1109/sp54263.2024.00085",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:e5cea53e7daf901a",
+      "canonical_id": "doi:10.1109/sp54263.2024.00269",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:3e23b86b7c1cff8e",
+      "canonical_id": "doi:10.1109/sp54263.2024.00070",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:d73ca1454f5ca1f7",
+      "canonical_id": "doi:10.1109/sp54263.2024.00105",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:c21135e3e970b3d0",
+      "canonical_id": "doi:10.1109/sp54263.2024.00118",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:45b612b641953ce5",
+      "canonical_id": "doi:10.1109/sp54263.2024.00265",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:6c95ed116d4303d0",
+      "canonical_id": "doi:10.1109/sp54263.2024.00072",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:20844f157ddb1479",
+      "canonical_id": "doi:10.1109/sp54263.2024.00053",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:e883ac267f75626e",
+      "canonical_id": "doi:10.1109/sp54263.2024.00149",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:aec78df08b4a2ce7",
+      "canonical_id": "doi:10.1109/sp54263.2024.00098",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:603f2a71d67f2334",
+      "canonical_id": "doi:10.1109/sp54263.2024.00003",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:82ef68d7a87821b9",
+      "canonical_id": "doi:10.1109/sp54263.2024.00184",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:43008bfdfa2e7a3b",
+      "canonical_id": "doi:10.1109/sp54263.2024.00033",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:c0dfefa749d5ec78",
+      "canonical_id": "doi:10.1109/sp54263.2024.00178",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:152421fca240f1cc",
+      "canonical_id": "doi:10.1109/sp54263.2024.00112",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:5dcbff8e91fd28e1",
+      "canonical_id": "doi:10.1109/sp54263.2024.00196",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b2384e06eaffead6",
+      "canonical_id": "doi:10.1109/sp54263.2024.00059",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b197fff939f64e35",
+      "canonical_id": "doi:10.1109/sp54263.2024.00094",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:c740b80b51cc8865",
+      "canonical_id": "doi:10.1109/sp54263.2024.00024",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:97ab32adfd4ac668",
+      "canonical_id": "doi:10.1109/sp54263.2024.00229",
+      "matching_basis": "manual_title_change"
+    },
+    {
+      "previous_id": "title:sp:2024:a973b710b95f45d9",
+      "canonical_id": "doi:10.1109/sp54263.2024.00102",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:00c63f0ecdc8b81b",
+      "canonical_id": "doi:10.1109/sp54263.2024.00140",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:d0cf1260828eca2f",
+      "canonical_id": "doi:10.1109/sp54263.2024.00172",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:a90061a0a751e92c",
+      "canonical_id": "doi:10.1109/sp54263.2024.00121",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:b39f9c8d8d4f695a",
+      "canonical_id": "doi:10.1109/sp54263.2024.00111",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:af4e804b5bca1965",
+      "canonical_id": "doi:10.1109/sp54263.2024.00012",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:2d9d3df1bf9d8ddf",
+      "canonical_id": "doi:10.1109/sp54263.2024.00222",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:6667cc4e8ae7f1cd",
+      "canonical_id": "doi:10.1109/sp54263.2024.00091",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:61620dff5dccfc19",
+      "canonical_id": "doi:10.1109/sp54263.2024.00032",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:685d25a4cd420084",
+      "canonical_id": "doi:10.1109/sp54263.2024.00069",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:befbb069c76007d4",
+      "canonical_id": "doi:10.1109/sp54263.2024.00163",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:95d1af05b26886af",
+      "canonical_id": "doi:10.1109/sp54263.2024.00077",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:0e04a2e2ea43c889",
+      "canonical_id": "doi:10.1109/sp54263.2024.00104",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:f010c7c1c9e4c1c5",
+      "canonical_id": "doi:10.1109/sp54263.2024.00198",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:bd7f2e59f0b58bf2",
+      "canonical_id": "doi:10.1109/sp54263.2024.00117",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:e15b1564f39423e2",
+      "canonical_id": "doi:10.1109/sp54263.2024.00010",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:030e0f0a41fe6fc9",
+      "canonical_id": "doi:10.1109/sp54263.2024.00014",
+      "matching_basis": "normalized_title"
+    },
+    {
+      "previous_id": "title:sp:2024:fbea4b19d1a290c1",
+      "canonical_id": "doi:10.1109/sp54263.2024.00061",
+      "matching_basis": "normalized_title"
+    }
+  ],
+  "author_metadata_discrepancies": [
+    {
+      "id": "doi:10.1109/sp54263.2024.00145",
+      "accepted_display": "Mahmood Sharif (Tel Aviv University and VMware Research), Pubali Datta (University of Illinois Urbana-Champaign), Andy Riddle (University of Illinois Urbana-Champaign), Kim Westfall (University of Illinois Urbana-Champaign), Adam Bates (University of Illinois Urbana-Champaign), Vijay Ganti (Google), Matthew Lentz (Duke University and VMware Research), David Ott (VMware Research)",
+      "crossref_authors": [
+        {
+          "given": "Mahmood",
+          "family": "Sharif",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Tel Aviv University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pubali",
+          "family": "Datta",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Massachusetts Amherst"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andy",
+          "family": "Riddle",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Illinois Urbana-Champaign"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kim",
+          "family": "Westfall",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Illinois Urbana-Champaign"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Adam",
+          "family": "Bates",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Illinois Urbana-Champaign"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vijay",
+          "family": "Ganti",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Google"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthew",
+          "family": "Lentzk",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Duke University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Ott",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "VMware"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_names": [
+        "Lentzk"
+      ],
+      "status": "identity matched by title and other authors; spelling/name changes not fully reconciled"
+    },
+    {
+      "id": "doi:10.1109/sp54263.2024.00028",
+      "accepted_display": "Lukas Gerlach (CISPA Helmholtz Center for Information Security), Simon Schwarz (Saarland University, Saarland Informatics Campus), Nicolas FaroàŸ (Saarland University, Department of Mathematics), Michael Schwarz (CISPA Helmholtz Center for Information Security)",
+      "crossref_authors": [
+        {
+          "given": "Lukas",
+          "family": "Gerlach",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "CISPA Helmholtz Center for Information Security"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Simon",
+          "family": "Schwarz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Saarland University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nicolas",
+          "family": "Faroß",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Saarland University,Department of Mathematics"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Schwarz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "CISPA Helmholtz Center for Information Security"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_names": [
+        "Faroß"
+      ],
+      "status": "identity matched by title and other authors; spelling/name changes not fully reconciled"
+    },
+    {
+      "id": "doi:10.1109/sp54263.2024.00214",
+      "accepted_display": "Sabrina Amft (CISPA Helmholtz Center for Information Security), Sandra Höltervennhoff (Leibniz University Hannover), Rebecca Panskus (Ruhr University Bochum), Karola Marky (Ruhr University Bochum), Sascha Fahl (CISPA Helmholtz Center for Information Security)",
+      "crossref_authors": [
+        {
+          "given": "Sabrina",
+          "family": "Klivan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "CISPA Helmholtz Center for Information Security,Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sandra",
+          "family": "Höltervennhoff",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Leibniz University,Hannover,Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rebecca",
+          "family": "Panskus",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Ruhr University,Bochum,Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Karola",
+          "family": "Marky",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Ruhr University,Bochum,Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sascha",
+          "family": "Fahl",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "CISPA Helmholtz Center for Information Security,Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_names": [
+        "Klivan"
+      ],
+      "status": "identity matched by title and other authors; spelling/name changes not fully reconciled"
+    },
+    {
+      "id": "doi:10.1109/sp54263.2024.00009",
+      "accepted_display": "Joseph Khoury (Louisiana State University), Đorđe Klisura (Louisiana State University), Hadi Zanddizari (The Cyber Center for Security and Analytics, The University of Texas at San Antonio, TX, USA), Gonzalo De La Torre Parra (The University of the Incarnate Word, TX, USA), Paul Rad (Open Cloud Institute, The University of Texas at San Antonio, TX, USA), Elias Bou-Harb (Louisiana State University)",
+      "crossref_authors": [
+        {
+          "given": "Joseph",
+          "family": "Khoury",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Louisiana State University,Division of Computer Science and Engineering,LA,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Đorđe",
+          "family": "Klisura",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Louisiana State University,Division of Computer Science and Engineering,LA,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hadi",
+          "family": "Zanddizari",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The University of Texas at San Antonio,The Cyber Center for Security and Analytics,TX,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gonzalo",
+          "family": "De La Torre Parra",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The University of the Incarnate Word,TX,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Peyman",
+          "family": "Najafirad",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The University of Texas at San Antonio,Secure AI and Autonomy Lab,TX,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elias",
+          "family": "Bou-Harb",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Louisiana State University,Division of Computer Science and Engineering,LA,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_names": [
+        "Najafirad"
+      ],
+      "status": "identity matched by title and other authors; spelling/name changes not fully reconciled"
+    },
+    {
+      "id": "doi:10.1109/sp54263.2024.00106",
+      "accepted_display": "Radhika (Northwestern University), Kang Yang (State Key Laboratory of Cryptology), Jonathan Katz (University of Maryland), Xiao Wang (Northwestern University)",
+      "crossref_authors": [
+        {
+          "given": "Radhika",
+          "family": "Garg",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Northwestern University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kang",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Cryptology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan",
+          "family": "Katz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Maryland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiao",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Northwestern University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_names": [
+        "Garg"
+      ],
+      "status": "identity matched by title and other authors; spelling/name changes not fully reconciled"
+    },
+    {
+      "id": "doi:10.1109/sp54263.2024.00133",
+      "accepted_display": "Miguel Isabel (Universidad Complutense de Madrid), Clara Rodrà­guez-Nàºñez (Universidad Complutense de Madrid), Albert Rubio (Universidad Complutense de Madrid)",
+      "crossref_authors": [
+        {
+          "given": "Miguel",
+          "family": "Isabel",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Complutense University of Madrid,Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Clara",
+          "family": "Rodríguez-Núñez",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Complutense University of Madrid,Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Albert",
+          "family": "Rubio",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Complutense University of Madrid,Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_names": [
+        "Rodríguez-Núñez"
+      ],
+      "status": "identity matched by title and other authors; spelling/name changes not fully reconciled"
+    },
+    {
+      "id": "doi:10.1109/sp54263.2024.00268",
+      "accepted_display": "MD SADUN HAQ (The University Of Texas At San Antonio), THIEN DUC NGUYEN (The Technical University of Darmstadt), FRANZISKA VOLMER (The Technical University of Darmstadt), ALI SAMAN TOSUN (The University Of North Carolina At Pembroke), AHMAD REZA SADEGHI (The Technical University of Darmstadt), TURGAY KORKMAZ (The University Of Texas At San Antonio), MD SADUN HAQ (The University Of Texas At San Antonio)",
+      "crossref_authors": [
+        {
+          "given": "Md Sadun",
+          "family": "Haq",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University Of Texas At San Antonio"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thien Duc",
+          "family": "Nguyen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Technical University of Darmstadt"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ali Şaman",
+          "family": "Tosun",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University Of North Carolina at Pembroke"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Franziska",
+          "family": "Vollmer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Technical University of Darmstadt"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Turgay",
+          "family": "Korkmaz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University Of Texas At San Antonio"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ahmad-Reza",
+          "family": "Sadeghi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Technical University of Darmstadt"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_names": [
+        "Vollmer"
+      ],
+      "status": "identity matched by title and other authors; spelling/name changes not fully reconciled"
+    },
+    {
+      "id": "doi:10.1109/sp54263.2024.00178",
+      "accepted_display": "Jack Doerner (Technion), Yashvanth Kondi (Aarhus University), abhi shelat (Northeastern University)",
+      "crossref_authors": [
+        {
+          "given": "Jack",
+          "family": "Doerner",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Technion, Reichman U, Brown U"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yashvanth",
+          "family": "Kondi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Silence Labs (Deel)"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eysa",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Brown University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Abhi",
+          "family": "Shelat",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Northeastern University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_names": [
+        "Lee"
+      ],
+      "status": "identity matched by title and other authors; spelling/name changes not fully reconciled"
+    },
+    {
+      "id": "doi:10.1109/sp54263.2024.00112",
+      "accepted_display": "Rosario Giustolisi (IT University of Copenhagen), Maryam Sheikhi (IT University of Copenhagen), Carsten Schuermann (IT University of Copenhagen)",
+      "crossref_authors": [
+        {
+          "given": "Rosario",
+          "family": "Giustolisi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "IT University of Copenhagen"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maryam Sheikhi",
+          "family": "Garjan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "IT University of Copenhagen"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carsten",
+          "family": "Schuermann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "IT University of Copenhagen"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_names": [
+        "Garjan"
+      ],
+      "status": "identity matched by title and other authors; spelling/name changes not fully reconciled"
+    }
+  ],
+  "notes": [
+    "Crossref discovery query returned 1000 of a much broader result set; filtering its exact SP 2024 DOI prefix found 270 entries. Completeness is supported by matching all 261 independently parsed print papers, not by claiming the query itself was exhaustive.",
+    "Accepted titles and author display strings preserved; Crossref publisher titles/authors retained separately, including nine author-field discrepancy flags.",
+    "Two newly read 2017/2020 foundations are outside the rolling window and do not count as newly discovered recent papers.",
+    "Episode V publisher abstract and May 2024 author manuscript are distinguished from the ePrint page explicitly labelled major revision. No full version equivalence claim.",
+    "No experiments, artifact execution or independent second review."
+  ]
+}

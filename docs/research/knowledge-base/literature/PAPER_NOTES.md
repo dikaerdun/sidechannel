@@ -2,7 +2,29 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 155 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 185 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+
+## Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption
+
+- 来源：[CHES 2017](https://doi.org/10.1007/978-3-319-66787-4_25)；时间标记：outside rolling window; explicitly cited foundational work。
+- 作者：Robert Primas; Peter Pessl; Stefan Mangard
+- 对象：lattice encryption, NTT, masking, belief propagation；类型：pqc_single_trace_side_channel。
+- 核心想法：将 NTT 模运算的模板匹配、信念传播与格译码组合，研究掩码格加密的一条攻击轨迹恢复。
+- 作者报告：作者同时报告通用噪声 HW 模型及 ARM Cortex-M4F 实测轨迹上的恢复。
+- 限制与下一步：这是 CHES 2017 的窗口外基础工作；single trace 指攻击观察，不代表没有模板训练、设备或校准成本。掩码阶数、实现及算法迁移范围待全文核对，不能扩展为全部最终 PQC 标准。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-319-66787-4_25。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM
+
+- 来源：[CRYPTO 2020](https://doi.org/10.1007/978-3-030-56880-1_13)；时间标记：outside rolling window; explicitly cited foundational work。
+- 作者：Qian Guo; Thomas Johansson; Alexander Nilsson
+- 对象：FrodoKEM, Fujisaki-Okamoto, ciphertext comparison；类型：pqc_timing_side_channel。
+- 核心想法：研究 FO 转换中密文比较的时序泄漏，说明不能只保护底层 CPA 原语的直接秘密运算。
+- 作者报告：作者在当时 FrodoKEM 参考实现上报告密钥恢复，并给出约 2^30 次解封装调用的实验量级。
+- 限制与下一步：这是 CRYPTO 2020 的窗口外基础工作；需核对攻击时序精度、实现版本和各参数预算，不能推断当前恒时实现或全部 FO 转换都可攻击。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-56880-1_13。
+- 代码/数据核查：not checked；引用追踪：pending。
 
 ## Share-slicing: Friend or Foe?
 
@@ -682,6 +704,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：ePrint abstract: https://eprint.iacr.org/2023/1931; NIST presentation located, not a separate paper。
 - 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
 
+## Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt
+
+- 来源：[CRYPTO 2024](https://doi.org/10.1007/978-3-031-68379-4_12)；时间标记：within window; formal CRYPTO 2024 publication。
+- 作者：José Bacelar Almeida; Santiago Arranz Olmos; Manuel Barbosa; Gilles Barthe; François Dupressoir; Benjamin Grégoire; Vincent Laporte; Jean-Christophe Léchenet; Cameron Low; Tiago Oliveira; Hugo Pacheco; Miguel Quaresma; Peter Schwabe; Pierre-Yves Strub
+- 对象：ML-KEM, Kyber, Jasmin, constant time；类型：formal_pqc_security_and_constant_time。
+- 核心想法：Episode V 将 ML-KEM 的密码学规范证明与两种 Jasmin 实现的功能等价和恒时性质连接起来。
+- 作者报告：出版摘要明确 ROM 中 FO 变换和恒时实现；所读作者稿以 ML-KEM-768 给出具体实例，并借 Jasmin 类型系统限制分支、地址和变时运算。
+- 限制与下一步：2024-05-29 作者稿明确针对草案和经典攻击者；不涵盖恒时模型以外的功耗/EM 泄漏。复杂度界人工分析，失败概率数字未全形式化；公钥验证及错误长度测试亦有限制。最终 FIPS 203 与作者修订差异待审计。
+- 阅读层级：selected_full_text_sections；来源：https://link.springer.com/chapter/10.1007/978-3-031-68379-4_12。
+- 已读章节：Publisher abstract; May 29 author PDF p.1 abstract, pp.2–3 contributions/limitations, pp.21–22 section 7 and footnote 26; selected bibliography [8] on p.23, [36–39] on p.24 and [55,57,58] on p.25; ePrint revision metadata. Not full proof/artifact audit.
+- [详细阅读记录](notes/kyber-verification-episode-v-20261113.md)
+- 代码/数据核查：not checked；引用追踪：in_progress。
+
 ## PREFETCHX: Cross-Core Cache-Agnostic Prefetcher-based Side-Channel Attacks
 
 - 来源：[HPCA 2024](https://doi.org/10.1109/hpca57654.2024.00037)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
@@ -693,6 +728,312 @@
 - 阅读层级：selected_full_text_sections；来源：https://www.comp.nus.edu.sg/~tcarlson/pdfs/chen2024nccapsac.pdf。
 - 已读章节：PDF page 1: abstract and introduction, including RSA implementation scope
 - 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
+
+## Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Hans Winderix; Marton Bognar; Job Noorman; Lesly-Ann Daniel; Frank Piessens
+- 对象：control flow, RISC-V, data obliviousness；类型：hardware_supported_side_channel_countermeasure。
+- 核心想法：AMi 以 mimic execution 执行可观察效果并抑制多数架构效果，为控制流平衡和线性化提供 ISA 支持。
+- 作者报告：作者在 32 位乱序 RISC-V 核上研究分支预测、指令时序和数据缓存等控制流观察，并评估硬件开销与软件性能。
+- 限制与下一步：低面积或关键路径开销不等于覆盖全部物理通道；需核查可观察效果定义、硬件模型及程序转换前提。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646702/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## BULKOR: Enabling Bulk Loading for Path ORAM
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Xiang Li; Yunqian Luo; Mingyu Gao
+- 对象：ORAM, Path ORAM, TEE, access patterns；类型：access_pattern_countermeasure。
+- 核心想法：BULKOR 改进 Path ORAM 的批量装载，同时处理不可信服务器中 TEE 的访问模式问题。
+- 作者报告：摘要提出 doubly-oblivious 要求，并比较外存及内存配置下的复杂度和性能。
+- 限制与下一步：数据访问模式保护不能直接扩展为功耗、瞬态执行或所有 TEE 侧信道保护；不同存储配置的性能不可混用。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646846/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## BUSted!!! Microarchitectural Side-Channel Attacks on the MCU Bus Interconnect
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Cristiano Rodrigues; Daniel Oliveira; Sandro Pinto
+- 对象：MCU, TrustZone-M, DMA, bus arbitration；类型：microarchitectural_timing_side_channel。
+- 核心想法：BUSted 利用 MCU 总线仲裁引起的时序差异，通过自主外设组合观察隔离域的活动。
+- 作者报告：作者在 Armv8-M 与 TF-M 上报告攻击；所读模型假定攻击者控制一个隔离域及其外设和总线主设备，并知道受害代码。
+- 限制与下一步：该模型还要求秘密相关控制流、共享物理存储 bank 及可请求受害执行；不能概括为任意恒时代码或全部 MCU 均已验证。物理故障攻击不在此模型内。
+- 阅读层级：selected_full_text_sections；来源：https://xplorestaging.ieee.org/document/10646647/。
+- 已读章节：Author PDF pp.2–3, attacker-model passage: isolated-domain/peripheral control, victim-code knowledge, secret-dependent flow, shared physical memory bank and excluded physical attacks.
+- [详细阅读记录](notes/sp2024-physical-and-proof-boundaries-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## CONJUNCT: Learning Inductive Invariants to Prove Unbounded Instruction Safety Against Microarchitectural Timing Attacks
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Sushant Dinesh; Madhusudan Parthasarathy; Christopher W. Fletcher
+- 对象：RTL, RISC-V, constant time, inductive invariants；类型：formal_side_channel_verification。
+- 核心想法：ConjunCT 从 RTL 学习归纳不变量，判断 ISA 指令在无界周期执行中的时序安全性。
+- 作者报告：摘要描述条件信息流谓词、符号分析和不变量学习，在多个 RISC-V 微架构上提取 safe/unsafe 指令集合。
+- 限制与下一步：无界指的是模型内执行长度，不是覆盖所有硬件实现或功耗/电磁观测；设计者注释、RTL 语义与传递器定义仍需正文核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646711/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## DeepTheft: Stealing DNN Model Architectures through Power Side Channel
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Yansong Gao; Huming Qiu; Zhi Zhang; Binghui Wang; Hua Ma; Alsharif Abuadbba; Minhui Xue; Anmin Fu; Surya Nepal
+- 对象：DNN architecture, RAPL, CPU frequency；类型：power_and_frequency_side_channel。
+- 核心想法：DeepTheft 从低采样率 RAPL 能量序列恢复 DNN 架构，并另研究 CPU 频率观察。
+- 作者报告：作者说明所用 Docker 20.10.18 环境仍允许其取得 RAPL，而裸机无特权 RAPL 已受限；另对频率序列训练对应模型。
+- 限制与下一步：权限结论限作者环境，不能当作当前所有容器均可访问；频率实验不是把 RAPL 模型不经训练直接迁移。架构识别不等于模型权重恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646681/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Distributed & Scalable Oblivious Sorting and Shuffling
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Nicholas Ngai; Ioannis Demertzis; Javad Ghareh Chamani; Dimitrios Papadopoulos
+- 对象：ORAM, oblivious sorting, oblivious shuffling, multi-enclave；类型：access_pattern_countermeasure。
+- 核心想法：在分布式多 enclave 环境中优化 oblivious 排序与打乱，减少数据局部性和网络开销造成的扩展瓶颈。
+- 作者报告：作者分别提出多线程 bitonic sort、bucket sort 及其 shuffle 组件，并报告多种 enclave 数量下的比较。
+- 限制与下一步：不同数据规模和 enclave 数不能只按一个加速倍数排序；oblivious 访问保证不自动包含全部物理与瞬态通道。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646804/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Don't Shoot the Messenger: Localization Prevention of Satellite Internet Users
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：David Koisser; Richard Mitev; Marco Chilese; Ahmad-Reza Sadeghi
+- 对象：satellite Internet, RF localization, AnonSat；类型：location_metadata_countermeasure。
+- 核心想法：AnonSat 通过本地长距离无线网络在卫星基站间转发流量，降低通信发射位置对用户位置的暴露。
+- 作者报告：摘要报告原型实现，并以真实数据驱动的大规模网络仿真评价部署场景。
+- 限制与下一步：定位隐私依赖基站分布、可转发范围及观察能力；原型和仿真不能合称所有场景实地验证，也不是通信内容加密的替代。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646696/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Efficient and Generic Microarchitectural Hash-Function Recovery
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Lukas Gerlach; Simon Schwarz; Nicolas Faroß; Michael Schwarz
+- 对象：CPU cache, hash function reverse engineering, Prime+Probe；类型：microarchitectural_mapping_and_side_channel。
+- 核心想法：从侧信道提供的输入输出样本推断非线性微架构哈希函数，将逻辑化简与计算代数结合。
+- 作者报告：作者报告 AMD/Intel 上三种此前未知函数，并通过已知函数复算和依赖映射的攻击评价方法。
+- 限制与下一步：推断映射是攻击准备的一部分，不等于同样成本完成秘密恢复；需要核查样本取得权限、目标结构及跨处理器适用性。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646827/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Yingchen Wang; Riccardo Paccagnella; Zhao Gang; Willy R. Vasquez; David Kohlbrenner; Hovav Shacham; Christopher W. Fletcher
+- 对象：GPU, graphical compression, browser, SVG；类型：compression_side_channel。
+- 核心想法：GPU.zip 研究软件不可见的图形压缩如何形成数据相关 DRAM 流量和缓存使用。
+- 作者报告：作者在 Intel/AMD 集成 GPU 上观察未显式请求的压缩，并展示浏览器跨源 SVG filter 像素窃取。
+- 限制与下一步：软件透明压缩不等于任何 GPU 或浏览器都可利用；源隔离、攻击内容能力和设备支持需具体限定。像素泄漏不是直接解密。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646718/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Group Oblivious Message Retrieval
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Zeyu Liu; Eran Tromer; Yunhao Wang
+- 对象：recipient metadata, group messaging, FHE, GOMR；类型：metadata_privacy_protocol。
+- 核心想法：GOMR 隐藏消息与接收者的关联，改进一条消息有多个接收者时的 oblivious retrieval 成本。
+- 作者报告：作者使用 FHE 和格相关技术编码多个接收者线索，并给出协议形式化及实现比较。
+- 限制与下一步：按通信元数据防护纳入一般侧信道范围；采用格技术并不等于研究 PQC 实现泄漏。协议隐私不自动覆盖端点物理观察或所有流量行为。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646845/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Injection Attacks Against End-to-End Encrypted Applications
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Andrés Fábrega; Carolina Ortega Pérez; Armin Namavari; Ben Nassi; Rachit Agarwal; Thomas Ristenpart
+- 对象：E2E encrypted backups, ciphertext length, chosen content；类型：ciphertext_length_side_channel。
+- 核心想法：攻击者注入消息后观察加密备份长度，从密文的可见长度反推消息内容或元数据。
+- 作者报告：摘要分别报告 WhatsApp 消息/附件案例及 Signal 联系人和会话数量线索。
+- 限制与下一步：WhatsApp 场景假定可访问被攻陷云账号中的加密备份；Signal 场景同样要求取得备份。不能省略备份访问与注入能力，也不是攻破底层加密算法。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646849/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Leaky Address Masking: Exploiting Unmasked Spectre Gadgets with Noncanonical Address Translation
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Mathé Hertogh; Sander Wiebing; Cristiano Giuffrida
+- 对象：Spectre, LAM, UAI, TLB, SLAM；类型：transient_execution_side_channel。
+- 核心想法：SLAM 利用地址高位忽略与非规范地址转换，将未掩码 Spectre gadget 转为秘密相关访问通道。
+- 作者报告：正文模型是本地无特权进程对内核的攻击；附录审稿说明明确其端到端实验以软件模拟 LAM/UAI。
+- 限制与下一步：不能把软件模拟的端到端演示写成当时尚未取得的新 CPU 实测。可达 gadget、地址转换及缓解配置均是前提；不外推至所有当前处理器。
+- 阅读层级：selected_full_text_sections；来源：https://xplorestaging.ieee.org/document/10646870/。
+- 已读章节：Author PDF p.3 section 3, local user-to-kernel threat model; p.16 Appendix A.4, software emulation of LAM/UAI in end-to-end experiments.
+- [详细阅读记录](notes/sp2024-physical-and-proof-boundaries-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Make Revocation Cheaper: Hardware-Based Revocable Attribute-Based Encryption
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Xiaoguo Li; Guomin Yang; Tao Xiang; Shengmin Xu; Bowen Zhao; HweeHwa Pang; Robert H. Deng
+- 对象：attribute-based encryption, TEE, key leakage；类型：leakage_resilient_protocol。
+- 核心想法：HR-ABE 利用 TEE 处理属性加密撤销，并把 TEE 所持秘密可能泄漏纳入设计。
+- 作者报告：作者声称在其构造和安全模型下，泄漏 TEE 的秘密不导致用户数据泄漏，并形式化证明和测量性能。
+- 限制与下一步：摘要未给出全部泄漏能力和串谋边界；这是针对所定义泄漏的协议保证，不是 TEE 没有侧信道或任意密钥同时泄漏仍安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646706/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Obelix: Mitigating Side-Channels through Dynamic Obfuscation
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Jan Wichelmann; Anja Rabich; Anna Pätschke; Thomas Eisenbarth
+- 对象：TEE, ORAM, single stepping, code confidentiality；类型：system_side_channel_countermeasure。
+- 核心想法：Obelix 将程序分为统一代码块并将代码和数据放入 ORAM，以缓解 TEE 的多种观察通道。
+- 作者报告：摘要基于单步工具可达精度，讨论缓存、单步及密文侧信道，并说明存在较大性能开销。
+- 限制与下一步：保护范围依赖攻击者精度、统一块性质和 ORAM 模型；不能据 holistic 名称宣称所有物理及未来攻击均被消除。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646762/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## On (the Lack of) Code Confidentiality in Trusted Execution Environments
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Ivan Puddu; Moritz Schneider; Daniele Lain; Stefano Boschetto; Srdjan Čapkun
+- 对象：SGX, SEV, WASM, instruction extraction；类型：code_confidentiality_side_channel。
+- 核心想法：研究 TEE 中原生执行与解释执行的代码保密性差异，指出运行时可能放大 IR 指令泄漏。
+- 作者报告：作者评价 SGX/SEV 原生执行，并在 SGX 中对 WAMR、wasmi 上的 WASM 演示指令提取。
+- 限制与下一步：原生代码较难提取不是通用零泄漏保证；完整 IR 提取案例与不同 TEE 的原生评价应分开，依赖观察和运行时条件。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646767/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Practical Obfuscation of BLE Physical-Layer Fingerprints on Mobile Devices
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Hadi Givehchian; Nishant Bhaskar; Alexander Redding; Han Zhao; Aaron Schulman; Dinesh Bharadia
+- 对象：BLE, RF fingerprints, device tracking；类型：physical_fingerprint_countermeasure。
+- 核心想法：通过固件改变 BLE 射频硬件缺陷指纹，补充 MAC 地址随机化无法消除的物理标识。
+- 作者报告：作者结合理论、仿真和现场评价，并在商用 BLE 芯片上实现防护。
+- 限制与下一步：指定识别器和持续观察时间下攻击效果降低不等于不可链接性的通用证明；新的传感器、联合指纹和校准条件仍需检查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646661/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Prune+PlumTree - Finding Eviction Sets at Scale
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Tom Kessous; Niv Gilboa
+- 对象：cache eviction sets, Prime+Probe, LRU；类型：side_channel_preprocessing。
+- 核心想法：Prune+PlumTree 批量寻找大量缓存集合的驱逐集，并给出 LRU 与随机替换条件下的算法界。
+- 作者报告：作者报告 Intel 实测及随机化缓存仿真，分别讨论不同替换策略的复杂度。
+- 限制与下一步：真实硬件与随机化缓存仿真不能混合报告；LRU 下紧界不自动适用于全部替换策略。驱逐集构造耗时不是端到端密钥攻击耗时。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646765/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Real-Time Website Fingerprinting Defense via Traffic Cluster Anonymization
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Meng Shen; Kexin Ji; Jinhe Wu; Qi Li; Xiangdong Kong; Ke Xu; Liehuang Zhu
+- 对象：Tor, website fingerprinting, traffic shaping；类型：traffic_side_channel_countermeasure。
+- 核心想法：Palette 通过流量聚类和统一形状隐藏同簇网站差异，提供实时网站指纹防护。
+- 作者报告：作者使用公开数据评价，并将防护实现为 Tor 的 Pluggable Transport。
+- 限制与下一步：识别准确率下降不等于所有观察者都无法区分；簇组成、站点外推、攻击者适配和实际带宽/等待开销待正文核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646653/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Rethinking IC Layout Vulnerability: Simulation-Based Hardware Trojan Threat Assessment with High Fidelity
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Xinming Wei; Jiaxi Zhang; Guojie Luo
+- 对象：hardware Trojans, IC layout, timing, power；类型：side_channel_based_trojan_assessment。
+- 核心想法：SiliconCritic 用模拟植入前后的时序和功耗参数变化评价硬件木马可检测性。
+- 作者报告：作者在 ASIC 设计和已报告木马上比较布局防护，指出纯几何指标忽略木马性质。
+- 限制与下一步：按侧信道安全评估纳入；此处结果来自设计与仿真，不是已制造芯片上的秘密恢复或检测率。模型参数偏差与真实制造分布仍待核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646854/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Serberus: Protecting Cryptographic Code from Spectres at Compile-Time
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Nicholas Mosier; Hamed Nemati; John C. Mitchell; Caroline Trippel
+- 对象：constant time, Spectre, compiler, ASP；类型：formal_transient_execution_countermeasure。
+- 核心想法：Serberus 将加强的恒时程序转换为满足抽象推测执行模型保证的代码。
+- 作者报告：所读硬件模型依赖 CET、RRSBAD、DOIT 等条件，并选择禁用 PSF；软件处理其他列明推测原语。
+- 限制与下一步：保证限符合 ASP 的处理器、CTS 程序及指定传递器，不是任意旧硬件上的全部瞬态/物理侧信道防护；DOIT 不等于功耗与操作数无关。
+- 阅读层级：selected_full_text_sections；来源：https://xplorestaging.ieee.org/document/10646752/。
+- 已读章节：Author PDF p.4 sections 2.3.1–2.3.2 and ASP introduction: CTS/ASP scope, CET, RRSBAD, DOIT, transmitters and disabled PSF. Not all proofs.
+- [详细阅读记录](notes/sp2024-physical-and-proof-boundaries-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Side-Channel-Assisted Reverse-Engineering of Encrypted DNN Hardware Accelerator IP and Attack Surface Exploration
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Cheng Gongye; Yukui Luo; Xiaolin Xu; Yunsi Fei
+- 对象：FPGA, DNN accelerator, EM, IP reverse engineering；类型：electromagnetic_side_channel。
+- 核心想法：结合原理图分析与电磁观测，逆向商业 FPGA DNN 加速器 IP 的数据流及调度。
+- 作者报告：作者以 AMD-Xilinx DPU 为例，并探索架构恢复及模型参数提取的后续攻击面。
+- 限制与下一步：不是仅凭一段 EM 波形解密任意 bitstream；应核查设计资料、测量和查询能力以及各恢复任务的独立预算。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646839/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## SoK: SGX.Fail: How Stuff Gets eXposed
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Stephan Van Schaik; Alex Seto; Thomas Yurek; Adam Batori; Bader AlBassam; Daniel Genkin; Andrew Miller; Eyal Ronen; Yuval Yarom; Christina Garman
+- 对象：SGX, microarchitectural attacks, patch lifecycle；类型：systematization_of_side_channel_security。
+- 核心想法：SGX.Fail 分类不同 SGX 架构上的硬件攻击及其泄漏，并研究更新机制在实际部署中的效果。
+- 作者报告：摘要讨论 SECRET network 与 PowerDVD 两个案例，以及补丁时序和人工更新的部署取舍。
+- 限制与下一步：架构代际、补丁与应用状态是结论边界；不能将历史部署失效直接套到所有当前 SGX 配置。综述分类与案例实测应分别引用。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646750/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Floris Gorter; Taddeus Kroes; Herbert Bos; Cristiano Giuffrida
+- 对象：MTE, memory tags, speculative probing；类型：side_channel_analysis_and_memory_safety_defense。
+- 核心想法：StickyTags 的动机包含用推测探测推断随机内存标签，并提出不依赖标签保密性的确定性布局防护。
+- 作者报告：摘要以按对象大小分区和持久标签减少重标记开销，讨论有界空间内存错误。
+- 限制与下一步：纳入依据是随机标签的推测泄漏；有界空间保护不等于覆盖全部越界、时间内存错误或全部 Spectre。案例 CVE 覆盖率不是完整漏洞检出率。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646704/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## TCP Spoofing: Reliable Payload Transmission Past the Spoofed TCP Handshake
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Yepeng Pan; Christian Rossow
+- 对象：TCP, ISN, feedback channels, spoofing；类型：network_protocol_side_channel。
+- 核心想法：通过协议和应用反馈推断服务器初始序列号，使伪造 TCP 连接上的后续负载传输更可靠。
+- 作者报告：作者区分暴力发送和反馈引导方式，后者涉及 SYN cookies、邮件与数据库相关反馈。
+- 限制与下一步：反馈观察条件、源 IP 伪造和服务端窗口行为需要同时成立；不得把暴力猜测、直接响应与间接反馈的成本混为一项。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646838/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## UnTrustZone: Systematic Accelerated Aging to Expose On-chip Secrets
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Jubayer Mahmod; Matthew Hicks
+- 对象：SRAM, TrustZone, data remanence, device aging；类型：physical_data_remanence_attack。
+- 核心想法：UnTrustZone 研究 SRAM 数据相关老化如何留下模拟域记忆，并从上电状态读出残留。
+- 作者报告：作者通过主动加速老化展示 TrustZone AES、固件与缓存数据案例；正文要求可读未被污染的 SRAM 上电状态及加速条件。
+- 限制与下一步：这是需要物理接触、应力和持留状态的主动残留攻击，不是被动正常工作功耗读出。高位正确率不能无条件等同全密钥正确恢复，也不证明短时动态 NTT 有同样效果。
+- 阅读层级：selected_full_text_sections；来源：https://xplorestaging.ieee.org/document/10646649/。
+- 已读章节：Author PDF p.5 section 4 and Figure 4: uncontaminated SRAM power-on state, accelerated aging and physical power-delivery access; project page overview also read.
+- [详细阅读记录](notes/sp2024-physical-and-proof-boundaries-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Video-Based Cryptanalysis: Extracting Cryptographic Keys from Video Footage of a Device's Power LED Captured By Standard Video Cameras
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Ben Nassi; Etay Iluz; Or Cohen; Ofek Vayner; Dudi Nassi; Boris Zadov; Yuval Elovici
+- 对象：SIKE, ECDSA, power LED, rolling shutter；类型：optical_power_and_timing_side_channel。
+- 核心想法：通过功耗相关 LED 亮度与相机滚动快门取得时序观察，演示 ECDSA 和历史 SIKE 实现案例。
+- 作者报告：摘要区分远处智能卡读卡器 LED 与同 USB hub 外设 LED 的手机案例；作者项目页说明沿用 Minerva/Hertzbleed 类脆弱实现。
+- 限制与下一步：需要可利用的实现泄漏、LED 耦合和足够成像条件；填满画面的 LED 与普通任意录像不同。SIKE 案例不能代表最终 ML-KEM；两种传感与距离条件不能互换。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646886/。
+- 已读章节：complete publisher abstract and bibliographic metadata; author project-page FAQ on vulnerable implementations, LED coupling and image framing
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## mimoCrypt: Multi-User Privacy-Preserving Wi-Fi Sensing via MIMO Encryption
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)；时间标记：formal SP 2024 publication within rolling window; conference/publication dates are distinct metadata。
+- 作者：Jun Luo; Hangcheng Cao; Hongbo Jiang; Yanbing Yang; Zhe Chen
+- 对象：Wi-Fi sensing, MIMO, human activity privacy；类型：physical_sensing_countermeasure。
+- 核心想法：mimoCrypt 用 MIMO 操作改变 Wi-Fi 信道的可观察性，支持合法用户感知并抑制非授权活动推断。
+- 作者报告：作者将人体活动称为物理明文，联合优化隐私、感知和通信质量，并在 SDR 上评价手势场景。
+- 限制与下一步：物理加密的名称不自动提供标准密码学语义安全；密钥交付、传感器能力及多用户配置需要限定，手势场景不能直接推广至全部环境。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10646878/。
+- 代码/数据核查：not checked；引用追踪：pending。
 
 ## A Not So Discrete Sampler: Power Analysis Attacks on HAWK signature scheme
 

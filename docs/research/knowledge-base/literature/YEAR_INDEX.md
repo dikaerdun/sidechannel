@@ -94,7 +94,35 @@
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| CRYPTO | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | selected_full_text_sections |
 | HPCA | [PREFETCHX: Cross-Core Cache-Agnostic Prefetcher-based Side-Channel Attacks](https://doi.org/10.1109/hpca57654.2024.00037) | selected_full_text_sections |
+| SP | [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [BULKOR: Enabling Bulk Loading for Path ORAM](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [BUSted!!! Microarchitectural Side-Channel Attacks on the MCU Bus Interconnect](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | selected_full_text_sections |
+| SP | [CONJUNCT: Learning Inductive Invariants to Prove Unbounded Instruction Safety Against Microarchitectural Timing Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [DeepTheft: Stealing DNN Model Architectures through Power Side Channel](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Distributed & Scalable Oblivious Sorting and Shuffling](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Don't Shoot the Messenger: Localization Prevention of Satellite Internet Users](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Efficient and Generic Microarchitectural Hash-Function Recovery](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Injection Attacks Against End-to-End Encrypted Applications](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Leaky Address Masking: Exploiting Unmasked Spectre Gadgets with Noncanonical Address Translation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | selected_full_text_sections |
+| SP | [Make Revocation Cheaper: Hardware-Based Revocable Attribute-Based Encryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Obelix: Mitigating Side-Channels through Dynamic Obfuscation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [On (the Lack of) Code Confidentiality in Trusted Execution Environments](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Practical Obfuscation of BLE Physical-Layer Fingerprints on Mobile Devices](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Prune+PlumTree - Finding Eviction Sets at Scale](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Real-Time Website Fingerprinting Defense via Traffic Cluster Anonymization](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Rethinking IC Layout Vulnerability: Simulation-Based Hardware Trojan Threat Assessment with High Fidelity](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Serberus: Protecting Cryptographic Code from Spectres at Compile-Time](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | selected_full_text_sections |
+| SP | [Side-Channel-Assisted Reverse-Engineering of Encrypted DNN Hardware Accelerator IP and Attack Surface Exploration](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [SoK: SGX.Fail: How Stuff Gets eXposed](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [TCP Spoofing: Reliable Payload Transmission Past the Spoofed TCP Handshake](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [UnTrustZone: Systematic Accelerated Aging to Expose On-chip Secrets](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | selected_full_text_sections |
+| SP | [Video-Based Cryptanalysis: Extracting Cryptographic Keys from Video Footage of a Device's Power LED Captured By Standard Video Cameras](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| SP | [mimoCrypt: Multi-User Privacy-Preserving Wi-Fi Sensing via MIMO Encryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
 | TCHES | [A Not So Discrete Sampler: Power Analysis Attacks on HAWK signature scheme](https://doi.org/10.46586/tches.v2024.i4.156-178) | abstract_and_bibliographic_metadata |
 | TCHES | [Defeating Low-Cost Countermeasures against Side-Channel Attacks in Lattice-based Encryption: A Case Study on Crystals-Kyber](https://doi.org/10.46586/tches.v2024.i2.795-818) | abstract_and_bibliographic_metadata |
 | TCHES | [Exploiting Small-Norm Polynomial Multiplication with Physical Attacks: Application to CRYSTALS-Dilithium](https://doi.org/10.46586/tches.v2024.i2.359-383) | abstract_and_bibliographic_metadata |
@@ -190,4 +218,11 @@
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| CRYPTO | [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) | abstract_and_bibliographic_metadata |
 | TCHES | [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) | selected_full_text_sections |
+
+## 2017
+
+| 来源 | 论文 | 阅读层级 |
+|---|---|---|
+| CHES | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | abstract_and_bibliographic_metadata |

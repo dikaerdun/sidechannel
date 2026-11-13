@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 121 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 136 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA
 
@@ -219,6 +219,27 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## A Systematic Study of Physical Sensor Attack Hardness
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：研究机器人传感器注入攻击的前提和成功难度，主要是主动完整性/安全性破坏；摘要未建立秘密经侧信道泄漏的关系。作为物理攻击前提分析方法保留。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646778/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## AquaSonic: Acoustic Manipulation of Underwater Data Center Operations and Resource Management
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：水下声学注入使存储、分布式系统和调度降级，摘要核心是可用性与资源操纵；未证明通过观察间接信号恢复秘密，作为物理注入背景保留。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646672/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Breach Extraction Attacks: Exposing and Addressing the Leakage in Second Generation Compromised Credential Checking Services
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：MIGP 的密码协议与部署允许客户端取得额外凭据信息；摘要未把新增泄漏绑定到时间、长度或共享资源侧信道。保留协议泄漏背景，待全文澄清实现部分。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646859/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## CASA: A Compact and Scalable Accelerator for Approximate Homomorphic Encryption
 
 - 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i2.451-480)。
@@ -252,6 +273,13 @@
 - 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i2.403-425)。
 - 判定依据：Classic McEliece 译码 ASIC 的逆元消除和阵列设计降低面积/延迟；制造芯片和性能测量本身不构成侧信道评估。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Efficient Actively Secure DPF and RAM-based 2PC with One-Bit Leakage
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：one-bit leakage 是主动安全 2PC 协议的形式化放宽，不是论文已验证一个物理比特侧信道。作为密码协议泄漏模型背景保留。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646747/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Elastic MSM: A Fast, Elastic and Modular Preprocessing Technique for Multi-Scalar Multiplication Algorithm on GPUs
@@ -289,11 +317,32 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Guessing on Dominant Paths: Understanding the Limitation of Wireless Authentication Using Channel State Information
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：CSI 猜测和预编码用于伪装合法无线身份，属于主动认证绕过；摘要未说明受保护计算经额外观察泄漏，作为物理层认证背景保留。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646746/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## High-Performance Hardware Implementation of MPCitH and Picnic3
 
 - 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i2.190-214)。
 - 判定依据：MPCitH/Picnic3 硬件流水线和多方执行优化；MPCitH 中的参与方数量不等于物理掩码安全阶数。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Holepunch: Fast, Secure File Deletion with Crash Consistency
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：Holepunch 用可穿孔 PRF 和 TPM 实现密码擦除与崩溃一致性；摘要没有审查清理期间功耗或其他侧信道。最终存储不可恢复与清理轨迹安全须区分。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646784/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## INTFAIL: Using Spurious #VC Interrupts to Break AMD SEV-SNP
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：出版题名为 WeSee；恶意 hypervisor 注入 #VC 诱导寄存器/内存复制和任意行为，属于异常处理与完整性攻击。直接拷出 kTLS key 不自动构成侧信道推断；作为 TEE 威胁模型背景保留。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646722/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Impeccable Keccak: Towards Fault Resilient SPHINCS+ Implementations
@@ -303,11 +352,25 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## MetaFly: Wireless Backhaul Interception via Aerial Wavefront Manipulation
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：MetaFly 改变定向无线链路的波前以截获其通信信号；摘要是主通信信道窃听与物理操纵，不是密码实现的非预期泄漏。作为测量/传播背景保留。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646843/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## ModHE: Modular Homomorphic Encryption Using Module Lattices: Potentials and Limitations
 
 - 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i1.527-562)。
 - 判定依据：将 CKKS 类方案迁移到 Module-LWE 以改善硬件结构和参数灵活性；摘要讨论的是计算复杂度折衷。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## More Haste, Less Speed: Cache Related Security Threats in Continuous Integration Services
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：CI cache 指依赖包缓存对象的隔离、投毒和直接敏感文件暴露；不是 CPU cache 时序侧信道。作为跨信任域缓存设计背景保留。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646699/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Nibbling MAYO: Optimized Implementations for AVX2 and Cortex-M4
@@ -317,11 +380,25 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## No Privacy Left Outside: On the (In-)Security of TEE-Shielded DNN Partition for On-Device ML
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：TSDP 的模型窃取和成员推断利用分区后可见的权重/接口；摘要未将攻击归因于时序、功耗或缓存观察，作为 TEE 与 ML 隐私背景保留。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646815/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Optimized Hardware-Software Co-Design for Kyber and Dilithium on RISC-V SoC FPGA
 
 - 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i3.99-135)。
 - 判定依据：RISC-V SoC 上以多核、硬件乘法及汇编哈希加速 Kyber/Dilithium，摘要未评价泄漏。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Pandora: Principled Symbolic Validation of Intel SGX Enclave Runtimes
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：Pandora 对 SGX shielding runtime 的污点、符号内存及漏洞位置做验证；摘要未完整说明四类插件的侧信道性质，暂作实现验证背景，保留正文范围复核。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646841/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Revisiting Keccak and Dilithium Implementations on ARMv7-M
@@ -336,6 +413,34 @@
 - 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i2.215-251)。
 - 判定依据：SDitH 硬件中的 secret-share splitting 是协议实现内容；摘要未把它验证为物理侧信道掩码。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Secure Ranging with IEEE 802.15.4z HRP UWB
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：对 IEEE 802.15.4z STS 接收器做安全测距证明和数值实验，主要保证主动距离操纵下的距离上界；不能等同秘密侧信道或实际芯片泄漏测量。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646848/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## SoK: Efficient Design and Implementation of Polynomial Hash Functions over Prime Fields
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：素域多项式哈希设计的安全/性能综述与实现基准；摘要没有提出明确的实现侧信道目标，作为算术设计背景保留，正文恒时相关部分待核。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646805/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Surveilling the Masses with Wi-Fi-Based Positioning Systems
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：通过 WPS 服务直接枚举 BSSID 地理位置并做纵向关联，属于位置数据库/API 隐私暴露；摘要没有额外物理或共享资源侧信道，作为位置隐私背景保留。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646810/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## The Dark Side of Scale: Insecurity of Direct-to-Cell Satellite Mega-Constellations
+
+- 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
+- 判定依据：SatOver 利用信令和伪基站阻断 direct-to-cell 接入，主要是协议可用性与接入劫持；不可与卫星位置元数据侧信道合并。
+- 阅读来源：https://xplorestaging.ieee.org/document/10646850/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## A High-performance NTT/MSM Accelerator for Zero-knowledge Proof Using Load-balanced Fully-pipelined Montgomery Multiplier

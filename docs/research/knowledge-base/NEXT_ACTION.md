@@ -4,13 +4,13 @@
 
 ## 2026-11-13 文献库建设接续
 
-[统一文献入口](literature/README.md)当前包含 30 个核心会议年单元和 18 条引用扩展/基础记录；1,115 条标题已初筛，276 条摘要及以上判定，纳入 155 篇。已核对 49 条引用、11 条版本关系（10 条核实、1 条推定）；14 条登记发现中 13 条已解析、1 条待核查。S&P 2025 的 255 条录用记录已与独立取得的 IEEE 印刷目录双向对应，含一处改题名和一条页码 N/A 的记录。
+[统一文献入口](literature/README.md)当前包含 30 个核心会议年单元和 21 条引用扩展/基础记录；1,115 条标题已初筛，321 条摘要及以上判定，纳入 185 篇。已核对 58 条引用、12 条版本关系（11 条核实、1 条推定）；14 条登记发现已解析，尚不表示引用追踪完成。S&P 2024 的 261 条与 S&P 2025 的 255 条已分别与独立取得的 IEEE 印刷目录双向对应。
 
-最新批次补读 S&P 2025 的 25 篇原始摘要，新增 16 篇卡片、9 条相邻判定，另核查六篇指定正文；全部 36 个标题候选/不确定项现在都有摘要判定。S&P 2024 的 261 条标题已初筛，42 个候选/不确定项待摘要核查。EasyCrypt 的出版题名、DOI 及作者修订关系已对应，详见[批次记录](records/2026-11-13-literature-sp2025-remaining-sp2024-titles.md)和[观察与证明范围专题](literature/notes/sp2025-observation-and-proof-scopes-20261113.md)。此前 TCHES 的 168 条冻结补读队列也已有判定；相邻主题仍不能当作全文排除。
+最新批次补读 S&P 2024 的 42 篇原始摘要，新增 27 篇卡片、15 条相邻判定，另核查四篇指定正文；完成 261 条 DOI 身份对应，保留两条印刷改题名与九条作者元数据差异。Episode V 已核对恒时保证与版本范围，八条选读引用带来两篇窗口外基础卡片，详见[本批记录](records/2026-11-13-literature-sp2024-candidates-kyber-v.md)、[物理通道专题](literature/notes/sp2024-physical-and-proof-boundaries-20261113.md)和[证明范围专题](literature/notes/kyber-verification-episode-v-20261113.md)。此前 S&P 2025 的 36 个标题候选/不确定项及 TCHES 的 168 条冻结补读队列已有摘要判定；相邻主题仍不能当作全文排除。
 
-下一步先核对 EasyCrypt 引用 [12] 的 CRYPTO 2024 Episode V，再读 S&P 2024 的 42 个候选/不确定项；继续 TCHES 非关键词候选、HADES/HAETAE 防护章节、McEliece FPGA 勘误及其他目录逐题筛查。S&P 2025 仍有 219 条无摘要判定，其余 29 个核心单元待独立目录核对；扩展会议系统目录和全文专题也未完成。GoFetch 尚有 58 条基础引用待处理，Scheduled Disclosure 另有 16 条；310 项前后向任务中有 28 项进行中、282 项待处理，没有任务完成全部追踪。
+下一步继续 S&P 其他年度逐题筛查与独立目录核对，再扩到其他核心会议；同时补读 TCHES 非关键词候选、HADES/HAETAE 防护章节及 McEliece FPGA 勘误。S&P 2024、2025 各有 219 条无摘要判定，其余 28 个核心单元待独立目录核对；扩展会议系统目录和全文专题也未完成。GoFetch 尚有 58 条基础引用待处理，Scheduled Disclosure 另有 16 条；370 项前后向任务中有 36 项进行中、334 项待处理，没有任务完成全部追踪。
 
-继续查 S&P 的 N/A 记录最终出版状态、Finger in the Power 链接仓库返回 404 的原因，以及 Peek-a-Walk 端到端材料完整性。此前的[功耗权限与 PQC 恢复范围](literature/notes/power-observation-and-pqc-boundaries-20261113.md)继续有效。接续时先读[覆盖与缺口](literature/COVERAGE.md)，不能把冻结队列补读完、目录对应或脚本通过视为普查完成。
+继续查 S&P 2025 的 N/A 记录最终出版状态、S&P 2024 九条作者差异、Finger in the Power 链接仓库返回 404 的原因，以及 Peek-a-Walk 端到端材料完整性。Episode V 的 2024 年 5 月稿、正式版、major revision 与最终 FIPS 203 也尚未逐项比较。此前的[功耗权限与 PQC 恢复范围](literature/notes/power-observation-and-pqc-boundaries-20261113.md)继续有效。接续时先读[覆盖与缺口](literature/COVERAGE.md)，不能把冻结队列补读完、目录对应或脚本通过视为普查完成。
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 

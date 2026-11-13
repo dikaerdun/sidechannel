@@ -7,6 +7,10 @@
 
 - 2021 TCHES · [Analysis and Comparison of Table-based Arithmetic to Boolean Masking](https://doi.org/10.46586/tches.v2021.i3.275-297) · attack_and_countermeasure · abstract_and_bibliographic_metadata
 
+## access patterns
+
+- 2024 SP · [BULKOR: Enabling Bulk Loading for Path ORAM](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
+
 ## active acoustic sensing
 
 - 2025 SP · [Sniffing Location Privacy of Video Conference Users Using Free Audio Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-192) · active_acoustic_privacy_side_channel · abstract_and_bibliographic_metadata
@@ -30,6 +34,10 @@
 ## Android
 
 - 2025 SP · [I Know What You Sync: Covert and Side Channel Attacks on File Systems via syncfs](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-158) · shared_resource_timing_side_channel · abstract_and_bibliographic_metadata
+
+## AnonSat
+
+- 2024 SP · [Don't Shoot the Messenger: Localization Prevention of Satellite Internet Users](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · location_metadata_countermeasure · abstract_and_bibliographic_metadata
 
 ## Apple ARMv8
 
@@ -75,6 +83,14 @@
 
 - 2026 TCHES · [TAME: A Deep Learning-based Blind Side-Channel Analysis Framework](https://doi.org/10.46586/tches.v2026.i4.632-655) · method · abstract_and_bibliographic_metadata
 
+## ASP
+
+- 2024 SP · [Serberus: Protecting Cryptographic Code from Spectres at Compile-Time](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · formal_transient_execution_countermeasure · selected_full_text_sections
+
+## attribute-based encryption
+
+- 2024 SP · [Make Revocation Cheaper: Hardware-Based Revocable Attribute-Based Encryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · leakage_resilient_protocol · abstract_and_bibliographic_metadata
+
 ## audio misinformation
 
 - 2025 SP · [Spoofing Eavesdroppers with Audio Misinformation](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-199) · physical_side_channel_countermeasure · abstract_and_bibliographic_metadata
@@ -101,6 +117,7 @@
 
 ## belief propagation
 
+- 2017 CHES · [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) · pqc_single_trace_side_channel · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Belief Propagation Meets Lattice Reduction: Security Estimates for Error-Tolerant Key Recovery from Decryption Errors](https://doi.org/10.46586/tches.v2023.i4.287-317) · method · abstract_and_bibliographic_metadata
 - 2024 TCHES · [Exploiting Small-Norm Polynomial Multiplication with Physical Attacks: Application to CRYSTALS-Dilithium](https://doi.org/10.46586/tches.v2024.i2.359-383) · attack · abstract_and_bibliographic_metadata
 
@@ -128,6 +145,10 @@
 
 - 2022 TCHES · [Bitslicing Arithmetic/Boolean Masking Conversions for Fun and Profit: with Application to Lattice-Based KEMs](https://doi.org/10.46586/tches.v2022.i4.553-588) · countermeasure · abstract_and_bibliographic_metadata
 
+## BLE
+
+- 2024 SP · [Practical Obfuscation of BLE Physical-Layer Fingerprints on Mobile Devices](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · physical_fingerprint_countermeasure · abstract_and_bibliographic_metadata
+
 ## blind SCA
 
 - 2026 TCHES · [TAME: A Deep Learning-based Blind Side-Channel Analysis Framework](https://doi.org/10.46586/tches.v2026.i4.632-655) · method · abstract_and_bibliographic_metadata
@@ -144,9 +165,21 @@
 
 - 2025 SP · [Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-194) · attack · abstract_and_bibliographic_metadata
 
+## browser
+
+- 2024 SP · [GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · compression_side_channel · abstract_and_bibliographic_metadata
+
+## bus arbitration
+
+- 2024 SP · [BUSted!!! Microarchitectural Side-Channel Attacks on the MCU Bus Interconnect](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · microarchitectural_timing_side_channel · selected_full_text_sections
+
 ## cache capabilities
 
 - 2025 SP · [Ceviche: Capability-Enhanced Secure Virtualization of Caches](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-85) · countermeasure · abstract_and_bibliographic_metadata
+
+## cache eviction sets
+
+- 2024 SP · [Prune+PlumTree - Finding Eviction Sets at Scale](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_preprocessing · abstract_and_bibliographic_metadata
 
 ## cache partitioning
 
@@ -178,13 +211,22 @@
 
 - 2024 TCHES · [Defeating Low-Cost Countermeasures against Side-Channel Attacks in Lattice-based Encryption: A Case Study on Crystals-Kyber](https://doi.org/10.46586/tches.v2024.i2.795-818) · attack · abstract_and_bibliographic_metadata
 
+## chosen content
+
+- 2024 SP · [Injection Attacks Against End-to-End Encrypted Applications](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · ciphertext_length_side_channel · abstract_and_bibliographic_metadata
+
 ## Chrome
 
 - 2025 SP · [TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15) · attack · abstract_and_bibliographic_metadata
 
 ## ciphertext comparison
 
+- 2020 CRYPTO · [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) · pqc_timing_side_channel · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Higher-Order Masked Ciphertext Comparison for Lattice-Based Cryptography](https://doi.org/10.46586/tches.v2022.i2.115-139) · attack_and_countermeasure · abstract_and_bibliographic_metadata
+
+## ciphertext length
+
+- 2024 SP · [Injection Attacks Against End-to-End Encrypted Applications](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · ciphertext_length_side_channel · abstract_and_bibliographic_metadata
 
 ## Classic McEliece
 
@@ -201,9 +243,23 @@
 
 - 2025 SP · [BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-39) · physical_memory_attack_and_write_pattern_leakage · selected_full_text_sections
 
+## code confidentiality
+
+- 2024 SP · [Obelix: Mitigating Side-Channels through Dynamic Obfuscation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · system_side_channel_countermeasure · abstract_and_bibliographic_metadata
+
+## compiler
+
+- 2024 SP · [Serberus: Protecting Cryptographic Code from Spectres at Compile-Time](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · formal_transient_execution_countermeasure · selected_full_text_sections
+
 ## conditional VAE
 
 - 2025 TCHES · [Optimal Dimensionality Reduction using Conditional Variational AutoEncoder](https://doi.org/10.46586/tches.v2025.i3.164-211) · method · abstract_and_bibliographic_metadata
+
+## constant time
+
+- 2024 SP · [CONJUNCT: Learning Inductive Invariants to Prove Unbounded Instruction Safety Against Microarchitectural Timing Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · formal_side_channel_verification · abstract_and_bibliographic_metadata
+- 2024 CRYPTO · [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) · formal_pqc_security_and_constant_time · selected_full_text_sections
+- 2024 SP · [Serberus: Protecting Cryptographic Code from Spectres at Compile-Time](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · formal_transient_execution_countermeasure · selected_full_text_sections
 
 ## constant-time permutation
 
@@ -212,6 +268,10 @@
 ## containers
 
 - 2025 SP · [I Know What You Sync: Covert and Side Channel Attacks on File Systems via syncfs](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-158) · shared_resource_timing_side_channel · abstract_and_bibliographic_metadata
+
+## control flow
+
+- 2024 SP · [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · hardware_supported_side_channel_countermeasure · abstract_and_bibliographic_metadata
 
 ## Cortex-M3
 
@@ -232,9 +292,17 @@
 
 - 2021 ASIACCS · [Red Alert for Power Leakage: Exploiting Intel RAPL-Induced Side Channels](https://doi.org/10.1145/3433210.3437517) · attack · abstract_and_bibliographic_metadata
 
+## CPU cache
+
+- 2024 SP · [Efficient and Generic Microarchitectural Hash-Function Recovery](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · microarchitectural_mapping_and_side_channel · abstract_and_bibliographic_metadata
+
 ## CPU cache slice
 
 - 2025 SP · [Rapid Reversing of Non-Linear CPU Cache Slice Functions: Unlocking Physical Address Leakage](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-143) · microarchitectural_mapping_and_side_channel · abstract_and_bibliographic_metadata
+
+## CPU frequency
+
+- 2024 SP · [DeepTheft: Stealing DNN Model Architectures through Power Side Channel](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · power_and_frequency_side_channel · abstract_and_bibliographic_metadata
 
 ## cross-modal inference
 
@@ -267,6 +335,14 @@
 
 - 2025 SP · [IncognitOS: A Practical Unikernel Design for Full-System Obfuscation in Confidential Virtual Machines](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-127) · system_side_channel_countermeasure · selected_full_text_sections
 
+## data obliviousness
+
+- 2024 SP · [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · hardware_supported_side_channel_countermeasure · abstract_and_bibliographic_metadata
+
+## data remanence
+
+- 2024 SP · [UnTrustZone: Systematic Accelerated Aging to Expose On-chip Secrets](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · physical_data_remanence_attack · selected_full_text_sections
+
 ## data speculation
 
 - 2025 SP · [SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon](https://doi.org/10.1109/sp61157.2025.00098) · attack · abstract_and_bibliographic_metadata
@@ -291,9 +367,17 @@
 
 - 2025 SP · [Sparta: Practical Anonymity with Long-Term Resistance to Traffic Analysis](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-103) · traffic_analysis_countermeasure · selected_full_text_sections
 
+## device aging
+
+- 2024 SP · [UnTrustZone: Systematic Accelerated Aging to Expose On-chip Secrets](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · physical_data_remanence_attack · selected_full_text_sections
+
 ## device identification
 
 - 2023 DIMVA · [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) · measurement_and_fingerprinting · abstract_and_bibliographic_metadata
+
+## device tracking
+
+- 2024 SP · [Practical Obfuscation of BLE Physical-Layer Fingerprints on Mobile Devices](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · physical_fingerprint_countermeasure · abstract_and_bibliographic_metadata
 
 ## Diffie-Hellman
 
@@ -336,6 +420,18 @@
 
 - 2026 TCHES · [FrozenTRU: Cold Boot Attacks on NTRU-Based Hash-and-Sign Signatures](https://doi.org/10.46586/tches.v2026.i3.1007-1031) · attack · abstract_and_bibliographic_metadata
 
+## DMA
+
+- 2024 SP · [BUSted!!! Microarchitectural Side-Channel Attacks on the MCU Bus Interconnect](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · microarchitectural_timing_side_channel · selected_full_text_sections
+
+## DNN accelerator
+
+- 2024 SP · [Side-Channel-Assisted Reverse-Engineering of Encrypted DNN Hardware Accelerator IP and Attack Surface Exploration](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · electromagnetic_side_channel · abstract_and_bibliographic_metadata
+
+## DNN architecture
+
+- 2024 SP · [DeepTheft: Stealing DNN Model Architectures through Power Side Channel](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · power_and_frequency_side_channel · abstract_and_bibliographic_metadata
+
 ## domain isolation
 
 - 2025 SP · [Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-194) · attack · abstract_and_bibliographic_metadata
@@ -343,6 +439,10 @@
 ## DRAMA
 
 - 2025 SP · [Rapid Reversing of Non-Linear CPU Cache Slice Functions: Unlocking Physical Address Leakage](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-143) · microarchitectural_mapping_and_side_channel · abstract_and_bibliographic_metadata
+
+## E2E encrypted backups
+
+- 2024 SP · [Injection Attacks Against End-to-End Encrypted Applications](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · ciphertext_length_side_channel · abstract_and_bibliographic_metadata
 
 ## early-abort systemization
 
@@ -356,6 +456,7 @@
 
 - 2023 SP · [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) · attack · abstract_and_bibliographic_metadata
 - 2024 TCHES · [TPMScan: A wide-scale study of security-relevant properties of TPM 2.0 chips](https://doi.org/10.46586/tches.v2024.i2.714-734) · evaluation · abstract_and_bibliographic_metadata
+- 2024 SP · [Video-Based Cryptanalysis: Extracting Cryptographic Keys from Video Footage of a Device's Power LED Captured By Standard Video Cameras](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · optical_power_and_timing_side_channel · abstract_and_bibliographic_metadata
 - 2025 SP · [EUCLEAK](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-239) · attack · abstract_and_bibliographic_metadata
 
 ## ECSCHNORR
@@ -364,6 +465,7 @@
 
 ## EM
 
+- 2024 SP · [Side-Channel-Assisted Reverse-Engineering of Encrypted DNN Hardware Accelerator IP and Attack Surface Exploration](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · electromagnetic_side_channel · abstract_and_bibliographic_metadata
 - 2025 SP · [Your Cable, My Antenna: Eavesdropping Serial Communication via Backscatter Signals](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-157) · backscatter_side_channel · abstract_and_bibliographic_metadata
 
 ## error-correction codes
@@ -388,6 +490,14 @@
 - 2026 TCHES · [NTT-PEEL: Bit Shift Side-Channel in FALCON’s Number Theoretic Transform](https://doi.org/10.46586/tches.v2026.i2.709-735) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Secret Key Recovery of FALCON using Simple Power Analysis in Conditional Calculator](https://doi.org/10.46586/tches.v2026.i2.953-975) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [When Masking Multiplication Isn’t Enough: Exploiting Floating-Point Leakage in Falcon’s Pre-Image Computation](https://doi.org/10.46586/tches.v2026.i2.686-708) · attack · abstract_and_bibliographic_metadata
+
+## feedback channels
+
+- 2024 SP · [TCP Spoofing: Reliable Payload Transmission Past the Spoofed TCP Handshake](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · network_protocol_side_channel · abstract_and_bibliographic_metadata
+
+## FHE
+
+- 2024 SP · [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · metadata_privacy_protocol · abstract_and_bibliographic_metadata
 
 ## Fiat-Shamir with Aborts
 
@@ -421,6 +531,7 @@
 
 - 2022 TCHES · [Complete and Improved FPGA Implementation of Classic McEliece](https://doi.org/10.46586/tches.v2022.i3.71-113) · constant_time_implementation · selected_full_text_sections
 - 2022 TCHES · [Racing BIKE: Improved Polynomial Multiplication and Inversion in Hardware](https://doi.org/10.46586/tches.v2022.i1.557-588) · constant_time_implementation · abstract_and_bibliographic_metadata
+- 2024 SP · [Side-Channel-Assisted Reverse-Engineering of Encrypted DNN Hardware Accelerator IP and Attack Surface Exploration](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · electromagnetic_side_channel · abstract_and_bibliographic_metadata
 
 ## fresh re-keying
 
@@ -428,10 +539,15 @@
 
 ## FrodoKEM
 
+- 2020 CRYPTO · [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) · pqc_timing_side_channel · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Curse of Re-encryption: A Generic Power/EM Analysis on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2022.i1.296-322) · attack · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Multiple-Valued Plaintext-Checking Side-Channel Attacks on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2023.i3.473-503) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Efficient High-Order Masking of FrodoKEM’s CDT-Based Gaussian Sampler](https://doi.org/10.46586/tches.v2026.i2.868-892) · countermeasure · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Slicing Bits and Cutting Costs in CDT Sampling: High-Order Masking of FrodoKEM’s Gaussian Sampler, Revisited](https://doi.org/10.46586/tches.v2026.i4.549-574) · countermeasure · abstract_and_bibliographic_metadata
+
+## Fujisaki-Okamoto
+
+- 2020 CRYPTO · [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) · pqc_timing_side_channel · abstract_and_bibliographic_metadata
 
 ## full-decryption oracle
 
@@ -449,10 +565,26 @@
 
 - 2025 SP · [CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels](https://doi.org/10.1109/sp61157.2025.00079) · attack · abstract_and_bibliographic_metadata
 
+## GOMR
+
+- 2024 SP · [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · metadata_privacy_protocol · abstract_and_bibliographic_metadata
+
+## GPU
+
+- 2024 SP · [GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · compression_side_channel · abstract_and_bibliographic_metadata
+
 ## GPU/Chrome
 
 - 2023 SP · [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) · attack · abstract_and_bibliographic_metadata
 - 2025 SP · [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) · attack · selected_full_text_sections
+
+## graphical compression
+
+- 2024 SP · [GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · compression_side_channel · abstract_and_bibliographic_metadata
+
+## group messaging
+
+- 2024 SP · [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · metadata_privacy_protocol · abstract_and_bibliographic_metadata
 
 ## HADES
 
@@ -469,6 +601,14 @@
 ## hardware masking
 
 - 2025 TCHES · [HADES: Automated Hardware Design Exploration for Cryptographic Primitives](https://doi.org/10.46586/tches.v2025.i4.1-45) · countermeasure_design_tool · abstract_and_bibliographic_metadata
+
+## hardware Trojans
+
+- 2024 SP · [Rethinking IC Layout Vulnerability: Simulation-Based Hardware Trojan Threat Assessment with High Fidelity](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_based_trojan_assessment · abstract_and_bibliographic_metadata
+
+## hash function reverse engineering
+
+- 2024 SP · [Efficient and Generic Microarchitectural Hash-Function Recovery](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · microarchitectural_mapping_and_side_channel · abstract_and_bibliographic_metadata
 
 ## HAWK
 
@@ -494,9 +634,17 @@
 - 2026 TCHES · [From Multiplication to Recovery: A Single-trace Side-Channel Attack on HQC](https://doi.org/10.46586/tches.v2026.i4.890-916) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Sota Voce: Low-Noise Sampling of Sparse Fixed-Weight Vectors](https://doi.org/10.46586/tches.v2026.i1.353-375) · constant_time_implementation · abstract_and_bibliographic_metadata
 
+## human activity privacy
+
+- 2024 SP · [mimoCrypt: Multi-User Privacy-Preserving Wi-Fi Sensing via MIMO Encryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · physical_sensing_countermeasure · abstract_and_bibliographic_metadata
+
 ## IBPB
 
 - 2025 SP · [Breaking the Barrier: Post-Barrier Spectre Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-70) · attack · abstract_and_bibliographic_metadata
+
+## IC layout
+
+- 2024 SP · [Rethinking IC Layout Vulnerability: Simulation-Based Hardware Trojan Threat Assessment with High Fidelity](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_based_trojan_assessment · abstract_and_bibliographic_metadata
 
 ## ICMP
 
@@ -506,9 +654,17 @@
 
 - 2025 SP · [Your Cable, My Antenna: Eavesdropping Serial Communication via Backscatter Signals](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-157) · backscatter_side_channel · abstract_and_bibliographic_metadata
 
+## inductive invariants
+
+- 2024 SP · [CONJUNCT: Learning Inductive Invariants to Prove Unbounded Instruction Safety Against Microarchitectural Timing Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · formal_side_channel_verification · abstract_and_bibliographic_metadata
+
 ## Infineon secure elements
 
 - 2025 SP · [EUCLEAK](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-239) · attack · abstract_and_bibliographic_metadata
+
+## instruction extraction
+
+- 2024 SP · [On (the Lack of) Code Confidentiality in Trusted Execution Environments](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · code_confidentiality_side_channel · abstract_and_bibliographic_metadata
 
 ## Intel and AMD
 
@@ -536,6 +692,14 @@
 
 - 2021 TCHES · [Chosen Ciphertext k-Trace Attacks on Masked CCA2 Secure Kyber](https://doi.org/10.46586/tches.v2021.i4.88-113) · attack · abstract_and_bibliographic_metadata
 
+## IP reverse engineering
+
+- 2024 SP · [Side-Channel-Assisted Reverse-Engineering of Encrypted DNN Hardware Accelerator IP and Attack Surface Exploration](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · electromagnetic_side_channel · abstract_and_bibliographic_metadata
+
+## ISN
+
+- 2024 SP · [TCP Spoofing: Reliable Payload Transmission Past the Spoofed TCP Handshake](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · network_protocol_side_channel · abstract_and_bibliographic_metadata
+
 ## isochronous decoding
 
 - 2025 TCHES · [Tailorable codes for lattice-based KEMs with applications to compact ML-KEM instantiations](https://doi.org/10.46586/tches.v2025.i3.139-163) · constant_time_implementation · abstract_and_bibliographic_metadata
@@ -550,11 +714,16 @@
 
 ## Jasmin
 
+- 2024 CRYPTO · [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) · formal_pqc_security_and_constant_time · selected_full_text_sections
 - 2024 TCHES · [High-assurance zeroization](https://doi.org/10.46586/tches.v2024.i1.375-397) · countermeasure · abstract_and_bibliographic_metadata
 
 ## Keccak
 
 - 2026 TCHES · [How Strong is the FO-Calypse, Really? Instantiating Plaintext-Checking Oracles against Masked Software Implementations of ML-KEM](https://doi.org/10.46586/tches.v2026.i4.759-785) · attack · abstract_and_bibliographic_metadata
+
+## key leakage
+
+- 2024 SP · [Make Revocation Cheaper: Hardware-Based Revocable Attribute-Based Encryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · leakage_resilient_protocol · abstract_and_bibliographic_metadata
 
 ## key mismatch
 
@@ -579,6 +748,7 @@
 - 2023 TCHES · [Pushing the Limits of Generic Side-Channel Attacks on LWE-based KEMs - Parallel PC Oracle Attacks on Kyber KEM and Beyond](https://doi.org/10.46586/tches.v2023.i2.418-446) · attack · abstract_and_bibliographic_metadata
 - 2023 ASIACRYPT · [Too Many Hints – When LLL Breaks LWE](https://doi.org/10.1007/978-981-99-8730-6_4) · method · abstract_and_bibliographic_metadata
 - 2024 TCHES · [Defeating Low-Cost Countermeasures against Side-Channel Attacks in Lattice-based Encryption: A Case Study on Crystals-Kyber](https://doi.org/10.46586/tches.v2024.i2.795-818) · attack · abstract_and_bibliographic_metadata
+- 2024 CRYPTO · [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) · formal_pqc_security_and_constant_time · selected_full_text_sections
 - 2024 USENIX · [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) · attack · selected_full_text_sections
 - 2024 TCHES · [Hints from Hertz: Dynamic Frequency Scaling Side-Channel Analysis of Number Theoretic Transform in Lattice-Based KEMs](https://doi.org/10.46586/tches.v2024.i3.200-223) · attack · abstract_and_bibliographic_metadata
 - 2024 TCHES · [SPA-GPT: General Pulse Tailor for Simple Power Analysis Based on Reinforcement Learning](https://doi.org/10.46586/tches.v2024.i4.40-83) · method · abstract_and_bibliographic_metadata
@@ -594,6 +764,14 @@
 ## Kyber768
 
 - 2025 TCHES · [Adaptive Template Attacks on the Kyber Binomial Sampler](https://doi.org/10.46586/tches.v2025.i3.470-492) · attack · abstract_and_bibliographic_metadata
+
+## LAM
+
+- 2024 SP · [Leaky Address Masking: Exploiting Unmasked Spectre Gadgets with Noncanonical Address Translation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · transient_execution_side_channel · selected_full_text_sections
+
+## lattice encryption
+
+- 2017 CHES · [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) · pqc_single_trace_side_channel · abstract_and_bibliographic_metadata
 
 ## lattice KEMs
 
@@ -661,6 +839,10 @@
 
 - 2023 TCHES · [LPN-based Attacks in the White-box Setting](https://doi.org/10.46586/tches.v2023.i4.318-343) · attack_method · abstract_and_bibliographic_metadata
 
+## LRU
+
+- 2024 SP · [Prune+PlumTree - Finding Eviction Sets at Scale](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_preprocessing · abstract_and_bibliographic_metadata
+
 ## LWE
 
 - 2023 TCHES · [Belief Propagation Meets Lattice Reduction: Security Estimates for Error-Tolerant Key Recovery from Decryption Errors](https://doi.org/10.46586/tches.v2023.i4.287-317) · method · abstract_and_bibliographic_metadata
@@ -689,6 +871,7 @@
 
 ## masking
 
+- 2017 CHES · [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) · pqc_single_trace_side_channel · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Keep it Simple: Refreshing the NTT of Kyber’s Decapsulation to Prevent Plaintext-Checking Side-Channel Attacks](https://doi.org/10.46586/tches.v2026.i1.472-499) · countermeasure · abstract_and_bibliographic_metadata
 
 ## masking conversion
@@ -696,12 +879,17 @@
 - 2022 TCHES · [High-order Table-based Conversion Algorithms and Masking Lattice-based Encryption](https://doi.org/10.46586/tches.v2022.i2.1-40) · countermeasure · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Improved Gadgets for the High-Order Masking of Dilithium](https://doi.org/10.46586/tches.v2023.i4.110-145) · countermeasure · abstract_and_bibliographic_metadata
 
+## MCU
+
+- 2024 SP · [BUSted!!! Microarchitectural Side-Channel Attacks on the MCU Bus Interconnect](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · microarchitectural_timing_side_channel · selected_full_text_sections
+
 ## memory aliasing
 
 - 2025 SP · [BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-39) · physical_memory_attack_and_write_pattern_leakage · selected_full_text_sections
 
 ## memory tags
 
+- 2024 SP · [Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_analysis_and_memory_safety_defense · abstract_and_bibliographic_metadata
 - 2025 SP · [TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15) · attack · abstract_and_bibliographic_metadata
 
 ## metadata-private messaging
@@ -712,6 +900,10 @@
 
 - 2025 SP · [Spoofing Eavesdroppers with Audio Misinformation](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-199) · physical_side_channel_countermeasure · abstract_and_bibliographic_metadata
 
+## microarchitectural attacks
+
+- 2024 SP · [SoK: SGX.Fail: How Stuff Gets eXposed](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · systematization_of_side_channel_security · abstract_and_bibliographic_metadata
+
 ## microarchitectural optimizations
 
 - 2021 ISCA · [Opening Pandora’s Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data](https://doi.org/10.1109/isca52012.2021.00035) · model_analysis · abstract_and_bibliographic_metadata
@@ -719,6 +911,10 @@
 ## microarchitectural timing resolution
 
 - 2025 ASPLOS · [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) · attack_primitive · selected_full_text_sections
+
+## MIMO
+
+- 2024 SP · [mimoCrypt: Multi-User Privacy-Preserving Wi-Fi Sensing via MIMO Encryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · physical_sensing_countermeasure · abstract_and_bibliographic_metadata
 
 ## MinRank
 
@@ -743,6 +939,7 @@
 
 ## ML-KEM
 
+- 2024 CRYPTO · [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) · formal_pqc_security_and_constant_time · selected_full_text_sections
 - 2025 TCHES · [Tailorable codes for lattice-based KEMs with applications to compact ML-KEM instantiations](https://doi.org/10.46586/tches.v2025.i3.139-163) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2025 SP · [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) · implementation_security_design · selected_full_text_sections
 - 2026 TCHES · [A Framework for designing High-Order Side-Channel Protected Hardware Implementations of ML-KEM](https://doi.org/10.46586/tches.v2026.i2.272-295) · countermeasure · abstract_and_bibliographic_metadata
@@ -767,6 +964,14 @@
 - 2021 TCHES · [Side-Channel Protections for Picnic Signatures](https://doi.org/10.46586/tches.v2021.i4.239-282) · countermeasure · abstract_and_bibliographic_metadata
 - 2024 TCHES · [MiRitH: Efficient Post-Quantum Signatures from MinRank in the Head](https://doi.org/10.46586/tches.v2024.i2.304-328) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2025 TCHES · [Masking-Friendly Post-Quantum Signatures in the Threshold-Computation-in-the-Head Framework](https://doi.org/10.46586/tches.v2025.i4.667-710) · countermeasure · abstract_and_bibliographic_metadata
+
+## MTE
+
+- 2024 SP · [Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_analysis_and_memory_safety_defense · abstract_and_bibliographic_metadata
+
+## multi-enclave
+
+- 2024 SP · [Distributed & Scalable Oblivious Sorting and Shuffling](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
 
 ## multicore isolation
 
@@ -813,6 +1018,7 @@
 
 ## NTT
 
+- 2017 CHES · [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) · pqc_single_trace_side_channel · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Multi-moduli NTTs for Saber on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2022.i1.127-151) · masked_implementation_optimization · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Adapting Belief Propagation to Counter Shuffling of NTTs](https://doi.org/10.46586/tches.v2023.i1.60-88) · method · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Kavach: Lightweight masking techniques for polynomial arithmetic in lattice-based cryptography](https://doi.org/10.46586/tches.v2023.i3.366-390) · countermeasure · abstract_and_bibliographic_metadata
@@ -830,6 +1036,14 @@
 
 - 2025 SP · [IncognitOS: A Practical Unikernel Design for Full-System Obfuscation in Confidential Virtual Machines](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-127) · system_side_channel_countermeasure · selected_full_text_sections
 
+## oblivious shuffling
+
+- 2024 SP · [Distributed & Scalable Oblivious Sorting and Shuffling](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
+
+## oblivious sorting
+
+- 2024 SP · [Distributed & Scalable Oblivious Sorting and Shuffling](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
+
 ## offline templates
 
 - 2025 TCHES · [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://doi.org/10.46586/tches.v2025.i1.251-274) · attack · abstract_and_bibliographic_metadata
@@ -837,6 +1051,12 @@
 ## OpenTitan
 
 - 2025 SP · [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) · implementation_security_design · selected_full_text_sections
+
+## ORAM
+
+- 2024 SP · [BULKOR: Enabling Bulk Loading for Path ORAM](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
+- 2024 SP · [Distributed & Scalable Oblivious Sorting and Shuffling](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
+- 2024 SP · [Obelix: Mitigating Side-Channels through Dynamic Obfuscation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · system_side_channel_countermeasure · abstract_and_bibliographic_metadata
 
 ## OSIDH-LD
 
@@ -853,6 +1073,14 @@
 ## PAKE
 
 - 2026 TCHES · [Tempo: An ML-KEM to PAKE Compiler Resilient to Timing Attacks](https://doi.org/10.46586/tches.v2026.i3.744-768) · countermeasure · abstract_and_bibliographic_metadata
+
+## patch lifecycle
+
+- 2024 SP · [SoK: SGX.Fail: How Stuff Gets eXposed](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · systematization_of_side_channel_security · abstract_and_bibliographic_metadata
+
+## Path ORAM
+
+- 2024 SP · [BULKOR: Enabling Bulk Loading for Path ORAM](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
 
 ## PC oracle
 
@@ -881,9 +1109,17 @@
 
 - 2023 TCHES · [High-order Polynomial Comparison and Masking Lattice-based Encryption](https://doi.org/10.46586/tches.v2023.i1.153-192) · countermeasure · abstract_and_bibliographic_metadata
 
+## power
+
+- 2024 SP · [Rethinking IC Layout Vulnerability: Simulation-Based Hardware Trojan Threat Assessment with High Fidelity](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_based_trojan_assessment · abstract_and_bibliographic_metadata
+
 ## power fingerprinting
 
 - 2023 DIMVA · [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) · measurement_and_fingerprinting · abstract_and_bibliographic_metadata
+
+## power LED
+
+- 2024 SP · [Video-Based Cryptanalysis: Extracting Cryptographic Keys from Video Footage of a Device's Power LED Captured By Standard Video Cameras](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · optical_power_and_timing_side_channel · abstract_and_bibliographic_metadata
 
 ## PQC evaluation
 
@@ -904,6 +1140,11 @@
 ## PRELOAD+TIME
 
 - 2025 SP · [Half Spectre, Full Exploit: Hardening Rowhammer Attacks with Half Spectre Gadgets](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-174) · microarchitectural_side_channel_enabling_fault_attack · selected_full_text_sections
+
+## Prime+Probe
+
+- 2024 SP · [Efficient and Generic Microarchitectural Hash-Function Recovery](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · microarchitectural_mapping_and_side_channel · abstract_and_bibliographic_metadata
+- 2024 SP · [Prune+PlumTree - Finding Eviction Sets at Scale](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_preprocessing · abstract_and_bibliographic_metadata
 
 ## privacy loss
 
@@ -942,14 +1183,27 @@
 ## RAPL
 
 - 2021 ASIACCS · [Red Alert for Power Leakage: Exploiting Intel RAPL-Induced Side Channels](https://doi.org/10.1145/3433210.3437517) · attack · abstract_and_bibliographic_metadata
+- 2024 SP · [DeepTheft: Stealing DNN Model Architectures through Power Side Channel](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · power_and_frequency_side_channel · abstract_and_bibliographic_metadata
 
 ## recipient anonymity
 
 - 2025 SP · [Mixnets on a tightrope: Quantifying the leakage of mix networks using a provably optimal heuristic adversary](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-180) · traffic_leakage_model_and_evaluation · abstract_and_bibliographic_metadata
 
+## recipient metadata
+
+- 2024 SP · [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · metadata_privacy_protocol · abstract_and_bibliographic_metadata
+
 ## reinforcement learning
 
 - 2024 TCHES · [SPA-GPT: General Pulse Tailor for Simple Power Analysis Based on Reinforcement Learning](https://doi.org/10.46586/tches.v2024.i4.40-83) · method · abstract_and_bibliographic_metadata
+
+## RF fingerprints
+
+- 2024 SP · [Practical Obfuscation of BLE Physical-Layer Fingerprints on Mobile Devices](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · physical_fingerprint_countermeasure · abstract_and_bibliographic_metadata
+
+## RF localization
+
+- 2024 SP · [Don't Shoot the Messenger: Localization Prevention of Satellite Internet Users](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · location_metadata_countermeasure · abstract_and_bibliographic_metadata
 
 ## Rijndael-256
 
@@ -958,7 +1212,13 @@
 ## RISC-V
 
 - 2022 TCHES · [Masked Accelerators and Instruction Set Extensions for Post-Quantum Cryptography](https://doi.org/10.46586/tches.v2022.i1.414-460) · countermeasure · abstract_and_bibliographic_metadata
+- 2024 SP · [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · hardware_supported_side_channel_countermeasure · abstract_and_bibliographic_metadata
+- 2024 SP · [CONJUNCT: Learning Inductive Invariants to Prove Unbounded Instruction Safety Against Microarchitectural Timing Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · formal_side_channel_verification · abstract_and_bibliographic_metadata
 - 2026 TCHES · [AIPS: AI-Based Power Simulation for Pre-Silicon Side-Channel Security Evaluation](https://doi.org/10.46586/tches.v2026.i2.441-467) · method · abstract_and_bibliographic_metadata
+
+## rolling shutter
+
+- 2024 SP · [Video-Based Cryptanalysis: Extracting Cryptographic Keys from Video Footage of a Device's Power LED Captured By Standard Video Cameras](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · optical_power_and_timing_side_channel · abstract_and_bibliographic_metadata
 
 ## ROLLO+
 
@@ -979,6 +1239,10 @@
 - 2024 HPCA · [PREFETCHX: Cross-Core Cache-Agnostic Prefetcher-based Side-Channel Attacks](https://doi.org/10.1109/hpca57654.2024.00037) · attack · selected_full_text_sections
 - 2026 TCHES · [Racing against the clock: side-channel leakage from crossing asynchronous clock domains](https://doi.org/10.46586/tches.v2026.i2.28-50) · measurement · abstract_and_bibliographic_metadata
 
+## RTL
+
+- 2024 SP · [CONJUNCT: Learning Inductive Invariants to Prove Unbounded Instruction Safety Against Microarchitectural Timing Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · formal_side_channel_verification · abstract_and_bibliographic_metadata
+
 ## Saber
 
 - 2021 TCHES · [A Side-Channel Attack on a Masked IND-CCA Secure Saber KEM Implementation](https://doi.org/10.46586/tches.v2021.i4.676-707) · attack · abstract_and_bibliographic_metadata
@@ -994,6 +1258,10 @@
 ## Safari
 
 - 2025 SP · [SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon](https://doi.org/10.1109/sp61157.2025.00098) · attack · abstract_and_bibliographic_metadata
+
+## satellite Internet
+
+- 2024 SP · [Don't Shoot the Messenger: Localization Prevention of Satellite Internet Users](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · location_metadata_countermeasure · abstract_and_bibliographic_metadata
 
 ## schoolbook multiplication
 
@@ -1011,9 +1279,18 @@
 
 - 2025 SP · [Your Cable, My Antenna: Eavesdropping Serial Communication via Backscatter Signals](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-157) · backscatter_side_channel · abstract_and_bibliographic_metadata
 
+## SEV
+
+- 2024 SP · [On (the Lack of) Code Confidentiality in Trusted Execution Environments](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · code_confidentiality_side_channel · abstract_and_bibliographic_metadata
+
 ## SEV-SNP
 
 - 2025 SP · [BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-39) · physical_memory_attack_and_write_pattern_leakage · selected_full_text_sections
+
+## SGX
+
+- 2024 SP · [On (the Lack of) Code Confidentiality in Trusted Execution Environments](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · code_confidentiality_side_channel · abstract_and_bibliographic_metadata
+- 2024 SP · [SoK: SGX.Fail: How Stuff Gets eXposed](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · systematization_of_side_channel_security · abstract_and_bibliographic_metadata
 
 ## share slicing
 
@@ -1033,11 +1310,20 @@
 - 2022 USENIX · [Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.usenix.org/conference/usenixsecurity22/presentation/wang-yingchen) · attack · abstract_and_bibliographic_metadata
 - 2022 TCHES · [SIKE Channels: Zero-Value Side-Channel Attacks on SIKE](https://doi.org/10.46586/tches.v2022.i3.264-289) · attack · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Multiple-Valued Plaintext-Checking Side-Channel Attacks on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2023.i3.473-503) · attack · abstract_and_bibliographic_metadata
+- 2024 SP · [Video-Based Cryptanalysis: Extracting Cryptographic Keys from Video Footage of a Device's Power LED Captured By Standard Video Cameras](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · optical_power_and_timing_side_channel · abstract_and_bibliographic_metadata
 - 2025 SP · [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) · attack · selected_full_text_sections
 
 ## simplified CPA Kyber
 
 - 2025 TCHES · [Improved Attacks Against Lattice-Based KEMs Using Hints From Hertzbleed](https://doi.org/10.46586/tches.v2025.i4.463-485) · attack · abstract_and_bibliographic_metadata
+
+## single stepping
+
+- 2024 SP · [Obelix: Mitigating Side-Channels through Dynamic Obfuscation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · system_side_channel_countermeasure · abstract_and_bibliographic_metadata
+
+## SLAM
+
+- 2024 SP · [Leaky Address Masking: Exploiting Unmasked Spectre Gadgets with Noncanonical Address Translation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · transient_execution_side_channel · selected_full_text_sections
 
 ## software masking
 
@@ -1057,6 +1343,8 @@
 
 ## Spectre
 
+- 2024 SP · [Leaky Address Masking: Exploiting Unmasked Spectre Gadgets with Noncanonical Address Translation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · transient_execution_side_channel · selected_full_text_sections
+- 2024 SP · [Serberus: Protecting Cryptographic Code from Spectres at Compile-Time](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · formal_transient_execution_countermeasure · selected_full_text_sections
 - 2025 SP · [Breaking the Barrier: Post-Barrier Spectre Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-70) · attack · abstract_and_bibliographic_metadata
 - 2025 SP · [Rapid Reversing of Non-Linear CPU Cache Slice Functions: Unlocking Physical Address Leakage](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-143) · microarchitectural_mapping_and_side_channel · abstract_and_bibliographic_metadata
 
@@ -1076,17 +1364,33 @@
 
 - 2025 SP · [TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15) · attack · abstract_and_bibliographic_metadata
 
+## speculative probing
+
+- 2024 SP · [Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_analysis_and_memory_safety_defense · abstract_and_bibliographic_metadata
+
 ## speculative return prediction
 
 - 2025 SP · [Breaking the Barrier: Post-Barrier Spectre Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-70) · attack · abstract_and_bibliographic_metadata
+
+## spoofing
+
+- 2024 SP · [TCP Spoofing: Reliable Payload Transmission Past the Spoofed TCP Handshake](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · network_protocol_side_channel · abstract_and_bibliographic_metadata
 
 ## SQIsign
 
 - 2025 TCHES · [Constant time lattice reduction in dimension 4 with application to SQIsign](https://doi.org/10.46586/tches.v2025.i2.511-534) · constant_time_implementation · abstract_and_bibliographic_metadata
 
+## SRAM
+
+- 2024 SP · [UnTrustZone: Systematic Accelerated Aging to Expose On-chip Secrets](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · physical_data_remanence_attack · selected_full_text_sections
+
 ## Streamlined NTRU Prime
 
 - 2024 TCHES · [Gadget-based Masking of Streamlined NTRU Prime Decapsulation in Hardware](https://doi.org/10.46586/tches.v2024.i1.1-26) · countermeasure · abstract_and_bibliographic_metadata
+
+## SVG
+
+- 2024 SP · [GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · compression_side_channel · abstract_and_bibliographic_metadata
 
 ## symbolic execution
 
@@ -1106,10 +1410,14 @@
 
 ## TCP
 
+- 2024 SP · [TCP Spoofing: Reliable Payload Transmission Past the Spoofed TCP Handshake](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · network_protocol_side_channel · abstract_and_bibliographic_metadata
 - 2025 SP · [SCAD: Towards a Universal and Automated Network Side-Channel Vulnerability Detection](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-24) · automated_side_channel_detection · selected_full_text_sections
 
 ## TEE
 
+- 2024 SP · [BULKOR: Enabling Bulk Loading for Path ORAM](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
+- 2024 SP · [Make Revocation Cheaper: Hardware-Based Revocable Attribute-Based Encryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · leakage_resilient_protocol · abstract_and_bibliographic_metadata
+- 2024 SP · [Obelix: Mitigating Side-Channels through Dynamic Obfuscation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · system_side_channel_countermeasure · abstract_and_bibliographic_metadata
 - 2025 SP · [BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-39) · physical_memory_attack_and_write_pattern_leakage · selected_full_text_sections
 
 ## TEE ciphertext side channels
@@ -1128,12 +1436,21 @@
 
 - 2025 SP · [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) · attack · selected_full_text_sections
 
+## timing
+
+- 2024 SP · [Rethinking IC Layout Vulnerability: Simulation-Based Hardware Trojan Threat Assessment with High Fidelity](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_based_trojan_assessment · abstract_and_bibliographic_metadata
+
+## TLB
+
+- 2024 SP · [Leaky Address Masking: Exploiting Unmasked Spectre Gadgets with Noncanonical Address Translation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · transient_execution_side_channel · selected_full_text_sections
+
 ## Toom-Cook
 
 - 2022 TCHES · [Single-Trace Side-Channel Attacks on the Toom-Cook: The Case Study of Saber](https://doi.org/10.46586/tches.v2022.i4.285-310) · attack · abstract_and_bibliographic_metadata
 
 ## Tor
 
+- 2024 SP · [Real-Time Website Fingerprinting Defense via Traffic Cluster Anonymization](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · traffic_side_channel_countermeasure · abstract_and_bibliographic_metadata
 - 2025 SP · [CountMamba: A Generalized Website Fingerprinting Attack via Coarse-Grained Representation and Fine-Grained Prediction](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-250) · traffic_side_channel · abstract_and_bibliographic_metadata
 
 ## TPM
@@ -1148,9 +1465,25 @@
 
 - 2025 SP · [CountMamba: A Generalized Website Fingerprinting Attack via Coarse-Grained Representation and Fine-Grained Prediction](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-250) · traffic_side_channel · abstract_and_bibliographic_metadata
 
+## traffic shaping
+
+- 2024 SP · [Real-Time Website Fingerprinting Defense via Traffic Cluster Anonymization](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · traffic_side_channel_countermeasure · abstract_and_bibliographic_metadata
+
+## TrustZone
+
+- 2024 SP · [UnTrustZone: Systematic Accelerated Aging to Expose On-chip Secrets](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · physical_data_remanence_attack · selected_full_text_sections
+
+## TrustZone-M
+
+- 2024 SP · [BUSted!!! Microarchitectural Side-Channel Attacks on the MCU Bus Interconnect](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · microarchitectural_timing_side_channel · selected_full_text_sections
+
 ## TVM
 
 - 2025 SP · [CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels](https://doi.org/10.1109/sp61157.2025.00079) · attack · abstract_and_bibliographic_metadata
+
+## UAI
+
+- 2024 SP · [Leaky Address Masking: Exploiting Unmasked Spectre Gadgets with Noncanonical Address Translation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · transient_execution_side_channel · selected_full_text_sections
 
 ## UDP
 
@@ -1190,6 +1523,10 @@
 
 - 2025 SP · [BPSniff: Continuously Surveilling Private Blood Pressure Information in the Metaverse via Unrestricted Inbuilt Motion Sensors](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-81) · sensor_side_channel · abstract_and_bibliographic_metadata
 
+## WASM
+
+- 2024 SP · [On (the Lack of) Code Confidentiality in Trusted Execution Environments](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · code_confidentiality_side_channel · abstract_and_bibliographic_metadata
+
 ## WebAssembly
 
 - 2023 DIMVA · [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) · measurement_and_fingerprinting · abstract_and_bibliographic_metadata
@@ -1197,11 +1534,16 @@
 ## website fingerprinting
 
 - 2021 ASIACCS · [Red Alert for Power Leakage: Exploiting Intel RAPL-Induced Side Channels](https://doi.org/10.1145/3433210.3437517) · attack · abstract_and_bibliographic_metadata
+- 2024 SP · [Real-Time Website Fingerprinting Defense via Traffic Cluster Anonymization](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · traffic_side_channel_countermeasure · abstract_and_bibliographic_metadata
 - 2025 SP · [CountMamba: A Generalized Website Fingerprinting Attack via Coarse-Grained Representation and Fine-Grained Prediction](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-250) · traffic_side_channel · abstract_and_bibliographic_metadata
 
 ## white-box masking
 
 - 2023 TCHES · [LPN-based Attacks in the White-box Setting](https://doi.org/10.46586/tches.v2023.i4.318-343) · attack_method · abstract_and_bibliographic_metadata
+
+## Wi-Fi sensing
+
+- 2024 SP · [mimoCrypt: Multi-User Privacy-Preserving Wi-Fi Sensing via MIMO Encryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · physical_sensing_countermeasure · abstract_and_bibliographic_metadata
 
 ## Windows scheduler
 

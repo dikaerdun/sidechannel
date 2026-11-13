@@ -2,32 +2,32 @@
   "cutoff": "2026-11-12",
   "rolling_window_start": "2021-11-12",
   "reading_updated_on": "2026-11-13",
-  "total_catalog_records": 6647,
+  "total_catalog_records": 6650,
   "priority_counts": {
-    "unmatched_pending": 5410,
-    "sca_terms": 900,
-    "pqc_terms": 194,
-    "pqc_and_sca_terms": 143
+    "unmatched_pending": 5398,
+    "sca_terms": 910,
+    "pqc_terms": 195,
+    "pqc_and_sca_terms": 147
   },
   "core_catalog_records": 6629,
-  "citation_expansion_records": 18,
+  "citation_expansion_records": 21,
   "title_screened_records": 1115,
-  "abstract_screened_records": 276,
-  "included_papers": 155,
+  "abstract_screened_records": 321,
+  "included_papers": 185,
   "reading_level_counts": {
-    "abstract_and_bibliographic_metadata": 139,
-    "selected_full_text_sections": 16
+    "abstract_and_bibliographic_metadata": 164,
+    "selected_full_text_sections": 21
   },
   "citation_progress": {
-    "verified_citation_edges": 49,
-    "verified_version_edges": 10,
+    "verified_citation_edges": 58,
+    "verified_version_edges": 11,
     "inferred_version_edges": 1,
     "task_status_counts": {
-      "pending": 282,
-      "in_progress": 28
+      "pending": 334,
+      "in_progress": 36
     },
-    "unresolved_discoveries": 1,
-    "resolved_discoveries": 13
+    "unresolved_discoveries": 0,
+    "resolved_discoveries": 14
   },
   "core_cells": [
     {
@@ -153,12 +153,13 @@
       "catalog_records": 261,
       "catalog_parsed": true,
       "provenance_file": "provenance/sp-2024.json",
-      "independent_toc_crosscheck": "pending",
-      "screened_records": 0,
+      "independent_toc_crosscheck": "matched_print_toc_with_caveat",
+      "screened_records": 42,
       "title_screened_records": 261,
-      "abstract_screened_records": 0,
+      "abstract_screened_records": 42,
       "citation_chasing": "pending",
-      "complete": false
+      "complete": false,
+      "toc_crosscheck_provenance": "provenance/sp2024-print-toc-crosscheck-20261113.json"
     },
     {
       "venue": "SP",

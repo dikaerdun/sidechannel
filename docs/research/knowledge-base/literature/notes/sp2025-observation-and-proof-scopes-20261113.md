@@ -26,7 +26,7 @@
 
 已读[作者 PDF](https://cryptosith.org/papers/mapreduce-20250907.pdf)第 2 页贡献、第 3 页脚注、第 6 页 Jasmin 说明、第 17 页结论及第 18 页两条参考文献。论文的新方法聚焦功能正确性，将推演证明与电路等价检查结合以验证优化的 ML-KEM 拒绝采样、压缩和 Keccak。正文另说明 Jasmin 工具链对恒时与推测恒时属性的保持能力，但**功能等价、工具具备检查能力、具体程序通过检查和物理泄漏安全是不同层次**。当前按功能验证与工具链背景保留，不将摘要或通用工具能力扩张为本地审计过的新实现侧信道保证。
 
-参考文献 [11] 已与 TCHES 2023 的 Episode IV 对应；[12] 的 CRYPTO 2024 Episode V 已登记待核对身份与范围。[两条选读引用](../citations/easycrypt-selected-reference-screen.jsonl)不是全参考文献清单。前一篇的[实现证据范围记录](tches-implementation-evidence-boundaries-20261113.md)继续适用。
+参考文献 [11]、[12] 已分别与 TCHES 2023 Episode IV、CRYPTO 2024 Episode V 对应；后者已补读恒时证明范围与八条引用，见 [Episode V 记录](kyber-verification-episode-v-20261113.md)。这不等于完成 S&P 后继论文新实现的侧信道产物审计。[两条选读引用](../citations/easycrypt-selected-reference-screen.jsonl)不是全参考文献清单。前一篇的[实现证据范围记录](tches-implementation-evidence-boundaries-20261113.md)继续适用。
 
 ## 其他容易混淆的范围
 

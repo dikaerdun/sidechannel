@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6647 条，其中 337 条命中后量子相关关键词。
+当前目录记录 6650 条，其中 342 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -187,9 +187,12 @@
 | 2024 CCS | [The LaZer Library: Lattice-Based Zero Knowledge and Succinct Proofs for Quantum-Safe Privacy](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
 | 2024 CCS | [Two-Tier Data Packing in RLWE-based Homomorphic Encryption for Secure Federated Learning](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
 | 2024 CCS | [Whipping the Multivariate-based MAYO Signature Scheme using Hardware Platforms](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
+| 2024 CRYPTO | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | include |
 | 2024 NDSS | [When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications](https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/) | pending |
+| 2024 SP | [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | include |
 | 2024 SP | [Ligetron: Lightweight Scalable End-to-End Zero-Knowledge Proofs. Post-Quantum ZK-SNARKs on a Browser](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | pending |
 | 2024 SP | [MPC-in-the-Head Framework without Repetition and its Applications to the Lattice-based Cryptography](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | pending |
+| 2024 SP | [Video-Based Cryptanalysis: Extracting Cryptographic Keys from Video Footage of a Device's Power LED Captured By Standard Video Cameras](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | include |
 | 2024 TCHES | [A Highly-efficient Lattice-based Post-Quantum Cryptography Processor for IoT Applications](https://doi.org/10.46586/tches.v2024.i2.130-153) | adjacent |
 | 2024 TCHES | [A Not So Discrete Sampler: Power Analysis Attacks on HAWK signature scheme](https://doi.org/10.46586/tches.v2024.i4.156-178) | include |
 | 2024 TCHES | [Carry Your Fault: A Fault Propagation Attack on Side-Channel Protected LWE-based KEM](https://doi.org/10.46586/tches.v2024.i2.844-869) | adjacent |
@@ -343,3 +346,5 @@
 | 2021 USENIX | [A Side Journey To Titan](https://www.usenix.org/conference/usenixsecurity21/presentation/roche) | pending |
 | 2021 USENIX | [Privacy and Integrity Preserving Computations with CRISP](https://www.usenix.org/conference/usenixsecurity21/presentation/chatel) | pending |
 | 2021 USENIX | [Raccoon Attack: Finding and Exploiting Most-Significant-Bit-Oracles in TLS-DH(E)](https://www.usenix.org/conference/usenixsecurity21/presentation/merget) | pending |
+| 2020 CRYPTO | [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) | include |
+| 2017 CHES | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | include |

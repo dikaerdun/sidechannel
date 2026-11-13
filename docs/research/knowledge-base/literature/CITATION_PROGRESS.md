@@ -1,15 +1,24 @@
 # 引用与版本追踪进度
 
-已核对 49 条引用条目；版本关系共 11 条，其中 10 条书目核实、1 条为原始来源推定。它们不等于被引论文已全部读完。
-追踪任务共 310 项：in_progress=28, pending=282。
-已登记发现中，13 条完成身份与范围判定，1 条仍待核查；已解析记录继续保留历史。
+已核对 58 条引用条目；版本关系共 12 条，其中 11 条书目核实、1 条为原始来源推定。它们不等于被引论文已全部读完。
+追踪任务共 370 项：in_progress=36, pending=334。
+已登记发现中，14 条完成身份与范围判定，0 条仍待核查；已解析记录继续保留历史。
 
-GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 选读 [61]，Peek-a-Walk 选读 [15]、[53]，EasyCrypt S&P 2025 选读 [11]、[12]。这些选读不构成完整参考文献筛查。
+GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 选读 [61]，Peek-a-Walk 选读 [15]、[53]，EasyCrypt S&P 2025 选读 [11]、[12]，CRYPTO Episode V 选读八条。这些选读不构成完整参考文献筛查。
 [GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)
 
 | 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |
 |---|---:|---|---|
+| [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 8 | [Formally verifying Kyber: Episode IV: Implementation correctness](https://doi.org/10.46586/tches.v2023.i3.164-193) | abstract read; adjacent (see ADJACENT_NOTES) |
+| [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 36 | [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) | abstract_and_bibliographic_metadata |
+| [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 37 | [Chosen Ciphertext k-Trace Attacks on Masked CCA2 Secure Kyber](https://doi.org/10.46586/tches.v2021.i4.88-113) | abstract_and_bibliographic_metadata |
+| [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 38 | [Belief Propagation Meets Lattice Reduction: Security Estimates for Error-Tolerant Key Recovery from Decryption Errors](https://doi.org/10.46586/tches.v2023.i4.287-317) | abstract_and_bibliographic_metadata |
+| [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 39 | [Adapting Belief Propagation to Counter Shuffling of NTTs](https://doi.org/10.46586/tches.v2023.i1.60-88) | abstract_and_bibliographic_metadata |
+| [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 55 | [A Side-Channel Attack on a Masked IND-CCA Secure Saber KEM Implementation](https://doi.org/10.46586/tches.v2021.i4.676-707) | abstract_and_bibliographic_metadata |
+| [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 57 | [Fault Attacks on CCA-secure Lattice KEMs](https://doi.org/10.46586/tches.v2021.i2.37-60) | abstract read; adjacent (see ADJACENT_NOTES) |
+| [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 58 | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | abstract_and_bibliographic_metadata |
 | [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | 11 | [Formally verifying Kyber: Episode IV: Implementation correctness](https://doi.org/10.46586/tches.v2023.i3.164-193) | abstract read; adjacent (see ADJACENT_NOTES) |
+| [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | 12 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | selected_full_text_sections |
 | [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) | 61 | [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) | selected_full_text_sections |
 | [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) | 15 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | selected_full_text_sections |
 | [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) | 53 | [Too Many Hints – When LLL Breaks LWE](https://doi.org/10.1007/978-981-99-8730-6_4) | abstract_and_bibliographic_metadata |
@@ -23,7 +32,7 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 | [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 15 | [AMD Prefetch Attacks through Power and Time](https://www.usenix.org/conference/usenixsecurity22/presentation/lipp) | catalog only; abstract pending |
 | [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 16 | [Collide+Power: Leaking Inaccessible Data with Software-based Power Side Channels](https://www.usenix.org/conference/usenixsecurity23/presentation/kogler) | catalog only; abstract pending |
 | [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 17 | [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) | abstract_and_bibliographic_metadata |
-| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 49 | [GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | catalog only; abstract pending |
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 49 | [GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
 | [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 50 | [Pixel Thief: Exploiting SVG Filter Leakage in Firefox and Chrome](https://www.usenix.org/conference/usenixsecurity24/presentation/oconnell) | catalog only; abstract pending |
 | [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 64 | [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) | selected_full_text_sections |
 | [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 68 | [SIKE Channels: Zero-Value Side-Channel Attacks on SIKE](https://doi.org/10.46586/tches.v2022.i3.264-289) | abstract_and_bibliographic_metadata |
@@ -74,6 +83,7 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 | [来源](https://eprint.iacr.org/2021/123) | [A Systematic Approach and Analysis of Key Mismatch Attacks on Lattice-Based NIST Candidate KEMs](https://doi.org/10.1007/978-3-030-92068-5_4) | author_revision_of; bibliographic work-family relation checked; full-text equivalence not claimed |
 | [来源](https://eprint.iacr.org/2023/237) | [Fast Practical Lattice Reduction Through Iterated Compression](https://doi.org/10.1007/978-3-031-38548-3_1) | author_revision_of; bibliographic work-family relation checked; full-text equivalence not claimed |
 | [来源](https://eprint.iacr.org/2025/1607) | [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | author_revision_of; verified bibliographic relation; published-vs-revision full-text differences not audited |
+| [来源](https://eprint.iacr.org/2024/843) | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | author_revision_of; verified bibliographic relation; no claim of text equivalence or fully audited revision chronology |
 
 ## 本批纠正与未完成项
 
@@ -85,5 +95,5 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 - GoFetch [71] 的 Flatter 已读摘要并归为格约简方法背景，见 [相邻主题记录](ADJACENT_NOTES.md)；未计作独立侧信道攻击。
 - Scheduled Disclosure 的密码实验对象为 SIKE-751；15 条引用已与目录对应，ASIACCS/DIMVA/ASPLOS 三条发现已读并解析。OpenTitan 的 Share-slicing 引用已补读摘要与讨论，作为窗口外基础文献保留；完整追踪仍未完成。
 - Peek-a-Walk 标题无 PQC 名称，正文包含参考 Dilithium-2 的 nonce 泄漏与格后处理；已对应 GoFetch 与 Too Many Hints 两条引用，其余参考文献尚待逐条筛查。
-- EasyCrypt S&P 2025 的 [11] 已对应 TCHES Episode IV，[12] 的 CRYPTO Episode V 登记为待核查发现。ePrint 2025/1607 明确标为同一 DOI 的 minor revision；题名别名与全文差异分别处理。见 [两条选读](citations/easycrypt-selected-reference-screen.jsonl)。
+- EasyCrypt S&P 2025 的 [11]、[12] 已对应 Episode IV、Episode V；后者补读恒时证明范围及 [八条选读引用](citations/kyber-v-selected-reference-screen.jsonl)，新增 CRYPTO 2020 与 CHES 2017 两篇窗口外基础卡片。ePrint 2025/1607 的 minor revision 与 2024/843 的 major revision 均有显式书目关系，全文差异尚未核对。见 [Episode V 范围记录](notes/kyber-verification-episode-v-20261113.md)。
 - 前向关系只记录当前实际看到的引用，不等于枚举了所有后续论文。扩展会议的系统目录、未解析引用及基础文献筛查继续进行。

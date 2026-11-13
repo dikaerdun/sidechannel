@@ -29,6 +29,14 @@ python3 docs/research/knowledge-base/literature/tools/audit_sp2025_print_toc.py 
 
 正式条目在 `papers.jsonl`；摘要卡片是人工构思并经来源阅读后写入的整理，不由关键词推导。引用队列中的 pending 不表示关系已经核实。当前没有对目录覆盖或实验结论作自动完成判定。
 
+S&P 2024 另提供同样只读的复查入口：
+
+```sh
+python3 docs/research/knowledge-base/literature/tools/audit_sp2024_print_toc.py --pdf <outside-repository-pdf>
+```
+
+来源见 [S&P 2024 provenance](../provenance/sp2024-print-toc-crosscheck-20261113.json)。该 PDF 第 3 页内嵌字形编码损坏，四条记录已在整理时通过渲染页人工读取；脚本保留该转录，重新提取其余 257 条，与保存的 261 行比较。它不声称自动 OCR 或再次独立视觉核验这四条。261 条已迁移到核对过的 DOI，原题名与作者显示继续保留；九条作者元数据差异另行标记，不能把统一身份等同于完全校正作者名单。
+
 缓存命中时核对原始内容 SHA-256。网站布局变化、年份不一致、分页变化、重复记录及访问失败应留下缺口并人工处理。协议中的独立目录核对和全文阅读不会因脚本成功而自动完成。
 
 2026-11-12 修正：保留 Crossref 主标题与副标题，合并为可读标题；TCHES 卷首前言单列排除。S&P 2023 以另一官方日程补入主列表遗漏的 DVFS 论文，两个页面的差异留在 provenance。引用扩展条目放在 `catalogs/citation-expansion.jsonl`，不是完整会议目录；扩展来源与核心 30 单元分开计数。
