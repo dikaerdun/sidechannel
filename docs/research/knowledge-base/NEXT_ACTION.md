@@ -20,6 +20,8 @@
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-13 增补[轨迹编码、任务安全与物理可辨识性](brainstorms/2026-11-13-trajectory-codes-task-security-identifiability.md)。先由掩码/RTL 研究者界定真实观察族，由密码学/推断研究者明确任务与公开信息基线，由系统辨识/测量研究者提交等价范围和分叉干预。六个开放问题中详细展开这三项，保留可辨识性的理论诊断机会。均待用户安排他人验证，未派发、未执行，不增加 BOLD 种子数；见[交接记录](records/2026-11-13-trajectory-task-identifiability-handoff.md)。
+
 2026-11-13 增补[时间方向、模约减商与混合算法的物理组合](brainstorms/2026-11-13-time-arrow-quotients-hybrid-composition.md)。分别交给随机过程/电路、编译器/格侧信息、组合密码学/实现研究者：先核对同谱反向链并找真实状态；导出固定内核的整数语义；写出含分支披露与共享状态的观察游戏。保留时间方向的小规模理论诊断。三项均待验证，未派发、未执行，不增加 BOLD 种子数；见[交接记录](records/2026-11-13-time-quotient-hybrid-handoff.md)。
 
 2026-11-13 增补[安全资源下界、难问题泄漏与跨实现预测](brainstorms/2026-11-13-resource-bounds-lwe-leakage-counterfactuals.md)。第一项先交有限计算图中的完整资源规则及证明或反例；第二项先交允许接口、安全游戏及全执行模拟器或反例，保留小规模理论诊断；第三项先交四份功能等价实现及对留出实现的分叉预测。三项深化既有方向，不增加种子计数，由用户安排他人验证；详见[交接记录](records/2026-11-13-resource-lwe-counterfactual-handoff.md)。本轮未运行实验、仿真、训练或派发任务。

@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-13 追加[计算轨迹的防护编码、任务安全与物理可辨识性](brainstorms/2026-11-13-trajectory-codes-task-security-identifiability.md)：列出六个开放问题，详细深化前三项。首轮分别检查真实时空观察族、完整秘密有歧义时的指定任务能力、等价模型与独立物理锚点。三个手工见证待用户安排他人核验；仍追踪 40 条 BOLD 种子，不升级实验状态，详见[交接记录](records/2026-11-13-trajectory-task-identifiability-handoff.md)。
+
 2026-11-13 追加[时间方向、模约减商与混合算法的物理组合](brainstorms/2026-11-13-time-arrow-quotients-hybrid-composition.md)：分别深化 BOLD-07、PQC-H001/H002 与 BOLD-20/29/30。三项先交同谱反向链的独立核对、固定实现的整数等式、包含分支披露的完整观察游戏。仍追踪 40 条 BOLD 种子，不增加编号或升级实验状态；由用户安排他人验证，详见[交接记录](records/2026-11-13-time-quotient-hybrid-handoff.md)。
 
 2026-11-13 追加[安全资源下界、难问题泄漏与跨实现预测](brainstorms/2026-11-13-resource-bounds-lwe-leakage-counterfactuals.md)：分别深化 BOLD-36、RP-C、原型 M 与 BOLD-19。先交有限模型中的证明或反例、允许泄漏接口及全执行模拟、对整份留出实现的分叉预测。三项待用户安排他人验证，不增加 BOLD 编号或升级实验状态；详见[交接记录](records/2026-11-13-resource-lwe-counterfactual-handoff.md)。
