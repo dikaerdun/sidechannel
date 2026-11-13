@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-13 第十一批构思增补：[算法约束自校准、隐藏编码与可感知测量](brainstorms/2026-11-13-self-calibration-hidden-encoding-observer.md)记录盲校准、ExSASCA、SCAUL、EVIL Machine、联合编码防护、Renesas SRAM ECC 说明及探头检测论文七项原始页面的阅读范围。两项 Tektronix 页面直接访问 403，未据搜索片段建立事实。手工理想见证与现实机制分开，未运行实验或增加正式文献卡片。
+
 2026-11-13 原型增补：[泄漏回波、动态表示与机制发现](brainstorms/2026-11-13-echo-representations-mechanism-discovery.md)记录动态解耦、差分逻辑、汇编级平衡、局部 NTT 掩码、Kavach、Scam-V、Rosita++ 七项原始摘要及元数据的阅读范围。IEEE 同题记录直接打开返回 418，未建立经核实的版本关系。三个原型细化已有主线，未运行实验或增加正式文献卡片。
 
 2026-11-13 第十批构思增补：[密钥、种子与防护规模](brainstorms/2026-11-13-key-device-seeds-scaling.md)记录 NIST PQC FAQ 的种子格式条目、NIST 掩码 Technical note、硬件随机性生成与 Kyber 泄漏放大两篇论文的原始摘要及元数据阅读范围。种子格式允许不等于每次重新展开；逻辑阶数不等于物理观测范围。未复核完整证明，没有新实验，不增加正式文献卡片数量。

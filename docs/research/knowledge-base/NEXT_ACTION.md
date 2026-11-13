@@ -14,6 +14,8 @@
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-13 增补[第十一批 BOLD-20261113-37 至 39](brainstorms/2026-11-13-self-calibration-hidden-encoding-observer.md)：37 先交联合标定的可辨识性与锚点；38 先交实际编码矩阵、份额布局和节点关系；39 先交只改读出与改变状态演化的竞争预测。验证由用户另行安排，39 保留小规模探索机会，详见[交接记录](records/2026-11-13-calibration-encoding-observer-handoff.md)。未运行实验、仿真、训练或派发任务，文献普查及历史实验接续保持不变。
+
 2026-11-13 增补[三个研究原型 E、R、M](brainstorms/2026-11-13-echo-representations-mechanism-discovery.md)：E 先交可实现的响应反向操作对及间隔扫描预测；R 先交小内核的正确表示图、转换成本与不变量；M 先交两个竞争机制和使预测分叉的合法干预。它们细化 RP-A、RP-C，不增加 BOLD 编号；E 保留小规模探索机会。用户安排其他人验证，详见[交接记录](records/2026-11-13-echo-representation-discovery-handoff.md)。没有执行实验或派发任务，文献普查接续保持不变。
 
 2026-11-13 增补[第十批 BOLD-20261113-34 至 36](brainstorms/2026-11-13-key-device-seeds-scaling.md)：34 先交合法密钥与器件的交互预测；35 先交秘密来源图及两种存储政策；36 先交可实现阶数、资源预算和共享节点隔离预测。均由用户安排其他人验证，36 保留长期探索机会。详见[交接记录](records/2026-11-13-key-seed-scaling-handoff.md)；未运行实验或派发任务，文献普查和既有实验状态继续保留。
