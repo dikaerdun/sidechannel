@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6776 条，其中 433 条命中后量子相关关键词。
+当前目录记录 6778 条，其中 436 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -223,6 +223,7 @@
 | 2024 IACR ePrint | [Single-trace side-channel attacks on MAYO exploiting leaky modular multiplication](https://eprint.iacr.org/2024/1850) | include |
 | 2024 IACR ePrint | [Singular points of UOV and VOX](https://eprint.iacr.org/2024/219) | adjacent |
 | 2024 Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | include |
+| 2024 NDSS | [Faults in Our Bus: Novel Bus Fault Attack to Break ARM TrustZone](https://www.ndss-symposium.org/ndss-paper/faults-in-our-bus-novel-bus-fault-attack-to-break-arm-trustzone/) | adjacent |
 | 2024 NDSS | [When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications](https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/) | adjacent |
 | 2024 PQCrypto | [One Vector to Rule Them All: Key Recovery from One Vector in UOV Schemes](https://doi.org/10.1007/978-3-031-62746-0_5) | adjacent |
 | 2024 SP | [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | include |
@@ -380,6 +381,7 @@
 | 2022 USENIX | [Piranha: A GPU Platform for Secure Computation](https://www.usenix.org/conference/usenixsecurity22/presentation/watson) | pending |
 | 2022 USENIX | [Post-Quantum Cryptography with Contemporary Co-Processors: Beyond Kronecker, Schönhage-Strassen & Nussbaumer](https://www.usenix.org/conference/usenixsecurity22/presentation/bos) | pending |
 | 2022 USENIX | [SAPIC+: protocol verifiers of the world, unite!](https://www.usenix.org/conference/usenixsecurity22/presentation/cheval) | pending |
+| 2022 ePrint | [First-Order Masked Kyber on ARM Cortex-M4](https://eprint.iacr.org/2022/058) | include |
 | 2021 ASHES | [Breaking Masked and Shuffled CCA Secure Saber KEM by Power Analysis](https://doi.org/10.1145/3474376.3487277) | include |
 | 2021 ASIACRYPT | [A Systematic Approach and Analysis of Key Mismatch Attacks on Lattice-Based NIST Candidate KEMs](https://doi.org/10.1007/978-3-030-92068-5_4) | include |
 | 2021 CBCrypto | [Information-Set Decoding with Hints](https://doi.org/10.1007/978-3-030-98365-9_4) | include |
@@ -391,6 +393,7 @@
 | 2021 DAC | [FALCON Down: Breaking FALCON Post-Quantum Signature Scheme through Side-Channel Attacks](https://doi.org/10.1109/dac18074.2021.9586131) | include |
 | 2021 HOST | [Single-Trace Side-Channel Attacks on ω-Small Polynomial Sampling: With Applications to NTRU, NTRU Prime, and CRYSTALS-DILITHIUM](https://doi.org/10.1109/host49136.2021.9702284) | include |
 | 2021 ICCD | [An Efficient Non-Profiled Side-Channel Attack on the CRYSTALS-Dilithium Post-Quantum Signature](https://doi.org/10.1109/iccd53106.2021.00094) | include |
+| 2021 JETC | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | include |
 | 2021 PQCrypto | [Differential Power Analysis of the Picnic Signature Scheme](https://doi.org/10.1007/978-3-030-81293-5_10) | include |
 | 2021 SP | [BUFFing signature schemes beyond unforgeability and the case of post-quantum signatures](https://www.ieee-security.org/TC/SP2021/program-papers.html) | pending |
 | 2021 SP | [Post-Quantum WireGuard](https://www.ieee-security.org/TC/SP2021/program-papers.html) | pending |

@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 545 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 561 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
 
@@ -697,6 +697,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://homes.cs.washington.edu/~dkohlbre/papers/pandora.pdf。
 - 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
 
+## A Side-Channel-Resistant Implementation of SABER
+
+- 来源：[JETC 2021](https://doi.org/10.1145/3429983)；时间标记：foundation: formal online 2021-04-23 predates 2021-11-12; ePrint received 2020-06-17, last revision 2021-11-25 is not a new formal publication。
+- 作者：Michiel Van Beirendonck; Jan-Pieter D’Anvers; Angshuman Karmakar; Josep Balasch; Ingrid Verbauwhede
+- 对象：Saber, masking, Cortex-M4, TVLA；类型：countermeasure。
+- 核心想法：以掩码逻辑移位、采样及手写汇编实现 Cortex-M4 上的一阶保护 Saber。
+- 作者报告：作者报告低于 3M 周期与低于 12 kB 动态内存；作者稿对关键函数及缩减参数解封装做固定/随机 TVLA。
+- 限制与下一步：JETC 在线于 2021-04-23，早于五年窗口，作为引用基础保留。作者稿完整解封装测试将 l 改为 1；存在最终比较峰和不重复的轻微越界，不能写为整条曲线无泄漏。动态内存不含另存的秘密份额；28 页作者稿与 26 页正式版未逐页比对。
+- 阅读层级：selected_full_text_sections；来源：https://doi.org/10.1145/3429983。
+- 已读章节：Crossref publisher-deposited and ePrint complete abstracts; author-hosted 28-page PDF p.1 and pp.17-20 security evaluation/memory accounting; p.19 rendered
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：official GitHub README read and blob hash checked; source code and executable not audited or run；引用追踪：pending。
+
 ## Differential Power Analysis of the Picnic Signature Scheme
 
 - 来源：[PQCrypto 2021](https://doi.org/10.1007/978-3-030-81293-5_10)；时间标记：PQCrypto 2021 calendar-year boundary; online 2021-07-15 before rolling start 2021-11-12。
@@ -715,8 +728,8 @@
 - 作者：Kalle Ngo; Elena Dubrova; Qian Guo; Thomas Johansson
 - 对象：Saber；类型：attack。
 - 核心想法：以剖析神经网络学习高阶泄漏，并用容错恢复方法连接消息与长期秘密。
-- 作者报告：摘要报告对一阶掩码 Saber 的攻击和逻辑移位泄漏点。
-- 限制与下一步：剖析能力、消息误差模型及会话秘密与长期秘密恢复条件需分别核对。
+- 作者报告：摘要报告使用剖析阶段训练的神经网络学习高阶模型，恢复阶段报告 24 条迹线；摘要未列出剖析阶段预算。
+- 限制与下一步：这是针对一阶掩码实现的高阶剖析模型，不是一阶观察打破一阶证明。摘要的 24 条不能当作总成本；剖析设备能力、消息误差模型、输入条件及两类秘密恢复的具体预算仍待全文核对。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
@@ -1517,6 +1530,19 @@
 - 限制与下一步：历史 SIKE 是论文攻击对象；不能据此评价当前其他 PQC 实现的实际成本。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX session abstract。
 - 代码/数据核查：not checked；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
+
+## First-Order Masked Kyber on ARM Cortex-M4
+
+- 来源：[ePrint 2022](https://eprint.iacr.org/2022/058)；时间标记：ePrint received 2022-01-18 within frozen window; NIST 2021 precursor separately retained。
+- 作者：Daniel Heinz; Matthias J. Kannwischer; Georg Land; Thomas Pöppelmann; Peter Schwabe; Amber Sprenkels
+- 对象：Kyber768, masking, Cortex-M4, TVLA；类型：countermeasure。
+- 核心想法：组合既有掩码组件并优化 ARM Cortex-M4 上的 Kyber768 解封装。
+- 作者报告：作者报告 2,978,441 周期（性能平台包含内部 RNG），并在不同平台逐函数采集各 100,000 条迹线进行一阶 TVLA。
+- 限制与下一步：性能平台 STM32F407VG 与泄漏平台 STM32F303 不同；后者用固定输入种子的确定性伪随机采样器，不能写成同平台硬件 RNG 实验。逐函数一阶检测不等于全 KEM 或高阶安全；作者结论明确一阶掩码不足以单独保证实用抗侧信道。
+- 阅读层级：selected_full_text_sections；来源：https://eprint.iacr.org/2022/058。
+- 已读章节：Current ePrint complete abstract and metadata; author revision dated 2023-12-11 PDF pp.1,7-9 evaluation/conclusion, p.8 plots rendered; NIST 2021 description and author version index; older full text not compared; complete 25-reference bibliography on PDF pp.9-11 read and inventoried
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：official GitHub README read and blob hash checked; source code and executable not audited or run；引用追踪：backward bibliography inventoried; unresolved identities, provisional background and recursive/forward coverage pending。
 
 ## SoK: Deep Learning-based Physical Side-channel Analysis
 
@@ -2419,6 +2445,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/article/10.1007/s00145-023-09485-z。
 - 代码/数据核查：not checked；引用追踪：in_progress; selected references only。
 
+## Acoustic Keystroke Leakage on Smart Televisions
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/acoustic-keystroke-leakage-on-smart-televisions/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Tejas Kannan (University of Chicago), Synthia Qia Wang (University of Chicago), Max Sunog (University of Chicago), Abraham Bueno de Mesquita (University of Chicago Laboratory Schools), Nick Feamster (University of Chicago), Henry Hoffmann (University of Chicago)
+- 对象：acoustic, Smart TV, keystroke inference；类型：attack。
+- 核心想法：由电视虚拟键盘的移动、选择和删除提示音推断输入字符串。
+- 作者报告：作者在 AppleTV 和 Samsung 系统上以移动次数、时刻和字符串先验生成候选，报告常见密码与信用卡信息的 top-100 命中。
+- 限制与下一步：需要取得可听提示音；不是机械按键音。33.33% 与 60.19% 是特定对象的最多 100 次猜测结果，不是逐键准确率；在线验证限制、默认键盘与词典先验不能省略。
+- 阅读层级：selected_full_text_sections；来源：https://www.ndss-symposium.org/ndss-paper/acoustic-keystroke-leakage-on-smart-televisions/。
+- 已读章节：PDF p.4 and p.5 threat-model continuation; p.13 discussion and limitations; not full paper
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
 ## BliMe: Verifiably Secure Outsourced Computation with Hardware-Enforced Taint Tracking
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/blime-verifiably-secure-outsourced-computation-with-hardware-enforced-taint-tracking/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
@@ -2431,6 +2470,94 @@
 - [详细阅读记录](notes/ndss2024-initial-observation-models-20261114.md)
 - 代码/数据核查：not checked; no author code executed；引用追踪：pending。
 
+## CP-IoT: A Cross-Platform Monitoring System for Smart Home
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/cp-iot-a-cross-platform-monitoring-system-for-smart-home/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Hai Lin (Tsinghua University), Chenglong Li (Tsinghua University), Jiahai Yang (Tsinghua University), Zhiliang Wang (Tsinghua University), Linna Fan (National University of Defense Technology), Chenxin Duan (Tsinghua University)
+- 对象：IoT, traffic fingerprinting, state inference；类型：measurement and defense。
+- 核心想法：通过跨平台流量事件指纹重建智能家居自动化行为，并与规则图比较。
+- 作者报告：CP-IoT 在四个平台上评估规则执行异常与跨规则威胁检测。
+- 限制与下一步：纳入的是侧信道流量观察方法及其防御用途；不是密码密钥攻击，平台状态与流量可见性待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/cp-iot-a-cross-platform-monitoring-system-for-smart-home/。
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## EM Eye: Characterizing Electromagnetic Side-channel Eavesdropping on Embedded Cameras
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/em-eye-characterizing-electromagnetic-side-channel-eavesdropping-on-embedded-cameras/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Yan Long (University of Michigan), Qinhong Jiang (Zhejiang University), Chen Yan (Zhejiang University), Tobias Alam (University of Michigan), Xiaoyu Ji (Zhejiang University), Wenyuan Xu (Zhejiang University), Kevin Fu (Northeastern University)
+- 对象：EM, camera, image transmission, measurement model；类型：attack and countermeasure。
+- 核心想法：分析摄像头图像传输接口的 EM 泄漏，并结合重建与图像翻译恢复场景。
+- 作者报告：EM Eye 比较多种开发平台及商用摄像设备，给出物理传输模型与协议级缓解建议。
+- 限制与下一步：图像翻译需要成对训练，颜色恢复依赖语义而非所测 EM 物理；模型可改变细节。分组像素缓解的频谱结果是仿真，不能混同屏蔽的实测，也不能由超过 2 m 的部分案例推广到所有设备。
+- 阅读层级：selected_full_text_sections；来源：https://www.ndss-symposium.org/ndss-paper/em-eye-characterizing-electromagnetic-side-channel-eavesdropping-on-embedded-cameras/。
+- 已读章节：PDF p.3 threat model; pp.7-8 training and metrics; p.12 simulated protocol countermeasure; pp.13-14 all 42 references
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：all 42 printed references inventoried; recursive/forward closure pending。
+
+## Eavesdropping on Black-box Mobile Devices via Audio Amplifier’s EMR
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/eavesdropping-on-black-box-mobile-devices-via-audio-amplifiers-emr/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Huiling Chen (College of Computer Science and Electronic Engineering, Hunan University, Changsha, China), Wenqiang Jin (College of Computer Science and Electronic Engineering, Hunan University, Changsha, China), Yupeng Hu (College of Computer Science and Electronic Engineering, Hunan University, Changsha, China), Zhenyu Ning (College of Computer Science and Electronic Engineering, Hunan University, Changsha, China), Kenli Li (College of Computer Science and Electronic Engineering, National Supercomputing Center in Changsha, Hunan University), Zheng Qin (College of Computer Science and Electronic Engineering, Hunan University, Changsha, China), Mingxing Duan (College of Computer Science and Electronic Engineering, National Supercomputing Center in Changsha, Hunan University), Yong Xie (Nanjing University of Posts and Telecommunications, Nanjing, China), Daibo Liu (College of Computer Science and Electronic Engineering, Hunan University, Changsha, China), Ming Li (The University of Texas at Arlington, USA)
+- 对象：EM, audio amplifier, wired headphones；类型：attack。
+- 核心想法：从带有线耳机设备的音频放大器电磁响应恢复播放音频。
+- 作者报告：Periscope 在 11 个移动设备和六种耳机上比较语音恢复；作者使用通用语音识别工具评估 WER。
+- 限制与下一步：无需目标专用训练不等于没有模型或先验。无线回传的数十米与 EM 感测距离不同；正文距离测试是笔记本 20–100 cm、手机 10–50 cm，默认音量 80%，质量随条件变化。
+- 阅读层级：selected_full_text_sections；来源：https://www.ndss-symposium.org/ndss-paper/eavesdropping-on-black-box-mobile-devices-via-audio-amplifiers-emr/。
+- 已读章节：PDF pp.3-4 attack-model and related-work passages; p.9 setup; pp.12-13 distance, volume and discussion passages; p.12 rendered
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Eavesdropping on Controller Acoustic Emanation for Keystroke Inference Attack in Virtual Reality
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/eavesdropping-on-controller-acoustic-emanation-for-keystroke-inference-attack-in-virtual-reality/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Shiqing Luo (George Mason University), Anh Nguyen (George Mason University), Hafsa Farooq (Georgia State University), Kun Sun (George Mason University), Zhisheng Yan (George Mason University)
+- 对象：acoustic, VR, DOA, keystroke inference；类型：attack。
+- 核心想法：从 VR 控制器点击声的方向及键间关系推断虚拟键盘输入。
+- 作者报告：Heimdall 对 30 名参与者报告逐键准确率 96.51% 和 4–8 字符密码 top-5 85.14%–91.22%。
+- 限制与下一步：使用经定向改造的手机麦克风、预采集方向映射及已知头显/键盘类型；正文针对单控制器，双控制器与非字母数字键为扩展方向。位置灵活不等于任意未改装手机和无限距离。
+- 阅读层级：selected_full_text_sections；来源：https://www.ndss-symposium.org/ndss-paper/eavesdropping-on-controller-acoustic-emanation-for-keystroke-inference-attack-in-virtual-reality/。
+- 已读章节：PDF p.4 threat model and overview; p.5 microphone customization; p.13 limitations
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Exploiting Sequence Number Leakage: TCP Hijacking in NAT-Enabled Wi-Fi Networks
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/exploiting-sequence-number-leakage-tcp-hijacking-in-nat-enabled-wi-fi-networks/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Yuxiang Yang (Tsinghua University), Xuewei Feng (Tsinghua University), Qi Li (Tsinghua University), Kun Sun (George Mason University), Ziqiang Wang (Southeast University), Ke Xu (Tsinghua University)
+- 对象：NAT, network side channel, TCP；类型：attack。
+- 核心想法：利用 NAT 行为侧信道识别连接，再通过映射操纵获得 TCP 字段。
+- 作者报告：作者分别测量路由器和 Wi-Fi 网络，并演示连接中断、明文流量注入和重定向。
+- 限制与下一步：攻击者是同一 Wi-Fi 网络的恶意客户端，off-path 不等于任意互联网远端。侧信道探测与随后直接截获字段分开；AP 隔离对不同后果影响不同。
+- 阅读层级：selected_full_text_sections；来源：https://www.ndss-symposium.org/ndss-paper/exploiting-sequence-number-leakage-tcp-hijacking-in-nat-enabled-wi-fi-networks/。
+- 已读章节：PDF p.4 LAN attacker and AP-isolation distinctions
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## FP-Fed: Privacy-Preserving Federated Detection of Browser Fingerprinting
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/fp-fed-privacy-preserving-federated-detection-of-browser-fingerprinting/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Meenatchi Sundaram Muthu Selva Annamalai (University College London), Igor Bilogrevic (Google), Emiliano De Cristofaro (University of California, Riverside)
+- 对象：browser fingerprinting, federated learning, differential privacy；类型：countermeasure。
+- 核心想法：用浏览器运行时信号和差分隐私联邦学习检测指纹脚本。
+- 作者报告：FP-Fed 在 20k 网站集合上比较参与者规模、隐私参数与检测效率。
+- 限制与下一步：属于指纹检测方法；使用执行信号，不声称通过功耗推断浏览器身份。隐私与检测性能依赖训练和 DP 设置。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/fp-fed-privacy-preserving-federated-detection-of-browser-fingerprinting/。
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Flow Correlation Attacks on Tor Onion Service Sessions with Sliding Subset Sum
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/flow-correlation-attacks-on-tor-onion-service-sessions-with-sliding-subset-sum/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Daniela Lopes (INESC-ID / IST, Universidade de Lisboa), Jin-Dong Dong (Carnegie Mellon University), Pedro Medeiros (INESC-ID / IST, Universidade de Lisboa), Daniel Castro (INESC-ID / IST, Universidade de Lisboa), Diogo Barradas (University of Waterloo), Bernardo Portela (INESC TEC / Universidade do Porto), João Vinagre (INESC TEC / Universidade do Porto), Bernardo Ferreira (LASIGE, Faculdade de Ciências, Universidade de Lisboa), Nicolas Christin (Carnegie Mellon University), Nuno Santos (INESC-ID / IST, Universidade de Lisboa)
+- 对象：Tor, flow correlation, traffic analysis；类型：attack。
+- 核心想法：以多观察点流量相似性关联 Tor onion service 会话。
+- 作者报告：SUMo 结合分类器和 Sliding Subset Sum，在协同 ISP 视角下研究会话去匿名化。
+- 限制与下一步：需要多个协作流量观察点；子集和用作相似性构造，不等于求解一般困难实例或恢复加密密钥。具体部署与评价数据待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/flow-correlation-attacks-on-tor-onion-service-sessions-with-sliding-subset-sum/。
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
 ## IdleLeak: Exploiting Idle State Side Effects for Information Leakage
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/idleleak-exploiting-idle-state-side-effects-for-information-leakage/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
@@ -2441,6 +2568,67 @@
 - 限制与下一步：7.1 Mbit/s 为原生性能增强型隐蔽通道，46.3 kbit/s 为该类跨 VM 情景，656.37 kbit/s 为原生中断型；不能当作秘密密钥恢复速率。摘要区分 C0.1 逻辑兄弟核观察和 C0.2 效应；硬件与调度细节待正文。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/idleleak-exploiting-idle-state-side-effects-for-information-leakage/。
 - [详细阅读记录](notes/ndss2024-initial-observation-models-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## LARMix: Latency-Aware Routing in Mix Networks
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/larmix-latency-aware-routing-in-mix-networks/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Mahdi Rahimi (KU Leuven), Piyush Kumar Sharma (KU Leuven), Claudia Diaz (KU Leuven)
+- 对象：mixnet, traffic analysis, routing；类型：countermeasure。
+- 核心想法：在延迟预算下为 mixnet 选择路由并评价匿名性。
+- 作者报告：LARMix 联合传播延迟、流量均衡与匿名性目标，分析多种攻击策略。
+- 限制与下一步：不显著增加攻击优势的结论限制于对手不能在策略计算后选择性攻陷节点；不是任意自适应攻陷下的保证。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/larmix-latency-aware-routing-in-mix-networks/。
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Low-Quality Training Data Only? A Robust Framework for Detecting Encrypted Malicious Network Traffic
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/low-quality-training-data-only-a-robust-framework-for-detecting-encrypted-malicious-network-traffic/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Yuqi Qing (Tsinghua University), Qilei Yin (Zhongguancun Laboratory), Xinhao Deng (Tsinghua University), Yihao Chen (Tsinghua University), Zhuotao Liu (Tsinghua University), Kun Sun (George Mason University), Ke Xu (Tsinghua University), Jia Zhang (Tsinghua University), Qi Li (Tsinghua University)
+- 对象：encrypted traffic, noisy labels, classification；类型：methodology。
+- 核心想法：以流量特征分布与噪声标签修正提高加密恶意流量分类。
+- 作者报告：RAPIER 在低质量训练数据和企业数据集上比较 F1。
+- 限制与下一步：纳入加密流量观察与学习方法；不涉及解密或密钥恢复。数百个百分点为相对基线改善，不能当作绝对准确率。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/low-quality-training-data-only-a-robust-framework-for-detecting-encrypted-malicious-network-traffic/。
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## MirageFlow: A New Bandwidth Inflation Attack on Tor
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/mirageflow-a-new-bandwidth-inflation-attack-on-tor/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Christoph Sendner (University of Würzburg), Jasper Stang (University of Würzburg), Alexandra Dmitrienko (University of Würzburg), Raveen Wijewickrama (University of Texas at San Antonio), Murtuza Jadliwala (University of Texas at San Antonio)
+- 对象：Tor, bandwidth inflation, observation vantage；类型：attack enabler。
+- 核心想法：通过资源共享和协调分配使 Tor 带宽测量高估攻击者中继能力。
+- 作者报告：MirageFlow 在私有 Tor 测试网络验证两种变体，并理论估算吸引流量的规模。
+- 限制与下一步：是流量关联攻击的观察位置获取手段；控制半数流量为理论估算，不是对真实 Tor 网络的实测控制。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/mirageflow-a-new-bandwidth-inflation-attack-on-tor/。
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## On Precisely Detecting Censorship Circumvention in Real-World Networks
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/on-precisely-detecting-censorship-circumvention-in-real-world-networks/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Ryan Wails (Georgetown University, U.S. Naval Research Laboratory), George Arnold Sullivan (University of California, San Diego), Micah Sherr (Georgetown University), Rob Jansen (U.S. Naval Research Laboratory)
+- 对象：traffic fingerprinting, base rate, temporal aggregation；类型：attack methodology。
+- 核心想法：把多个流量的时间信息汇总到主机层，提高规避协议识别精度。
+- 作者报告：作者在超过 60M 条真实流量和多种基率下比较单流与主机级检测。
+- 限制与下一步：完美召回与零误报是文中数据和设定的结果，不能外推到部署总体；需要保留基率、时间聚合和观测预算。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/on-precisely-detecting-censorship-circumvention-in-real-world-networks/。
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## PrintListener: Uncovering the Vulnerability of Fingerprint Authentication via the Finger Friction Sound
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/printlistener-uncovering-the-vulnerability-of-fingerprint-authentication-via-the-finger-friction-sound/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Man Zhou (Huazhong University of Science and Technology), Shuao Su (Huazhong University of Science and Technology), Qian Wang (Wuhan University), Qi Li (Tsinghua University), Yuting Zhou (Huazhong University of Science and Technology), Xiaojing Ma (Huazhong University of Science and Technology), Zhengxiong Li (University of Colorado Denver)
+- 对象：acoustic, fingerprint pattern, biometric inference；类型：attack。
+- 核心想法：由手指滑屏摩擦声推断指纹模式，再合成针对模式的通用匹配模板。
+- 作者报告：PrintListener 将左环、右环与斗形分类结果用于 PatternMasterPrint，并比较 NBIS 匹配指标。
+- 限制与下一步：不是由声音完整重建个人指纹。默认实验均有磨砂膜；分类、模板匹配和实际设备解锁是不同阶段。FAR 0.01% 下五次尝试的 9.3% 为文中加权模板匹配指标，不是任意手机解锁率。
+- 阅读层级：selected_full_text_sections；来源：https://www.ndss-symposium.org/ndss-paper/printlistener-uncovering-the-vulnerability-of-fingerprint-authentication-via-the-finger-friction-sound/。
+- 已读章节：PDF p.4 threat and first-level patterns; p.9 collection/metrics; p.13 matching metric and matte-film limitation
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
 - 代码/数据核查：not checked; no author code executed；引用追踪：pending。
 
 ## SENSE: Enhancing Microarchitectural Awareness for TEEs via Subscription-Based Notification
@@ -2477,6 +2665,18 @@
 - 限制与下一步：9.89 倍是相对猜测概率提升，不是准确率或密钥成功率；两个应用为演示应用，不是对真实医疗或人事系统的入侵。各属性基率和网络条件待正文。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/timing-channels-in-adaptive-neural-networks/。
 - [详细阅读记录](notes/ndss2024-initial-observation-models-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Untangle: Multi-Layer Web Server Fingerprinting
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/untangle-multi-layer-web-server-fingerprinting/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Cem Topcuoglu (Northeastern University), Kaan Onarlioglu (Akamai Technologies), Bahruz Jabiyev (Northeastern University), Engin Kirda (Northeastern University)
+- 对象：HTTP, server fingerprinting, processing discrepancies；类型：methodology。
+- 核心想法：利用多层 HTTP 处理差异识别服务器技术与层次顺序。
+- 作者报告：Untangle 实现并评估三层 Web 服务架构指纹识别。
+- 限制与下一步：主动探测的处理差异用于架构推断；理论可扩展不等于已验证任意层数或所有技术组合。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/untangle-multi-layer-web-server-fingerprinting/。
+- [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
 - 代码/数据核查：not checked; no author code executed；引用追踪：pending。
 
 ## Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Deep Learning-Based Side-Channel Analysis

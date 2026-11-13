@@ -1,0 +1,62 @@
+{
+  "reviewed_on": "2026-11-14",
+  "sources": [
+    {
+      "source_id": "ndss24-kyber-author-pdf",
+      "url": "https://cryptojedi.org/papers/maskedkyber-20231211.pdf",
+      "response_url": "https://cryptojedi.org/papers/maskedkyber-20231211.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:18:48.169742+00:00",
+      "sha256": "a3d219da0c72fde630eb60b6070146017d515bba32909f99c180e37a796f07cc",
+      "bytes": 862688,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "kyber-mask-ref-bdv21-canonical",
+      "url": "https://eprint.iacr.org/2021/067",
+      "response_url": "https://eprint.iacr.org/2021/067",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:40:01.979236+00:00",
+      "sha256": "3b195cc14b1d5c406da53b16391ee016a5687921cc624fc55f24224198ee6de8",
+      "bytes": 16259,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "kyber-mask-ref-dhp21",
+      "url": "https://eprint.iacr.org/2021/1422",
+      "response_url": "https://eprint.iacr.org/2021/1422",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:39:44.012778+00:00",
+      "sha256": "10d5ba977484aedfd2a94f81fc65dbe6df2066c2522e5e34d9b08fb0c7b239df",
+      "bytes": 17123,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "kyber-mask-ref-ndgj21-crossref",
+      "url": "https://api.crossref.org/works/10.46586/tches.v2021.i4.676-707",
+      "response_url": "https://api.crossref.org/works/10.46586/tches.v2021.i4.676-707",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:39:43.135084+00:00",
+      "sha256": "56e84f550b3ef26f84cedacc98f72c0e8454b473671681435119eb3b87304b99",
+      "bytes": 3372,
+      "content_type": "application/json"
+    }
+  ],
+  "seed_id": "eprint:2022/058",
+  "printed_reference_positions": 25,
+  "linked_catalog_positions": 11,
+  "new_pending_discoveries": 4,
+  "background_provisional_positions": 10,
+  "new_citation_edges": 11,
+  "new_explicit_version_edges": 2,
+  "new_paper_cards": 0,
+  "reading_scope": "Author revision 2023-12-11 full bibliography pp.9-11; two cited ePrint complete abstracts and metadata; one publisher-deposited attack abstract reread; no full proof or revision comparison.",
+  "access_limits": [
+    {
+      "url": "https://eprint.iacr.org/2021/67",
+      "status": 404,
+      "resolution": "Canonical zero-padded paper identifier 2021/067 is accessible; archive identifier normalization, not bypass."
+    }
+  ],
+  "scientific_status": "No experiments, simulations, training or author-code execution."
+}

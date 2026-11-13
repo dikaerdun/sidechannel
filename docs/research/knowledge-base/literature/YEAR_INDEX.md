@@ -319,11 +319,25 @@
 | INDOCRYPT | [OccPoIs: Points of Interest Based on Neural Network’s Key Recovery in Side-Channel Analysis Through Occlusion](https://doi.org/10.1007/978-3-031-80311-6_1) | abstract_and_bibliographic_metadata |
 | JCEN | [Regularizers to the rescue: fighting overfitting in deep learning-based side-channel analysis](https://doi.org/10.1007/s13389-024-00361-5) | abstract_and_bibliographic_metadata |
 | Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | abstract_and_bibliographic_metadata |
+| NDSS | [Acoustic Keystroke Leakage on Smart Televisions](https://www.ndss-symposium.org/ndss-paper/acoustic-keystroke-leakage-on-smart-televisions/) | selected_full_text_sections |
 | NDSS | [BliMe: Verifiably Secure Outsourced Computation with Hardware-Enforced Taint Tracking](https://www.ndss-symposium.org/ndss-paper/blime-verifiably-secure-outsourced-computation-with-hardware-enforced-taint-tracking/) | abstract_and_bibliographic_metadata |
+| NDSS | [CP-IoT: A Cross-Platform Monitoring System for Smart Home](https://www.ndss-symposium.org/ndss-paper/cp-iot-a-cross-platform-monitoring-system-for-smart-home/) | abstract_and_bibliographic_metadata |
+| NDSS | [EM Eye: Characterizing Electromagnetic Side-channel Eavesdropping on Embedded Cameras](https://www.ndss-symposium.org/ndss-paper/em-eye-characterizing-electromagnetic-side-channel-eavesdropping-on-embedded-cameras/) | selected_full_text_sections |
+| NDSS | [Eavesdropping on Black-box Mobile Devices via Audio Amplifier’s EMR](https://www.ndss-symposium.org/ndss-paper/eavesdropping-on-black-box-mobile-devices-via-audio-amplifiers-emr/) | selected_full_text_sections |
+| NDSS | [Eavesdropping on Controller Acoustic Emanation for Keystroke Inference Attack in Virtual Reality](https://www.ndss-symposium.org/ndss-paper/eavesdropping-on-controller-acoustic-emanation-for-keystroke-inference-attack-in-virtual-reality/) | selected_full_text_sections |
+| NDSS | [Exploiting Sequence Number Leakage: TCP Hijacking in NAT-Enabled Wi-Fi Networks](https://www.ndss-symposium.org/ndss-paper/exploiting-sequence-number-leakage-tcp-hijacking-in-nat-enabled-wi-fi-networks/) | selected_full_text_sections |
+| NDSS | [FP-Fed: Privacy-Preserving Federated Detection of Browser Fingerprinting](https://www.ndss-symposium.org/ndss-paper/fp-fed-privacy-preserving-federated-detection-of-browser-fingerprinting/) | abstract_and_bibliographic_metadata |
+| NDSS | [Flow Correlation Attacks on Tor Onion Service Sessions with Sliding Subset Sum](https://www.ndss-symposium.org/ndss-paper/flow-correlation-attacks-on-tor-onion-service-sessions-with-sliding-subset-sum/) | abstract_and_bibliographic_metadata |
 | NDSS | [IdleLeak: Exploiting Idle State Side Effects for Information Leakage](https://www.ndss-symposium.org/ndss-paper/idleleak-exploiting-idle-state-side-effects-for-information-leakage/) | abstract_and_bibliographic_metadata |
+| NDSS | [LARMix: Latency-Aware Routing in Mix Networks](https://www.ndss-symposium.org/ndss-paper/larmix-latency-aware-routing-in-mix-networks/) | abstract_and_bibliographic_metadata |
+| NDSS | [Low-Quality Training Data Only? A Robust Framework for Detecting Encrypted Malicious Network Traffic](https://www.ndss-symposium.org/ndss-paper/low-quality-training-data-only-a-robust-framework-for-detecting-encrypted-malicious-network-traffic/) | abstract_and_bibliographic_metadata |
+| NDSS | [MirageFlow: A New Bandwidth Inflation Attack on Tor](https://www.ndss-symposium.org/ndss-paper/mirageflow-a-new-bandwidth-inflation-attack-on-tor/) | abstract_and_bibliographic_metadata |
+| NDSS | [On Precisely Detecting Censorship Circumvention in Real-World Networks](https://www.ndss-symposium.org/ndss-paper/on-precisely-detecting-censorship-circumvention-in-real-world-networks/) | abstract_and_bibliographic_metadata |
+| NDSS | [PrintListener: Uncovering the Vulnerability of Fingerprint Authentication via the Finger Friction Sound](https://www.ndss-symposium.org/ndss-paper/printlistener-uncovering-the-vulnerability-of-fingerprint-authentication-via-the-finger-friction-sound/) | selected_full_text_sections |
 | NDSS | [SENSE: Enhancing Microarchitectural Awareness for TEEs via Subscription-Based Notification](https://www.ndss-symposium.org/ndss-paper/sense-enhancing-microarchitectural-awareness-for-tees-via-subscription-based-notification/) | abstract_and_bibliographic_metadata |
 | NDSS | [TEE-SHirT: Scalable Leakage-Free Cache Hierarchies for TEEs](https://www.ndss-symposium.org/ndss-paper/tee-shirt-scalable-leakage-free-cache-hierarchies-for-tees/) | abstract_and_bibliographic_metadata |
 | NDSS | [Timing Channels in Adaptive Neural Networks](https://www.ndss-symposium.org/ndss-paper/timing-channels-in-adaptive-neural-networks/) | abstract_and_bibliographic_metadata |
+| NDSS | [Untangle: Multi-Layer Web Server Fingerprinting](https://www.ndss-symposium.org/ndss-paper/untangle-multi-layer-web-server-fingerprinting/) | abstract_and_bibliographic_metadata |
 | SAC | [Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Deep Learning-Based Side-Channel Analysis](https://doi.org/10.1007/978-3-031-82841-6_12) | abstract_and_bibliographic_metadata |
 | SP | [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
 | SP | [BULKOR: Enabling Bulk Loading for Path ORAM](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
@@ -500,6 +514,7 @@
 | TCHES | [Will You Cross the Threshold for Me?: Generic Side-Channel Assisted Chosen-Ciphertext Attacks on NTRU-based KEMs](https://doi.org/10.46586/tches.v2022.i1.722-761) | abstract_and_bibliographic_metadata |
 | TIFS | [On Exploiting Message Leakage in (Few) NIST PQC Candidates for Practical Message Recovery Attacks](https://doi.org/10.1109/tifs.2021.3139268) | abstract_and_bibliographic_metadata |
 | USENIX | [Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.usenix.org/conference/usenixsecurity22/presentation/wang-yingchen) | abstract_and_bibliographic_metadata |
+| ePrint | [First-Order Masked Kyber on ARM Cortex-M4](https://eprint.iacr.org/2022/058) | selected_full_text_sections |
 
 ## 2021
 
@@ -514,6 +529,7 @@
 | HOST | [Single-Trace Side-Channel Attacks on ω-Small Polynomial Sampling: With Applications to NTRU, NTRU Prime, and CRYSTALS-DILITHIUM](https://doi.org/10.1109/host49136.2021.9702284) | abstract_and_bibliographic_metadata |
 | ICCD | [An Efficient Non-Profiled Side-Channel Attack on the CRYSTALS-Dilithium Post-Quantum Signature](https://doi.org/10.1109/iccd53106.2021.00094) | selected_full_text_sections |
 | ISCA | [Opening Pandora’s Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data](https://doi.org/10.1109/isca52012.2021.00035) | abstract_and_bibliographic_metadata |
+| JETC | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | selected_full_text_sections |
 | PQCrypto | [Differential Power Analysis of the Picnic Signature Scheme](https://doi.org/10.1007/978-3-030-81293-5_10) | abstract_and_bibliographic_metadata |
 | TCHES | [A Side-Channel Attack on a Masked IND-CCA Secure Saber KEM Implementation](https://doi.org/10.46586/tches.v2021.i4.676-707) | abstract_and_bibliographic_metadata |
 | TCHES | [Analysis and Comparison of Table-based Arithmetic to Boolean Masking](https://doi.org/10.46586/tches.v2021.i3.275-297) | abstract_and_bibliographic_metadata |

@@ -84,6 +84,10 @@ def render_citations(root,catalogs):
       '[PortRush 引用清单](citations/portrush2026-reference-screen.jsonl) · [NDSS 2026 证据与范围](notes/ndss2026-resource-observation-and-scope-20261114.md)','',
       'NDSS 2025 的 Borrowed Time 八条与 PQConnect 四条引用选读共核对七条关系、保留五条待查。其余书目未筛；KyberSlash 当前作者页明确关联 TCHES 2025，但实际被引 2024 文件的修订差异未比对。',
       '[Borrowed Time 八条选读](citations/borrowedtime2025-selected-reference-screen.jsonl) · [PQConnect 四条选读](citations/pqconnect2025-selected-reference-screen.jsonl) · [NDSS 2025 证据与范围](notes/ndss2025-static-power-quantum-and-scope-20261114.md)','',
+      'NDSS 2024 的 EM Eye 全部 42 条参考初筛：3 条对应、13 条待查、26 条暂列背景。Faults in Our Bus 另选五条：3 条对应、2 条背景；由此补入 SABER JETC 与一阶掩码 Kyber 两张 PQC 卡片。',
+      '[EM Eye 引用清单](citations/emeye2024-reference-screen.jsonl) · [总线故障五条选读](citations/busfault2024-selected-reference-screen.jsonl) · [NDSS 2024 物理观察与掩码范围](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)','',
+      '一阶掩码 Kyber 的 2023 作者修订稿全部 25 个参考位置已初筛：11 条目录对应、4 条待查、10 条暂列背景。原文引用的 2021 ePrint 与后续正式/作者修订分别保留，新增两条明确版本关系；不能把引用解析或摘要报告的攻击迹线数视为全文核验或总攻击成本。',
+      '[Kyber 完整引用清单](citations/kyber-masked2022-reference-screen.jsonl) · [引用与版本接续](../records/2026-11-14-kyber-masked-bibliography.md)','',
       '[GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)','',
       '| 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |','|---|---:|---|---|']
     papers={p['id']:p for p in (json.loads(x) for x in (root/'papers.jsonl').read_text().splitlines())}
@@ -223,7 +227,7 @@ def main():
       '- IEEE S&P 2023 主列表漏列 DVFS Frequently Leaks Secrets；GoFetch 引用与另一官方日程促成补录，独立印刷目录现已确认全部 196 条。194 条规范化题名相同、2 条改题名；三个 N/A、两组重复 DOI 和五条作者字段差异保留待查。该年标题候选/不确定项共 48 条均有摘要判定，其余 148 条仍待摘要复核。',
       '- NDSS 2026 已读 265 条标题与 80 篇官方摘要，新增 34 张通用卡片及 46 条相邻判定；185 篇摘要及独立目录对应仍待处理。PortRush 软件仿真、SNPeek 隐蔽通道、RSA 序列指标和 XR 字典 top-25 分开记录，见 [本批证据](notes/ndss2026-resource-observation-and-scope-20261114.md)。43 个参考位置初筛不代表递归闭合。',
       '- NDSS 2025 已读 211 条标题与 71 篇官方摘要，新增 27 张通用卡片及 44 条相邻判定，140 篇摘要与独立目录对应仍待处理。静态功耗防护、Android 部分字节排名、NISQ 实测/理想分类及 PQConnect 实现限制分开记录，见 [本批证据](notes/ndss2025-static-power-quantum-and-scope-20261114.md)。十二条引用选读新增七条关系、五条待查，不代表完整书目。',
-      '- NDSS 2024 初次读完 140 条标题，六篇官方摘要作出五条通用纳入、一条相邻判定；134 篇摘要与独立目录对应未完成。简化 ISA 证明、缓存模型、空闲状态观察、gem5 防护与自适应推理时序分别保留范围，见 [本批证据](notes/ndss2024-initial-observation-models-20261114.md)。本批没有正文阅读或引用边新增。',
+      '- NDSS 2024 的 140 条标题已读，58 个候选/不确定项已完成摘要判定：19 条通用纳入、39 条相邻；82 篇摘要与独立目录对应仍待处理。八篇正文选读区分感测距离与回传距离、语义生成与物理恢复、故障转储与被动侧信道，见 [本批证据](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)。另补两篇 PQC 掩码论文；SABER 缩小参数测试、Kyber 双平台及逐函数 TVLA 的范围不能省略。EM Eye 42 条与 Kyber 25 条书目初筛仍未递归闭合。',
       '- CCS 2026 为截至截点的官方录用目录；会议尚未举行，不能统一标为已正式发表。',
       '- Crossref 的 ISBN 查询只返回 CCS 论文集容器，不能用于证明其中没有论文；已改用官方网站目录。',
       '- TCHES 按卷年与出版日期分别处理，回看 2020 年元数据以补齐 2021 卷首期。Crossref 未提交引用列表不等于没有引用。',
