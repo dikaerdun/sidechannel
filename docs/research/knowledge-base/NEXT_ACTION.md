@@ -14,6 +14,8 @@
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-13 增补[第八批 BOLD-20261113-28 至 30](brainstorms/2026-11-13-closed-loops-delayed-disclosure-leakage-contracts.md)：28 先核对闭合积分及真实恢复状态；29 先提交随机量与公开信息时间图，区分事后检验和自适应交互；30 先给出非平凡状态关系与逐历史组合前提。均由用户安排其他人验证；详见[交接记录](records/2026-11-13-closed-loop-disclosure-contract-handoff.md)。未启动实验或派发任务，也未更新既有实验判定。
+
 2026-11-13 增补[第七批 BOLD-20261113-25 至 27](brainstorms/2026-11-13-spatial-modes-port-response-noise-geometry.md)：25 先提交空间与回流映射及留出位置预测；26 先提交允许激励、端口响应模型及主动/被动条件；27 先提交同实际成本的噪声配置与联合观察预算。三项均待验证，由用户安排其他人推进；详见[交接记录](records/2026-11-13-spatial-port-noise-handoff.md)。本轮未启动实验或派发任务。
 
 2026-11-13 增补[第六批 BOLD-20261113-22 至 24](brainstorms/2026-11-13-predictive-states-criticality-security-order.md)：22 先提交旧模型等价的准备历史及跨操作预测；23 先核对增益、噪声、恢复时间与真实模态；24 先核对小通道反例，再定义成对防护的敏感任务及辅助信息。均待验证，由用户安排其他人推进；未启动实验或派发任务。详见[交接记录](records/2026-11-13-predictive-criticality-order-handoff.md)。

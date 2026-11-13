@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-13 追加 [BOLD-20261113-28 至 30](brainstorms/2026-11-13-closed-loops-delayed-disclosure-leakage-contracts.md)：闭合控制路径的净响应、后续公开信息与波形的联合关系、覆盖观察历史的物理泄漏契约。三项均为**待验证提案**；恢复模型、信息见证和组合前提待独立核查，没有 PQC 实测支持。详见[第八批交接](records/2026-11-13-closed-loop-disclosure-contract-handoff.md)，由用户安排他人验证。
+
 2026-11-13 追加 [BOLD-20261113-25 至 27](brainstorms/2026-11-13-spatial-modes-port-response-noise-geometry.md)：总量相同的空间电流差异、允许激励下的端口响应、防护噪声的方向覆盖。三项均为**待验证提案**；已有局部 EM、阻抗与噪声优化先例，具体增量未确认。手工例子待独立核对，详见[第七批交接](records/2026-11-13-spatial-port-noise-handoff.md)。验证由用户另行安排。
 
 2026-11-13 追加 [BOLD-20261113-22 至 24](brainstorms/2026-11-13-predictive-states-criticality-security-order.md)：从预测等价修补物理状态抽象、临界响应的增益与噪声预算、防护通道的信息偏序。三项均为**待验证提案**；随机模型与两个信息反例待独立核对，不构成 PQC 实现证据。详见[第六批交接](records/2026-11-13-predictive-criticality-order-handoff.md)，验证由用户另行安排。
