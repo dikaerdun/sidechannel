@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-13 追加 [BOLD-20261113-22 至 24](brainstorms/2026-11-13-predictive-states-criticality-security-order.md)：从预测等价修补物理状态抽象、临界响应的增益与噪声预算、防护通道的信息偏序。三项均为**待验证提案**；随机模型与两个信息反例待独立核对，不构成 PQC 实现证据。详见[第六批交接](records/2026-11-13-predictive-criticality-order-handoff.md)，验证由用户另行安排。
+
 2026-11-13 追加 [BOLD-20261113-19 至 21](brainstorms/2026-11-13-interventions-memory-device-diversity.md)：保护干预的机制辨认、跨调用物理记忆的安全组合、不同器件的互补观测。三项均为**待验证提案**；含两个待独立核对的数学例子，不构成实际芯片或 PQC 实现的证据。详见[第五批交接](records/2026-11-13-interventions-memory-diversity-handoff.md)，验证由用户另行安排。
 
 [BOLD-20261112-16 至 18](brainstorms/2026-11-12-observation-as-computation.md) 研究清理全轨迹、已知编排形成的关系测量、聚合响应中的秘密整体结构。三项均为**待验证提案**；明确普通 HD 与相位恢复已有先例，以及多位读出、测量矩阵秩、真实模运算和物理响应映射的缺口。未运行新实验或独立核验，详见[第四批交接](records/2026-11-12-observation-handoff.md)。

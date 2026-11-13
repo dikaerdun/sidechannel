@@ -10,6 +10,8 @@
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-13 增补[第六批 BOLD-20261113-22 至 24](brainstorms/2026-11-13-predictive-states-criticality-security-order.md)：22 先提交旧模型等价的准备历史及跨操作预测；23 先核对增益、噪声、恢复时间与真实模态；24 先核对小通道反例，再定义成对防护的敏感任务及辅助信息。均待验证，由用户安排其他人推进；未启动实验或派发任务。详见[交接记录](records/2026-11-13-predictive-criticality-order-handoff.md)。
+
 2026-11-13 增补[第五批 BOLD-20261113-19 至 21](brainstorms/2026-11-13-interventions-memory-device-diversity.md)，继续由用户安排其他人验证：19 提交竞争机制及能区分它们的保护干预；20 提交跨调用观测预算与物理状态模型；21 提交器件校准、共同状态和互补性资格诊断。三项均待验证，未启动实验或派发任务。详见[交接记录](records/2026-11-13-interventions-memory-diversity-handoff.md)。
 
 [第四批 BOLD-20261112-16 至 18](brainstorms/2026-11-12-observation-as-computation.md) 按用户要求继续扩大构思，验证由其他人负责：16 先交付真实清理生命周期及全轨迹模型；17 先交付合法顺序、资源映射与可辨识关系；18 保留一次聚合响应映射和秘密等价类的诊断机会。三项全部待验证，没有启动实验或派发任务。已明确与旧方向及文献先例的区别，详见[交接记录](records/2026-11-12-observation-handoff.md)。
