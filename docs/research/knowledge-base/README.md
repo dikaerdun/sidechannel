@@ -1,6 +1,6 @@
 # 侧信道科研知识库
 
-更新日期：2026-11-13（保留既有实验批次，追加轨迹编码、任务安全与物理可辨识性提案）。用途：让研究问题、证据、失败条件和下一步工作可检索、可复算、可接续。
+更新日期：2026-11-13（保留既有实验与构思，追加 PQC 引用解析和版本证据）。用途：让研究问题、证据、失败条件和下一步工作可检索、可复算、可接续。
 
 2026-11-11 追加批次 EXP-20261111-07/08/09（离散通道）：**更正旧批的度量基础**——`r10`/`r00` 是 Montgomery 的近似随机重标记（`corr(r10,b1)=0.07`、`sign` 一致率 51%），所以拿 `b1` 做相关目标测的是被打散的代理，旧批 12–17 的“单点上限”是模型失配。换成结果值符号位后，三位点上单样本 AUC 0.994–1.000、互检 AUC 0.37–0.65（分处 copy 12/26/28）、`|b1|` 分层内最小 0.993 → PQC-H013 **有限支持**。H014（单 trace 候选集 ≤4）与 H015（基线差分）**不成立**，原因分别是幅度读数只精确命中 HW 23%、增益 CV 仅 0.10。核验方独立实现判定一致，核心数值 <1e−6；并指出主实现 `same_copy_near` 恒真、A599 有 1 处峰区漂移 745 样本。**仍未恢复任何 b1 完整值。**
 
@@ -12,6 +12,7 @@
 
 ## 从这里开始
 
+- [PQC 文献接续：25 条论文/版本卡片、恢复目标与引用初筛](records/2026-11-13-literature-pqc-citation-followups.md)
 - [计算轨迹的防护编码、任务安全与物理可辨识性：六个开放问题，三项详细提案](brainstorms/2026-11-13-trajectory-codes-task-security-identifiability.md)
 - [本轮交接：观察族、任务定义、等价模型与独立锚点](records/2026-11-13-trajectory-task-identifiability-handoff.md)
 - [时间方向、模约减商与混合算法的物理组合：三项深化，待他人验证](brainstorms/2026-11-13-time-arrow-quotients-hybrid-composition.md)
@@ -46,7 +47,7 @@
 - [第四批交接：三项最小资格诊断与已知反例](records/2026-11-12-observation-handoff.md)
 - [再扩大研究对象：自动模型反例、测量与格求解联合设计、物理同步；BOLD-13 至 15 待验证](brainstorms/2026-11-12-model-breaking-directions.md)
 - [第三批构思修订与验证交接](records/2026-11-12-model-breaking-handoff.md)
-- [近五年文献库（建设中）：1,820 条标题初筛、317 条阅读卡片、引用扩展与版本追踪](literature/README.md)
+- [近五年文献库（建设中）：1,820 条标题初筛、342 条阅读卡片、引用扩展与版本追踪](literature/README.md)
 - [掩码与硬件补读：16 条新增记录、八条发现解析及版本/模拟边界](records/2026-11-13-literature-masking-lineage-hardware.md)
 - [S&P 2023 全标题、47 篇摘要补读及掩码/恒时引用](records/2026-11-13-literature-sp2023-candidates.md)
 - [S&P 2024 摘要补读、261 条目录核对与 Episode V 引用补漏](records/2026-11-13-literature-sp2024-candidates-kyber-v.md)

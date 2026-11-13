@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6701 条，其中 383 条命中后量子相关关键词。
+当前目录记录 6726 条，其中 405 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -130,6 +130,7 @@
 | 2025 NDSS | [PQConnect: Automated Post-Quantum End-to-End Tunnels](https://www.ndss-symposium.org/ndss-paper/pqconnect-automated-post-quantum-end-to-end-tunnels/) | pending |
 | 2025 PQCrypto | [Et tu, Brute? Side-Channel Assisted Chosen Ciphertext Attacks Using Valid Ciphertexts on HQC KEM](https://doi.org/10.1007/978-3-031-86602-9_11) | include |
 | 2025 PQCrypto | [Single Trace Side-Channel Attack on the MPC-in-the-Head Framework](https://doi.org/10.1007/978-3-031-86602-9_10) | include |
+| 2025 QRSEC | [Single-trace Side-Channel Attacks on MAYO Exploiting Leaky Modular Multiplication](https://doi.org/10.1145/3733820.3764682) | include |
 | 2025 SP | [Gold OPRF: Post-Quantum Oblivious Power-Residue PRF](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-197) | pending |
 | 2025 SP | [Papercraft: Lattice-based Verifiable Delay Function Implemented](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-153) | pending |
 | 2025 SP | [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) | include |
@@ -202,6 +203,8 @@
 | 2024 CRYPTO | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | include |
 | 2024 DATE | [Bitstream Fault Injection Attacks on CRYSTALS Kyber Implementations on FPGAs](https://doi.org/10.23919/date58400.2024.10546550) | adjacent |
 | 2024 Design & Test | [Securing CRYSTALS-Kyber in FPGA Using Duplication and Clock Randomization](https://doi.org/10.1109/mdat.2023.3298805) | include |
+| 2024 HOST | [Breaking SCA-Protected CRYSTALS-Kyber with a Single Trace](https://doi.org/10.1109/host55342.2024.10545390) | include |
+| 2024 IACR ePrint | [Single-trace side-channel attacks on MAYO exploiting leaky modular multiplication](https://eprint.iacr.org/2024/1850) | include |
 | 2024 Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | include |
 | 2024 NDSS | [When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications](https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/) | pending |
 | 2024 SP | [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | include |
@@ -241,6 +244,7 @@
 | 2024 TCHES | [Single trace HQC shared key recovery with SASCA](https://doi.org/10.46586/tches.v2024.i2.64-87) | include |
 | 2024 TCHES | [SPA-GPT: General Pulse Tailor for Simple Power Analysis Based on Reinforcement Learning](https://doi.org/10.46586/tches.v2024.i4.40-83) | include |
 | 2024 TECS | [A Configurable CRYSTALS-Kyber Hardware Implementation with Side-Channel Protection](https://doi.org/10.1145/3587037) | include |
+| 2024 TECS | [Side-channel and Fault-injection attacks over Lattice-based Post-quantum Schemes (Kyber, Dilithium): Survey and New Results](https://doi.org/10.1145/3603170) | include |
 | 2024 TIFS | [Zero-Value Filtering for Accelerating Non-Profiled Side-Channel Attack on Incomplete NTT-Based Implementations of Lattice-Based Cryptography](https://doi.org/10.1109/tifs.2024.3359890) | include |
 | 2024 USENIX | [Abuse-Resistant Location Tracking: Balancing Privacy and Safety in the Offline Finding Ecosystem](https://www.usenix.org/conference/usenixsecurity24/presentation/eldridge) | pending |
 | 2024 USENIX | [Divide and Surrender: Exploiting Variable Division Instruction Timing in HQC Key Recovery Attacks](https://www.usenix.org/conference/usenixsecurity24/presentation/schr%C3%B6der) | pending |
@@ -252,6 +256,8 @@
 | 2024 USENIX | [PerfOMR: Oblivious Message Retrieval with Reduced Communication and Computation](https://www.usenix.org/conference/usenixsecurity24/presentation/liu-zeyu) | pending |
 | 2024 USENIX | [Scalable Multi-Party Computation Protocols for Machine Learning in the Honest-Majority Setting](https://www.usenix.org/conference/usenixsecurity24/presentation/liu-fengrun) | pending |
 | 2024 USENIX | [SWOOSH: Efficient Lattice-Based Non-Interactive Key Exchange](https://www.usenix.org/conference/usenixsecurity24/presentation/gajland) | pending |
+| 2023 ACNS Workshops | [Secret Key Recovery Attack on Masked and Shuffled Implementations of CRYSTALS-Kyber and Saber](https://doi.org/10.1007/978-3-031-41181-6_9) | include |
+| 2023 APKC | [Breaking a Fifth-Order Masked Implementation of CRYSTALS-Kyber by Copy-Paste](https://doi.org/10.1145/3591866.3593072) | include |
 | 2023 ASHES | [A Side-Channel Attack on a Masked Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1145/3605769.3623992) | include |
 | 2023 ASIACRYPT | [Too Many Hints – When LLL Breaks LWE](https://doi.org/10.1007/978-981-99-8730-6_4) | include |
 | 2023 ASID | [Evaluating Side-Channel Attack Vulnerabilities in Post-Quantum CRYSTALS-Kyber Hardware Based on Simple Power Analysis](https://doi.org/10.1109/asid60355.2023.10426450) | include |
@@ -261,6 +267,8 @@
 | 2023 CCS | [SALSA PICANTE: A Machine Learning Attack on LWE with Binary Secrets](https://www.sigsac.org/ccs/CCS2023/program.html) | pending |
 | 2023 CCS | [Verifiable Mix-Nets and Distributed Decryption for Voting from Lattice-Based Assumptions](https://www.sigsac.org/ccs/CCS2023/program.html) | pending |
 | 2023 ETS | [A Side-Channel Attack on a Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1109/ets56758.2023.10174000) | include |
+| 2023 FPS | [A Shared Key Recovery Attack on a Masked Implementation of CRYSTALS-Kyber’s Encapsulation Algorithm](https://doi.org/10.1007/978-3-031-57537-2_26) | include |
+| 2023 JCEN | [A side-channel attack on a masked and shuffled software implementation of Saber](https://doi.org/10.1007/s13389-023-00315-3) | include |
 | 2023 PQCrypto | [Breaking and Protecting the Crystal: Side-Channel Analysis of Dilithium in Hardware](https://doi.org/10.1007/978-3-031-40003-2_25) | include |
 | 2023 SP | [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) | include |
 | 2023 SP | [FIDO2, CTAP 2.1, and WebAuthn 2: Provable Security and Post-Quantum Instantiation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent |
@@ -310,9 +318,12 @@
 | 2022 NIST IR | [Status report on the third round of the NIST Post-Quantum Cryptography Standardization process](https://doi.org/10.6028/nist.ir.8413) | adjacent |
 | 2022 NIST IR | [Status report on the third round of the NIST Post-Quantum Cryptography Standardization process](https://doi.org/10.6028/nist.ir.8413-upd1) | adjacent |
 | 2022 NIST PQC conference | [Leveling Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage) | include |
+| 2022 PQCrypto | [A New Key Recovery Side-Channel Attack on HQC with Chosen Ciphertext](https://doi.org/10.1007/978-3-031-17234-2_17) | include |
+| 2022 PQCrypto | [A Power Side-Channel Attack on the Reed-Muller Reed-Solomon Version of the HQC Cryptosystem](https://doi.org/10.1007/978-3-031-17234-2_16) | include |
 | 2022 SAC | [Profiling Side-Channel Attacks on Dilithium: A Small Bit-Fiddling Leak Breaks It All](https://doi.org/10.1007/978-3-031-58411-4_1) | include |
 | 2022 SP | [A Logic and an Interactive Prover for the Computational Post-Quantum Security of Protocols](https://doi.org/10.1109/sp46214.2022.9833800) | adjacent |
 | 2022 SP | [MatRiCT+: More Efficient Post-Quantum Private Blockchain Payments](https://doi.org/10.1109/sp46214.2022.9833655) | adjacent |
+| 2022 TC | [Magnifying Side-Channel Leakage of Lattice-Based Cryptosystems With Chosen Ciphertexts: The Case Study of Kyber](https://doi.org/10.1109/tc.2021.3122997) | include |
 | 2022 TCHES | [A Compact and High-Performance Hardware Architecture for CRYSTALS-Dilithium](https://doi.org/10.46586/tches.v2022.i1.270-295) | adjacent |
 | 2022 TCHES | [A Constant-time AVX2 Implementation of a Variant of ROLLO](https://doi.org/10.46586/tches.v2022.i1.152-174) | include |
 | 2022 TCHES | [A Key-Recovery Side-Channel Attack on Classic McEliece Implementations](https://doi.org/10.46586/tches.v2022.i4.800-827) | include |
@@ -342,18 +353,22 @@
 | 2022 TCHES | [Verified NTT Multiplications for NISTPQC KEM Lattice Finalists: Kyber, SABER, and NTRU](https://doi.org/10.46586/tches.v2022.i4.718-750) | adjacent |
 | 2022 TCHES | [When Bad News Become Good News: Towards Usable Instances of Learning with Physical Errors](https://doi.org/10.46586/tches.v2022.i4.1-24) | adjacent |
 | 2022 TCHES | [Will You Cross the Threshold for Me?: Generic Side-Channel Assisted Chosen-Ciphertext Attacks on NTRU-based KEMs](https://doi.org/10.46586/tches.v2022.i1.722-761) | include |
+| 2022 TIFS | [On Exploiting Message Leakage in (Few) NIST PQC Candidates for Practical Message Recovery Attacks](https://doi.org/10.1109/tifs.2021.3139268) | include |
 | 2022 USENIX | [Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.usenix.org/conference/usenixsecurity22/presentation/wang-yingchen) | include |
 | 2022 USENIX | [HyperDegrade: From GHz to MHz Effective CPU Frequencies](https://www.usenix.org/conference/usenixsecurity22/presentation/aldaya) | pending |
 | 2022 USENIX | [OpenSSLNTRU: Faster post-quantum TLS key exchange](https://www.usenix.org/conference/usenixsecurity22/presentation/bernstein) | pending |
 | 2022 USENIX | [Piranha: A GPU Platform for Secure Computation](https://www.usenix.org/conference/usenixsecurity22/presentation/watson) | pending |
 | 2022 USENIX | [Post-Quantum Cryptography with Contemporary Co-Processors: Beyond Kronecker, Schönhage-Strassen & Nussbaumer](https://www.usenix.org/conference/usenixsecurity22/presentation/bos) | pending |
 | 2022 USENIX | [SAPIC+: protocol verifiers of the world, unite!](https://www.usenix.org/conference/usenixsecurity22/presentation/cheval) | pending |
+| 2021 ASHES | [Breaking Masked and Shuffled CCA Secure Saber KEM by Power Analysis](https://doi.org/10.1145/3474376.3487277) | include |
 | 2021 ASIACRYPT | [A Systematic Approach and Analysis of Key Mismatch Attacks on Lattice-Based NIST Candidate KEMs](https://doi.org/10.1007/978-3-030-92068-5_4) | include |
+| 2021 CBCrypto | [Information-Set Decoding with Hints](https://doi.org/10.1007/978-3-030-98365-9_4) | include |
 | 2021 CCS | [EasyPQC: Verifying Post-Quantum Cryptography](https://www.sigsac.org/ccs/CCS2021/accepted-papers.html) | pending |
 | 2021 CCS | [Efficient Zero-knowledge MPCitH-based Arguments](https://www.sigsac.org/ccs/CCS2021/accepted-papers.html) | pending |
 | 2021 CCS | [Faster Lattice-Based KEMs via a Generic Fujisaki-Okamoto Transform Using Prefix Hashing](https://www.sigsac.org/ccs/CCS2021/accepted-papers.html) | pending |
 | 2021 CCS | [Machine-checked ZKP for NP relations: Formally Verified Security Proofs and Implementations of MPC-in-the-Head](https://www.sigsac.org/ccs/CCS2021/accepted-papers.html) | pending |
 | 2021 CCS | [Shorter and Faster Post-Quantum zkSNARKs from Lattices](https://www.sigsac.org/ccs/CCS2021/accepted-papers.html) | pending |
+| 2021 DAC | [FALCON Down: Breaking FALCON Post-Quantum Signature Scheme through Side-Channel Attacks](https://doi.org/10.1109/dac18074.2021.9586131) | include |
 | 2021 HOST | [Single-Trace Side-Channel Attacks on ω-Small Polynomial Sampling: With Applications to NTRU, NTRU Prime, and CRYSTALS-DILITHIUM](https://doi.org/10.1109/host49136.2021.9702284) | include |
 | 2021 ICCD | [An Efficient Non-Profiled Side-Channel Attack on the CRYSTALS-Dilithium Post-Quantum Signature](https://doi.org/10.1109/iccd53106.2021.00094) | include |
 | 2021 PQCrypto | [Differential Power Analysis of the Picnic Signature Scheme](https://doi.org/10.1007/978-3-030-81293-5_10) | include |
@@ -381,11 +396,18 @@
 | 2021 USENIX | [A Side Journey To Titan](https://www.usenix.org/conference/usenixsecurity21/presentation/roche) | pending |
 | 2021 USENIX | [Privacy and Integrity Preserving Computations with CRISP](https://www.usenix.org/conference/usenixsecurity21/presentation/chatel) | pending |
 | 2021 USENIX | [Raccoon Attack: Finding and Exploiting Most-Significant-Bit-Oracles in TLS-DH(E)](https://www.usenix.org/conference/usenixsecurity21/presentation/merget) | pending |
+| 2020 CARDIS | [A Power Side-Channel Attack on the CCA2-Secure HQC KEM](https://doi.org/10.1007/978-3-030-68487-7_8) | include |
 | 2020 CCS | [SNI-in-the-head: Protecting MPC-in-the-head Protocols against Side-channel Analysis](https://doi.org/10.1145/3372297.3417889) | include |
 | 2020 CRYPTO | [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) | include |
+| 2020 IEEE Access | [Single-Trace Attacks on Message Encoding in Lattice-Based KEMs](https://doi.org/10.1109/access.2020.3029521) | include |
+| 2020 PQCrypto | [Defeating NewHope with a Single Trace](https://doi.org/10.1007/978-3-030-44223-1_11) | include |
 | 2020 SPACE | [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) | include |
+| 2020 TCHES | [Generic Side-channel attacks on CCA-secure lattice-based PKE and KEMs](https://doi.org/10.46586/tches.v2020.i3.307-335) | include |
 | 2020 TCHES | [Single-Trace Attacks on Keccak](https://doi.org/10.46586/tches.v2020.i3.243-268) | include |
 | 2019 ACNS | [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) | include |
+| 2019 COSADE | [Practical Evaluation of Masking for NTRUEncrypt on ARM Cortex-M4](https://doi.org/10.1007/978-3-030-16350-1_14) | include |
 | 2019 INDOCRYPT | [FPGA Implementation and Comparison of Protections Against SCAs for RLWE](https://doi.org/10.1007/978-3-030-35423-7_27) | include |
+| 2019 SAC | [A Timing Attack on the HQC Encryption Scheme](https://doi.org/10.1007/978-3-030-38471-5_22) | include |
 | 2018 EUROCRYPT | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | include |
+| 2018 TCHES | [Practical CCA2-Secure and Masked Ring-LWE Implementation](https://doi.org/10.46586/tches.v2018.i1.142-174) | include |
 | 2017 CHES | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | include |

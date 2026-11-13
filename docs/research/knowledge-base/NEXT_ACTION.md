@@ -4,9 +4,11 @@
 
 ## 2026-11-13 文献库建设接续
 
-[统一文献入口](literature/README.md)包含核心 30 单元的 6,628 条目录和 73 条扩展/基础记录；已初筛 1,820 条标题、作出 544 条摘要及以上判定，纳入 317 条出版/版本记录。已核对 134 条引用、30 条版本关系（28 条核实、2 条推定）；38 条发现已解析、23 条待核查。S&P 2022、2023、2024、2025 与 USENIX 2026 已和另行取得的论文集目录对应，其余 25 个核心单元待核对。
+[统一文献入口](literature/README.md)包含核心 30 单元的 6,628 条目录和 98 条扩展/基础记录；已初筛 1,820 条标题、作出 569 条摘要及以上判定，纳入 342 条出版/版本记录。已核对 168 条引用、38 条版本关系（33 条核实、五条推定）；61 条发现已解析、21 条待核查。S&P 2022、2023、2024、2025 与 USENIX 2026 已和另行取得的论文集目录对应，其余 25 个核心单元待核对。
 
-最新批次解析五条 SDitH 发现，新增 16 条卡片并初筛 SDitH 27 条、CiC FAEST 38 条和 HQC 30 条参考文献。见[批次记录](records/2026-11-13-literature-mpcith-followup.md)及[证据笔记](literature/notes/mpcith-revisions-and-evidence-20261113.md)。下一步解析 23 条新发现：优先 HQC 的 PQCrypto/CARDIS 攻击、MAYO、FALCON Down 和受保护 Kyber/Saber，核对原始摘要、日期与版本。FAEST PDF Disclaimer/历史访问受限；该 CiC 论文的自剖析策略与第二轮 FAEST 适用性没有实测，HQC 的平台和预算仍待全文。
+最新批次解析 CiC/HQC 的原 23 条发现，并补 MAYO 正式版和 Saber 期刊扩展，共 25 条卡片。见[批次记录](records/2026-11-13-literature-pqc-citation-followups.md)和[证据笔记](literature/notes/pqc-citation-followups-and-evidence-20261113.md)。下一轮优先补 S&P 2026 的 254 条标题初筛及相关候选摘要，继续扩大核心会议覆盖；同时分批接续 Falcon 18 条与 HQC RM/RS 三条新线索。HQC 博士论文与故障候选先做范围判定，窗口外基础引用与近五年研究分开。完整列表筛查不等于递归闭合。
+
+优先补读 MAYO 两版数字差异、HQC 对固定 RM 译码边界的批评、Saber 扩展的指令分析。MAYO、HOST、五阶 Kyber 的正式摘要目前来自机构搜索索引，直接页面为挑战页；Falcon 的 -O0 条件与相关性置信水平不可省略。FAEST PDF Disclaimer/历史页仍受限，自剖析及第二轮适用性仍只是讨论。
 
 此前 USENIX 2026 已完成 362 条标题和 76 篇摘要判定，目录改正与原始范围见[记录](records/2026-11-13-literature-usenix2026.md)。已取得的 DLSCA SoK 正文可用于补充引用，但尚未正式通读。
 

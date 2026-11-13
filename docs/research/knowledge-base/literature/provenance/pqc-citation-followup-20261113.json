@@ -1,0 +1,689 @@
+{
+  "updated_on": "2026-11-13",
+  "batch": "pqc-citation23-and-versions",
+  "sources": [
+    {
+      "source_id": "pqc23-cic-aclz20-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-44223-1_11",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-44223-1_11",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:08.447133+00:00",
+      "sha256": "5a020afe826ccdb4a5f23c49632d896960fe99729a477f454dd04a111efe14ce",
+      "bytes": 17903,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-cic-aclz20-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-44223-1_11",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-44223-1_11",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:11.612962+00:00",
+      "sha256": "00ae9de13571879d84d8852d72ed26f3c592035e694808fe555b4ce31e7d7ccd",
+      "bytes": 323353,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-cic-bngd23-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-41181-6_9",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-41181-6_9",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:09.745901+00:00",
+      "sha256": "b64f57bdc1d5fd338fe5cbf808d3711630b315589091bff1625d1038f0054bc4",
+      "bytes": 19314,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-cic-bngd23-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-41181-6_9",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-41181-6_9",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:13.713806+00:00",
+      "sha256": "435d6cf768846bb5186ee783e4a8a445c18376058bdc1680f58d8fba1b3f99db",
+      "bytes": 330066,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-cic-cjrr99-crossref",
+      "url": "https://api.crossref.org/works/10.1007/3-540-48405-1_26",
+      "response_url": "https://api.crossref.org/works/10.1007/3-540-48405-1_26",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:13.368704+00:00",
+      "sha256": "7d5b8cbf89b0ef04ad37c79b364ea278a9a21c493f3cb20b8b21cd2f0c3f7b41",
+      "bytes": 4483,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-cic-cjrr99-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-48405-1_26",
+      "response_url": "https://link.springer.com/chapter/10.1007/3-540-48405-1_26",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:10.170788+00:00",
+      "sha256": "f1035f23560386cf509dac5d111161a3cc5acdb10d28666da71a8e09dbc1fd1a",
+      "bytes": 241692,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-cic-dngw23-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3591866.3593072",
+      "response_url": "https://api.crossref.org/works/10.1145/3591866.3593072",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:14.586148+00:00",
+      "sha256": "5d9bf1f4d463bf92fadd9d3d6a7ccef964cfb96913f3eba7d87115578026731f",
+      "bytes": 27550,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-cic-dngw23-eprint",
+      "url": "https://eprint.iacr.org/2022/1713",
+      "response_url": "https://eprint.iacr.org/2022/1713",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:27:21.726845+00:00",
+      "sha256": "ad92ff64701f486513d9a7989e243527c300ae64129adde1362303a3b09c66f9",
+      "bytes": 16105,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-cic-dngw23-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3591866.3593072",
+      "response_url": "https://dl.acm.org/doi/10.1145/3591866.3593072",
+      "status": 403,
+      "retrieved_at": "2026-11-13T15:10:08.447273+00:00",
+      "sha256": "f931d971a8b9e9182892db1a6b98a2a790af6369dbd974fc98d387c2c4dfa4a0",
+      "bytes": 5641,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; not paper evidence"
+    },
+    {
+      "source_id": "pqc23-cic-jd24-eprint",
+      "url": "https://eprint.iacr.org/2024/1850",
+      "response_url": "https://eprint.iacr.org/2024/1850",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:09.508379+00:00",
+      "sha256": "0fdcb7bbcea5e73e24fe2fe83dc13031114af9c94a59b71c7373617417225f5e",
+      "bytes": 15627,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-cic-jd24-pdf",
+      "url": "https://eprint.iacr.org/2024/1850.pdf",
+      "response_url": "https://eprint.iacr.org/2024/1850.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T15:27:19.841443+00:00",
+      "sha256": "1eabec43abc8ffa43b3b379a61e693d273efcac857aa88c7a24907348309a818",
+      "bytes": 5583,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; not paper evidence"
+    },
+    {
+      "source_id": "pqc23-cic-jnwd24-crossref",
+      "url": "https://api.crossref.org/works/10.1109/HOST55342.2024.10545390",
+      "response_url": "https://api.crossref.org/works/10.1109/HOST55342.2024.10545390",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:16.895334+00:00",
+      "sha256": "91fbb8306ff47e0a38bffd1834fce95ca729800248cb60d35541008bc9eb3295",
+      "bytes": 5519,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-cic-jnwd24-ieee",
+      "url": "https://ieeexplore.ieee.org/document/10545390/",
+      "response_url": "https://ieeexplore.ieee.org/document/10545390/",
+      "status": 202,
+      "retrieved_at": "2026-11-13T15:27:27.680961+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; not paper evidence"
+    },
+    {
+      "source_id": "pqc23-cic-jnwd24-publisher",
+      "url": "https://doi.org/10.1109/HOST55342.2024.10545390",
+      "response_url": "https://ieeexplore.ieee.org/document/10545390/",
+      "status": 202,
+      "retrieved_at": "2026-11-13T15:10:12.262573+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; not paper evidence"
+    },
+    {
+      "source_id": "pqc23-cic-ka21-author",
+      "url": "https://research.ece.ncsu.edu/aaysu/publication/falcon-down-breaking-falcon-post-quantum-signature-scheme-through-side-channel-attacks/",
+      "response_url": "https://research.ece.ncsu.edu/aaysu/publication/falcon-down-breaking-falcon-post-quantum-signature-scheme-through-side-channel-attacks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:27:26.316105+00:00",
+      "sha256": "8b97e7114d15d5b6a663eee466e0e3745b29e470e0e5c6a9c760478840c1c395",
+      "bytes": 51204,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "pqc23-cic-ka21-crossref",
+      "url": "https://api.crossref.org/works/10.1109/DAC18074.2021.9586131",
+      "response_url": "https://api.crossref.org/works/10.1109/DAC18074.2021.9586131",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:18.089510+00:00",
+      "sha256": "a6ab3efd509e414e69577a556bfa188f4f5b4160b5bdc9b71f30a170993e50f2",
+      "bytes": 6848,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-cic-ka21-eprint",
+      "url": "https://eprint.iacr.org/2021/772",
+      "response_url": "https://eprint.iacr.org/2021/772",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:27:22.441908+00:00",
+      "sha256": "4066801600e5ae141f7b75a6cb9368765e54d016462c82113dd40050878e39f6",
+      "bytes": 14553,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-cic-ka21-pdf",
+      "url": "https://research.ece.ncsu.edu/wp-content/uploads/sites/8/DAC_21_FALCON_SCA.pdf",
+      "response_url": "https://research.ece.ncsu.edu/wp-content/uploads/sites/8/DAC_21_FALCON_SCA.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:27:28.352059+00:00",
+      "sha256": "f59866644072e0bd5eeb8933a5bc0cb8a92cb9b9d4d4b65c57cf2eed2bc56220",
+      "bytes": 2779781,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "pqc23-cic-ka21-publisher",
+      "url": "https://doi.org/10.1109/DAC18074.2021.9586131",
+      "response_url": "https://ieeexplore.ieee.org/document/9586131/",
+      "status": 202,
+      "retrieved_at": "2026-11-13T15:10:12.550305+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; not paper evidence"
+    },
+    {
+      "source_id": "pqc23-cic-kkp25-eprint",
+      "url": "https://eprint.iacr.org/2025/471",
+      "response_url": "https://eprint.iacr.org/2025/471",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:14.359515+00:00",
+      "sha256": "174775c773bfe206cf4d717831b87806c439c7fad607f07fc67c0b908ab72ea6",
+      "bytes": 14202,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-cic-kkp25-pdf",
+      "url": "https://eprint.iacr.org/2025/471.pdf",
+      "response_url": "https://eprint.iacr.org/2025/471.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T15:27:19.117724+00:00",
+      "sha256": "606631cd34431ce86851bb7f938ab0e08d74e49d1dc46d4f9746788df7dc9f8e",
+      "bytes": 5580,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; not paper evidence"
+    },
+    {
+      "source_id": "pqc23-cic-ndj21-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3474376.3487277",
+      "response_url": "https://api.crossref.org/works/10.1145/3474376.3487277",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:19.272099+00:00",
+      "sha256": "884e9af39da86baab68410f442eff1b1a61c22a0ff0fb3c9c9bf96691f5fc0d8",
+      "bytes": 7615,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-cic-ndj21-eprint",
+      "url": "https://eprint.iacr.org/2021/902",
+      "response_url": "https://eprint.iacr.org/2021/902",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:27:21.068672+00:00",
+      "sha256": "c9538347706faa1b0005559ef07be8870016724e4484a14d01411209cc4bf1d6",
+      "bytes": 15540,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-cic-ndj21-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3474376.3487277",
+      "response_url": "https://dl.acm.org/doi/10.1145/3474376.3487277",
+      "status": 403,
+      "retrieved_at": "2026-11-13T15:10:13.568641+00:00",
+      "sha256": "db5c2cc2a89e2446ab344ea0f4b63cf4c33a6e18fecc3896bd87dcd8daca636f",
+      "bytes": 5641,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; not paper evidence"
+    },
+    {
+      "source_id": "pqc23-cic-rp10-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-642-15031-9_28",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-642-15031-9_28",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:20.613045+00:00",
+      "sha256": "a95072ad0cc3d92fef77192589f80cc595439270f3f95bce0ea8e9b7aef95609",
+      "bytes": 18152,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-cic-rp10-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-15031-9_28",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-642-15031-9_28",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:16.032673+00:00",
+      "sha256": "d1aa7a8e11e80fe7f63afc1d7d5cff77675411757daace7f1c22030907f0d5f0",
+      "bytes": 277158,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-cic-sklplus20-crossref",
+      "url": "https://api.crossref.org/works/10.1109/ACCESS.2020.3029521",
+      "response_url": "https://api.crossref.org/works/10.1109/ACCESS.2020.3029521",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:22.379662+00:00",
+      "sha256": "406669213a7ca61e1d947b10797934cbe9766ab13297097d4b34406d816fd720",
+      "bytes": 9552,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-cic-sklplus20-eprint",
+      "url": "https://eprint.iacr.org/2020/992",
+      "response_url": "https://eprint.iacr.org/2020/992",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:27:24.782802+00:00",
+      "sha256": "16788fe865cfecb2edfeb74f6b17d8352406d1f999982a2705e0b325f2891b64",
+      "bytes": 15851,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-cic-sklplus20-publisher",
+      "url": "https://doi.org/10.1109/ACCESS.2020.3029521",
+      "response_url": "https://ieeexplore.ieee.org/document/9217595/",
+      "status": 202,
+      "retrieved_at": "2026-11-13T15:10:15.864981+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; not paper evidence"
+    },
+    {
+      "source_id": "pqc23-cic-wd23-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-57537-2_26",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-57537-2_26",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:24.242087+00:00",
+      "sha256": "5dcebc185971df37e63de638d3cd23eb98d5da2655e653a35950132bb281d140",
+      "bytes": 14732,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-cic-wd23-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-57537-2_26",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-57537-2_26",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:20.460348+00:00",
+      "sha256": "2ca22bbb25dd8e114a828aaac7835246eb141eb73f268592604db058d8ca1fde",
+      "bytes": 309512,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-hqc-13-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-98365-9_4",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-98365-9_4",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:28.253911+00:00",
+      "sha256": "f87b5ce8dc64b965e57f686995c876c3d2159b0b501e15c0d64674ced776d638",
+      "bytes": 23254,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-hqc-13-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-98365-9_4",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-98365-9_4",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:22.018205+00:00",
+      "sha256": "b8a00cfe2cc321c1d144bd738e7be296cb2bbaebb8e8fe29ad751abc70d6e0e5",
+      "bytes": 360248,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-hqc-20-crossref",
+      "url": "https://api.crossref.org/works/10.46586/tches.v2018.i1.142-174",
+      "response_url": "https://api.crossref.org/works/10.46586/tches.v2018.i1.142-174",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:31.106033+00:00",
+      "sha256": "42b31c33a7f8254a2a53361457a40e23fc89ca1689845db8ceb2f06d0f7c58db",
+      "bytes": 4249,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-hqc-20-publisher",
+      "url": "https://doi.org/10.46586/tches.v2018.i1.142-174",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/view/836",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:20.247192+00:00",
+      "sha256": "9a52a9dfe55a08facc594772c18fb01980b5bdfa22a6efd67e34ae006b84553f",
+      "bytes": 28826,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-hqc-21-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-38471-5_22",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-38471-5_22",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:33.229688+00:00",
+      "sha256": "0cb00c57b479cbdbbef35c392630f11c9d741877aaa6254d4c9324921ed2e98b",
+      "bytes": 13116,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-hqc-21-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-38471-5_22",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-38471-5_22",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:28.965395+00:00",
+      "sha256": "7d7f265bab38cd7eacf7ac18f0a38a5cd86a03fbbe087789431005bba8e50bc5",
+      "bytes": 315315,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-hqc-23-author",
+      "url": "https://tugraz.elsevierpure.com/en/publications/on-exploiting-message-leakage-in-few-nist-pqc-candidates-for-prac/",
+      "response_url": "https://tugraz.elsevierpure.com/en/publications/on-exploiting-message-leakage-in-few-nist-pqc-candidates-for-prac/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:32:28.335566+00:00",
+      "sha256": "453502a8f996e852ff1591b7eafeb5f5efefa0884cb22f1322c441aa609d1e91",
+      "bytes": 42565,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "pqc23-hqc-23-crossref",
+      "url": "https://api.crossref.org/works/10.1109/tifs.2021.3139268",
+      "response_url": "https://api.crossref.org/works/10.1109/tifs.2021.3139268",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:35.758560+00:00",
+      "sha256": "dd98adaac68b99f5ae80eac84654240b1093903a41ad4f3bf17c8f4293b7869d",
+      "bytes": 6974,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-hqc-23-eprint",
+      "url": "https://eprint.iacr.org/2020/1559",
+      "response_url": "https://eprint.iacr.org/2020/1559",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:27:25.678434+00:00",
+      "sha256": "5c451768f080bab5fd5cfdf3efc6ddb27f15d44fbde0d5a1785a25c6e5bd14e0",
+      "bytes": 16248,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-hqc-23-publisher",
+      "url": "https://doi.org/10.1109/tifs.2021.3139268",
+      "response_url": "https://ieeexplore.ieee.org/document/9664567/",
+      "status": 202,
+      "retrieved_at": "2026-11-13T15:10:24.974212+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; not paper evidence"
+    },
+    {
+      "source_id": "pqc23-hqc-24-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3603170",
+      "response_url": "https://api.crossref.org/works/10.1145/3603170",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:37.374115+00:00",
+      "sha256": "5b06ec06f24c14f94be286f4a41e431ac322db899046c919abddc6ce6c22740b",
+      "bytes": 27020,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-hqc-24-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3603170",
+      "response_url": "https://dl.acm.org/doi/10.1145/3603170",
+      "status": 403,
+      "retrieved_at": "2026-11-13T15:10:22.333711+00:00",
+      "sha256": "5fc9aff4f7b8bc500642dff16368735499ce85b76cb7220ff4bf394881f692be",
+      "bytes": 5617,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; not paper evidence"
+    },
+    {
+      "source_id": "pqc23-hqc-26-crossref",
+      "url": "https://api.crossref.org/works/10.46586/tches.v2020.i3.307-335",
+      "response_url": "https://api.crossref.org/works/10.46586/tches.v2020.i3.307-335",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:38.535041+00:00",
+      "sha256": "6de5c4f86dc7a7c22a52b568664d634f51587219ef8f071653cfe5a4edf50eb8",
+      "bytes": 3898,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-hqc-26-publisher",
+      "url": "https://doi.org/10.46586/tches.v2020.i3.307-335",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/view/8592",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:25.414022+00:00",
+      "sha256": "0a1ed8e2dd8f2421463fdc65a4e9c417b4b9f7f1bfdaacb5c8134c8716311bab",
+      "bytes": 28799,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-hqc-27-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-17234-2_16",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-17234-2_16",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:40.680659+00:00",
+      "sha256": "a728111557005b594f2416dee9746a304982f47676e5e6739e0a7c625d9f3aa2",
+      "bytes": 12699,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-hqc-27-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-17234-2_16",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-17234-2_16",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:27.363742+00:00",
+      "sha256": "15d659486d1f966be13021a98c69fee2c005f7df84eb7ad9c8428b6fd01edb8e",
+      "bytes": 343912,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-hqc-28-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-16350-1_14",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-16350-1_14",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:42.088483+00:00",
+      "sha256": "7a6ed57b9d09b1eaeacd238e26f8809c1aa76cc2f6a8feeceab07dee3a5a8f46",
+      "bytes": 12994,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-hqc-28-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-16350-1_14",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-16350-1_14",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:29.414435+00:00",
+      "sha256": "2054d3da5811520eb095e873f5bfe5604360cb3b59fc2680c2a176562e929194",
+      "bytes": 309173,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-hqc-29-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-68487-7_8",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-68487-7_8",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:46.407164+00:00",
+      "sha256": "19ec4cae7f9b8d3f1c27cd2b6675403d707c056c20603d9f196e9f37df6e8f78",
+      "bytes": 10361,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-hqc-29-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-68487-7_8",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-68487-7_8",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:29.673795+00:00",
+      "sha256": "ef4c2b274dbe55d43327bc0a958deb3dbadb76eecb03a5529c36aa911dfb13ee",
+      "bytes": 300994,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-hqc-30-author",
+      "url": "https://research.birmingham.ac.uk/en/publications/magnifying-side-channel-leakage-of-lattice-based-cryptosystems-wi/",
+      "response_url": "https://research.birmingham.ac.uk/en/publications/magnifying-side-channel-leakage-of-lattice-based-cryptosystems-wi/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:27:29.093849+00:00",
+      "sha256": "e10696feca22eedab398e88f7eb56f370c9cfa88a3da5b9311bb0398929ba7c2",
+      "bytes": 66517,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "pqc23-hqc-30-crossref",
+      "url": "https://api.crossref.org/works/10.1109/tc.2021.3122997",
+      "response_url": "https://api.crossref.org/works/10.1109/tc.2021.3122997",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:47.778816+00:00",
+      "sha256": "282b548f18ceca7c17a4260b700a334b893acb6f1d5048f9dca0b458ef1735dc",
+      "bytes": 9377,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-hqc-30-eprint",
+      "url": "https://eprint.iacr.org/2020/912",
+      "response_url": "https://eprint.iacr.org/2020/912",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:27:26.561644+00:00",
+      "sha256": "af9e4432e0fb9b3e7280ca8275972127cfb09d33fc80c6c4edabf417912af732",
+      "bytes": 17824,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-hqc-9-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-17234-2_17",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-17234-2_17",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:26.123990+00:00",
+      "sha256": "0dce8badec46a88c8130c774d6b5b0d9638585500725ca4a6a8d1c0448fd5087",
+      "bytes": 14812,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-hqc-9-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-17234-2_17",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-17234-2_17",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:10:21.292895+00:00",
+      "sha256": "3bea1ad3b9546c870c9db8c55b6bfa007a40d914e1590f519323f6d5bc8f3b90",
+      "bytes": 316667,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pqc23-kth-fifth-indexed-abstract",
+      "url": "https://kth.diva-portal.org/smash/person.jsf?faces-redirect=true&language=sv&pid=authority-person%3A60095&searchType=SIMPLE",
+      "retrieved_at": "2026-11-13T15:32:24.046427+00:00",
+      "status": "search_index_snapshot",
+      "sha256": "35999e997a1192a269741ec2d4ad77b5659d1e64ae8a312c8251ccf3f643441d",
+      "bytes": 31189,
+      "content_type": "text/plain; indexed primary-page extract",
+      "evidence_use": "Complete APKC abstract with formal four-author identity from indexed KTH page; direct publisher not accessible"
+    },
+    {
+      "source_id": "pqc23-kth-indexed-abstracts",
+      "url": "https://kth.diva-portal.org/smash/person.jsf?pid=authority-person%3A111623",
+      "retrieved_at": "2026-11-13T15:30:30.758576+00:00",
+      "status": "search_index_snapshot",
+      "sha256": "1b35326dc50f7fb53e774d7942003e9998ec595c0ce45549eee9999c893b105e",
+      "bytes": 30695,
+      "content_type": "text/plain; indexed primary-page extract",
+      "evidence_use": "MAYO and HOST 2024 complete abstract paragraphs exposed by web search; direct HTML is bot challenge, not current publisher/full-text verification"
+    },
+    {
+      "source_id": "pqc23-kth-jendral-author",
+      "url": "https://kth.diva-portal.org/smash/person.jsf?pid=authority-person%3A111623",
+      "response_url": "https://kth.diva-portal.org/smash/person.jsf?pid=authority-person%3A111623",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:27:29.240167+00:00",
+      "sha256": "36d3bdd9fa16407c1b221b0c67789196807caa195eeed11784d859f178768a86",
+      "bytes": 7104,
+      "content_type": "text/html; charset=utf-8",
+      "evidence_use": "HTTP 200 bot challenge; not scholarly content; formal abstract read only via separately labelled search-index snapshot"
+    },
+    {
+      "source_id": "pqc23-mayo-author",
+      "url": "https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-378747",
+      "response_url": "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2049978",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:27:28.278378+00:00",
+      "sha256": "a4a5653f84b0acf3fdaa691092f5193e18f4a00addabe9060e384a13ecb05cef",
+      "bytes": 7104,
+      "content_type": "text/html; charset=utf-8",
+      "evidence_use": "HTTP 200 bot challenge; not scholarly content; formal abstract read only via separately labelled search-index snapshot"
+    },
+    {
+      "source_id": "pqc23-mayo-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3733820.3764682",
+      "response_url": "https://api.crossref.org/works/10.1145/3733820.3764682",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:27:21.820585+00:00",
+      "sha256": "7da66df60db35ab325e675703bab1b0d28d91c7ab7b1a617904f25c4701836e6",
+      "bytes": 8405,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-mayo-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3733820.3764682",
+      "response_url": "https://dl.acm.org/doi/10.1145/3733820.3764682",
+      "status": 403,
+      "retrieved_at": "2026-11-13T15:27:19.635997+00:00",
+      "sha256": "a257b3973058ce594541a7a9d02c976475007daacc7f10bc50e886499fe1139a",
+      "bytes": 5641,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; not paper evidence"
+    },
+    {
+      "source_id": "pqc23-saberjournal-crossref",
+      "url": "https://api.crossref.org/works/10.1007/s13389-023-00315-3",
+      "response_url": "https://api.crossref.org/works/10.1007/s13389-023-00315-3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:32:27.401957+00:00",
+      "sha256": "9958a362f7a78a9f75b1e6a7f13b4056232a6fbebe14b456ea9708e19c3a138a",
+      "bytes": 28409,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pqc23-saberjournal-publisher",
+      "url": "https://link.springer.com/article/10.1007/s13389-023-00315-3",
+      "response_url": "https://link.springer.com/article/10.1007/s13389-023-00315-3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T15:32:32.671986+00:00",
+      "sha256": "ecf637b4e5eebc079df68a8d072a0fd15adafddd034063bab67fff4c6edfc967",
+      "bytes": 486172,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "counts": {
+    "resolved_discoveries": 23,
+    "new_catalog_records": 25,
+    "new_included_cards": 25,
+    "pqc_cards": 22,
+    "general_sca_cards": 3,
+    "new_citation_edges": 34,
+    "new_version_edges": 8,
+    "verified_new_version_edges": 5,
+    "inferred_new_version_edges": 3,
+    "new_pending_discoveries": 21,
+    "new_reference_positions": 46,
+    "duplicate_reference_positions": 1
+  },
+  "evidence_scope": {
+    "falcon": "selected author PDF pages 1,4-6 and Figure 4 visual inspection; all 28 reference positions including duplicate 18/23",
+    "saber_journal": "abstract, introduction contribution/extension paragraph, and selected reference 41 of 63",
+    "hqc_rmrs": "abstract and full 17-entry publisher bibliography; criticism recorded as author claim, not adjudicated",
+    "mayo_host_fifth": "formal abstracts from complete institutional search-index paragraphs; direct pages are bot challenges; metadata separately verified",
+    "other_cards": "abstract and bibliographic metadata only; no author code execution"
+  },
+  "gaps": [
+    "No full-text version equivalence established",
+    "Three preprint/formal relationships inferred only",
+    "MAYO quantitative abstract discrepancy unresolved",
+    "Shared/session/message-bit recovery not long-term-key recovery",
+    "No independent experimental or theorem reproduction",
+    "New thesis/fault-only reference scope pending",
+    "Backward inventories are not forward or recursive closure"
+  ]
+}

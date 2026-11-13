@@ -65,8 +65,10 @@ def render_citations(root,catalogs):
       f'追踪任务共 {len(tasks)} 项：'+', '.join(f'{k}={v}' for k,v in sorted(Counter(t['status'] for t in tasks).items()))+'。',
       f'已登记发现中，{len(resolved_discoveries)} 条完成身份与范围判定，{len(pending_discoveries)} 条仍待核查；已解析记录继续保留历史。','',
       'GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan、Peek-a-Walk、EasyCrypt、Episode V 及 S&P 2023 的指定引用继续保留。追加 GLP 期刊、Protecting Dilithium、3D-Shield 合计九条选读；所有选读均不构成完整参考文献筛查。',
-      'SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 条参考列表已逐条初筛，共 36 条对应、23 条新发现待核查、36 条暂列背景。背景条目未经原文最终排除，全部列表也不构成递归引用闭合。',
+      'SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 条参考列表已逐条初筛，原 23 条发现现已解析，共 59 条对应、36 条暂列背景。背景条目未经原文最终排除，全部列表也不构成递归引用闭合。',
       '[SDitH 引用清单](citations/sdith2026-reference-screen.jsonl) · [CiC FAEST 引用清单](citations/faest-cic2026-reference-screen.jsonl) · [HQC 引用清单](citations/hqc-valid2025-reference-screen.jsonl) · [修订与证据范围](notes/mpcith-revisions-and-evidence-20261113.md)','',
+      '另完整初筛 FALCON Down 的 28 个引用位置和 HQC RM/RS 的 17 条参考文献，选读 Saber 期刊版第 41 条：共 11 条对应、21 条新待查、13 条暂列背景、一个重复位置。Falcon [23] 与 [18] 相同，保留位置但不增加引用边。',
+      '[Falcon 引用清单](citations/falcon-down2021-reference-screen.jsonl) · [HQC RM/RS 引用清单](citations/hqc-rmrs2022-reference-screen.jsonl) · [Saber 单条选读](citations/saber-journal2023-selected-reference-screen.jsonl) · [版本与恢复目标](notes/pqc-citation-followups-and-evidence-20261113.md)','',
       '[GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)','',
       '| 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |','|---|---:|---|---|']
     papers={p['id']:p for p in (json.loads(x) for x in (root/'papers.jsonl').read_text().splitlines())}
@@ -194,7 +196,7 @@ def main():
             lines.append(f'| {venue} | {year} | {n if n else "待补齐"} | {toc_label} | {title_reviewed}/{n} | {reviewed}/{n} | {link} |')
     lines.extend(['','## 当前已知缺口','',
       '- S&P 2022、2023、2024、2025 已与另一来源取得的 IEEE 印刷论文集目录逐项对应；USENIX 2026 已与单独取得的官方论文集 PDF 目录对应。其余 25 个单元仍待独立核对；同一个 HTML 的两种导出不算独立证据，官方 PDF 也不是独立科学审查。',
-      '- USENIX 2026 的 381 个议程节点已分为 362 篇论文和 19 条其他活动；2016 论文的回顾讨论不计作 2026 新论文。362 个标题已读、76 篇有摘要及以上判定，286 篇摘要仍待复核。五条 SDitH 发现已解析，后续 CiC/HQC 又登记 23 条待核查引用；目录一处 L∞/L_infinity 仅为数学记号差异。',
+      '- USENIX 2026 的 381 个议程节点已分为 362 篇论文和 19 条其他活动；2016 论文的回顾讨论不计作 2026 新论文。362 个标题已读、76 篇有摘要及以上判定，286 篇摘要仍待复核。五条 SDitH 及后续 CiC/HQC 的 23 条发现已解析；继续沿 Falcon/HQC RM/RS 登记 21 条新线索，仍不构成递归闭合。目录一处 L∞/L_infinity 仅为数学记号差异。',
       '- S&P 2022 全部 147 条标题已读，49 个候选/不确定项有摘要判定，其余 98 条待复核。独立印刷目录 140 条规范化题名相同、7 条改题名；146 个可用出版起始页匹配，MSR Templating 的 Crossref 页码缺失。三处作者尾部字符已按印刷目录更正，其他名字形式及录用/出版差异保留。',
       '- IEEE S&P 2026 页面标题与目录年度为 2026，但有一个 cycle 小标题写 2025，保留为需复核的页面不一致。',
       '- IEEE S&P 2023 主列表漏列 DVFS Frequently Leaks Secrets；GoFetch 引用与另一官方日程促成补录，独立印刷目录现已确认全部 196 条。194 条规范化题名相同、2 条改题名；三个 N/A、两组重复 DOI 和五条作者字段差异保留待查。该年标题候选/不确定项共 48 条均有摘要判定，其余 148 条仍待摘要复核。',
@@ -221,6 +223,8 @@ def main():
     elines+=['','SAC 2022 的会议年与 2024 年上线日期分别记录；ICCD 2021-10、ISCA 2021-06 和 ASIACCS 2021-05 论文作为窗口前边界引用保留。TCHES 2020 卷的 Share-slicing 于 2019-11 发表；CRYPTO 2020 的 FO 时序与 CHES 2017 的单轨迹论文也作为窗口外基础引用，不计入 2021–2026 核心单元。CRYPTO、EUROCRYPT、ASIACRYPT、COSADE 等扩展会议仍有系统目录收集任务；已有个别记录不等于完整覆盖。',
              '另保留 GLP 2018、CARDIS 2019（2020 上线）的 qTESLA、ACNS 2019 Dilithium、PLDI/S&P 2020 与 CCS 2017 基础文献。GLP 期刊版在线于 2023 年、卷年 2024；2022 Leveling 固定稿与 2023 Protecting 修正版分列。3D-Shield 仅核定 arXiv 记录，其作者声明的会议身份仍待独立核对。',
              'MPCitH/FAEST/HQC 引用补入 16 条记录；Picnic DPA 于 2021-07 上线，在滚动窗口前；CARDIS 2017 检测论文于 2018 上线。CCS 2016/2020、Keccak、TVLA、Private Circuits 与 DPA 等基础来源单列，FAEST 当前掩码实现撤回状态保留在卡片与笔记。',
+             'PQC 引用后续另补 25 条记录，其中 MAYO 预印本与正式版分列，Saber 会议与期刊扩展相连；记录数不是独立研究数。CBCrypto 2021/FPS 2023 分别于 2022/2024 出版；HQC CARDIS 2020 于 2021-01 上线；Kyber TC 2022 卷的早期在线为 2021-10-27。基础来源与滚动窗口继续分开。',
+             '[PQC 后续来源与哈希](provenance/pqc-citation-followup-20261113.json) · [版本与证据笔记](notes/pqc-citation-followups-and-evidence-20261113.md)',
              '[元数据](catalogs/citation-expansion.jsonl) · [首批来源与哈希](provenance/citation-expansion.json) · [此前来源](provenance/citation-followup-20261113.json) · [掩码与硬件补读来源](provenance/sp2023-reference-followup-20261113.json) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [MPCitH 后续来源](provenance/mpcith-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl)','']
     (root/'EXTENDED_SOURCES.md').write_text('\n'.join(elines))
     title_lines=['# 标题与副标题初筛','','这是一轮人工阅读后的 Codex 判定，不是关键词自动分类。全部判定均为标题层暂判；后续摘要判定见 decisions.jsonl。','',

@@ -106,6 +106,15 @@ refs=[r for p in (ROOT/'citations').glob('*reference-screen.jsonl') for r in rea
 assert len({(r['seed_id'],r['reference_number']) for r in refs})==len(refs)
 assert all(r['seed_id'] in ids and r['source_id'] in sources for r in refs)
 assert all(r['final_scope_decision'] is False for r in refs)
+# Preserve repeated printed positions without double-counting a citation edge.
+reference_map={(r['seed_id'],r['reference_number']):r for r in refs}
+for r in refs:
+    if r['status']!='duplicate_reference':continue
+    original=reference_map[(r['seed_id'],r['duplicate_of_reference_number'])]
+    assert original['status']=='linked_catalog' and original['target_id']==r['target_id']
+    assert original['reference_number']!=r['reference_number']
+    assert original['source_id']==r['source_id'] and original['source_sha256']==r['source_sha256']
+    assert not any(e['from']==r['seed_id'] and e['reference_number']==r['reference_number'] for e in cites)
 inventory_sources={r['source_id'] for r in refs}
 assert {(r['seed_id'],r['reference_number'],r['target_id']) for r in refs if r['status']=='linked_catalog'}=={(e['from'],e['reference_number'],e['to']) for e in cites if e['source_id'] in inventory_sources}
 discoveries=read_rows(ROOT/'citations/discoveries.jsonl')

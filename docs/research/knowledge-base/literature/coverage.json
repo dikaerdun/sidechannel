@@ -2,32 +2,32 @@
   "cutoff": "2026-11-12",
   "rolling_window_start": "2021-11-12",
   "reading_updated_on": "2026-11-13",
-  "total_catalog_records": 6701,
+  "total_catalog_records": 6726,
   "priority_counts": {
     "unmatched_pending": 5387,
-    "sca_terms": 931,
+    "sca_terms": 934,
     "pqc_terms": 204,
-    "pqc_and_sca_terms": 179
+    "pqc_and_sca_terms": 201
   },
   "core_catalog_records": 6628,
-  "citation_expansion_records": 73,
+  "citation_expansion_records": 98,
   "title_screened_records": 1820,
-  "abstract_screened_records": 544,
-  "included_papers": 317,
+  "abstract_screened_records": 569,
+  "included_papers": 342,
   "reading_level_counts": {
-    "abstract_and_bibliographic_metadata": 275,
-    "selected_full_text_sections": 42
+    "abstract_and_bibliographic_metadata": 298,
+    "selected_full_text_sections": 44
   },
   "citation_progress": {
-    "verified_citation_edges": 134,
-    "verified_version_edges": 28,
-    "inferred_version_edges": 2,
+    "verified_citation_edges": 168,
+    "verified_version_edges": 33,
+    "inferred_version_edges": 5,
     "task_status_counts": {
-      "pending": 581,
-      "in_progress": 53
+      "pending": 628,
+      "in_progress": 56
     },
-    "unresolved_discoveries": 23,
-    "resolved_discoveries": 38
+    "unresolved_discoveries": 21,
+    "resolved_discoveries": 61
   },
   "core_cells": [
     {
