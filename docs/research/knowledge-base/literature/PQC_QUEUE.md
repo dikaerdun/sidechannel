@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6776 条，其中 430 条命中后量子相关关键词。
+当前目录记录 6776 条，其中 431 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -136,7 +136,8 @@
 | 2025 ICCD | [Masked Gadgets for Integer-Floating-Point Conversion with Applications to Falcon](https://doi.org/10.1109/iccd65941.2025.00078) | pending |
 | 2025 Journal of Cryptographic Engineering | [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) | include |
 | 2025 NDSS | [L-HAWK: A Controllable Physical Adversarial Patch Against a Long-Distance Target](https://www.ndss-symposium.org/ndss-paper/l-hawk-a-controllable-physical-adversarial-patch-against-a-long-distance-target/) | pending |
-| 2025 NDSS | [PQConnect: Automated Post-Quantum End-to-End Tunnels](https://www.ndss-symposium.org/ndss-paper/pqconnect-automated-post-quantum-end-to-end-tunnels/) | pending |
+| 2025 NDSS | [PQConnect: Automated Post-Quantum End-to-End Tunnels](https://www.ndss-symposium.org/ndss-paper/pqconnect-automated-post-quantum-end-to-end-tunnels/) | adjacent |
+| 2025 NDSS | [SHAFT: Secure, Handy, Accurate and Fast Transformer Inference](https://www.ndss-symposium.org/ndss-paper/shaft-secure-handy-accurate-and-fast-transformer-inference/) | adjacent |
 | 2025 PQCrypto | [Et tu, Brute? Side-Channel Assisted Chosen Ciphertext Attacks Using Valid Ciphertexts on HQC KEM](https://doi.org/10.1007/978-3-031-86602-9_11) | include |
 | 2025 PQCrypto | [Single Trace Side-Channel Attack on the MPC-in-the-Head Framework](https://doi.org/10.1007/978-3-031-86602-9_10) | include |
 | 2025 PQCrypto | [SoK: On the Physical Security of UOV-Based Signature Schemes](https://doi.org/10.1007/978-3-031-86599-2_7) | include |

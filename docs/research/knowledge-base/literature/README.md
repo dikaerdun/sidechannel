@@ -6,6 +6,7 @@
 
 ## 阅读入口
 
+- [NDSS 2025 静态功耗、量子硬件与范围核查](notes/ndss2025-static-power-quantum-and-scope-20261114.md)：211 条标题、71 篇摘要、27 张通用卡片、十二条引用选读及物理证据边界。
 - [掩码基础、Gaussian 时序与 Falcon 引用证据](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)：20 条发现解析、18 张新卡片、采样保护变量与版本差异。
 - [CCS 2025 第二轮指标、迁移与访问条件](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)：13 篇摘要判定、四篇正文选读、Swallow 全部引用初筛和一篇基础文献补录。
 - [mUOV 引用接续与掩码采样](notes/muov-followups-and-masked-sampling-20261114.md)：七条引用解析、floor 正式版书目与 Maskaglia 前向追踪。
@@ -22,8 +23,8 @@
 - [S&P 2022 范围与身份](notes/sp2022-scope-and-identity-20261113.md)及 [Kyber 乘法与打乱证据](notes/kyber-multiplication-and-shuffling-20261113.md)：故障到泄漏组合、局部恢复、模拟/实测与版本条件。
 - [S&P 2022 印刷目录对应](toc-crosschecks/sp-2022.jsonl)：147 条双向对应，含七处改题名；146 个可用出版起始页匹配，一处页码字段缺失。
 - [范围与筛查协议](PROTOCOL.md)：纳入标准、时间边界、证据层级和完成条件。
-- [479 条阅读卡片](PAPER_NOTES.md)：按主要对象分为 193 条 PQC、286 条通用研究；418 条以摘要为主，61 条补读正文部分章节，均未本地复现。会议/期刊版本分别保留，不能把记录数当作独立研究数量。
-- [349 条相邻主题与方法背景](ADJACENT_NOTES.md)：保留纯故障、防护交互、格约简、数值安全和实现背景，不混入侧信道纳入数。
+- [506 条阅读卡片](PAPER_NOTES.md)：按主要对象分为 193 条 PQC、313 条通用研究；441 条以摘要为主，65 条补读正文部分章节，均未本地复现。会议/期刊版本分别保留，不能把记录数当作独立研究数量。
+- [393 条相邻主题与方法背景](ADJACENT_NOTES.md)：保留纯故障、防护交互、格约简、数值安全和实现背景，不混入侧信道纳入数。
 - [掩码版本演变与 Kyber 硬件证据](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)：Leveling/Protecting 的实质修正、Mitaka 恒时限制、硬件恢复对象，以及模拟与测量的边界。
 - [S&P 2023 掩码、推测与观察条件](notes/sp2023-masking-speculation-observation-20261113.md)：Raccoon 的随机数/测试条件与 Jasmin 的应用边界，含九条引用选读。
 - [Episode V 恒时保证与证明边界](notes/kyber-verification-episode-v-20261113.md)：区分规范证明、恒时实现、经典模型、版本差异和两篇窗口外基础文献。
@@ -34,9 +35,9 @@
 - [S&P 2025 保护范围与观测通道](notes/sp2025-protection-and-observation-boundaries-20261113.md)：OpenTitan 的掩码边界、Scheduled Disclosure 的 SIKE 实验及作者代码入口。
 - [比较条件专题](notes/pqc-comparison-boundaries-20261113.md)：区分 trace/query/hint、模型与测量、实际求解与难度估计。
 - [算法/对象索引](TOPIC_INDEX.md)与[年度索引](YEAR_INDEX.md)：浏览已纳入研究，区分历史实现与最终标准。
-- [标题初筛](TITLE_SCREENING.md)：TCHES 599 条、S&P 2022 的 147 条、2023 的 196 条、2024 的 261 条、2025 的 255 条、2026 的 254 条，加 USENIX 2025 的 438 条和 2026 的 362 条，以及 CCS 2025 的 316 条，共 2,828 条已读；暂判不等于最终纳入/排除。
+- [标题初筛](TITLE_SCREENING.md)：TCHES 599 条、S&P 2022 的 147 条、2023 的 196 条、2024 的 261 条、2025 的 255 条、2026 的 254 条，加 USENIX 2025 的 438 条和 2026 的 362 条，以及 CCS 2025 的 316 条、NDSS 2025 的 211 条，共 3,039 条已读；暂判不等于最终纳入/排除。
 - [覆盖与缺口](COVERAGE.md)：逐会议、逐年的实际状态。
-- [引用与版本进度](CITATION_PROGRESS.md)：267 条核对引用、69 条版本关系（60 条核实、9 条推定）；100 条发现完成身份与范围判定、100 条仍待解析，整体引用追踪尚未完成。
+- [引用与版本进度](CITATION_PROGRESS.md)：274 条核对引用、70 条版本关系（61 条核实、9 条推定）；100 条发现完成身份与范围判定、105 条仍待解析，整体引用追踪尚未完成。
 - [扩展来源](EXTENDED_SOURCES.md)：通过引用、检索和版本关联取得的 148 条记录，包含扩展会议、预印本及窗口外基础论文；尚非完整年度目录。
 - [S&P 2023 印刷目录对应](toc-crosschecks/sp-2023.jsonl)：196 条对应、两处改题名和三个 N/A；两组重复 DOI 继续保留待查。
 - [S&P 2024 印刷目录逐项对应](toc-crosschecks/sp-2024.jsonl)：261 条双向对应，含两处改题名；四条由渲染页读取，另 257 条从文字层提取。
@@ -61,7 +62,7 @@
 
 当前已解析 30 个核心会议年单元的 6,628 条目录记录，另有 148 条扩展/基础记录，总计 6,776 条；这些覆盖所有主题，不是 6,776 篇侧信道论文。另有 73 条前言、索引、主题演讲、Enigma/圆桌、历史回顾、会议活动与占位记录单列到 catalog-exclusions/，保留排除依据。
 
-已完成 2,828 条标题初筛和 828 条摘要及以上阅读判定，其中纳入 479 条、相邻主题 349 条。958 项前后向任务中，67 项进行中、891 项待处理，没有任务被标为全面追踪完成。GoFetch 的 98 条参考文献初筛保持原状：30 条身份对应、58 条基础文献待处理、10 条背景/实现记录。Scheduled Disclosure 的 79 条引用中有 15 条身份对应、16 条基础文献待处理、48 条背景/实现记录。OpenTitan、Peek-a-Walk、EasyCrypt 以及 Episode V 的指定选读继续保留。S&P 2023 的九条选读均已对应；追加 GLP、Protecting、3D-Shield 的九条选读已全部对应；硬件打乱论文全部 17 条引用已作身份与范围判定，七条发现已解析；另连入后续论文三条关系，其中一条证据来自出版商提交的 DOI。其余指定选读仍不代表完整参考文献筛查，17 条对应也不代表递归追踪完成。
+已完成 3,039 条标题初筛和 899 条摘要及以上阅读判定，其中纳入 506 条、相邻主题 393 条。1012 项前后向任务中，68 项进行中、944 项待处理，没有任务被标为全面追踪完成。GoFetch 的 98 条参考文献初筛保持原状：30 条身份对应、58 条基础文献待处理、10 条背景/实现记录。Scheduled Disclosure 的 79 条引用中有 15 条身份对应、16 条基础文献待处理、48 条背景/实现记录。OpenTitan、Peek-a-Walk、EasyCrypt 以及 Episode V 的指定选读继续保留。S&P 2023 的九条选读均已对应；追加 GLP、Protecting、3D-Shield 的九条选读已全部对应；硬件打乱论文全部 17 条引用已作身份与范围判定，七条发现已解析；另连入后续论文三条关系，其中一条证据来自出版商提交的 DOI。其余指定选读仍不代表完整参考文献筛查，17 条对应也不代表递归追踪完成。
 
 最新批次解析 mUOV/floor 的 20 条发现，新增 18 张卡片、三条相邻判定、21 条引用和 11 条版本关系（八条核实、三条推定）。mUOV 尚余 UOV 2018 完整摘要；floor 已列队身份解析完毕，但背景与递归追踪仍未完成。采样类型、转换阶数、DOM 数字及 Falcon 预算区别见[本批笔记](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)与[批次记录](../records/2026-11-14-literature-masking-foundations.md)。
 

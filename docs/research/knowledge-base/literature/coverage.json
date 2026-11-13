@@ -4,29 +4,29 @@
   "reading_updated_on": "2026-11-14",
   "total_catalog_records": 6776,
   "priority_counts": {
-    "unmatched_pending": 5358,
-    "sca_terms": 988,
-    "pqc_terms": 214,
+    "unmatched_pending": 5342,
+    "sca_terms": 1003,
+    "pqc_terms": 215,
     "pqc_and_sca_terms": 216
   },
   "core_catalog_records": 6628,
   "citation_expansion_records": 148,
-  "title_screened_records": 2828,
-  "abstract_screened_records": 828,
-  "included_papers": 479,
+  "title_screened_records": 3039,
+  "abstract_screened_records": 899,
+  "included_papers": 506,
   "reading_level_counts": {
-    "abstract_and_bibliographic_metadata": 418,
-    "selected_full_text_sections": 61
+    "abstract_and_bibliographic_metadata": 441,
+    "selected_full_text_sections": 65
   },
   "citation_progress": {
-    "verified_citation_edges": 267,
-    "verified_version_edges": 60,
+    "verified_citation_edges": 274,
+    "verified_version_edges": 61,
     "inferred_version_edges": 9,
     "task_status_counts": {
-      "pending": 891,
-      "in_progress": 67
+      "pending": 944,
+      "in_progress": 68
     },
-    "unresolved_discoveries": 100,
+    "unresolved_discoveries": 105,
     "resolved_discoveries": 100
   },
   "core_cells": [
@@ -408,9 +408,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/ndss-2025.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 0,
-      "title_screened_records": 0,
-      "abstract_screened_records": 0,
+      "screened_records": 71,
+      "title_screened_records": 211,
+      "abstract_screened_records": 71,
       "citation_chasing": "pending",
       "complete": false
     },

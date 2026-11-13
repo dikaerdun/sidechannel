@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 349 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 393 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## Power Analysis Attacks: Revealing the Secrets of Smart Cards
 
@@ -842,12 +842,40 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## A Formal Approach to Multi-Layered Privileges for Enclaves
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/a-formal-approach-to-multi-layered-privileges-for-enclaves/)。
+- 判定依据：Palantir 研究 enclave 权限层次和形式化隔离，摘要未给出侧信道观察或防护评估。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/a-formal-approach-to-multi-layered-privileges-for-enclaves/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## A High-performance NTT/MSM Accelerator for Zero-knowledge Proof Using Load-balanced Fully-pipelined Montgomery Multiplier
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i1.275-313)。
 - 判定依据：通过统一 NTT/MSM 数据通路及流水模乘加速 ZKP；资源共享与性能不直接支持隔离或泄漏主张。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## A Large-Scale Measurement Study of the PROXY Protocol and its Security Implications
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/a-large-scale-measurement-study-of-the-proxy-protocol-and-its-security-implications/)。
+- 判定依据：PROXY 协议误配置导致访问控制绕过与基础设施信息暴露，摘要不是侧信道测量。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/a-large-scale-measurement-study-of-the-proxy-protocol-and-its-security-implications/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## A Multifaceted Study on the Use of TLS and Auto-detect in Email Ecosystems
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/a-multifaceted-study-on-the-use-of-tls-and-auto-detect-in-email-ecosystems/)。
+- 判定依据：研究邮件 TLS 自动配置降级及明文凭据暴露，未报告时序或物理泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/a-multifaceted-study-on-the-use-of-tls-and-auto-detect-in-email-ecosystems/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## A New PPML Paradigm for Quantized Models
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/a-new-ppml-paradigm-for-quantized-models/)。
+- 判定依据：隐私查表与量化模型的安全计算协议；摘要未讨论实际访问时序或物理泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/a-new-ppml-paradigm-for-quantized-models/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## A New Trick for Polynomial Multiplication: A verified CRT polymul utilizing a monomial factor
 
@@ -861,6 +889,13 @@
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/lafourcade)。
 - 判定依据：混合 WireGuard 协议弱点与形式证明；不提供功耗或实现侧信道保证。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## ASGARD: Protecting On-Device Deep Neural Networks with Virtualization-Based Trusted Execution Environments
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/asgard-protecting-on-device-deep-neural-networks-with-virtualization-based-trusted-execution-environments/)。
+- 判定依据：以虚拟化 TEE 保护设备 DNN，主要是隔离和可信基压缩，未见侧信道评估。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/asgard-protecting-on-device-deep-neural-networks-with-virtualization-based-trusted-execution-environments/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Accelerating NTT with RISC-V Vector Extension for Fully Homomorphic Encryption
@@ -898,6 +933,27 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## BULKHEAD: Secure, Scalable, and Efficient Kernel Compartmentalization with PKS
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/bulkhead-secure-scalable-and-efficient-kernel-compartmentalization-with-pks/)。
+- 判定依据：PKS 内核分区、接口完整性与权限防护，不能据隔离主张推出侧信道安全。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/bulkhead-secure-scalable-and-efficient-kernel-compartmentalization-with-pks/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## BitShield: Defending Against Bit-Flip Attacks on DNN Executables
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/bitshield-defending-against-bit-flip-attacks-on-dnn-executables/)。
+- 判定依据：针对 DNN 可执行文件的位翻转与完整性检查，属于故障防护。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/bitshield-defending-against-bit-flip-attacks-on-dnn-executables/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Blindfold: Confidential Memory Management by Untrusted Operating System
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/blindfold-confidential-memory-management-by-untrusted-operating-system/)。
+- 判定依据：Blindfold 研究不可信内核下的机密内存管理；摘要未建立访问模式或物理泄漏保证。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/blindfold-confidential-memory-management-by-untrusted-operating-system/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## BlueGuard: Accelerated Host and Guest Introspection Using DPUs
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/orenbach)。
@@ -912,11 +968,25 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## BumbleBee: Secure Two-party Inference Framework for Large Transformers
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/bumblebee-secure-two-party-inference-framework-for-large-transformers/)。
+- 判定依据：两方安全 Transformer 推理协议及通信优化，摘要不涉及额外实现侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/bumblebee-secure-two-party-inference-framework-for-large-transformers/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Bundled Authenticated Key Exchange: A Concrete Treatment of Signal's Handshake Protocol and Post-Quantum Security
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-key-exchange)。
 - 判定依据：Signal 握手的 bundled authenticated key exchange 与后量子协议安全；非物理实现分析。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## CCTAG: Configurable and Combinable Tagged Architecture
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/cctag-configurable-and-combinable-tagged-architecture/)。
+- 判定依据：标签架构组合多种内存安全防护；这里的 mask 是策略设计，不是密码掩码。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/cctag-configurable-and-combinable-tagged-architecture/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis
@@ -933,11 +1003,25 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## Compiled Models, Built-In Exploits: Uncovering Pervasive Bit-Flip Attack Surfaces in DNN Executables
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/compiled-models-built-in-exploits-uncovering-pervasive-bit-flip-attack-surfaces-in-dnn-executables/)。
+- 判定依据：通过 Rowhammer 类位翻转篡改 DNN 程序语义，主要是完整性攻击。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/compiled-models-built-in-exploits-uncovering-pervasive-bit-flip-attack-surfaces-in-dnn-executables/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Comprehensive Deniability Analysis of Signal Handshake Protocols: X3DH, PQXDH to Fully Post-Quantum with Deniable Ring Signatures
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/katsumata)。
 - 判定依据：Signal 握手否认性与后量子环签名协议；非实现侧信道。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Cross-Origin Web Attacks via HTTP/2 Server Push and Signed HTTP Exchange
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/cross-origin-web-attacks-via-http-2-server-push-and-signed-http-exchange/)。
+- 判定依据：HTTP/2 与 SXG 引起同源策略绕过，属于协议授权语义问题。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/cross-origin-web-attacks-via-http-2-server-push-and-signed-http-exchange/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Deanonymizing Ethereum Validators: The P2P Network Has a Privacy Issue
@@ -954,11 +1038,25 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## DiStefano: Decentralized Infrastructure for Sharing Trusted Encrypted Facts and Nothing More
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/distefano-decentralized-infrastructure-for-sharing-trusted-encrypted-facts-and-nothing-more/)。
+- 判定依据：TLS 1.3 事实承诺与隐私协议，摘要不报告实现侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/distefano-decentralized-infrastructure-for-sharing-trusted-encrypted-facts-and-nothing-more/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## DiffLoc: WiFi Hidden Camera Localization Based on Electromagnetic Diffraction
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-xiang)。
 - 判定依据：利用主动金属板和 WiFi 衍射定位隐藏相机；观察正常无线发射，保留物理定位背景，不等同于计算的非预期电磁泄漏。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Distributed Function Secret Sharing and Applications
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/distributed-function-secret-sharing-and-applications/)。
+- 判定依据：分布式函数秘密共享和安全三角函数协议，未见侧信道贡献。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/distributed-function-secret-sharing-and-applications/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Dorami: Privilege Separating Security Monitor on RISC-V TEEs
@@ -1080,6 +1178,13 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## GhostShot: Manipulating the Image of CCD Cameras with Electromagnetic Interference
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/ghostshot-manipulating-the-image-of-ccd-cameras-with-electromagnetic-interference/)。
+- 判定依据：以电磁干扰向 CCD 图像注入内容，属于信号操纵而非泄漏观察。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/ghostshot-manipulating-the-image-of-ccd-cameras-with-electromagnetic-interference/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## GlitchFHE: Attacking Fully Homomorphic Encryption Using Fault Injection
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/mankali)。
@@ -1093,6 +1198,13 @@
 - 判定依据：GuardAIn 讨论 NPU 的认证加密、隔离与任务证明；摘要未建立功耗、时间或微架构侧信道性质，作为机密计算背景保留。
 - 阅读来源：https://clement-thorens.ch/pdfs/guardain.pdf。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Heimdall: Towards Risk-Aware Network Management Outsourcing
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/heimdall-towards-risk-aware-network-management-outsourcing/)。
+- 判定依据：网络管理外包的风险与参考监控，非本库观察机制。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/heimdall-towards-risk-aware-network-management-outsourcing/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Hey, Your Secrets Leaked! Detecting and Characterizing Secret Leakage in the Wild
 
@@ -1143,6 +1255,13 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Interventional Root Cause Analysis of Failures in Multi-Sensor Fusion Perception Systems
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/interventional-root-cause-analysis-of-failures-in-multi-sensor-fusion-perception-systems/)。
+- 判定依据：多传感器融合故障的因果归因，可作研究方法背景，未研究秘密泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/interventional-root-cause-analysis-of-failures-in-multi-sensor-fusion-perception-systems/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Is MPC Secure? Leveraging Neural Network Classifiers to Detect Data Leakage Vulnerabilities in MPC Implementations
 
 - 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-235)。
@@ -1156,6 +1275,13 @@
 - 判定依据：优化 LESS 规范形计算及参数选择的性能和签名长度，摘要未报告实现泄漏。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## LLMPirate: LLMs for Black-box Hardware IP Piracy
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/llmpirate-llms-for-black-box-hardware-ip-piracy/)。
+- 判定依据：用 LLM 重写硬件设计逃避 IP 盗版检测，不是通过物理观察恢复电路。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/llmpirate-llms-for-black-box-hardware-ip-piracy/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## LLMmap: Fingerprinting for Large Language Models
 
@@ -1178,6 +1304,13 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## LightAntenna: Characterizing the Limits of Fluorescent Lamp-Induced Electromagnetic Interference
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/lightantenna-characterizing-the-limits-of-fluorescent-lamp-induced-electromagnetic-interference/)。
+- 判定依据：荧光灯诱发电磁干扰和传感器操纵，保留物理链路背景但不混入侧信道攻击数。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/lightantenna-characterizing-the-limits-of-fluorescent-lamp-induced-electromagnetic-interference/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Lost in the Mists of Time: Expirations in DNS Footprints of Mobile Apps
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/so)。
@@ -1197,6 +1330,13 @@
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/jattke)。
 - 判定依据：用示波器解码 DRAM 总线流量评估 Rowhammer 与防护；保留测量方法背景，摘要未作秘密推断。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## MingledPie: A Cluster Mingling Approach for Mitigating Preference Profiling in CFL
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/mingledpie-a-cluster-mingling-approach-for-mitigating-preference-profiling-in-cfl/)。
+- 判定依据：聚类联邦学习的客户端偏好推断防护，主要是算法可见输出隐私。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/mingledpie-a-cluster-mingling-approach-for-mitigating-preference-profiling-in-cfl/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## More is Less: Extra Features in Contactless Payments Break Security
@@ -1234,6 +1374,13 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## On the Realism of LiDAR Spoofing Attacks against Autonomous Driving Vehicle at High Speed and Long Distance
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/on-the-realism-of-lidar-spoofing-attacks-against-autonomous-driving-vehicle-at-high-speed-and-long-distance/)。
+- 判定依据：激光欺骗 LiDAR 的距离和速度可行性，属于主动传感器注入。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/on-the-realism-of-lidar-spoofing-attacks-against-autonomous-driving-vehicle-at-high-speed-and-long-distance/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Optimized One-Dimensional SQIsign Verification on Intel and Cortex-M4
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i1.497-522)。
@@ -1262,6 +1409,20 @@
 - 阅读来源：https://sang.fan/assets/papers/portal_sp25.pdf。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## PQConnect: Automated Post-Quantum End-to-End Tunnels
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/pqconnect-automated-post-quantum-end-to-end-tunnels/)。
+- 判定依据：PQC 隧道与 Tamarin 握手分析；附录承认 Python 时序和安全擦除问题，未提供相应侧信道防护证明，保留实现与引用背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/pqconnect-automated-post-quantum-end-to-end-tunnels/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Passive Inference Attacks on Split Learning via Adversarial Regularization
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/passive-inference-attacks-on-split-learning-via-adversarial-regularization/)。
+- 判定依据：利用分割学习可见特征及辅助数据重建客户端输入，属于学习协议推断。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/passive-inference-attacks-on-split-learning-via-adversarial-regularization/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Phantom: Privacy-Preserving Deep Neural Network Model Obfuscation in Heterogeneous TEE and GPU System
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/bai-juyang)。
@@ -1269,11 +1430,25 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## PhantomLiDAR: Cross-modality Signal Injection Attacks against LiDAR
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/phantomlidar-cross-modality-signal-injection-attacks-against-lidar/)。
+- 判定依据：电磁注入干扰 LiDAR 内部模块及输出，非被动信息泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/phantomlidar-cross-modality-signal-injection-attacks-against-lidar/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Posthammer: Pervasive Browser-based Rowhammer Attacks with Postponed Refresh Commands
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/de-ridder)。
 - 判定依据：浏览器通过推迟刷新实施 Rowhammer 位翻转；主要为故障攻击。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## PowerRadio: Manipulate Sensor Measurement via Power GND Radiation
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/powerradio-manipulate-sensor-measurement-via-power-gnd-radiation/)。
+- 判定依据：经共地线路耦合恶意信号改变传感器测量，保留 EMI 机制背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/powerradio-manipulate-sensor-measurement-via-power-gnd-radiation/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Practically Secure Honey Password Vaults: New Design and New Evaluation against Online Guessing
@@ -1288,6 +1463,13 @@
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/shoaib)。
 - 判定依据：从 AR/VR 日志建立攻击来源图和因果关联；日志审计不是秘密侧信道观察。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Privacy-Preserving Data Deduplication for Enhancing Federated Learning of Language Models
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/privacy-preserving-data-deduplication-for-enhancing-federated-learning-of-language-models/)。
+- 判定依据：联邦学习的隐私去重与 PSI 协议，不以额外观察通道为贡献。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/privacy-preserving-data-deduplication-for-enhancing-federated-learning-of-language-models/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Prompt Inference Attack on Distributed Large Language Model Inference Frameworks
@@ -1318,6 +1500,13 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## RContainer: A Secure Container Architecture through Extending ARM CCA Hardware Primitives
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/rcontainer-a-secure-container-architecture-through-extending-arm-cca-hardware-primitives/)。
+- 判定依据：扩展 ARM CCA 的容器隔离架构；摘要不支持物理或微架构侧信道安全断言。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/rcontainer-a-secure-container-architecture-through-extending-arm-cca-hardware-primitives/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## REED: Chiplet-based Accelerator for Fully Homomorphic Encryption
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i2.163-208)。
@@ -1339,6 +1528,27 @@
 - 阅读来源：https://rmpocalypse.github.io/rmpocalypse-CCS2025.pdf。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## ReThink: Reveal the Threat of Electromagnetic Interference on Power Inverters
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/rethink-reveal-the-threat-of-electromagnetic-interference-on-power-inverters/)。
+- 判定依据：电磁干扰欺骗逆变器电压电流传感器，主要是可用性和物理完整性攻击。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/rethink-reveal-the-threat-of-electromagnetic-interference-on-power-inverters/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Recurrent Private Set Intersection for Unbalanced Databases with Cuckoo Hashing and Leveled FHE
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/recurrent-private-set-intersection-for-unbalanced-databases-with-cuckoo-hashing-and-leveled-fhe/)。
+- 判定依据：不平衡集合的可重复 PSI 与同态加密性能优化，非侧信道研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/recurrent-private-set-intersection-for-unbalanced-databases-with-cuckoo-hashing-and-leveled-fhe/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Repurposing Neural Networks for Efficient Cryptographic Computation
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/repurposing-neural-networks-for-efficient-cryptographic-computation/)。
+- 判定依据：将密码运算翻译成神经网络计算图以使用加速器；功能与算法安全表述不等于实现恒时或物理安全。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/repurposing-neural-networks-for-efficient-cryptographic-computation/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Resolution Without Dissent: In-Path Per-Query Sanitization to Defeat Surreptitious Communication Over DNS
 
 - 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-75)。
@@ -1346,11 +1556,25 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/11023297/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Retrofitting XoM for Stripped Binaries without Embedded Data Relocation
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/retrofitting-xom-for-stripped-binaries-without-embedded-data-relocation/)。
+- 判定依据：以 MPK 加固执行只读内存并限制 JIT-ROP 的直接代码读取，未见侧信道保证。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/retrofitting-xom-for-stripped-binaries-without-embedded-data-relocation/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## RollingEvidence: Autoregressive Video Evidence via Rolling Shutter Effect
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/qian)。
 - 判定依据：用滚动快门主动嵌入视频完整性验证探针；主要为取证编码，不是非预期秘密观察。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Rondo: Scalable and Reconfiguration-Friendly Randomness Beacon
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/rondo-scalable-and-reconfiguration-friendly-randomness-beacon/)。
+- 判定依据：分布式随机信标和可重配置共识，未研究随机源的物理泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/rondo-scalable-and-reconfiguration-friendly-randomness-beacon/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Rowhammer-Based Trojan Injection: One Bit Flip Is Sufficient for Backdooring DNNs
@@ -1367,6 +1591,27 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## SCRUTINIZER: Towards Secure Forensics on Compromised TrustZone
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/scrutinizer-towards-secure-forensics-on-compromised-trustzone/)。
+- 判定依据：用 ARM CCA 执行可信取证和指令追踪，是授权观察能力设计，未见秘密推断侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/scrutinizer-towards-secure-forensics-on-compromised-trustzone/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## SHAFT: Secure, Handy, Accurate and Fast Transformer Inference
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/shaft-secure-handy-accurate-and-fast-transformer-inference/)。
+- 判定依据：安全 softmax/GELU 协议和 Transformer 部署，未报告额外侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/shaft-secure-handy-accurate-and-fast-transformer-inference/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## SIGuard: Guarding Secure Inference with Post Data Privacy
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/siguard-guarding-secure-inference-with-post-data-privacy/)。
+- 判定依据：安全推理的合法预测输出仍可用于成员推断；属于输出隐私而非硬件侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/siguard-guarding-secure-inference-with-post-data-privacy/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Save what must be saved: Secure context switching with Sailor
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/kalani)。
@@ -1374,11 +1619,32 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## Secure Data Analytics in Apache Spark with Fine-grained Policy Enforcement and Isolated Execution
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/secure-data-analytics-in-apache-spark-with-fine-grained-policy-enforcement-and-isolated-execution/)。
+- 判定依据：Spark 分析计划的访问策略及可信执行，不是数据无关或物理泄漏证明。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/secure-data-analytics-in-apache-spark-with-fine-grained-policy-enforcement-and-isolated-execution/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Secure IP Address Allocation at Cloud Scale
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/secure-ip-address-allocation-at-cloud-scale/)。
+- 判定依据：云 IP 地址动态分配、扫描与误投递流量保护，摘要不提出时序或资源侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/secure-ip-address-allocation-at-cloud-scale/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Secure Information Embedding in Forensic 3D Fingerprinting
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-canran)。
 - 判定依据：在三维打印品中主动嵌入抗破坏标识；为取证水印，不是实现侧信道。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Secure Transformer Inference Made Non-interactive
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/secure-transformer-inference-made-non-interactive/)。
+- 判定依据：非交互安全 Transformer 推理与同态计算，协议带宽优化不等于实现侧信道防护。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/secure-transformer-inference-made-non-interactive/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Security Attacks Abusing Pulse-level Quantum Circuits
@@ -1458,6 +1724,13 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## Spatial-Domain Wireless Jamming with Reconfigurable Intelligent Surfaces
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/spatial-domain-wireless-jamming-with-reconfigurable-intelligent-surfaces/)。
+- 判定依据：可重构智能表面对无线干扰进行空间定向，属于信号压制。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/spatial-domain-wireless-jamming-with-reconfigurable-intelligent-surfaces/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## System Register Hijacking: Compromising Kernel Integrity By Turning System Registers Against the System
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/miller)。
@@ -1477,6 +1750,34 @@
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/huang-yujin)。
 - 判定依据：从部署 DNN 重建可写模型并加水印，保护知识产权；非侧信道。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## TME-Box: Scalable In-Process Isolation through Intel TME-MK Memory Encryption
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/tme-box-scalable-in-process-isolation-through-intel-tme-mk-memory-encryption/)。
+- 判定依据：利用 TME-MK 与编译器插桩进行进程内隔离；内存加密不能自动当作全侧信道防护。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/tme-box-scalable-in-process-isolation-through-intel-tme-mk-memory-encryption/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## TZ-DATASHIELD: Automated Data Protection for Embedded Systems via Data-Flow-Based Compartmentalization
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/tz-datashield-automated-data-protection-for-embedded-systems-via-data-flow-based-compartmentalization/)。
+- 判定依据：TrustZone 数据流分区和控制流完整性，未见物理或微架构泄漏评估。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/tz-datashield-automated-data-protection-for-embedded-systems-via-data-flow-based-compartmentalization/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## The Forking Way: When TEEs Meet Consensus
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/the-forking-way-when-tees-meet-consensus/)。
+- 判定依据：TEE 与区块链组合中的分叉攻击，非物理或时序泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-forking-way-when-tees-meet-consensus/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## The Road to Trust: Building Enclaves within Confidential VMs
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/the-road-to-trust-building-enclaves-within-confidential-vms/)。
+- 判定依据：SEV-SNP 中模拟 SGX enclave 的完整性与兼容性架构，摘要未建立侧信道保护。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-road-to-trust-building-enclaves-within-confidential-vms/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## TimeTravel: Real-time Timing Drift Attack on System Time Using Acoustic Waves
@@ -1520,6 +1821,13 @@
 - 判定依据：VeloFHE 通过 GPU NTT、批处理与异步执行优化 FHEW/TFHE 自举，摘要未研究侧信道。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## WAVEN: WebAssembly Memory Virtualization for Enclaves
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/waven-webassembly-memory-virtualization-for-enclaves/)。
+- 判定依据：Wasm enclave 的跨模块内存共享与细粒度访问控制，未涉及侧信道机制。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/waven-webassembly-memory-virtualization-for-enclaves/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Wanilla: Sound Noninterference Analysis for WebAssembly
 

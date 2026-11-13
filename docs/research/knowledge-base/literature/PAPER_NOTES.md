@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 479 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 506 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
 
@@ -3359,6 +3359,334 @@
 - 已读章节：Publisher HTML abstract and sections 1–2, 4, 5 opening, 6, 8–10; reference entries 23/26/33 inspected, only 26/33 linked. Numerical recovery rates read from section 8 prose; tables 3/5 not independently transcribed. Section 7 and full bibliography not completely read.
 - [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：selected backward/forward relation verified; complete tracing pending。
+
+## A Systematic Evaluation of Novel and Existing Cache Side Channels
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/a-systematic-evaluation-of-novel-and-existing-cache-side-channels/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Fabian Rauscher; Carina Fiedler; Andreas Kogler; Daniel Gruss
+- 对象：cache, cldemote, AES, power amplification；类型：evaluation and attack。
+- 核心想法：系统比较缓存侧信道，并提出基于 cldemote 的三种观察方法。
+- 作者报告：作者按九项性质比较四种既有与三种新增通道，另报告 AES T-table、按键时序、KASLR 和功耗放大案例。
+- 限制与下一步：摘要中的 15.48 Mbit/s 是通道容量，不能当作密钥恢复速率；非包容 L3、跨核条件和不同 Intel 微架构需分别核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## CHAOS: Exploiting Station Time Synchronization in 802.11 Networks
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/chaos-exploiting-station-time-synchronization-in-802-11-networks/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Sirus Shahini (University of Utah), Robert Ricci (University of Utah)
+- 对象：Wi-Fi, TSF, covert channel；类型：covert channel。
+- 核心想法：在 Wi-Fi 信标顺序和时间同步字段中构造隐蔽通道。
+- 作者报告：作者以标准未修改 Wi-Fi 硬件报告建议配置下 520 bit/s，并提出利用时间同步关联客户端和基站的线索。
+- 限制与下一步：这是合作发送者的隐蔽通信；关联攻击在摘要中仅为勾勒，不能把吞吐量解释为被动秘密恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## Cascading Spy Sheets: Exploiting the Complexity of Modern CSS for Email and Browser Fingerprinting
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/cascading-spy-sheets-exploiting-the-complexity-of-modern-css-for-email-and-browser-fingerprinting/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Leon Trampert (CISPA Helmholtz Center for Information Security), Daniel Weber (CISPA Helmholtz Center for Information Security), Lukas Gerlach (CISPA Helmholtz Center for Information Security), Christian Rossow (CISPA Helmholtz Center for Information Security), Michael Schwarz (CISPA Helmholtz Center for Information Security)
+- 对象：CSS, browser fingerprinting, email；类型：attack and countermeasure。
+- 核心想法：利用 CSS 条件资源与动态特性进行无脚本浏览器和邮件指纹识别。
+- 作者报告：作者报告可区分所测 1176 种浏览器与系统组合的 97.95%，并在 21 个邮件客户端中的八个展示指纹能力。
+- 限制与下一步：组合区分率不是对独立用户的识别率；资源请求可见性、客户端限制和两种防护的覆盖待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## CounterSEVeillance: Performance-Counter Attacks on AMD SEV-SNP
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/counterseveillance-performance-counter-attacks-on-amd-sev-snp/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Stefan Gast; Hannes Weissteiner; Robin Leander Schröder; Daniel Gruss
+- 对象：SEV-SNP, performance counters, RSA, TOTP；类型：attack。
+- 核心想法：单步执行 SEV-SNP 虚拟机并记录性能计数器，推断控制流和操作数性质。
+- 作者报告：作者报告 228 种事件对恶意管理程序可见，在六种事件的四个案例中包含单次签名恢复 RSA-4096 与 TOTP 推断。
+- 限制与下一步：需要特权管理程序、APIC 中断及页故障的指令级单步能力；论文所称已补丁系统是当时实验状态，不能推为当前所有版本。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## Crosstalk-induced Side Channel Threats in Multi-Tenant NISQ Computers
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/crosstalk-induced-side-channel-threats-in-multi-tenant-nisq-computers/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Navnil Choudhury; Chaithanya Naik Mude; Sanjay Das; Preetham Chandra Tikkireddi; Swamit Tannu; Kanad Basu
+- 对象：quantum computing, crosstalk, CNOT, graph classification；类型：attack。
+- 核心想法：以量子硬件串扰识别邻近 CNOT 活动，再用门关系图分类受害者电路。
+- 作者报告：正文报告 IBM 硬件上的门检测实验；336 个基准电路及其编译变体上的分类部分采用理想门检测，再人为引入计数误差。
+- 限制与下一步：属于量子计算硬件侧信道，不是经典设备上的 PQC 密钥攻击。摘要最高 85.7% 与正文基准 85.6% 分开保留；不能称为 336 类端到端实机恢复。
+- 阅读层级：selected_full_text_sections；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- 已读章节：PDF pp.6-7: IBM gate-detector experiments; PDF pp.11-12: graph benchmark evaluation and ideal detection/fuzziness assumptions; p.12 rendered
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## Deanonymizing Device Identities via Side-channel Attacks in Exclusive-use IoTs & Mitigation
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/deanonymizing-device-identities-via-side-channel-attacks-in-exclusive-use-iots-mitigation/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Christopher Ellis (The Ohio State University), Yue Zhang (Drexel University), Mohit Kumar Jangid (The Ohio State University), Shixuan Zhao (The Ohio State University), Zhiqiang Lin (The Ohio State University)
+- 对象：BLE, Wi-Fi, device tracking；类型：attack and countermeasure。
+- 核心想法：利用专属配对通信的响应关系，绕过设备地址随机化进行去匿名化。
+- 作者报告：IDBleed 在 BLE 与 Wi-Fi 的关联关系上建立布尔观察，作者提出 Anonymization Layer 并评估开销。
+- 限制与下一步：摘要中的约 2% 开销限于所测手机与 PC；设备关系暴露、可追踪性及密码明文恢复是不同目标。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## EMIRIS: Eavesdropping on Iris Information via Electromagnetic Side Channel
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/emiris-eavesdropping-on-iris-information-via-electromagnetic-side-channel/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Wenhao Li (Shandong University), Jiahao Wang (Shandong University), Guoming Zhang (Shandong University), Yanni Yang (Shandong University), Riccardo Spolaor (Shandong University), Xiuzhen Cheng (Shandong University), Pengfei Hu (Shandong University)
+- 对象：electromagnetic, iris, diffusion reconstruction；类型：attack。
+- 核心想法：从近红外传感器数据传输的电磁辐射重建虹膜图像。
+- 作者报告：作者将传输映射与逆问题恢复结合，报告 50 位用户、3000 多份虹膜样本上的重建和经典识别模型欺骗。
+- 限制与下一步：平均 SSIM 0.511、FID 7.25 和欺骗成功率 53.47% 是不同指标；不等于对全部商用认证系统可用，距离和训练条件待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## Evaluating Machine Learning-Based IoT Device Identification Models for Security Applications
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/evaluating-machine-learning-based-iot-device-identification-models-for-security-applications/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Eman Maali (Imperial College London), Omar Alrawi (Georgia Institute of Technology), Julie McCann (Imperial College London)
+- 对象：traffic fingerprinting, IoT, distribution shift；类型：evaluation。
+- 核心想法：评估基于网络流量的 IoT 设备识别在模式与时空变化下的可靠性。
+- 作者报告：作者按运行模式、时空条件及采样方式整理评估，并用解释工具分析性能退化。
+- 限制与下一步：纳入流量指纹的方法评估；不是密码密钥恢复，数据划分、设备迁移及公开特征范围待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## GadgetMeter: Quantitatively and Accurately Gauging the Exploitability of Speculative Gadgets
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/gadgetmeter-quantitatively-and-accurately-gauging-the-exploitability-of-speculative-gadgets/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Qi Ling; Yujun Liang; Yi Ren; Baris Kasikci; Shuwen Deng
+- 对象：speculative execution, gadget analysis, timing；类型：automated analysis。
+- 核心想法：以推测授权与秘密泄漏之间的时序竞争量化 gadget 可利用性。
+- 作者报告：正式 PDF 摘要说将既有工具报告的 471 个 gadget 判为不可利用；结合指令 DAG、静态分析和运行测试。
+- 限制与下一步：官方网站摘要省略了 state-of-the-art 一段而语义受损，已对照正式 PDF；特定处理器与攻击能力下的判断不能当作全部推测攻击安全证明。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## I Know What You Asked: Prompt Leakage via KV-Cache Sharing in Multi-Tenant LLM Serving
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/i-know-what-you-asked-prompt-leakage-via-kv-cache-sharing-in-multi-tenant-llm-serving/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Guanlong Wu (Southern University of Science and Technology), Zheng Zhang (ByteDance Inc.), Yao Zhang (ByteDance Inc.), Weili Wang (Southern University of Science and Technolog), Jianyu Niu (Southern University of Science and Technolog), Ye Wu (ByteDance Inc.), Yinqian Zhang (Southern University of Science and Technology (SUSTech))
+- 对象：LLM, KV cache, prompt leakage；类型：attack。
+- 核心想法：利用多租户 LLM 服务中的共享 KV 缓存重建其他用户提示词。
+- 作者报告：PROMPTPEEK 在三种不同先验知识场景下评估共享前缀缓存的泄漏。
+- 限制与下一步：需要共享 KV 缓存及相应查询观察能力；三种先验不同，不能把最强先验结果推广为任意提示词盲恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## Iris: Dynamic Privacy Preserving Search in Authenticated Chord Peer-to-Peer Networks
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/iris-dynamic-privacy-preserving-search-in-authenticated-chord-peer-to-peer-networks/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Angeliki Aktypi (University of Oxford), Kasper Rasmussen (University of Oxford)
+- 对象：Chord, query privacy, access patterns；类型：countermeasure。
+- 核心想法：隐藏 Chord 搜索向中间节点暴露的查询地址，并考虑多轮合谋观察。
+- 作者报告：Iris 提出受 k-anonymity 启发的 alpha-delta 隐私定义，报告安全分析与 Matlab 原型的开销权衡。
+- 限制与下一步：纳入访问过程隐私防护；特定查询隐私定义不是差分隐私或物理侧信道保证，安全前提仍待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## KernelSnitch: Side Channel-Attacks on Kernel Data Structures
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/kernelsnitch-side-channel-attacks-on-kernel-data-structures/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Lukas Maar (Graz University of Technology), Jonas Juffinger (Graz University of Technology), Thomas Steinbauer (Graz University of Technology), Daniel Gruss (Graz University of Technology), Stefan Mangard (Graz University of Technology)
+- 对象：kernel data structures, timing, website fingerprinting；类型：attack。
+- 核心想法：利用内核哈希表和树的占用相关查询时间构造软件时序通道。
+- 作者报告：KernelSnitch 报告最高 580 kbit/s 隐蔽通道、65 秒内内核堆指针泄漏和网站指纹案例。
+- 限制与下一步：不依赖某一种缓存泄漏不等于没有平台约束；通道吞吐量、指针泄漏与网站 F1 不可互换。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## LAMP: Lightweight Approaches for Latency Minimization in Mixnets with Practical Deployment Considerations
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/lamp-lightweight-approaches-for-latency-minimization-in-mixnets-with-practical-deployment-considerations/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Mahdi Rahimi (KU Leuven), Piyush Kumar Sharma (University of Michigan), Claudia Diaz (KU Leuven)
+- 对象：mixnets, traffic analysis, routing；类型：countermeasure。
+- 核心想法：改进混合网络的路由延迟，同时评估流量观察下的匿名性损失。
+- 作者报告：LAMP 使用 Nym 部署延迟数据评估多种路由方案，报告延迟与匿名性的权衡。
+- 限制与下一步：属于网络流量分析防护；其传播延迟和计算开销改进不能直接当作端到端匿名保证，串谋与流量模型待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## LeakLess: Selective Data Protection against Memory Leakage Attacks for Serverless Platforms
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/leakless-selective-data-protection-against-memory-leakage-attacks-for-serverless-platforms/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Maryam Rostamipoor (Stony Brook University), Seyedhamed Ghavamnia (University of Connecticut), Michalis Polychronakis (Stony Brook University)
+- 对象：serverless, transient execution, memory encryption；类型：countermeasure。
+- 核心想法：通过内存加密与隔离 I/O 模块保护 serverless 函数中的敏感数据。
+- 作者报告：LeakLess 针对内存披露及瞬态执行威胁，在 Spin 和实际应用上评估同机或异机 I/O 配置。
+- 限制与下一步：选择性数据保护依赖 I/O 与密钥边界；不同部署开销分开记录，不推广为功耗或所有共享资源无泄漏。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## Lend Me Your Beam: Privacy Implications of Plaintext Beamforming Feedback in WiFi
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/lend-me-your-beam-privacy-implications-of-plaintext-beamforming-feedback-in-wifi/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Rui Xiao (Zhejiang University), Xiankai Chen (Zhejiang University), Yinghui He (Nanyang Technological University), Jun Han (KAIST), Jinsong Han (Zhejiang University)
+- 对象：Wi-Fi, beamforming feedback, occupancy；类型：attack and countermeasure。
+- 核心想法：利用明文 Wi-Fi 波束成形反馈推断室内人员活动，并设计反馈混淆。
+- 作者报告：LeakyBeam 在作者 20 米实测条件下报告真阳性率 82.7%、真阴性率 96.7%。
+- 限制与下一步：两个条件率不是总体准确率；观察依赖未加密 BFI 与环境，硬件变更和防护覆盖尚待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## Non-intrusive and Unconstrained Keystroke Inference in VR Platforms via Infrared Side Channel
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/non-intrusive-and-unconstrained-keystroke-inference-in-vr-platforms-via-infrared-side-channel/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Tao Ni (City University of Hong Kong), Yuefeng Du (City University of Hong Kong), Qingchuan Zhao (City University of Hong Kong), Cong Wang (City University of Hong Kong)
+- 对象：VR, infrared, keystroke inference；类型：attack。
+- 核心想法：以外部红外传感器阵列观察 VR 控制器的跟踪信号，推断虚拟键盘输入。
+- 作者报告：VRecKey 在两个商用设备上报告字符与词级 top-3 识别结果，并测试多种环境因素。
+- 限制与下一步：94.2% 和 90.5% 是摘要给出的 top-3 指标，不是 top-1；传感器摆放、轨迹与词先验待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## Off-Path TCP Hijacking in Wi-Fi Networks: A Packet-Size Side Channel Attack
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/off-path-tcp-hijacking-in-wi-fi-networks-a-packet-size-side-channel-attack/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Ziqiang Wang (Southeast University), Xuewei Feng (Tsinghua University), Qi Li (Tsinghua University), Kun Sun (George Mason University), Yuxiang Yang (Tsinghua University), Mengyuan Li (University of Toronto), Ganqiu Du (China Software Testing Center), Ke Xu (Tsinghua University), Jianping Wu (Tsinghua University)
+- 对象：Wi-Fi, packet size, TCP；类型：attack。
+- 核心想法：利用加密 Wi-Fi 帧大小区分 TCP 响应，辅助离路径连接劫持。
+- 作者报告：作者在 30 款路由器和 80 个实际网络上评估，报告 SSH 中断和网页流量操纵案例。
+- 限制与下一步：帧大小观察与主动探测能力需同时满足；19/28 秒案例成本与 75/80 网络成功数属于不同评估，不能当作解密能力。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## On Borrowed Time – Preventing Static Side-Channel Analysis
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/on-borrowed-time-preventing-static-side-channel-analysis/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Robert Dumitru; Thorben Moos; Andrew Wabnitz; Yuval Yarom
+- 对象：static power, LLSI, impedance, AES, SKINNY, masked clearing；类型：countermeasure。
+- 核心想法：检测时钟停顿并随机清理临时敏感寄存器，限制静态观察窗口。
+- 作者报告：在 FPGA 上对未保护 AES 和一阶掩码 SKINNY 的静态功耗测试中，作者报告启用防护后百万迹线未恢复子密钥。
+- 限制与下一步：假设根密钥存储安全。LLSI/阻抗防护未实测；PLL 与异步方案的门控兼容性不同，功率门控 ASIC 和侵入式电路编辑不在已证覆盖内。
+- 阅读层级：selected_full_text_sections；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- 已读章节：PDF p.6: threat model and secure root-key storage; PDF p.9: asynchronous clearing and Table I; rendered; PDF p.14: attack results and limitations; PDF pp.15-16: eight selected references only
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：selected backward references in progress。
+
+## Oreo: Protecting ASLR Against Microarchitectural Attacks
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/oreo-protecting-aslr-against-microarchitectural-attacks/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Shixin Song (Massachusetts Institute of Technology), Joseph Zhang (Massachusetts Institute of Technology), Mengjia Yan (Massachusetts Institute of Technology)
+- 对象：ASLR, address mapping, microarchitecture, gem5；类型：countermeasure。
+- 核心想法：通过新的内存映射接口隐藏 ASLR 随机化位，减少微架构可见的地址秘密。
+- 作者报告：Oreo 在虚拟到物理地址转换前移除秘密随机位，并在 Linux 与 gem5 上实现和评估。
+- 限制与下一步：摘要明确为硬件模拟器评估，不能当作已生产或实测芯片防护；具体泄漏路径、证明范围和物理功耗不在摘要保证内。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## Power-Related Side-Channel Attacks using the Android Sensor Framework
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/power-related-side-channel-attacks-using-the-android-sensor-framework/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Mathias Oberhuber; Martin Unterguggenberger; Lukas Maar; Andreas Kogler; Stefan Mangard
+- 对象：Android, power proxies, geomagnetic rotation, AES；类型：attack。
+- 核心想法：研究 Android 传感器对功耗的寄生响应，并展示像素推断与 AES 候选排名降低。
+- 作者报告：正文在 Pixel 6a 本地应用条件下分析恒周期 ARM AES；部分字节在 CPA 中出现排名下降，仍有字节不收敛。
+- 限制与下一步：没有完整密钥恢复；本地 AES 与浏览器像素场景权限不同。采集 35.6M、过滤后 17.8M 和图示至 300K 样本的预算不能混为 300K 次加密。
+- 阅读层级：selected_full_text_sections；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- 已读章节：PDF pp.12-13: local-app AES threat model, acquisition budget and rank reduction; p.13 rendered
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## RadSee: See Your Handwriting Through Walls Using FMCW Radar
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/radsee-see-your-handwriting-through-walls-using-fmcw-radar/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Shichen Zhang (Michigan State University), Qijun Wang (Michigan State University), Maolin Gan (Michigan State University), Zhichao Cao (Michigan State University), Huacheng Zeng (Michigan State University)
+- 对象：radar, handwriting, phase；类型：attack。
+- 核心想法：以 6 GHz FMCW 雷达的相位特征推断隔墙手写内容。
+- 作者报告：RadSee 将定制高增益天线与 BiLSTM 分类结合，报告随机字符和文章词识别的不同评估。
+- 限制与下一步：主动雷达人体动作观察，不是密码芯片辐射；75% 字符与 87% 词识别对应不同输入分布，不能直接比较。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## ReDAN: An Empirical Study on Remote DoS Attacks against NAT Networks
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/redan-an-empirical-study-on-remote-dos-attacks-against-nat-networks/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Xuewei Feng (Tsinghua University), Yuxiang Yang (Tsinghua University), Qi Li (Tsinghua University), Xingxiang Zhan (Zhongguancun Lab), Kun Sun (George Mason University), Ziqiang Wang (Southeast University), Ao Wang (Southeast University), Ganqiu Du (China Software Testing Center), Ke Xu (Tsinghua University)
+- 对象：NAT, PMTUD, network side channel；类型：attack。
+- 核心想法：利用 PMTUD 相关侧信道辨别 NAT，再研究远程破坏连接映射。
+- 作者报告：ReDAN 分开执行 NAT 识别与连接终止，在多种固件、设备和网络环境中评估。
+- 限制与下一步：识别侧信道与后续 DoS 漏洞是两层机制；166/180 网络易受攻击不是 NAT 检测准确率，修补状态限论文时点。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## Secret Spilling Drive: Leaking User Behavior through SSD Contention
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/secret-spilling-drive-leaking-user-behavior-through-ssd-contention/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Jonas Juffinger (Graz University of Technology), Fabian Rauscher (Graz University of Technology), Giuseppe La Manna (Amazon), Daniel Gruss (Graz University of Technology)
+- 对象：SSD, contention, timing, website fingerprinting；类型：attack。
+- 核心想法：以并发 I/O 引起的 SSD 争用时延建立跨进程及跨虚拟机观察。
+- 作者报告：作者评估 12 款 SSD，展示最高 1503 bit/s 隐蔽通道及开放世界网站指纹案例。
+- 限制与下一步：受害者读取块数、通道容量和网站 F1 对应不同测量；摘要 F1 写作 97.0，单位及拆分需全文确认，不推广为密码恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## Speak Up, I’m Listening: Extracting Speech from Zero-Permission VR Sensors
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/speak-up-im-listening-extracting-speech-from-zero-permission-vr-sensors/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Derin Cayir (Florida International University), Reham Mohamed Aburas (American University of Sharjah), Riccardo Lazzeretti (Sapienza University of Rome), Marco Angelini (Link Campus University of Rome), Abbas Acar (Florida International University), Mauro Conti (University of Padua), Z. Berkay Celik (Purdue University), Selcuk Uluagac (Florida International University)
+- 对象：VR, motion sensors, acoustic, speech；类型：attack and countermeasure。
+- 核心想法：利用 VR 运动传感器记录扬声器诱发的振动，识别语音数字。
+- 作者报告：IMMERSPY 比较有无受害者标签的场景，并使用生成语音构建训练资料，另提出不可闻音调防护。
+- 限制与下一步：摘要 74% 四位与 62% 十六位结果需核对对应攻击先验；观察目标是设备扬声器引起的振动，不能泛化为任意环境会话窃听。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## The Discriminative Power of Cross-layer RTTs in Fingerprinting Proxy Traffic
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/the-discriminative-power-of-cross-layer-rtts-in-fingerprinting-proxy-traffic/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Diwen Xue (University of Michigan), Robert Stanley (University of Michigan), Piyush Kumar (University of Michigan), Roya Ensafi (University of Michigan)
+- 对象：network timing, RTT, proxy fingerprinting；类型：attack。
+- 核心想法：用传输层与应用层 RTT 的差异识别混淆代理流量。
+- 作者报告：作者将代理引起的会话错位作为跨协议指纹，在受控网络及合作 ISP 流量上评估。
+- 限制与下一步：两层计时的可获得性、路由与背景负载影响待全文；协议无关性不等于任意网络中识别可靠。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## Wallbleed: A Memory Disclosure Vulnerability in the Great Firewall of China
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/wallbleed-a-memory-disclosure-vulnerability-in-the-great-firewall-of-china/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Shencha Fan; Jackson Sippe; Sakamoto San; Jade Sheffey; David Fifield; Amir Houmansadr; Elson Wedwards; Eric Wustrow
+- 对象：DNS, sequence side channel, process fingerprinting；类型：measurement and attack。
+- 核心想法：分析 DNS 注入器的内存越界读取，同时通过伪造地址返回顺序辨认内部进程。
+- 作者报告：正文将每个响应池的循环索引作为独立于 Wallbleed 内存泄漏的侧信道，辅助识别负载分配关系。
+- 限制与下一步：主要漏洞是缓冲区越界读；纳入理由是另有明确的顺序侧信道，不将任意内存披露都称作侧信道。历史修补和系统归因限作者观察。
+- 阅读层级：selected_full_text_sections；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- 已读章节：PDF p.10 V-B: ordered false-address pools and process inference
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## You Can Rand but You Can’t Hide: A Holistic Security Analysis of Google Fuchsia’s (and gVisor’s) Network Stack
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/you-can-rand-but-you-cant-hide-a-holistic-security-analysis-of-google-fuchsias-and-gvisors-network-stack/)；时间标记：NDSS 2025 within frozen rolling window; earliest online date not independently established。
+- 作者：Inon Kaplan (Independent researcher), Ron even (Independent researcher), Amit Klein (The Hebrew University of Jerusalem, Israel)
+- 对象：Fuchsia, gVisor, PRNG, device tracking；类型：attack。
+- 核心想法：联合分析网络首部字段生成规则，推断 PRNG 种子和散列键以跟踪设备。
+- 作者报告：作者在 Fuchsia 的浏览器模式和 IPv4/IPv6 网络条件下展示稳定设备标识，涉及与 gVisor 共用的网络栈。
+- 限制与下一步：这是网络可见字段的算法泄漏，不是 CPU 功耗；版本与修补范围需全文，摘要中未来平台预测不作为当前事实。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
+- [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
+- 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
 
 ## Et tu, Brute? Side-Channel Assisted Chosen Ciphertext Attacks Using Valid Ciphertexts on HQC KEM
 

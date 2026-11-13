@@ -4,9 +4,11 @@
 
 ## 2026-11-14 文献库建设接续
 
-[统一文献入口](literature/README.md)包含核心 30 单元的 6,628 条目录和 148 条扩展/基础记录；已初筛 2,828 条标题、作出 828 条摘要及以上判定，纳入 479 条出版/版本记录。已核对 267 条引用、69 条版本关系（60 条核实、九条推定）；100 条发现已解析、100 条待核查。六个核心单元完成独立目录成员对应，S&P 2026 部分对应（252/254），其余 23 个待核对。
+[统一文献入口](literature/README.md)包含核心 30 单元的 6,628 条目录和 148 条扩展/基础记录；已初筛 3,039 条标题、作出 899 条摘要及以上判定，纳入 506 条出版/版本记录。已核对 274 条引用、70 条版本关系（61 条核实、九条推定）；100 条发现已解析、105 条待核查。六个核心单元完成独立目录成员对应，S&P 2026 部分对应（252/254），其余 23 个待核对。
 
-最新批次解析 mUOV 九条、floor 十一条发现，新增 18 张卡片、三条相邻判定、21 条引用和 11 条版本关系，见[批次记录](records/2026-11-14-literature-masking-foundations.md)与[证据笔记](literature/notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)。优先取得 UOV 2018 完整摘要及 Falcon 2023 正文，补 Sun 2022 剩余 44 条引用；不能把 isochrony 各变体、DOM 综合与检测阶数或 Falcon 三组预算混合。958 项引用任务仍有 67 进行中、891 待处理。
+最新 NDSS 2025 批次读完 211 条标题及 71 篇官方摘要，新增 27 张通用卡片与 44 条相邻判定，见[批次记录](records/2026-11-14-literature-ndss2025.md)和[证据笔记](literature/notes/ndss2025-static-power-quantum-and-scope-20261114.md)。继续该年余下 140 篇摘要、其他 NDSS 年度及独立目录对应；补 Borrowed Time 清理与检测条件、Android 过滤/权限、NISQ 门检测到分类的误差传递，以及五条新引用。十二条指定引用只新增七条核对边与一条明确版本关系，不代表完整书目。1,012 项引用任务中 68 进行中、944 待处理。
+
+此前批次解析 mUOV 九条、floor 十一条发现，新增 18 张卡片、三条相邻判定、21 条引用和 11 条版本关系，见[批次记录](records/2026-11-14-literature-masking-foundations.md)与[证据笔记](literature/notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)。优先取得 UOV 2018 完整摘要及 Falcon 2023 正文，补 Sun 2022 剩余 44 条引用；不能把 isochrony 各变体、DOM 综合与检测阶数或 Falcon 三组预算混合。958 项引用任务仍有 67 进行中、891 待处理。
 
 此前批次完成 CCS 2025 第二轮 13 篇摘要判定，新增十篇本届卡片及一篇基础文献，补十条引用与三条版本关系。四篇正文选读区分 BFId 视角迁移、HW-Spy 字符指标、DP 访问分区粒度和 Swallow 模拟防护范围。Swallow 的 37 个参考位置新增十五条待查，重复项不重复计边，见[批次记录](records/2026-11-14-literature-ccs2025-second-pass.md)和[证据笔记](literature/notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)。Co-Prime/GAPDiS 原始摘要、PMTUD/Time Tells All 显式版本关系及 Swallow 引用队列继续保留。
 
