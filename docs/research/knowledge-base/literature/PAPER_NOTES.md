@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 105 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 118 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## A Systematic Approach and Analysis of Key Mismatch Attacks on Lattice-Based NIST Candidate KEMs
 
@@ -82,6 +82,17 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Batching CSIDH Group Actions using AVX-512
+
+- 来源：[TCHES 2021](https://doi.org/10.46586/tches.v2021.i4.618-649)；时间标记：earlier boundary paper。
+- 作者：Hao Cheng; Georgios Fotiadis; Johann Großschädl; Peter Y. A. Ryan; Peter B. Rønne
+- 对象：CSIDH, CSIDH-512, AVX-512；类型：constant_time_implementation。
+- 核心想法：将恒时 CSIDH-512 群作用批处理并映射到 SIMD，分别优化吞吐率和延迟。
+- 作者报告：作者比较混合批处理与双路向量化，在 Intel AVX-512 平台上报告性能。
+- 限制与下一步：吞吐与单次延迟不是同一指标；恒时范围、批次状态与物理泄漏需正文核查，CSIDH 不等同于 SIKE。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## CTIDH: faster constant-time CSIDH
 
 - 来源：[TCHES 2021](https://doi.org/10.46586/tches.v2021.i4.351-387)；时间标记：earlier boundary paper。
@@ -104,6 +115,28 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Classic McEliece on the ARM Cortex-M4
+
+- 来源：[TCHES 2021](https://doi.org/10.46586/tches.v2021.i3.125-148)；时间标记：earlier boundary paper。
+- 作者：Ming-Shing Chen; Tung Chou
+- 对象：Classic McEliece, Cortex-M4；类型：constant_time_implementation。
+- 核心想法：在 SRAM 不足以容纳公钥的 Cortex-M4 上实现恒时 Classic McEliece，使用 flash 存储公钥。
+- 作者报告：作者报告多个参数集的封装/解封装周期，以及部分参数集的密钥生成支持。
+- 限制与下一步：不同参数集的实现操作覆盖不同；恒时与功耗、电磁、flash 访问的物理安全分开核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Compact Dilithium Implementations on Cortex-M3 and Cortex-M4
+
+- 来源：[TCHES 2021](https://doi.org/10.46586/tches.v2021.i1.1-24)；时间标记：earlier boundary paper。
+- 作者：Denisa O. C. Greconici; Matthias J. Kannwischer; Daan Sprenkels
+- 对象：Dilithium, Kyber, NewHope, Cortex-M3, Cortex-M4；类型：constant_time_implementation。
+- 核心想法：实现 Cortex-M3 的恒时 Dilithium，并优化 Cortex-M4 上的 NTT 及速度与栈空间折衷。
+- 作者报告：作者报告不同签名调度的资源折衷，并提供 Cortex-M3 的 Kyber/NewHope 实现。
+- 限制与下一步：恒时声明不等于功耗安全；其他算法的保护范围不能由 Dilithium 声明外推。2021 卷首期实际于 2020-12 发表，作为窗口外边界条目保留。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## Masking Kyber: First- and Higher-Order Implementations
 
 - 来源：[TCHES 2021](https://doi.org/10.46586/tches.v2021.i4.173-214)；时间标记：earlier boundary paper。
@@ -112,6 +145,28 @@
 - 核心想法：提出高阶压缩与掩码多项式比较方法，构造 Kyber 掩码实现。
 - 作者报告：摘要报告 Cortex-M0+/M4F 性能、局部实测评估与 scVerif 验证。
 - 限制与下一步：需要全文核对各安全阶数的证明模型和实测覆盖；有限迹线未检出不等于任意攻击安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Optimizing BIKE for the Intel Haswell and ARM Cortex-M4
+
+- 来源：[TCHES 2021](https://doi.org/10.46586/tches.v2021.i3.97-124)；时间标记：earlier boundary paper。
+- 作者：Ming-Shing Chen; Tung Chou; Markus Krausz
+- 对象：BIKE, Intel Haswell, Cortex-M4；类型：constant_time_implementation。
+- 核心想法：针对 Haswell 和 Cortex-M4 设计两种恒时 BIKE 实现，结合算法与指令优化。
+- 作者报告：作者分别与 BIKE 团队 avx2 和非恒时 portable 实现比较性能。
+- 限制与下一步：M4 基线为非恒时实现，不能把跨基线倍率直接当成同安全条件比较；未据摘要认定功耗防护。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Rainbow on Cortex-M4
+
+- 来源：[TCHES 2021](https://doi.org/10.46586/tches.v2021.i4.650-675)；时间标记：earlier boundary paper。
+- 作者：Tung Chou; Matthias J. Kannwischer; Bo-Yin Yang
+- 对象：Rainbow, bitsliced field arithmetic, Cortex-M4；类型：constant_time_component。
+- 核心想法：实现 Rainbow 的恒时位切片有限域乘法，并优化公开映射验证和秘密的位切片表示。
+- 作者报告：作者在 Giant Gecko Cortex-M4 平台上比较历史 NIST 候选的签名与验证周期。
+- 限制与下一步：摘要明确的是乘法组件恒时，不能提升为整个签名实现的物理安全；历史候选性能不构成今天的部署推荐。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
@@ -214,6 +269,17 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Efficient Implementations of Rainbow and UOV using AVX2
+
+- 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i1.245-269)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Kyung-Ah Shim; Sangyub Lee; Namhun Koo
+- 对象：Rainbow, UOV, precomputation；类型：implementation_and_leakage_analysis。
+- 核心想法：通过块矩阵求逆与预计算加速签名，并分析预计算值泄漏或复用的秘密恢复风险。
+- 作者报告：作者报告 AVX2 性能及预计算值泄漏/复用时的多项式时间完整私钥恢复结论。
+- 限制与下一步：给定或复用预计算值的分析，不等于已从真实功耗中获取这些值；与数学方案本身的现行安全状态分开。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## Faster Constant-Time Decoder for MDPC Codes and Applications to BIKE KEM
 
 - 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i4.110-134)；时间标记：formal publication within rolling window。
@@ -278,7 +344,7 @@
 - 作者报告：摘要报告两类实验室验证的零值攻击及防护分析。
 - 限制与下一步：历史 SIKE 对象与具体零值条件须保留；不能把同源算法代数破译与本文物理攻击混为一谈。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
-- 代码/数据核查：not checked；引用追踪：pending。
+- 代码/数据核查：not checked；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
 
 ## Single-Trace Side-Channel Attacks on the Toom-Cook: The Case Study of Saber
 
@@ -322,7 +388,7 @@
 - 作者报告：摘要报告 x86 上的机制分析及对恒时 SIKE 实现的选择密文攻击。
 - 限制与下一步：历史 SIKE 是论文攻击对象；不能据此评价当前其他 PQC 实现的实际成本。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX session abstract。
-- 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
+- 代码/数据核查：not checked；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
 
 ## Too Many Hints – When LLL Breaks LWE
 
@@ -378,7 +444,7 @@
 - 作者报告：摘要报告结合实现中的已有片段与密码分析，攻击恒时 ECDSA、Classic McEliece，并利用 GPU/CPU 功率耦合做像素推断。
 - 限制与下一步：待核对各平台、版本和采集预算；不扩展为当前所有 ECDSA/McEliece 或浏览器实现均受影响。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：author-institution abstract: https://experts.illinois.edu/en/publications/dvfs-frequently-leaks-secrets-hertzbleed-attacks-beyond-sike-cryp/。
-- 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
+- 代码/数据核查：not checked；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
 
 ## Adapting Belief Propagation to Counter Shuffling of NTTs
 
@@ -476,6 +542,17 @@
 - 核心想法：在掩码多项式乘法中保留小秘密范围，以复用紧凑乘法器。
 - 作者报告：作者分别实现 NTT 与 schoolbook 路线并进行一阶 TVLA 评估。
 - 限制与下一步：摘要用 guarantee 描述 TVLA；本库仅记录有限泄漏评估，不将其提升为完整安全证明。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## LPN-based Attacks in the White-box Setting
+
+- 来源：[TCHES 2023](https://doi.org/10.46586/tches.v2023.i4.318-343)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Alex Charlès; Aleksei Udovenko
+- 对象：white-box masking, LPN, DCA, LDA；类型：attack_method。
+- 核心想法：将 LPN 求解用于白盒掩码的强线性近似，组合差分计算分析与线性译码思路。
+- 作者报告：作者给出理论及实验比较，分析依近似误差变化的复杂度和若干掩码方案。
+- 限制与下一步：研究对象是白盒计算踪迹与掩码，不是对 LPN 后量子密码实例的物理攻击；不能混入 PQC 恢复数字。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
@@ -690,6 +767,43 @@
 - 已读章节：abstract/introduction; section 3; selected overview/target passages in 7.1 and 7.2; section 8; references [1]–[98]. Tables, complete attack derivations and appendices not fully audited.
 - [详细阅读记录](notes/gofetch-2024.md)
 - 代码/数据核查：not checked；引用追踪：in_progress; 98 reference entries screened, selected identities resolved; forward search pending。
+
+## EUCLEAK
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-239)；时间标记：conference year 2025 within frozen window; exact publication date not verified。
+- 作者：Thomas Roche NinjaLab
+- 对象：ECDSA, modular inversion, Infineon secure elements, FIDO；类型：attack。
+- 核心想法：通过安全元件的非恒时模逆研究 ECDSA 泄漏，并使用本地电磁观测演示密钥恢复。
+- 作者报告：作者 2024 技术报告摘要描述 Feitian A22 上的分析、YubiKey 5Ci 演示以及若干 Infineon 产品的适用性。
+- 限制与下一步：本次读的是 2024-10-22 技术报告的封面、修订表与摘要，不是 2025 会议版全文；需要物理访问与相应仪器。版本/产品边界不能扩展成当前所有产品均受影响。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://ninjalab.io/wp-content/uploads/2024/10/20241022_eucleak.pdf。
+- 代码/数据核查：not checked; author technical report only；引用追踪：pending。
+
+## Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254)；时间标记：conference year 2025 within frozen window; exact publication date not verified。
+- 作者：Inwhan Chun, Isabella Siu, Riccardo Paccagnella Carnegie Mellon University
+- 对象：SIKE, Thread Director, Windows scheduler, GPU/Chrome；类型：attack。
+- 核心想法：功耗相关的 Thread Director 调度提示改变活跃核心使用，把功耗差异转成远程时间差，毋须依赖频率泄漏。
+- 作者报告：作者在 Meteor Lake/Windows 平台报告 SIKE 密钥恢复及跨源像素窃取，并比较默认与受限 P-state 配置。
+- 限制与下一步：实测密码对象为 SIKE-751，不是 Kyber/ML-KEM；选择密文、网络拓扑与并发工作量是条件。摘要的约五倍比较跨处理器，不能作为同平台通用倍率。
+- 阅读层级：selected_full_text_sections；来源：https://www.hertzbleed.com/scheduled-disclosure-sp2025.pdf。
+- 已读章节：PDF pp. 1, 14–15: abstract/introduction and section 6; pp. 17–18: complete printed reference entries 1–79
+- [详细阅读记录](notes/sp2025-protection-and-observation-boundaries-20261113.md)
+- 代码/数据核查：README read via GitHub connector (blob 14c91f1d5eb761600091b682adefcfeeec2d2108); environment and source layout inspected; no build/run or completeness verification；引用追踪：79 printed references first-pass screened; 12 catalog links, 3 new discoveries; recursive and forward closure pending。
+
+## Towards ML-KEM & ML-DSA on OpenTitan
+
+- 来源：[SP 2025](https://doi.org/10.1109/SP61157.2025.00220)；时间标记：conference year 2025 within frozen window; exact publication date not verified。
+- 作者：Amin Abdulrahman1, Hoang Nguyen Hien Pham2, Tobias Stelzer3, Felix Oberhansl3, Andreas Zankl3,4, Jade Philipoom5, Peter Schwabe1,6 1: Max Planck Institute for Security and Privacy (MPI-SP), 2: BULL SAS, Université Grenoble Alpes, 3: Fraunhofer Institute for Applied and Integrated Security (AISEC), Garching, Germany, 4: Technical University of Munich (TUM), Munich, Germany, 5: zeroRISC, Boston, USA, 6: Radboud University
+- 对象：ML-KEM, ML-DSA, OpenTitan, OTBN, masked KMAC；类型：implementation_security_design。
+- 核心想法：为 OTBN 连接现有掩码 KMAC 并扩展向量算术，同时考虑 OpenTitan 原有数据通路与状态保护要求。
+- 作者报告：作者报告软件优化、硬件实现及综合/功能测试；正文另讨论同值份额不应在同一宽寄存器中组合的掩码策略。
+- 限制与下一步：KMAC 一阶掩码及既有 OTBN 防护不等于完整 ML-KEM/ML-DSA 掩码实现；§5.2.5、§8 明确把完整方案掩码与适当性重评估列为后续工作。份额装载建议不是本文完成的功耗证明。
+- 阅读层级：selected_full_text_sections；来源：https://cryptojedi.org/papers/otpqc-20250514.pdf。
+- 已读章节：PDF p.1 abstract; relevant protection paragraphs pp.2,4,6,8,11,14–15 (including sections 2.4, 5.2.5, 8); selected reference entries p.17
+- [详细阅读记录](notes/sp2025-protection-and-observation-boundaries-20261113.md)
+- 代码/数据核查：author README read via GitHub connector (blob 4a797446f26d4e4d8ccf945fdf099dc64fa58fc0); submodule pointers, documented DB archive and platform restrictions inspected in README only; no build/run or data-file verification；引用追踪：selected reference 61 registered for foundation reading; complete inventory and forward search pending。
 
 ## Adaptive Template Attacks on the Kyber Binomial Sampler
 
@@ -911,6 +1025,17 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Compressed Key Exchange Protocol from Orientations of Large Discriminant Using AVX-512
+
+- 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i3.679-718)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Yuhao Zheng; Jianming Lin; Yutong Liang; Yanzhen Ren; Huixin Zhang; Chang-An Zhao
+- 对象：CSIDH-LDO, AVX-512, public-key compression；类型：constant_time_implementation。
+- 核心想法：联合设计大判别式定向群作用的恒时 SIMD 实现与公钥压缩。
+- 作者报告：作者在 Tiger Lake 比较含 dummy 和不含 dummy 的调度，并提出公钥压缩框架。
+- 限制与下一步：不同调度的物理观测条件及安全证明需分别核查；高速和公钥更小不等于抵抗功耗泄漏。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## DPA-Style Attacks on HQC
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i2.928-952)；时间标记：formal publication within rolling window。
@@ -944,6 +1069,17 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Efficient and Parallel Implementation of Isogeny-based Deterministic Group Actions
+
+- 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i3.541-565)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Weize Wang; Yi-Fu Lai; Kaizhan Lin; Yunlei Zhao
+- 对象：OSIDH-LD, isogeny group actions, AVX-512；类型：constant_time_implementation。
+- 核心想法：优化恒时、确定性且无 dummy 的大判别式定向群作用，结合裁尾和并行执行。
+- 作者报告：作者提供 C/汇编及线程、AVX-512 实现，报告密钥生成和协商的性能改进。
+- 限制与下一步：摘要明确保持确定性与无 dummy 特性；优化后具体二进制的完整恒时保证与功耗表现仍需核查，不能只由算法起点推定。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## From Multiplication to Recovery: A Single-trace Side-Channel Attack on HQC
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i4.890-916)；时间标记：formal publication within rolling window。
@@ -963,6 +1099,17 @@
 - 核心想法：针对浮点表示的 NTRU 型签名秘密，利用有噪内存及近似代数关系进行冷启动恢复。
 - 作者报告：作者报告位翻转模型仿真与 Raspberry Pi 上 Falcon 冷启动实验，并提出表示层防护。
 - 限制与下一步：单一位翻转模型不代表所有 DRAM；需区分模拟和实际存储噪声、硬件接触条件及方案范围。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Hardness of Learning with Physical Rounding and Noise from Learning With Errors
+
+- 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i3.1056-1079)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Clément Hoffmann; Emeline Repel; Adeline Roux-Langlois; François-Xavier Standaert
+- 对象：LWPRN, LWPR, LWE, fresh re-keying；类型：leakage_resilience_theory。
+- 核心想法：将有噪物理约舍入问题 LWPRN 的难度归约到 LWE，研究可负担噪声下的泄漏韧性基础。
+- 作者报告：作者讨论 fresh re-keying、潜在 PQC 应用及曾使无噪 LWPR 不安全的串行实现情形。
+- 限制与下一步：这是特定物理函数和噪声条件下的理论结果；潜在 PQC 应用不是已实现的 ML-KEM/ML-DSA 防护，也未据摘要认定实测。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 

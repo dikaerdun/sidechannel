@@ -1,0 +1,96 @@
+{
+  "sources": [
+    {
+      "source_id": "sp-2025",
+      "url": "https://www.ieee-security.org/TC/SP2025/accepted-papers.html",
+      "response_url": "https://www.ieee-security.org/TC/SP2025/accepted-papers.html",
+      "status": 200,
+      "retrieved_at": "2026-11-12T06:57:37.706819+00:00",
+      "sha256": "c51716bcff778e6970b468f61f26cdf618410ae4f2c9e4c4c3368fca23e47d0d",
+      "bytes": 180315,
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "sp2025-program-followup",
+      "url": "https://www.ieee-security.org/TC/SP2025/program.html",
+      "response_url": "https://www.ieee-security.org/TC/SP2025/program.html",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:27:37.400102+00:00",
+      "sha256": "c56626d3d4827860fcb1d1768524d17fd212edafcd52384a3235c2832a91ca30",
+      "bytes": 259851,
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "scheduled-disclosure-pdf",
+      "url": "https://www.hertzbleed.com/scheduled-disclosure-sp2025.pdf",
+      "response_url": "https://www.hertzbleed.com/scheduled-disclosure-sp2025.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:27:38.409326+00:00",
+      "sha256": "b942bb0a779e426ccfe3b29a8b2d740e04a44e94dd8994d3381e57be288ba4de",
+      "bytes": 1021595,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "opentitan-sp2025-author-pdf",
+      "url": "https://cryptojedi.org/papers/otpqc-20250514.pdf",
+      "response_url": "https://cryptojedi.org/papers/otpqc-20250514.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:27:38.869206+00:00",
+      "sha256": "11dab6e62eeec90c2ae467b58996797e0f5ff24b2e96914b632995d0169d1187",
+      "bytes": 678878,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "eucleak-author-report",
+      "url": "https://ninjalab.io/wp-content/uploads/2024/10/20241022_eucleak.pdf",
+      "response_url": "https://ninjalab.io/wp-content/uploads/2024/10/20241022_eucleak.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T02:27:41.312507+00:00",
+      "sha256": "c0744691c226bd3d6f608f0d98d0a53a00f3c29b377578138a89e1c1b0ac190a",
+      "bytes": 8316450,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "opentitan-sp2025-artifact-readme",
+      "url": "https://github.com/PQC-OpenTitan/towards-ml-kem-and-ml-dsa-on-opentitan/blob/main/README.md",
+      "git_blob_sha": "4a797446f26d4e4d8ccf945fdf099dc64fa58fc0",
+      "requested_ref": "main",
+      "retrieval_method": "GitHub connector fetch_file",
+      "read_scope": "README only; no build, execution, submodule or data-file verification",
+      "retrieved_on": "2026-11-13",
+      "raw_content_available_locally": true,
+      "local_file_sha256": "572af1acf762ace259cbba35cb698622833ae466e97afd1076460568b008fd47"
+    },
+    {
+      "source_id": "scheduled-disclosure-artifact-readme",
+      "url": "https://github.com/cmu-msrg/scheduled-disclosure/blob/main/README.md",
+      "git_blob_sha": "14c91f1d5eb761600091b682adefcfeeec2d2108",
+      "requested_ref": "main",
+      "retrieval_method": "GitHub connector fetch_file",
+      "read_scope": "README only; no build, execution, submodule or data-file verification",
+      "retrieved_on": "2026-11-13",
+      "raw_content_available_locally": true,
+      "local_file_sha256": "f692f0b57d32069f29202c802428dfe8ddff9545167d0c6241d7c93c093449de"
+    }
+  ],
+  "reviewed_on": "2026-11-13",
+  "title_records_read": 255,
+  "title_decisions": {
+    "outside_title_scope": 202,
+    "uncertain": 17,
+    "adjacent": 17,
+    "candidate": 19
+  },
+  "new_included": 3,
+  "selected_full_text_cards": 2,
+  "author_report_abstract_cards": 1,
+  "official_program_comparison": {
+    "all_255_catalog_titles_found": true,
+    "nonpaper_unique_labels": 33,
+    "independent_source": false,
+    "independent_toc_crosscheck": "pending"
+  },
+  "new_citation_edges": 12,
+  "new_unresolved_discoveries": 4,
+  "no_experiments_or_independent_replication": true
+}

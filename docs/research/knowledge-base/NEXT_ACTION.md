@@ -4,9 +4,9 @@
 
 ## 2026-11-13 文献库建设接续
 
-已建立[统一文献入口](literature/README.md)、30 个核心会议年单元目录及 14 条引用扩展记录；TCHES 599 条已做标题初筛，全部目录中 112 条有摘要及以上判定，纳入 105 篇。GoFetch 参考文献 [1]–[98] 已逐条初筛，核对 30 条引用与累计 10 条版本关系（9 条核实、1 条推定）；此前 9 条身份发现已解析。详见[本批记录](records/2026-11-13-literature-pqc-followup.md)和[比较条件专题](literature/notes/pqc-comparison-boundaries-20261113.md)。
+已建立[统一文献入口](literature/README.md)、30 个核心会议年单元目录及 14 条引用扩展记录；TCHES 599 条和 S&P 2025 的 255 条标题已初筛，累计 153 条摘要及以上判定，纳入 118 篇。GoFetch 的 98 条与 Scheduled Disclosure 的 79 条引用均完成第一轮条目初筛，累计 42 条核对引用、10 条版本关系（9 条核实、1 条推定）；9 条旧发现已解析，4 条新发现待查。详见[本批记录](records/2026-11-13-literature-scope-and-sp2025.md)和[S&P 正文边界](literature/notes/sp2025-protection-and-observation-boundaries-20261113.md)。
 
-下一步继续 TCHES 尚未读摘要的 PQC 候选，并开始其他核心目录逐题筛查；精读高价值 PQC 论文的变量、威胁能力、预算与恢复对象，递归处理引用。GoFetch 仍有 58 条基础文献待处理，不能把[已解析发现](literature/citations/discoveries.jsonl)视作全部引用闭包。独立目录交叉核对、扩展会议系统目录、代码/数据可用性和完整专题综述仍未完成。接续时先读[覆盖与缺口](literature/COVERAGE.md)，不要把条目初筛或脚本通过视为普查完成。
+下一步优先处理 Red Alert、The Finger in the Power、Controlled Preemption 和 Share-slicing 四条引用发现，继续 S&P 2025 候选/不确定项及 TCHES 剩余 PQC 摘要，推进其他核心目录逐题筛查。GoFetch 仍有 58 条基础文献待处理；Scheduled Disclosure 另有 16 条。独立目录交叉核对、扩展会议系统目录、代码/数据实查和全文专题综述仍未完成。接续时先读[覆盖与缺口](literature/COVERAGE.md)，不能把条目初筛或脚本通过视为普查完成。
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 

@@ -9,11 +9,14 @@
 | TCHES | [A Framework for designing High-Order Side-Channel Protected Hardware Implementations of ML-KEM](https://doi.org/10.46586/tches.v2026.i2.272-295) | abstract_and_bibliographic_metadata |
 | TCHES | [ABRA-CAPA-DABRA: Full break of CAPA](https://doi.org/10.46586/tches.v2026.i3.334-341) | abstract_and_bibliographic_metadata |
 | TCHES | [AIPS: AI-Based Power Simulation for Pre-Silicon Side-Channel Security Evaluation](https://doi.org/10.46586/tches.v2026.i2.441-467) | abstract_and_bibliographic_metadata |
+| TCHES | [Compressed Key Exchange Protocol from Orientations of Large Discriminant Using AVX-512](https://doi.org/10.46586/tches.v2026.i3.679-718) | abstract_and_bibliographic_metadata |
 | TCHES | [DPA-Style Attacks on HQC](https://doi.org/10.46586/tches.v2026.i2.928-952) | abstract_and_bibliographic_metadata |
 | TCHES | [Efficient High-Order Masking of FrodoKEM’s CDT-Based Gaussian Sampler](https://doi.org/10.46586/tches.v2026.i2.868-892) | abstract_and_bibliographic_metadata |
 | TCHES | [Efficient and Compact High-order Masking Raccoon on Memory Constrained Devices](https://doi.org/10.46586/tches.v2026.i4.369-396) | abstract_and_bibliographic_metadata |
+| TCHES | [Efficient and Parallel Implementation of Isogeny-based Deterministic Group Actions](https://doi.org/10.46586/tches.v2026.i3.541-565) | abstract_and_bibliographic_metadata |
 | TCHES | [From Multiplication to Recovery: A Single-trace Side-Channel Attack on HQC](https://doi.org/10.46586/tches.v2026.i4.890-916) | abstract_and_bibliographic_metadata |
 | TCHES | [FrozenTRU: Cold Boot Attacks on NTRU-Based Hash-and-Sign Signatures](https://doi.org/10.46586/tches.v2026.i3.1007-1031) | abstract_and_bibliographic_metadata |
+| TCHES | [Hardness of Learning with Physical Rounding and Noise from Learning With Errors](https://doi.org/10.46586/tches.v2026.i3.1056-1079) | abstract_and_bibliographic_metadata |
 | TCHES | [How Strong is the FO-Calypse, Really? Instantiating Plaintext-Checking Oracles against Masked Software Implementations of ML-KEM](https://doi.org/10.46586/tches.v2026.i4.759-785) | abstract_and_bibliographic_metadata |
 | TCHES | [Keep it Simple: Refreshing the NTT of Kyber’s Decapsulation to Prevent Plaintext-Checking Side-Channel Attacks](https://doi.org/10.46586/tches.v2026.i1.472-499) | abstract_and_bibliographic_metadata |
 | TCHES | [Key-Recovery Side-Channel Attack on the Berlekamp-Massey Decoding Algorithm in the Classic McEliece KEM](https://doi.org/10.46586/tches.v2026.i4.838-862) | abstract_and_bibliographic_metadata |
@@ -37,6 +40,9 @@
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| SP | [EUCLEAK](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-239) | abstract_and_bibliographic_metadata |
+| SP | [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | selected_full_text_sections |
+| SP | [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) | selected_full_text_sections |
 | TCHES | [Adaptive Template Attacks on the Kyber Binomial Sampler](https://doi.org/10.46586/tches.v2025.i3.470-492) | abstract_and_bibliographic_metadata |
 | TCHES | [Avengers assemble! Supervised learning meets lattice reduction: A single power trace attack against CRYSTALS-Kyber Key Generation](https://doi.org/10.46586/tches.v2025.i4.409-436) | abstract_and_bibliographic_metadata |
 | TCHES | [Constant time lattice reduction in dimension 4 with application to SQIsign](https://doi.org/10.46586/tches.v2025.i2.511-534) | abstract_and_bibliographic_metadata |
@@ -92,6 +98,7 @@
 | TCHES | [High-order masking of NTRU](https://doi.org/10.46586/tches.v2023.i2.180-211) | abstract_and_bibliographic_metadata |
 | TCHES | [Improved Gadgets for the High-Order Masking of Dilithium](https://doi.org/10.46586/tches.v2023.i4.110-145) | abstract_and_bibliographic_metadata |
 | TCHES | [Kavach: Lightweight masking techniques for polynomial arithmetic in lattice-based cryptography](https://doi.org/10.46586/tches.v2023.i3.366-390) | abstract_and_bibliographic_metadata |
+| TCHES | [LPN-based Attacks in the White-box Setting](https://doi.org/10.46586/tches.v2023.i4.318-343) | abstract_and_bibliographic_metadata |
 | TCHES | [Multiple-Valued Plaintext-Checking Side-Channel Attacks on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2023.i3.473-503) | abstract_and_bibliographic_metadata |
 | TCHES | [Protecting Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://doi.org/10.46586/tches.v2023.i4.58-79) | abstract_and_bibliographic_metadata |
 | TCHES | [Pushing the Limits of Generic Side-Channel Attacks on LWE-based KEMs - Parallel PC Oracle Attacks on Kyber KEM and Beyond](https://doi.org/10.46586/tches.v2023.i2.418-446) | abstract_and_bibliographic_metadata |
@@ -110,6 +117,7 @@
 | TCHES | [Bitslicing Arithmetic/Boolean Masking Conversions for Fun and Profit: with Application to Lattice-Based KEMs](https://doi.org/10.46586/tches.v2022.i4.553-588) | abstract_and_bibliographic_metadata |
 | TCHES | [Curse of Re-encryption: A Generic Power/EM Analysis on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2022.i1.296-322) | abstract_and_bibliographic_metadata |
 | TCHES | [Don’t Reject This: Key-Recovery Timing Attacks Due to Rejection-Sampling in HQC and BIKE](https://doi.org/10.46586/tches.v2022.i3.223-263) | abstract_and_bibliographic_metadata |
+| TCHES | [Efficient Implementations of Rainbow and UOV using AVX2](https://doi.org/10.46586/tches.v2022.i1.245-269) | abstract_and_bibliographic_metadata |
 | TCHES | [Faster Constant-Time Decoder for MDPC Codes and Applications to BIKE KEM](https://doi.org/10.46586/tches.v2022.i4.110-134) | abstract_and_bibliographic_metadata |
 | TCHES | [High-order Table-based Conversion Algorithms and Masking Lattice-based Encryption](https://doi.org/10.46586/tches.v2022.i2.1-40) | abstract_and_bibliographic_metadata |
 | TCHES | [Higher-Order Masked Ciphertext Comparison for Lattice-Based Cryptography](https://doi.org/10.46586/tches.v2022.i2.115-139) | abstract_and_bibliographic_metadata |
@@ -132,7 +140,12 @@
 | TCHES | [A Side-Channel Attack on a Masked IND-CCA Secure Saber KEM Implementation](https://doi.org/10.46586/tches.v2021.i4.676-707) | abstract_and_bibliographic_metadata |
 | TCHES | [Analysis and Comparison of Table-based Arithmetic to Boolean Masking](https://doi.org/10.46586/tches.v2021.i3.275-297) | abstract_and_bibliographic_metadata |
 | TCHES | [Attacking and Defending Masked Polynomial Comparison for Lattice-Based Cryptography](https://doi.org/10.46586/tches.v2021.i3.334-359) | abstract_and_bibliographic_metadata |
+| TCHES | [Batching CSIDH Group Actions using AVX-512](https://doi.org/10.46586/tches.v2021.i4.618-649) | abstract_and_bibliographic_metadata |
 | TCHES | [CTIDH: faster constant-time CSIDH](https://doi.org/10.46586/tches.v2021.i4.351-387) | abstract_and_bibliographic_metadata |
 | TCHES | [Chosen Ciphertext k-Trace Attacks on Masked CCA2 Secure Kyber](https://doi.org/10.46586/tches.v2021.i4.88-113) | abstract_and_bibliographic_metadata |
+| TCHES | [Classic McEliece on the ARM Cortex-M4](https://doi.org/10.46586/tches.v2021.i3.125-148) | abstract_and_bibliographic_metadata |
+| TCHES | [Compact Dilithium Implementations on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2021.i1.1-24) | abstract_and_bibliographic_metadata |
 | TCHES | [Masking Kyber: First- and Higher-Order Implementations](https://doi.org/10.46586/tches.v2021.i4.173-214) | abstract_and_bibliographic_metadata |
+| TCHES | [Optimizing BIKE for the Intel Haswell and ARM Cortex-M4](https://doi.org/10.46586/tches.v2021.i3.97-124) | abstract_and_bibliographic_metadata |
+| TCHES | [Rainbow on Cortex-M4](https://doi.org/10.46586/tches.v2021.i4.650-675) | abstract_and_bibliographic_metadata |
 | TCHES | [Side-Channel Protections for Picnic Signatures](https://doi.org/10.46586/tches.v2021.i4.239-282) | abstract_and_bibliographic_metadata |

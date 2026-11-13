@@ -1,14 +1,26 @@
 # 引用与版本追踪进度
 
-已核对 30 条引用条目；版本关系共 10 条，其中 9 条书目核实、1 条为原始来源推定。它们不等于被引论文已全部读完。
-追踪任务共 210 项：in_progress=19, pending=191。
-已登记发现中，9 条完成身份与范围判定，0 条仍待核查；已解析记录继续保留历史。
+已核对 42 条引用条目；版本关系共 10 条，其中 9 条书目核实、1 条为原始来源推定。它们不等于被引论文已全部读完。
+追踪任务共 236 项：in_progress=22, pending=214。
+已登记发现中，9 条完成身份与范围判定，4 条仍待核查；已解析记录继续保留历史。
 
-本批逐条阅读 GoFetch 参考文献 [1]–[98]，其中已解析关系见下表。其余条目分为新发现、基础研究或实现背景；这不代表前后向追踪已经完成。
-[98 条参考文献初筛](citations/gofetch-reference-screen.jsonl) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)
+GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 目前仅登记选读的 [61]。条目对应不代表目标论文全部读完，也不代表前后向追踪完成。
+[GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)
 
 | 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |
 |---|---:|---|---|
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 8 | [PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://www.ieee-security.org/TC/SP2021/program-papers.html) | catalog only; abstract pending |
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 9 | [Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.usenix.org/conference/usenixsecurity22/presentation/wang-yingchen) | abstract_and_bibliographic_metadata |
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 10 | [Frequency Throttling Side-Channel Attack](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | catalog only; abstract pending |
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 11 | [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) | abstract_and_bibliographic_metadata |
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 12 | [Hot Pixels: Frequency, Power, and Temperature Attacks on GPUs and Arm SoCs](https://www.usenix.org/conference/usenixsecurity23/presentation/taneja) | catalog only; abstract pending |
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 14 | [HammerScope: Observing DRAM Power Consumption Using Rowhammer](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | catalog only; abstract pending |
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 15 | [AMD Prefetch Attacks through Power and Time](https://www.usenix.org/conference/usenixsecurity22/presentation/lipp) | catalog only; abstract pending |
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 16 | [Collide+Power: Leaking Inaccessible Data with Software-based Power Side Channels](https://www.usenix.org/conference/usenixsecurity23/presentation/kogler) | catalog only; abstract pending |
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 49 | [GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | catalog only; abstract pending |
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 50 | [Pixel Thief: Exploiting SVG Filter Leakage in Firefox and Chrome](https://www.usenix.org/conference/usenixsecurity24/presentation/oconnell) | catalog only; abstract pending |
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 68 | [SIKE Channels: Zero-Value Side-Channel Attacks on SIKE](https://doi.org/10.46586/tches.v2022.i3.264-289) | abstract_and_bibliographic_metadata |
+| [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 79 | [Power-Related Side-Channel Attacks using the Android Sensor Framework](https://www.ndss-symposium.org/ndss-paper/power-related-side-channel-attacks-using-the-android-sensor-framework/) | catalog only; abstract pending |
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 15 | [Exploiting Intermediate Value Leakage in Dilithium: A Template-Based Approach](https://doi.org/10.46586/tches.v2023.i4.188-210) | abstract_and_bibliographic_metadata |
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 26 | [PREFETCHX: Cross-Core Cache-Agnostic Prefetcher-based Side-Channel Attacks](https://doi.org/10.1109/hpca57654.2024.00037) | selected_full_text_sections; actual cited version: [preprint](https://arxiv.org/abs/2306.11195) |
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 27 | [AfterImage: Leaking Control Flow Data and Tracking Load Operations via the Hardware Prefetcher](https://doi.org/10.1145/3575693.3575719) | abstract_and_bibliographic_metadata |
@@ -63,4 +75,5 @@
 - HOST 2021 采样论文的 ePrint 上传于 2022 年；会议年、出版日期和预印本日期分别保留。
 - GoFetch [26] 实际引用 2023 年 XPT/PrefetchX 预印本；与 HPCA 2024 条目的研究版本关联由相同作者及机制推定，仍待显式版本链接/全文对照。标题及定量结果不同，不声称全文等价。
 - GoFetch [71] 的 Flatter 已读摘要并归为格约简方法背景，见 [相邻主题记录](ADJACENT_NOTES.md)；未计作独立侧信道攻击。
+- Scheduled Disclosure 的密码实验对象为 SIKE-751；12 条引用已与目录对应，ASIACCS/DIMVA/ASPLOS 的三条线索待补查。OpenTitan 的 Share-slicing 引用作为窗口外基础文献待补读。
 - 前向关系只记录当前实际看到的引用，不等于枚举了所有后续论文。扩展会议的系统目录、未解析引用及基础文献筛查继续进行。

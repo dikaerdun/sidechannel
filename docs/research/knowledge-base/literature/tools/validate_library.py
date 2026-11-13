@@ -38,7 +38,11 @@ assert len({d['id'] for d in decisions})==len(decisions)
 assert all(d['id'] in ids for d in decisions)
 titles=read_rows(ROOT/'screening/title-decisions.jsonl')
 assert len({t['id'] for t in titles})==len(titles)
-assert {t['id'] for t in titles}=={r['id'] for r in catalog if r['venue']=='TCHES'},'TCHES title pass must account for every retained record'
+assert {t['id'] for t in titles}<={r['id'] for r in catalog},'Title decision without catalog identity'
+# Saved title batches currently cover whole venue-year cells. This is an accounting
+# invariant for those batches, not a claim that other cells have been screened.
+for venue,year in {(t['venue'],t['venue_year']) for t in titles}:
+    assert {t['id'] for t in titles if (t['venue'],t['venue_year'])==(venue,year)}=={r['id'] for r in catalog if (r['venue'],r['venue_year'])==(venue,year)},f'Incomplete saved title batch: {venue} {year}'
 assert all(t['decision'] in {'candidate','adjacent','outside_title_scope','uncertain'} and t['final_scope_decision'] is False for t in titles)
 assert coverage['title_screened_records']==len(titles)
 assert coverage['abstract_screened_records']==len(decisions)
@@ -64,16 +68,22 @@ assert all(e['to'] in ids for e in edges)
 cites=[e for e in edges if e['type']=='cites']
 assert all(e['from'] in ids and e['source_id'] in sources and len(e['source_sha256'])==64 for e in cites)
 assert len({(e['from'],e['reference_number']) for e in cites})==len(cites)
-refs=read_rows(ROOT/'citations/gofetch-reference-screen.jsonl')
-assert len(refs)==98 and {r['reference_number'] for r in refs}==set(range(1,99))
+gofetch_refs=read_rows(ROOT/'citations/gofetch-reference-screen.jsonl')
+assert len(gofetch_refs)==98 and {r['reference_number'] for r in gofetch_refs}==set(range(1,99))
+scheduled_refs=read_rows(ROOT/'citations/scheduled-disclosure-reference-screen.jsonl')
+assert len(scheduled_refs)==79 and {r['reference_number'] for r in scheduled_refs}==set(range(1,80))
+refs=[r for p in (ROOT/'citations').glob('*reference-screen.jsonl') for r in read_rows(p)]
+assert len({(r['seed_id'],r['reference_number']) for r in refs})==len(refs)
+assert all(r['seed_id'] in ids and r['source_id'] in sources for r in refs)
 assert all(r['final_scope_decision'] is False for r in refs)
-assert {(r['seed_id'],r['reference_number'],r['target_id']) for r in refs if r['status']=='linked_catalog'}=={(e['from'],e['reference_number'],e['to']) for e in cites if e['source_id']=='gofetch-2024-fulltext'}
+inventory_sources={r['source_id'] for r in refs}
+assert {(r['seed_id'],r['reference_number'],r['target_id']) for r in refs if r['status']=='linked_catalog'}=={(e['from'],e['reference_number'],e['to']) for e in cites if e['source_id'] in inventory_sources}
 discoveries=read_rows(ROOT/'citations/discoveries.jsonl')
 assert len({d['discovery_id'] for d in discoveries})==len(discoveries)
 pending_discoveries=[d for d in discoveries if d['status'].startswith('pending_')]
 resolved_discoveries=[d for d in discoveries if d['status']=='resolved_identity_and_scope']
 assert len(pending_discoveries)+len(resolved_discoveries)==len(discoveries),'Unknown discovery state'
-assert {r['reference_number'] for r in refs if r['status']=='discovery_queued'}=={d['reference_number'] for d in pending_discoveries}
+assert {(r['seed_id'],r['reference_number']) for r in refs if r['status']=='discovery_queued'}=={(d['seed_id'],d['reference_number']) for d in pending_discoveries}
 decision_map={d['id']:d for d in decisions}
 for d in resolved_discoveries:
     assert d['target_id'] in ids and d['target_id'] in decision_map

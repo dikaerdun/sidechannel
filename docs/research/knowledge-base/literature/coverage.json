@@ -4,29 +4,29 @@
   "reading_updated_on": "2026-11-13",
   "total_catalog_records": 6643,
   "priority_counts": {
-    "unmatched_pending": 5423,
-    "sca_terms": 885,
+    "unmatched_pending": 5422,
+    "sca_terms": 886,
     "pqc_terms": 193,
     "pqc_and_sca_terms": 142
   },
   "core_catalog_records": 6629,
   "citation_expansion_records": 14,
-  "title_screened_records": 599,
-  "abstract_screened_records": 112,
-  "included_papers": 105,
+  "title_screened_records": 854,
+  "abstract_screened_records": 153,
+  "included_papers": 118,
   "reading_level_counts": {
-    "abstract_and_bibliographic_metadata": 101,
-    "selected_full_text_sections": 4
+    "abstract_and_bibliographic_metadata": 112,
+    "selected_full_text_sections": 6
   },
   "citation_progress": {
-    "verified_citation_edges": 30,
+    "verified_citation_edges": 42,
     "verified_version_edges": 9,
     "inferred_version_edges": 1,
     "task_status_counts": {
-      "pending": 191,
-      "in_progress": 19
+      "pending": 214,
+      "in_progress": 22
     },
-    "unresolved_discoveries": 0,
+    "unresolved_discoveries": 4,
     "resolved_discoveries": 9
   },
   "core_cells": [
@@ -37,9 +37,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 7,
+      "screened_records": 15,
       "title_screened_records": 78,
-      "abstract_screened_records": 7,
+      "abstract_screened_records": 15,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -50,9 +50,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 14,
+      "screened_records": 19,
       "title_screened_records": 83,
-      "abstract_screened_records": 14,
+      "abstract_screened_records": 19,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -63,9 +63,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 13,
+      "screened_records": 21,
       "title_screened_records": 78,
-      "abstract_screened_records": 13,
+      "abstract_screened_records": 21,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -76,9 +76,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 13,
+      "screened_records": 17,
       "title_screened_records": 101,
-      "abstract_screened_records": 13,
+      "abstract_screened_records": 17,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -89,9 +89,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 17,
+      "screened_records": 20,
       "title_screened_records": 111,
-      "abstract_screened_records": 17,
+      "abstract_screened_records": 20,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -102,9 +102,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/tches.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 29,
+      "screened_records": 39,
       "title_screened_records": 148,
-      "abstract_screened_records": 29,
+      "abstract_screened_records": 39,
       "citation_chasing": "pending",
       "complete": false
     },
@@ -167,9 +167,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/sp-2025.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 0,
-      "title_screened_records": 0,
-      "abstract_screened_records": 0,
+      "screened_records": 3,
+      "title_screened_records": 255,
+      "abstract_screened_records": 3,
       "citation_chasing": "pending",
       "complete": false
     },

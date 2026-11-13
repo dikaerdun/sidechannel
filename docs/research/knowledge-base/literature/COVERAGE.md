@@ -5,17 +5,17 @@
 
 | 会议/卷 | 年份 | 已提取记录 | 交叉核对 | 标题初筛 | 摘要及以上判定 | 来源与数量证据 |
 |---|---:|---:|---|---|---|---|
-| TCHES | 2021 | 78 | 待核对 | 78/78 | 7/78 | [记录](provenance/tches.json) |
-| TCHES | 2022 | 83 | 待核对 | 83/83 | 14/83 | [记录](provenance/tches.json) |
-| TCHES | 2023 | 78 | 待核对 | 78/78 | 13/78 | [记录](provenance/tches.json) |
-| TCHES | 2024 | 101 | 待核对 | 101/101 | 13/101 | [记录](provenance/tches.json) |
-| TCHES | 2025 | 111 | 待核对 | 111/111 | 17/111 | [记录](provenance/tches.json) |
-| TCHES | 2026 | 148 | 待核对 | 148/148 | 29/148 | [记录](provenance/tches.json) |
+| TCHES | 2021 | 78 | 待核对 | 78/78 | 15/78 | [记录](provenance/tches.json) |
+| TCHES | 2022 | 83 | 待核对 | 83/83 | 19/83 | [记录](provenance/tches.json) |
+| TCHES | 2023 | 78 | 待核对 | 78/78 | 21/78 | [记录](provenance/tches.json) |
+| TCHES | 2024 | 101 | 待核对 | 101/101 | 17/101 | [记录](provenance/tches.json) |
+| TCHES | 2025 | 111 | 待核对 | 111/111 | 20/111 | [记录](provenance/tches.json) |
+| TCHES | 2026 | 148 | 待核对 | 148/148 | 39/148 | [记录](provenance/tches.json) |
 | SP | 2021 | 115 | 待核对 | 0/115 | 0/115 | [记录](provenance/sp-2021.json) |
 | SP | 2022 | 147 | 待核对 | 0/147 | 0/147 | [记录](provenance/sp-2022.json) |
 | SP | 2023 | 196 | 待核对 | 0/196 | 1/196 | [记录](provenance/sp-2023.json) |
 | SP | 2024 | 261 | 待核对 | 0/261 | 0/261 | [记录](provenance/sp-2024.json) |
-| SP | 2025 | 255 | 待核对 | 0/255 | 0/255 | [记录](provenance/sp-2025.json) |
+| SP | 2025 | 255 | 待核对 | 255/255 | 3/255 | [记录](provenance/sp-2025.json) |
 | SP | 2026 | 254 | 待核对 | 0/254 | 0/254 | [记录](provenance/sp-2026.json) |
 | USENIX | 2021 | 246 | 待核对 | 0/246 | 0/246 | [记录](provenance/usenix-2021.json) |
 | USENIX | 2022 | 256 | 待核对 | 0/256 | 1/256 | [记录](provenance/usenix-2022.json) |
@@ -45,6 +45,7 @@
 - Crossref 的 ISBN 查询只返回 CCS 论文集容器，不能用于证明其中没有论文；已改用官方网站目录。
 - TCHES 按卷年与出版日期分别处理，回看 2020 年元数据以补齐 2021 卷首期。Crossref 未提交引用列表不等于没有引用。
 - TCHES 已逐题初筛完整标题及可用副标题；标题暂判不是最终纳入/排除。卷首前言另存于 catalog-exclusions/tches.jsonl。
+- S&P 2025 的 255 条标题已初筛；全部可在同年官方日程找到。录用页和日程同属官方来源，不替代独立论文集全量核对。
 - 摘要占位文本 Not Available 不计为可读摘要；标题层的相邻/范围外条目仍可被后续摘要或引用证据修订。
 - CRYPTO/EUROCRYPT/ASIACRYPT、PQCrypto、COSADE、HOST 等扩展来源仍待系统补齐；引用扩展取得少量条目不等于补齐会议年度目录。
 - 标题/摘要筛查、正式条目、版本归并与前后向引用追踪尚未完成。
