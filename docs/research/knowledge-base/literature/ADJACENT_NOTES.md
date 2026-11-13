@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 478 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 559 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## Power Analysis Attacks: Revealing the Secrets of Smart Cards
 
@@ -555,12 +555,33 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/10179284/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## 50 Shades of Support: A Device-Centric Analysis of Android Security Updates
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/50-shades-of-support-a-device-centric-analysis-of-android-security-updates/)。
+- 判定依据：Android 安全更新生命周期与厂商支持差异；摘要未研究侧信道观察。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/50-shades-of-support-a-device-centric-analysis-of-android-security-updates/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## 5G-Spector: An O-RAN Compliant Layer-3 Cellular Attack Detection Service
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/5g-spector-an-o-ran-compliant-layer-3-cellular-attack-detection-service/)。
+- 判定依据：O-RAN L3 网络遥测与入侵检测；未报告利用非预期泄漏推断秘密。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/5g-spector-an-o-ran-compliant-layer-3-cellular-attack-detection-service/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## A Configurable ML-KEM/Kyber Key-Encapsulation Hardware Accelerator Architecture
 
 - 来源：[TCAS-II 2024](https://doi.org/10.1109/tcsii.2024.3442228)。
 - 判定依据：ML-KEM/Kyber 加速器资源与性能比较；摘要未给出物理泄漏评价，题名不能证明最终 FIPS 203 完整一致性。
 - 阅读来源：https://xplorestaging.ieee.org/document/10634219/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/a-duty-to-forget-a-right-to-be-assured-exposing-vulnerabilities-in-machine-unlearning-services/)。
+- 判定依据：过度机器遗忘造成模型效用下降；不是侧信道观测或密钥恢复。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/a-duty-to-forget-a-right-to-be-assured-exposing-vulnerabilities-in-machine-unlearning-services/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## A Highly-efficient Lattice-based Post-Quantum Cryptography Processor for IoT Applications
 
@@ -583,11 +604,39 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/10646778/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## A Two-Layer Blockchain Sharding Protocol Leveraging Safety and Liveness for Enhanced Performance
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/a-two-layer-blockchain-sharding-protocol-leveraging-safety-and-liveness-for-enhanced-performance/)。
+- 判定依据：区块链分片的安全性与活性；不属于测量泄漏研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/a-two-layer-blockchain-sharding-protocol-leveraging-safety-and-liveness-for-enhanced-performance/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## A Unified Symbolic Analysis of WireGuard
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/a-unified-symbolic-analysis-of-wireguard/)。
+- 判定依据：WireGuard 协议匿名性与符号分析；摘要未建立物理泄漏模型。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/a-unified-symbolic-analysis-of-wireguard/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## AAKA: An Anti-Tracking Cellular Authentication Scheme Leveraging Anonymous Credentials
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/aaka-an-anti-tracking-cellular-authentication-scheme-leveraging-anonymous-credentials/)。
 - 判定依据：匿名凭据与蜂窝认证的身份不可链接协议；摘要未分析额外时序/物理/流量侧信道，保留协议隐私背景。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/aaka-an-anti-tracking-cellular-authentication-scheme-leveraging-anonymous-credentials/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Abusing the Ethereum Smart Contract Verification Services for Fun and Profit
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/abusing-the-ethereum-smart-contract-verification-services-for-fun-and-profit/)。
+- 判定依据：智能合约源码/字节码验证缺陷；直接验证逻辑问题不作为侧信道结果。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/abusing-the-ethereum-smart-contract-verification-services-for-fun-and-profit/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## ActiveDaemon: Unconscious DNN Dormancy and Waking Up via User-specific Invisible Token
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/activedaemon-unconscious-dnn-dormancy-and-waking-up-via-user-specific-invisible-token/)。
+- 判定依据：DNN 访问令牌与后门式产权认证；不是被动测量泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/activedaemon-unconscious-dnn-dormancy-and-waking-up-via-user-specific-invisible-token/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## AnonPSI: An Anonymity Assessment Framework for PSI
@@ -604,6 +653,55 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/10646672/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Architecting Trigger-Action Platforms for Security, Performance and Functionality
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/architecting-trigger-action-platforms-for-security-performance-and-functionality/)。
+- 判定依据：TAPDance/Keystone enclave 架构与隔离；摘要未给出侧信道评估。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/architecting-trigger-action-platforms-for-security-performance-and-functionality/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Attributions for ML-based ICS Anomaly Detection: From Theory to Practice
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/attributions-for-ml-based-ics-anomaly-detection-from-theory-to-practice/)。
+- 判定依据：工业控制故障/攻击归因诊断；不以秘密的侧信道推断为贡献。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/attributions-for-ml-based-ics-anomaly-detection-from-theory-to-practice/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Automatic Adversarial Adaption for Stealthy Poisoning Attacks in Federated Learning
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/automatic-adversarial-adaption-for-stealthy-poisoning-attacks-in-federated-learning/)。
+- 判定依据：联邦学习中自适应投毒；约束的是恶意模型更新，不是物理泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/automatic-adversarial-adaption-for-stealthy-poisoning-attacks-in-federated-learning/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Automatic Policy Synthesis and Enforcement for Protecting Untrusted Deserialization
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/automatic-policy-synthesis-and-enforcement-for-protecting-untrusted-deserialization/)。
+- 判定依据：反序列化策略自动合成；直接软件缺陷防护。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/automatic-policy-synthesis-and-enforcement-for-protecting-untrusted-deserialization/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## BGP-iSec: Improved Security of Internet Routing Against Post-ROV Attacks
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/bgp-isec-improved-security-of-internet-routing-against-post-rov-attacks/)。
+- 判定依据：BGP-iSec 的路由泄漏指路由策略传播；与物理或微架构泄漏不同。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/bgp-isec-improved-security-of-internet-routing-against-post-rov-attacks/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Bernoulli Honeywords
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/bernoulli-honeywords/)。
+- 判定依据：Bernoulli honeywords 通过诱饵检测账户泄露；不是硬件侧信道防护。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/bernoulli-honeywords/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Beyond the Surface: Uncovering the Unprotected Components of Android Against Overlay Attack
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/beyond-the-surface-uncovering-the-unprotected-components-of-android-against-overlay-attack/)。
+- 判定依据：Android 叠层与点击劫持；不作为测量型侧信道攻击。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/beyond-the-surface-uncovering-the-unprotected-components-of-android-against-overlay-attack/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Bitstream Fault Injection Attacks on CRYSTALS Kyber Implementations on FPGAs
 
 - 来源：[DATE 2024](https://doi.org/10.23919/date58400.2024.10546550)。
@@ -617,6 +715,13 @@
 - 判定依据：MIGP 的密码协议与部署允许客户端取得额外凭据信息；摘要未把新增泄漏绑定到时间、长度或共享资源侧信道。保留协议泄漏背景，待全文澄清实现部分。
 - 阅读来源：https://xplorestaging.ieee.org/document/10646859/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## BreakSPF: How Shared Infrastructures Magnify SPF Vulnerabilities Across the Internet
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/breakspf-how-shared-infrastructures-magnify-spf-vulnerabilities-across-the-internet/)。
+- 判定依据：共享 IP 下 SPF 身份认证绕过；直接认证逻辑问题。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/breakspf-how-shared-infrastructures-magnify-spf-vulnerabilities-across-the-internet/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## CAGE: Complementing Arm CCA with GPU Extensions
 
@@ -646,11 +751,32 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Certificate Transparency Revisited: The Public Inspections on Third-party Monitors
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/certificate-transparency-revisited-the-public-inspections-on-third-party-monitors/)。
+- 判定依据：证书透明日志的监视器一致性检查；未建立秘密侧信道观察。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/certificate-transparency-revisited-the-public-inspections-on-third-party-monitors/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Compensating Removed Frequency Components: Thwarting Voice Spectrum Reduction Attacks
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/compensating-removed-frequency-components-thwarting-voice-spectrum-reduction-attacks/)。
 - 判定依据：补偿对抗音频被删去的频率成分；spectral leakage 在这里是信号处理术语，不是密码信息侧漏。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/compensating-removed-frequency-components-thwarting-voice-spectrum-reduction-attacks/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Compromising Industrial Processes using Web-Based Programmable Logic Controller Malware
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/compromising-industrial-processes-using-web-based-programmable-logic-controller-malware/)。
+- 判定依据：PLC Web 恶意软件直接调用接口控制工业过程；不等于被动波形泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/compromising-industrial-processes-using-web-based-programmable-logic-controller-malware/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Content Censorship in the InterPlanetary File System
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/content-censorship-in-the-interplanetary-file-system/)。
+- 判定依据：IPFS 内容审查与 DHT 可用性；保留网络背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/content-censorship-in-the-interplanetary-file-system/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## ConvKyber: Unleashing the Power of AI Accelerators for Faster Kyber with Novel Iteration-based Approaches
@@ -667,11 +793,81 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Crafter: Facial Feature Crafting against Inversion-based Identity Theft on Deep Models
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/crafter-facial-feature-crafting-against-inversion-based-identity-theft-on-deep-models/)。
+- 判定依据：人脸特征反演与隐私防护；属于模型隐私相邻研究，未建立物理侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/crafter-facial-feature-crafting-against-inversion-based-identity-theft-on-deep-models/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## CrowdGuard: Federated Backdoor Detection in Federated Learning
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/crowdguard-federated-backdoor-detection-in-federated-learning/)。
+- 判定依据：CrowdGuard 联邦后门检测采用 TEE；使用 TEE 本身不构成侧信道防护评估。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/crowdguard-federated-backdoor-detection-in-federated-learning/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## DEMASQ: Unmasking the ChatGPT Wordsmith
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/demasq-unmasking-the-chatgpt-wordsmith/)。
+- 判定依据：DEMASQ 的 energy 与 Doppler 类比服务于文本检测；不是设备功耗测量。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/demasq-unmasking-the-chatgpt-wordsmith/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## DRAINCLoG: Detecting Rogue Accounts with Illegally-obtained NFTs using Classifiers Learned on Graphs
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/drainclog-detecting-rogue-accounts-with-illegally-obtained-nfts-using-classifiers-learned-on-graphs/)。
+- 判定依据：NFT drainer 公共交易图分析；直接公开记录分析。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/drainclog-detecting-rogue-accounts-with-illegally-obtained-nfts-using-classifiers-learned-on-graphs/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## DeGPT: Optimizing Decompiler Output with LLM
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/degpt-optimizing-decompiler-output-with-llm/)。
+- 判定依据：DeGPT 通过多个 LLM 角色改善反编译可读性；可作研究工具背景，非侧信道证据。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/degpt-optimizing-decompiler-output-with-llm/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Decentralized Information-Flow Control for ROS2
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/decentralized-information-flow-control-for-ros2/)。
 - 判定依据：ROS2 数据消费权限与 ABE 信息流控制，摘要未给物理或微架构侧信道分析。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/decentralized-information-flow-control-for-ros2/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## DeepGo: Predictive Directed Greybox Fuzzing
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/deepgo-predictive-directed-greybox-fuzzing/)。
+- 判定依据：DeepGo 强化学习引导模糊测试；方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/deepgo-predictive-directed-greybox-fuzzing/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Detecting Voice Cloning Attacks via Timbre Watermarking
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/detecting-voice-cloning-attacks-via-timbre-watermarking/)。
+- 判定依据：语音水印用于主动产权标记；不是非预期泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/detecting-voice-cloning-attacks-via-timbre-watermarking/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Don’t Interrupt Me – A Large-Scale Study of On-Device Permission Prompt Quieting in Chrome
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/dont-interrupt-me-a-large-scale-study-of-on-device-permission-prompt-quieting-in-chrome/)。
+- 判定依据：Chrome 权限提示界面与用户行为；非侧信道研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/dont-interrupt-me-a-large-scale-study-of-on-device-permission-prompt-quieting-in-chrome/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## DorPatch: Distributed and Occlusion-Robust Adversarial Patch to Evade Certifiable Defenses
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/dorpatch-distributed-and-occlusion-robust-adversarial-patch-to-evade-certifiable-defenses/)。
+- 判定依据：对抗补丁鲁棒性；主动输入攻击与被动观测不同。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/dorpatch-distributed-and-occlusion-robust-adversarial-patch-to-evade-certifiable-defenses/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## DynPRE: Protocol Reverse Engineering via Dynamic Inference
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/dynpre-protocol-reverse-engineering-via-dynamic-inference/)。
+- 判定依据：DynPRE 用交互式消息推断协议格式；显式协议内容分析，不是物理侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/dynpre-protocol-reverse-engineering-via-dynamic-inference/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Efficient ASIC Architecture for Low Latency Classic McEliece Decoding
@@ -687,6 +883,13 @@
 - 判定依据：one-bit leakage 是主动安全 2PC 协议的形式化放宽，不是论文已验证一个物理比特侧信道。作为密码协议泄漏模型背景保留。
 - 阅读来源：https://xplorestaging.ieee.org/document/10646747/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Efficient Use-After-Free Prevention with Opportunistic Page-Level Sweeping
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/efficient-use-after-free-prevention-with-opportunistic-page-level-sweeping/)。
+- 判定依据：内存分配器缓解 UAF；摘要未主张秘密推断或侧信道评估。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/efficient-use-after-free-prevention-with-opportunistic-page-level-sweeping/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Efficient and Timely Revocation of V2X Credentials
 
@@ -709,11 +912,32 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## EnclaveFuzz: Finding Vulnerabilities in SGX Applications
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/enclavefuzz-finding-vulnerabilities-in-sgx-applications/)。
+- 判定依据：EnclaveFuzz 面向 SGX 内存与 TOCTOU 缺陷；与侧信道机理分开。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/enclavefuzz-finding-vulnerabilities-in-sgx-applications/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Enhance Stealthiness and Transferability of Adversarial Attacks with Class Activation Mapping Ensemble Attack
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/enhance-stealthiness-and-transferability-of-adversarial-attacks-with-class-activation-mapping-ensemble-attack/)。
+- 判定依据：基于类激活图的对抗样本检测；模型鲁棒性背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/enhance-stealthiness-and-transferability-of-adversarial-attacks-with-class-activation-mapping-ensemble-attack/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Experimental Analyses of the Physical Surveillance Risks in Client-Side Content Scanning
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/experimental-analyses-of-the-physical-surveillance-risks-in-client-side-content-scanning/)。
 - 判定依据：通过投毒感知哈希数据库使客户端内容扫描监视特定场景；physical surveillance 是监视目标，不是物理侧信道。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/experimental-analyses-of-the-physical-surveillance-risks-in-client-side-content-scanning/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Facilitating Non-Intrusive In-Vivo Firmware Testing with Stateless Instrumentation
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/facilitating-non-intrusive-in-vivo-firmware-testing-with-stateless-instrumentation/)。
+- 判定依据：非侵入式固件插桩与测试；不是对密码运行的被动测量攻击。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/facilitating-non-intrusive-in-vivo-firmware-testing-with-stateless-instrumentation/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Fast and Clean: Auditable high-performance assembly via constraint solving
@@ -737,11 +961,32 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Faster and Better: Detecting Vulnerabilities in Linux-based IoT Firmware with Optimized Reaching Definition Analysis
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/faster-and-better-detecting-vulnerabilities-in-linux-based-iot-firmware-with-optimized-reaching-definition-analysis/)。
+- 判定依据：IoT 静态污点分析；代码分析方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/faster-and-better-detecting-vulnerabilities-in-linux-based-iot-firmware-with-optimized-reaching-definition-analysis/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Faults in Our Bus: Novel Bus Fault Attack to Break ARM TrustZone
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/faults-in-our-bus-novel-bus-fault-attack-to-break-arm-trustzone/)。
 - 判定依据：主动总线 EM 故障导致可访问崩溃转储，读取 Dilithium 密钥或 Saber/Kyber 全部份额；另有 TrustZone 组合链。保留为 PQC 故障与系统边界背景，不标为被动功耗攻击。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/faults-in-our-bus-novel-bus-fault-attack-to-break-arm-trustzone/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## File Hijacking Vulnerability: The Elephant in the Room
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/file-hijacking-vulnerability-the-elephant-in-the-room/)。
+- 判定依据：文件劫持漏洞；直接资源替换问题。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/file-hijacking-vulnerability-the-elephant-in-the-room/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## FreqFed: A Frequency Analysis-Based Approach for Mitigating Poisoning Attacks in Federated Learning
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/freqfed-a-frequency-analysis-based-approach-for-mitigating-poisoning-attacks-in-federated-learning/)。
+- 判定依据：FreqFed 的频率分析对象是模型权重；不等于处理器频率泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/freqfed-a-frequency-analysis-based-approach-for-mitigating-poisoning-attacks-in-federated-learning/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## From Hardware Fingerprint to Access Token: Enhancing the Authentication on IoT Devices
@@ -758,11 +1003,46 @@
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/from-interaction-to-independence-zksnarks-for-transparent-and-non-interactive-remote-attestation/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## Front-running Attack in Sharded Blockchains and Fair Cross-shard Consensus
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/front-running-attack-in-sharded-blockchains-and-fair-cross-shard-consensus/)。
+- 判定依据：区块链抢跑与交易排序；协议层可见信息背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/front-running-attack-in-sharded-blockchains-and-fair-cross-shard-consensus/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## GNNIC: Finding Long-Lost Sibling Functions with Abstract Similarity
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/gnnic-finding-long-lost-sibling-functions-with-abstract-similarity/)。
+- 判定依据：GNN 间接调用目标分析；可用于实现理解，非侧信道结果。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/gnnic-finding-long-lost-sibling-functions-with-abstract-similarity/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## GhostType: The Limits of Using Contactless Electromagnetic Interference to Inject Phantom Keys into Analog Circuits of Keyboards
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/ghosttype-the-limits-of-using-contactless-electromagnetic-interference-to-inject-phantom-keys-into-analog-circuits-of-keyboards/)。
 - 判定依据：接触外 EMI 注入键盘 GPIO 造成幻键，属于输入完整性攻击，不是监听按键。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/ghosttype-the-limits-of-using-contactless-electromagnetic-interference-to-inject-phantom-keys-into-analog-circuits-of-keyboards/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Gradient Shaping: Enhancing Backdoor Attack Against Reverse Engineering
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/gradient-shaping-enhancing-backdoor-attack-against-reverse-engineering/)。
+- 判定依据：GRASP 后门与梯度反演；模型隐私/攻击背景，不计为物理侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/gradient-shaping-enhancing-backdoor-attack-against-reverse-engineering/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## GraphGuard: Detecting and Counteracting Training Data Misuse in Graph Neural Networks
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/graphguard-detecting-and-counteracting-training-data-misuse-in-graph-neural-networks/)。
+- 判定依据：GraphGuard 的数据成员检测与遗忘；模型隐私相邻主题。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/graphguard-detecting-and-counteracting-training-data-misuse-in-graph-neural-networks/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Group-based Robustness: A General Framework for Customized Robustness in the Real World
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/group-based-robustness-a-general-framework-for-customized-robustness-in-the-real-world/)。
+- 判定依据：分组对抗鲁棒性指标；没有独立侧信道测量贡献。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/group-based-robustness-a-general-framework-for-customized-robustness-in-the-real-world/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Guessing on Dominant Paths: Understanding the Limitation of Wireless Authentication Using Channel State Information
@@ -807,6 +1087,13 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/10646722/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## IRRedicator: Pruning IRR with RPKI-Valid BGP Insights
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/irredicator-pruning-irr-with-rpki-valid-bgp-insights/)。
+- 判定依据：RPKI/IRR 过期对象分类；网络配置背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/irredicator-pruning-irr-with-rpki-valid-bgp-insights/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Impeccable Keccak: Towards Fault Resilient SPHINCS+ Implementations
 
 - 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i2.154-189)。
@@ -814,11 +1101,32 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Improving the Robustness of Transformer-based Large Language Models with Dynamic Attention
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/improving-the-robustness-of-transformer-based-large-language-models-with-dynamic-attention/)。
+- 判定依据：LLM 动态注意力与鲁棒性；非泄漏测量。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/improving-the-robustness-of-transformer-based-large-language-models-with-dynamic-attention/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Inaudible Adversarial Perturbation: Manipulating the Recognition of User Speech in Real Time
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/inaudible-adversarial-perturbation-manipulating-the-recognition-of-user-speech-in-real-time/)。
+- 判定依据：超声波输入注入干扰 ASR；主动感知攻击，不等于语音窃听。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/inaudible-adversarial-perturbation-manipulating-the-recognition-of-user-speech-in-real-time/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Information Based Heavy Hitters for Real-Time DNS Data Exfiltration Detection
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/information-based-heavy-hitters-for-real-time-dns-data-exfiltration-detection/)。
 - 判定依据：估计 DNS 域名传输信息量以检测外传；正常协议内容中的隧道检测，不是秘密状态旁路推断。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/information-based-heavy-hitters-for-real-time-dns-data-exfiltration-detection/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Invisible Reflections: Leveraging Infrared Laser Reflections to Target Traffic Sign Perception
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/invisible-reflections-leveraging-infrared-laser-reflections-to-target-traffic-sign-perception/)。
+- 判定依据：红外激光反射欺骗交通标志感知；主动光学输入攻击。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/invisible-reflections-leveraging-infrared-laser-reflections-to-target-traffic-sign-perception/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## K-LEAK: Towards Automating the Generation of Multi-Step Infoleak Exploits against the Linux Kernel
@@ -835,6 +1143,20 @@
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/ldr-secure-and-efficient-linux-driver-runtime-for-embedded-tee-systems/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## LMSanitator: Defending Prompt-Tuning Against Task-Agnostic Backdoors
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/lmsanitator-defending-prompt-tuning-against-task-agnostic-backdoors/)。
+- 判定依据：LMSanitator 模型后门防护；摘要未建立侧信道观测。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/lmsanitator-defending-prompt-tuning-against-task-agnostic-backdoors/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Large Language Model guided Protocol Fuzzing
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-fuzzing/)。
+- 判定依据：ChatAFL 使用 LLM 生成协议语法与测试输入；可作实验工具背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-fuzzing/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Leaking the Privacy of Groups and More: Understanding Privacy Risks of Cross-App Content Sharing in Mobile Ecosystem
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/leaking-the-privacy-of-groups-and-more-understanding-privacy-risks-of-cross-app-content-sharing-in-mobile-ecosystem/)。
@@ -849,6 +1171,27 @@
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/lidar-spoofing-meets-the-new-gen-capability-improvements-broken-assumptions-and-new-attack-strategies/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/like-comment-get-scammed-characterizing-comment-scams-on-media-platforms/)。
+- 判定依据：YouTube 评论诈骗；内容生态研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/like-comment-get-scammed-characterizing-comment-scams-on-media-platforms/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## LoRDMA: A New Low-Rate DoS Attack in RDMA Networks
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/lordma-a-new-low-rate-dos-attack-in-rdma-networks/)。
+- 判定依据：LoRDMA 用 RTT 反馈安排低速 DoS；有时序测量，但未建立秘密推断目标。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/lordma-a-new-low-rate-dos-attack-in-rdma-networks/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## MOCK: Optimizing Kernel Fuzzing Mutation with Context-aware Dependency
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/mock-optimizing-kernel-fuzzing-mutation-with-context-aware-dependency/)。
+- 判定依据：MOCK 利用上下文改进内核模糊测试；方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/mock-optimizing-kernel-fuzzing-mutation-with-context-aware-dependency/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## MPCDiff: Testing and Repairing MPC-Hardened Deep Learning Models
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/mpcdiff-testing-and-repairing-mpc-hardened-deep-learning-models/)。
@@ -861,6 +1204,13 @@
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/madradar-a-black-box-physical-layer-attack-framework-on-mmwave-automotive-fmcw-radars/)。
 - 判定依据：先估计雷达配置再进行信号注入，目标是点云完整性；保留测量与干预背景。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/madradar-a-black-box-physical-layer-attack-framework-on-mmwave-automotive-fmcw-radars/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Maginot Line: Assessing a New Cross-app Threat to PII-as-Factor Authentication in Chinese Mobile Apps
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/maginot-line-assessing-a-new-cross-app-threat-to-pii-as-factor-authentication-in-chinese-mobile-apps/)。
+- 判定依据：PaFA 跨应用 PII 认证绕过；直接授权/数据访问缺陷。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/maginot-line-assessing-a-new-cross-app-threat-to-pii-as-factor-authentication-in-chinese-mobile-apps/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## MetaFly: Wireless Backhaul Interception via Aerial Wavefront Manipulation
@@ -891,6 +1241,13 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/10646699/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## NODLINK: An Online System for Fine-Grained APT Attack Detection and Investigation
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/nodlink-an-online-system-for-fine-grained-apt-attack-detection-and-investigation/)。
+- 判定依据：NodLink 基于溯源图检测 APT；不是秘密侧信道恢复。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/nodlink-an-online-system-for-fine-grained-apt-attack-detection-and-investigation/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## New Security Proofs and Techniques for Hash-and-Sign with Retry Signature Schemes
 
 - 来源：[IACR ePrint 2024](https://eprint.iacr.org/2024/609)。
@@ -911,6 +1268,13 @@
 - 判定依据：TSDP 的模型窃取和成员推断利用分区后可见的权重/接口；摘要未将攻击归因于时序、功耗或缓存观察，作为 TEE 与 ML 隐私背景保留。
 - 阅读来源：https://xplorestaging.ieee.org/document/10646815/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Not your Type! Detecting Storage Collision Vulnerabilities in Ethereum Smart Contracts
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/not-your-type-detecting-storage-collision-vulnerabilities-in-ethereum-smart-contracts/)。
+- 判定依据：CRUSH 合约存储碰撞；程序语义/内存布局缺陷。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/not-your-type-detecting-storage-collision-vulnerabilities-in-ethereum-smart-contracts/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## ORL-AUDITOR: Dataset Auditing in Offline Deep Reinforcement Learning
 
@@ -947,11 +1311,46 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/10646841/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Parrot-Trained Adversarial Examples: Pushing the Practicality of Black-Box Audio Attacks against Speaker Recognition Models
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/parrot-trained-adversarial-examples-pushing-the-practicality-of-black-box-audio-attacks-against-speaker-recognition-models/)。
+- 判定依据：鹦鹉语音式对抗输入；不是被动声音侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/parrot-trained-adversarial-examples-pushing-the-practicality-of-black-box-audio-attacks-against-speaker-recognition-models/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Pencil: Private and Extensible Collaborative Learning without the Non-Colluding Assumption
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/pencil-private-and-extensible-collaborative-learning-without-the-non-colluding-assumption/)。
 - 判定依据：MPC 协作学习的模型/数据隐私与非串谋假设，未给物理观察分析。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/pencil-private-and-extensible-collaborative-learning-without-the-non-colluding-assumption/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Phoenix: Surviving Unpatched Vulnerabilities via Accurate and Efficient Filtering of Syscall Sequences
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/phoenix-surviving-unpatched-vulnerabilities-via-accurate-and-efficient-filtering-of-syscall-sequences/)。
+- 判定依据：Phoenix 系统调用过滤；系统防护背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/phoenix-surviving-unpatched-vulnerabilities-via-accurate-and-efficient-filtering-of-syscall-sequences/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Pisces: Private and Compliable Cryptocurrency Exchange
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/pisces-private-and-compliable-cryptocurrency-exchange/)。
+- 判定依据：Pisces 交易匿名性协议；未评估物理泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/pisces-private-and-compliable-cryptocurrency-exchange/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Powers of Tau in Asynchrony
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/powers-of-tau-in-asynchrony/)。
+- 判定依据：Powers of Tau 多方参数生成；名称中的 power 与功耗无关。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/powers-of-tau-in-asynchrony/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Predictive Context-sensitive Fuzzing
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/predictive-context-sensitive-fuzzing/)。
+- 判定依据：上下文敏感模糊测试；实验方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/predictive-context-sensitive-fuzzing/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## PriSrv: Privacy-Enhanced and Highly Usable Service Discovery in Wireless Communications
@@ -966,6 +1365,34 @@
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/private-aggregate-queries-to-untrusted-databases/)。
 - 判定依据：私有聚合查询的 IT-PIR 功能与通信效率，保留查询隐私背景；未给实现侧信道分析。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/private-aggregate-queries-to-untrusted-databases/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Proof of Backhaul: Trustfree Measurement of Broadband Bandwidth
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/proof-of-backhaul-trustfree-measurement-of-broadband-bandwidth/)。
+- 判定依据：Proof of Backhaul 验证网络带宽；度量性能不等于推断秘密。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/proof-of-backhaul-trustfree-measurement-of-broadband-bandwidth/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## QUACK: Hindering Deserialization Attacks via Static Duck Typing
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/quack-hindering-deserialization-attacks-via-static-duck-typing/)。
+- 判定依据：QUACK 静态鸭子类型防止反序列化攻击；直接软件防护。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/quack-hindering-deserialization-attacks-via-static-duck-typing/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## REPLICAWATCHER: Training-less Anomaly Detection in Containerized Microservices
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/replicawatcher-training-less-anomaly-detection-in-containerized-microservices/)。
+- 判定依据：ReplicaWatcher 比较副本行为检测异常；没有独立秘密推断模型。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/replicawatcher-training-less-anomaly-detection-in-containerized-microservices/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## ReqsMiner: Automated Discovery of CDN Forwarding Request Inconsistencies and DoS Attacks with Grammar-based Fuzzing
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/reqsminer-automated-discovery-of-cdn-forwarding-request-inconsistencies-and-dos-attacks-with-grammar-based-fuzzing/)。
+- 判定依据：CDN 请求解释不一致引发 DoS；协议处理缺陷。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/reqsminer-automated-discovery-of-cdn-forwarding-request-inconsistencies-and-dos-attacks-with-grammar-based-fuzzing/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Revisiting Keccak and Dilithium Implementations on ARMv7-M
@@ -987,6 +1414,13 @@
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/slmia-sr-speaker-level-membership-inference-attacks-against-speaker-recognition-systems/)。
 - 判定依据：通过说话人识别模型输出/白盒特征进行训练成员推断，不是声音电路的旁路泄漏。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/slmia-sr-speaker-level-membership-inference-attacks-against-speaker-recognition-systems/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## SSL-WM: A Black-Box Watermarking Approach for Encoders Pre-trained by Self-Supervised Learning
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/ssl-wm-a-black-box-watermarking-approach-for-encoders-pre-trained-by-self-supervised-learning/)。
+- 判定依据：预训练编码器水印；主动标记与非预期泄漏分开。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/ssl-wm-a-black-box-watermarking-approach-for-encoders-pre-trained-by-self-supervised-learning/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Scrappy: SeCure Rate Assuring Protocol with PrivacY
@@ -1017,11 +1451,53 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/10646848/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Security-Performance Tradeoff in DAG-based Proof-of-Work Blockchain Protocols
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/security-performance-tradeoff-in-dag-based-proof-of-work-blockchain-protocols/)。
+- 判定依据：PoW DAG 拥塞与安全性；不属于功耗波形泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/security-performance-tradeoff-in-dag-based-proof-of-work-blockchain-protocols/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Separation is Good: A Faster Order-Fairness Byzantine Consensus
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/separation-is-good-a-faster-order-fairness-byzantine-consensus/)。
+- 判定依据：BFT 排序公平性；协议安全背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/separation-is-good-a-faster-order-fairness-byzantine-consensus/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## ShapFuzz: Efficient Fuzzing via Shapley-Guided Byte Selection
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/shapfuzz-efficient-fuzzing-via-shapley-guided-byte-selection/)。
+- 判定依据：ShapFuzz 用 Shapley 值选择输入字节；方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/shapfuzz-efficient-fuzzing-via-shapley-guided-byte-selection/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Sharing cyber threat intelligence: Does it really help?
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/sharing-cyber-threat-intelligence-does-it-really-help/)。
+- 判定依据：威胁情报共享质量；非侧信道研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/sharing-cyber-threat-intelligence-does-it-really-help/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## SigmaDiff: Semantics-Aware Deep Graph Matching for Pseudocode Diffing
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/sigmadiff-semantics-aware-deep-graph-matching-for-pseudocode-diffing/)。
+- 判定依据：SigmaDiff 以伪代码图比较二进制版本；实现差异分析方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/sigmadiff-semantics-aware-deep-graph-matching-for-pseudocode-diffing/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Singular points of UOV and VOX
 
 - 来源：[IACR ePrint 2024](https://eprint.iacr.org/2024/219)。
 - 判定依据：mUOV 实际引用的 ePrint 2024/219；研究 UOV-hat-plus/VOX 的奇异点代数分析，不是新物理测量论文。作者记录 VOX 恢复从指数改成多项式的修订，不能沿用旧版结论。
 - 阅读来源：https://eprint.iacr.org/2024/219。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/sneaky-spikes-uncovering-stealthy-backdoor-attacks-in-spiking-neural-networks-with-neuromorphic-data/)。
+- 判定依据：脉冲神经网络后门；spike 指模型计算事件，不是实测电流脉冲。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/sneaky-spikes-uncovering-stealthy-backdoor-attacks-in-spiking-neural-networks-with-neuromorphic-data/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## SoK: Efficient Design and Implementation of Polynomial Hash Functions over Prime Fields
@@ -1045,11 +1521,46 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/10646810/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Symphony: Path Validation at Scale
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/symphony-path-validation-at-scale/)。
+- 判定依据：网络路径验证；协议安全背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/symphony-path-validation-at-scale/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## SyzBridge: Bridging the Gap in Exploitability Assessment of Linux Kernel Bugs in the Linux Ecosystem
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/syzbridge-bridging-the-gap-in-exploitability-assessment-of-linux-kernel-bugs-in-the-linux-ecosystem/)。
+- 判定依据：SyzBridge 迁移内核漏洞可利用性判断；测试方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/syzbridge-bridging-the-gap-in-exploitability-assessment-of-linux-kernel-bugs-in-the-linux-ecosystem/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## TALISMAN: Tamper Analysis for Reference Monitors
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/talisman-tamper-analysis-for-reference-monitors/)。
 - 判定依据：引用监视器的信息流完整性和授权查询防篡改，不是机密性侧信道证明。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/talisman-tamper-analysis-for-reference-monitors/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## TextGuard: Provable Defense against Backdoor Attacks on Text Classification
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/textguard-provable-defense-against-backdoor-attacks-on-text-classification/)。
+- 判定依据：TextGuard 文本后门防护；模型鲁棒性研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/textguard-provable-defense-against-backdoor-attacks-on-text-classification/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## The CURE to Vulnerabilities in RPKI Validation
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/the-cure-to-vulnerabilities-in-rpki-validation/)。
+- 判定依据：RPKI 模糊测试；网络实现分析背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-cure-to-vulnerabilities-in-rpki-validation/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## The Dark Side of E-Commerce: Dropshipping Abuse as a Business Model
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/the-dark-side-of-e-commerce-dropshipping-abuse-as-a-business-model/)。
+- 判定依据：电商代发货滥用；平台生态研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-dark-side-of-e-commerce-dropshipping-abuse-as-a-business-model/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## The Dark Side of Scale: Insecurity of Direct-to-Cell Satellite Mega-Constellations
@@ -1058,6 +1569,20 @@
 - 判定依据：SatOver 利用信令和伪基站阻断 direct-to-cell 接入，主要是协议可用性与接入劫持；不可与卫星位置元数据侧信道合并。
 - 阅读来源：https://xplorestaging.ieee.org/document/10646850/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Towards Automated Regulation Analysis for Effective Privacy Compliance
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/towards-automated-regulation-analysis-for-effective-privacy-compliance/)。
+- 判定依据：法规文本分析；非侧信道研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/towards-automated-regulation-analysis-for-effective-privacy-compliance/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Towards Precise Reporting of Cryptographic Misuses
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/towards-precise-reporting-of-cryptographic-misuses/)。
+- 判定依据：密码 API 误用分析与误报减少；实现审查背景，不等于物理泄漏结论。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/towards-precise-reporting-of-cryptographic-misuses/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Transpose Attack: Stealing Datasets with Bidirectional Training
 
@@ -1073,6 +1598,20 @@
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/trustsketch-trustworthy-sketch-based-telemetry-on-cloud-hosts/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## Understanding Route Origin Validation (ROV) Deployment in the Real World and Why MANRS Action 1 Is Not Followed
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/understanding-route-origin-validation-rov-deployment-in-the-real-world-and-why-manrs-action-1-is-not-followed/)。
+- 判定依据：路由源验证部署测量；网络安全背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/understanding-route-origin-validation-rov-deployment-in-the-real-world-and-why-manrs-action-1-is-not-followed/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Understanding and Analyzing Appraisal Systems in the Underground Marketplaces
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/understanding-and-analyzing-appraisal-systems-in-the-underground-marketplaces/)。
+- 判定依据：地下市场评价体系；非侧信道研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/understanding-and-analyzing-appraisal-systems-in-the-underground-marketplaces/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Understanding the Implementation and Security Implications of Protective DNS Services
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/understanding-the-implementation-and-security-implications-of-protective-dns-services/)。
@@ -1080,11 +1619,32 @@
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/understanding-the-implementation-and-security-implications-of-protective-dns-services/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## UniID: Spoofing Face Authentication System by Universal Identity
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/uniid-spoofing-face-authentication-system-by-universal-identity/)。
+- 判定依据：对抗注册攻击人脸认证；主动模型输入攻击。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/uniid-spoofing-face-authentication-system-by-universal-identity/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## UntrustIDE: Exploiting Weaknesses in VS Code Extensions
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)。
+- 判定依据：IDE 扩展中的注入漏洞；直接软件攻击面。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Unus pro omnibus: Multi-Client Searchable Encryption via Access Control
 
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/unus-pro-omnibus-multi-client-searchable-encryption-via-access-control/)。
 - 判定依据：多客户端可搜索加密的委托、前向隐私和关键字猜测保护；保留搜索泄漏背景，摘要未显示新的实现侧信道分析。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/unus-pro-omnibus-multi-client-searchable-encryption-via-access-control/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## VETEOS: Statically Vetting EOSIO Contracts for the “Groundhog Day” Vulnerabilities
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/veteos-statically-vetting-eosio-contracts-for-the-groundhog-day-vulnerabilities/)。
+- 判定依据：VETEOS 的回滚判断读取余额或显式暴露的全局状态；正文中的 timing 指执行中何时读状态，未建立耗时侧信道。摘要及 PDF pp.1,3–4 已读，保留为状态 oracle/因果背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/veteos-statically-vetting-eosio-contracts-for-the-groundhog-day-vulnerabilities/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications
@@ -1099,6 +1659,13 @@
 - 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/you-can-use-but-cannot-recognize-preserving-visual-privacy-in-deep-neural-networks/)。
 - 判定依据：对公开训练/推理图像做像素打乱以保护视觉内容，非实现侧信道。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/you-can-use-but-cannot-recognize-preserving-visual-privacy-in-deep-neural-networks/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## dRR: A Decentralized, Scalable, and Auditable Architecture for RPKI Repository
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/drr-a-decentralized-scalable-and-auditable-architecture-for-rpki-repository/)。
+- 判定依据：RPKI 仓库架构与运营；网络安全背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/drr-a-decentralized-scalable-and-auditable-architecture-for-rpki-repository/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## "That's my perspective from 30 years of doing this": An Interview Study on Practices, Experiences, and Challenges of Updating Cryptographic Code

@@ -22,6 +22,10 @@
 
 ## A2B conversion
 
+- 2001 CHES · [A Sound Method for Switching between Boolean and Arithmetic Masking](https://doi.org/10.1007/3-540-44709-1_2) · countermeasure · abstract_and_bibliographic_metadata
+- 2003 CHES · [A New Algorithm for Switching from Arithmetic to Boolean Masking](https://doi.org/10.1007/978-3-540-45238-6_8) · countermeasure · abstract_and_bibliographic_metadata
+- 2004 CHES · [Switching Blindings with a View Towards IDEA](https://doi.org/10.1007/978-3-540-28632-5_17) · countermeasure · abstract_and_bibliographic_metadata
+- 2012 CHES · [Efficient and Provably Secure Methods for Switching from Arithmetic to Boolean Masking](https://doi.org/10.1007/978-3-642-33027-8_7) · countermeasure · selected_full_text_sections
 - 2021 TCHES · [Analysis and Comparison of Table-based Arithmetic to Boolean Masking](https://doi.org/10.46586/tches.v2021.i3.275-297) · attack_and_countermeasure · abstract_and_bibliographic_metadata
 
 ## accelerometer
@@ -81,6 +85,10 @@
 ## ADC
 
 - 2023 SP · [DeHiREC: Detecting Hidden Voice Recorders via ADC Electromagnetic Radiation](https://doi.org/10.1109/sp46215.2023.10179480) · physical_side_channel_detection · abstract_and_bibliographic_metadata
+
+## additive homomorphism
+
+- 2016 PQCrypto · [Additively Homomorphic Ring-LWE Masking](https://doi.org/10.1007/978-3-319-29360-8_15) · countermeasure · abstract_and_bibliographic_metadata
 
 ## address mapping
 
@@ -305,6 +313,11 @@
 - 2018 TCHES · [Improved High-Order Conversion From Boolean to Arithmetic Masking](https://doi.org/10.46586/tches.v2018.i2.22-45) · masking conversion · abstract_and_bibliographic_metadata
 - 2019 PKC · [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) · masking · selected_full_text_sections
 
+## B2A conversion
+
+- 2001 CHES · [A Sound Method for Switching between Boolean and Arithmetic Masking](https://doi.org/10.1007/3-540-44709-1_2) · countermeasure · abstract_and_bibliographic_metadata
+- 2019 JCEN · [Constant-time higher-order Boolean-to-arithmetic masking](https://doi.org/10.1007/s13389-018-0191-z) · countermeasure · abstract_and_bibliographic_metadata
+
 ## backscatter
 
 - 2025 SP · [Your Cable, My Antenna: Eavesdropping Serial Communication via Backscatter Signals](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-157) · backscatter_side_channel · abstract_and_bibliographic_metadata
@@ -376,6 +389,7 @@
 
 ## bitslicing
 
+- 2018 IEEE Transactions on Computers · [Constant-Time Discrete Gaussian Sampling](https://doi.org/10.1109/tc.2018.2814587) · countermeasure · selected_full_text_sections
 - 2026 CRYPTO · [Maskaglia: A New, Efficient Approach to Masked Discrete Gaussian Sampling](https://doi.org/10.1007/978-3-032-35415-0_6) · masking · abstract_and_bibliographic_metadata
 
 ## BLE
@@ -761,6 +775,10 @@
 
 - 2024 SP · [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · hardware_supported_side_channel_countermeasure · abstract_and_bibliographic_metadata
 
+## correctness
+
+- 2012 CHES · [Efficient and Provably Secure Methods for Switching from Arithmetic to Boolean Masking](https://doi.org/10.1007/978-3-642-33027-8_7) · countermeasure · selected_full_text_sections
+
 ## Cortex-M0+
 
 - 2024 TCHES · [PoMMES: Prevention of Micro-architectural Leakages in Masked Embedded Software](https://doi.org/10.46586/tches.v2024.i3.342-376) · compiler countermeasure · abstract_and_bibliographic_metadata
@@ -1089,6 +1107,7 @@
 
 ## discrete Gaussian sampling
 
+- 2018 IEEE Transactions on Computers · [Constant-Time Discrete Gaussian Sampling](https://doi.org/10.1109/tc.2018.2814587) · countermeasure · selected_full_text_sections
 - 2026 TCHES · [MAGNET: MAsked Gaussian Now Efficient and Table-less](https://doi.org/10.46586/tches.v2026.i3.769-804) · countermeasure · abstract_and_bibliographic_metadata
 
 ## display cables
@@ -1461,6 +1480,7 @@
 
 ## first-order masking
 
+- 2015 CHES · [A Masked Ring-LWE Implementation](https://doi.org/10.1007/978-3-662-48324-4_34) · countermeasure · selected_full_text_sections
 - 2024 INDOCRYPT · [OccPoIs: Points of Interest Based on Neural Network’s Key Recovery in Side-Channel Analysis Through Occlusion](https://doi.org/10.1007/978-3-031-80311-6_1) · feature selection · abstract_and_bibliographic_metadata
 
 ## fixed-weight polynomial sampling
@@ -1529,6 +1549,7 @@
 
 ## FPGA
 
+- 2015 CHES · [A Masked Ring-LWE Implementation](https://doi.org/10.1007/978-3-662-48324-4_34) · countermeasure · selected_full_text_sections
 - 2022 TCHES · [Complete and Improved FPGA Implementation of Classic McEliece](https://doi.org/10.46586/tches.v2022.i3.71-113) · constant_time_implementation · selected_full_text_sections
 - 2022 TCHES · [Racing BIKE: Improved Polynomial Multiplication and Inversion in Hardware](https://doi.org/10.46586/tches.v2022.i1.557-588) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2022 AsianHOST · [Vulnerable PQC against Side Channel Analysis - A Case Study on Kyber](https://doi.org/10.1109/asianhost56390.2022.10022165) · hardware_side_channel_evaluation · selected_full_text_sections
@@ -1778,6 +1799,10 @@
 
 - 2025 TCHES · [Improved Attacks Against Lattice-Based KEMs Using Hints From Hertzbleed](https://doi.org/10.46586/tches.v2025.i4.463-485) · attack · abstract_and_bibliographic_metadata
 
+## hidden defense inference
+
+- 2024 NDSS · [MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots](https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/) · attack · selected_full_text_sections
+
 ## hierarchical ORAM
 
 - 2025 CCS · [MegaBlocks: Breaking the Logarithmic I/O-Overhead Barrier for Oblivious RAM](https://doi.org/10.1145/3719027.3765159) · oblivious computation · abstract_and_bibliographic_metadata
@@ -1789,6 +1814,7 @@
 ## higher-order masking
 
 - 2010 CHES · [Provably Secure Higher-Order Masking of AES](https://doi.org/10.1007/978-3-642-15031-9_28) · formal_countermeasure · abstract_and_bibliographic_metadata
+- 2019 JCEN · [Constant-time higher-order Boolean-to-arithmetic masking](https://doi.org/10.1007/s13389-018-0191-z) · countermeasure · abstract_and_bibliographic_metadata
 - 2023 APKC · [Breaking a Fifth-Order Masked Implementation of CRYSTALS-Kyber by Copy-Paste](https://doi.org/10.1145/3591866.3593072) · attack · abstract_and_bibliographic_metadata
 
 ## higher-order testing
@@ -1881,6 +1907,10 @@
 ## ICMP
 
 - 2025 SP · [SCAD: Towards a Universal and Automated Network Side-Channel Vulnerability Detection](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-24) · automated_side_channel_detection · selected_full_text_sections
+
+## IDEA
+
+- 2004 CHES · [Switching Blindings with a View Towards IDEA](https://doi.org/10.1007/978-3-540-28632-5_17) · countermeasure · abstract_and_bibliographic_metadata
 
 ## identity inference
 
@@ -2127,6 +2157,10 @@
 - 2023 SP · [Privacy Leakage via Unrestricted Motion-Position Sensors in the Age of Virtual Reality: A Study of Snooping Typed Input on Virtual Keyboards](https://doi.org/10.1109/sp46215.2023.10179301) · sensor_side_channel · abstract_and_bibliographic_metadata
 - 2026 SP · [RadKey: An LLM-Guided RF Backscatter System for Through-Wall Keystroke Inference](https://doi.org/10.1109/sp63933.2026.00160) · physical_side_channel · abstract_and_bibliographic_metadata
 
+## Knuth-Yao
+
+- 2018 IEEE Transactions on Computers · [Constant-Time Discrete Gaussian Sampling](https://doi.org/10.1109/tc.2018.2814587) · countermeasure · selected_full_text_sections
+
 ## Kogge-Stone
 
 - 2015 FSE · [Conversion from Arithmetic to Boolean Masking with Logarithmic Complexity](https://doi.org/10.1007/978-3-662-48116-5_7) · masking conversion · abstract_and_bibliographic_metadata
@@ -2348,6 +2382,10 @@
 - 2026 SP · [Keytar: Practical Keystroke Timing Attacks and Input Reconstruction](https://doi.org/10.1109/sp63933.2026.00106) · side_channel_reconstruction · abstract_and_bibliographic_metadata
 - 2026 SP · [RadKey: An LLM-Guided RF Backscatter System for Through-Wall Keystroke Inference](https://doi.org/10.1109/sp63933.2026.00160) · physical_side_channel · abstract_and_bibliographic_metadata
 
+## LLM services
+
+- 2024 NDSS · [MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots](https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/) · attack · selected_full_text_sections
+
 ## LLM tokenization
 
 - 2026 SP · [TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads](https://doi.org/10.1109/sp63933.2026.00170) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
@@ -2462,6 +2500,10 @@
 
 - 2025 NDSS · [On Borrowed Time – Preventing Static Side-Channel Analysis](https://www.ndss-symposium.org/ndss-paper/on-borrowed-time-preventing-static-side-channel-analysis/) · countermeasure · selected_full_text_sections
 
+## masked decoding
+
+- 2015 CHES · [A Masked Ring-LWE Implementation](https://doi.org/10.1007/978-3-662-48324-4_34) · countermeasure · selected_full_text_sections
+
 ## masked FPGA
 
 - 2023 ASHES · [A Side-Channel Attack on a Masked Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1145/3605769.3623992) · hardware_side_channel_attack · abstract_and_bibliographic_metadata
@@ -2487,6 +2529,7 @@
 - 1999 CRYPTO · [Towards Sound Approaches to Counteract Power-Analysis Attacks](https://doi.org/10.1007/3-540-48405-1_26) · formal_countermeasure · abstract_and_bibliographic_metadata
 - 2010 Second SHA-3 Candidate Conference · [Building power analysis resistant implementations of Keccak](https://keccak.team/files/KeccakDPA.pdf) · countermeasure · selected_full_text_sections
 - 2014 CARDIS · [On the Cost of Lazy Engineering for Masked Software Implementations](https://doi.org/10.1007/978-3-319-16763-3_5) · leakage model and evaluation · abstract_and_bibliographic_metadata
+- 2016 PQCrypto · [Additively Homomorphic Ring-LWE Masking](https://doi.org/10.1007/978-3-319-29360-8_15) · countermeasure · abstract_and_bibliographic_metadata
 - 2016 CCS · [Strong Non-Interference and Type-Directed Higher-Order Masking](https://doi.org/10.1145/2976749.2978427) · formal_countermeasure · abstract_and_bibliographic_metadata
 - 2017 DSD · [Higher-Order Side-Channel Protected Implementations of KECCAK](https://doi.org/10.1109/dsd.2017.21) · countermeasure · abstract_and_bibliographic_metadata
 - 2017 CHES · [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) · pqc_single_trace_side_channel · abstract_and_bibliographic_metadata
@@ -3538,6 +3581,8 @@
 
 ## Ring-LWE
 
+- 2015 CHES · [A Masked Ring-LWE Implementation](https://doi.org/10.1007/978-3-662-48324-4_34) · countermeasure · selected_full_text_sections
+- 2016 PQCrypto · [Additively Homomorphic Ring-LWE Masking](https://doi.org/10.1007/978-3-319-29360-8_15) · countermeasure · abstract_and_bibliographic_metadata
 - 2018 TCHES · [Practical CCA2-Secure and Masked Ring-LWE Implementation](https://doi.org/10.46586/tches.v2018.i1.142-174) · countermeasure · abstract_and_bibliographic_metadata
 
 ## RIS
@@ -4085,6 +4130,12 @@
 - 2026 CRYPTO · [Maskaglia: A New, Efficient Approach to Masked Discrete Gaussian Sampling](https://doi.org/10.1007/978-3-032-35415-0_6) · masking · abstract_and_bibliographic_metadata
 - 2026 TCHES · [t-Probing (In-)Security: Pitfalls on Noise Assumptions](https://doi.org/10.46586/tches.v2026.i2.1-27) · attack_and_model_analysis · abstract_and_bibliographic_metadata
 
+## table masking
+
+- 2003 CHES · [A New Algorithm for Switching from Arithmetic to Boolean Masking](https://doi.org/10.1007/978-3-540-45238-6_8) · countermeasure · abstract_and_bibliographic_metadata
+- 2004 CHES · [Switching Blindings with a View Towards IDEA](https://doi.org/10.1007/978-3-540-28632-5_17) · countermeasure · abstract_and_bibliographic_metadata
+- 2012 CHES · [Efficient and Provably Secure Methods for Switching from Arithmetic to Boolean Masking](https://doi.org/10.1007/978-3-642-33027-8_7) · countermeasure · selected_full_text_sections
+
 ## taint tracking
 
 - 2022 SP · [SpecHammer: Combining Spectre and Rowhammer for New Speculative Attacks](https://doi.org/10.1109/sp46214.2022.9833802) · combined_fault_and_side_channel · abstract_and_bibliographic_metadata
@@ -4181,11 +4232,13 @@
 ## timing
 
 - 1996 CRYPTO · [Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems](https://doi.org/10.1007/3-540-68697-5_9) · timing attack · abstract_and_bibliographic_metadata
+- 2018 IEEE Transactions on Computers · [Constant-Time Discrete Gaussian Sampling](https://doi.org/10.1109/tc.2018.2814587) · countermeasure · selected_full_text_sections
 - 2019 SAC · [A Timing Attack on the HQC Encryption Scheme](https://doi.org/10.1007/978-3-030-38471-5_22) · attack · abstract_and_bibliographic_metadata
 - 2022 SP · ["They're not that hard to mitigate": What Cryptographic Library Developers Think About Timing Attacks](https://doi.org/10.1109/sp46214.2022.9833713) · developer_study · abstract_and_bibliographic_metadata
 - 2022 SP · [Timing-Based Browsing Privacy Vulnerabilities Via Site Isolation](https://doi.org/10.1109/sp46214.2022.9833710) · browser_timing_side_channel · abstract_and_bibliographic_metadata
 - 2023 SP · [Practical Timing Side-Channel Attacks on Memory Compression](https://doi.org/10.1109/sp46215.2023.10179297) · compression_timing_side_channel · abstract_and_bibliographic_metadata
 - 2024 NDSS · [IdleLeak: Exploiting Idle State Side Effects for Information Leakage](https://www.ndss-symposium.org/ndss-paper/idleleak-exploiting-idle-state-side-effects-for-information-leakage/) · attack · abstract_and_bibliographic_metadata
+- 2024 NDSS · [MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots](https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/) · attack · selected_full_text_sections
 - 2024 SP · [Rethinking IC Layout Vulnerability: Simulation-Based Hardware Trojan Threat Assessment with High Fidelity](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_based_trojan_assessment · abstract_and_bibliographic_metadata
 - 2024 NDSS · [Timing Channels in Adaptive Neural Networks](https://www.ndss-symposium.org/ndss-paper/timing-channels-in-adaptive-neural-networks/) · attack · abstract_and_bibliographic_metadata
 - 2025 arXiv · [A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography](https://arxiv.org/abs/2512.22301) · synthetic_risk_model · abstract_and_bibliographic_metadata

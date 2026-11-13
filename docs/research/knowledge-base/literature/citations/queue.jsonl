@@ -1116,7 +1116,7 @@
 {"direction": "forward", "reason": "retrieve actual reference/citing works; not completed by abstract reading", "seed_id": "url:https://www.ndss-symposium.org/ndss-paper/printlistener-uncovering-the-vulnerability-of-fingerprint-authentication-via-the-finger-friction-sound/", "status": "pending"}
 {"direction": "backward", "reason": "retrieve actual reference/citing works; not completed by abstract reading", "seed_id": "url:https://www.ndss-symposium.org/ndss-paper/untangle-multi-layer-web-server-fingerprinting/", "status": "pending"}
 {"direction": "forward", "reason": "retrieve actual reference/citing works; not completed by abstract reading", "seed_id": "url:https://www.ndss-symposium.org/ndss-paper/untangle-multi-layer-web-server-fingerprinting/", "status": "pending"}
-{"direction": "backward", "reason": "44 printed positions inventoried: 14 linked, 8 pending, 22 provisional background; not recursive closure", "seed_id": "doi:10.1145/3429983", "status": "in_progress"}
+{"direction": "backward", "reason": "44 printed positions: 22 linked, 0 pending identities, 22 provisional backgrounds; not recursive closure", "seed_id": "doi:10.1145/3429983", "status": "in_progress"}
 {"direction": "forward", "reason": "complete bibliography, later citations and full revision audit pending", "seed_id": "doi:10.1145/3429983", "status": "pending"}
 {"direction": "backward", "reason": "25 printed positions: 15 linked, 0 unresolved identities, 10 provisional backgrounds; recursive and forward coverage remain open", "seed_id": "eprint:2022/058", "status": "in_progress"}
 {"direction": "forward", "reason": "complete bibliography, later citations and full revision audit pending", "seed_id": "eprint:2022/058", "status": "pending"}
@@ -1128,3 +1128,21 @@
 {"direction": "forward", "reason": "Complete bibliography, later citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-662-48324-4_25", "status": "pending"}
 {"direction": "backward", "reason": "Complete bibliography, later citations and version comparison remain open", "seed_id": "doi:10.1007/s13389-016-0120-y", "status": "pending"}
 {"direction": "forward", "reason": "Complete bibliography, later citations and version comparison remain open", "seed_id": "doi:10.1007/s13389-016-0120-y", "status": "pending"}
+{"direction": "backward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "url:https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/", "status": "pending"}
+{"direction": "forward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "url:https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/", "status": "pending"}
+{"direction": "backward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-540-45238-6_8", "status": "pending"}
+{"direction": "forward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-540-45238-6_8", "status": "pending"}
+{"direction": "backward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-642-33027-8_7", "status": "pending"}
+{"direction": "forward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-642-33027-8_7", "status": "pending"}
+{"direction": "backward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/3-540-44709-1_2", "status": "pending"}
+{"direction": "forward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/3-540-44709-1_2", "status": "pending"}
+{"direction": "backward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/s13389-018-0191-z", "status": "pending"}
+{"direction": "forward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/s13389-018-0191-z", "status": "pending"}
+{"direction": "backward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1109/tc.2018.2814587", "status": "pending"}
+{"direction": "forward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1109/tc.2018.2814587", "status": "pending"}
+{"direction": "backward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-540-28632-5_17", "status": "pending"}
+{"direction": "forward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-540-28632-5_17", "status": "pending"}
+{"direction": "backward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-319-29360-8_15", "status": "pending"}
+{"direction": "forward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-319-29360-8_15", "status": "pending"}
+{"direction": "backward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-662-48324-4_34", "status": "pending"}
+{"direction": "forward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-662-48324-4_34", "status": "pending"}

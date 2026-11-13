@@ -1,8 +1,8 @@
 # 引用与版本追踪进度
 
-已核对 317 条引用条目；版本关系共 77 条，其中 66 条书目核实、11 条为原始来源推定。它们不等于被引论文已全部读完。
-追踪任务共 1130 项：in_progress=72, pending=1058。
-已登记发现中，104 条完成身份与范围判定，141 条仍待核查；已解析记录继续保留历史。
+已核对 325 条引用条目；版本关系共 80 条，其中 68 条书目核实、12 条为原始来源推定。它们不等于被引论文已全部读完。
+追踪任务共 1148 项：in_progress=72, pending=1076。
+已登记发现中，112 条完成身份与范围判定，133 条仍待核查；已解析记录继续保留历史。
 
 GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan、Peek-a-Walk、EasyCrypt、Episode V 及 S&P 2023 的指定引用继续保留。追加 GLP 期刊、Protecting Dilithium、3D-Shield 合计九条选读；所有选读均不构成完整参考文献筛查。
 SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 条参考列表已逐条初筛，原 23 条发现现已解析，共 59 条对应、36 条暂列背景。背景条目未经原文最终排除，全部列表也不构成递归引用闭合。
@@ -36,7 +36,7 @@ NDSS 2025 的 Borrowed Time 八条与 PQConnect 四条引用选读共核对七�
 NDSS 2024 的 EM Eye 全部 42 条参考初筛：3 条对应、13 条待查、26 条暂列背景。Faults in Our Bus 另选五条：3 条对应、2 条背景；由此补入 SABER JETC 与一阶掩码 Kyber 两张 PQC 卡片。
 [EM Eye 引用清单](citations/emeye2024-reference-screen.jsonl) · [总线故障五条选读](citations/busfault2024-selected-reference-screen.jsonl) · [NDSS 2024 物理观察与掩码范围](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
 
-一阶掩码 Kyber 的 25 个参考位置现为 15 条对应、0 条身份待查、10 条暂列背景；四条历史引用已解析，Keccak 复用既有卡片。SABER 作者稿 44 条全部初筛：14 条对应、8 条待查、22 条暂列背景。NTT 的局部实测与剖析预算、Keccak 门级模拟及 TVLA 采集条件分别保留；均未递归闭合。
+一阶掩码 Kyber 的 25 个参考位置现为 15 条对应、0 条身份待查、10 条暂列背景；四条历史引用已解析，Keccak 复用既有卡片。SABER 作者稿 44 条全部初筛：22 条对应、0 条身份待查、22 条暂列背景；八篇原始基础文献已读完整摘要，修订和物理条件分存。NTT 的局部实测与剖析预算、Keccak 门级模拟及 TVLA 采集条件分别保留；均未递归闭合。
 [SABER 完整引用清单](citations/saber-j2021-reference-screen.jsonl) · [基础来源与研究命题](notes/kyber-foundations-and-saber-lineage-20261114.md)
 [Kyber 完整引用清单](citations/kyber-masked2022-reference-screen.jsonl) · [引用与版本接续](../records/2026-11-14-kyber-masked-bibliography.md)
 
@@ -143,12 +143,20 @@ NDSS 2024 的 EM Eye 全部 42 条参考初筛：3 条对应、13 条待查、26
 | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | CGTV15 | [Conversion from Arithmetic to Boolean Masking with Logarithmic Complexity](https://doi.org/10.1007/978-3-662-48116-5_7) | abstract_and_bibliographic_metadata |
 | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | CGV14 | [Secure Conversion between Boolean and Arithmetic Masking of Any Order](https://doi.org/10.1007/978-3-662-44709-3_11) | abstract_and_bibliographic_metadata |
 | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | CJRR99 | [Towards Sound Approaches to Counteract Power-Analysis Attacks](https://doi.org/10.1007/3-540-48405-1_26) | abstract_and_bibliographic_metadata |
+| [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | CT03 | [A New Algorithm for Switching from Arithmetic to Boolean Masking](https://doi.org/10.1007/978-3-540-45238-6_8) | abstract_and_bibliographic_metadata |
 | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | Cor17 | [High-Order Conversion from Boolean to Arithmetic Masking](https://doi.org/10.1007/978-3-319-66787-4_5) | abstract_and_bibliographic_metadata |
+| [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | Deb12 | [Efficient and Provably Secure Methods for Switching from Arithmetic to Boolean Masking](https://doi.org/10.1007/978-3-642-33027-8_7) | selected_full_text_sections |
 | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | GJJR11 | [A testing methodology for side-channel resistance validation](https://csrc.nist.gov/CSRC/media/Events/Non-Invasive-Attack-Testing-Workshop/documents/08_Goodwill.pdf) | selected_full_text_sections |
+| [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | Gou01 | [A Sound Method for Switching between Boolean and Arithmetic Masking](https://doi.org/10.1007/3-540-44709-1_2) | abstract_and_bibliographic_metadata |
+| [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | HT19 | [Constant-time higher-order Boolean-to-arithmetic masking](https://doi.org/10.1007/s13389-018-0191-z) | abstract_and_bibliographic_metadata |
 | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | KJJ99 | [Differential Power Analysis](https://doi.org/10.1007/3-540-48405-1_25) | abstract_and_bibliographic_metadata |
+| [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | KRR+18 | [Constant-Time Discrete Gaussian Sampling](https://doi.org/10.1109/tc.2018.2814587) | selected_full_text_sections |
 | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | Koc96 | [Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems](https://doi.org/10.1007/3-540-68697-5_9) | abstract_and_bibliographic_metadata |
 | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | MGTF19 | [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) | abstract_and_bibliographic_metadata |
+| [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | NP04 | [Switching Blindings with a View Towards IDEA](https://doi.org/10.1007/978-3-540-28632-5_17) | abstract_and_bibliographic_metadata |
 | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | OSPG18 | [Practical CCA2-Secure and Masked Ring-LWE Implementation](https://doi.org/10.46586/tches.v2018.i1.142-174) | abstract_and_bibliographic_metadata |
+| [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | RRVV15 | [A Masked Ring-LWE Implementation](https://doi.org/10.1007/978-3-662-48324-4_34) | selected_full_text_sections |
+| [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | RdCR+16 | [Additively Homomorphic Ring-LWE Masking](https://doi.org/10.1007/978-3-319-29360-8_15) | abstract_and_bibliographic_metadata |
 | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | SPOG19 | [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) | selected_full_text_sections |
 | [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | 2 | [Realistic Website Fingerprinting By Augmenting Network Traces](https://www.sigsac.org/ccs/CCS2023/program.html) | catalog only; abstract pending |
 | [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | 9 | [Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense](https://doi.org/10.1109/sp46214.2022.9833722) | abstract_and_bibliographic_metadata |
@@ -443,6 +451,9 @@ NDSS 2024 的 EM Eye 全部 42 条参考初筛：3 条对应、13 条待查、26
 | [来源](https://eprint.iacr.org/2019/795) | [More Practical Single-Trace Attacks on the Number Theoretic Transform](https://doi.org/10.1007/978-3-030-30530-7_7) | preprint_of; Explicit bibliographic relation; full revision comparison pending |
 | [来源](https://eprint.iacr.org/2015/207) | [Leakage Assessment Methodology: A Clear Roadmap for Side-Channel Evaluations](https://doi.org/10.1007/978-3-662-48324-4_25) | author_revision_of; Explicit bibliographic relation; full revision comparison pending |
 | [来源](https://doi.org/10.1007/s13389-016-0120-y) | [Leakage Assessment Methodology: A Clear Roadmap for Side-Channel Evaluations](https://doi.org/10.1007/978-3-662-48324-4_25) | version_of; Primary-source inference; full revision comparison pending |
+| [来源](https://eprint.iacr.org/2015/724) | [A Masked Ring-LWE Implementation](https://doi.org/10.1007/978-3-662-48324-4_34) | author_revision_of; Explicit bibliographic relation; full revision comparison pending |
+| [来源](https://eprint.iacr.org/2016/1023) | [Constant-time higher-order Boolean-to-arithmetic masking](https://doi.org/10.1007/s13389-018-0191-z) | preprint_of; Primary-source inference; full revision comparison pending |
+| [来源](https://pure-oai.bham.ac.uk/ws/files/74518268/Constant_time_Discrete.pdf) | [Constant-Time Discrete Gaussian Sampling](https://doi.org/10.1109/tc.2018.2814587) | author_revision_of; Explicit bibliographic relation; full revision comparison pending |
 
 ## 累积纠正与未完成项
 

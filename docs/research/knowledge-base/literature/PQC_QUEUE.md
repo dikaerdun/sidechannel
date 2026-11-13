@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6782 条，其中 438 条命中后量子相关关键词。
+当前目录记录 6790 条，其中 440 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -444,3 +444,5 @@
 | 2017 CCS | [To BLISS-B or not to be: Attacking strongSwan's Implementation of Post-Quantum Signatures](https://doi.org/10.1145/3133956.3134023) | include |
 | 2017 CHES | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | include |
 | 2016 CHES | [Flush, Gauss, and Reload – A Cache Attack on the BLISS Lattice-Based Signature Scheme](https://doi.org/10.1007/978-3-662-53140-2_16) | include |
+| 2016 PQCrypto | [Additively Homomorphic Ring-LWE Masking](https://doi.org/10.1007/978-3-319-29360-8_15) | include |
+| 2015 CHES | [A Masked Ring-LWE Implementation](https://doi.org/10.1007/978-3-662-48324-4_34) | include |

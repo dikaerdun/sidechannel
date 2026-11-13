@@ -2,32 +2,32 @@
   "cutoff": "2026-11-12",
   "rolling_window_start": "2021-11-12",
   "reading_updated_on": "2026-11-14",
-  "total_catalog_records": 6782,
+  "total_catalog_records": 6790,
   "priority_counts": {
-    "unmatched_pending": 5313,
-    "sca_terms": 1031,
+    "unmatched_pending": 5314,
+    "sca_terms": 1036,
     "pqc_terms": 219,
-    "pqc_and_sca_terms": 219
+    "pqc_and_sca_terms": 221
   },
   "core_catalog_records": 6628,
-  "citation_expansion_records": 154,
+  "citation_expansion_records": 162,
   "title_screened_records": 3444,
-  "abstract_screened_records": 1043,
-  "included_papers": 565,
+  "abstract_screened_records": 1133,
+  "included_papers": 574,
   "reading_level_counts": {
-    "abstract_and_bibliographic_metadata": 483,
-    "selected_full_text_sections": 82
+    "abstract_and_bibliographic_metadata": 488,
+    "selected_full_text_sections": 86
   },
   "citation_progress": {
-    "verified_citation_edges": 317,
-    "verified_version_edges": 66,
-    "inferred_version_edges": 11,
+    "verified_citation_edges": 325,
+    "verified_version_edges": 68,
+    "inferred_version_edges": 12,
     "task_status_counts": {
-      "pending": 1058,
+      "pending": 1076,
       "in_progress": 72
     },
-    "unresolved_discoveries": 141,
-    "resolved_discoveries": 104
+    "unresolved_discoveries": 133,
+    "resolved_discoveries": 112
   },
   "core_cells": [
     {
@@ -394,12 +394,13 @@
       "catalog_records": 140,
       "catalog_parsed": true,
       "provenance_file": "provenance/ndss-2024.json",
-      "independent_toc_crosscheck": "pending",
-      "screened_records": 58,
+      "independent_toc_crosscheck": "matched_print_toc",
+      "screened_records": 140,
       "title_screened_records": 140,
-      "abstract_screened_records": 58,
+      "abstract_screened_records": 140,
       "citation_chasing": "pending",
-      "complete": false
+      "complete": false,
+      "toc_crosscheck_provenance": "provenance/ndss2024-completion-saber-20261114.json"
     },
     {
       "venue": "NDSS",

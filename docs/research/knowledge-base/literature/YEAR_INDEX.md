@@ -331,6 +331,7 @@
 | NDSS | [IdleLeak: Exploiting Idle State Side Effects for Information Leakage](https://www.ndss-symposium.org/ndss-paper/idleleak-exploiting-idle-state-side-effects-for-information-leakage/) | abstract_and_bibliographic_metadata |
 | NDSS | [LARMix: Latency-Aware Routing in Mix Networks](https://www.ndss-symposium.org/ndss-paper/larmix-latency-aware-routing-in-mix-networks/) | abstract_and_bibliographic_metadata |
 | NDSS | [Low-Quality Training Data Only? A Robust Framework for Detecting Encrypted Malicious Network Traffic](https://www.ndss-symposium.org/ndss-paper/low-quality-training-data-only-a-robust-framework-for-detecting-encrypted-malicious-network-traffic/) | abstract_and_bibliographic_metadata |
+| NDSS | [MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots](https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/) | selected_full_text_sections |
 | NDSS | [MirageFlow: A New Bandwidth Inflation Attack on Tor](https://www.ndss-symposium.org/ndss-paper/mirageflow-a-new-bandwidth-inflation-attack-on-tor/) | abstract_and_bibliographic_metadata |
 | NDSS | [On Precisely Detecting Censorship Circumvention in Real-World Networks](https://www.ndss-symposium.org/ndss-paper/on-precisely-detecting-censorship-circumvention-in-real-world-networks/) | abstract_and_bibliographic_metadata |
 | NDSS | [PrintListener: Uncovering the Vulnerability of Fingerprint Authentication via the Finger Friction Sound](https://www.ndss-symposium.org/ndss-paper/printlistener-uncovering-the-vulnerability-of-fingerprint-authentication-via-the-finger-friction-sound/) | selected_full_text_sections |
@@ -573,6 +574,7 @@
 | COSADE | [Practical Evaluation of Masking for NTRUEncrypt on ARM Cortex-M4](https://doi.org/10.1007/978-3-030-16350-1_14) | abstract_and_bibliographic_metadata |
 | ESORICS | [maskVerif: Automated Verification of Higher-Order Masking in Presence of Physical Defaults](https://doi.org/10.1007/978-3-030-29959-0_15) | abstract_and_bibliographic_metadata |
 | INDOCRYPT | [FPGA Implementation and Comparison of Protections Against SCAs for RLWE](https://doi.org/10.1007/978-3-030-35423-7_27) | abstract_and_bibliographic_metadata |
+| JCEN | [Constant-time higher-order Boolean-to-arithmetic masking](https://doi.org/10.1007/s13389-018-0191-z) | abstract_and_bibliographic_metadata |
 | LATINCRYPT | [More Practical Single-Trace Attacks on the Number Theoretic Transform](https://doi.org/10.1007/978-3-030-30530-7_7) | selected_full_text_sections |
 | PKC | [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) | selected_full_text_sections |
 | SAC | [A Timing Attack on the HQC Encryption Scheme](https://doi.org/10.1007/978-3-030-38471-5_22) | abstract_and_bibliographic_metadata |
@@ -583,6 +585,7 @@
 |---|---|---|
 | CCS | [Measuring Information Leakage in Website Fingerprinting Attacks and Defenses](https://doi.org/10.1145/3243734.3243832) | abstract_and_bibliographic_metadata |
 | EUROCRYPT | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | abstract_and_bibliographic_metadata |
+| IEEE Transactions on Computers | [Constant-Time Discrete Gaussian Sampling](https://doi.org/10.1109/tc.2018.2814587) | selected_full_text_sections |
 | TCHES | [Composable Masking Schemes in the Presence of Physical Defaults & the Robust Probing Model](https://doi.org/10.46586/tches.v2018.i3.89-120) | abstract_and_bibliographic_metadata |
 | TCHES | [Generic Low-Latency Masking in Hardware](https://doi.org/10.46586/tches.v2018.i2.1-21) | abstract_and_bibliographic_metadata |
 | TCHES | [Improved High-Order Conversion From Boolean to Arithmetic Masking](https://doi.org/10.46586/tches.v2018.i2.22-45) | abstract_and_bibliographic_metadata |
@@ -608,12 +611,14 @@
 | CCS | [Strong Non-Interference and Type-Directed Higher-Order Masking](https://doi.org/10.1145/2976749.2978427) | abstract_and_bibliographic_metadata |
 | CHES | [Flush, Gauss, and Reload – A Cache Attack on the BLISS Lattice-Based Signature Scheme](https://doi.org/10.1007/978-3-662-53140-2_16) | abstract_and_bibliographic_metadata |
 | JCEN | [Leakage assessment methodology: Extended version](https://doi.org/10.1007/s13389-016-0120-y) | abstract_and_bibliographic_metadata |
+| PQCrypto | [Additively Homomorphic Ring-LWE Masking](https://doi.org/10.1007/978-3-319-29360-8_15) | abstract_and_bibliographic_metadata |
 | TIS | [Domain-Oriented Masking: Compact Masked Hardware Implementations with Arbitrary Protection Order](https://doi.org/10.1145/2996366.2996426) | abstract_and_bibliographic_metadata |
 
 ## 2015
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| CHES | [A Masked Ring-LWE Implementation](https://doi.org/10.1007/978-3-662-48324-4_34) | selected_full_text_sections |
 | CHES | [Leakage Assessment Methodology: A Clear Roadmap for Side-Channel Evaluations](https://doi.org/10.1007/978-3-662-48324-4_25) | selected_full_text_sections |
 | FSE | [Conversion from Arithmetic to Boolean Masking with Logarithmic Complexity](https://doi.org/10.1007/978-3-662-48116-5_7) | abstract_and_bibliographic_metadata |
 
@@ -628,6 +633,7 @@
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| CHES | [Efficient and Provably Secure Methods for Switching from Arithmetic to Boolean Masking](https://doi.org/10.1007/978-3-642-33027-8_7) | selected_full_text_sections |
 | TACO | [An architecture-independent instruction shuffler to protect against side-channel attacks](https://doi.org/10.1145/2086696.2086699) | abstract_and_bibliographic_metadata |
 
 ## 2011
@@ -643,11 +649,24 @@
 | CHES | [Provably Secure Higher-Order Masking of AES](https://doi.org/10.1007/978-3-642-15031-9_28) | abstract_and_bibliographic_metadata |
 | Second SHA-3 Candidate Conference | [Building power analysis resistant implementations of Keccak](https://keccak.team/files/KeccakDPA.pdf) | selected_full_text_sections |
 
+## 2004
+
+| 来源 | 论文 | 阅读层级 |
+|---|---|---|
+| CHES | [Switching Blindings with a View Towards IDEA](https://doi.org/10.1007/978-3-540-28632-5_17) | abstract_and_bibliographic_metadata |
+
 ## 2003
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| CHES | [A New Algorithm for Switching from Arithmetic to Boolean Masking](https://doi.org/10.1007/978-3-540-45238-6_8) | abstract_and_bibliographic_metadata |
 | CRYPTO | [Private Circuits: Securing Hardware against Probing Attacks](https://doi.org/10.1007/978-3-540-45146-4_27) | abstract_and_bibliographic_metadata |
+
+## 2001
+
+| 来源 | 论文 | 阅读层级 |
+|---|---|---|
+| CHES | [A Sound Method for Switching between Boolean and Arithmetic Masking](https://doi.org/10.1007/3-540-44709-1_2) | abstract_and_bibliographic_metadata |
 
 ## 1999
 

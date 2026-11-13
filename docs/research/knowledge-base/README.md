@@ -12,6 +12,7 @@
 
 ## 从这里开始
 
+- [NDSS 2024 全部摘要与目录对应、SABER 八条基础引用解析](records/2026-11-14-literature-ndss2024-completion-saber.md)
 - [Kyber 基础引用与 SABER 44 条书目：证据范围及三个研究命题](records/2026-11-14-kyber-foundations-saber.md)
 - [NDSS 2024 第二批：52 篇摘要判定、两篇 PQC 防护与物理观察范围](records/2026-11-14-literature-ndss2024-second.md)
 - [一阶掩码 Kyber：25 个参考位置、版本关系与攻击成本边界](records/2026-11-14-kyber-masked-bibliography.md)
@@ -83,7 +84,7 @@
 - [第四批交接：三项最小资格诊断与已知反例](records/2026-11-12-observation-handoff.md)
 - [再扩大研究对象：自动模型反例、测量与格求解联合设计、物理同步；BOLD-13 至 15 待验证](brainstorms/2026-11-12-model-breaking-directions.md)
 - [第三批构思修订与验证交接](records/2026-11-12-model-breaking-handoff.md)
-- [近五年文献库（建设中）：3,444 条标题初筛、565 条阅读卡片、引用扩展与版本追踪](literature/README.md)
+- [近五年文献库（建设中）：3,444 条标题初筛、574 条阅读卡片、引用扩展与版本追踪](literature/README.md)
 - [掩码与硬件补读：16 条新增记录、八条发现解析及版本/模拟边界](records/2026-11-13-literature-masking-lineage-hardware.md)
 - [S&P 2023 全标题、47 篇摘要补读及掩码/恒时引用](records/2026-11-13-literature-sp2023-candidates.md)
 - [S&P 2024 摘要补读、261 条目录核对与 Episode V 引用补漏](records/2026-11-13-literature-sp2024-candidates-kyber-v.md)

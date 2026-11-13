@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 565 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 574 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
 
@@ -40,6 +40,32 @@
 - [详细阅读记录](notes/pqc-citation-followups-and-evidence-20261113.md)
 - 代码/数据核查：no author code or data executed; artifact contents not inspected；引用追踪：pending except explicitly inventoried citations。
 
+## A Sound Method for Switching between Boolean and Arithmetic Masking
+
+- 来源：[CHES 2001](https://doi.org/10.1007/3-540-44709-1_2)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
+- 作者：Louis Goubin
+- 对象：B2A conversion, A2B conversion；类型：countermeasure。
+- 核心想法：给出布尔与算术掩码之间的转换，是后续转换研究的基础。
+- 作者报告：摘要比较两种方向的运算复杂度，并针对一阶 DPA 防护。
+- 限制与下一步：一阶模型与算法运算计数不等于实际平台恒时或抵抗所有物理观测；未核查证明与汇编实现。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/3-540-44709-1_2。
+- 已读章节：Complete publisher abstract and bibliographic metadata; main text not reviewed
+- [详细阅读记录](notes/ndss2024-complete-abstracts-and-saber-foundations-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
+
+## A New Algorithm for Switching from Arithmetic to Boolean Masking
+
+- 来源：[CHES 2003](https://doi.org/10.1007/978-3-540-45238-6_8)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
+- 作者：Jean-Sébastien Coron; Alexei Tchulkine
+- 对象：A2B conversion, table masking；类型：countermeasure。
+- 核心想法：为混合算术和布尔运算的软件提供基于表的 A2B 掩码转换。
+- 作者报告：作者针对一阶 DPA 防护中的表示切换提出更高效转换。
+- 限制与下一步：后续 Debraize 2012 正文明确指出该算法存在正确性问题并提出修正；不能把 2003 题名或原摘要当作最终安全保证。本篇未读完整正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-540-45238-6_8。
+- 已读章节：Complete publisher abstract; exact first Crossref search result used for identity (direct DOI request rate-limited)
+- [详细阅读记录](notes/ndss2024-complete-abstracts-and-saber-foundations-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
+
 ## Private Circuits: Securing Hardware against Probing Attacks
 
 - 来源：[CRYPTO 2003](https://doi.org/10.1007/978-3-540-45146-4_27)；时间标记：outside rolling five-year window; cited foundation。
@@ -51,6 +77,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-540-45146-4_27。
 - [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## Switching Blindings with a View Towards IDEA
+
+- 来源：[CHES 2004](https://doi.org/10.1007/978-3-540-28632-5_17)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
+- 作者：Olaf Neiße; Jürgen Pulkus
+- 对象：A2B conversion, IDEA, table masking；类型：countermeasure。
+- 核心想法：研究更省存储的掩码转换，以及 IDEA 中模 2^k+1 乘法的表示处理。
+- 作者报告：摘要把表式转换与 IDEA 的混合运算防护联系起来。
+- 限制与下一步：是通过 SABER 引用纳入的通用基础，不是后量子算法实测结论；安全条件、表刷新和实现细节尚待正文核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-540-28632-5_17。
+- 已读章节：Complete publisher abstract and bibliographic metadata; main text not reviewed
+- [详细阅读记录](notes/ndss2024-complete-abstracts-and-saber-foundations-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
 
 ## Provably Secure Higher-Order Masking of AES
 
@@ -90,6 +129,19 @@
 - [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
+## Efficient and Provably Secure Methods for Switching from Arithmetic to Boolean Masking
+
+- 来源：[CHES 2012](https://doi.org/10.1007/978-3-642-33027-8_7)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
+- 作者：Blandine Debraize
+- 对象：A2B conversion, table masking, correctness；类型：countermeasure。
+- 核心想法：修正 Coron–Tchulkine 转换并提出新的表式 A2B 方法及时间/内存取舍。
+- 作者报告：引言明确区分 Goubin、Coron–Tchulkine、Neiße–Pulkus 方法；性能段指出随机数生成成本不可忽略。
+- 限制与下一步：TCHES 2021 的后续分析报告其新方法存在中间变量掩码非均匀性及 DPA 泄漏。2012 的正确性修补与 2021 的泄漏修补是不同问题；题名中的 provably secure 不能作为当前无条件结论。后续结果此处仍为作者报告。
+- 阅读层级：selected_full_text_sections；来源：https://link.springer.com/chapter/10.1007/978-3-642-33027-8_7。
+- 已读章节：Complete publisher/PDF abstract; PDF pp.1-2,10,14-15; later TCHES 2021 ePrint complete abstract. Proofs and algorithms not independently checked
+- [详细阅读记录](notes/ndss2024-complete-abstracts-and-saber-foundations-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
+
 ## An architecture-independent instruction shuffler to protect against side-channel attacks
 
 - 来源：[TACO 2012](https://doi.org/10.1145/2086696.2086699)；时间标记：outside rolling five-year window; cited foundation。
@@ -125,6 +177,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-662-44709-3_11。
 - [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
 - 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
+
+## A Masked Ring-LWE Implementation
+
+- 来源：[CHES 2015](https://doi.org/10.1007/978-3-662-48324-4_34)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
+- 作者：Oscar Reparaz; Sujoy Sinha Roy; Frederik Vercauteren; Ingrid Verbauwhede
+- 对象：Ring-LWE, masked decoding, FPGA, first-order masking；类型：countermeasure。
+- 核心想法：以加性掩码及掩码译码器保护 Ring-LWE 解密，并在 FPGA 上作一阶/二阶评估。
+- 作者报告：SASEBO G 低噪声平台、18.75 MHz、500 MS/s；关闭 PRNG 作对照，开启后选定一阶分析在一万条迹线中未区分正确猜测。掩码译码输出位的二阶分析约两千条开始成功。
+- 限制与下一步：评估者知道实现细节并在猜测子密钥时知道其余密钥；已知掩码相关性是测试场景。二阶成功说明所选攻击与设置的可检测性，不证明覆盖所有一阶泄漏。它不是完整 CCA KEM 或高阶安全证明。出版社 First Online 2015-01-01 与 Crossref 2015-09-01 不一致，日期断言分存。
+- 阅读层级：selected_full_text_sections；来源：https://link.springer.com/chapter/10.1007/978-3-662-48324-4_34。
+- 已读章节：Complete publisher/ePrint/PDF abstracts; publisher PDF p.1 and pp.13-16, p.16 rendered; full derivations and appendix not reviewed
+- [详细阅读记录](notes/ndss2024-complete-abstracts-and-saber-foundations-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
 
 ## Leakage Assessment Methodology: A Clear Roadmap for Side-Channel Evaluations
 
@@ -186,6 +251,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：http://link.springer.com/10.1007/s13389-016-0120-y。
 - 已读章节：Complete publisher abstract and metadata; page labels CHES 2015 and Extended version; main article, appendices and derivations not reviewed
 - [详细阅读记录](notes/kyber-foundations-and-saber-lineage-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
+
+## Additively Homomorphic Ring-LWE Masking
+
+- 来源：[PQCrypto 2016](https://doi.org/10.1007/978-3-319-29360-8_15)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
+- 作者：Oscar Reparaz; Ruan de Clercq; Sujoy Sinha Roy; Frederik Vercauteren; Ingrid Verbauwhede
+- 对象：Ring-LWE, additive homomorphism, masking；类型：countermeasure。
+- 核心想法：利用加法同态性，把随机消息的加密结果作为解密过程的加性掩码。
+- 作者报告：摘要提出在该方案中使用常规未掩码译码器，与 CHES 2015 的掩码译码设计区分。
+- 限制与下一步：这是一种不同方案，不是 2015 论文的修订版。未取得正文，无法核定噪声预算、组合条件和具体物理泄漏范围；不能推广成任意 KEM 都可安全使用未掩码译码器。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-319-29360-8_15。
+- 已读章节：Complete publisher abstract and metadata; attempted PDF resolved to HTML subscription preview, not article full text
+- [详细阅读记录](notes/ndss2024-complete-abstracts-and-saber-foundations-20261114.md)
 - 代码/数据核查：not audited or executed；引用追踪：pending。
 
 ## Domain-Oriented Masking: Compact Masked Hardware Implementations with Arbitrary Protection Order
@@ -305,6 +383,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-319-78375-8_12。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Constant-Time Discrete Gaussian Sampling
+
+- 来源：[IEEE Transactions on Computers 2018](https://doi.org/10.1109/tc.2018.2814587)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
+- 作者：Angshuman Karmakar; Sujoy Sinha Roy; Oscar Reparaz; Frederik Vercauteren; Ingrid Verbauwhede
+- 对象：discrete Gaussian sampling, Knuth-Yao, bitslicing, timing；类型：countermeasure。
+- 核心想法：将 Knuth–Yao 采样的随机位映射写成布尔表达式，以位切片批处理构造恒时实现。
+- 作者报告：作者在指定平台以固定/随机种子分组，使用 RDTSC、t 检验与 KS 检验评估时序；报告至六百万次位切片采样未检出该设置中的时序依赖。
+- 限制与下一步：检测对象是输入种子与执行时间，不是功耗或 EM。未拒绝零假设不等于证明所有分布相同；作者也限定具体架构、编译器与平台。PDF 为机构托管接受稿，不与最终版全文等同；机构页面报告早期在线 2018-03-12。
+- 阅读层级：selected_full_text_sections；来源：https://research.birmingham.ac.uk/en/publications/constant-time-discrete-gaussian-sampling/。
+- 已读章节：Institutional accepted manuscript PDF cover p.1, complete abstract p.2, timing evaluation/conclusion pp.16-18; main algorithm proof not checked
+- [详细阅读记录](notes/ndss2024-complete-abstracts-and-saber-foundations-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
+
 ## Composable Masking Schemes in the Presence of Physical Defaults & the Robust Probing Model
 
 - 来源：[TCHES 2018](https://doi.org/10.46586/tches.v2018.i3.89-120)；时间标记：pre-window foundational reference。
@@ -422,6 +513,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-35423-7_27。
 - [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## Constant-time higher-order Boolean-to-arithmetic masking
+
+- 来源：[JCEN 2019](https://doi.org/10.1007/s13389-018-0191-z)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
+- 作者：Michael Hutter; Michael Tunstall
+- 对象：higher-order masking, B2A conversion；类型：countermeasure。
+- 核心想法：研究固定掩码阶数下恒时的高阶 B2A 转换。
+- 作者报告：算法复杂度随掩码阶数呈二次增长；ePrint 当前修订说明提到由 t-NI 更新为 t-SNI。
+- 限制与下一步：恒时是对固定阶数而言，不能解释为阶数增加仍为常数成本。在线发表于 2018 年、卷期为 2019 年；ePrint 与期刊关联仅依据同题同作者推定，修订说明不能自动归到所有旧版本。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/article/10.1007/s13389-018-0191-z。
+- 已读章节：Complete publisher/ePrint abstracts, dates and ePrint revision note; proofs not reviewed
+- [详细阅读记录](notes/ndss2024-complete-abstracts-and-saber-foundations-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
 
 ## More Practical Single-Trace Attacks on the Number Theoretic Transform
 
@@ -760,7 +864,7 @@
 - 阅读层级：selected_full_text_sections；来源：https://doi.org/10.1145/3429983。
 - 已读章节：Crossref publisher-deposited and ePrint complete abstracts; author-hosted 28-page PDF p.1 and pp.17-20 security evaluation/memory accounting; p.19 rendered; complete 44-reference bibliography on author-PDF pp.24-28 read and inventoried
 - [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
-- 代码/数据核查：official GitHub README read and blob hash checked; source code and executable not audited or run；引用追踪：backward bibliography inventoried; eight identities and provisional backgrounds plus recursive/forward coverage remain open。
+- 代码/数据核查：official GitHub README read and blob hash checked; source code and executable not audited or run；引用追踪：44 author-PDF positions: 22 linked, zero unresolved selected identities, 22 provisional backgrounds; recursive/forward and full-version coverage remain open。
 
 ## Differential Power Analysis of the Picnic Signature Scheme
 
@@ -2645,6 +2749,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/low-quality-training-data-only-a-robust-framework-for-detecting-encrypted-malicious-network-traffic/。
 - [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
 - 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/)；时间标记：within frozen 2021-11-12 to 2026-11-12 publication window (NDSS 2024)。
+- 作者：Gelei Deng (Nanyang Technological University), Yi Liu (Nanyang Technological University), Yuekang Li (University of New South Wales), Kailong Wang (Huazhong University of Science and Technology), Ying Zhang (Virginia Tech), Zefeng Li (Nanyang Technological University), Haoyu Wang (Huazhong University of Science and Technology), Tianwei Zhang (Nanyang Technological University), Yang Liu (Nanyang Technological University)
+- 对象：LLM services, timing, hidden defense inference；类型：attack。
+- 核心想法：MASTERKEY 用响应时间分析黑盒大模型服务的防护流程；计时部分使其纳入通用侧信道范围。
+- 作者报告：Table III 用五个问题、四种请求长度和四个服务研究生成长度与时间关系，再据时序推断防护阶段。
+- 限制与下一步：表 III 的四个 Pearson 系数分别为 0.567、0.838、0.762、0.465，不应一概概括为强相关。Figure 3 明确区分猜测与已知组件；未核实服务内部结构。计时证据与整体越狱成功率是不同指标，历史服务结果不能外推当前版本；本卡不复述操作性越狱提示。正文仅选读，未复现。
+- 阅读层级：selected_full_text_sections；来源：https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/。
+- 已读章节：Complete official abstract and page metadata; PDF pp.1,4-6 including Table III and Figure 3 on p.6 (rendered)
+- [详细阅读记录](notes/ndss2024-complete-abstracts-and-saber-foundations-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
 
 ## MirageFlow: A New Bandwidth Inflation Attack on Tor
 
