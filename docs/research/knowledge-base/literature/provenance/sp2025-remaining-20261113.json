@@ -1,0 +1,951 @@
+{
+  "reviewed_on": "2026-11-13",
+  "sources": [
+    {
+      "source_id": "sp25-remaining-crossref-0",
+      "url": "https://api.crossref.org/works?query.title=BadRAM%3A+Practical+Memory+Aliasing+Attacks+on+Trusted+Execution+Environments&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=BadRAM%3A+Practical+Memory+Aliasing+Attacks+on+Trusted+Execution+Environments&rows=1",
+      "status": 429,
+      "retrieved_at": "2026-11-13T07:38:43.679799+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-1",
+      "url": "https://api.crossref.org/works?query.title=BPSniff%3A+Continuously+Surveilling+Private+Blood+Pressure+Information+in+the+Metaverse+via+Unrestricted+Inbuilt+Motion+Sensors&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=BPSniff%3A+Continuously+Surveilling+Private+Blood+Pressure+Information+in+the+Metaverse+via+Unrestricted+Inbuilt+Motion+Sensors&rows=1",
+      "status": 429,
+      "retrieved_at": "2026-11-13T07:38:44.636305+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-10",
+      "url": "https://api.crossref.org/works?query.title=Is+MPC+Secure%3F+Leveraging+Neural+Network+Classifiers+to+Detect+Data+Leakage+Vulnerabilities+in+MPC+Implementations&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Is+MPC+Secure%3F+Leveraging+Neural+Network+Classifiers+to+Detect+Data+Leakage+Vulnerabilities+in+MPC+Implementations&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:48.679352+00:00",
+      "sha256": "fb8728ce4b3266d3b022e50a2064924d5ae682a88dd2755b114ad09bff9f4d8a",
+      "bytes": 8754,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-11",
+      "url": "https://api.crossref.org/works?query.title=Mind+the+Location+Leakage+in+LEO+Direct-to-Cell+Satellite+Networks&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Mind+the+Location+Leakage+in+LEO+Direct-to-Cell+Satellite+Networks&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:49.471261+00:00",
+      "sha256": "bb44abc10f7977eeb77434d5f6446c5e74401362571e6ab57a5c76e8e97fc551",
+      "bytes": 13096,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-12",
+      "url": "https://api.crossref.org/works?query.title=Mixnets+on+a+tightrope%3A+Quantifying+the+leakage+of+mix+networks+using+a+provably+optimal+heuristic+adversary&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Mixnets+on+a+tightrope%3A+Quantifying+the+leakage+of+mix+networks+using+a+provably+optimal+heuristic+adversary&rows=1",
+      "status": 429,
+      "retrieved_at": "2026-11-13T07:38:49.088575+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-13",
+      "url": "https://api.crossref.org/works?query.title=PORTAL%3A+Fast+and+Secure+Device+Access+with+Arm+CCA+for+Modern+Arm+Mobile+System-on-Chips+%28SoCs%29&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=PORTAL%3A+Fast+and+Secure+Device+Access+with+Arm+CCA+for+Modern+Arm+Mobile+System-on-Chips+%28SoCs%29&rows=1",
+      "status": 429,
+      "retrieved_at": "2026-11-13T07:38:50.426623+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-14",
+      "url": "https://api.crossref.org/works?query.title=Proving+Faster+Implementations+Faster%3A+Combining+Deductive+and+Circuit-Based+Reasoning+in+EasyCrypt&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Proving+Faster+Implementations+Faster%3A+Combining+Deductive+and+Circuit-Based+Reasoning+in+EasyCrypt&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:50.500958+00:00",
+      "sha256": "685d98fd3f084866b279680c5c1bfb1133011ca016f77ed5002a1b9693a2c3e7",
+      "bytes": 9630,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-15",
+      "url": "https://api.crossref.org/works?query.title=Rapid+Reversing+of+Non-Linear+CPU+Cache+Slice+Functions%3A+Unlocking+Physical+Address+Leakage&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Rapid+Reversing+of+Non-Linear+CPU+Cache+Slice+Functions%3A+Unlocking+Physical+Address+Leakage&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:51.000770+00:00",
+      "sha256": "69bd366b849f43a651bfb078ea4f6dca53499091245fb79100fa5d1adc217359",
+      "bytes": 12258,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-16",
+      "url": "https://api.crossref.org/works?query.title=Resolution+Without+Dissent%3A+In-Path+Per-Query+Sanitization+to+Defeat+Surreptitious+Communication+Over+DNS&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Resolution+Without+Dissent%3A+In-Path+Per-Query+Sanitization+to+Defeat+Surreptitious+Communication+Over+DNS&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:52.199485+00:00",
+      "sha256": "538db82cca764c8218dad697fe52c062688c5719877eaf2631f6f8adfb5a1e77",
+      "bytes": 6022,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-17",
+      "url": "https://api.crossref.org/works?query.title=SCAD%3A+Towards+a+Universal+and+Automated+Network+Side-Channel+Vulnerability+Detection&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=SCAD%3A+Towards+a+Universal+and+Automated+Network+Side-Channel+Vulnerability+Detection&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:52.928328+00:00",
+      "sha256": "80e0bcc053de3c422817f9aece1670646bd0ef0edc40c033cbc9a29c715101df",
+      "bytes": 8836,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-18",
+      "url": "https://api.crossref.org/works?query.title=Security+Attacks+Abusing+Pulse-level+Quantum+Circuits&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Security+Attacks+Abusing+Pulse-level+Quantum+Circuits&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:52.745079+00:00",
+      "sha256": "c32468d6e24c913a714e22e55144cdce1756504cdf2acc60a794fa50f4550838",
+      "bytes": 8777,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-19",
+      "url": "https://api.crossref.org/works?query.title=Sniffing+Location+Privacy+of+Video+Conference+Users+Using+Free+Audio+Channels&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Sniffing+Location+Privacy+of+Video+Conference+Users+Using+Free+Audio+Channels&rows=1",
+      "status": 429,
+      "retrieved_at": "2026-11-13T07:38:53.045355+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-2",
+      "url": "https://api.crossref.org/works?query.title=CountMamba%3A+A+Generalized+Website+Fingerprinting+Attack+via+Coarse-Grained+Representation+and+Fine-Grained+Prediction&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=CountMamba%3A+A+Generalized+Website+Fingerprinting+Attack+via+Coarse-Grained+Representation+and+Fine-Grained+Prediction&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:43.921948+00:00",
+      "sha256": "d60af21476d8482a2bf209b5f2370966a8cd61775134a4a701d570cf5e981e31",
+      "bytes": 7743,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-20",
+      "url": "https://api.crossref.org/works?query.title=SoK%3A+Decoding+the+Enigma+of+Encrypted+Network+Traffic+Classifiers&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=SoK%3A+Decoding+the+Enigma+of+Encrypted+Network+Traffic+Classifiers&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:55.344754+00:00",
+      "sha256": "cfc9aa36c611ffe7e38bc1d902a44e8505062e8cb9bbd6e1a0a951b1f04b3224",
+      "bytes": 11436,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-21",
+      "url": "https://api.crossref.org/works?query.title=Sparta%3A+Practical+Anonymity+with+Long-Term+Resistance+to+Traffic+Analysis&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Sparta%3A+Practical+Anonymity+with+Long-Term+Resistance+to+Traffic+Analysis&rows=1",
+      "status": 429,
+      "retrieved_at": "2026-11-13T07:38:55.639707+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-22",
+      "url": "https://api.crossref.org/works?query.title=Spoofing+Eavesdroppers+with+Audio+Misinformation&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Spoofing+Eavesdroppers+with+Audio+Misinformation&rows=1",
+      "status": 429,
+      "retrieved_at": "2026-11-13T07:38:54.744248+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-23",
+      "url": "https://api.crossref.org/works?query.title=TrafficFormer%3A+An+Efficient+Pre-trained+Model+for+Traffic+Data&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=TrafficFormer%3A+An+Efficient+Pre-trained+Model+for+Traffic+Data&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:55.864400+00:00",
+      "sha256": "930c4ad4ce316776a624584678e5ed9539c77d4aac7eade0d86185a46a50c303",
+      "bytes": 10835,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-24",
+      "url": "https://api.crossref.org/works?query.title=Your+Cable%2C+My+Antenna%3A+Eavesdropping+Serial+Communication+via+Backscatter+Signals&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Your+Cable%2C+My+Antenna%3A+Eavesdropping+Serial+Communication+via+Backscatter+Signals&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:57.244609+00:00",
+      "sha256": "8fb2c0d5221a7d23958ae98da451f7e47d39d8f8759c22714e8d4203f16eb9ab",
+      "bytes": 7047,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-3",
+      "url": "https://api.crossref.org/works?query.title=EveGuard%3A+Defeating+Vibration-based+Side-Channel+Eavesdropping+with+Audio+Adversarial+Perturbations&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=EveGuard%3A+Defeating+Vibration-based+Side-Channel+Eavesdropping+with+Audio+Adversarial+Perturbations&rows=1",
+      "status": 429,
+      "retrieved_at": "2026-11-13T07:38:43.345772+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-4",
+      "url": "https://api.crossref.org/works?query.title=Eyes+on+Your+Typing%3A+Snooping+Finger+Motions+on+Virtual+Keyboards&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Eyes+on+Your+Typing%3A+Snooping+Finger+Motions+on+Virtual+Keyboards&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:45.797706+00:00",
+      "sha256": "02979f05cf7d0d7401eb054b32bfdc55d78c34274ecbad19d53d4366a6bfd5f1",
+      "bytes": 10087,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-5",
+      "url": "https://api.crossref.org/works?query.title=GuardAIn%3A+Protecting+Emerging+Generative+AI+Workloads+on+Heterogeneous+NPU&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=GuardAIn%3A+Protecting+Emerging+Generative+AI+Workloads+on+Heterogeneous+NPU&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:46.177486+00:00",
+      "sha256": "15b29f7b6e7f14214465db114fedee6b3ca2b93ced2be408600619536482c12b",
+      "bytes": 13171,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-6",
+      "url": "https://api.crossref.org/works?query.title=Half+Spectre%2C+Full+Exploit%3A+Hardening+Rowhammer+Attacks+with+Half+Spectre+Gadgets&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Half+Spectre%2C+Full+Exploit%3A+Hardening+Rowhammer+Attacks+with+Half+Spectre+Gadgets&rows=1",
+      "status": 429,
+      "retrieved_at": "2026-11-13T07:38:45.379680+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-7",
+      "url": "https://api.crossref.org/works?query.title=Hey%2C+Your+Secrets+Leaked%21+Detecting+and+Characterizing+Secret+Leakage+in+the+Wild&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=Hey%2C+Your+Secrets+Leaked%21+Detecting+and+Characterizing+Secret+Leakage+in+the+Wild&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:47.020607+00:00",
+      "sha256": "9c1157939f86980372d6da09b4a505dd7d38046ea5eece3450dedc14c9d2b5d2",
+      "bytes": 9905,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-8",
+      "url": "https://api.crossref.org/works?query.title=I+Know+What+You+Sync%3A+Covert+and+Side+Channel+Attacks+on+File+Systems+via+syncfs&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=I+Know+What+You+Sync%3A+Covert+and+Side+Channel+Attacks+on+File+Systems+via+syncfs&rows=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:38:48.450123+00:00",
+      "sha256": "8a9f9620d141ed830cb63b30d9d38110289c6c5ea5bedef7eedb652f96eadb74",
+      "bytes": 12098,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-9",
+      "url": "https://api.crossref.org/works?query.title=IncognitOS%3A+A+Practical+Unikernel+Design+for+Full-System+Obfuscation+in+Confidential+Virtual+Machines&rows=1",
+      "response_url": "https://api.crossref.org/works?query.title=IncognitOS%3A+A+Practical+Unikernel+Design+for+Full-System+Obfuscation+in+Confidential+Virtual+Machines&rows=1",
+      "status": 429,
+      "retrieved_at": "2026-11-13T07:38:47.070794+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-doi-12",
+      "url": "https://api.crossref.org/works/10.1109/SP61157.2025.00233",
+      "response_url": "https://api.crossref.org/works/10.1109/SP61157.2025.00233",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:04:56.161379+00:00",
+      "sha256": "30d9232afce7b98c97111b6373000bff82631d78eb56fcc09979e54b9079fde2",
+      "bytes": 6093,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-doi-13",
+      "url": "https://api.crossref.org/works/10.1109/SP61157.2025.00013",
+      "response_url": "https://api.crossref.org/works/10.1109/SP61157.2025.00013",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:04:56.951324+00:00",
+      "sha256": "4bf682e4084f98a5664dc2ee7e29dc903b14fab3407e3ae4fae3e82df67ad946",
+      "bytes": 10646,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-retry-0",
+      "url": "https://api.crossref.org/works?query.title=BadRAM%3A+Practical+Memory+Aliasing+Attacks+on+Trusted+Execution+Environments&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "response_url": "https://api.crossref.org/works?query.title=BadRAM%3A+Practical+Memory+Aliasing+Attacks+on+Trusted+Execution+Environments&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:03:47.345220+00:00",
+      "sha256": "ce4bad15cce517218adb9a9ff648fa1f03793af9063d2da990d259b08e3a750b",
+      "bytes": 1458,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-retry-1",
+      "url": "https://api.crossref.org/works?query.title=BPSniff%3A+Continuously+Surveilling+Private+Blood+Pressure+Information+in+the+Metaverse+via+Unrestricted+Inbuilt+Motion+Sensors&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "response_url": "https://api.crossref.org/works?query.title=BPSniff%3A+Continuously+Surveilling+Private+Blood+Pressure+Information+in+the+Metaverse+via+Unrestricted+Inbuilt+Motion+Sensors&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:03:48.054382+00:00",
+      "sha256": "d2d56643f67ff1a7655f28ad7cdde23b36d6428eaef3282061f9118229661d58",
+      "bytes": 1545,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-retry-12",
+      "url": "https://api.crossref.org/works?query.title=Mixnets+on+a+tightrope%3A+Quantifying+the+leakage+of+mix+networks+using+a+provably+optimal+heuristic+adversary&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "response_url": "https://api.crossref.org/works?query.title=Mixnets+on+a+tightrope%3A+Quantifying+the+leakage+of+mix+networks+using+a+provably+optimal+heuristic+adversary&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "status": 429,
+      "retrieved_at": "2026-11-13T08:03:51.156301+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-retry-13",
+      "url": "https://api.crossref.org/works?query.title=PORTAL%3A+Fast+and+Secure+Device+Access+with+Arm+CCA+for+Modern+Arm+Mobile+System-on-Chips+%28SoCs%29&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "response_url": "https://api.crossref.org/works?query.title=PORTAL%3A+Fast+and+Secure+Device+Access+with+Arm+CCA+for+Modern+Arm+Mobile+System-on-Chips+%28SoCs%29&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "status": 429,
+      "retrieved_at": "2026-11-13T08:03:52.597943+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-retry-19",
+      "url": "https://api.crossref.org/works?query.title=Sniffing+Location+Privacy+of+Video+Conference+Users+Using+Free+Audio+Channels&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "response_url": "https://api.crossref.org/works?query.title=Sniffing+Location+Privacy+of+Video+Conference+Users+Using+Free+Audio+Channels&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:03:53.031496+00:00",
+      "sha256": "931e414d07ef6724199faf18cedee0a7d934392fed32953c83b3d7d2d3acaff9",
+      "bytes": 767,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-retry-21",
+      "url": "https://api.crossref.org/works?query.title=Sparta%3A+Practical+Anonymity+with+Long-Term+Resistance+to+Traffic+Analysis&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "response_url": "https://api.crossref.org/works?query.title=Sparta%3A+Practical+Anonymity+with+Long-Term+Resistance+to+Traffic+Analysis&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:03:54.884362+00:00",
+      "sha256": "0ad9dee0bcc0bf0774458e5e4530c5f34b9bf1828d4b45fe8646caae5685b039",
+      "bytes": 987,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-retry-22",
+      "url": "https://api.crossref.org/works?query.title=Spoofing+Eavesdroppers+with+Audio+Misinformation&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "response_url": "https://api.crossref.org/works?query.title=Spoofing+Eavesdroppers+with+Audio+Misinformation&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:03:54.760226+00:00",
+      "sha256": "630d1e27b29b30ec4e41928cf01d5d8714283c39877bff937cc24186a1883727",
+      "bytes": 1507,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-retry-3",
+      "url": "https://api.crossref.org/works?query.title=EveGuard%3A+Defeating+Vibration-based+Side-Channel+Eavesdropping+with+Audio+Adversarial+Perturbations&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "response_url": "https://api.crossref.org/works?query.title=EveGuard%3A+Defeating+Vibration-based+Side-Channel+Eavesdropping+with+Audio+Adversarial+Perturbations&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:03:49.089617+00:00",
+      "sha256": "54aa273304115baba56a2b55f0a0d0820b9af397e92b9ddb65316f9cc99196cb",
+      "bytes": 1256,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-retry-6",
+      "url": "https://api.crossref.org/works?query.title=Half+Spectre%2C+Full+Exploit%3A+Hardening+Rowhammer+Attacks+with+Half+Spectre+Gadgets&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "response_url": "https://api.crossref.org/works?query.title=Half+Spectre%2C+Full+Exploit%3A+Hardening+Rowhammer+Attacks+with+Half+Spectre+Gadgets&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:03:50.052756+00:00",
+      "sha256": "676775f6f7dbb370c4e1a624259b2c80d4b3404d09189cd3d69659d463c8b7ba",
+      "bytes": 884,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-crossref-retry-9",
+      "url": "https://api.crossref.org/works?query.title=IncognitOS%3A+A+Practical+Unikernel+Design+for+Full-System+Obfuscation+in+Confidential+Virtual+Machines&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "response_url": "https://api.crossref.org/works?query.title=IncognitOS%3A+A+Practical+Unikernel+Design+for+Full-System+Obfuscation+in+Confidential+Virtual+Machines&rows=1&select=DOI%2Ctitle%2Cauthor%2Cpublished",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:03:50.911671+00:00",
+      "sha256": "42a8c9e2902a8ffa4720c0167d6203b6d7d06eb734c7a69e2d592a6b23434e13",
+      "bytes": 1222,
+      "content_type": "application/json",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-0",
+      "url": "https://vanbulck.net/files/oakland25-badram.pdf",
+      "response_url": "https://vanbulck.net/files/oakland25-badram.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:39:14.347321+00:00",
+      "sha256": "f87cac7f1b2845cfebd1da8ac854f2b3514b5b0cc54d07a9181773a5bb081253",
+      "bytes": 6951776,
+      "content_type": "application/pdf",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-1",
+      "url": "https://www.winlab.rutgers.edu/~yychen/papers/BPSniff.pdf",
+      "response_url": "https://www.winlab.rutgers.edu/~yychen/papers/BPSniff.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:39:11.933911+00:00",
+      "sha256": "e522fe54747cc3622d9d94069ddf48a609943026a069217c30db3a8afd42b2e8",
+      "bytes": 1571381,
+      "content_type": "application/pdf",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-12",
+      "url": "https://research.uni-luebeck.de/de/publications/mixnets-on-a-tightrope-quantifying-the-leakage-of-mix-networks-us/",
+      "response_url": "https://research.uni-luebeck.de/de/publications/mixnets-on-a-tightrope-quantifying-the-leakage-of-mix-networks-us/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:41:38.735116+00:00",
+      "sha256": "60b550753fef850d720c21d5e341390c840eb842100e1c13752cb1ea0473f9f9",
+      "bytes": 57338,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-13",
+      "url": "https://sang.fan/assets/papers/portal_sp25.pdf",
+      "response_url": "https://sang.fan/assets/papers/portal_sp25.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:41:33.195089+00:00",
+      "sha256": "6efeaf10bcc39a46a789363db9affc14f3f229f04f2f3a8f59789e59deb054f0",
+      "bytes": 1170132,
+      "content_type": "application/pdf",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-14",
+      "url": "https://pub.sandboxaq.com/publications/proving-faster-implementations-faster-combining-deductive-and-circuit-based-reasoning-in-easycrypt",
+      "response_url": "https://pub.sandboxaq.com/publications/proving-faster-implementations-faster-combining-deductive-and-circuit-based-reasoning-in-easycrypt",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:39:18.135914+00:00",
+      "sha256": "f40bfec32fad1033b4aaf7f09451793bcb4f36ed262433593bb1ee0e2ebbc0d8",
+      "bytes": 17215,
+      "content_type": "text/html; charset=utf-8",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-primary-15",
+      "url": "https://fabianthomas.de/pdfs/rainer2025rapid.pdf",
+      "response_url": "https://fabianthomas.de/pdfs/rainer2025rapid.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:39:19.987263+00:00",
+      "sha256": "692a0495202522525ac817527fbf11066df3bd2a2f7ca236d5438ffaf1fef0e2",
+      "bytes": 438536,
+      "content_type": "application/pdf",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-17",
+      "url": "https://www.cs.ucr.edu/~zhiyunq/pub/oakland25_SCAD.pdf",
+      "response_url": "https://www.cs.ucr.edu/~zhiyunq/pub/oakland25_SCAD.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:41:34.257159+00:00",
+      "sha256": "ffca1c203afc24f20ea540cb14a9a9168690dd935a27984ad96f6272327aad41",
+      "bytes": 571538,
+      "content_type": "application/pdf",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-18",
+      "url": "https://caslab.io/publications/xu2025security.pdf",
+      "response_url": "https://caslab.io/publications/xu2025security.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:39:19.778063+00:00",
+      "sha256": "c17f83111ee95c9a579c065c2b684e3fb269c26ce0a6a3574e68a2cbc57a9558",
+      "bytes": 1190448,
+      "content_type": "application/pdf",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-2",
+      "url": "https://xplorestaging.ieee.org/document/11023397/",
+      "response_url": "https://xplorestaging.ieee.org/document/11023397/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:46:10.751255+00:00",
+      "sha256": "6b1c031dfb5df34b30d4a3c6d81fd9ca36c29918f1ebd66d62a97f1e2e4f222b",
+      "bytes": 51781,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-20",
+      "url": "https://arxiv.org/abs/2503.20093",
+      "response_url": "https://arxiv.org/abs/2503.20093",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:39:19.822027+00:00",
+      "sha256": "e35c567f8bb0f1da93cc0a56a91a267c06c6be8cc621d4f9d9d7d97a46aedf96",
+      "bytes": 43373,
+      "content_type": "text/html; charset=utf-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-21",
+      "url": "https://idemertzis.com/Papers/sp2025_sparta.pdf",
+      "response_url": "https://idemertzis.com/Papers/sp2025_sparta.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:02:00.576489+00:00",
+      "sha256": "89453c1efddec386277eaada15d65eb8a4a9becc9354e77365062d4319e66ce9",
+      "bytes": 534660,
+      "content_type": "application/pdf",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-22",
+      "url": "https://bpb-us-e1.wpmucdn.com/blogs.rice.edu/dist/d/12661/files/2025/03/MiSINFO-Camera_Ready.pdf",
+      "response_url": "https://bpb-us-e1.wpmucdn.com/blogs.rice.edu/dist/d/12661/files/2025/03/MiSINFO-Camera_Ready.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:39:34.740153+00:00",
+      "sha256": "181f86d4d955e84b473acffe69713363940503a037a0dd806ab79a3f5e9a5cfd",
+      "bytes": 18196149,
+      "content_type": "application/pdf",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-23",
+      "url": "https://liuzhuotao.github.io/publications/trafficformer/",
+      "response_url": "https://liuzhuotao.github.io/publications/trafficformer/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:41:33.934393+00:00",
+      "sha256": "fc563552748af305b7074c13580ea37af2a6cfd4a4cb36ba35d71eb8147596d4",
+      "bytes": 3229,
+      "content_type": "text/html; charset=utf-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-3",
+      "url": "https://xyzhang.ucsd.edu/papers/Jung-Woo.Chang_SP25_EveGuard.pdf",
+      "response_url": "https://xyzhang.ucsd.edu/papers/Jung-Woo.Chang_SP25_EveGuard.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:39:26.098872+00:00",
+      "sha256": "d6c8945d9fe80bf955154ae341cb1a22d2e1e2667311e89603b85fe5d770eb72",
+      "bytes": 6542527,
+      "content_type": "application/pdf",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-4",
+      "url": "https://pure.korea.ac.kr/en/publications/eyes-on-your-typing-snooping-finger-motions-on-virtual-keyboards/",
+      "response_url": "https://pure.korea.ac.kr/en/publications/eyes-on-your-typing-snooping-finger-motions-on-virtual-keyboards/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:46:05.029005+00:00",
+      "sha256": "005b6406a1836acfc2a875b6d5dda79079115c3a2127ae6e7e73e4b01f62d356",
+      "bytes": 56977,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-5",
+      "url": "https://clement-thorens.ch/pdfs/guardain.pdf",
+      "response_url": "https://clement-thorens.ch/pdfs/guardain.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:39:09.333931+00:00",
+      "sha256": "0a7b6b1ada333997590b0bab2b2045c207fa35961d94653c220006440d0dcd5d",
+      "bytes": 893488,
+      "content_type": "application/pdf",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-6",
+      "url": "https://download.vusec.net/papers/halfspectre_sp25.pdf",
+      "response_url": "https://download.vusec.net/papers/halfspectre_sp25.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:39:14.133016+00:00",
+      "sha256": "8759f1755f77db3d8a3fb11db92e5c1d862529a2ee4ec218e8491ec09a4df3e2",
+      "bytes": 496074,
+      "content_type": "application/pdf",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-7",
+      "url": "https://kee1ongz.github.io/paper/sp25-secret.pdf",
+      "response_url": "https://kee1ongz.github.io/paper/sp25-secret.pdf",
+      "status": 404,
+      "retrieved_at": "2026-11-13T07:41:31.059597+00:00",
+      "sha256": "70d613e3acfba24fd2876fcbacaf639e1e111ef4d54baf70761c47673f37d6a3",
+      "bytes": 9115,
+      "content_type": "text/html; charset=utf-8",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-primary-8",
+      "url": "https://arxiv.org/abs/2411.10883",
+      "response_url": "https://arxiv.org/abs/2411.10883",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:39:15.654207+00:00",
+      "sha256": "fe43a029a4f4abd5c659324c98f398be8191221bb9830693cf5e2ee66b9d91f3",
+      "bytes": 43799,
+      "content_type": "text/html; charset=utf-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-primary-9",
+      "url": "https://kha-dinh.github.io/assets/pdf/incognitos.pdf",
+      "response_url": "https://kha-dinh.github.io/assets/pdf/incognitos.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:41:33.682515+00:00",
+      "sha256": "b67faa23ff869a29fbee065c3934569f75028d36463375218b74594c235e2e30",
+      "bytes": 1794782,
+      "content_type": "application/pdf",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-10",
+      "url": "https://ieeexplore.ieee.org/document/11023305/",
+      "response_url": "https://ieeexplore.ieee.org/document/11023305/",
+      "status": 202,
+      "retrieved_at": "2026-11-13T07:47:32.339711+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-11",
+      "url": "https://ieeexplore.ieee.org/document/11023341/",
+      "response_url": "https://ieeexplore.ieee.org/document/11023341/",
+      "status": 202,
+      "retrieved_at": "2026-11-13T07:47:33.798943+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-16",
+      "url": "https://ieeexplore.ieee.org/document/11023297/",
+      "response_url": "https://ieeexplore.ieee.org/document/11023297/",
+      "status": 202,
+      "retrieved_at": "2026-11-13T07:47:33.583380+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-19",
+      "url": "https://ieeexplore.ieee.org/document/11023324/",
+      "response_url": "https://ieeexplore.ieee.org/document/11023324/",
+      "status": 202,
+      "retrieved_at": "2026-11-13T07:47:33.636956+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-24",
+      "url": "https://ieeexplore.ieee.org/document/11023318/",
+      "response_url": "https://ieeexplore.ieee.org/document/11023318/",
+      "status": 202,
+      "retrieved_at": "2026-11-13T07:47:34.604557+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-7",
+      "url": "https://ieeexplore.ieee.org/document/11023280/",
+      "response_url": "https://ieeexplore.ieee.org/document/11023280/",
+      "status": 202,
+      "retrieved_at": "2026-11-13T07:47:32.475732+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "role": "retrieval attempt or supplementary lookup; not evidence of completed reading"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-staging-10",
+      "url": "https://xplorestaging.ieee.org/document/11023305/",
+      "response_url": "https://xplorestaging.ieee.org/document/11023305/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:01:47.979266+00:00",
+      "sha256": "465b5359c5e5b2b3077f3c4dc04cb7bc454ab51690cd08cb4bdc5703770f1a56",
+      "bytes": 52302,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-staging-11",
+      "url": "https://xplorestaging.ieee.org/document/11023341/",
+      "response_url": "https://xplorestaging.ieee.org/document/11023341/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:01:47.941344+00:00",
+      "sha256": "18a1577644be4ca14ea5de22131576c7a67b8ab6eea2ed958d53290605983af6",
+      "bytes": 50824,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-staging-14",
+      "url": "https://xplorestaging.ieee.org/document/11023411/",
+      "response_url": "https://xplorestaging.ieee.org/document/11023411/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:01:49.420067+00:00",
+      "sha256": "92cd3158fa9edaf943e640682106499442203e5734b3f983799b92a9bb243f6f",
+      "bytes": 49260,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-staging-16",
+      "url": "https://xplorestaging.ieee.org/document/11023297/",
+      "response_url": "https://xplorestaging.ieee.org/document/11023297/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:01:49.246823+00:00",
+      "sha256": "2dc43ed13d5ea11507f9da987b428776e629db4f45290d9cdc64e2f85074c7a5",
+      "bytes": 50486,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-staging-19",
+      "url": "https://xplorestaging.ieee.org/document/11023324/",
+      "response_url": "https://xplorestaging.ieee.org/document/11023324/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:01:49.771654+00:00",
+      "sha256": "b5aaa8625a403ab26be33c5e91fc5756b3786aa0a0027dc1765c60c8207c10c4",
+      "bytes": 50958,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-staging-24",
+      "url": "https://xplorestaging.ieee.org/document/11023318/",
+      "response_url": "https://xplorestaging.ieee.org/document/11023318/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:01:50.357554+00:00",
+      "sha256": "397f1c1ea996c3c7a85cb740225fb06086039fdb554772510a363ae42a1e29de",
+      "bytes": 49446,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "sp25-remaining-publisher-staging-7",
+      "url": "https://xplorestaging.ieee.org/document/11023280/",
+      "response_url": "https://xplorestaging.ieee.org/document/11023280/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:01:48.125313+00:00",
+      "sha256": "c337fcbf75d06be81af86383e027f69935678c8742c37e7cece37ba748dcd2ee",
+      "bytes": 50013,
+      "content_type": "text/html;charset=UTF-8",
+      "role": "read primary abstract or verified bibliographic identity"
+    },
+    {
+      "source_id": "easycrypt-faster-author-pdf",
+      "url": "https://cryptosith.org/papers/mapreduce-20250907.pdf",
+      "response_url": "https://cryptosith.org/papers/mapreduce-20250907.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:04:30.527078+00:00",
+      "sha256": "eac680ca0ea0420b8f6c79351c6f4966245b418ca30b04e62be86fd043433f81",
+      "bytes": 402811,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "easycrypt-faster-eprint",
+      "url": "https://eprint.iacr.org/2025/1607",
+      "response_url": "https://eprint.iacr.org/2025/1607",
+      "status": 200,
+      "retrieved_at": "2026-11-13T08:04:58.289610+00:00",
+      "sha256": "544966b3ab71136e2e653d9cadc8e647a740e9644c0dae6d6ad3a67589e82878",
+      "bytes": 19012,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "batch": {
+    "primary_abstracts_read": 25,
+    "new_includes": 16,
+    "new_adjacent": 9,
+    "included_selected_text_checks": 5,
+    "adjacent_selected_text_checks": 1,
+    "canonical_doi_upgrades": 25,
+    "verified_citation_edges_added": 1,
+    "verified_version_edges_added": 1,
+    "inventory_file": "screening/batches/sp2025-remaining-20261113.jsonl",
+    "pending_citation_discoveries_added": 1
+  },
+  "identity_upgrades": [
+    {
+      "previous_id": "title:sp:2025:654e18f38c36b516",
+      "canonical_id": "doi:10.1109/sp61157.2025.00104",
+      "metadata_source_id": "sp25-remaining-crossref-retry-0"
+    },
+    {
+      "previous_id": "title:sp:2025:f56675cfccf0c733",
+      "canonical_id": "doi:10.1109/sp61157.2025.00049",
+      "metadata_source_id": "sp25-remaining-crossref-retry-1"
+    },
+    {
+      "previous_id": "title:sp:2025:05f9c67ec65be261",
+      "canonical_id": "doi:10.1109/sp61157.2025.00154",
+      "metadata_source_id": "sp25-remaining-crossref-2"
+    },
+    {
+      "previous_id": "title:sp:2025:6a429cf4134e64ce",
+      "canonical_id": "doi:10.1109/sp61157.2025.00235",
+      "metadata_source_id": "sp25-remaining-crossref-retry-3"
+    },
+    {
+      "previous_id": "title:sp:2025:ec8246150c26bd4b",
+      "canonical_id": "doi:10.1109/sp61157.2025.00227",
+      "metadata_source_id": "sp25-remaining-crossref-4"
+    },
+    {
+      "previous_id": "title:sp:2025:d2eed03a12f4f82a",
+      "canonical_id": "doi:10.1109/sp61157.2025.00221",
+      "metadata_source_id": "sp25-remaining-crossref-5"
+    },
+    {
+      "previous_id": "title:sp:2025:ab60732d5e01cc78",
+      "canonical_id": "doi:10.1109/sp61157.2025.00207",
+      "metadata_source_id": "sp25-remaining-crossref-retry-6"
+    },
+    {
+      "previous_id": "title:sp:2025:76966ee98d87da05",
+      "canonical_id": "doi:10.1109/sp61157.2025.00122",
+      "metadata_source_id": "sp25-remaining-crossref-7"
+    },
+    {
+      "previous_id": "title:sp:2025:6e269b7e6e68d643",
+      "canonical_id": "doi:10.1109/sp61157.2025.00209",
+      "metadata_source_id": "sp25-remaining-crossref-8"
+    },
+    {
+      "previous_id": "title:sp:2025:71e34b0f64d30c13",
+      "canonical_id": "doi:10.1109/sp61157.2025.00222",
+      "metadata_source_id": "sp25-remaining-crossref-retry-9"
+    },
+    {
+      "previous_id": "title:sp:2025:e854bf9cee29d831",
+      "canonical_id": "doi:10.1109/sp61157.2025.00181",
+      "metadata_source_id": "sp25-remaining-crossref-10"
+    },
+    {
+      "previous_id": "title:sp:2025:4fae5a54a8aea538",
+      "canonical_id": "doi:10.1109/sp61157.2025.00140",
+      "metadata_source_id": "sp25-remaining-crossref-11"
+    },
+    {
+      "previous_id": "title:sp:2025:39184da6d2ff4bcf",
+      "canonical_id": "doi:10.1109/sp61157.2025.00233",
+      "metadata_source_id": "sp25-remaining-crossref-doi-12"
+    },
+    {
+      "previous_id": "title:sp:2025:d9ca7fe7ae5ef12e",
+      "canonical_id": "doi:10.1109/sp61157.2025.00013",
+      "metadata_source_id": "sp25-remaining-crossref-doi-13"
+    },
+    {
+      "previous_id": "title:sp:2025:e95543c90f2ae70a",
+      "canonical_id": "doi:10.1109/sp61157.2025.00214",
+      "metadata_source_id": "sp25-remaining-crossref-14"
+    },
+    {
+      "previous_id": "title:sp:2025:8f46d34270cc8f84",
+      "canonical_id": "doi:10.1109/sp61157.2025.00206",
+      "metadata_source_id": "sp25-remaining-crossref-15"
+    },
+    {
+      "previous_id": "title:sp:2025:294ceb8f8f75b958",
+      "canonical_id": "doi:10.1109/sp61157.2025.00004",
+      "metadata_source_id": "sp25-remaining-crossref-16"
+    },
+    {
+      "previous_id": "title:sp:2025:d4ddb326d7db28e8",
+      "canonical_id": "doi:10.1109/sp61157.2025.00068",
+      "metadata_source_id": "sp25-remaining-crossref-17"
+    },
+    {
+      "previous_id": "title:sp:2025:71a7fdcabebb86d7",
+      "canonical_id": "doi:10.1109/sp61157.2025.00083",
+      "metadata_source_id": "sp25-remaining-crossref-18"
+    },
+    {
+      "previous_id": "title:sp:2025:855063f260b8ef88",
+      "canonical_id": "doi:10.1109/sp61157.2025.00260",
+      "metadata_source_id": "sp25-remaining-crossref-retry-19"
+    },
+    {
+      "previous_id": "title:sp:2025:40c1e30164bf8e3d",
+      "canonical_id": "doi:10.1109/sp61157.2025.00165",
+      "metadata_source_id": "sp25-remaining-crossref-20"
+    },
+    {
+      "previous_id": "title:sp:2025:ac11e9363d866ada",
+      "canonical_id": "doi:10.1109/sp61157.2025.00065",
+      "metadata_source_id": "sp25-remaining-crossref-retry-21"
+    },
+    {
+      "previous_id": "title:sp:2025:00ec5c482e25f48b",
+      "canonical_id": "doi:10.1109/sp61157.2025.00258",
+      "metadata_source_id": "sp25-remaining-crossref-retry-22"
+    },
+    {
+      "previous_id": "title:sp:2025:38a778f08a2abe4a",
+      "canonical_id": "doi:10.1109/sp61157.2025.00102",
+      "metadata_source_id": "sp25-remaining-crossref-23"
+    },
+    {
+      "previous_id": "title:sp:2025:7cf4917068622482",
+      "canonical_id": "doi:10.1109/sp61157.2025.00254",
+      "metadata_source_id": "sp25-remaining-crossref-24"
+    }
+  ],
+  "notes": [
+    "All 25 actual abstracts were read; source hashes and normalized-text hashes are recorded, full texts remain outside the repository.",
+    "IEEE canonical HTML endpoints returned HTTP 202 with empty bodies for six papers; public IEEE staging pages provided complete publisher metadata. Empty responses were not treated as abstracts.",
+    "Some Crossref queries returned HTTP 429; successful subsequent query/DOI responses are separately cached.",
+    "The EasyCrypt paper retains its accepted-list title for catalog provenance and print-TOC matching; publisher title and alias are explicit. This is not an extra paper or a second print-TOC mismatch.",
+    "MPCGuard README was read previously; no code, training, experiment or complete artifact audit was run.",
+    "No complete bibliography pass or independent second review in this batch.",
+    "EasyCrypt reference [12] (CRYPTO 2024 Episode V) is registered as a pending primary-identity/scope discovery; only references [11] and [12] were selected, not the complete bibliography."
+  ],
+  "additional_failed_accesses": [
+    {
+      "url": "https://cps.cse.uconn.edu/publications/",
+      "checked_on": "2026-11-13",
+      "status": "connection_error",
+      "detail": "proxy connection closed before an HTTP response; author publication links not inspected in this attempt"
+    }
+  ]
+}

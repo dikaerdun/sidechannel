@@ -2,8 +2,8 @@
 
 这是一轮人工阅读后的 Codex 判定，不是关键词自动分类。全部判定均为标题层暂判；后续摘要判定见 decisions.jsonl。
 
-当前 854 条：adjacent=227, candidate=305, outside_title_scope=300, uncertain=22。
-按来源计：SP=255, TCHES=599。未列来源仍待逐题筛查。
+当前 1115 条：adjacent=290, candidate=324, outside_title_scope=456, uncertain=45。
+按来源计：SP=516, TCHES=599。未列来源仍待逐题筛查。
 candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题层范围外暂判；uncertain=标题不足以判定。没有因此删除任何研究论文目录条目。
 
 | 年/会议 | 论文 | 暂判 | 主题提示 |
@@ -247,6 +247,267 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2023 TCHES | [Vectorized and Parallel Computation of Large Smooth-Degree Isogenies using Precedence-Constrained Scheduling](https://doi.org/10.46586/tches.v2023.i3.246-269) | adjacent | pqc_implementation |
 | 2023 TCHES | [cuZK: Accelerating Zero-Knowledge Proof with A Faster Parallel Multi-Scalar Multiplication Algorithm on GPUs](https://doi.org/10.46586/tches.v2023.i3.194-220) | outside_title_scope | non_sca_crypto_computation |
 | 2023 TCHES | [“Whispering MLaaS”: Exploiting Timing Channels to Compromise User Privacy in Deep Neural Networks](https://doi.org/10.46586/tches.v2023.i2.587-613) | candidate | candidate |
+| 2024 SP | ["False negative - that one is going to kill you." - Understanding Industry Perspectives of Static Analysis based Security Testing](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | ["Len or index or count, anything but v1": Predicting Variable Names in Decompilation Output with Transfer Learning](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | ["Watching over the shoulder of a professional": Why hackers make mistakes and how they fix them](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [A Picture is Worth 500 Labels: A Case Study of Demographic Disparities in Local Machine Learning Models for Instagram and TikTok](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [A Representative Study on Human Detection of Artificially Generated Media Across Countries](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [A Security Analysis of Honey Vaults](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [A Systematic Study of Physical Sensor Attack Hardness](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [A Tale of Two Industroyers: It was the Season of Darkness](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [AFGen: Whole-Function Fuzzing for Applications and Libraries](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [ALIF: Low-Cost Adversarial Audio Attacks on Black-Box Speech Platforms using Linguistic Features](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [APP-Miner: Detecting API Misuses via Automatically Mining API Path Patterns](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [ARMOR: A Formally Verified Implementation of X.509 Certificate Chain Validation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [AVA: Inconspicuous Attribute Variation-based Adversarial Attack bypassing DeepFake Detection](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [AirTaint: Making Dynamic Taint Analysis Faster and Easier](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [AquaSonic: Acoustic Manipulation of Underwater Data Center Operations and Resource Management](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [Asterisk: Super-fast MPC with a Friend](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Attacking Byzantine Robust Aggregation in High Dimensions](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Attacking and Improving the Tor Directory Protocol](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Automated Synthesis of Effect Graph Policies for Microservice-Aware Stateful System Call Specialization](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [BAFFLE: Hiding Backdoors in Offline Reinforcement Learning Datasets](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [BELT: Old-School Backdoor Attacks can Evade the State-of-the-Art Defense with Backdoor Exclusivity Lifting](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [BENZENE: A Practical Root Cause Analysis System with an Under-Constrained State Mutation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [BOLT: Privacy-Preserving, Accurate and Efficient Inference for Transformers](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [BULKOR: Enabling Bulk Loading for Path ORAM](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [BUSted!!! Microarchitectural Side-Channel Attacks on the MCU Bus Interconnect](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [Backdooring Multimodal Learning](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [BadVFL: Backdoor Attacks in Vertical Federated Learning](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [BounceAttack: A Query-Efficient Decision-based Adversarial Attack by Bouncing into the Wild](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Bounded and Unbiased Composite Differential Privacy](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Breach Extraction Attacks: Exposing and Addressing the Leakage in Second Generation Compromised Credential Checking Services](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Break the Wall from bottom: Automated Discovery of Protocol-Level Evasion Vulnerabilities in Web Application Firewalls](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Budget Recycling Differential Privacy](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [C-FRAME: Characterizing and measuring in-the-wild CAPTCHA attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [CONJUNCT: Learning Inductive Invariants to Prove Unbounded Instruction Safety Against Microarchitectural Timing Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [CaFA: Cost-aware, Feasible Attacks With Database Constraints Against Neural Tabular Classifiers](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Can we cast a ballot as intended and be receipt free?](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Casual Users and Rational Choices within Differential Privacy](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Cerberus: Enabling Efficient and Effective In-Network Monitoring on Programmable Switches](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Certifying Zero-Knowledge Circuits with Refinement Types](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Children, Parents, and Misinformation on Social Media](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Chronos: Finding Timeout Bugs in Practical Distributed Systems by Deep-Priority Fuzzing with Transient Delay](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Cohere: Managing Differential Privacy in Large Scale Systems](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Combing for Credentials: Active Pattern Extraction from Smart Reply](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Communication-efficient, Fault Tolerant PIR over Erasure Coded Storage](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Conning the Crypto Conman: End-to-End Analysis of Cryptocurrency-based Technical Support Scams](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [CoreLocker: Neuron-level Usage Control](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [CryptoVampire: Automated Reasoning for the Complete Symbolic Attacker Cryptographic Model](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [DNSBomb: A New Practical-and-Powerful Pulsing DoS Attack Exploiting DNS Queries-and-Responses](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [DP-Auditorium: a Large Scale Library for Auditing Differential Privacy](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [DPI: Ensuring Strict Differential Privacy for Infinite Data Streaming](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [DeepShuffle: A Lightweight Defense Framework against Adversarial Fault Injection Attacks on Deep Neural Networks in Multi-Tenant Cloud-FPGA](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [DeepTheft: Stealing DNN Model Architectures through Power Side Channel](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [DeepVenom: Persistent DNN Backdoors Exploiting Transient Weight Perturbations in Memories](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Device-Oriented Group Messaging: A Formal Cryptographic Analysis of Matrix' Core](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Digital Security — A Question of Perspective. A Large-Scale Telephone Survey with Four At-Risk User Groups](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Distributed & Scalable Oblivious Sorting and Shuffling](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [Distribution Preserving Backdoor Attack in Self-supervised Learning](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Do You Play It by the Books? A Study on Incident Response Playbooks and Influencing Factors](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Don't Eject the Impostor: Fast Three-Party Computation With a Known Cheater](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Don't Shoot the Messenger: Localization Prevention of Satellite Internet Users](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [DrSec: Flexible Distributed Representations for Efficient Endpoint Security](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Dropout Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [E-Vote Your Conscience: Perceptions of Coercion and Vote Buying, and the Usability of Fake Credentials in Online Voting](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [ERASAN: Efficient Rust Address Sanitizer](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Efficient Actively Secure DPF and RAM-based 2PC with One-Bit Leakage](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Efficient Detection of Java Deserialization Gadget Chains via Bottom-up Gadget Search and Dataflow-aided Payload Construction](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Efficient Zero-Knowledge Arguments For Paillier Cryptosystem](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Efficient and Generic Microarchitectural Hash-Function Recovery](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [Enforcing End-to-end Security for Remote Conferencing](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Eureka: A General Framework for Black-box Differential Privacy Estimators](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Everyone for Themselves? A Qualitative Study about Individual Security Setups of Open Source Software Contributors](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Everything is Good for Something: Counterexample-Guided Directed Fuzzing via Likely Invariant Inference](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Exploring the Orthogonality and Linearity of Backdoor Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [FCert: Certifiably Robust Few-Shot Classification with Foundation Models](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [FLASH: A Comprehensive Approach to Intrusion Detection via Provenance Graph Representation Learning](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [FLShield: A Validation Based Federated Learning Framework to Defend Against Poisoning Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Few-shot Unlearning](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [FlowMur: A Stealthy and Practical Audio Backdoor Attack with Limited Knowledge](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Formal Model-Driven Analysis of Resilience of GossipSub to Attacks from Misbehaving Peers](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [From Chatbots to Phishbots?: Phishing Scam Generation in Commercial Large Language Models](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [From Individual Computation to Allied Optimization: Remodeling Privacy-Preserving Neural Inference with Function Input Tuning](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [From Principle to Practice: Vertical Data Minimization for Machine Learning](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [From Virtual Touch to Tesla Command: Unlocking Unauthenticated Control Chains From Smart Glasses for Vehicle Takeover](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [GAuV: A Graph-Based Automated Verification Framework for Perfect Semi-Honest Security of Multiparty Computation Protocols](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [GrOVe: Ownership Verification of Graph Neural Networks using Embeddings](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Guessing on Dominant Paths: Understanding the Limitation of Wireless Authentication Using Channel State Information](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Holepunch: Fast, Secure File Deletion with Crash Consistency](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Holistic Concolic Execution for Dynamic Web Applications via Symbolic Interpreter Analysis](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Hyena: Balancing Packing, Reuse, and Rotations for Encrypted Inference](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [INTFAIL: Using Spurious #VC Interrupts to Break AMD SEV-SNP](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [INVISILINE: Invisible Plausibly-Deniable Storage](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Injection Attacks Against End-to-End Encrypted Applications](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Investigating Voter Perceptions of Printed Physical Audit Trails for Online Voting](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [It's Simplex! Disaggregating Measures to Improve Certified Robustness](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [JASMINE: Scale up JavaScript Static Security Analysis with Computation-based Semantic Explanation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Janus: Safe Biometric Deduplication for Humanitarian Aid Distribution](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Jbeil: Temporal Graph-Based Inductive Learning to Infer Lateral Movement in Evolving Enterprise Networks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [KAIROS: Practical Intrusion Detection and Investigation using Whole-system Provenance](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [LABRADOR: Response Guided Directed Fuzzing for Black-box IoT Devices](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [LACMUS: Latent Concept Masking for General Robustness Enhancement of DNNs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [LLMIF: Augmented Large Language Model for Fuzzing IoT Devices](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [LLMs Cannot Reliably Identify and Reason About Security Vulnerabilities (Yet?): A Comprehensive Evaluation, Framework, and Benchmarks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [LOKI: Large-scale Data Reconstruction Attack against Federated Learning through Model Manipulation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Large-Scale Study of Vulnerability Scanners for Ethereum Smart Contracts](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Larger-scale Nakamoto-style Blockchains Don't Necessarily Offer Better Security](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Leaky Address Masking: Exploiting Unmasked Spectre Gadgets with Noncanonical Address Translation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [Learn What You Want to Unlearn: Unlearning Inversion Attacks against Machine Unlearning](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Leveraging Prefix Structure to Detect Volumetric DDoS Attack Signatures with Programmable Switches](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Ligetron: Lightweight Scalable End-to-End Zero-Knowledge Proofs. Post-Quantum ZK-SNARKs on a Browser](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Lower Bounds for Rényi Differential Privacy in a Black-Box Setting](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [MAWSEO: Adversarial Wiki Search Poisoning for Illicit Online Promotion](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [MEA-Defender: A Robust Watermark against Model Extraction Attack](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [MMBD: Post-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [MPC-in-the-Head Framework without Repetition and its Applications to the Lattice-based Cryptography](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [MQTTactic: Security Analysis and Verification for Logic Flaws in MQTT Implementations](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Make Revocation Cheaper: Hardware-Based Revocable Attribute-Based Encryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Measure-Observe-Remeasure: An Interactive Paradigm for Differentially-Private Exploratory Analysis](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Measuring the Effects of Stack Overflow Code Snippet Evolution on Open-Source Software Security](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [MetaFly: Wireless Backhaul Interception via Aerial Wavefront Manipulation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Moderating New Waves of Online Hate with Chain-of-Thought Reasoning in Large Language Models](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [More Haste, Less Speed: Cache Related Security Threats in Continuous Integration Services](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [More is Merrier: Relax the Non-Collusion Assumption in Multi-Server PIR](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Multi-Instance Adversarial Attack on GNN-Based Malicious Domain Detection](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Multi-Stage Group Key Distribution and PAKEs: Securing Zoom Groups against Malicious Servers without New Security Elements](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [NFCEraser: A Security Threat of NFC Message Modification Caused by Quartz Crystal Oscillator](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [NURGLE: Exacerbating Resource Consumption in Blockchain State Storage via MPT Manipulation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Nebula: A Privacy-First Platform for Data Backhaul](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Need for Speed: Taming Backdoor Attacks with Speed and Precision](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [NetShuffle: Circumventing Censorship with Shuffle Proxies at the Edge](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Nightshade: Prompt-Specific Poisoning Attacks on Text-to-Image Generative Models](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [No Easy Way Out: the Effectiveness of Deplatforming an Extremist Forum to Suppress Hate and Harassment](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [No Privacy Left Outside: On the (In-)Security of TEE-Shielded DNN Partition for On-Device ML](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Node-aware Bi-smoothing: Certified Robustness against Graph Injection Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Non-Atomic Arbitrage in Decentralized Finance](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Nyx: Detecting Exploitable Front-Running Vulnerabilities in Smart Contracts](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [ODSCAN: Backdoor Scanning for Object Detection Models](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Obelix: Mitigating Side-Channels through Dynamic Obfuscation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [On (the Lack of) Code Confidentiality in Trusted Execution Environments](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [On Large Language Models' Resilience to Coercive Interrogation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [On SMS Phishing Tactics and Infrastructure](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [One for All and All for One: GNN-based Control-Flow Attestation for Embedded Devices](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Optimal Flexible Consensus and its Application to Ethereum](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Orca: FSS-based Secure Training and Inference with GPUs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [P4Control: Line-Rate Cross-Host Attack Prevention via In-Network Information Flow Control Enabled by Programmable Switches and eBPF](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [PIANO: Extremely Simple, Single-Server PIR with Sublinear Server Computation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [PIRANA: Faster Multi-query PIR via Constant-weight Codes](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [POMABuster: Detecting Price Oracle Manipulation Attacks in Decentralized Finance](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Pandora: Principled Symbolic Validation of Intel SGX Enclave Runtimes](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Parse Me, Baby, One More Time: Bypassing HTML Sanitizer via Parsing Differentials](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [PassREfinder: Credential Stuffing Risk Prediction by Representing Password Reuse between Websites on a Graph](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Patchy Performance? Uncovering the Vulnerability Management Practices of IoT-Centric Vendors](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Pianist: Scalable zkRollups via Fully Distributed Zero-Knowledge Proofs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Please Tell Me More: Privacy Impact of Explainability through the Lens of Membership Inference Attack](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Poisoned ChatGPT Finds Work for Idle Hands: Exploring Developers' Coding Practices with Insecure Suggestions from Poisoned AI Models](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Poisoning Web-Scale Training Datasets is Practical](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [PolySphinx: Extending the Sphinx Mix Format With Better Multicast Support](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Practical Attacks against DNS Reputation Systems](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Practical Obfuscation of BLE Physical-Layer Fingerprints on Mobile Devices](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [Predecessor-aware Directed Greybox Fuzzing](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Preserving Node-level Privacy in Graph Neural Networks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [PriDe CT: Towards Public Consensus, Private Transactions, and Forward Secrecy in Decentralized Payments](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Private Analytics via Streaming, Sketching, and Silently Verifiable Proofs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Private Hierarchical Governance for Encrypted Messaging](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [PromptCARE: Prompt Copyright Protection by Watermark Injection and Verification](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Protecting Label Distribution in Cross-Silo Federated Learning](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Prune+PlumTree - Finding Eviction Sets at Scale](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [Pryde: A Modular Generalizable Workflow for Uncovering Evasion Attacks Against Stateful Firewall Deployments](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Pudding: Private User Discovery in Anonymity Networks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Pulling Off The Mask: Forensic Analysis of the Deceptive Creator Wallets Behind Smart Contract Fraud](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [R-CAID: Embedding Root Cause Analysis within Provenance-based Intrusion Detection](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Real-Time Website Fingerprinting Defense via Traffic Cluster Anonymization](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [Rethinking IC Layout Vulnerability: Simulation-Based Hardware Trojan Threat Assessment with High Fidelity](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Revisiting Automotive Attack Surfaces: a Practitioners' Perspective](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Revisiting Black-box Ownership Verification for Graph Neural Networks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Robust Backdoor Detection for Deep Learning via Topological Evolution Dynamics](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Routing Attacks on Cryptocurrency Mining Pools](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SATURN: Host-Gadget Synergistic USB Driver Fuzzing](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SHERPA: Explainable Robust Algorithms for Privacy-preserved Federated Learning in Future Networks to Defend against Data Poisoning Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SINBAD: Saliency-informed detection of breakage caused by ad blocking](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SMARTINV: Multimodal Learning for Smart Contract Invariant Inference](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SOPHON: Non-Fine-Tunable Learning to Restrain Task Transferability For Pre-trained Models](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Sabre: Cutting through Adversarial Noise with Adaptive Spectral Filtering and Input Reconstruction](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Scalable Mixed-Mode MPC](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Scalable Verification of Zero-Knowledge Protocols](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Scores Tell Everything about Bob: Non-adaptive Face Reconstruction on Face Recognition Systems](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Secure Messaging with Strong Compromise Resilience, Temporal Privacy, and Immediate Decryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Secure Ranging with IEEE 802.15.4z HRP UWB](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Securely Fine-tuning Pre-trained Encoders Against Adversarial Examples](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Securing Graph Neural Networks in MLaaS: A Comprehensive Realisation of Query-based Integrity Verification](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Security, Privacy, and Data-sharing Trade-offs When Moving to the United States: Insights from a Qualitative Study](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Serberus: Protecting Cryptographic Code from Spectres at Compile-Time](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [Shedding Light on CVSS Scoring Inconsistencies: A User-Centric Study on Evaluating Widespread Security Vulnerabilities](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Side-Channel-Assisted Reverse-Engineering of Encrypted DNN Hardware Accelerator IP and Attack Surface Exploration](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SneakyPrompt: Jailbreaking Text-to-image Generative Models](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SoK: A Comprehensive Analysis and Evaluation of Docker Container Attack and Defense Mechanisms](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SoK: Collusion-resistant Multi-party Private Set Intersections in the Semi-honest Model](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [SoK: Efficient Design and Implementation of Polynomial Hash Functions over Prime Fields](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [SoK: Explainable Machine Learning in Adversarial Environments](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SoK: Privacy-Preserving Data Synthesis](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [SoK: Prudent Evaluation Practices for Fuzzing](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SoK: SGX.Fail: How Stuff Gets eXposed](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [SoK: Safer Digital-Safety Research Involving At-Risk Users](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SoK: Security and Privacy of Blockchain Interoperability](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SoK: Technical Implementation and Human Impact of Internet Privacy Regulations](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SoK: The Long Journey of Exploiting and Defending the Legacy of King Harald Bluetooth](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [SoK: Unintended Interactions among Machine Learning Defenses and Risks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Specious Sites: Tracking the Spread and Sway of Spurious News Stories at Scale](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Specular: Towards Secure, Trust-minimized Optimistic Blockchain Execution](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Springproofs: Efficient Inner Product Arguments for Vectors of Arbitrary Length](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [SrcMarker: Dual-Channel Source Code Watermarking via Scalable Code Transformations](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Surveilling the Masses with Wi-Fi-Based Positioning Systems](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Sweep-UC: Swapping Coins Privately](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [SwiftRange: A Short and Efficient Zero-Knowledge Range Argument For Confidential Transactions and More](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Synq: Public Policy Analytics Over Encrypted Data](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [SyzGen++: Dependency Inference for Augmenting Kernel Driver Fuzzing](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [SyzTrust: State-aware Fuzzing on Trusted OS Designed for IoT Devices](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [TCP Spoofing: Reliable Payload Transmission Past the Spoofed TCP Handshake](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [TROJANPUZZLE: Covertly Poisoning Code-Suggestion Models](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Tabbed Out: Subverting the Android Custom Tab Security Model](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Targeted and Troublesome: Tracking and Advertising on Children's Websites](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Test-Time Poisoning Attacks Against Test-Time Adaptation Models](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Text-CRS: A Generalized Certified Robustness Framework against Textual Adversarial Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [The Dark Side of Scale: Insecurity of Direct-to-Cell Satellite Mega-Constellations](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [The Great Request Robbery: An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [The Inventory is Dark and Full of Misinformation: Understanding Ad Inventory Pooling in the Ad-Tech Supply Chain](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [The Role of User-Agent Interactions on Mobile Money Practices in Kenya and Tanzania](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [The Times They Are A-Changin': Characterizing Post-Publication Changes to Online News](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Threshold ECDSA in Three Rounds](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Thwarting Last-Minute Voter Coercion](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Time-Aware Projections: Truly Node-Private Graph Statistics under Continual Observation](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [Titan : Efficient Multi-target Directed Greybox Fuzzing](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [To Auth or Not To Auth? A Comparative Analysis of the Pre- and Post-Login Security Landscape](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [To Boldly Go Where No Fuzzer Has Gone Before: Finding Bugs in Linux' Wireless Stacks through VirtIO Devices](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Towards Smart Contract Fuzzing on GPU](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Transferable Multimodal Attack on Vision-Language Pre-training Models](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [TuDoor Attack: Systematically Exploring and Exploiting Logic Vulnerabilities in DNS Response Pre-processing with Malformed Packets](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [UnTrustZone: Systematic Accelerated Aging to Expose On-chip Secrets](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | uncertain | scope_requires_abstract |
+| 2024 SP | [Undefined-oriented Programming: Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Understanding Parents' Perceptions and Practices Toward Children's Security and Privacy in Virtual Reality](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Understanding and Benchmarking the Commonality of Adversarial Examples](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Understanding and Bridging the Gap Between Unsupervised Network Representation Learning and Security Analytics](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Understanding the Privacy Practices of Political Campaigns: A Perspective from the 2020 US Election Websites](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Universal Neural-Cracking-Machines: Self-Configurable Password Models from Auxiliary Data](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Video-Based Cryptanalysis: Extracting Cryptographic Keys from Video Footage of a Device's Power LED Captured By Standard Video Cameras](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
+| 2024 SP | [Wear's my Data? Understanding the Cross-Device Runtime Permission Model in Wearables](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Where Are the Red Lines? Towards Ethical Server-Side Scans in Security and Privacy Research](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Where URLs Become Weapons: Automated Discovery of SSRF Vulnerabilities in Web Applications](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Who Left the Door Open? Investigating the Causes of Exposed IoT Devices in an Academic Network](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Why Does Little Robustness Help? A Further Step Towards Understanding Adversarial Transferability](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [Withdrawing is believing? Detecting Inconsistencies Between Withdrawal Choices and Third-party Data Collections in Mobile Apps](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [You Only Prompt Once: On the Capabilities of Prompt Learning on Large Language Models to Tackle Toxic Content](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [eAUDIT: A Fast, Scalable and Deployable Audit Data Collection System](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | outside_title_scope | other_security_or_privacy |
+| 2024 SP | [hinTS: Threshold Signatures with Silent Setup](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | adjacent | adjacent_security_or_crypto |
+| 2024 SP | [mimoCrypt: Multi-User Privacy-Preserving Wi-Fi Sensing via MIMO Encryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | candidate | side_channel_candidate |
 | 2024 TCHES | [1/0 Shades of UC: Photonic Side-Channel Analysis of Universal Circuits](https://doi.org/10.46586/tches.v2024.i3.574-602) | candidate | candidate |
 | 2024 TCHES | [1LUTSensor: Detecting FPGA Voltage Fluctuations using LookUp Tables](https://doi.org/10.46586/tches.v2024.i1.51-86) | candidate | candidate |
 | 2024 TCHES | [A Deep Analysis of two Glitch-Free Hardware Masking Schemes SESYM and LMDPL](https://doi.org/10.46586/tches.v2024.i3.76-98) | candidate | candidate |

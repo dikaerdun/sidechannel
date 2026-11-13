@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6647 条，其中 336 条命中后量子相关关键词。
+当前目录记录 6647 条，其中 337 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -128,6 +128,7 @@
 | 2025 SP | [Phecda: Post-Quantum Transparent zkSNARKs from Improved Polynomial Commitment and VOLE-in-the-Head with Application in Publicly Verifiable AES](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-49) | pending |
 | 2025 SP | [Post-quantum Cryptographic Analysis of SSH](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-195) | pending |
 | 2025 SP | [PQ-Hammer: End-to-end Key Recovery Attacks on Post-Quantum Cryptography Using Rowhammer](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-86) | pending |
+| 2025 SP | [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | adjacent |
 | 2025 SP | [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) | include |
 | 2025 TCHES | [A High-performance NTT/MSM Accelerator for Zero-knowledge Proof Using Load-balanced Fully-pipelined Montgomery Multiplier](https://doi.org/10.46586/tches.v2025.i1.275-313) | adjacent |
 | 2025 TCHES | [A New Trick for Polynomial Multiplication: A verified CRT polymul utilizing a monomial factor](https://doi.org/10.46586/tches.v2025.i4.795-816) | adjacent |

@@ -1,14 +1,15 @@
 # 引用与版本追踪进度
 
-已核对 48 条引用条目；版本关系共 10 条，其中 9 条书目核实、1 条为原始来源推定。它们不等于被引论文已全部读完。
-追踪任务共 278 项：in_progress=28, pending=250。
-已登记发现中，13 条完成身份与范围判定，0 条仍待核查；已解析记录继续保留历史。
+已核对 49 条引用条目；版本关系共 11 条，其中 10 条书目核实、1 条为原始来源推定。它们不等于被引论文已全部读完。
+追踪任务共 310 项：in_progress=28, pending=282。
+已登记发现中，13 条完成身份与范围判定，1 条仍待核查；已解析记录继续保留历史。
 
-GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 仅登记选读的 [61]，Peek-a-Walk 仅选读 [15]、[53]。条目对应不代表目标论文全部读完，也不代表前后向追踪完成。
+GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 选读 [61]，Peek-a-Walk 选读 [15]、[53]，EasyCrypt S&P 2025 选读 [11]、[12]。这些选读不构成完整参考文献筛查。
 [GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)
 
 | 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |
 |---|---:|---|---|
+| [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | 11 | [Formally verifying Kyber: Episode IV: Implementation correctness](https://doi.org/10.46586/tches.v2023.i3.164-193) | abstract read; adjacent (see ADJACENT_NOTES) |
 | [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) | 61 | [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) | selected_full_text_sections |
 | [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) | 15 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | selected_full_text_sections |
 | [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) | 53 | [Too Many Hints – When LLL Breaks LWE](https://doi.org/10.1007/978-981-99-8730-6_4) | abstract_and_bibliographic_metadata |
@@ -72,6 +73,7 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 | [来源](https://eprint.iacr.org/2023/777) | [Too Many Hints – When LLL Breaks LWE](https://doi.org/10.1007/978-981-99-8730-6_4) | preprint_of; bibliographic work-family relation checked; full-text equivalence not claimed |
 | [来源](https://eprint.iacr.org/2021/123) | [A Systematic Approach and Analysis of Key Mismatch Attacks on Lattice-Based NIST Candidate KEMs](https://doi.org/10.1007/978-3-030-92068-5_4) | author_revision_of; bibliographic work-family relation checked; full-text equivalence not claimed |
 | [来源](https://eprint.iacr.org/2023/237) | [Fast Practical Lattice Reduction Through Iterated Compression](https://doi.org/10.1007/978-3-031-38548-3_1) | author_revision_of; bibliographic work-family relation checked; full-text equivalence not claimed |
+| [来源](https://eprint.iacr.org/2025/1607) | [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | author_revision_of; verified bibliographic relation; published-vs-revision full-text differences not audited |
 
 ## 本批纠正与未完成项
 
@@ -83,4 +85,5 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 - GoFetch [71] 的 Flatter 已读摘要并归为格约简方法背景，见 [相邻主题记录](ADJACENT_NOTES.md)；未计作独立侧信道攻击。
 - Scheduled Disclosure 的密码实验对象为 SIKE-751；15 条引用已与目录对应，ASIACCS/DIMVA/ASPLOS 三条发现已读并解析。OpenTitan 的 Share-slicing 引用已补读摘要与讨论，作为窗口外基础文献保留；完整追踪仍未完成。
 - Peek-a-Walk 标题无 PQC 名称，正文包含参考 Dilithium-2 的 nonce 泄漏与格后处理；已对应 GoFetch 与 Too Many Hints 两条引用，其余参考文献尚待逐条筛查。
+- EasyCrypt S&P 2025 的 [11] 已对应 TCHES Episode IV，[12] 的 CRYPTO Episode V 登记为待核查发现。ePrint 2025/1607 明确标为同一 DOI 的 minor revision；题名别名与全文差异分别处理。见 [两条选读](citations/easycrypt-selected-reference-screen.jsonl)。
 - 前向关系只记录当前实际看到的引用，不等于枚举了所有后续论文。扩展会议的系统目录、未解析引用及基础文献筛查继续进行。

@@ -43,17 +43,33 @@
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
 | ASPLOS | [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) | selected_full_text_sections |
+| SP | [BPSniff: Continuously Surveilling Private Blood Pressure Information in the Metaverse via Unrestricted Inbuilt Motion Sensors](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-81) | abstract_and_bibliographic_metadata |
+| SP | [BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-39) | selected_full_text_sections |
 | SP | [Breaking the Barrier: Post-Barrier Spectre Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-70) | abstract_and_bibliographic_metadata |
 | SP | [Ceviche: Capability-Enhanced Secure Virtualization of Caches](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-85) | abstract_and_bibliographic_metadata |
 | SP | [CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels](https://doi.org/10.1109/sp61157.2025.00079) | abstract_and_bibliographic_metadata |
+| SP | [CountMamba: A Generalized Website Fingerprinting Attack via Coarse-Grained Representation and Fine-Grained Prediction](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-250) | abstract_and_bibliographic_metadata |
 | SP | [EUCLEAK](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-239) | abstract_and_bibliographic_metadata |
+| SP | [EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with Audio Adversarial Perturbations](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-136) | abstract_and_bibliographic_metadata |
+| SP | [Eyes on Your Typing: Snooping Finger Motions on Virtual Keyboards](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-106) | abstract_and_bibliographic_metadata |
+| SP | [Half Spectre, Full Exploit: Hardening Rowhammer Attacks with Half Spectre Gadgets](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-174) | selected_full_text_sections |
+| SP | [I Know What You Sync: Covert and Side Channel Attacks on File Systems via syncfs](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-158) | abstract_and_bibliographic_metadata |
+| SP | [IncognitOS: A Practical Unikernel Design for Full-System Obfuscation in Confidential Virtual Machines](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-127) | selected_full_text_sections |
+| SP | [Mind the Location Leakage in LEO Direct-to-Cell Satellite Networks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-108) | abstract_and_bibliographic_metadata |
+| SP | [Mixnets on a tightrope: Quantifying the leakage of mix networks using a provably optimal heuristic adversary](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-180) | abstract_and_bibliographic_metadata |
 | SP | [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) | selected_full_text_sections |
+| SP | [Rapid Reversing of Non-Linear CPU Cache Slice Functions: Unlocking Physical Address Leakage](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-143) | abstract_and_bibliographic_metadata |
+| SP | [SCAD: Towards a Universal and Automated Network Side-Channel Vulnerability Detection](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-24) | selected_full_text_sections |
 | SP | [SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon](https://doi.org/10.1109/sp61157.2025.00098) | abstract_and_bibliographic_metadata |
 | SP | [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | selected_full_text_sections |
 | SP | [Slice+Slice Baby: Generating Last-Level Cache Eviction Sets in the Blink of an Eye](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-131) | abstract_and_bibliographic_metadata |
+| SP | [Sniffing Location Privacy of Video Conference Users Using Free Audio Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-192) | abstract_and_bibliographic_metadata |
+| SP | [Sparta: Practical Anonymity with Long-Term Resistance to Traffic Analysis](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-103) | selected_full_text_sections |
+| SP | [Spoofing Eavesdroppers with Audio Misinformation](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-199) | abstract_and_bibliographic_metadata |
 | SP | [TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15) | abstract_and_bibliographic_metadata |
 | SP | [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) | selected_full_text_sections |
 | SP | [Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-194) | abstract_and_bibliographic_metadata |
+| SP | [Your Cable, My Antenna: Eavesdropping Serial Communication via Backscatter Signals](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-157) | abstract_and_bibliographic_metadata |
 | TCHES | [Adaptive Template Attacks on the Kyber Binomial Sampler](https://doi.org/10.46586/tches.v2025.i3.470-492) | abstract_and_bibliographic_metadata |
 | TCHES | [Avengers assemble! Supervised learning meets lattice reduction: A single power trace attack against CRYSTALS-Kyber Key Generation](https://doi.org/10.46586/tches.v2025.i4.409-436) | abstract_and_bibliographic_metadata |
 | TCHES | [Constant time lattice reduction in dimension 4 with application to SQIsign](https://doi.org/10.46586/tches.v2025.i2.511-534) | abstract_and_bibliographic_metadata |

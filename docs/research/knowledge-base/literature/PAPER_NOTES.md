@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 139 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 155 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Share-slicing: Friend or Foe?
 
@@ -874,6 +874,30 @@
 - [详细阅读记录](notes/power-observation-and-pqc-boundaries-20261113.md)
 - 代码/数据核查：not checked；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
 
+## BPSniff: Continuously Surveilling Private Blood Pressure Information in the Metaverse via Unrestricted Inbuilt Motion Sensors
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-81)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Zhengkun Ye; Ahmed Tanvir Mahdad; Yan Wang; Cong Shi; Yingying Chen; Nitesh Saxena
+- 对象：VR motion sensors, blood pressure, cross-modal inference；类型：sensor_side_channel。
+- 核心想法：利用 VR 头显运动传感器中的血流振动线索推断血压，属于非密码目标的物理隐私通道。
+- 作者报告：摘要报告以 VAE 重构血流再用 LSTM 估计，研究涉及 37 名参与者、两种头显及八周观测。
+- 限制与下一步：无需个人专属校准不等于无需训练；作者的测量误差比较不能写成临床有效性或监管批准。设备、活动和人群外推待正文核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.winlab.rutgers.edu/~yychen/papers/BPSniff.pdf。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-39)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Jesse De Meulemeester; Luca Wilke; David Oswald; Thomas Eisenbarth; Ingrid Verbauwhede; Jo Van Bulck
+- 对象：TEE, classic SGX, SEV-SNP, memory aliasing；类型：physical_memory_attack_and_write_pattern_leakage。
+- 核心想法：通过 DRAM 地址别名破坏 TEE 的物理内存假设；其中 classic SGX 案例涉及细粒度写入模式泄漏。
+- 作者报告：作者区分 SEV-SNP 的完整性/证明攻击与 classic SGX 的写模式通道，并报告所研究 scalable SGX、TDX 的别名检测阻止该攻击。
+- 限制与下一步：所读威胁模型以一次 SPD 操作为前提；论文提到未写保护模块的软件修改可能性，但不能概括为所有平台纯软件攻击。不同 TEE 的结果不能互换；没有本地复现。
+- 阅读层级：selected_full_text_sections；来源：https://vanbulck.net/files/oakland25-badram.pdf。
+- 已读章节：Author PDF p.4: attacker-model paragraphs on one-time SPD modification and possible unprotected modules; abstract on p.1. Not the complete security analysis.
+- [详细阅读记录](notes/sp2025-observation-and-proof-scopes-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## Breaking the Barrier: Post-Barrier Spectre Attacks
 
 - 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-70)；时间标记：conference year 2025 within frozen window; exact publication date not verified。
@@ -907,6 +931,17 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://yuanyuan-yuan.github.io/files/sp25-Cipher-Steal.pdf。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## CountMamba: A Generalized Website Fingerprinting Attack via Coarse-Grained Representation and Fine-Grained Prediction
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-250)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Xianwen Deng; Ruijie Zhao; Yanhao Wang; Mingwei Zhan; Zhi Xue; Yijun Wang
+- 对象：Tor, website fingerprinting, traffic metadata；类型：traffic_side_channel。
+- 核心想法：CountMamba 用窗口流量计数及增量序列预测进行早期和多标签网站指纹识别。
+- 作者报告：作者利用包大小、方向和时序，报告跨多种场景的识别及对适度扰动的稳定性，并给出代码数据仓库入口。
+- 限制与下一步：流量指纹不等于解密内容；训练和目标站点范围、填充防护及跨会话划分待全文核对。仓库链接可见未代表材料已检查或可运行。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11023397/。
+- 代码/数据核查：author abstract links https://github.com/SJTU-dxw/CountMamba-WF; contents and execution not checked；引用追踪：pending。
+
 ## EUCLEAK
 
 - 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-239)；时间标记：conference year 2025 within frozen window; exact publication date not verified。
@@ -917,6 +952,87 @@
 - 限制与下一步：本次读的是 2024-10-22 技术报告的封面、修订表与摘要，不是 2025 会议版全文；需要物理访问与相应仪器。版本/产品边界不能扩展成当前所有产品均受影响。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://ninjalab.io/wp-content/uploads/2024/10/20241022_eucleak.pdf。
 - 代码/数据核查：not checked; author technical report only；引用追踪：pending。
+
+## EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with Audio Adversarial Perturbations
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-136)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Jung-Woo Chang; Ke Sun; David Xia; Xinyu Zhang; Farinaz Koushanfar
+- 对象：vibration eavesdropping, audio perturbation；类型：physical_side_channel_countermeasure。
+- 核心想法：EveGuard 利用声音对空气压力与物体振动的不同作用，通过音频扰动干扰振动窃听。
+- 作者报告：摘要描述物理引导扰动、EveGAN 传感器转换和少样本适配，并报告用户感知质量及若干自适应攻击评估。
+- 限制与下一步：特定识别任务中的防护成绩不是信息论零泄漏；新传感器、采样条件及更强适应性仍需验证，不能把音质指标替代保密指标。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xyzhang.ucsd.edu/papers/Jung-Woo.Chang_SP25_EveGuard.pdf。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Eyes on Your Typing: Snooping Finger Motions on Virtual Keyboards
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-106)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Sunwoo Lee; Wonsuk Choi
+- 对象：AR/VR, head motion, virtual keyboard；类型：sensor_side_channel。
+- 核心想法：SNOOPFINGER 从无需额外权限的头部运动推断手指在虚拟键盘上的输入。
+- 作者报告：摘要报告跨模态推断不依赖控制器，在 24 名参与者上取得词与句子层面的识别结果。
+- 限制与下一步：不需要大量事先头动数据不等于零训练；词/句子指标不能视为密码恢复率，设备与语言外推未核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://pure.korea.ac.kr/en/publications/eyes-on-your-typing-snooping-finger-motions-on-virtual-keyboards/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Half Spectre, Full Exploit: Hardening Rowhammer Attacks with Half Spectre Gadgets
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-174)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Andrea Di Dio; Mathé Hertogh; Cristiano Giuffrida
+- 对象：half-Spectre, PRELOAD+TIME, Rowhammer；类型：microarchitectural_side_channel_enabling_fault_attack。
+- 核心想法：Half-Spectre 将不能直接披露载入值的推测执行片段用于物理访存活动观测，并辅助定向 Rowhammer。
+- 作者报告：作者提出 PRELOAD+TIME 缓存行粒度原语，随后以 ProbeHammer 降低误伤；威胁模型是本地无特权用户进程。
+- 限制与下一步：依赖可由系统调用到达的内核 gadget 与物理内存 direct map。时序原语与后续故障利用需分开；不可把特定构造的可靠性推广到所有 CPU、内核和 DIMM。
+- 阅读层级：selected_full_text_sections；来源：https://download.vusec.net/papers/halfspectre_sp25.pdf。
+- 已读章节：Author PDF p.3, section 3: local unprivileged attacker, reachable kernel gadget and direct-map prerequisites; abstract on p.1.
+- [详细阅读记录](notes/sp2025-observation-and-proof-scopes-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## I Know What You Sync: Covert and Side Channel Attacks on File Systems via syncfs
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-158)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Cheng Gu; Yicheng Zhang; Nael Abu-Ghazaleh
+- 对象：syncfs, file systems, containers, Linux, Android；类型：shared_resource_timing_side_channel。
+- 核心想法：共享文件系统的刷盘行为使 syncfs 耗时暴露其他隔离域的 I/O 活动。
+- 作者报告：作者分别报告 Linux/Windows 隐蔽通道，以及 Linux 网站/视频和 Android 应用识别案例。
+- 限制与下一步：共谋隐蔽通道带宽与非共谋指纹攻击是不同指标；需核查共享文件系统、权限及后台负载条件。所读为作者预印本，未证明与正式版逐字等价。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2411.10883。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## IncognitOS: A Practical Unikernel Design for Full-System Obfuscation in Confidential Virtual Machines
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-127)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Kha Dinh Duy; Jaeyoon Kim; Hajeong Lim; Hojoon Lee
+- 对象：AMD SEV-SNP, CVM, VMExit, obfuscation；类型：system_side_channel_countermeasure。
+- 核心想法：IncognitOS 通过可信自调用调度及基于 VMExit 速率的自适应重随机化缓解机密虚拟机的侧信道。
+- 作者报告：正文将恶意 hypervisor 纳入攻击方，将 CPU、整个 CVM 和本系统组件纳入 TCB，并使用同步 ticks 与页级机制。
+- 限制与下一步：威胁模型明确不考虑瞬态执行攻击；不能将 full-system 名称理解为覆盖全部物理与微架构通道。仍需核查攻击速率假设和各配置开销。
+- 阅读层级：selected_full_text_sections；来源：https://kha-dinh.github.io/assets/pdf/incognitos.pdf。
+- 已读章节：Author PDF p.3 section 2.4 through p.4 opening: TCB and exclusion of transient execution; p.4 section 3.1 overview; abstract on p.1.
+- [详细阅读记录](notes/sp2025-observation-and-proof-scopes-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Mind the Location Leakage in LEO Direct-to-Cell Satellite Networks
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-108)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Weisen Liu; Zeqi Lai; Qian Wu; Hewu Li; Yuxuan Weng; Wei Liu; Qi Zhang; Jihao Li; Yuanjie Li; Jun Liu
+- 对象：LEO satellites, direct-to-cell, location metadata；类型：protocol_metadata_location_leakage。
+- 核心想法：DCATOR 联合卫星广播信令中的位置线索与随时间变化的轨道，分析直连手机用户的位置隐私。
+- 作者报告：摘要分别讨论运行中的 Iridium、开发中的 Starlink DTC 和基于 3GPP NTN 的系统，并报告部分条件下百米量级跟踪。
+- 限制与下一步：三种系统的实际采集、建模和标准分析证据不能合并成全部网络实测；依赖持续接收广播及覆盖条件，不是解密用户通信。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11023341/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Mixnets on a tightrope: Quantifying the leakage of mix networks using a provably optimal heuristic adversary
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-180)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Sebastian Meiser; Debajyoti Das; Moritz Kirschte; Esfandiar Mohammadi; Aniket Kate
+- 对象：mixnets, recipient anonymity, privacy loss；类型：traffic_leakage_model_and_evaluation。
+- 核心想法：从拓扑与路由分析低延迟 mixnet 的收件人匿名性，以隐私损失分布描述稀有但强的信息暴露。
+- 作者报告：作者给出模型内最优攻击策略，并通过采样和隐私损失尾部估计攻击优势下界，研究 Karaoke 与 Atom 的设计选择。
+- 限制与下一步：下界不是安全上界；最优性受模型、匿名性定义和观察能力限制，采样误差与真实部署偏离需分别处理。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://research.uni-luebeck.de/de/publications/mixnets-on-a-tightrope-quantifying-the-leakage-of-mix-networks-us/。
+- 代码/数据核查：not checked；引用追踪：pending。
 
 ## Peek-a-Walk: Leaking Secrets via Page Walk Side Channels
 
@@ -930,6 +1046,30 @@
 - 已读章节：PDF p.1 abstract; p.7 sections 3.3 and 4.1; pp.10–11 section 4.4 and continuation; p.12 section 5.2; selected references [15] p.14 and [53] p.15
 - [详细阅读记录](notes/power-observation-and-pqc-boundaries-20261113.md)
 - 代码/数据核查：author README fully read (platform and code overview, incomplete-porting/TODO statements); no build/run or end-to-end artifact completeness audit；引用追踪：selected references 15 and 53 linked; full inventory and forward search pending。
+
+## Rapid Reversing of Non-Linear CPU Cache Slice Functions: Unlocking Physical Address Leakage
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-143)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Mikka Rainer; Lorenz Hetterich; Fabian Thomas; Tristan Hornetz; Leon Trampert; Lukas Gerlach; Michael Schwarz
+- 对象：CPU cache slice, physical address, Spectre, DRAMA；类型：microarchitectural_mapping_and_side_channel。
+- 核心想法：研究非线性 LLC 切片函数的逆向，并将其用于虚拟到物理地址关联及侧信道准备。
+- 作者报告：摘要报告逆向 13 个切片函数，并在 Spectre、DRAMA 和驱逐集构造中展示应用。
+- 限制与下一步：运行时无特权地址 oracle 不代表离线校准和整条逆向流程无特权；逆向耗时不能当作完整密钥恢复成本。具体硬件和访问条件待正文核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://fabianthomas.de/pdfs/rainer2025rapid.pdf。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## SCAD: Towards a Universal and Automated Network Side-Channel Vulnerability Detection
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-24)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Keyu Man; Zhongjie Wang; Yu Hao; Shenghan Zheng; Xin'an Zhou; Yue Cao; Zhiyun Qian
+- 对象：network side channels, non-interference, symbolic execution, TCP, UDP, ICMP；类型：automated_side_channel_detection。
+- 核心想法：SCAD 以跨执行的非干扰违例寻找网络协议共享状态泄漏，结合选择性符号执行与路径对分析。
+- 作者报告：所读正文要求人工标注秘密、响应可观察量和分析范围；针对可伪造源 IP 的离路径攻击，作者报告 14 个真阳性、其中 7 个此前未知。
+- 限制与下一步：允许任意符号状态与不正确具体化会产生不可达状态误报；范围过窄会漏报。检测到模型违例不自动证明实际可利用性、穷尽覆盖或任何随机化下的统计泄漏。
+- 阅读层级：selected_full_text_sections；来源：https://www.cs.ucr.edu/~zhiyunq/pub/oakland25_SCAD.pdf。
+- 已读章节：Author PDF p.3 sections 3.1–3.2; p.8 sections 5.2–5.4; pp.13–14 section 9 and conclusion: annotations, analysis scope, unreachable states and concretization; abstract on p.1.
+- [详细阅读记录](notes/sp2025-observation-and-proof-scopes-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
 
 ## SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon
 
@@ -966,6 +1106,41 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2504.11208。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Sniffing Location Privacy of Video Conference Users Using Free Audio Channels
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-192)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Long Huang; Chen Wang
+- 对象：video conferencing, active acoustic sensing, location inference；类型：active_acoustic_privacy_side_channel。
+- 核心想法：通过视频会议合法双向音频的回声探测周围环境，并从残余声学响应推断地点或场景。
+- 作者报告：摘要区分会内构造探测声和第三方媒体声两类主动感知，并用学习模型处理回声消除后的失真。
+- 限制与下一步：关闭摄像头或使用虚拟背景不等于麦克风静音；不能据引言措辞宣称关闭音频输入仍可攻击。地点分类不是精确地理坐标，需核查参考数据和参与者能力。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11023324/。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Sparta: Practical Anonymity with Long-Term Resistance to Traffic Analysis
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-103)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Kyle Fredrickson; Ioannis Demertzis; James P. Hughes; Darrell D.E. Long
+- 对象：metadata-private messaging, traffic analysis, deferred retrieval；类型：traffic_analysis_countermeasure。
+- 核心想法：Sparta 用延迟取回模型组织元数据私密通信，以减少长期发送与接收流量的关联。
+- 作者报告：作者给出不同延迟/吞吐场景的三种构造；所读正文要求用户不按实际收到的流量决定取回，并区分处理、用户等待和服务端等待延迟。
+- 限制与下一步：低系统处理延迟不能替代端到端等待；比较图中的数据库大小并不统一。用户行为、定长填充与重加密是模型条件，不能概括为任意通信行为均匿名。
+- 阅读层级：selected_full_text_sections；来源：https://idemertzis.com/Papers/sp2025_sparta.pdf。
+- 已读章节：Author PDF p.4: Figure 1 caption, latency components and section 3.1 communication-state model; abstract on p.1.
+- [详细阅读记录](notes/sp2025-observation-and-proof-scopes-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Spoofing Eavesdroppers with Audio Misinformation
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-199)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Zhambyl Shaikhanov; Mahmoud Al-Madi; Hou-Tong Chen; Chun-Chieh Chang; Sadhvikas Addamane; Daniel M. Mittleman; Edward Knightly
+- 对象：mmWave vibration sensing, metasurface, audio misinformation；类型：physical_side_channel_countermeasure。
+- 核心想法：MiSINFO 通过可重构超表面改变毫米波振动读出，尝试让窃听者接收到合成的错误语音。
+- 作者报告：作者报告在其装置和识别条件下抑制原始内容并提高合成内容的可理解度；作用点是物理测量路径。
+- 限制与下一步：特定误词率或欺骗效果不保证对所有传感器、距离和自适应检测有效；与音频输入扰动是不同干预，不能只按一个防护百分比排序。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://bpb-us-e1.wpmucdn.com/blogs.rice.edu/dist/d/12661/files/2025/03/MiSINFO-Camera_Ready.pdf。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution
 
 - 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15)；时间标记：conference year 2025 within frozen window; exact publication date not verified。
@@ -1000,6 +1175,17 @@
 - 限制与下一步：域内自训练的设计限制与另发现的隔离实现缺陷是不同结论；并非任何代码或任何受保护系统都可攻击，实际构件和配置仍须正文核对。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://download.vusec.net/papers/trainingsolo_sp25.pdf。
 - 代码/数据核查：repository discovered but contents not checked；引用追踪：pending。
+
+## Your Cable, My Antenna: Eavesdropping Serial Communication via Backscatter Signals
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-157)；时间标记：formal publication within rolling window; publisher-deposited date。
+- 作者：Lina Pu; Yu Luo; Song Han; Junming Diao
+- 对象：serial communication, backscatter, impedance, EM；类型：backscatter_side_channel。
+- 核心想法：BTC 利用串口位状态对应的阻抗变化调制回散信号，由电缆的非预期天线作用泄漏串行通信。
+- 作者报告：摘要报告视距与穿墙条件的实验，并另外以全波模型分析线长、载波与可行性。
+- 限制与下一步：摘要未完整说明入射载波的产生与访问条件，不能直接写成纯被动辐射窃听。4 cm 线长的实验与 1 cm 的模拟结论需分开；不改设备不等于没有外部射频条件。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11023318/。
+- 代码/数据核查：not checked；引用追踪：pending。
 
 ## Adaptive Template Attacks on the Kyber Binomial Sampler
 

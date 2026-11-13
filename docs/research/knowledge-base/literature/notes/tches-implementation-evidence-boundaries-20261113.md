@@ -26,6 +26,8 @@
 
 **Kyber 功能正确性论文保留在相邻主题。** 已读 [Episode IV PDF](https://tches.iacr.org/index.php/TCHES/article/download/10960/10267)第 4、26 页（刊页 167、189）。作者将恒时及 Spectre v1 防护指向另一篇研究和后续结合；还区分了完全优化与已验证的 AVX2 拒绝采样版本、SHA3 证明边界、内存安全检查与可信基础。仅凭 Jasmin 或“形式化验证”标签，不能把本篇直接纳入为已完成实现侧信道证明。
 
+后续已补查 S&P 2025 的 Faster Verification of Faster Implementations，并核对其参考文献 [11] 指向本篇。优化拒绝采样的功能验证进展、Jasmin 的属性保持能力和实际侧信道保证分别记录，见[接续专题](sp2025-observation-and-proof-scopes-20261113.md)。
+
 **Verified NTT 仍是正确性背景。** 已读[出版商 PDF](https://tches.iacr.org/index.php/TCHES/article/download/9838/9341)首页及已存摘要，覆盖 CryptoLine 对六种汇编乘法的代数正确性和范围检查。正文关键词搜索只用于导航，不作为全文阅读或“全文不存在侧信道内容”的证据。
 
 ## 保留相邻论文，继续检查潜在遗漏

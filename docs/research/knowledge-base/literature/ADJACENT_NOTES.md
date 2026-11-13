@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 112 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 121 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA
 
@@ -394,11 +394,32 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## GuardAIn: Protecting Emerging Generative AI Workloads on Heterogeneous NPU
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-114)。
+- 判定依据：GuardAIn 讨论 NPU 的认证加密、隔离与任务证明；摘要未建立功耗、时间或微架构侧信道性质，作为机密计算背景保留。
+- 阅读来源：https://clement-thorens.ch/pdfs/guardain.pdf。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Hey, Your Secrets Leaked! Detecting and Characterizing Secret Leakage in the Wild
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-169)。
+- 判定依据：Keysentinel 检测代码与配置中的 API key、密码等直接暴露；此处 secret leakage 不是物理或共享资源侧信道。
+- 阅读来源：https://xplorestaging.ieee.org/document/11023280/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Improving MPCitH with Preprocessing: Mask Is All You Need
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i2.1-22)。
 - 判定依据：优化 MPCitH 预处理与 Picnic3 并行计算；mask 是证明协议中的随机掩蔽，摘要未给出物理掩码或侧信道安全评估。
 - 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Is MPC Secure? Leveraging Neural Network Classifiers to Detect Data Leakage Vulnerabilities in MPC Implementations
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-235)。
+- 判定依据：MPCGuard 用分类器比较 MPC 实现中参与者视图的隐私泄漏，作为实现隐私测试方法背景；摘要未把泄漏归因于功耗、时间或共享硬件观测。
+- 阅读来源：https://xplorestaging.ieee.org/document/11023305/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## LESS is Even More: Optimizing Digital Signatures from Code Equivalence
@@ -443,6 +464,20 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## PORTAL: Fast and Secure Device Access with Arm CCA for Modern Arm Mobile System-on-Chips (SoCs)
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-48)。
+- 判定依据：PORTAL 以 Arm CCA 访问隔离实现设备 I/O 的明文共享内存，摘要的保密与性能主张不能自动转为物理侧信道保护。
+- 阅读来源：https://sang.fan/assets/papers/portal_sp25.pdf。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166)。
+- 判定依据：混合推演与电路等价检查用于 ML-KEM 优化代码的功能正确性。所读正文另介绍 Jasmin 对恒时/推测恒时属性的保持能力；功能等价证明本身不等于这些属性或模拟泄漏的证明。按功能验证与工具链背景保留。出版题名为 Faster Verification of Faster Implementations，录用目录的 Proving Faster Implementations Faster 是同一论文的题名别名。
+- 阅读来源：https://xplorestaging.ieee.org/document/11023411/ ; https://cryptosith.org/papers/mapreduce-20250907.pdf。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Quantum security analysis of Module-LWE PQC based on practical cost estimates
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i4.437-462)。
@@ -457,11 +492,25 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Resolution Without Dissent: In-Path Per-Query Sanitization to Defeat Surreptitious Communication Over DNS
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-75)。
+- 判定依据：TunTight 识别并阻断 DNS 域名中承载的隧道通信，属于显式数据外传及检测背景；不能仅凭 covert/exfiltration 用词纳入非预期实现泄漏。
+- 阅读来源：https://xplorestaging.ieee.org/document/11023297/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Rudraksh: A compact and lightweight post-quantum key-encapsulation mechanism
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i2.647-680)。
 - 判定依据：Rudraksh 联合选择 LWE 参数、ASCON 与 FPGA 实现以降低面积；摘要中的 CCA/Core-SVP 安全是密码学口径，不构成物理侧信道保护。
 - 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Security Attacks Abusing Pulse-level Quantum Circuits
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-6)。
+- 判定依据：研究量子 SDK 自定义门的脉冲语义与逻辑电路语义不一致导致的恶意执行，属于量子软件完整性；不是后量子密码实现或被动波形侧信道。
+- 阅读来源：https://caslab.io/publications/xu2025security.pdf。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Sharing the Mask: TFHE Bootstrapping on Packed Messages
@@ -476,6 +525,20 @@
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i2.362-384)。
 - 判定依据：研究格筛的访存成本和 SVP 攻击资源估计，属于数学安全与后处理背景；不是观测受害实现的缓存攻击。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## SoK: Decoding the Enigma of Encrypted Network Traffic Classifiers
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-219)。
+- 判定依据：SoK 审查加密流量分类中的数据集、特征和评价假设，作为方法学背景；未据此推断所有网站指纹论文都使用同样有问题的数据。
+- 阅读来源：https://arxiv.org/abs/2503.20093。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## TrafficFormer: An Efficient Pre-trained Model for Traffic Data
+
+- 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-27)。
+- 判定依据：TrafficFormer 的预训练、数据增强与协议理解是一般流量学习方法；摘要没有给出具体敏感目标与侧信道观察关系，保留为方法背景。
+- 阅读来源：https://liuzhuotao.github.io/publications/trafficformer/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## VeloFHE: GPU Acceleration for FHEW and TFHE Bootstrapping

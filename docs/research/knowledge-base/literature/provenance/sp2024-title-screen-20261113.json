@@ -1,0 +1,17 @@
+{
+  "reviewed_on": "2026-11-13",
+  "sources": [],
+  "catalog_file": "catalogs/sp-2024.jsonl",
+  "catalog_sha256": "87c4a405095b22fdcb6e7868a30454f9ce0973419c63e34b68d24985b55f5c48",
+  "title_records_read": 261,
+  "decision_counts": {
+    "outside_title_scope": 156,
+    "adjacent": 63,
+    "uncertain": 23,
+    "candidate": 19
+  },
+  "basis": "all 261 complete catalog titles individually read by Codex; title-only provisional decisions",
+  "independent_second_review": false,
+  "independent_toc_crosscheck": "pending",
+  "abstract_completion_claim": false
+}
