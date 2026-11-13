@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-14 构思增补：[安全容差、保密核验与诱饵执行](brainstorms/2026-11-14-robustness-private-audit-and-decoy-execution.md)记录 robust probing、Robust but Relaxed Probing Model、Zeus 及 Honey Encryption 四项原始页面的摘要与元数据阅读。分别区分已覆盖的物理缺陷与模型外偏差、控制流监测与联合保密核验、合理假明文与公钥条件下的诱饵通道。仅作概念定位，未核对全文证明或新颖性，未增加正式文献卡片或执行实验。
+
 2026-11-14 NDSS 2024 初筛：[来源与哈希](literature/provenance/ndss2024-initial-20261114.json)记录 140 条标题与六篇完整官方摘要，五条纳入、一条相邻；134 篇摘要仍未读。[证据笔记](literature/notes/ndss2024-initial-observation-models-20261114.md)区分简化 ISA 证明、缓存观察模型、空闲状态通道、gem5 原型和相对猜测概率。未读正文或参考列表。另为[研究目标交接](brainstorms/2026-11-14-algorithm-first-echoes-and-model-discovery.md)读取 POLKA 的 NIST 演讲说明，未核对全文证明，不新增正式文献卡片或升级实验结论。
 
 2026-11-14 USENIX 2025 引文接续：[来源与哈希](literature/provenance/usenix2025-citation-followup-20261114.json)记录十五条论文/版本卡片、Aegis 指定正文及访问限制。解析十二条原发现，新增十五条引用边、四条版本关系（三条核实、一条推定）；MORE 全部 27 条引用初筛产生十九条新待查。[证据笔记](literature/notes/usenix2025-citation-followup-versions-and-defense-20261114.md)保留 Kyber 分类器前提、CSUR 同题作品区别、HQC 调用预算、碰撞论文版本数字及 Aegis 实际评价范围。未运行实验或作者代码。
