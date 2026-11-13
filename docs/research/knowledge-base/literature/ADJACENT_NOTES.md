@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 159 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 179 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA
 
@@ -58,11 +58,39 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## A Logic and an Interactive Prover for the Computational Post-Quantum Security of Protocols
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833800)。
+- 判定依据：证明协议面对量子攻击者的计算安全；摘要未涉及实现侧信道。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833800/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Annotating, Tracking, and Protecting Cryptographic Secrets with CryptoMPK
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833650)。
+- 判定依据：CryptoMPK 保护敏感内存免受任意读取；摘要未给时间、微架构或物理非干扰保证。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833650/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Anti-Tamper Radio: System-Level Tamper Detection for Computing Systems
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833631)。
+- 判定依据：ATR 通过无线传播变化检测物理插入；侧信道是防护动机，摘要未评价具体秘密泄漏，保留物理防拆背景。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833631/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## BAT: Small and Fast KEM over NTRU Lattices
 
 - 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i2.240-265)。
 - 判定依据：新的 NTRU 型 BAT KEM、解码与整数实现；文中 masking parameter p 是方案结构参数，不据此认定为抗侧信道掩码。
 - 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Blacksmith: Compromising Target Row Refresh by Rowhammering in the Frequency Domain
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833772)。
+- 判定依据：Blacksmith 生成 Rowhammer 位翻转，当前摘要为故障向量与 TRR 绕过，没有附加观察秘密的侧信道关系。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833772/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## CFNTT: Scalable Radix-2/4 NTT Multiplication Architecture with an Efficient Conflict-free Memory Mapping Scheme
@@ -72,6 +100,27 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## CirC: Compiler infrastructure for proof systems, software verification, and more
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833782)。
+- 判定依据：CirC 是约束编译基础设施，用于证明、验证及 MPC；本摘要未给实现侧信道性质。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833782/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## HAMRAZ: Resilient Partitioning and Replication
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833661)。
+- 判定依据：HAMRAZ 是分布式分区、复制及 Byzantine 情形的信息流保证，未说明时间或物理观察模型。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833661/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Hardening Circuit-Design IP Against Reverse-Engineering Attacks
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833634)。
+- 判定依据：电路 IP 隐藏与逆向恢复的密码学模型，非功耗/EM 观察分析。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833634/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Highly Vectorized SIKE for AVX-512
 
 - 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i2.41-68)。
@@ -79,11 +128,39 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## How Not to Protect Your IP - An Industry-Wide Break of IEEE 1735 Implementations
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833605)。
+- 判定依据：IEEE 1735 私钥提取与白盒 RSA 破解；摘要显示直接软件/白盒分析，不是侧信道测量。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833605/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Improved Plantard Arithmetic for Lattice-based Cryptography
 
 - 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i4.614-636)。
 - 判定依据：改进 Plantard 算术范围与约减效率；数值正确性和性能不等于泄漏安全。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833718)。
+- 判定依据：Invisible Finger 主要为 EM 触摸注入；反馈与定位用于辅助注入，未见敏感值侧信道推断。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833718/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Low-Bandwidth Threshold ECDSA via Pseudorandom Correlation Generators
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833559)。
+- 判定依据：门限 ECDSA 协议及通信复杂度，不能把秘密分享协议自动视为物理掩码。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833559/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## MatRiCT+: More Efficient Post-Quantum Private Blockchain Payments
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833655)。
+- 判定依据：MatRiCT+ 为后量子隐私支付与证明系统，非实现泄漏研究。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833655/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Multi-Parameter Support with NTTs for NTRU and NTRU Prime on Cortex-M4
@@ -100,11 +177,32 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## PROTRR: Principled yet Optimal In-DRAM Target Row Refresh
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833664)。
+- 判定依据：ProTRR 为 Rowhammer 刷新缓解及形式界，当前属故障防护背景。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833664/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Polynomial multiplication on embedded vector architectures
 
 - 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i1.482-505)。
 - 判定依据：优化嵌入式向量平台多项式乘法的性能与能耗；能量效率不是秘密相关功耗泄漏度量。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Privacy-from-Birth: Protecting Sensed Data from Malicious Sensors with VERSA
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833737)。
+- 判定依据：VERSA 约束恶意软件直接访问 GPIO/传感值，未说明非预期侧信道的观察边界。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833737/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## RT-TEE: Real-time System Availability for Cyber-physical Systems using ARM TrustZone
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833604)。
+- 判定依据：RT-TEE 主要保证实时可用性、外设访问与调度隔离，摘要未研究侧信道。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833604/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Roulette: A Diverse Family of Feasible Fault Attacks on Masked Kyber
@@ -114,6 +212,34 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## SMILE: Secure Memory Introspection for Live Enclave
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833714)。
+- 判定依据：SMILE 为授权的 enclave 内存读取/诊断服务，不是通过间接观察推断秘密。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833714/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## SecFloat: Accurate Floating-Point meets Secure 2-Party Computation
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833697)。
+- 判定依据：SecFloat 为精确浮点两方安全计算；不等于分析真实浮点硬件计时/功耗泄漏。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833697/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Security Analysis of the MLS Key Derivation
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833678)。
+- 判定依据：MLS 密钥派生的协议计算安全与恢复性质，非物理实现泄漏。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833678/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Security Foundations for Application-Based Covert Communication Channels
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833752)。
+- 判定依据：ABCC 形式化应用协议承载的隐蔽通信与抗被动检测，非非预期实现泄漏；保留通信理论背景。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833752/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Verified NTT Multiplications for NISTPQC KEM Lattice Finalists: Kyber, SABER, and NTRU
 
 - 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i4.718-750)。
@@ -121,11 +247,25 @@
 - 阅读来源：https://tches.iacr.org/index.php/TCHES/article/download/9838/9341。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## WIGHT: Wired Ghost Touch Attack on Capacitive Touchscreens
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833740)。
+- 判定依据：WIGHT 经充电线注入触摸事件，为主动信号注入而非敏感信息侧信道读取。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833740/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## When Bad News Become Good News: Towards Usable Instances of Learning with Physical Errors
 
 - 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i4.1-24)。
 - 判定依据：将非精确计算产生错误从 LPPN 推广为 LWPE，分析数据相关误差与 FPGA 设计修正；保留物理采样和数学安全背景，不把输出误差依赖自动称为测量侧信道。
 - 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## vSGX: Virtualizing SGX Enclaves on AMD SEV
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833694)。
+- 判定依据：vSGX 研究跨硬件虚拟化与证明链；摘要的 comparable security 未具体包括侧信道。
+- 阅读来源：https://xplorestaging.ieee.org/document/9833694/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## BASALISC: Programmable Hardware Accelerator for BGV Fully Homomorphic Encryption

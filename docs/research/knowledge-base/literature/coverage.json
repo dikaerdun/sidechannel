@@ -2,32 +2,32 @@
   "cutoff": "2026-11-12",
   "rolling_window_start": "2021-11-12",
   "reading_updated_on": "2026-11-13",
-  "total_catalog_records": 6666,
+  "total_catalog_records": 6670,
   "priority_counts": {
     "unmatched_pending": 5388,
     "sca_terms": 922,
     "pqc_terms": 196,
-    "pqc_and_sca_terms": 160
+    "pqc_and_sca_terms": 164
   },
   "core_catalog_records": 6629,
-  "citation_expansion_records": 37,
-  "title_screened_records": 1311,
-  "abstract_screened_records": 384,
-  "included_papers": 225,
+  "citation_expansion_records": 41,
+  "title_screened_records": 1458,
+  "abstract_screened_records": 437,
+  "included_papers": 258,
   "reading_level_counts": {
-    "abstract_and_bibliographic_metadata": 195,
-    "selected_full_text_sections": 30
+    "abstract_and_bibliographic_metadata": 224,
+    "selected_full_text_sections": 34
   },
   "citation_progress": {
-    "verified_citation_edges": 72,
-    "verified_version_edges": 18,
+    "verified_citation_edges": 78,
+    "verified_version_edges": 21,
     "inferred_version_edges": 1,
     "task_status_counts": {
-      "pending": 408,
-      "in_progress": 42
+      "pending": 473,
+      "in_progress": 43
     },
-    "unresolved_discoveries": 4,
-    "resolved_discoveries": 22
+    "unresolved_discoveries": 7,
+    "resolved_discoveries": 26
   },
   "core_cells": [
     {
@@ -127,12 +127,13 @@
       "catalog_records": 147,
       "catalog_parsed": true,
       "provenance_file": "provenance/sp-2022.json",
-      "independent_toc_crosscheck": "pending",
-      "screened_records": 0,
-      "title_screened_records": 0,
-      "abstract_screened_records": 0,
+      "independent_toc_crosscheck": "matched_print_toc",
+      "screened_records": 49,
+      "title_screened_records": 147,
+      "abstract_screened_records": 49,
       "citation_chasing": "pending",
-      "complete": false
+      "complete": false,
+      "toc_crosscheck_provenance": "provenance/sp2022-print-toc-crosscheck-20261113.json"
     },
     {
       "venue": "SP",

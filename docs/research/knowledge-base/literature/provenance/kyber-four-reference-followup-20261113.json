@@ -1,0 +1,164 @@
+{
+  "reviewed_on": "2026-11-13",
+  "sources": [
+    {
+      "source_id": "kyber4-acns-artifact-readme",
+      "url": "https://github.com/crocs-muni/Attack_Kyber_ACNS2024/blob/main/README.md",
+      "retrieved_at": "2026-11-13T12:36:30.338318+00:00",
+      "sha256": "c579111b2b076072f2b8870662bda32b2c83b7cc055fa218bf27674ef085a818",
+      "bytes": 339,
+      "transport": "GitHub connector fetch_file",
+      "git_blob_sha": "dddc961e8b194e3e8df0b2f4654a7ef7a835cf1c",
+      "scope": "README only; artifact content and completeness not inspected; no execution"
+    },
+    {
+      "source_id": "kyber4-acns-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-54773-7_5",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-54773-7_5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:48.832310+00:00",
+      "sha256": "81579b0970440b51e500963054e4b7329982f797967784a0a90d5cc706ced470",
+      "bytes": 21634,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "kyber4-acns-eprint",
+      "url": "https://eprint.iacr.org/2023/551",
+      "response_url": "https://eprint.iacr.org/2023/551",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:38.597117+00:00",
+      "sha256": "8f26a9c621e02980ecd847d1ce4814c4b49e42e0733ca396d94e4d6572ade220",
+      "bytes": 18002,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "kyber4-acns-eprint-pdf",
+      "url": "https://eprint.iacr.org/2023/551.pdf",
+      "response_url": "https://eprint.iacr.org/2023/551.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T12:12:39.425773+00:00",
+      "sha256": "28dc89d3719ad7141ec9f76de844317e094141316acbf7aa9cdf1546e67b9ddd",
+      "bytes": 5580,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "kyber4-acns-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-54773-7_5",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-54773-7_5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:44.448329+00:00",
+      "sha256": "55d42a3d52ae334a3bd6ae426556fd78cef1450ee8f2fa4a4434dd52051fab87",
+      "bytes": 374740,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "kyber4-asianhost-author-pdf",
+      "url": "https://mahaocheng.me/assets/pdf/AsianHOST_2022_Kyber_SCA.pdf",
+      "response_url": "https://mahaocheng.me/assets/pdf/AsianHOST_2022_Kyber_SCA.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:59.623764+00:00",
+      "sha256": "e512e70261c18c89d59e431a1b45c67fc1a1d943055cc1c52f6ebf5fd378f324",
+      "bytes": 9271312,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "kyber4-asianhost-crossref",
+      "url": "https://api.crossref.org/works/10.1109/AsianHOST56390.2022.10022165",
+      "response_url": "https://api.crossref.org/works/10.1109/AsianHOST56390.2022.10022165",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:44.096018+00:00",
+      "sha256": "2def14ba63baaed01fce96090eb34f9acdfecf075e4ba704a692c63d91d13ecb",
+      "bytes": 5485,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "kyber4-asianhost-publisher",
+      "url": "https://xplorestaging.ieee.org/document/10022165/",
+      "response_url": "https://xplorestaging.ieee.org/document/10022165/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:41.515441+00:00",
+      "sha256": "00db2fe0b8787b2b0afad8c4aedba64f987b402d4f2fec1d3e39e67c1c16e86b",
+      "bytes": 47058,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "kyber4-shuffle-arxiv",
+      "url": "https://arxiv.org/abs/2407.02452v5",
+      "response_url": "https://arxiv.org/abs/2407.02452v5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:40.865182+00:00",
+      "sha256": "7823f53925d0b90f86784b519b41d47dd735bdc67053891b2556002803400eb5",
+      "bytes": 42702,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "kyber4-shuffle-arxiv-pdf",
+      "url": "https://arxiv.org/pdf/2407.02452v5",
+      "response_url": "https://arxiv.org/pdf/2407.02452v5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:47.971781+00:00",
+      "sha256": "c8ba38e233606ba9a063f450916de71e7596eaf8cb6d8213162addbbcd13fa06",
+      "bytes": 743958,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "kyber4-shuffle-crossref",
+      "url": "https://api.crossref.org/works/10.1109/TCSII.2025.3528751",
+      "response_url": "https://api.crossref.org/works/10.1109/TCSII.2025.3528751",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:51.786570+00:00",
+      "sha256": "b2f3f255e4767d505cde20f362d3b35793622243103033036313b0d566ff8c71",
+      "bytes": 5303,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "kyber4-tecs-accepted-pdf",
+      "url": "https://imec-publications.be/server/api/core/bitstreams/66e72efc-ea82-49ea-8298-b01f6f1ba443/content",
+      "response_url": "https://imec-publications.be/server/api/core/bitstreams/66e72efc-ea82-49ea-8298-b01f6f1ba443/content",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:42.679466+00:00",
+      "sha256": "4e7f7cc259e70c2ba044ba1a07183e9ffae3a8b8e59084985d296dee4726778e",
+      "bytes": 1201837,
+      "content_type": "application/pdf;charset=UTF-8"
+    },
+    {
+      "source_id": "kyber4-tecs-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3569420",
+      "response_url": "https://api.crossref.org/works/10.1145/3569420",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:47.257468+00:00",
+      "sha256": "dcbfb8f210389b6dbbd11825db7ad3a825ff0bd22a6b4be9d3ad13c0595eca21",
+      "bytes": 18934,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "kyber4-tecs-institution",
+      "url": "https://imec-publications.be/entities/publication/b5e5291a-f041-489a-9274-fba6b0da02e3",
+      "response_url": "https://imec-publications.be/entities/publication/b5e5291a-f041-489a-9274-fba6b0da02e3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:41.847790+00:00",
+      "sha256": "fee33a889363908a53e8e0d6f49c12ef615dfe4dd58ffdbd27abdfc4d677e4b8",
+      "bytes": 693816,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "batch": {
+    "new_cards": 4,
+    "resolved_discoveries": 4,
+    "selected_full_text_cards": 3,
+    "new_citation_edges": 6,
+    "new_version_edges": 3,
+    "new_pending_discoveries": 7
+  },
+  "metadata_exceptions": [
+    "TECS accepted PDF 26 pages and different author order/name forms versus formal 1–23; institutional record explicitly links accepted PDF",
+    "TCAS-II cited 2022 TCAD and other bibliography years need original online/volume distinction",
+    "AsianHOST 2022 and TCAS-I 2023 share authors/topic and headline budgets, but explicit extension statement and reused experiments not established"
+  ],
+  "scope_notes": [
+    "ACNS PDF access returned HTTP 403; card remains abstract/metadata with README-only artifact check",
+    "README is a connector retrieval with Git blob and content SHA, not a claim of artifact completeness",
+    "All source PDFs and abstracts remain outside public repo",
+    "Selected citation inventory remains partial; no experiments or author artifact execution"
+  ]
+}

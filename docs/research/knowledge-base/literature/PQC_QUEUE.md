@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6666 条，其中 356 条命中后量子相关关键词。
+当前目录记录 6670 条，其中 360 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -132,6 +132,7 @@
 | 2025 SP | [PQ-Hammer: End-to-end Key Recovery Attacks on Post-Quantum Cryptography Using Rowhammer](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-86) | pending |
 | 2025 SP | [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | adjacent |
 | 2025 SP | [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) | include |
+| 2025 TCAS-II | [A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber](https://doi.org/10.1109/tcsii.2025.3528751) | include |
 | 2025 TCHES | [A High-performance NTT/MSM Accelerator for Zero-knowledge Proof Using Load-balanced Fully-pipelined Montgomery Multiplier](https://doi.org/10.46586/tches.v2025.i1.275-313) | adjacent |
 | 2025 TCHES | [A New Trick for Polynomial Multiplication: A verified CRT polymul utilizing a monomial factor](https://doi.org/10.46586/tches.v2025.i4.795-816) | adjacent |
 | 2025 TCHES | [Accelerating NTT with RISC-V Vector Extension for Fully Homomorphic Encryption](https://doi.org/10.46586/tches.v2025.i4.711-736) | adjacent |
@@ -185,6 +186,8 @@
 | 2025 USENIX | [TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs](https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner) | pending |
 | 2025 USENIX | [Tracking You from a Thousand Miles Away! Turning a Bluetooth Device into an Apple AirTag Without Root Privileges](https://www.usenix.org/conference/usenixsecurity25/presentation/chen-junming) | pending |
 | 2025 arXiv | [A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography](https://arxiv.org/abs/2512.22301) | include |
+| 2024 ACM TECS | [Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication](https://doi.org/10.1145/3569420) | include |
+| 2024 ACNS | [Breaking DPA-Protected Kyber via the Pair-Pointwise Multiplication](https://doi.org/10.1007/978-3-031-54773-7_5) | include |
 | 2024 CCS | [Practical Post-Quantum Signatures for Privacy](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
 | 2024 CCS | [The Insecurity of Masked Comparisons: SCAs on ML-KEM's FO-Transform](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
 | 2024 CCS | [The LaZer Library: Lattice-Based Zero Knowledge and Succinct Proofs for Quantum-Safe Privacy](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
@@ -281,6 +284,7 @@
 | 2023 USENIX | [Dubhe: Succinct Zero-Knowledge Proofs for Standard AES and related Applications](https://www.usenix.org/conference/usenixsecurity23/presentation/ding-changchang) | pending |
 | 2023 USENIX | [Squirrel: A Scalable Secure Two-Party Computation Framework for Training Gradient Boosting Decision Tree](https://www.usenix.org/conference/usenixsecurity23/presentation/lu) | pending |
 | 2023 ePrint | [Single-Trace Side-Channel Attacks on CRYSTALS-Dilithium: Myth or Reality?](https://eprint.iacr.org/2023/1931) | include |
+| 2022 AsianHOST | [Vulnerable PQC against Side Channel Analysis - A Case Study on Kyber](https://doi.org/10.1109/asianhost56390.2022.10022165) | include |
 | 2022 CCS | [How to Hide MetaData in MLS-Like Secure Group Messaging: Simple, Modular, and Post-Quantum](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | pending |
 | 2022 CCS | [NTRU-u-um: Secure Fully Homomorphic Encryption from NTRU with Small Modulus](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | pending |
 | 2022 CCS | [Post Quantum Noise](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | pending |
@@ -289,8 +293,8 @@
 | 2022 EUROCRYPT | [Mitaka: A Simpler, Parallelizable, Maskable Variant of Falcon](https://doi.org/10.1007/978-3-031-07082-2_9) | include |
 | 2022 NIST PQC conference | [Leveling Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage) | include |
 | 2022 SAC | [Profiling Side-Channel Attacks on Dilithium: A Small Bit-Fiddling Leak Breaks It All](https://doi.org/10.1007/978-3-031-58411-4_1) | include |
-| 2022 SP | [A Logic and an Interactive Prover for the Computational Post-Quantum Security of Protocols](https://www.ieee-security.org/TC/SP2022/program-papers.html) | pending |
-| 2022 SP | [MatRiCT+: More Efficient Post-Quantum Private Blockchain Payments](https://www.ieee-security.org/TC/SP2022/program-papers.html) | pending |
+| 2022 SP | [A Logic and an Interactive Prover for the Computational Post-Quantum Security of Protocols](https://doi.org/10.1109/sp46214.2022.9833800) | adjacent |
+| 2022 SP | [MatRiCT+: More Efficient Post-Quantum Private Blockchain Payments](https://doi.org/10.1109/sp46214.2022.9833655) | adjacent |
 | 2022 TCHES | [A Compact and High-Performance Hardware Architecture for CRYSTALS-Dilithium](https://doi.org/10.46586/tches.v2022.i1.270-295) | adjacent |
 | 2022 TCHES | [A Constant-time AVX2 Implementation of a Variant of ROLLO](https://doi.org/10.46586/tches.v2022.i1.152-174) | include |
 | 2022 TCHES | [A Key-Recovery Side-Channel Attack on Classic McEliece Implementations](https://doi.org/10.46586/tches.v2022.i4.800-827) | include |

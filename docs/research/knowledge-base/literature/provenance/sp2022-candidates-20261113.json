@@ -1,0 +1,2565 @@
+{
+  "reviewed_on": "2026-11-13",
+  "sources": [
+    {
+      "source_id": "sp22-ble-author-pdf",
+      "url": "https://wcsng.ucsd.edu/files/sp22_paper.pdf",
+      "response_url": "https://wcsng.ucsd.edu/files/sp22_paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:32:22.161102+00:00",
+      "sha256": "a4105998bae9660215fd79ae6518bdee1eef2384caaca0a5887941a3faa24520",
+      "bytes": 806992,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "sp22-candidate-10",
+      "url": "https://xplorestaging.ieee.org/document/9833716/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833716/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:16:52.101592+00:00",
+      "sha256": "457fff18a7c8eff2bf6599d72dab28fd22e642016bf5756f2cdd2631ca90d4c6",
+      "bytes": 47714,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-101",
+      "url": "https://xplorestaging.ieee.org/document/9833604/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833604/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:18:51.364262+00:00",
+      "sha256": "f3fea0f695185c99f756dd4f705c29d4fecddcc3f041416aea58708757499835",
+      "bytes": 48491,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-105",
+      "url": "https://xplorestaging.ieee.org/document/9833697/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833697/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:18:59.271182+00:00",
+      "sha256": "abae21503416b8462ffef454cfaaa8c26add306c6e70bf0febba590338d40ef9",
+      "bytes": 46687,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-106",
+      "url": "https://xplorestaging.ieee.org/document/9833678/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833678/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:19:09.385965+00:00",
+      "sha256": "d57acb08ae347b1838212fb37c3ed28b57a0f08320d3b71f6b0775b2a316f344",
+      "bytes": 47389,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-107",
+      "url": "https://xplorestaging.ieee.org/document/9833752/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833752/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:19:10.531976+00:00",
+      "sha256": "e952b23c8cdb4072e9bd3a1691adb688ed7074e20934534f02198d16a4be9dd0",
+      "bytes": 45370,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-11",
+      "url": "https://xplorestaging.ieee.org/document/9833692/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833692/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:16:57.580930+00:00",
+      "sha256": "98a04fb1d32373131237e61d086f15d7c2942490d4e72d31693ac96c5413f1e5",
+      "bytes": 47910,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-111",
+      "url": "https://xplorestaging.ieee.org/document/9833714/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833714/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:19:17.896713+00:00",
+      "sha256": "dd5a958ece61de7bc5fdc0cd33cca73b55a7613b33fb6fc62e5ba54bfb120409",
+      "bytes": 45511,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-117",
+      "url": "https://xplorestaging.ieee.org/document/9833707/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833707/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:19:41.672601+00:00",
+      "sha256": "fb62a893baf3e35e666b065e1f75011fc55fe4b2f2cdc5fb4c1574b3efbdb91c",
+      "bytes": 46899,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-120",
+      "url": "https://xplorestaging.ieee.org/document/9833802/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833802/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:19:38.524393+00:00",
+      "sha256": "01408498ad0d43c05e3833a72d935dfb3cd41fba47a9452dfba27e6bca673740",
+      "bytes": 47394,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-124",
+      "url": "https://xplorestaging.ieee.org/document/9833711/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833711/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:19:40.865954+00:00",
+      "sha256": "a5bd48b73812e1bf9ef6e43e221c783cb8cdb008b5ac555d8b12d5d03178a1aa",
+      "bytes": 48848,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-127",
+      "url": "https://xplorestaging.ieee.org/document/9833722/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833722/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:20:10.236626+00:00",
+      "sha256": "abb888c148c42f4ee9a841c3aab24c561cf3ee87e6aff88e3ac958a835917ca3",
+      "bytes": 47207,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-13",
+      "url": "https://xplorestaging.ieee.org/document/9833650/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833650/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:16:59.769224+00:00",
+      "sha256": "d412ce1b1f450e4f065b5a48b048a09e57627a0aab0fcd82abf956e81a9bec5e",
+      "bytes": 48932,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-132",
+      "url": "https://xplorestaging.ieee.org/document/9833595/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833595/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:20:01.457474+00:00",
+      "sha256": "3eee604fa4075bbb43b92c271aa01e483ff135db010ce489982d8be6a56024c1",
+      "bytes": 48216,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-133",
+      "url": "https://xplorestaging.ieee.org/document/9833710/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833710/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:30:59.088950+00:00",
+      "sha256": "bc175f1a6a5aa3e48d6534667d638e4f54292c291a143cc6378c4c7a3697d225",
+      "bytes": 46629,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-14",
+      "url": "https://xplorestaging.ieee.org/document/9833631/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833631/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:00.651388+00:00",
+      "sha256": "94aa1822d095ed6a6b12e4031d96cf809463433385cd7459abe653cb6d87d438",
+      "bytes": 49112,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-141",
+      "url": "https://xplorestaging.ieee.org/document/9833694/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833694/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:20:25.017801+00:00",
+      "sha256": "c5ff7c07af3efbd1dad11846096bfe37b69cae2492576c4fc12552cb61030c82",
+      "bytes": 45847,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-144",
+      "url": "https://xplorestaging.ieee.org/document/9833740/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833740/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:20:30.114430+00:00",
+      "sha256": "9dc6fb7dc70e80804cea8e372839bf22bdc1998ceb8eb20220528ed11b3beea2",
+      "bytes": 48498,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-15",
+      "url": "https://xplorestaging.ieee.org/document/9833672/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833672/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:04.044424+00:00",
+      "sha256": "bc3976d0a6f7ec1dafecf2a2abcf49cb0ae3d8440531bc4f335950ff33ffb0cc",
+      "bytes": 48548,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-17",
+      "url": "https://xplorestaging.ieee.org/document/9833639/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833639/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:07.198078+00:00",
+      "sha256": "f81010b77be5fc29c7e6766fb894a49da4723cbeb74cc53ac078be9c5970a9c6",
+      "bytes": 46992,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-18",
+      "url": "https://xplorestaging.ieee.org/document/9833570/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833570/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:07.716606+00:00",
+      "sha256": "794a1af9d5fe5f34ce668dbb296be96ea103c83083a70790284c2bb58b6512d7",
+      "bytes": 47050,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-24",
+      "url": "https://xplorestaging.ieee.org/document/9833772/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833772/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:13.248732+00:00",
+      "sha256": "fe4746b0d7242cc93ea6296fbafcae0e800bbd1633fae8585a7cb395ee3d7ac5",
+      "bytes": 48477,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-25",
+      "url": "https://xplorestaging.ieee.org/document/9833774/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833774/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:14.574478+00:00",
+      "sha256": "4f50c2c42c6a798484dfb576c4edc76b088aff0bc3ebf24166e7fbc350766f2a",
+      "bytes": 45901,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-26",
+      "url": "https://xplorestaging.ieee.org/document/9833782/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833782/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:15.722656+00:00",
+      "sha256": "f1c4e64219a5af90d716a964b2fe141e1deeb002951a60149725a7a77d661be6",
+      "bytes": 48542,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-31",
+      "url": "https://xplorestaging.ieee.org/document/9833801/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833801/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:19.462434+00:00",
+      "sha256": "e982c6929e46d55437abd5feeb0a207563868717eef6d8acb610fe03d2cd9adf",
+      "bytes": 49165,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-32",
+      "url": "https://xplorestaging.ieee.org/document/9833743/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833743/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:24.493063+00:00",
+      "sha256": "4f318a7ccabf22b6fc98fa08752dd1edb1c84f028512af7b34549f0a562d5b55",
+      "bytes": 48894,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-36",
+      "url": "https://xplorestaging.ieee.org/document/9833612/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833612/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:24.540788+00:00",
+      "sha256": "889012c2efccc395e0830ce6c890d9681050d16f9dc45561acda889fb0fda77d",
+      "bytes": 47869,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-4",
+      "url": "https://xplorestaging.ieee.org/document/9833713/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833713/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:16:32.328837+00:00",
+      "sha256": "e1adf28f631d5f73e636130463bceba6753718e79fcb0d987dcd9f2645a4dbb7",
+      "bytes": 49825,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-41",
+      "url": "https://xplorestaging.ieee.org/document/9833758/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833758/",
+      "status": 502,
+      "retrieved_at": "2026-11-13T12:30:43.155321+00:00",
+      "sha256": "db1477d84370063ef57684ff888a6f181f3814b246accef927189d0bb10d226e",
+      "bytes": 17480,
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "sp22-candidate-44",
+      "url": "https://xplorestaging.ieee.org/document/9833599/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833599/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:27.538673+00:00",
+      "sha256": "55a1587b015dc8d04d7b54ecc8e92bfa8c2c23e9f225d19cd94d17263c8802d5",
+      "bytes": 49418,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-52",
+      "url": "https://xplorestaging.ieee.org/document/9833773/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833773/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:28.078373+00:00",
+      "sha256": "41a30959a6b17a0bbc3d3ca3d5a0ea13fa6caaaf23e233a45178cf8e18a67ea9",
+      "bytes": 46638,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-54",
+      "url": "https://xplorestaging.ieee.org/document/9833661/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833661/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:27.641886+00:00",
+      "sha256": "f1c6843b0f5bd5dc105da71463bbf4ae75d699c7c95b68a546b99bb4009e661a",
+      "bytes": 46476,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-55",
+      "url": "https://xplorestaging.ieee.org/document/9833634/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833634/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:38.548958+00:00",
+      "sha256": "dbec9cf3265bd993b21cccadd5bc8b0d6a22a9d9d9e94061434e453aee9115a8",
+      "bytes": 46093,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-60",
+      "url": "https://xplorestaging.ieee.org/document/9833605/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833605/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:38.995324+00:00",
+      "sha256": "3c6646e683b3eb0224697e8cf2ba2f75285a3bb398a2eb7690a71285d2ff7f25",
+      "bytes": 48052,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-63",
+      "url": "https://xplorestaging.ieee.org/document/9833718/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833718/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:39.465525+00:00",
+      "sha256": "dc4bbea577627515709d0d7666e38e4629110f65e04524feda0c091bb6275652",
+      "bytes": 49228,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-64",
+      "url": "https://xplorestaging.ieee.org/document/9833600/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833600/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:41.136256+00:00",
+      "sha256": "f7ff04a4065c7bac5ec64fd30c33a1138d957314f2e18772101755c2b7ce2235",
+      "bytes": 47382,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-66",
+      "url": "https://xplorestaging.ieee.org/document/9833676/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833676/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:40.589756+00:00",
+      "sha256": "ad8fbcd90888a0e2f41aae7ff24537b8702ef52351c607ad4ce85ae680c0f070",
+      "bytes": 47838,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-7",
+      "url": "https://xplorestaging.ieee.org/document/9833800/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833800/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:16:21.959181+00:00",
+      "sha256": "890af37e67166d61e2fca1eea54f0c8f6e4b03c637cb94ba11bc9f342540a201",
+      "bytes": 46543,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-70",
+      "url": "https://xplorestaging.ieee.org/document/9833559/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833559/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:50.904045+00:00",
+      "sha256": "86e77979c2b44180a7aceab709c0aff53b0ce06b506b51a63336586f00d04ce8",
+      "bytes": 45816,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-71",
+      "url": "https://xplorestaging.ieee.org/document/9833655/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833655/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:59.517508+00:00",
+      "sha256": "2b280d95c523270bf76fda2f9a40827832148a93c776116d13f2123c90195bf2",
+      "bytes": 46980,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-74",
+      "url": "https://xplorestaging.ieee.org/document/9833794/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833794/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:17:58.573254+00:00",
+      "sha256": "95dd126e8a6b19ec25f434cf875a0c382879911f38d2dd7978dfdc3ffdc0ede4",
+      "bytes": 47441,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-75",
+      "url": "https://xplorestaging.ieee.org/document/9833735/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833735/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:18:03.365732+00:00",
+      "sha256": "0300c2ccb6ecb8433855c04f13408f7340bf705653e4872788f528739e20c81c",
+      "bytes": 48096,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-76",
+      "url": "https://xplorestaging.ieee.org/document/9833675/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833675/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:18:05.790787+00:00",
+      "sha256": "73f37c1eb78293399341587f67ebb218755c215576276e12b3b3ea1a12c17055",
+      "bytes": 49123,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-77",
+      "url": "https://xplorestaging.ieee.org/document/9833568/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833568/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:18:05.628886+00:00",
+      "sha256": "c482118c2225e73547329476fc2cee2a2c88eaac6fcfac8f7fc7ed911d8e1759",
+      "bytes": 46540,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-8",
+      "url": "https://xplorestaging.ieee.org/document/9833726/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833726/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:16:30.504782+00:00",
+      "sha256": "99b9055c1c8a6960e1a12b1584478aa3f14de7707cb4fb66fb139974d9e8e301",
+      "bytes": 48864,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-81",
+      "url": "https://xplorestaging.ieee.org/document/9833767/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833767/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:18:27.701889+00:00",
+      "sha256": "862e6a1ba3c867a86417edb8b4bf69ce8587d6c122cd6d8ffbd7d5d9aa1e12eb",
+      "bytes": 49374,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-82",
+      "url": "https://xplorestaging.ieee.org/document/9833621/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833621/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:18:31.894823+00:00",
+      "sha256": "bd468af648a31927f26b7352f5e972fa953912c671d3c4b291b9c70bee7b4dbb",
+      "bytes": 48245,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-9",
+      "url": "https://xplorestaging.ieee.org/document/9833768/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833768/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:16:50.512061+00:00",
+      "sha256": "90e465faae3c457edc4b1f3da979296d9cbfa645660f9baa1dd107f095d9dba6",
+      "bytes": 47608,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-91",
+      "url": "https://xplorestaging.ieee.org/document/9833737/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833737/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:18:32.124691+00:00",
+      "sha256": "e85f144cb4d0ca34bfdd075a4284280a252e74aad634d4cc7de83e88853d1255",
+      "bytes": 49645,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-candidate-94",
+      "url": "https://xplorestaging.ieee.org/document/9833664/",
+      "response_url": "https://xplorestaging.ieee.org/document/9833664/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:18:35.664011+00:00",
+      "sha256": "c0298c962509e243315279f189e2e881cb4c11451e779a9b3eb0814224785fcc",
+      "bytes": 47817,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp22-coexist-arxiv",
+      "url": "https://arxiv.org/abs/2112.05719",
+      "response_url": "https://arxiv.org/abs/2112.05719",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:32:18.736269+00:00",
+      "sha256": "18a2927646f9f5797e5ad36c95fc044d7bfda0ed0c0ad09166b20e9bb73a907b",
+      "bytes": 41586,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp22-coexist-arxiv-pdf",
+      "url": "https://arxiv.org/pdf/2112.05719",
+      "response_url": "https://arxiv.org/pdf/2112.05719",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:32:22.212383+00:00",
+      "sha256": "35cd487f72cb584c7f6736c9e9f921e41f587b70e5f2dc43a5f868e3f2296936",
+      "bytes": 1230522,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "sp22-crossref-container-discovery",
+      "url": "https://api.crossref.org/works?query.container-title=2022+IEEE+Symposium+on+Security+and+Privacy+%28SP%29&filter=from-pub-date%3A2022-01-01%2Cuntil-pub-date%3A2022-12-31&rows=1000&select=DOI%2Ctitle%2Csubtitle%2Cauthor%2Cpublished%2Cpublished-online%2Cpublished-print%2Cpage%2CISBN%2Ccontainer-title%2Cresource%2Ctype%2Cabstract",
+      "response_url": "https://api.crossref.org/works?query.container-title=2022+IEEE+Symposium+on+Security+and+Privacy+%28SP%29&filter=from-pub-date%3A2022-01-01%2Cuntil-pub-date%3A2022-12-31&rows=1000&select=DOI%2Ctitle%2Csubtitle%2Cauthor%2Cpublished%2Cpublished-online%2Cpublished-print%2Cpage%2CISBN%2Ccontainer-title%2Cresource%2Ctype%2Cabstract",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:55.198339+00:00",
+      "sha256": "6a98a3e90290b3680c7b310540c20a93ee29c3d1d42db826c2ae3fc0c53d76a5",
+      "bytes": 1210026,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp22-print-toc",
+      "url": "https://www.proceedings.com/content/064/064986webtoc.pdf",
+      "response_url": "https://www.proceedings.com/content/064/064986webtoc.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:39.527348+00:00",
+      "sha256": "42700bd68a2ffba20851820d9f72a49a914a370afe5be2f5c91f2b2857c34a75",
+      "bytes": 115685,
+      "content_type": "application/pdf"
+    }
+  ],
+  "batch": {
+    "new_abstracts_read": 49,
+    "new_includes": 29,
+    "new_adjacent": 20,
+    "selected_body_checks": 1,
+    "title_records_screened": 147,
+    "new_doi_upgrades": 147,
+    "new_nonpaper_metadata": 7
+  },
+  "identity_upgrades": [
+    {
+      "previous_id": "title:sp:2022:5f51bffdd3f96606",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833596",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:f8bd1790d943b386",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833779",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:5a194bdcb46000be",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833581",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:fa0e55685442bbde",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833713",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:15235c65bdb5aab3",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833755",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:ab264730c5def7b8",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833681",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:27d4454c8e4485c0",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833800",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:e33fce7934793bdd",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833726",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:1a2c86f478f6870d",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833768",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:583a72f81c490af8",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833716",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:5dc7324fdecfd137",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833692",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:a84f778df20ee7d8",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833665",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:be898f81cb228886",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833650",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:76b18ace9b0a64b1",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833631",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:63214468afce5af2",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833672",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:336cbd064358023f",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833571",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:fb33f32479c07b3e",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833639",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:549d79f99220fac8",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833570",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:4f65c999fd307aef",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833673",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:256fffc9586331af",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833647",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:d42aad6504745250",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833641",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:25b3f92b6ffdcb4f",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833644",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:c7b800bae0ca6f59",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833751",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:014900c2e4df6a66",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833772",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:6f7b06f7f298159f",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833774",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:ab2c42716d1c5727",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833782",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:1d86c6c02e497f2b",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833658",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:0bc6093d323d194a",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833686",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:5b5107bea41c6441",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833747",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:47c1b97d6f1a06a3",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833671",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:bbc51fecc6fc3935",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833801",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:db2fb596f3d0986d",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833743",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:f2350ccff33ac8e7",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833620",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:0535f8b1d2aa1f8b",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833632",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:4778613a9a87281d",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833701",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:819b337b4f98b30b",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833612",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:bbe4ec36bb680b33",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833668",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:f6e9dcaa704845b6",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833614",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:999d65bcd7413762",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833609",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:42124b71b3330fff",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833761",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:c86eb273a7be42d6",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833758",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:893cf54c02ffa73f",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833563",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:2a65d2bad8958097",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833730",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:092481b1a50d4142",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833599",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:fc86daab05eae8f1",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833723",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:cc6dd9fe2bd5eaa6",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833777",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:f105e3a0f6937e7e",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833787",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:29ccb39bdf3b787c",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833666",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:9580c417875f0c03",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833764",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:b6f17d511ea39fa5",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833593",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:648f7e50c0b1ad27",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833613",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:ff16f26ac7f480b2",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833773",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:9cd8a0b7f64ecffe",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833683",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:3124b3e201662ff2",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833661",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:1acf7ed2078d5e54",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833634",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:12f41aa4efb632c6",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833745",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:663a8a2bd76bc5ff",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833729",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:a2bea8ece4dbb86a",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833610",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:698be86ae50c421d",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833756",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:cc864e508019a56f",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833605",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:25292f0a3600a309",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833598",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:763000a845dee5e9",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833633",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:0fa85319ef8c9870",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833718",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:8a019fedcfabf2fb",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833600",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:5f676313dbbff19b",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833695",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:5a36f23066c6a280",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833676",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:442434f09b5efd7e",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833796",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:6906c6f784e442e9",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833806",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:86e8de23c09e0178",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833635",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:40e8ea7fce2d6648",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833559",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:905509f3156bda93",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833655",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:d03dba37d87da973",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833784",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:9a464b12bef4ec50",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833649",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:8ec4ad811df030e3",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833794",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:6edc141b96bd5d06",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833735",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:3aaac56ff4e529f7",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833675",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:3cbde269091ff63c",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833568",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:204ffc6e55a22d10",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833688",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:713319111bb90863",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833607",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:51c724638d70e436",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833792",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:daaa16880d25838d",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833767",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:de83fffc64c481b2",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833621",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:085bd7cf5bcb1e5a",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833594",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:3420134dc25df053",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833564",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:a67c837fc8933c37",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833629",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:e7c5f0853e5895c6",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833567",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:2573406bbcd46d47",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833766",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:fa3653733892af89",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833579",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:b43b0f8ee931e9c5",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833584",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:78726e4ace589fd9",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833642",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:59750d2ebc4ec396",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833737",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:ff5cfb068ab96443",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833702",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:20af683d8871cb05",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833623",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:a86729ff5695fca4",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833664",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:542fa03efffcd0c7",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833653",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:843fe16f2c79480d",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833608",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:7cc731bdcd6f1f08",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833734",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:f5316b4f3863bf0a",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833677",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:5d6f64294e52f5fb",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833597",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:1ba274e5be6cfdd9",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833803",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:9a35ec8a89bca17d",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833604",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:00f623767bb4b3f5",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833601",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:c1372d01f98ea418",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833721",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:2f71750a8458ef42",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833720",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:38c8852c74441ebe",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833697",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:74257d1a360e75bb",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833678",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:de5fafa159c047f0",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833752",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:48e1b17aed7ee01a",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833669",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:72eb49eaa1db96a6",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833619",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:d346db7b9f173297",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833725",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:e29d3d11efa31226",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833714",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:3f9a4bd26391be81",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833656",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:c23098b5416627de",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833643",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:192dd1d876d31a0f",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833742",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:c0a825de45279403",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833799",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:8ba157451dfc84de",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833693",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:d312a894eb2ababf",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833707",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:247f60bfa73768d2",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833757",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:f3fa5fd12871b625",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833663",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:11890d19de9673c0",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833802",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:fc6712042eba3d39",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833648",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:ee940de8a87c920a",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833572",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:d62f28c3d4ec1890",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833700",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:b30c6135d829d298",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833711",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:0a1ca2c6fdff163e",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833580",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:7bfedd2ab0cc050a",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833689",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:2c82d76329488944",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833722",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:73ed0ff4b2cd4f52",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833685",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:a35a3a16c29ce1ba",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833765",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:6f8a5da22daa7a3d",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833591",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:b1f8a68280003d9b",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833637",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:0d66ac79cd97d4ca",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833595",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:825f36dde13adb18",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833710",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:748223d31f98b063",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833753",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:449cc23c4f793000",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833659",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:01dcbe54451116cf",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833783",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:ded95d10ba414999",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833706",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:5a5cfcda6bd83ed2",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833776",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:15cb15b5d45aa6f7",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833731",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:6d3ceafe7514d1c1",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833617",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:9fcda1bd9ce28e1d",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833694",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:999cd24220b2ceac",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833611",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:a9f34d56ce5aac2a",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833582",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:0ca6b34305b39ce8",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833740",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:03c4c40a24d5f892",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833626",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:a633f385eb40882b",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833670",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    },
+    {
+      "previous_id": "title:sp:2022:90d8cf1c6307fa1b",
+      "canonical_id": "doi:10.1109/sp46214.2022.9833732",
+      "matching_basis": "unique normalized title or seven explicit changed-title matches; print TOC authors and pages checked for exceptions"
+    }
+  ],
+  "title_metadata_changes": [
+    {
+      "index": 12,
+      "accepted_title": "Analyzing Ground-Truth Data of Mobile Gambling Scam",
+      "printed_title": "Analyzing Ground-Truth Data of Mobile Gambling Scams",
+      "accepted_authors": "Geng Hong (Fudan University), Zhemin Yang (Fudan University), Sen Yang (Fudan University), Xiaojing Liao (Indiana University Bloomington), Xiaolin Du (Fudan University), Min Yang (Fudan University), Haixin Duan (Institute for Network Science and Cyberspace, Tsinghua University; Qi An Xin Group Corp.)",
+      "publisher_authors": [
+        {
+          "given": "Geng",
+          "family": "Hong",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Fudan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhemin",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Fudan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sen",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Fudan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaojing",
+          "family": "Liaoy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Indiana University Bloomington"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaolin",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Fudan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Min",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Fudan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Haixin",
+          "family": "Duan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tsinghua University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "accepted_title": "Attacks on Wireless Coexistence",
+      "printed_title": "Attacks on Wireless Coexistence: Exploiting Cross-Technology Performance Features for Inter-Chip Privilege Escalation",
+      "accepted_authors": "Jiska Classen (TU Darmstadt, SEEMOO), Michael Hermann (TU Darmstadt, SEEMOO), Francesco Gringoli (University of Brescia), Matthias Hollick (TU Darmstadt, SEEMOO)",
+      "publisher_authors": [
+        {
+          "given": "Jiska",
+          "family": "Classen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Technical University of Darmstadt, Secure Mobile Networking Lab"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Francesco",
+          "family": "Gringoli",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Brescia, CNIT"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Hermann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Technical University of Darmstadt, Secure Mobile Networking Lab"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthias",
+          "family": "Hollick",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Technical University of Darmstadt, Secure Mobile Networking Lab"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "accepted_title": "Back to the Drawing Board: A Critical Evaluation of Poisoning Attacks on Federated Learning",
+      "printed_title": "Back to the Drawing Board: A Critical Evaluation of Poisoning Attacks on Production Federated Learning",
+      "accepted_authors": "Virat Shejwalkar (UMass Amherst), Amir Houmansadr (UMass Amherst), Peter Kairouz (Google), Daniel Ramage (Google)",
+      "publisher_authors": [
+        {
+          "given": "Virat",
+          "family": "Shejwalkar",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Massachusetts,Amherst"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Amir",
+          "family": "Houmansadr",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Massachusetts,Amherst"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Peter",
+          "family": "Kairouz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Google Research"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Ramage",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Google Research"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "accepted_title": "Blacksmith: Compromising Target Row Refresh by Rowhammering in the Frequency Domain",
+      "printed_title": "BLACKSMITH: Scalable Rowhammering in the Frequency Domain",
+      "accepted_authors": "Patrick Jattke (ETH Zurich), Victor van der Veen (Qualcomm Technologies Inc.), Pietro Frigo (Vrije Universiteit Amsterdam), Stijn Gunter (ETH Zurich), Kaveh Razavi (ETH Zurich)",
+      "publisher_authors": [
+        {
+          "given": "Patrick",
+          "family": "Jattke",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "ETH Zurich"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Victor",
+          "family": "Van Der Veen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Qualcomm Technologies Inc."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pietro",
+          "family": "Frigo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "VU Amsterdam"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stijn",
+          "family": "Gunter",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "ETH Zurich"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kaveh",
+          "family": "Razavi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "ETH Zurich"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "accepted_title": "PCR-Auth: Solving Authentication Puzzle Challenges with Encoded Palm Contact Responses",
+      "printed_title": "PCR-Auth: Solving Authentication Puzzle Challenge with Encoded Palm Contact Response",
+      "accepted_authors": "Long Huang (Louisiana State University), Chen Wang (Louisiana State University)",
+      "publisher_authors": [
+        {
+          "given": "Long",
+          "family": "Huang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Louisiana State University,Department of Computer Science,Baton Rouge,LA,USA,70803"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chen",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Louisiana State University,Department of Computer Science,Baton Rouge,LA,USA,70803"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "accepted_title": "Private Nearest Neighbor Search with Sublinear Communication and Malicious Security",
+      "printed_title": "Private Approximate Nearest Neighbor Search with Sublinear Communication",
+      "accepted_authors": "Sacha Servan-Schreiber (Massachusetts Institute of Technology), Simon Langowski (Massachusetts Institute of Technology), Srinivas Devadas (Massachusetts Institute of Technology)",
+      "publisher_authors": [
+        {
+          "given": "Sacha",
+          "family": "Servan-Schreiber",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "MIT CSAIL"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Simon",
+          "family": "Langowski",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MIT CSAIL"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Srinivas",
+          "family": "Devadas",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MIT CSAIL"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 119,
+      "accepted_title": "SoK: The Dual Nature of Technology in Sexual Assault",
+      "printed_title": "SoK: The Dual Nature of Technology in Sexual Abuse",
+      "accepted_authors": "Borke Obada-Obieh (The University of British Columbia), Yue Huang (University of British Columbia), Lucrezia Spagnolo (Vesta Social Innovation Technologies), Konstantin (Kosta) Beznosov (University of British Columbia)",
+      "publisher_authors": [
+        {
+          "given": "Borke",
+          "family": "Obada-Obieh",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of British Columbia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yue",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of British Columbia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lucrezia",
+          "family": "Spagnolo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vesta Social Innovation Technologies"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Konstantin",
+          "family": "Beznosov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of British Columbia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "author_metadata_discrepancies": [
+    {
+      "index": 12,
+      "title": "Analyzing Ground-Truth Data of Mobile Gambling Scam",
+      "accepted_authors": "Geng Hong (Fudan University), Zhemin Yang (Fudan University), Sen Yang (Fudan University), Xiaojing Liao (Indiana University Bloomington), Xiaolin Du (Fudan University), Min Yang (Fudan University), Haixin Duan (Institute for Network Science and Cyberspace, Tsinghua University; Qi An Xin Group Corp.)",
+      "publisher_authors": [
+        {
+          "given": "Geng",
+          "family": "Hong",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Fudan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhemin",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Fudan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sen",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Fudan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaojing",
+          "family": "Liaoy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Indiana University Bloomington"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaolin",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Fudan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Min",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Fudan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Haixin",
+          "family": "Duan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tsinghua University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_fields": [
+        "Liaoy"
+      ],
+      "resolution": "Crossref trailing name characters corrected against rendered print TOC PDF page 19; raw publisher names and accepted display retained",
+      "reviewed_on": "2026-11-13"
+    },
+    {
+      "index": 28,
+      "title": "Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects",
+      "accepted_authors": "Dominik Wermke (CISPA Helmholtz Center for Information Security), Noah Woehler (CISPA Helmholtz Center for Information Security), Jan H. Klemmer (Leibniz University Hannover), Marcel Fourné (Max Planck Institute for Security and Privacy), Yasemin Acar (George Washington University), Sascha Fahl (CISPA Helmholtz Center for Information Security, Leibniz University Hannover)",
+      "publisher_authors": [
+        {
+          "given": "Dominik",
+          "family": "Wermke",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "CISPA Helmholtz Center for Information Security,Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Noah",
+          "family": "Wöhler",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "CISPA Helmholtz Center for Information Security,Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jan H.",
+          "family": "Klemmer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Leibniz University Hannover,Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marcel",
+          "family": "Fourné",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Max Planck Institute for Security and Privacy,Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yasemin",
+          "family": "Acar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "George Washington University,United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sascha",
+          "family": "Fahl",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "CISPA Helmholtz Center for Information Security,Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_fields": [
+        "Wöhler"
+      ],
+      "resolution": "Printed Woehler agrees with Crossref; accepted Wöhler spelling retained",
+      "reviewed_on": "2026-11-13"
+    },
+    {
+      "index": 49,
+      "title": "FSAFlow: Lightweight and Fast Dynamic Path Tracking and Control for Privacy Protection on Android Using Hybrid Analysis with State-Reduction Strategy",
+      "accepted_authors": "Zhi Yang (PLA Information Engineering University, Zhengzhou, China), Zhanhui Yuan (PLA Information Engineering University, Zhengzhou, China), Xingyuan Chen (PLA Information Engineering University, Zhengzhou, China), Shuyuan Jin (SUN YAT-SEN University, Guangzhou, China.), Lei Sun (PLA Information Engineering University, Zhengzhou, China), Xuehui Du (PLA Information Engineering University, Zhengzhou, China), Wenfa Li (Beijing Union University, Beijing, Chian)",
+      "publisher_authors": [
+        {
+          "given": "Zhi",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "PLA Information Engineering University,Zhengzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhanhui",
+          "family": "Yuan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "PLA Information Engineering University,Zhengzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shuyuan",
+          "family": "Jin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sun Yat-sen University,Guangzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xingyuan",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "PLA Information Engineering University,Zhengzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lei",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "PLA Information Engineering University,Zhengzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xuehui",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "PLA Information Engineering University,Zhengzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wenfa",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Science and Technology Beijing,Beijing,China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hongqi",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "PLA Information Engineering University,Zhengzhou,China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_fields": [
+        "Zhang"
+      ],
+      "resolution": "Eight printed authors agree with Crossref; accepted list has seven and a different order",
+      "reviewed_on": "2026-11-13"
+    },
+    {
+      "index": 108,
+      "title": "ShadeWatcher: Recommendation-guided Cyber Threat Analysis using System Audit Records",
+      "accepted_authors": "Jun Zeng (National University of Singapore), Xiang Wang (National University of Singapore), Jiahao Liu (National University of Singapore), Yinfang Chen (University of Illinois - Urbana Champaign), Zhenkai Liang (National University of Singapore), Tat-Seng Chua (National University of Singapore), Zheng Leong Chua (Independent Researcher)",
+      "publisher_authors": [
+        {
+          "given": "Jun",
+          "family": "Zengy",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "National University of Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiang",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Science and Technology of China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiahao",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "National University of Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yinfang",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UIUC"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhenkai",
+          "family": "Liang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "National University of Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tat-Seng",
+          "family": "Chua",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "National University of Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zheng Leong",
+          "family": "Chua",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Independent Researcher"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_fields": [
+        "Zengy"
+      ],
+      "resolution": "Crossref trailing name characters corrected against rendered print TOC PDF page 7; raw publisher names and accepted display retained",
+      "reviewed_on": "2026-11-13"
+    },
+    {
+      "index": 136,
+      "title": "Transfer Attacks Revisited: A Large-Scale Empirical Study in Real Computer Vision Settings",
+      "accepted_authors": "Yuhao Mao (Zhejiang University), Saizhuo Wang (Zhejiang University), Shouling Ji (Zhejiang University), Xuhong Zhang (Zhejiang University), Zhenguang Liu (Zhejiang Gongshang University), Jun Zhou (Ant Financial Services Group), Raheem Beyah (Georgia Institute of Technology), Ting Wang (Penn State)",
+      "publisher_authors": [
+        {
+          "given": "Yuhao",
+          "family": "Mao",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Zhejiang University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chong",
+          "family": "Fu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhejiang University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Saizhuo",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhejiang University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shouling",
+          "family": "Ji",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhejiang University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xuhong",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhejiang University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhenguang",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhejiang Gongshang University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jun",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Ant Group"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alex X.",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Ant Group"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Raheem",
+          "family": "Beyah",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Georgia Institute of Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ting",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Pennsylvania State University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_fields": [
+        "Fu"
+      ],
+      "resolution": "Ten printed authors agree in membership with Crossref; accepted list has eight; printed Alex Liu versus Crossref Alex X. Liu retained as name-form difference",
+      "reviewed_on": "2026-11-13"
+    },
+    {
+      "index": 141,
+      "title": "vSGX: Virtualizing SGX Enclaves on AMD SEV",
+      "accepted_authors": "Shixuan Zhao (The Ohio State University), Mengyuan Li (The Ohio State University), Yinqian Zhang (Southern University of Science and Technology), Zhiqiang Lin (Ohio State University)",
+      "publisher_authors": [
+        {
+          "given": "Shixuan",
+          "family": "Zhao",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The Ohio State University,Department of Computer Science and Engineering"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mengyuan",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Ohio State University,Department of Computer Science and Engineering"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yinqian",
+          "family": "Zhangyz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Research Institute of Trust-worthy Autonomous Systems, Southern University of Science and Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhiqiang",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Ohio State University,Department of Computer Science and Engineering"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "unmatched_family_fields": [
+        "Zhangyz"
+      ],
+      "resolution": "Crossref trailing name characters corrected against rendered print TOC PDF page 5; raw publisher names and accepted display retained",
+      "reviewed_on": "2026-11-13"
+    }
+  ],
+  "notes": [
+    "Crossref broad container query returned 1000 of 439422 records; exact prefix yields 154 entries, 147 papers and seven nonpapers; query itself is not exhaustive.",
+    "BLE publisher staging endpoint remained HTTP 502; author PDF page 1 abstract used. A prior timeout for entry 133 succeeded on retry.",
+    "DeepSteal and SpecHammer retained for explicit fault-to-leakage relationships; Blacksmith and ProTRR kept adjacent.",
+    "No experimental or artifact execution and no independent second reader."
+  ]
+}

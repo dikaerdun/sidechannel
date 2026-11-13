@@ -1,0 +1,40 @@
+{
+  "reviewed_on": "2026-11-13",
+  "sources": [
+    {
+      "source_id": "sp22-print-toc",
+      "url": "https://www.proceedings.com/content/064/064986webtoc.pdf",
+      "response_url": "https://www.proceedings.com/content/064/064986webtoc.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:39.527348+00:00",
+      "sha256": "42700bd68a2ffba20851820d9f72a49a914a370afe5be2f5c91f2b2857c34a75",
+      "bytes": 115685,
+      "content_type": "application/pdf"
+    }
+  ],
+  "book_identity": {
+    "ieee_catalog": "CFP22020-POD",
+    "print_isbn": "978-1-6654-1317-6"
+  },
+  "extraction_notes": [
+    "OpenSans-Regular 10-point title glyph mapping calibrated on rendered pages 3,4,8,10,12,19,20; author exceptions also inspected on pages 5,7,13,17. Not a second visual read of every title.",
+    "146 available Crossref start pages match the print TOC. MSR Templating lacks a Crossref page field; the print TOC supplies start page 1474 only. Seven title changes checked against printed author lists.",
+    "Three trailing author-name artifacts corrected; accepted display and unreconciled publisher forms retained. The print TOC is independent of the accepted-list HTML; the broad Crossref query alone does not establish completeness."
+  ],
+  "core_cell_crosschecks": [
+    {
+      "venue": "SP",
+      "year": 2022,
+      "status": "matched_print_toc",
+      "inventory_file": "toc-crosschecks/sp-2022.jsonl",
+      "accepted_records": 147,
+      "print_toc_records": 147,
+      "exact_normalized_title_matches": 140,
+      "manually_matched_title_changes": 7,
+      "unpaginated_records": 0,
+      "missing_from_toc": 0,
+      "extra_in_toc": 0,
+      "scope": "membership and start pages; source-specific glyph decoding and seven manually matched title changes; not abstract or bibliography closure"
+    }
+  ]
+}

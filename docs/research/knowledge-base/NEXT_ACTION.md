@@ -4,13 +4,13 @@
 
 ## 2026-11-13 文献库建设接续
 
-[统一文献入口](literature/README.md)包含核心 30 单元的 6,629 条目录和 37 条扩展/基础记录；已初筛 1,311 条标题、作出 384 条摘要及以上判定，纳入 225 条出版/版本记录。已核对 72 条引用、19 条版本关系（18 条核实、1 条推定）；26 条发现中 22 条已解析、4 条待核查。S&P 2023、2024、2025 的 196、261、255 条已与独立取得的 IEEE 印刷目录对应。
+[统一文献入口](literature/README.md)包含核心 30 单元的 6,629 条目录和 41 条扩展/基础记录；已初筛 1,458 条标题、作出 437 条摘要及以上判定，纳入 258 条出版/版本记录。已核对 78 条引用、22 条版本关系（21 条核实、1 条推定）；33 条发现中 26 条已解析、7 条待核查。S&P 2022、2023、2024、2025 的 147、196、261、255 条已与独立取得的 IEEE 印刷目录对应。
 
-最新批次解析 S&P 2023 的八条引用发现，新增 16 张卡片、升级 Protecting 的指定正文。见[批次记录](records/2026-11-13-literature-masking-lineage-hardware.md)与[版本/硬件证据边界](literature/notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)。3D-Shield 选读新增四条待查引用：AsianHOST 2022 的 Vulnerable PQC、TECS 2024 的多项式乘法分析、ACNS 2024 的 Breaking DPA-protected Kyber、TCAS-II 2025 的硬件打乱。优先核对原始身份、摘要与版本，再继续完整参考文献筛查。
+最新批次补读 S&P 2022 的 49 个候选/不确定项，新增 29 条通用卡片与 20 条相邻判定；解析 3D-Shield 的四条 Kyber 引用并新增四篇 PQC 卡片。见[批次记录](records/2026-11-13-literature-sp2022-kyber-four.md)、[S&P 范围](literature/notes/sp2022-scope-and-identity-20261113.md)与[Kyber 证据范围](literature/notes/kyber-multiplication-and-shuffling-20261113.md)。打乱论文留下七条新发现：零值过滤、纯硬件掩码、复制与时钟随机化、可配置硬件保护、NTT 防护评价、低成本打乱和 RLWE FPGA 保护；先核对原始身份、年份、版本及范围。ACNS 正文访问失败，需补查具体剖析条件；其仓库仅读 README。
 
-继续 S&P 其他年度、其他核心会议的逐题筛查和独立目录核对。S&P 2023 有 148 条未读摘要，2024、2025 各有 219 条；其余 27 个核心单元待独立目录核对。扩展会议系统目录、TCHES 非关键词候选、HADES/HAETAE 防护章节、McEliece FPGA 勘误及 PQC 全文专题继续保留。GoFetch 还有 58 条基础引用、Scheduled Disclosure 还有 16 条待处理。450 项前后向任务中 42 项进行中、408 项待处理，没有全面完成的任务。
+继续 S&P 其他年度、其他核心会议的逐题筛查和独立目录核对。S&P 2022 还有 98 条未读摘要，2023 有 148 条，2024、2025 各有 219 条；其余 26 个核心单元待独立目录核对。扩展会议系统目录、TCHES 非关键词候选、HADES/HAETAE 防护章节、McEliece FPGA 勘误及 PQC 全文专题继续保留。GoFetch 还有 58 条基础引用、Scheduled Disclosure 还有 16 条待处理。516 项前后向任务中 43 项进行中、473 项待处理，没有全面完成的任务。
 
-书目与材料缺口：S&P 2023 三个 N/A、两组重复 DOI 与五条作者字段差异；2024 九条作者差异；2025 一条 N/A 的最终出版状态。继续查 Finger in the Power 仓库 404、Peek-a-Walk 材料完整性，以及 Episode V 不同版本与最终 FIPS 203 的对应。Raccoon 的测试用随机数及两份额 TVLA、Jasmin 的同地址空间边界不能省略。此前[功耗权限与 PQC 恢复范围](literature/notes/power-observation-and-pqc-boundaries-20261113.md)继续适用；接续先读[覆盖缺口](literature/COVERAGE.md)，不能把队列补读完或脚本通过当作普查完成。
+书目与材料缺口：S&P 2022 MSR Templating 的出版页码字段；2023 三个 N/A、两组重复 DOI 与五条作者字段差异；2024 九条作者差异；2025 一条 N/A 的最终出版状态。继续查 Finger in the Power 仓库 404、Peek-a-Walk 材料完整性，以及 Episode V 不同版本与最终 FIPS 203 的对应。Raccoon 的测试用随机数及两份额 TVLA、Jasmin 的同地址空间边界不能省略。此前[功耗权限与 PQC 恢复范围](literature/notes/power-observation-and-pqc-boundaries-20261113.md)继续适用；接续先读[覆盖缺口](literature/COVERAGE.md)，不能把队列补读完或脚本通过当作普查完成。
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 

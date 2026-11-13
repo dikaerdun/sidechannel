@@ -4,7 +4,9 @@
 
 | 会议/来源 | 年份 | 已取得条目 | 完整目录与独立核对 |
 |---|---:|---:|---|
+| ACM TECS | 2024 | 1 | 未完成；引用/检索/版本扩展 |
 | ACNS | 2019 | 1 | 未完成；引用/检索/版本扩展 |
+| ACNS | 2024 | 1 | 未完成；引用/检索/版本扩展 |
 | ASHES | 2023 | 1 | 未完成；引用/检索/版本扩展 |
 | ASIACCS | 2021 | 1 | 未完成；引用/检索/版本扩展 |
 | ASIACRYPT | 2021 | 1 | 未完成；引用/检索/版本扩展 |
@@ -12,6 +14,7 @@
 | ASID | 2023 | 1 | 未完成；引用/检索/版本扩展 |
 | ASPLOS | 2023 | 1 | 未完成；引用/检索/版本扩展 |
 | ASPLOS | 2025 | 1 | 未完成；引用/检索/版本扩展 |
+| AsianHOST | 2022 | 1 | 未完成；引用/检索/版本扩展 |
 | CARDIS | 2019 | 1 | 未完成；引用/检索/版本扩展 |
 | CCS | 2017 | 1 | 未完成；引用/检索/版本扩展 |
 | CHES | 2017 | 1 | 未完成；引用/检索/版本扩展 |
@@ -37,6 +40,7 @@
 | SAC | 2022 | 1 | 未完成；引用/检索/版本扩展 |
 | SP | 2020 | 1 | 未完成；引用/检索/版本扩展 |
 | TCAS-I | 2023 | 1 | 未完成；引用/检索/版本扩展 |
+| TCAS-II | 2025 | 1 | 未完成；引用/检索/版本扩展 |
 | TCHES | 2020 | 1 | 未完成；引用/检索/版本扩展 |
 | arXiv | 2025 | 1 | 未完成；引用/检索/版本扩展 |
 | arXiv | 2026 | 1 | 未完成；引用/检索/版本扩展 |
@@ -44,4 +48,4 @@
 
 SAC 2022 的会议年与 2024 年上线日期分别记录；ICCD 2021-10、ISCA 2021-06 和 ASIACCS 2021-05 论文作为窗口前边界引用保留。TCHES 2020 卷的 Share-slicing 于 2019-11 发表；CRYPTO 2020 的 FO 时序与 CHES 2017 的单轨迹论文也作为窗口外基础引用，不计入 2021–2026 核心单元。CRYPTO、EUROCRYPT、ASIACRYPT、COSADE 等扩展会议仍有系统目录收集任务；已有个别记录不等于完整覆盖。
 另保留 GLP 2018、CARDIS 2019（2020 上线）的 qTESLA、ACNS 2019 Dilithium、PLDI/S&P 2020 与 CCS 2017 基础文献。GLP 期刊版在线于 2023 年、卷年 2024；2022 Leveling 固定稿与 2023 Protecting 修正版分列。3D-Shield 仅核定 arXiv 记录，其作者声明的会议身份仍待独立核对。
-[元数据](catalogs/citation-expansion.jsonl) · [首批来源与哈希](provenance/citation-expansion.json) · [此前来源](provenance/citation-followup-20261113.json) · [掩码与硬件补读来源](provenance/sp2023-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl)
+[元数据](catalogs/citation-expansion.jsonl) · [首批来源与哈希](provenance/citation-expansion.json) · [此前来源](provenance/citation-followup-20261113.json) · [掩码与硬件补读来源](provenance/sp2023-reference-followup-20261113.json) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl)

@@ -72,6 +72,7 @@
 | SP | [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) | selected_full_text_sections |
 | SP | [Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-194) | abstract_and_bibliographic_metadata |
 | SP | [Your Cable, My Antenna: Eavesdropping Serial Communication via Backscatter Signals](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-157) | abstract_and_bibliographic_metadata |
+| TCAS-II | [A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber](https://doi.org/10.1109/tcsii.2025.3528751) | selected_full_text_sections |
 | TCHES | [Adaptive Template Attacks on the Kyber Binomial Sampler](https://doi.org/10.46586/tches.v2025.i3.470-492) | abstract_and_bibliographic_metadata |
 | TCHES | [Avengers assemble! Supervised learning meets lattice reduction: A single power trace attack against CRYSTALS-Kyber Key Generation](https://doi.org/10.46586/tches.v2025.i4.409-436) | abstract_and_bibliographic_metadata |
 | TCHES | [Constant time lattice reduction in dimension 4 with application to SQIsign](https://doi.org/10.46586/tches.v2025.i2.511-534) | abstract_and_bibliographic_metadata |
@@ -97,6 +98,8 @@
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| ACM TECS | [Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication](https://doi.org/10.1145/3569420) | selected_full_text_sections |
+| ACNS | [Breaking DPA-Protected Kyber via the Pair-Pointwise Multiplication](https://doi.org/10.1007/978-3-031-54773-7_5) | abstract_and_bibliographic_metadata |
 | CRYPTO | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | selected_full_text_sections |
 | HPCA | [PREFETCHX: Cross-Core Cache-Agnostic Prefetcher-based Side-Channel Attacks](https://doi.org/10.1109/hpca57654.2024.00037) | selected_full_text_sections |
 | Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | abstract_and_bibliographic_metadata |
@@ -201,11 +204,41 @@
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| AsianHOST | [Vulnerable PQC against Side Channel Analysis - A Case Study on Kyber](https://doi.org/10.1109/asianhost56390.2022.10022165) | selected_full_text_sections |
 | DIMVA | [Branch Different - Spectre Attacks on Apple Silicon](https://doi.org/10.1007/978-3-031-09484-2_7) | abstract_and_bibliographic_metadata |
 | EUROCRYPT | [Mitaka: A Simpler, Parallelizable, Maskable Variant of Falcon](https://doi.org/10.1007/978-3-031-07082-2_9) | selected_full_text_sections |
 | ISCA | [PACMAN: attacking ARM pointer authentication with speculative execution](https://doi.org/10.1145/3470496.3527429) | abstract_and_bibliographic_metadata |
 | NIST PQC conference | [Leveling Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage) | selected_full_text_sections |
 | SAC | [Profiling Side-Channel Attacks on Dilithium: A Small Bit-Fiddling Leak Breaks It All](https://doi.org/10.1007/978-3-031-58411-4_1) | abstract_and_bibliographic_metadata |
+| SP | ["They're not that hard to mitigate": What Cryptographic Library Developers Think About Timing Attacks](https://doi.org/10.1109/sp46214.2022.9833713) | abstract_and_bibliographic_metadata |
+| SP | [A Secret-Free Hypervisor: Rethinking Isolation in the Age of Speculative Vulnerabilities](https://doi.org/10.1109/sp46214.2022.9833726) | abstract_and_bibliographic_metadata |
+| SP | [A Systematic Look at Ciphertext Side Channels on AMD SEV-SNP](https://doi.org/10.1109/sp46214.2022.9833768) | abstract_and_bibliographic_metadata |
+| SP | [AccEar: Accelerometer Acoustic Eavesdropping with Unconstrained Vocabulary](https://doi.org/10.1109/sp46214.2022.9833716) | abstract_and_bibliographic_metadata |
+| SP | [Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks](https://doi.org/10.1109/sp46214.2022.9833692) | abstract_and_bibliographic_metadata |
+| SP | [Are We There Yet? Timing and Floating-Point Attacks on Differential Privacy Systems](https://doi.org/10.1109/sp46214.2022.9833672) | abstract_and_bibliographic_metadata |
+| SP | [Attacks on Wireless Coexistence](https://doi.org/10.1109/sp46214.2022.9833639) | selected_full_text_sections |
+| SP | [Augury: Using Data Memory-Dependent Prefetchers to Leak Data at Rest](https://doi.org/10.1109/sp46214.2022.9833570) | abstract_and_bibliographic_metadata |
+| SP | [Cats vs. Spectre: An Axiomatic Approach to Modeling Speculative Execution Attacks](https://doi.org/10.1109/sp46214.2022.9833774) | abstract_and_bibliographic_metadata |
+| SP | [DeepCoFFEA: Improved Flow Correlation Attacks on Tor via Metric Learning and Amplification](https://doi.org/10.1109/sp46214.2022.9833801) | abstract_and_bibliographic_metadata |
+| SP | [DeepSteal: Advanced Model Extractions Leveraging Efficient Weight Stealing in Memories](https://doi.org/10.1109/sp46214.2022.9833743) | abstract_and_bibliographic_metadata |
+| SP | [Device Fingerprinting with Peripheral Timestamps](https://doi.org/10.1109/sp46214.2022.9833612) | abstract_and_bibliographic_metadata |
+| SP | [Evaluating Physical-Layer BLE Location Tracking Attacks on Mobile Devices](https://doi.org/10.1109/sp46214.2022.9833758) | abstract_and_bibliographic_metadata |
+| SP | [Finding and Exploiting CPU Features using MSR Templating](https://doi.org/10.1109/sp46214.2022.9833599) | abstract_and_bibliographic_metadata |
+| SP | [Graphics Peeping Unit: Exploiting EM Side-Channel Information of GPUs to Eavesdrop on Your Neighbors](https://doi.org/10.1109/sp46214.2022.9833773) | abstract_and_bibliographic_metadata |
+| SP | [IRShield: A Countermeasure Against Adversarial Physical-Layer Wireless Sensing](https://doi.org/10.1109/sp46214.2022.9833676) | abstract_and_bibliographic_metadata |
+| SP | [IronMask: Versatile Verification of Masking Security](https://doi.org/10.1109/sp46214.2022.9833600) | abstract_and_bibliographic_metadata |
+| SP | [MeshUp: Stateless Cache Side-channel Attack on CPU Mesh](https://doi.org/10.1109/sp46214.2022.9833794) | abstract_and_bibliographic_metadata |
+| SP | [Mind the Gap: Studying the Insecurity of Provably Secure Embedded Trusted Execution Architectures](https://doi.org/10.1109/sp46214.2022.9833735) | abstract_and_bibliographic_metadata |
+| SP | [Mitigating Information Leakage Vulnerabilities with Type-based Data Isolation](https://doi.org/10.1109/sp46214.2022.9833675) | abstract_and_bibliographic_metadata |
+| SP | [Noise-SDR: Arbitrary Modulation of Electromagnetic Noise from Unprivileged Software and Its Impact on Emission Security](https://doi.org/10.1109/sp46214.2022.9833767) | abstract_and_bibliographic_metadata |
+| SP | [Noise: A Library of Verified High-Performance Secure Channel Protocol Implementations](https://doi.org/10.1109/sp46214.2022.9833621) | abstract_and_bibliographic_metadata |
+| SP | [SoK: Practical Foundations for Software Spectre Defenses](https://doi.org/10.1109/sp46214.2022.9833707) | abstract_and_bibliographic_metadata |
+| SP | [SpecHammer: Combining Spectre and Rowhammer for New Speculative Attacks](https://doi.org/10.1109/sp46214.2022.9833802) | abstract_and_bibliographic_metadata |
+| SP | [Spook.js: Attacking Chrome Strict Site Isolation via Speculative Execution](https://doi.org/10.1109/sp46214.2022.9833711) | abstract_and_bibliographic_metadata |
+| SP | [Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense](https://doi.org/10.1109/sp46214.2022.9833722) | abstract_and_bibliographic_metadata |
+| SP | [Time-Print: Authenticating USB Flash Drives with Novel Timing Fingerprints](https://doi.org/10.1109/sp46214.2022.9833595) | abstract_and_bibliographic_metadata |
+| SP | [Timing-Based Browsing Privacy Vulnerabilities Via Site Isolation](https://doi.org/10.1109/sp46214.2022.9833710) | abstract_and_bibliographic_metadata |
+| SP | [mmSpy: Spying Phone Calls using mmWave Radars](https://doi.org/10.1109/sp46214.2022.9833568) | abstract_and_bibliographic_metadata |
 | TCHES | [A Constant-time AVX2 Implementation of a Variant of ROLLO](https://doi.org/10.46586/tches.v2022.i1.152-174) | abstract_and_bibliographic_metadata |
 | TCHES | [A Key-Recovery Side-Channel Attack on Classic McEliece Implementations](https://doi.org/10.46586/tches.v2022.i4.800-827) | abstract_and_bibliographic_metadata |
 | TCHES | [Bitslicing Arithmetic/Boolean Masking Conversions for Fun and Profit: with Application to Lattice-Based KEMs](https://doi.org/10.46586/tches.v2022.i4.553-588) | abstract_and_bibliographic_metadata |

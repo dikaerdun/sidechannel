@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 225 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 258 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Jasmin: High-Assurance and High-Speed Cryptography
 
@@ -295,6 +295,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Vulnerable PQC against Side Channel Analysis - A Case Study on Kyber
+
+- 来源：[AsianHOST 2022](https://doi.org/10.1109/asianhost56390.2022.10022165)；时间标记：within frozen rolling window; publication and version dates retained。
+- 作者：Haocheng Ma; Shijian Pan; Ya Gao; Jiaji He; Yiqiang Zhao; Yier Jin
+- 对象：Kyber, FPGA, power, EM, HDL, HLS；类型：hardware_side_channel_evaluation。
+- 核心想法：比较 HDL/HLS Kyber 硬件实现的功耗及 EM 观察。
+- 作者报告：作者在 SAKURA-G Spartan-6 上评价解密，明确流水/并行和选点条件。
+- 限制与下一步：研究解密算术及攻击模型；不能据此声称最终 ML-KEM 全部 CCA 流程恢复。与 TCAS-I 2023 的数据/版本重用待核查。
+- 阅读层级：selected_full_text_sections；来源：https://xplorestaging.ieee.org/document/10022165/。
+- 已读章节：六页作者 PDF 第 1 页摘要、第 4 页 §IV 指定模型与 §V.A 平台设置；未阅读全文结果表。
+- [详细阅读记录](notes/kyber-multiplication-and-shuffling-20261113.md)
+- 代码/数据核查：not inspected；引用追踪：pending。
+
 ## Branch Different - Spectre Attacks on Apple Silicon
 
 - 来源：[DIMVA 2022](https://doi.org/10.1007/978-3-031-09484-2_7)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
@@ -353,6 +366,327 @@
 - 限制与下一步：等价签名能力不等于逐字恢复原始私钥。SAC 2022 的正式章节于 2024 年上线；预印本与正式版作者排序不同，全文等价尚未核对。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher abstract and ePrint 2022/106 abstract: https://link.springer.com/chapter/10.1007/978-3-031-58411-4_1。
 - 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
+
+## "They're not that hard to mitigate": What Cryptographic Library Developers Think About Timing Attacks
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833713)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Jan Jancar; Marcel Fourné; Daniel De Almeida Braga; Mohamed Sabt; Peter Schwabe; Gilles Barthe; Pierre-Alain Fouque; Yasemin Acar
+- 对象：constant-time, timing, developer survey；类型：developer_study。
+- 核心想法：调查密码库开发者如何处理恒时要求及工具使用障碍。
+- 作者报告：作者调查 27 个库的 44 位开发者，讨论资源投入与分析工具缺口。
+- 限制与下一步：开发者调查不是库实现无泄漏的证明，也不是所有开发者的普查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833713/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## A Secret-Free Hypervisor: Rethinking Isolation in the Age of Speculative Vulnerabilities
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833726)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Hongyan Xia; David Zhang; Wei Liu; Istvan Haller; Bruce Sherwin; David Chisnall
+- 对象：Spectre, hypervisor, memory isolation；类型：microarchitectural_countermeasure。
+- 核心想法：Secret-Free 通过只公开必要非秘密地址视图重组虚拟化隔离。
+- 作者报告：作者在 Xen 等系统实现并评价性能与适配。
+- 限制与下一步：指定秘密可见性和推测模型不覆盖所有物理功耗或 EM 通道。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833726/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## A Systematic Look at Ciphertext Side Channels on AMD SEV-SNP
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833768)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Mengyuan Li; Luca Wilke; Jan Wichelmann; Thomas Eisenbarth; Radu Teodorescu; Yinqian Zhang
+- 对象：AMD SEV-SNP, ciphertext side channel, memory encryption；类型：side_channel_analysis。
+- 核心想法：把 AMD SEV 的密文变化观察从 VMSA 扩展到其他内存页。
+- 作者报告：作者指出仅随机化 VMSA 的缓解不足，并提出 OS 和密码库软件措施。
+- 限制与下一步：反映论文研究的硬件/固件状态；不是当前所有 SEV-SNP 版本的漏洞确认。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833768/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## AccEar: Accelerometer Acoustic Eavesdropping with Unconstrained Vocabulary
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833716)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Pengfei Hu; Hui Zhuang; Panneer Selvam Santhalingam; Riccardo Spolaor; Parth Pathak; Guoming Zhang; Xiuzhen Cheng
+- 对象：accelerometer, acoustic, audio reconstruction；类型：physical_side_channel。
+- 核心想法：AccEar 从手机加速度计响应重建扬声器音频，研究超出固定词表的观察。
+- 作者报告：作者使用条件 GAN 与频谱增强，在多种采样率、音量和设备条件评价。
+- 限制与下一步：低频输入的生成式重建不等于逐样本精确还原任意语音；访问和训练条件仍需正文核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833716/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833692)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Yanan Guo; Andrew Zigerelli; Youtao Zhang; Jun Yang
+- 对象：PREFETCHW, cache coherence, transient execution；类型：microarchitectural_side_channel。
+- 核心想法：利用 PREFETCHW 权限行为和一致性状态计时构造跨核私有缓存通道。
+- 作者报告：摘要报告隐蔽通道、真实应用侧信道与瞬态执行用途。
+- 限制与下一步：共享缓存行、权限和处理器条件不同；隐蔽信道容量不是密钥恢复速率。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833692/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Are We There Yet? Timing and Floating-Point Attacks on Differential Privacy Systems
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833672)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Jiankai Jin; Eleanor McMurtry; Benjamin I. P. Rubinstein; Olga Ohrimenko
+- 对象：differential privacy, floating point, sampling timing；类型：implementation_side_channel。
+- 核心想法：研究差分隐私噪声生成中的浮点表示泄漏与离散采样计时泄漏。
+- 作者报告：作者通过推断噪声幅度恢复敏感属性，并评价部分缓解。
+- 限制与下一步：浮点输出缺陷和运行时间通道分别记录；实验成功率只对应所列 DP 实现与任务。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833672/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Attacks on Wireless Coexistence
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833639)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Jiska Classen; Francesco Gringoli; Michael Hermann; Matthias Hollick
+- 对象：wireless coexistence, Bluetooth, keypress timing；类型：cross_chip_metadata_side_channel。
+- 核心想法：无线共存协议的包时序与类型元数据可跨 Wi-Fi/Bluetooth 芯片暴露按键活动。
+- 作者报告：作者稿 §V.D.5 展示 Wi-Fi 核获得 Bluetooth 键盘事件时序，另有直接读写与权限升级结果。
+- 限制与下一步：需控制 Wi-Fi 核；按键时刻观察不等于解出键值或密码。直接内存攻击与元数据侧信道分开。
+- 阅读层级：selected_full_text_sections；来源：https://xplorestaging.ieee.org/document/9833639/。
+- 已读章节：arXiv author PDF page 4 §III.B and page 9 §V.D.5, alongside publisher abstract; no full bibliography audit
+- [详细阅读记录](notes/sp2022-scope-and-identity-20261113.md)
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Augury: Using Data Memory-Dependent Prefetchers to Leak Data at Rest
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833570)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Jose Rodrigo Sanchez Vicarte; Michael Flanders; Riccardo Paccagnella; Grant Garrett-Grossman; Adam Morrison; Christopher W. Fletcher; David Kohlbrenner
+- 对象：DMP, Apple, prefetcher, data at rest；类型：microarchitectural_side_channel。
+- 核心想法：Augury 研究 Apple 数据相关预取器直接检查内存内容产生的泄漏。
+- 作者报告：作者在 A14/M1 等研究指针追逐预取器及泄露指针的基本原语。
+- 限制与下一步：不是任意值或 PQC 密钥恢复；不能把后来的 GoFetch 能力回写到本篇。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833570/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Cats vs. Spectre: An Axiomatic Approach to Modeling Speculative Execution Attacks
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833774)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Hernán Ponce-de-Leon; Johannes Kinder
+- 对象：Spectre, CAT, axiomatic semantics；类型：formal_side_channel_analysis。
+- 核心想法：以并发内存模型语言 CAT 表达推测执行规则，并作有界检查。
+- 作者报告：作者模型覆盖推测控制流、转发与内存序清除等机制。
+- 限制与下一步：模型可扩展不等于覆盖所有微架构；有界验证范围与真实设备证据分开。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833774/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## DeepCoFFEA: Improved Flow Correlation Attacks on Tor via Metric Learning and Amplification
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833801)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Se Eun Oh; Taiji Yang; Nate Mathews; James K Holland; Mohammad Saidur Rahman; Nicholas Hopper; Matthew Wright
+- 对象：Tor, encrypted traffic, flow correlation；类型：traffic_metadata_side_channel。
+- 核心想法：DeepCoFFEA 用嵌入和分窗投票提高 Tor 入口与出口流关联。
+- 作者报告：作者评价大规模配对下的计算成本、误报及多种对策。
+- 限制与下一步：纳入依据为加密通信元数据到用户关联的具体泄漏；不等于密码内容或密钥恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833801/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## DeepSteal: Advanced Model Extractions Leveraging Efficient Weight Stealing in Memories
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833743)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Adnan Siraj Rakin; Md Hafizul Islam Chowdhuryy; Fan Yao; Deliang Fan
+- 对象：Rowhammer, memory leakage, DNN weights；类型：combined_fault_and_side_channel。
+- 核心想法：DeepSteal 通过 HammerLeak 将 Rowhammer 故障作为权重比特泄漏向量。
+- 作者报告：作者结合部分权重信息与替代模型训练，评价模型提取和后续输入攻击。
+- 限制与下一步：不是纯故障破坏；目标为 DNN 权重与替代行为，模型精度不代表全部权重逐位恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833743/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Device Fingerprinting with Peripheral Timestamps
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833612)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：John V. Monaco
+- 对象：peripheral timestamps, browser, fingerprinting；类型：timing_fingerprinting。
+- 核心想法：从外设输入事件的轮询与调度节奏形成浏览器设备指纹。
+- 作者报告：作者提出双时钟相位模型并评价大量设备事件。
+- 限制与下一步：设备识别与融合用户行为后的指标分开；指纹稳定性不等于秘密值恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833612/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Evaluating Physical-Layer BLE Location Tracking Attacks on Mobile Devices
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833758)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Hadi Givehchian; Nishant Bhaskar; Eliana Rodriguez Herrera; Héctor Rodrigo López Soto; Christian Dameff; Dinesh Bharadia; Aaron Schulman
+- 对象：BLE, physical-layer fingerprints, location privacy；类型：physical_side_channel。
+- 核心想法：BLE 发射硬件缺陷可在标识轮换之外提供设备跟踪线索。
+- 作者报告：作者摘要讨论芯片、温度、发射功率和低成本无线接收条件，并作野外评价。
+- 限制与下一步：物理识别有时不可靠；不宣称每个设备唯一。出版页获取失败后读取作者 PDF 摘要。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://wcsng.ucsd.edu/files/sp22_paper.pdf。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Finding and Exploiting CPU Features using MSR Templating
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833599)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Andreas Kogler; Daniel Weber; Martin Haubenwallner; Moritz Lipp; Daniel Gruss; Michael Schwarz
+- 对象：MSR, AES-NI, SGX, microarchitecture；类型：configuration_assisted_side_channel。
+- 核心想法：MSRevelio 检查 MSR 配置如何暴露或改变微架构攻击条件。
+- 作者报告：作者展示关闭 AES-NI 后 mbedTLS 回退缓存攻击，以及隐藏计时来源等案例。
+- 限制与下一步：需相应 MSR 配置能力；不是无权限普适密钥提取，具体案例边界待全文复核。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833599/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Graphics Peeping Unit: Exploiting EM Side-Channel Information of GPUs to Eavesdrop on Your Neighbors
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833773)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Zihao Zhan; Zhenkai Zhang; Sisheng Liang; Fan Yao; Xenofon Koutsoukos
+- 对象：GPU, electromagnetic, DVFS, website fingerprinting；类型：physical_side_channel。
+- 核心想法：研究 GPU EM 辐射携带的网站指纹和按键时序信息。
+- 作者报告：作者分析 DVFS 关联，并指出关闭 DVFS 后仍可能存在另一种 EM 通道。
+- 限制与下一步：面向非共享 GPU 的远距观察仍有传感与环境前提；不能从摘要推定所有 GPU 或任意距离。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833773/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## IRShield: A Countermeasure Against Adversarial Physical-Layer Wireless Sensing
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833676)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Paul Staat; Simon Mulzer; Stefan Roth; Veelasha Moonsamy; Markus Heinrichs; Rainer Kronberger; Aydin Sezgin; Christof Paar
+- 对象：wireless sensing, IRS, motion privacy；类型：physical_side_channel_countermeasure。
+- 核心想法：IRShield 用可重构反射面扰动无线传播，抵御从通信信号推断室内活动。
+- 作者报告：作者在商用 Wi-Fi 人体运动检测场景评价通道混淆。
+- 限制与下一步：特定运动检测率不代表所有感知任务、位置或观察者均受保护。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833676/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## IronMask: Versatile Verification of Masking Security
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833600)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Sonia Belaïd; Darius Mercadier; Matthieu Rivain; Abdul Rahman Taleb
+- 对象：masking, probing, random probing, IronMask；类型：formal_verification。
+- 核心想法：IronMask 验证指定探针与随机探针模型中的掩码安全及组合性质。
+- 作者报告：作者为含非线性随机性的二次组件给出代数刻画，并比较验证性能。
+- 限制与下一步：完备性限定于所述组件类别与模型；不是实测无泄漏或任意非线性电路证明。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833600/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## MeshUp: Stateless Cache Side-channel Attack on CPU Mesh
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833794)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Junpeng Wan; Yanxiang Bi; Zhe Zhou; Zhou Li
+- 对象：CPU mesh, interconnect contention, RSA；类型：microarchitectural_side_channel。
+- 核心想法：MeshUp 通过互连拥塞计时观察访问模式，研究缓存隔离之外的共享资源。
+- 作者报告：作者展示跨核 RSA 部分恢复和跨 CPU 应用指纹。
+- 限制与下一步：stateless 指无需缓存状态持久观察，不等于系统无状态；RSA 结果是部分恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833794/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Mind the Gap: Studying the Insecurity of Provably Secure Embedded Trusted Execution Architectures
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833735)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Marton Bognar; Jo Van Bulck; Frank Piessens
+- 对象：embedded TEE, DMA, formal model mismatch；类型：implementation_and_model_analysis。
+- 核心想法：对两种有形式证明的嵌入式可信架构检查模型与实现差距。
+- 作者报告：摘要报告多种攻击，其中包括 DMA 侧信道，并提出加强证据的建议。
+- 限制与下一步：程序错误与模型遗漏分别分析；不能把两个实例推成形式方法普遍无效。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833735/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Mitigating Information Leakage Vulnerabilities with Type-based Data Isolation
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833675)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Alyssa Milburn; Erik Van Der Kouwe; Cristiano Giuffrida
+- 对象：type-based data isolation, speculation, compiler；类型：microarchitectural_countermeasure。
+- 核心想法：TDI 用类型相关内存区域和指针运算插桩约束架构与推测读取。
+- 作者报告：作者报告细粒度隔离性质及基准开销。
+- 限制与下一步：侧信道纳入依据为推测域信息读取缓解；不是功耗/EM 或所有信息流保证。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833675/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Noise-SDR: Arbitrary Modulation of Electromagnetic Noise from Unprivileged Software and Its Impact on Emission Security
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833767)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Giovanni Camurati; Aurélien Francillon
+- 对象：electromagnetic emission, DRAM, covert channel；类型：physical_channel_construction。
+- 核心想法：Noise-SDR 通过普通软件活动塑造设备 EM 辐射，用于通信和信号注入。
+- 作者报告：作者在多种 ISA 与设备上实现基于 DRAM 访问的调制。
+- 限制与下一步：是有意调制的物理发射原语，不等于被动恢复任意秘密；功率、频带和带宽受平台限制。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833767/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Noise: A Library of Verified High-Performance Secure Channel Protocol Implementations
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833621)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Son Ho; Jonathan Protzenko; Abhishek Bichhawat; Karthikeyan Bhargavan
+- 对象：Noise protocols, F*, verified compiler, side-channel resistance；类型：formal_countermeasure。
+- 核心想法：Noise 协议编译器把功能、内存安全及一种侧信道保证贯穿到生成 C 代码。
+- 作者报告：作者在 F* 中验证编译器并生成多种协议实现。
+- 限制与下一步：摘要未精确展开该侧信道观察模型；必须补读，不能称为物理波形安全证明。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833621/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## SoK: Practical Foundations for Software Spectre Defenses
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833707)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Sunjay Cauligi; Craig Disselkoen; Daniel Moghimi; Gilles Barthe; Deian Stefan
+- 对象：Spectre, software defenses, formal semantics；类型：systematization。
+- 核心想法：梳理软件 Spectre 缓解和验证工具的语义、保证与取舍。
+- 作者报告：作者用统一框架比较有无形式模型的防护并提出开放问题。
+- 限制与下一步：系统化比较的范围为所审查软件防护，不能当作全部处理器攻击的覆盖证明。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833707/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## SpecHammer: Combining Spectre and Rowhammer for New Speculative Attacks
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833802)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Youssef Tobah; Andrew Kwong; Ingab Kang; Daniel Genkin; Kang G. Shin
+- 对象：Spectre, Rowhammer, taint tracking；类型：combined_fault_and_side_channel。
+- 核心想法：SpecHammer 用 Rowhammer 改变受害状态，扩大 Spectre 可用 gadget。
+- 作者报告：作者展示用户态和内核样例中的敏感信息泄漏。
+- 限制与下一步：纳入依据是故障与泄漏组合；gadget 数量不是实际可恢复秘密数量。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833802/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Spook.js: Attacking Chrome Strict Site Isolation via Speculative Execution
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833711)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Ayush Agarwal; Sioli O’Connell; Jason Kim; Shaked Yehezkel; Daniel Genkin; Eyal Ronen; Yuval Yarom
+- 对象：Spook.js, Spectre, Chrome site isolation；类型：browser_microarchitectural_side_channel。
+- 核心想法：Spook.js 研究 JavaScript 推测执行如何突破所测浏览器站点隔离边界。
+- 作者报告：作者展示跨网页与扩展中敏感信息泄漏。
+- 限制与下一步：结果对应论文所研究版本；不是当前 Chrome/Edge/Brave 的通用漏洞确认。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833711/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833722)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Jiajun Gong; Wuqi Zhang; Charles Zhang; Tao Wang
+- 对象：Tor, website fingerprinting, GAN；类型：traffic_metadata_countermeasure。
+- 核心想法：Surakav 生成发送模式并调节缓冲流量，抵御加密流量的网站指纹识别。
+- 作者报告：作者在实时 Tor 网络评价攻击真阳性率与流量/时间成本。
+- 限制与下一步：数据与时间开销、攻击真阳性率分别比较，指定评估不覆盖所有未来攻击。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833722/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Time-Print: Authenticating USB Flash Drives with Novel Timing Fingerprints
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833595)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Patrick Cronin; Xing Gao; Haining Wang; Chase Cotton
+- 对象：USB, timing fingerprints, device authentication；类型：timing_fingerprinting。
+- 核心想法：Time-Print 利用 USB 存储读取时延形成设备认证指纹。
+- 作者报告：作者比较品牌型号识别、同型号识别和分类任务。
+- 限制与下一步：作为可观察时间响应方法纳入；不是秘密恢复，三类识别率不能混成一个通用指标。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833595/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Timing-Based Browsing Privacy Vulnerabilities Via Site Isolation
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833710)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Zihao Jin; Ziqiao Kong; Shuo Chen; Haixin Duan
+- 对象：browser, site isolation, timing；类型：browser_timing_side_channel。
+- 核心想法：研究站点隔离的进程资源与计时关系如何暴露已打开及活跃网站。
+- 作者报告：作者在目标站点集合中评价三种浏览行为观察指标。
+- 限制与下一步：目标集合可访问性与进程条件待正文核查；论文时代的漏洞比例不是当前浏览器状态。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833710/。
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## mmSpy: Spying Phone Calls using mmWave Radars
+
+- 来源：[SP 2022](https://doi.org/10.1109/sp46214.2022.9833568)；时间标记：within rolling window; SP 2022 formal date retained。
+- 作者：Suryoday Basak; Mahanth Gowda
+- 对象：mmWave radar, earpiece vibration, acoustic；类型：physical_side_channel。
+- 核心想法：mmSpy 用毫米波雷达观察电话听筒微振动，研究远程语音信息推断。
+- 作者报告：作者评价数字/关键词分类并展示音频重建可行性。
+- 限制与下一步：词类识别、声音重建与完整通话转录不同；距离与训练域条件不可省略。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9833568/。
+- 代码/数据核查：not inspected；引用追踪：pending。
 
 ## A Constant-time AVX2 Implementation of a Variant of ROLLO
 
@@ -1115,6 +1449,30 @@
 - 限制与下一步：t0 不是标准压缩公钥中自动已知的量；不需要 t0 的另一变体要求更多系数读数。不能将第一变体的单迹成功率转给第二变体。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：ePrint abstract: https://eprint.iacr.org/2023/1931; NIST presentation located, not a separate paper。
 - 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
+
+## Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication
+
+- 来源：[ACM TECS 2024](https://doi.org/10.1145/3569420)；时间标记：within frozen rolling window; publication and version dates retained。
+- 作者：Catinca Mujdei; Lennert Wouters; Angshuman Karmakar; Arthur Beckers; Jose Maria Bermudo Mera; Ingrid Verbauwhede
+- 对象：Kyber, Saber, NTRU, Toom-Cook, NTT, CPA, Cortex-M4；类型：polynomial_multiplication_side_channel。
+- 核心想法：比较 Toom-Cook 与 NTT 点乘结构对非剖析 CPA 成本的影响。
+- 作者报告：接受稿 §5 在 pqm4/STM32F415 上评价，Kyber 段报告 200 条覆盖多项式乘法的轨迹及每对系数约五分钟。
+- 限制与下一步：采集不覆盖完整解封装；不同算法使用不同输入和搜索策略。作者接受稿 26 页，正式版 23 页，作者次序/姓名形式也不同；未声称文本等价。
+- 阅读层级：selected_full_text_sections；来源：https://imec-publications.be/entities/publication/b5e5291a-f041-489a-9274-fba6b0da02e3。
+- 已读章节：接受稿第 1 页摘要、第 18–20 页 §5.1–5.3 与第 20 页结论开头；不是正式版全文精读。
+- [详细阅读记录](notes/kyber-multiplication-and-shuffling-20261113.md)
+- 代码/数据核查：not inspected；引用追踪：pending。
+
+## Breaking DPA-Protected Kyber via the Pair-Pointwise Multiplication
+
+- 来源：[ACNS 2024](https://doi.org/10.1007/978-3-031-54773-7_5)；时间标记：within frozen rolling window; publication and version dates retained。
+- 作者：Estuardo Alpirez Bock; Gustavo Banegas; Chris Brzuska; Łukasz Chmielewski; Kirthivaasan Puniamurthy; Milan Šorf
+- 对象：Kyber, incomplete NTT, masked multiplication, templates, mkm4；类型：template_side_channel。
+- 核心想法：研究不完全 NTT 中系数重复使用，比较已知密文模板方法的模拟与实测表现。
+- 作者报告：摘要的 13,316 模板和 σ≤0.3 是 HW 模拟；实测原方法未达预期，加入在线模板式扩展后报告单次多项式乘法恢复 128 对系数。
+- 限制与下一步：一条轨迹不含剖析成本；单多项式的 128 对系数不自动等于全部 Kyber 私钥。ePrint PDF HTTP 403，本批不声称读到正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-54773-7_5。
+- 代码/数据核查：author repository README retrieved: https://github.com/crocs-muni/Attack_Kyber_ACNS2024 ; README declares source, example traces and simulations using mkm4; completeness not checked and nothing executed；引用追踪：pending。
 
 ## Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt
 
@@ -1961,6 +2319,19 @@
 - 限制与下一步：摘要未完整说明入射载波的产生与访问条件，不能直接写成纯被动辐射窃听。4 cm 线长的实验与 1 cm 的模拟结论需分开；不改设备不等于没有外部射频条件。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11023318/。
 - 代码/数据核查：not checked；引用追踪：pending。
+
+## A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber
+
+- 来源：[TCAS-II 2025](https://doi.org/10.1109/tcsii.2025.3528751)；时间标记：within frozen rolling window; publication and version dates retained。
+- 作者：Dejun Xu; Kai Wang; Jing Tian
+- 对象：Kyber, FPGA, shuffling, EM, CPA, TVLA；类型：hardware_countermeasure。
+- 核心想法：修改 Fisher–Yates 并设计硬件地址打乱架构，评价 Kyber FPGA 保护与面积时间成本。
+- 作者报告：arXiv v5 的图 4 报告保护版 100,000 条 EM CPA 与 10,000,000 条 EM TVLA；§IV 在 Artix-7 Kyber768 上评价。
+- 限制与下一步：CPA 针对点乘，TVLA 针对解密；未逐项展示的约减/减法不能当作本项目核验。有限预算 TVLA 不证明全部已知或潜在泄漏点安全；故障保护列为未来工作。
+- 阅读层级：selected_full_text_sections；来源：https://arxiv.org/abs/2407.02452v5。
+- 已读章节：五页 arXiv v5 PDF 第 1 页摘要、第 4–5 页 §IV–VI、图 4、表 II 及九条选读参考；第 4 页已视觉核查。
+- [详细阅读记录](notes/kyber-multiplication-and-shuffling-20261113.md)
+- 代码/数据核查：not inspected；引用追踪：pending。
 
 ## Adaptive Template Attacks on the Kyber Binomial Sampler
 

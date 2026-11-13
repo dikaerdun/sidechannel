@@ -1,0 +1,20 @@
+{
+  "reviewed_on": "2026-11-13",
+  "sources": [],
+  "title_screening_batches": [
+    {
+      "venue": "SP",
+      "year": 2022,
+      "records": 147,
+      "decision_counts": {
+        "outside_title_scope": 55,
+        "candidate": 26,
+        "adjacent": 43,
+        "uncertain": 23
+      }
+    }
+  ],
+  "catalog_file": "catalogs/sp-2022.jsonl",
+  "catalog_sha256": "e60e6f07e4dba78c75c08bf0f746c0d4c8164b61faeafe6f6f02f3a887247adb",
+  "scope": "manual title pass, not final inclusion/exclusion"
+}

@@ -50,3 +50,8 @@ python3 docs/research/knowledge-base/literature/tools/audit_sp2023_print_toc.py 
 2026-11-12 修正：保留 Crossref 主标题与副标题，合并为可读标题；TCHES 卷首前言单列排除。S&P 2023 以另一官方日程补入主列表遗漏的 DVFS 论文，两个页面的差异留在 provenance。引用扩展条目放在 `catalogs/citation-expansion.jsonl`，不是完整会议目录；扩展来源与核心 30 单元分开计数。
 
 重建后运行 `python3 docs/research/knowledge-base/literature/tools/validate_library.py`，检查身份、阅读状态、覆盖数量、引用编号、来源和链接。此检查仅验证产物一致性，不确认论文结论、独立复现、新颖性或文献无遗漏。
+
+
+## S&P 2022 印刷目录提取复核
+
+在仓库根目录运行 `python3 docs/research/knowledge-base/literature/tools/audit_sp2022_print_toc.py --pdf <local-sp2022-print-toc.pdf>`。需要 PyMuPDF；脚本检查冻结 PDF 哈希、已视觉校准的源专用字形与 147 条提取结果。原 PDF 留在仓库外。成员映射另由 `validate_library.py` 检查；两者均不证明主题或引用覆盖完成。

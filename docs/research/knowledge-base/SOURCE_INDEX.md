@@ -18,7 +18,9 @@
 
 2026-11-12 第三批构思增补：[模型反例、格的几何与物理同步](brainstorms/2026-11-12-model-breaking-directions.md) 文末记录 Scam-V、DDGR、distribution hints、2026/2654 结构化提示预印本、PhaseSCA 与 RO 注入锁定的定位性阅读范围。摘要阅读、PDF 局部阅读和直接访问失败分开记录；未进行全文普查或结果复现。
 
-2026-11-13 文献更新：统一放在[近五年文献库](literature/README.md)。[覆盖表](literature/COVERAGE.md)区分 1,311 条标题初筛、384 条摘要及以上判定和引用追踪；[225 条卡片](literature/PAPER_NOTES.md)与[159 条相邻主题](literature/ADJACENT_NOTES.md)保留实际阅读范围。最新[掩码与硬件来源](literature/provenance/sp2023-reference-followup-20261113.json)保存 41 项原始来源的时间与哈希：16 条新增卡片、一条正文升级、八条引用发现解析、13 条引用边和 7 条版本关系。会议/期刊版本不等于独立研究，正文限定、作者报告与模拟结果见[专题记录](literature/notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)。
+2026-11-13 文献接续：[S&P 2022 来源](literature/provenance/sp2022-candidates-20261113.json)记录 49 条摘要、147 条身份迁移和作者字段处理；[印刷目录来源](literature/provenance/sp2022-print-toc-crosscheck-20261113.json)记录 147 条对应及页码例外。[四篇 Kyber 来源](literature/provenance/kyber-four-reference-followup-20261113.json)记录指定正文、ACNS PDF 403、README-only 获取和三条版本关系。细节见[批次记录](records/2026-11-13-literature-sp2022-kyber-four.md)，未执行作者代码。
+
+2026-11-13 文献更新：统一放在[近五年文献库](literature/README.md)。[覆盖表](literature/COVERAGE.md)区分 1,458 条标题初筛、437 条摘要及以上判定和引用追踪；[258 条卡片](literature/PAPER_NOTES.md)与[179 条相邻主题](literature/ADJACENT_NOTES.md)保留实际阅读范围。此前[掩码与硬件来源](literature/provenance/sp2023-reference-followup-20261113.json)保存 41 项原始来源的时间与哈希：16 条新增卡片、一条正文升级、八条引用发现解析、13 条引用边和 7 条版本关系。会议/期刊版本不等于独立研究，正文限定、作者报告与模拟结果见[专题记录](literature/notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)。
 
 此前 [S&P 2023 来源](literature/provenance/sp2023-candidates-20261113.json)记录 47 篇不同论文的摘要、两篇指定正文、两个重复 DOI 对及 193 条身份迁移；[印刷目录来源](literature/provenance/sp2023-print-toc-crosscheck-20261113.json)记录字形解码、196 条对应、两条改题名和三个 N/A。该批留下的八条发现已在新批次解析，历史记录仍保留。
 
