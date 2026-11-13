@@ -152,6 +152,25 @@ for year in range(2021,2027):
     assert prov['matched_nodes']==prov['parsed_records']+prov['nonpaper_entries'],f'Unaccounted USENIX schedule nodes in {year}'
     assert prov['retained_total']==counts[('USENIX',year)]
 assert not ({r.get('id') for r in excluded if r.get('id')} & ids),'Excluded schedule entry retained as a paper'
+# Live entry-page statistics must agree with the records. Historical batch notes
+# deliberately retain their original totals and are not subject to these checks.
+readme=(ROOT/'README.md').read_text()
+def entry_counts(pattern,expected,label):
+    match=re.search(pattern,readme)
+    assert match,f'Missing live README accounting statement: {label}'
+    actual=tuple(int(x.replace(',','')) for x in match.groups())
+    assert actual==tuple(expected),f'Stale live README {label}: {actual} != {tuple(expected)}'
+scope_counts=Counter(p['scope'] for p in papers)
+reading_counts=Counter(p['reading_level'] for p in papers)
+task_counts=Counter(t['status'] for t in citation_tasks)
+entry_counts(r'\[(\d+) 条阅读卡片\].*?分为 (\d+) 条 PQC、(\d+) 条通用研究；(\d+) 条以摘要为主，(\d+) 条补读',
+             [len(papers),scope_counts['pqc'],scope_counts['general_sca'],reading_counts['abstract_and_bibliographic_metadata'],reading_counts['selected_full_text_sections']],'reading cards and levels')
+entry_counts(r'\[(\d+) 条相邻主题与方法背景\]',[sum(d['decision']=='adjacent' for d in decisions)],'adjacent decisions')
+entry_counts(r'\[引用与版本进度\].*?：(\d+) 条核对引用、(\d+) 条版本关系（(\d+) 条核实、(\d+) 条推定）；(\d+) 条发现完成身份与范围判定、(\d+) 条仍待解析',
+             [len(cites),len(versions),len(versions)-len(inferred_versions),len(inferred_versions),len(resolved_discoveries),len(pending_discoveries)],'citations and discoveries')
+entry_counts(r'\[扩展来源\].*?取得的 (\d+) 条记录',[coverage['citation_expansion_records']],'expansion catalog')
+entry_counts(r'已完成 ([\d,]+) 条标题初筛和 ([\d,]+) 条摘要及以上阅读判定，其中纳入 ([\d,]+) 条、相邻主题 ([\d,]+) 条。([\d,]+) 项前后向任务中，([\d,]+) 项进行中、([\d,]+) 项待处理',
+             [len(titles),len(decisions),len(papers),sum(d['decision']=='adjacent' for d in decisions),len(citation_tasks),task_counts['in_progress'],task_counts['pending']],'screening and task totals')
 broken=[];links=0
 docs=list(ROOT.rglob('*.md'))+[ROOT.parent/'README.md',ROOT.parent/'SOURCE_INDEX.md',ROOT.parent/'NEXT_ACTION.md',*ROOT.parent.joinpath('records').glob('*literature*.md')]
 for p in docs:

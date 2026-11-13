@@ -1,8 +1,8 @@
 # 引用与版本追踪进度
 
-已核对 236 条引用条目；版本关系共 55 条，其中 49 条书目核实、6 条为原始来源推定。它们不等于被引论文已全部读完。
-追踪任务共 900 项：in_progress=64, pending=836。
-已登记发现中，80 条完成身份与范围判定，105 条仍待核查；已解析记录继续保留历史。
+已核对 246 条引用条目；版本关系共 58 条，其中 52 条书目核实、6 条为原始来源推定。它们不等于被引论文已全部读完。
+追踪任务共 922 项：in_progress=65, pending=857。
+已登记发现中，80 条完成身份与范围判定，120 条仍待核查；已解析记录继续保留历史。
 
 GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan、Peek-a-Walk、EasyCrypt、Episode V 及 S&P 2023 的指定引用继续保留。追加 GLP 期刊、Protecting Dilithium、3D-Shield 合计九条选读；所有选读均不构成完整参考文献筛查。
 SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 条参考列表已逐条初筛，原 23 条发现现已解析，共 59 条对应、36 条暂列背景。背景条目未经原文最终排除，全部列表也不构成递归引用闭合。
@@ -23,6 +23,9 @@ MORE 的 27 条出版商引用已完整初筛：3 条对应、19 条待查、5 �
 mUOV 的 NIST 托管作者稿全部 52 条参考位置已初筛：18 条目录对应、10 条待查、24 条暂列背景；最终 ACM 参考列表尚未对照，未完成递归或前向闭合。
 后续解析 mUOV 七条发现，并完成 floor 正式版 31 条引用初筛：10 条对应、11 条待查、10 条暂列背景。Maskaglia 只核对参考 5；ICCD 浮点转换仍为元数据线索。见 [接续笔记](notes/muov-followups-and-masked-sampling-20261114.md)。
 [mUOV 引用清单](citations/muov2025-reference-screen.jsonl) · [CCS 2025 掩码与观察边界](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
+
+Swallow 作者 PDF 的 37 个参考位置已全部初筛：10 条目录对应、15 条待查、11 条暂列背景、一个重复位置。第 19 条重复第 18 条，不重复计边；实际被引预印本年份与后续正式版本分开保留。
+[Swallow 引用清单](citations/swallow2025-reference-screen.jsonl) · [CCS 2025 指标与迁移范围](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
 
 [GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)
 
@@ -120,6 +123,16 @@ mUOV 的 NIST 托管作者稿全部 52 条参考位置已初筛：18 条目录�
 | [A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber](https://doi.org/10.1109/tcsii.2025.3528751) | 15 | [An architecture-independent instruction shuffler to protect against side-channel attacks](https://doi.org/10.1145/2086696.2086699) | abstract_and_bibliographic_metadata |
 | [A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber](https://doi.org/10.1109/tcsii.2025.3528751) | 16 | [Chosen Ciphertext k-Trace Attacks on Masked CCA2 Secure Kyber](https://doi.org/10.46586/tches.v2021.i4.88-113) | abstract_and_bibliographic_metadata |
 | [A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber](https://doi.org/10.1109/tcsii.2025.3528751) | 17 | [Reconfigurable and High-Efficiency Polynomial Multiplication Accelerator for CRYSTALS-Kyber](https://doi.org/10.1109/tcad.2022.3230359) | abstract read; adjacent (see ADJACENT_NOTES) |
+| [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | 2 | [Realistic Website Fingerprinting By Augmenting Network Traces](https://www.sigsac.org/ccs/CCS2023/program.html) | catalog only; abstract pending |
+| [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | 9 | [Surakav: Generating Realistic Traces for a Strong Website Fingerprinting Defense](https://doi.org/10.1109/sp46214.2022.9833722) | abstract_and_bibliographic_metadata |
+| [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | 14 | [Transformer-based Model for Multi-tab Website Fingerprinting Attack](https://www.sigsac.org/ccs/CCS2023/program.html) | catalog only; abstract pending |
+| [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | 18 | [Measuring Information Leakage in Website Fingerprinting Attacks and Defenses](https://doi.org/10.1145/3243734.3243832) | abstract_and_bibliographic_metadata |
+| [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | 20 | [SoK: A Critical Evaluation of Efficient Website Fingerprinting Defenses](https://www.ieee-security.org/TC/SP2023/program-papers.html) | abstract_and_bibliographic_metadata |
+| [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | 25 | [Low-Quality Training Data Only? A Robust Framework for Detecting Encrypted Malicious Network Traffic](https://www.ndss-symposium.org/ndss-paper/low-quality-training-data-only-a-robust-framework-for-detecting-encrypted-malicious-network-traffic/) | catalog only; abstract pending |
+| [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | 27 | [Subverting Website Fingerprinting Defenses with Robust Traffic Representation](https://www.usenix.org/conference/usenixsecurity23/presentation/shen-meng) | catalog only; abstract pending |
+| [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | 28 | [Real-Time Website Fingerprinting Defense via Traffic Cluster Anonymization](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
+| [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | 36 | [Rosetta: Enabling Robust TLS Encrypted Traffic Classification in Diverse Network Environments with TCP-Aware Traffic Augmentation](https://www.usenix.org/conference/usenixsecurity23/presentation/xie) | catalog only; abstract pending |
+| [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | 37 | [Towards Fine-Grained Webpage Fingerprinting at Scale](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | catalog only; abstract pending |
 | [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) | 2 | [Separating Oil and Vinegar with a Single Trace: Side-Channel Assisted Kipnis-Shamir Attack on UOV](https://doi.org/10.46586/tches.v2023.i3.221-245) | abstract_and_bibliographic_metadata |
 | [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) | 3 | [SoK: On the Physical Security of UOV-Based Signature Schemes](https://doi.org/10.1007/978-3-031-86599-2_7) | abstract_and_bibliographic_metadata |
 | [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) | 5 | [Strong Non-Interference and Type-Directed Higher-Order Masking](https://doi.org/10.1145/2976749.2978427) | abstract_and_bibliographic_metadata |
@@ -324,6 +337,9 @@ mUOV 的 NIST 托管作者稿全部 52 条参考位置已初筛：18 条目录�
 | [来源](https://eprint.iacr.org/2023/1131) | [One Vector to Rule Them All: Key Recovery from One Vector in UOV Schemes](https://doi.org/10.1007/978-3-031-62746-0_5) | preprint_of; Author ePrint publication statement explicitly names matching conference; title/authors and formal metadata matched. Full-text equality and all revisions not checked. |
 | [来源](https://eprint.iacr.org/2024/219) | [Singular Points of UOV and VOX](https://doi.org/10.1007/978-3-031-91095-1_11) | preprint_of; Author ePrint publication statement explicitly names matching conference; title/authors and formal metadata matched. Full-text equality and all revisions not checked. |
 | [来源](https://eprint.iacr.org/2026/988) | [Maskaglia: A New, Efficient Approach to Masked Discrete Gaussian Sampling](https://doi.org/10.1007/978-3-032-35415-0_6) | preprint_of; Author ePrint publication statement explicitly names matching conference; title/authors and formal metadata matched. Full-text equality and all revisions not checked. |
+| [来源](https://eprint.iacr.org/2025/1592) | [MegaBlocks: Breaking the Logarithmic I/O-Overhead Barrier for Oblivious RAM](https://doi.org/10.1145/3719027.3765159) | preprint_of; Primary source supplies exact published DOI; Peekaboo PDF also explicitly states accepted CCS 2025 full version. Full-text equivalence not checked. |
+| [来源](https://arxiv.org/abs/2506.21897) | [One Video to Steal Them All: 3D-Printing IP Theft through Optical Side-Channels](https://doi.org/10.1145/3719027.3744837) | preprint_of; Primary source supplies exact published DOI; Peekaboo PDF also explicitly states accepted CCS 2025 full version. Full-text equivalence not checked. |
+| [来源](https://arxiv.org/abs/2509.03806) | [Peekaboo, I See Your Queries: Passive Attacks Against DSSE Via Intermittent Observations](https://doi.org/10.1145/3719027.3765075) | preprint_of; Primary source supplies exact published DOI; Peekaboo PDF also explicitly states accepted CCS 2025 full version. Full-text equivalence not checked. |
 
 ## 累积纠正与未完成项
 

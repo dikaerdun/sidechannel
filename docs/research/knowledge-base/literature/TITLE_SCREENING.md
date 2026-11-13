@@ -981,7 +981,7 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2025 CCS | [Automatically Detecting Online Deceptive Patterns](https://dl.acm.org/doi/10.1145/3719027.3765191) | outside_title_scope | other_security_research |
 | 2025 CCS | [BACScan: Automatic Black-Box Detection of Broken-Access-Control Vulnerabilities in Web Applications](https://dl.acm.org/doi/10.1145/3719027.3744825) | outside_title_scope | other_security_research |
 | 2025 CCS | [BASTAG: Byte-level Access Control on Shared Memory using ARM Memory Tagging Extension](https://dl.acm.org/doi/10.1145/3719027.3744849) | uncertain | primary_abstract_needed |
-| 2025 CCS | [BFId: Identity Inference Attacks utilizing Beamforming Feedback Information](https://dl.acm.org/doi/10.1145/3719027.3765062) | candidate | side_channel_or_obliviousness |
+| 2025 CCS | [BFId: Identity Inference Attacks utilizing Beamforming Feedback Information](https://doi.org/10.1145/3719027.3765062) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [BLACKOUT: Data-Oblivious Computation with Blinded Capabilities](https://doi.org/10.1145/3719027.3765169) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [BOLT: Bandwidth-Optimized Lightning-Fast Oblivious Map powered by Secure HBM Accelerators](https://doi.org/10.1145/3719027.3765069) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [BadAML: Exploiting Legacy Firmware Interfaces to Compromise Confidential Virtual Machines](https://dl.acm.org/doi/10.1145/3719027.3765123) | uncertain | primary_abstract_needed |
@@ -1001,7 +1001,7 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2025 CCS | [Can Personal Health Information Be Secured in LLM? Privacy Attack and Defense in the Medical Domain](https://dl.acm.org/doi/10.1145/3719027.3765105) | outside_title_scope | other_security_research |
 | 2025 CCS | [Cascading Adversarial Bias from Injection to Distillation in Language Models](https://dl.acm.org/doi/10.1145/3719027.3765122) | outside_title_scope | other_security_research |
 | 2025 CCS | [Chekhov’s Gun: Uncovering Hidden Risks in macOS Application-Sandboxed PID-Domain Services](https://dl.acm.org/doi/10.1145/3719027.3765205) | outside_title_scope | other_security_research |
-| 2025 CCS | [Co-Prime: A Co-design Framework for Privacy Preserving Machine Learning on FPGA](https://dl.acm.org/doi/10.1145/3719027.3765090) | uncertain | primary_abstract_needed |
+| 2025 CCS | [Co-Prime: A Co-design Framework for Privacy Preserving Machine Learning on FPGA](https://doi.org/10.1145/3719027.3765090) | uncertain | primary_abstract_needed |
 | 2025 CCS | [Combating Concept Drift with Explanatory Detection and Adaptation for Android Malware Classification](https://dl.acm.org/doi/10.1145/3719027.3744792) | outside_title_scope | other_security_research |
 | 2025 CCS | [Combating Falsification of Speech Videos with Live Optical Signatures](https://dl.acm.org/doi/10.1145/3719027.3765112) | outside_title_scope | other_security_research |
 | 2025 CCS | [Committed Vector Oblivious Linear Evaluation and Its Applications](https://dl.acm.org/doi/10.1145/3719027.3744887) | outside_title_scope | other_security_research |
@@ -1023,7 +1023,7 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2025 CCS | [Deep Learning from Imperfectly Labeled Malware Data](https://dl.acm.org/doi/10.1145/3719027.3765197) | outside_title_scope | other_security_research |
 | 2025 CCS | [Denial of Sequencing Attacks in Ethereum Layer 2 Rollups](https://dl.acm.org/doi/10.1145/3719027.3765100) | outside_title_scope | other_security_research |
 | 2025 CCS | [Deprivileging Low-Level GPU Drivers Efficiently with User Space Processes and CHERI Compartments](https://dl.acm.org/doi/10.1145/3719027.3765036) | uncertain | primary_abstract_needed |
-| 2025 CCS | [Differentially Private Access in Encrypted Search: Achieving Privacy at a Small Cost?](https://dl.acm.org/doi/10.1145/3719027.3765038) | candidate | side_channel_or_obliviousness |
+| 2025 CCS | [Differentially Private Access in Encrypted Search: Achieving Privacy at a Small Cost?](https://doi.org/10.1145/3719027.3765038) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [Differentiation-Based Extraction of Proprietary Data from Fine-tuned LLMs](https://dl.acm.org/doi/10.1145/3719027.3744856) | outside_title_scope | other_security_research |
 | 2025 CCS | [Digital Safety for Children with Intellectual Disabilities When Using Mobile Devices from Parents' and Teachers' Perspectives](https://dl.acm.org/doi/10.1145/3719027.3765101) | outside_title_scope | other_security_research |
 | 2025 CCS | [Discovering and Exploiting IoT Device Hidden Attributes: A New Vulnerability in Smart Homes](https://dl.acm.org/doi/10.1145/3719027.3744847) | outside_title_scope | other_security_research |
@@ -1069,7 +1069,7 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2025 CCS | [From OT to OLE with Subquadratic Communication](https://dl.acm.org/doi/10.1145/3719027.3765225) | outside_title_scope | other_security_research |
 | 2025 CCS | [Fuzzing Processing Pipelines for Zero-Knowledge Circuits](https://dl.acm.org/doi/10.1145/3719027.3744791) | outside_title_scope | other_security_research |
 | 2025 CCS | [Fuzzy Extractors are Practical: Cryptographic Strength Key Derivation from the Iris](https://dl.acm.org/doi/10.1145/3719027.3765098) | uncertain | primary_abstract_needed |
-| 2025 CCS | [GAPDiS: Gradient-Assisted Perturbation Design via Sequence Editing for Website Fingerprinting Defense](https://dl.acm.org/doi/10.1145/3719027.3765084) | candidate | side_channel_or_obliviousness |
+| 2025 CCS | [GAPDiS: Gradient-Assisted Perturbation Design via Sequence Editing for Website Fingerprinting Defense](https://doi.org/10.1145/3719027.3765084) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [GASLITEing the Retrieval: Exploring Vulnerabilities in Dense Embedding-based Search](https://dl.acm.org/doi/10.1145/3719027.3765095) | outside_title_scope | other_security_research |
 | 2025 CCS | [GPU Travelling: Efficient Confidential Collaborative Training with TEE-Enabled GPUs](https://dl.acm.org/doi/10.1145/3719027.3765029) | uncertain | primary_abstract_needed |
 | 2025 CCS | [Generalized Security-Preserving Refinement for Concurrent Systems](https://dl.acm.org/doi/10.1145/3719027.3765138) | uncertain | primary_abstract_needed |
@@ -1078,7 +1078,7 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2025 CCS | [Gibbon: Faster Secure Two-party Training of Gradient Boosting Decision Tree](https://dl.acm.org/doi/10.1145/3719027.3744866) | outside_title_scope | other_security_research |
 | 2025 CCS | [Give LLMs a Security Course: Securing Retrieval-Augmented Code Generation via Knowledge Injection](https://dl.acm.org/doi/10.1145/3719027.3765049) | outside_title_scope | other_security_research |
 | 2025 CCS | [Grafting: Decoupled Scale Factors and Modulus in RNS-CKKS](https://dl.acm.org/doi/10.1145/3719027.3765083) | outside_title_scope | other_security_research |
-| 2025 CCS | [HW-Spy: Handwriting Inference by Tracing Pen-Tail Movements](https://dl.acm.org/doi/10.1145/3719027.3765109) | candidate | side_channel_or_obliviousness |
+| 2025 CCS | [HW-Spy: Handwriting Inference by Tracing Pen-Tail Movements](https://doi.org/10.1145/3719027.3765109) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [Hardening Deep Neural Network Binaries against Reverse Engineering Attacks](https://dl.acm.org/doi/10.1145/3719027.3765144) | uncertain | primary_abstract_needed |
 | 2025 CCS | [Harnessing Sparsification in Federated Learning: A Secure, Efficient, and Differentially Private Realization](https://dl.acm.org/doi/10.1145/3719027.3765044) | outside_title_scope | other_security_research |
 | 2025 CCS | [Harnessing Vital Sign Vibration Harmonics for Effortless and Inbuilt XR User Authentication](https://dl.acm.org/doi/10.1145/3719027.3765060) | uncertain | primary_abstract_needed |
@@ -1114,11 +1114,11 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2025 CCS | [Looping for Good: Cyclic Proofs for Security Protocols](https://dl.acm.org/doi/10.1145/3719027.3765131) | outside_title_scope | other_security_research |
 | 2025 CCS | [ML-Cube: Accelerating Module-Lattice-Based Cryptography using Machine Learning Accelerators with a Memory-Less Design](https://doi.org/10.1145/3719027.3765130) | uncertain | primary_abstract_needed |
 | 2025 CCS | [MM4flow: A Pre-trained Multi-modal Model for Versatile Network Traffic Analysis](https://dl.acm.org/doi/10.1145/3719027.3744804) | uncertain | primary_abstract_needed |
-| 2025 CCS | [MOLE: Breaking GPU TEE with GPU-Embedded MCU](https://dl.acm.org/doi/10.1145/3719027.3744823) | uncertain | primary_abstract_needed |
+| 2025 CCS | [MOLE: Breaking GPU TEE with GPU-Embedded MCU](https://doi.org/10.1145/3719027.3744823) | uncertain | primary_abstract_needed |
 | 2025 CCS | [Managing Correlations in Data and Privacy Demand](https://dl.acm.org/doi/10.1145/3719027.3765048) | outside_title_scope | other_security_research |
 | 2025 CCS | [May the Force Not be With You: Brute-Force Resistant Biometric Authentication and Key Reconstruction](https://dl.acm.org/doi/10.1145/3719027.3744886) | uncertain | primary_abstract_needed |
 | 2025 CCS | [Measuring and Augmenting Large Language Models for Solving Capture-the-Flag Challenges](https://dl.acm.org/doi/10.1145/3719027.3744855) | outside_title_scope | other_security_research |
-| 2025 CCS | [MegaBlocks: Breaking the Logarithmic I/O-Overhead Barrier for Oblivious RAM](https://dl.acm.org/doi/10.1145/3719027.3765159) | candidate | side_channel_or_obliviousness |
+| 2025 CCS | [MegaBlocks: Breaking the Logarithmic I/O-Overhead Barrier for Oblivious RAM](https://doi.org/10.1145/3719027.3765159) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [Membership Inference Attacks as Privacy Tools: Reliability, Disparity and Ensemble](https://dl.acm.org/doi/10.1145/3719027.3744818) | outside_title_scope | other_security_research |
 | 2025 CCS | [MileSan: Detecting Exploitable Microarchitectural Leakage via Differential Hardware-Software Taint Tracking](https://doi.org/10.1145/3719027.3765066) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [Mining in Logarithmic Space with Variable Difficulty](https://dl.acm.org/doi/10.1145/3719027.3744874) | outside_title_scope | other_security_research |
@@ -1134,13 +1134,13 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2025 CCS | [Noise and Stress Don’t Help With Learning: A Qualitative Study to Inform Design of Effective Cybersecurity Awareness in Manufacturing Environments](https://dl.acm.org/doi/10.1145/3719027.3744880) | outside_title_scope | other_security_research |
 | 2025 CCS | [OCR-APT: Reconstructing APT Stories from Audit Logs using Subgraph Anomaly Detection and LLMs](https://dl.acm.org/doi/10.1145/3719027.3765219) | outside_title_scope | other_security_research |
 | 2025 CCS | [Oedipus: LLM-enchanced Reasoning CAPTCHA Solver](https://dl.acm.org/doi/10.1145/3719027.3744872) | outside_title_scope | other_security_research |
-| 2025 CCS | [Off-Path TCP Exploits: PMTUD Breaks TCP Connection Isolation in IP Address Sharing Scenarios](https://dl.acm.org/doi/10.1145/3719027.3744888) | candidate | side_channel_or_obliviousness |
+| 2025 CCS | [Off-Path TCP Exploits: PMTUD Breaks TCP Connection Isolation in IP Address Sharing Scenarios](https://doi.org/10.1145/3719027.3744888) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [On Frontrunning Risks in Batch-Order Fair Systems for Blockchains](https://dl.acm.org/doi/10.1145/3719027.3744879) | outside_title_scope | other_security_research |
 | 2025 CCS | [On Hyperparameters and Backdoor-Resistance in Horizontal Federated Learning](https://dl.acm.org/doi/10.1145/3719027.3765211) | outside_title_scope | other_security_research |
 | 2025 CCS | [On the Feasibility of Poisoning Text-to-Image AI Models via Adversarial Mislabeling](https://dl.acm.org/doi/10.1145/3719027.3744845) | outside_title_scope | other_security_research |
 | 2025 CCS | [On the Security of SSH Client Signatures](https://dl.acm.org/doi/10.1145/3719027.3765079) | uncertain | primary_abstract_needed |
 | 2025 CCS | [One Surrogate to Fool Them All: Universal, Transferable, and Targeted Adversarial Attacks with CLIP](https://dl.acm.org/doi/10.1145/3719027.3744859) | outside_title_scope | other_security_research |
-| 2025 CCS | [One Video to Steal Them All: 3D-Printing IP Theft through Optical Side-Channels](https://dl.acm.org/doi/10.1145/3719027.3744837) | candidate | side_channel_or_obliviousness |
+| 2025 CCS | [One Video to Steal Them All: 3D-Printing IP Theft through Optical Side-Channels](https://doi.org/10.1145/3719027.3744837) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [One-Sided Bounded Noise: Theory, Optimization Algorithms and Applications](https://dl.acm.org/doi/10.1145/3719027.3765110) | uncertain | primary_abstract_needed |
 | 2025 CCS | [Optimal Mechanisms for Quantum Local Differential Privacy](https://dl.acm.org/doi/10.1145/3719027.3765178) | outside_title_scope | other_security_research |
 | 2025 CCS | [Optimistic, Signature-Free Reliable Broadcast and Its Applications](https://dl.acm.org/doi/10.1145/3719027.3765220) | outside_title_scope | other_security_research |
@@ -1151,7 +1151,7 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2025 CCS | [Panther: Private Approximate Nearest Neighbor Search in the Single Server Setting](https://dl.acm.org/doi/10.1145/3719027.3765190) | outside_title_scope | other_security_research |
 | 2025 CCS | [Parcel Mismatch Demystified: Addressing a Decade-Old Security Challenge in Android](https://dl.acm.org/doi/10.1145/3719027.3765034) | outside_title_scope | other_security_research |
 | 2025 CCS | [Passwords and FIDO2 Are Meant to Be Secret: A Practical Secure Authentication Channel for Web Browsers](https://dl.acm.org/doi/10.1145/3719027.3765195) | uncertain | primary_abstract_needed |
-| 2025 CCS | [Peekaboo, I See Your Queries: Passive Attacks Against DSSE Via Intermittent Observations](https://dl.acm.org/doi/10.1145/3719027.3765075) | candidate | side_channel_or_obliviousness |
+| 2025 CCS | [Peekaboo, I See Your Queries: Passive Attacks Against DSSE Via Intermittent Observations](https://doi.org/10.1145/3719027.3765075) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [Phalanx: An FHE-Friendly SNARK for Verifiable Computation on Encrypted Data](https://dl.acm.org/doi/10.1145/3719027.3765226) | outside_title_scope | other_security_research |
 | 2025 CCS | [Phishing Susceptibility and the (In-)Effectiveness of Common Anti-Phishing Interventions in a Large University Hospital](https://dl.acm.org/doi/10.1145/3719027.3765164) | outside_title_scope | other_security_research |
 | 2025 CCS | [PickleBall: Secure Deserialization of Pickle-based Machine Learning Models](https://dl.acm.org/doi/10.1145/3719027.3765037) | outside_title_scope | other_security_research |
@@ -1175,8 +1175,8 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2025 CCS | [Provable Repair of Deep Neural Network Defects by Preimage Synthesis and Property Refinement](https://dl.acm.org/doi/10.1145/3719027.3765057) | outside_title_scope | other_security_research |
 | 2025 CCS | [QV-net: Decentralized Self-Tallying Quadratic Voting with Maximal Ballot Secrecy](https://dl.acm.org/doi/10.1145/3719027.3744810) | outside_title_scope | other_security_research |
 | 2025 CCS | [RAG-WM: An Efficient Black-Box Watermarking Approach for Retrieval-Augmented Generation of Large Language Models](https://dl.acm.org/doi/10.1145/3719027.3744813) | outside_title_scope | other_security_research |
-| 2025 CCS | [RISCover: Automatic Discovery of User-exploitable Architectural Security Vulnerabilities in Closed-Source RISC-V CPUs](https://dl.acm.org/doi/10.1145/3719027.3765141) | uncertain | primary_abstract_needed |
-| 2025 CCS | [RMPocalypse: How a Catch-22 Breaks AMD SEV-SNP](https://dl.acm.org/doi/10.1145/3719027.3765233) | uncertain | primary_abstract_needed |
+| 2025 CCS | [RISCover: Automatic Discovery of User-exploitable Architectural Security Vulnerabilities in Closed-Source RISC-V CPUs](https://doi.org/10.1145/3719027.3765141) | uncertain | primary_abstract_needed |
+| 2025 CCS | [RMPocalypse: How a Catch-22 Breaks AMD SEV-SNP](https://doi.org/10.1145/3719027.3765233) | uncertain | primary_abstract_needed |
 | 2025 CCS | [RVISmith: Fuzzing Compilers for RVV Intrinsics](https://dl.acm.org/doi/10.1145/3719027.3744790) | outside_title_scope | other_security_research |
 | 2025 CCS | [Realizing Corrupted-Shard Tolerance: A Sharding Blockchain with Preserving Global Resilience](https://dl.acm.org/doi/10.1145/3719027.3765132) | outside_title_scope | other_security_research |
 | 2025 CCS | [RebirthDay Attack: Reviving DNS Cache Poisoning with the Birthday Paradox](https://dl.acm.org/doi/10.1145/3719027.3744832) | outside_title_scope | other_security_research |
@@ -1214,10 +1214,10 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2025 CCS | [Slot: Provenance-Driven APT Detection through Graph Reinforcement Learning](https://dl.acm.org/doi/10.1145/3719027.3744788) | outside_title_scope | other_security_research |
 | 2025 CCS | [SocketFilled: A New Cross Layer DoS Attack Against UDP-based Services on Linux](https://dl.acm.org/doi/10.1145/3719027.3744878) | outside_title_scope | other_security_research |
 | 2025 CCS | [Split Unlearning](https://dl.acm.org/doi/10.1145/3719027.3744787) | outside_title_scope | other_security_research |
-| 2025 CCS | [Styled to Steal: The Overlooked Attack Surface in Email Clients](https://dl.acm.org/doi/10.1145/3719027.3765189) | candidate | side_channel_or_obliviousness |
+| 2025 CCS | [Styled to Steal: The Overlooked Attack Surface in Email Clients](https://doi.org/10.1145/3719027.3765189) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [Subversion-resilient key-exchange in the post-quantum world](https://dl.acm.org/doi/10.1145/3719027.3765165) | uncertain | primary_abstract_needed |
 | 2025 CCS | [Surpassing the Word Size Limitation of TFHE with Noise Calibration](https://dl.acm.org/doi/10.1145/3719027.3744808) | outside_title_scope | other_security_research |
-| 2025 CCS | [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://dl.acm.org/doi/10.1145/3719027.3744795) | candidate | side_channel_or_obliviousness |
+| 2025 CCS | [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [SyRA: Sybil-Resilient Anonymous Signatures with Applications to Decentralized Identity](https://dl.acm.org/doi/10.1145/3719027.3744806) | outside_title_scope | other_security_research |
 | 2025 CCS | [Sylva: Tailoring Personalized Adversarial Defense in Pre-trained Models via Collaborative Fine-tuning](https://dl.acm.org/doi/10.1145/3719027.3744805) | outside_title_scope | other_security_research |
 | 2025 CCS | [Synthesis of Sound and Precise Leakage Contracts for Open-Source RISC-V Processors](https://doi.org/10.1145/3719027.3765148) | candidate | side_channel_or_obliviousness |
@@ -1236,7 +1236,7 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2025 CCS | [Threat from Windshield: Vehicle Windows as Involuntary Attack Sources on Automotive Voice Assistants](https://dl.acm.org/doi/10.1145/3719027.3765171) | outside_title_scope | other_security_research |
 | 2025 CCS | [Threshold ECDSA in Two Rounds](https://dl.acm.org/doi/10.1145/3719027.3765176) | outside_title_scope | other_security_research |
 | 2025 CCS | [Tide: An Efficient Kernel-level Isolation Execution Environment on AArch64 via Dynamically Adjusting Output Address Size](https://dl.acm.org/doi/10.1145/3719027.3765111) | uncertain | primary_abstract_needed |
-| 2025 CCS | [Time Tells All: Deanonymization of Blockchain RPC Users with Zero Transaction Fee](https://dl.acm.org/doi/10.1145/3719027.3765082) | candidate | side_channel_or_obliviousness |
+| 2025 CCS | [Time Tells All: Deanonymization of Blockchain RPC Users with Zero Transaction Fee](https://doi.org/10.1145/3719027.3765082) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [Timing Attacks on Differential Privacy are Practical](https://doi.org/10.1145/3719027.3765146) | candidate | side_channel_or_obliviousness |
 | 2025 CCS | [Toss: Garbled PIR from Table-Only Stacking](https://dl.acm.org/doi/10.1145/3719027.3744831) | outside_title_scope | other_security_research |
 | 2025 CCS | [Towards Backdoor Stealthiness in Model Parameter Space](https://dl.acm.org/doi/10.1145/3719027.3744846) | outside_title_scope | other_security_research |

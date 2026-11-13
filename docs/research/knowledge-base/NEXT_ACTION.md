@@ -4,13 +4,15 @@
 
 ## 2026-11-14 文献库建设接续
 
-[统一文献入口](literature/README.md)包含核心 30 单元的 6,628 条目录和 126 条扩展/基础记录；已初筛 2,828 条标题、作出 793 条摘要及以上判定，纳入 450 条出版/版本记录。已核对 236 条引用、55 条版本关系（49 条核实、六条推定）；80 条发现已解析、105 条待核查。六个核心单元完成独立目录成员对应，S&P 2026 部分对应（252/254），其余 23 个待核对。
+[统一文献入口](literature/README.md)包含核心 30 单元的 6,628 条目录和 127 条扩展/基础记录；已初筛 2,828 条标题、作出 807 条摘要及以上判定，纳入 461 条出版/版本记录。已核对 246 条引用、58 条版本关系（52 条核实、六条推定）；80 条发现已解析、120 条待核查。六个核心单元完成独立目录成员对应，S&P 2026 部分对应（252/254），其余 23 个待核对。
 
-最新批次解析 mUOV 七条发现，新增六张卡片、18 条引用与五条版本关系；补 floor 正式版 31 条参考及 Maskaglia 的引用，见[批次记录](records/2026-11-14-literature-muov-followups.md)和[证据笔记](literature/notes/muov-followups-and-masked-sampling-20261114.md)。优先补 SoK 完整检测条件、GE 正式/作者稿差异、floor 拒绝流程、Maskaglia 分布限制及 ICCD 浮点转换摘要；mUOV 余十条、floor 新增十一条引用继续追踪。
+最新批次完成 CCS 2025 第二轮 13 篇摘要判定，新增十篇本届卡片及一篇基础文献，补十条引用与三条版本关系。四篇正文选读区分 BFId 视角迁移、HW-Spy 字符指标、DP 访问分区粒度和 Swallow 模拟防护范围。Swallow 的 37 个参考位置新增十五条待查，重复项不重复计边，见[批次记录](records/2026-11-14-literature-ccs2025-second-pass.md)和[证据笔记](literature/notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)。优先取得 Co-Prime/GAPDiS 原始摘要，补 PMTUD/Time Tells All 显式版本关系、Swallow 文字与计时方向差异及引用队列。
+
+此前批次解析 mUOV 七条发现，新增六张卡片、18 条引用与五条版本关系；补 floor 正式版 31 条参考及 Maskaglia 的引用，见[批次记录](records/2026-11-14-literature-muov-followups.md)和[证据笔记](literature/notes/muov-followups-and-masked-sampling-20261114.md)。优先补 SoK 完整检测条件、GE 正式/作者稿差异、floor 拒绝流程、Maskaglia 分布限制及 ICCD 浮点转换摘要；mUOV 余十条、floor 新增十一条引用继续追踪。
 
 此前批次完成 CCS 2025 的 316 条标题初筛及 21 篇摘要判定，新增 19 条卡片、11 条引用边和七条显式版本关系。mUOV 作者稿的 52 条参考位置初筛产生 17 条待查；正式 ACM 参考列表与独立出版目录仍待对照。见[批次记录](records/2026-11-14-literature-ccs2025-first-pass.md)和[证据笔记](literature/notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)。
 
-继续 CCS 2025 其余 295 篇摘要，优先未读候选/不确定项，以及已建卡的 UOV SoK、Gaussian elimination、Falcon floor 的剩余全文。补 mUOV 正式版差异、标准参数实测范围、ML-Cube 缓存缓解的具体证据和 SecSep 硬件契约；不要把一阶缩小参数 TVLA 或寄存器内运算写成全面安全证明。
+继续 CCS 2025 其余 282 篇摘要，优先未读候选/不确定项，以及已建卡的 UOV SoK、Gaussian elimination、Falcon floor 的剩余全文。补 mUOV 正式版差异、标准参数实测范围、ML-Cube 缓存缓解的具体证据和 SecSep 硬件契约；不要把一阶缩小参数 TVLA 或寄存器内运算写成全面安全证明。
 
 此前批次新增十五条论文/版本卡片，解析十二条 USENIX 2025 引用发现；新增十五条引用边和四条版本关系（三条核实、一条推定）。MORE 的 27 条引用初筛产生十九条新线索。见[批次记录](records/2026-11-14-literature-usenix2025-citation-followup.md)和[版本与防护证据](literature/notes/usenix2025-citation-followup-versions-and-defense-20261114.md)。
 
@@ -30,7 +32,7 @@ ICCAD Kyber、CSUR、OT-PCA 与 Aegis 身份已对应；继续补 Kyber 分类�
 
 继续核查新卡片全文和显式版本关系：FPT 正式页码 1–1、TECS 同题早期摘要与正式 200K TVLA 表述、复制/随机时钟的作者正文、局部掩码 NTT 的实际配置。JCEN 参考 23 实际引用 ePrint 2021/1189，尚未建立到正式 TECS 的核实版本边，其余参考文献继续筛查。局部掩码在线于 2026-09-17、分配 12 月卷期，两个日期不能互换。ACNS 正文访问失败，具体剖析条件仍待核查；其仓库仅读 README。
 
-继续其他核心会议的逐题筛查和目录核对。USENIX 2026 还有 286 篇摘要未读；S&P 2022 有 98 条，2023 有 148 条，2024、2025 各有 219 条。扩展会议系统目录、TCHES 非关键词候选、HADES/HAETAE 防护章节、McEliece FPGA 勘误及 PQC 全文专题继续保留。GoFetch 还有 58 条基础引用、Scheduled Disclosure 还有 16 条待处理。900 项前后向任务中 64 项进行中、836 项待处理，没有全面完成的任务。
+继续其他核心会议的逐题筛查和目录核对。USENIX 2026 还有 286 篇摘要未读；S&P 2022 有 98 条，2023 有 148 条，2024、2025 各有 219 条。扩展会议系统目录、TCHES 非关键词候选、HADES/HAETAE 防护章节、McEliece FPGA 勘误及 PQC 全文专题继续保留。GoFetch 还有 58 条基础引用、Scheduled Disclosure 还有 16 条待处理。922 项前后向任务中 65 项进行中、857 项待处理，没有全面完成的任务。
 
 书目与材料缺口：S&P 2022 MSR Templating 的出版页码字段；2023 三个 N/A、两组重复 DOI 与五条作者字段差异；2024 九条作者差异；2025 一条 N/A 的最终出版状态。继续查 Finger in the Power 仓库 404、Peek-a-Walk 材料完整性，以及 Episode V 不同版本与最终 FIPS 203 的对应。Raccoon 的测试用随机数及两份额 TVLA、Jasmin 的同地址空间边界不能省略。此前[功耗权限与 PQC 恢复范围](literature/notes/power-observation-and-pqc-boundaries-20261113.md)继续适用；接续先读[覆盖缺口](literature/COVERAGE.md)，不能把队列补读完或脚本通过当作普查完成。
 

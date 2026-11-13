@@ -115,19 +115,29 @@
 |---|---|---|
 | ASPLOS | [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) | selected_full_text_sections |
 | CCS | [An Empirical Study Measuring In-The-Wild Cryptographic Microarchitectural Side-Channel Patches](https://doi.org/10.1145/3719027.3744881) | abstract_and_bibliographic_metadata |
+| CCS | [BFId: Identity Inference Attacks Utilizing Beamforming Feedback Information](https://doi.org/10.1145/3719027.3765062) | selected_full_text_sections |
 | CCS | [BLACKOUT: Data-Oblivious Computation with Blinded Capabilities](https://doi.org/10.1145/3719027.3765169) | abstract_and_bibliographic_metadata |
 | CCS | [BOLT: Bandwidth-Optimized Lightning-Fast Oblivious Map powered by Secure HBM Accelerators](https://doi.org/10.1145/3719027.3765069) | abstract_and_bibliographic_metadata |
+| CCS | [Differentially Private Access in Encrypted Search: Achieving Privacy at a Small Cost?](https://doi.org/10.1145/3719027.3765038) | selected_full_text_sections |
 | CCS | [ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs](https://doi.org/10.1145/3719027.3765061) | abstract_and_bibliographic_metadata |
 | CCS | [GhostCache: Timer- and Counter-Free Cache Attacks Exploiting Weak Coherence on RISC-V and ARM Chips](https://doi.org/10.1145/3719027.3744833) | abstract_and_bibliographic_metadata |
+| CCS | [HW-Spy: Handwriting Inference by Tracing Pen-Tail Movements](https://doi.org/10.1145/3719027.3765109) | selected_full_text_sections |
 | CCS | [Heracles: Chosen Plaintext Attack on AMD SEV-SNP](https://doi.org/10.1145/3719027.3765209) | abstract_and_bibliographic_metadata |
 | CCS | [IOValve: Leakage-Free I/O Sandbox for Large-Scale Untrusted Data Processing](https://doi.org/10.1145/3719027.3765121) | abstract_and_bibliographic_metadata |
 | CCS | [ML-Cube: Accelerating Module-Lattice-Based Cryptography using Machine Learning Accelerators with a Memory-Less Design](https://doi.org/10.1145/3719027.3765130) | abstract_and_bibliographic_metadata |
+| CCS | [MegaBlocks: Breaking the Logarithmic I/O-Overhead Barrier for Oblivious RAM](https://doi.org/10.1145/3719027.3765159) | abstract_and_bibliographic_metadata |
 | CCS | [MileSan: Detecting Exploitable Microarchitectural Leakage via Differential Hardware-Software Taint Tracking](https://doi.org/10.1145/3719027.3765066) | abstract_and_bibliographic_metadata |
 | CCS | [MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs](https://doi.org/10.1145/3719027.3765174) | abstract_and_bibliographic_metadata |
+| CCS | [Off-Path TCP Exploits: PMTUD Breaks TCP Connection Isolation in IP Address Sharing Scenarios](https://doi.org/10.1145/3719027.3744888) | abstract_and_bibliographic_metadata |
+| CCS | [One Video to Steal Them All: 3D-Printing IP Theft through Optical Side-Channels](https://doi.org/10.1145/3719027.3744837) | abstract_and_bibliographic_metadata |
+| CCS | [Peekaboo, I See Your Queries: Passive Attacks Against DSSE Via Intermittent Observations](https://doi.org/10.1145/3719027.3765075) | abstract_and_bibliographic_metadata |
 | CCS | [Pixnapping: Bringing Pixel Stealing out of the Stone Age](https://doi.org/10.1145/3719027.3765093) | abstract_and_bibliographic_metadata |
 | CCS | [Securing Cryptographic Software via Typed Assembly Language](https://doi.org/10.1145/3719027.3765116) | selected_full_text_sections |
+| CCS | [Styled to Steal: The Overlooked Attack Surface in Email Clients](https://doi.org/10.1145/3719027.3765189) | abstract_and_bibliographic_metadata |
+| CCS | [Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning](https://doi.org/10.1145/3719027.3744795) | selected_full_text_sections |
 | CCS | [Synthesis of Sound and Precise Leakage Contracts for Open-Source RISC-V Processors](https://doi.org/10.1145/3719027.3765148) | selected_full_text_sections |
 | CCS | [TEMPEST-LoRa: Cross-Technology Covert Communication](https://doi.org/10.1145/3719027.3744817) | abstract_and_bibliographic_metadata |
+| CCS | [Time Tells All: Deanonymization of Blockchain RPC Users with Zero Transaction Fee](https://doi.org/10.1145/3719027.3765082) | abstract_and_bibliographic_metadata |
 | CCS | [Timing Attacks on Differential Privacy are Practical](https://doi.org/10.1145/3719027.3765146) | abstract_and_bibliographic_metadata |
 | CCS | [WireTap: Breaking Server SGX via DRAM Bus Interposition](https://doi.org/10.1145/3719027.3765204) | abstract_and_bibliographic_metadata |
 | CCS | [mUOV: Masking the Unbalanced Oil and Vinegar Digital Signature Scheme at First- and Higher-Order](https://doi.org/10.1145/3719027.3765188) | selected_full_text_sections |
@@ -481,6 +491,7 @@
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| CCS | [Measuring Information Leakage in Website Fingerprinting Attacks and Defenses](https://doi.org/10.1145/3243734.3243832) | abstract_and_bibliographic_metadata |
 | EUROCRYPT | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | abstract_and_bibliographic_metadata |
 | TCHES | [Practical CCA2-Secure and Masked Ring-LWE Implementation](https://doi.org/10.46586/tches.v2018.i1.142-174) | abstract_and_bibliographic_metadata |
 | TCHES | [Side-Channel Attacks on Post-Quantum Signature Schemes based on Multivariate Quadratic Equations: - Rainbow and UOV -](https://doi.org/10.46586/tches.v2018.i3.500-523) | abstract_and_bibliographic_metadata |

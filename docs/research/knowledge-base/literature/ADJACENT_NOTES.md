@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 343 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 346 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA
 
@@ -1164,6 +1164,13 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## MOLE: Breaking GPU TEE with GPU-Embedded MCU
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3744823)。
+- 判定依据：GPU 内嵌 MCU 的恶意固件绕过 TEE 隔离，直接提取或修改数据；摘要中的 AES 案例不是功耗/缓存推断证据，保留相邻硬件隔离研究。
+- 阅读来源：https://hongyi.lu/papers/mole-ccs25.pdf。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## McSee: Evaluating Advanced Rowhammer Attacks and Defenses via Automated DRAM Traffic Analysis
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/jattke)。
@@ -1296,6 +1303,20 @@
 - 判定依据：REED 以 chiplet、通信和存储设计加速 FHE；其布局前功耗模拟是能效评估，不是秘密可辨识性验证。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## RISCover: Automatic Discovery of User-exploitable Architectural Security Vulnerabilities in Closed-Source RISC-V CPUs
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765141)。
+- 判定依据：在真实 RISC-V CPU 上进行架构差分模糊测试，发现直接物理内存写入及其他架构错误；摘要未展示侧信道推断，不能将 GhostWrite 的直接原语计作微架构测量攻击。
+- 阅读来源：https://ghostwriteattack.com/riscover_ccs25.pdf。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## RMPocalypse: How a Catch-22 Breaks AMD SEV-SNP
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765233)。
+- 判定依据：通过 RMP 初始化的硬件访问控制缺口破坏 SEV-SNP，演示调试开启、证明欺骗、状态重放和代码注入；保留相邻机密计算隔离研究，与观察泄漏分开。
+- 阅读来源：https://rmpocalypse.github.io/rmpocalypse-CCS2025.pdf。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Resolution Without Dissent: In-Path Per-Query Sanitization to Defeat Surreptitious Communication Over DNS
 

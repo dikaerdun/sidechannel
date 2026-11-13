@@ -1,0 +1,424 @@
+{
+  "updated_on": "2026-11-14",
+  "batch": "ccs2025-second-primary-reading",
+  "sources": [
+    {
+      "source_id": "ccs25second-bfid-paper",
+      "url": "https://publikationen.bibliothek.kit.edu/1000185756/168100988",
+      "response_url": "https://publikationen.bibliothek.kit.edu/1000185756/168100988",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:00.063656+00:00",
+      "sha256": "5472d7590716d0c8378efe61921b63bdcd907c3c266cac2ca8a183bae6f002ae",
+      "bytes": 4417899,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25second-coprime-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765090",
+      "response_url": "https://dl.acm.org/doi/10.1145/3719027.3765090",
+      "status": 403,
+      "retrieved_at": "2026-11-13T19:03:04.621754+00:00",
+      "sha256": "089bf5e34c208352bcc38faaddc61f178b65360ab7c44850a4038bdc938b266f",
+      "bytes": 5641,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "Failure status only; not scholarly content"
+    },
+    {
+      "source_id": "ccs25second-crossref-118",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765084",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765084",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:01.987421+00:00",
+      "sha256": "c765819aac0bf3e4565888801c39ef37d2e05f7ab3821895d5d11e96aa4ddab8",
+      "bytes": 13080,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-139",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765109",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765109",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:02.217883+00:00",
+      "sha256": "3659fb8a25bb57a9b3fbee2fc5cab6e00545a7dc67a961f2e669c289f23a0146",
+      "bytes": 14334,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-164",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765159",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765159",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:02.653871+00:00",
+      "sha256": "73b57fd5cc7432f88e7e43be01a723284dc355eed1c97d3ae0dbd27000c0bcc2",
+      "bytes": 16201,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-172",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3744823",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3744823",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:02.727698+00:00",
+      "sha256": "d4a129597b7b5bce7a34d4b0678a3ca42ee7c4f4a055b12d4970d69b46824591",
+      "bytes": 18416,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-184",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3744888",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3744888",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:03.257653+00:00",
+      "sha256": "1b9b985856b28b2ae95ebfff4927a4d4997b4f0f329173a4a6c023024fe0b8d5",
+      "bytes": 15029,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-190",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3744837",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3744837",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:03.511730+00:00",
+      "sha256": "6d61cce8a6c7cd21ce975e488cb11b63769585202c8879f83d92e557d78597d1",
+      "bytes": 15140,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-198",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765075",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765075",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:03.981561+00:00",
+      "sha256": "6e1262af8215cec1875cc832c22e608ded5915d3e2719099f71f8e1d97e24fdf",
+      "bytes": 13384,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-237",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765141",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765141",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:04.012832+00:00",
+      "sha256": "3b767015a64d8214146020da6e17aceaca8971f98ec04b0197d7087667d3bb59",
+      "bytes": 24076,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-238",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765233",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765233",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:04.631210+00:00",
+      "sha256": "513706333705bf71d9f0274b5e3cea18103255604909764e3c69e63c51ba7b4b",
+      "bytes": 10599,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-264",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765189",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765189",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:04.816261+00:00",
+      "sha256": "8e9d9b4de7080270e733ca7e42d5b6eee5b796536fd1c8435bb99e5340c37ede",
+      "bytes": 15170,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-267",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3744795",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3744795",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:05.253014+00:00",
+      "sha256": "8cc16c5c49c9bb90eaa17d5bfff77054bb58676d1465d2bb4a6e77be05e4372d",
+      "bytes": 11050,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-286",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765082",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765082",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:05.277453+00:00",
+      "sha256": "03ed3d2b55bb121abe95fb0db4e6f74f1ce06b49be50abbbc528fc88b0740ba9",
+      "bytes": 14580,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-33",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765062",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765062",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:00.716623+00:00",
+      "sha256": "91677b1d75c4cfb3a68006fd52cb1ef297bace3f9062243da4797046a4cdfaa5",
+      "bytes": 21747,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-49",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765090",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765090",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:01.273799+00:00",
+      "sha256": "86b1b0e62b3991878501118c7c6508a171d38c0525d92a4a9fddaaa3070d8a18",
+      "bytes": 9554,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-crossref-70",
+      "url": "https://api.crossref.org/works/10.1145/3719027.3765038",
+      "response_url": "https://api.crossref.org/works/10.1145/3719027.3765038",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:01.451946+00:00",
+      "sha256": "d617fe8bf233e8d90ce7a7543ad527a849c22e7877efed9a80aca29b47b6730e",
+      "bytes": 11257,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-dpsearch-paper",
+      "url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/f6e317c8-6025-4b80-859d-200a8ee12d9d/content",
+      "response_url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/f6e317c8-6025-4b80-859d-200a8ee12d9d/content",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:00:58.849445+00:00",
+      "sha256": "740d5318b2dd5cbc7466320406a1d1710dae5d94f12329c11d1887bd55a7ee24",
+      "bytes": 1683294,
+      "content_type": "application/pdf;charset=UTF-8"
+    },
+    {
+      "source_id": "ccs25second-gapdis-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765084",
+      "response_url": "https://dl.acm.org/doi/10.1145/3719027.3765084",
+      "status": 403,
+      "retrieved_at": "2026-11-13T19:03:04.621420+00:00",
+      "sha256": "54e5ea5b2e60558e19cefa943e5d84eae33191e74c02a691ebd7075b511bc1cc",
+      "bytes": 5641,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "Failure status only; not scholarly content"
+    },
+    {
+      "source_id": "ccs25second-gapdis-readme",
+      "url": "https://github.com/ByskyXie/GAPDiS/blob/master/README.md",
+      "status": 200,
+      "bytes": 1240,
+      "sha256": "0f6786e1962d725bf276cdda839b86f5aa63e5481f7f5520a09fc09a62936cc5",
+      "fetched_at_utc": "2026-11-13T19:17:26.302473+00:00",
+      "retrieval_method": "GitHub connector fetch_file; UTF-8 extracted content with terminal newline",
+      "github_blob_sha": "6d1ca348c85a5076de74a6f78b4e7468989d8add",
+      "evidence_use": "Author artifact description only; no code execution or artifact completeness verification"
+    },
+    {
+      "source_id": "ccs25second-hwspy-paper",
+      "url": "https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2025/ccs25-huang.pdf",
+      "response_url": "https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2025/ccs25-huang.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:06.073847+00:00",
+      "sha256": "eeb6246c44a697ab00411b89bcd47d991996cc11b6aa21c34cde16a0be764099",
+      "bytes": 1362013,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25second-megablocks-eprint",
+      "url": "https://eprint.iacr.org/2025/1592",
+      "response_url": "https://eprint.iacr.org/2025/1592",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:00:55.242637+00:00",
+      "sha256": "fa1ac98ab077650a7516954c005d7f9f7dd818c2b510bb09b80846ec845c5a55",
+      "bytes": 18037,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25second-mole-paper",
+      "url": "https://hongyi.lu/papers/mole-ccs25.pdf",
+      "response_url": "https://hongyi.lu/papers/mole-ccs25.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:00:59.402877+00:00",
+      "sha256": "3ce1f279b58feeab3d14b81c0cc3b1875afeb2c3d99e1e8d498bc2ed5e6f7332",
+      "bytes": 1645370,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25second-optical-arxiv",
+      "url": "https://arxiv.org/abs/2506.21897",
+      "response_url": "https://arxiv.org/abs/2506.21897",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:00:56.000229+00:00",
+      "sha256": "d22e7eb8d1dcb5902ea0ddffa61447786b7ef6366d4de757c69d4be1fd22ed7d",
+      "bytes": 44822,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25second-peekaboo-arxiv",
+      "url": "https://arxiv.org/abs/2509.03806",
+      "response_url": "https://arxiv.org/abs/2509.03806",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:00:56.099923+00:00",
+      "sha256": "02d5283a1dbab50de0fa53d3755e4f244f3a1a88d08a1bbe12e0d382a547a6c2",
+      "bytes": 40679,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25second-peekaboo-paper",
+      "url": "https://arxiv.org/pdf/2509.03806",
+      "response_url": "https://arxiv.org/pdf/2509.03806",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:03:06.352949+00:00",
+      "sha256": "ecb36abdd4ed29bfa6d6b79fcd249265b4465d8a3dee1881e0e7f0aa5378cfc8",
+      "bytes": 6990492,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25second-pmtud-arxiv",
+      "url": "https://arxiv.org/abs/2509.11833",
+      "response_url": "https://arxiv.org/abs/2509.11833",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:00:55.000588+00:00",
+      "sha256": "cf619bd1eccf5dede2e0f1d615a5fadaaa2a70f4055f95bc2b87abed41ea3f5c",
+      "bytes": 43887,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25second-riscover-paper",
+      "url": "https://ghostwriteattack.com/riscover_ccs25.pdf",
+      "response_url": "https://ghostwriteattack.com/riscover_ccs25.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:11.175523+00:00",
+      "sha256": "2593e0f3eb3a1f966aa821913cae2cda81e1f1e5fd46daac8bdd0da5c26675fc",
+      "bytes": 794963,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25second-rmp-paper",
+      "url": "https://rmpocalypse.github.io/rmpocalypse-CCS2025.pdf",
+      "response_url": "https://rmpocalypse.github.io/rmpocalypse-CCS2025.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:00.857080+00:00",
+      "sha256": "9d12ac795a1dac57922a07ad03e41c5bdfa887cf878115c59066f6b09cad74e0",
+      "bytes": 917583,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25second-stylemail-paper",
+      "url": "https://d-we.me/papers/stylemail_ccs25.pdf",
+      "response_url": "https://d-we.me/papers/stylemail_ccs25.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:00:59.983354+00:00",
+      "sha256": "0a5edb59a6bc8eb947f3dabb03dbebdf31e594aed99ca6844ab355bf48e4c9d3",
+      "bytes": 654366,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ccs25second-swallow-paper",
+      "url": "https://raw.githubusercontent.com/wujinhe0814/Swallow/main/paper/Swallow.pdf",
+      "response_url": "https://raw.githubusercontent.com/wujinhe0814/Swallow/main/paper/Swallow.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:01:51.743527+00:00",
+      "sha256": "10106cb6dbcbf26a06c8efdc6e6dcc7d5f2c6da854580d12935187ff2f5e47fc",
+      "bytes": 4699434,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "source_id": "ccs25second-swallow-readme",
+      "url": "https://github.com/wujinhe0814/Swallow/blob/main/README.md",
+      "status": 200,
+      "bytes": 6929,
+      "sha256": "87396b64b27cc7bab1e5fc52dfd31fe8843e6cdafba8f34da5d3378aa3248755",
+      "fetched_at_utc": "2026-11-13T19:17:26.302198+00:00",
+      "retrieval_method": "GitHub connector fetch_file; UTF-8 extracted content with terminal newline",
+      "github_blob_sha": "2a703663204e1dac0dea5fa5cce0c412de25c8cd",
+      "evidence_use": "Author artifact description only; no code execution or artifact completeness verification"
+    },
+    {
+      "source_id": "ccs25second-time-arxiv",
+      "url": "https://arxiv.org/abs/2508.21440",
+      "response_url": "https://arxiv.org/abs/2508.21440",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:00:56.940878+00:00",
+      "sha256": "7220decad553ebb9f6bd16222a73531ff19001def46c62e36336b587745bb30c",
+      "bytes": 42775,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ccs25second-wfleak-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3243734.3243832",
+      "response_url": "https://api.crossref.org/works/10.1145/3243734.3243832",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:17:06.378835+00:00",
+      "sha256": "73ecd805aed3006ee752d3387758b5aae0dec3211169c8d7076583e096247631",
+      "bytes": 16729,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "ccs25second-wfleak-institution",
+      "url": "https://experts.umn.edu/en/publications/measuring-information-leakage-in-website-fingerprinting-attacks-a/",
+      "response_url": "https://experts.umn.edu/en/publications/measuring-information-leakage-in-website-fingerprinting-attacks-a/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:17:07.496784+00:00",
+      "sha256": "cdca7d5ac90ff60d8e998b9803f62897d204cb7339222778ae80ad71301bf339",
+      "bytes": 50899,
+      "content_type": "text/html;charset=UTF-8"
+    }
+  ],
+  "counts": {
+    "ccs_abstract_decisions": 13,
+    "ccs_included": 10,
+    "ccs_adjacent": 3,
+    "metadata_only_candidates": 2,
+    "foundation_cards": 1,
+    "new_cards": 11,
+    "selected_full_text_cards": 4,
+    "new_citation_edges": 10,
+    "new_version_edges": 3,
+    "new_reference_positions": 37,
+    "new_pending_discoveries": 15
+  },
+  "publication_title_normalizations": [
+    {
+      "id": "doi:10.1145/3719027.3765062",
+      "accepted_title": "BFId: Identity Inference Attacks utilizing Beamforming Feedback Information",
+      "crossref_normalized_title": "BFId: Identity Inference Attacks Utilizing Beamforming Feedback Information",
+      "source_id": "ccs25second-crossref-33",
+      "change_assessment": "Capitalization or small-caps/spacing markup; not a substantive title change"
+    },
+    {
+      "id": "doi:10.1145/3719027.3744823",
+      "accepted_title": "MOLE: Breaking GPU TEE with GPU-Embedded MCU",
+      "crossref_normalized_title": "MOLE : Breaking GPU TEE with GPU-Embedded MCU",
+      "source_id": "ccs25second-crossref-172",
+      "change_assessment": "Capitalization or small-caps/spacing markup; not a substantive title change"
+    },
+    {
+      "id": "doi:10.1145/3719027.3765141",
+      "accepted_title": "RISCover: Automatic Discovery of User-exploitable Architectural Security Vulnerabilities in Closed-Source RISC-V CPUs",
+      "crossref_normalized_title": "RISC over : Automatic Discovery of User-exploitable Architectural Security Vulnerabilities in Closed-Source RISC-V CPUs",
+      "source_id": "ccs25second-crossref-237",
+      "change_assessment": "Capitalization or small-caps/spacing markup; not a substantive title change"
+    },
+    {
+      "id": "doi:10.1145/3719027.3765233",
+      "accepted_title": "RMPocalypse: How a Catch-22 Breaks AMD SEV-SNP",
+      "crossref_normalized_title": "RMP ocalypse : How a Catch-22 Breaks AMD SEV-SNP",
+      "source_id": "ccs25second-crossref-238",
+      "change_assessment": "Capitalization or small-caps/spacing markup; not a substantive title change"
+    }
+  ],
+  "metadata_only_records": [
+    {
+      "id": "doi:10.1145/3719027.3765090",
+      "title": "Co-Prime: A Co-design Framework for Privacy Preserving Machine Learning on FPGA",
+      "status": "primary abstract pending; Crossref metadata only"
+    },
+    {
+      "id": "doi:10.1145/3719027.3765084",
+      "title": "GAPDiS: Gradient-Assisted Perturbation Design via Sequence Editing for Website Fingerprinting Defense",
+      "status": "primary abstract pending; Crossref metadata only"
+    }
+  ],
+  "gaps": [
+    "282 CCS 2025 abstracts still pending after this batch",
+    "GAPDiS and Co-Prime publisher pages return HTTP 403; GAPDiS README is not a substitute for full abstract",
+    "PMTUD and Time Tells All author PDF requests failed TLS; arXiv full abstracts read, explicit formal-version relation pending",
+    "Swallow all defenses evaluated on simulated defended traffic; author artifacts partial; no real-world deployment replication",
+    "Swallow BYOL overhead prose and reported epoch times point in opposite directions; unresolved, not silently corrected",
+    "No author code, experiment, simulation or training executed",
+    "Independent CCS 2025 publication TOC and recursive citation closure remain pending"
+  ]
+}

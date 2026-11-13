@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 450 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 461 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Differential Power Analysis
 
@@ -147,6 +147,18 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2017/395; https://api.crossref.org/works/10.1109/dsd.2017.21。
 - [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## Measuring Information Leakage in Website Fingerprinting Attacks and Defenses
+
+- 来源：[CCS 2018](https://doi.org/10.1145/3243734.3243832)；时间标记：pre-window foundational reference。
+- 作者：Shuai Li; Huajun Guo; Nicholas Hopper
+- 对象：Tor, website fingerprinting, information leakage；类型：evaluation。
+- 核心想法：为网站指纹特征与防护构造信息泄漏量的分析方法。
+- 作者报告：作者机构摘要报告对多类特征、网站和防护进行信息量评估。
+- 限制与下一步：仅完整机构摘要与正式元数据；未核验估计器、依赖处理或全部实验，不能将摘要视为现实 Tor 部署的精确信息量。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://experts.umn.edu/en/publications/measuring-information-leakage-in-website-fingerprinting-attacks-a/。
+- [详细阅读记录](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
+- 代码/数据核查：no author code/data executed; completeness not verified；引用追踪：pending except explicit inventory。
 
 ## Masking the GLP Lattice-Based Signature Scheme at Any Order
 
@@ -2747,6 +2759,19 @@
 - [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
 - 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
 
+## BFId: Identity Inference Attacks Utilizing Beamforming Feedback Information
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765062)；时间标记：within frozen rolling window。
+- 作者：Julian Todt; Felix Morsbach; Thorsten Strufe
+- 对象：WiFi, BFI, CSI, identity inference；类型：physical privacy attack。
+- 核心想法：研究 WiFi 波束成形反馈中的人体身份信息，以 BFI 感知替代或比较 CSI。
+- 作者报告：作者收集 197 人数据；实际可用 BFI/CSI 人数不同。不同视角下的识别成绩不能等同于训练与测试视角不匹配时的迁移能力。
+- 限制与下一步：正文中以视角 1 训练、其他视角测试的准确率均低于 5%；softmax 评估不能判断未见身份。数据并非无条件公开；请求共享与实际可用人数需保留。
+- 阅读层级：selected_full_text_sections；来源：https://publikationen.bibliothek.kit.edu/1000185756/168100988。
+- 已读章节：Author institutional PDF pages 1, 8, 11-12: abstract, collection/usable participants and consent, cross-perspective mismatch, empty-room control, closed-set limitations. Remaining sections and Appendix B not fully reviewed.
+- [详细阅读记录](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
+- 代码/数据核查：no author code/data executed; completeness not verified；引用追踪：pending except explicit inventory。
+
 ## BLACKOUT: Data-Oblivious Computation with Blinded Capabilities
 
 - 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765169)；时间标记：within frozen rolling window by recorded publication or author-upload date。
@@ -2771,6 +2796,19 @@
 - [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
 - 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
 
+## Differentially Private Access in Encrypted Search: Achieving Privacy at a Small Cost?
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765038)；时间标记：within frozen rolling window。
+- 作者：Daniel Pöllmann; Tianxin Tang
+- 对象：encrypted search, differentially private access, range queries；类型：leakage analysis。
+- 核心想法：研究 DP 访问泄漏保证与查询、数据隐私之间的差别，分析两个加密范围查询方案。
+- 作者报告：作者对 DO-Range 与 epsilon-OPE-Range 给出推断评估及通用访问定义，讨论分桶、分区的隐私和带宽代价。
+- 限制与下一步：不是推翻 DP 定理。定义的邻接关系与只读 Find 场景有范围；所述直方图和查询恢复受分区粒度限制，不等于恢复分区内每条记录的精确值。
+- 阅读层级：selected_full_text_sections；来源：https://www.research-collection.ethz.ch/server/api/core/bitstreams/f6e317c8-6025-4b80-859d-200a8ee12d9d/content。
+- 已读章节：ETH-hosted PDF pages 2, 5-6 and 12 (one cover page included): abstract, read-only definition and adjacency, scheme distinctions, partition-granularity recovery and privacy/utility discussion. Full-version proofs not reviewed.
+- [详细阅读记录](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
+- 代码/数据核查：no author code/data executed; completeness not verified；引用追踪：pending except explicit inventory。
+
 ## ExfilState: Automated Discovery of Timer-Free Cache Side Channels on ARM CPUs
 
 - 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765061)；时间标记：within frozen rolling window by recorded publication or author-upload date。
@@ -2794,6 +2832,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.thu-haslab.org/publication/2025-ghostcache/。
 - [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
 - 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## HW-Spy: Handwriting Inference by Tracing Pen-Tail Movements
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765109)；时间标记：within frozen rolling window。
+- 作者：Long Huang; Kang G. Shin
+- 对象：handwriting, video, pen-tail motion；类型：optical inference。
+- 核心想法：从可见笔尾的视频运动估计被遮住的笔尖轨迹并推断手写内容。
+- 作者报告：作者区分个性化与未见书写者模型，分别报告摘要中最高 84.2% 和 79.5% 的手写推断结果。
+- 限制与下一步：论文的 word-level 与 sentence-level 指拼写及语法校正后的字符正确率，并非整词/整句完全恢复率。需要可用笔尾视频；不同字符类别和数据划分不能混合比较。
+- 阅读层级：selected_full_text_sections；来源：https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2025/ccs25-huang.pdf。
+- 已读章节：Author PDF pages 1, 8 and 12: abstract, Section 5.3 metric definitions and personalization distinction, leave-one-writer-out evaluation. Remaining reconstruction and attack details not fully reviewed.
+- [详细阅读记录](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
+- 代码/数据核查：no author code/data executed; completeness not verified；引用追踪：pending except explicit inventory。
 
 ## Heracles: Chosen Plaintext Attack on AMD SEV-SNP
 
@@ -2831,6 +2882,18 @@
 - [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
 - 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
 
+## MegaBlocks: Breaking the Logarithmic I/O-Overhead Barrier for Oblivious RAM
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765159)；时间标记：within frozen rolling window。
+- 作者：Gilad Asharov; Eliran Eiluz; Ilan Komargodski; Wei-Kai Lin
+- 对象：ORAM, hierarchical ORAM, asymmetric memory blocks；类型：oblivious computation。
+- 核心想法：研究逻辑字渐近小于物理块的非对称 ORAM 模型，构造更低 I/O 开销的层次方案。
+- 作者报告：作者摘要声称在该设置达到 O(log N / log log N) I/O，并比较 PathORAM 与 FutORAMa 的实现开销。
+- 限制与下一步：改变块/字关系的模型，不是推翻同一模型下的对数下界；性能依赖块尺寸和客户端内存，比较对象原本未针对大块设置设计。ePrint 明示 major revision，未全文比较。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2025/1592。
+- [详细阅读记录](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
+- 代码/数据核查：no author code/data executed; completeness not verified；引用追踪：pending except explicit inventory。
+
 ## MileSan: Detecting Exploitable Microarchitectural Leakage via Differential Hardware-Software Taint Tracking
 
 - 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765066)；时间标记：within frozen rolling window by recorded publication or author-upload date。
@@ -2854,6 +2917,42 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2508.15036。
 - [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
 - 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## Off-Path TCP Exploits: PMTUD Breaks TCP Connection Isolation in IP Address Sharing Scenarios
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3744888)；时间标记：within frozen rolling window。
+- 作者：Xuewei Feng; Zhaoxi Li; Qi Li; Ziqiang Wang; Kun Sun; Ke Xu
+- 对象：PMTUD, TCP, shared public IP；类型：network side channel。
+- 核心想法：利用同一公网 IP 的路径 MTU 状态跨连接共享，推断另一个设备 TCP 连接的状态。
+- 作者报告：作者预印本报告与共享该公网 IP 的恶意设备协作进行离路径推断，并在若干网络和应用中评估后果。
+- 限制与下一步：需要协作设备及 IP 共享条件，不能描述成任意远端攻击者无附加条件的能力。预印本与正式记录题名/作者对应，显式版本关系及正式全文差异仍待核。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2509.11833。
+- [详细阅读记录](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
+- 代码/数据核查：no author code/data executed; completeness not verified；引用追踪：pending except explicit inventory。
+
+## One Video to Steal Them All: 3D-Printing IP Theft through Optical Side-Channels
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3744837)；时间标记：within frozen rolling window。
+- 作者：Twisha Chattopadhyay; Fabricio Ceschin; Marco E. Garza; Dymytriy Zyunkin; Animesh Chhotaray; Aaron P. Stebner; Saman Zonouz; Raheem Beyah
+- 对象：3D printing, G-code, video；类型：optical inference。
+- 核心想法：从打印喷头轨迹与视频重建可生成相似对象的打印指令及参数。
+- 作者报告：作者以几何、外观和内部结构的等价检查比较重建指令，报告平均 90.87% 的所定义准确度。
+- 限制与下一步：需要打印过程视频；该数字不是原始 G-code 的逐字节精确恢复率，更不是密码密钥恢复。arXiv 标明扩展版并给出匹配正式 DOI。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2506.21897。
+- [详细阅读记录](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
+- 代码/数据核查：no author code/data executed; completeness not verified；引用追踪：pending except explicit inventory。
+
+## Peekaboo, I See Your Queries: Passive Attacks Against DSSE Via Intermittent Observations
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765075)；时间标记：within frozen rolling window。
+- 作者：Hao Nie; Wei Wang; Peng Xu; Wei Chen; Laurence T. Yang; Mauro Conti; Kaitai Liang
+- 对象：DSSE, search patterns, intermittent observation；类型：leakage abuse。
+- 核心想法：在间歇观察下推断搜索模式，再结合辅助知识与其他泄漏恢复查询。
+- 作者报告：作者将框架用于 Sap 和 Jigsaw，分别评估搜索模式聚类与查询推断，报告随观察轮次/查询数变化的结果。
+- 限制与下一步：被动是相对于主动文件注入，仍需允许的泄漏观察与辅助知识；ARI 和查询正确率不能混用。全文首页明确为 CCS 2025 论文扩展稿，剩余正文与基线预算待核。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2509.03806。
+- [详细阅读记录](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
+- 代码/数据核查：no author code/data executed; completeness not verified；引用追踪：pending except explicit inventory。
 
 ## Pixnapping: Bringing Pixel Stealing out of the Stone Age
 
@@ -2880,6 +2979,31 @@
 - [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
 - 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
 
+## Styled to Steal: The Overlooked Attack Surface in Email Clients
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765189)；时间标记：within frozen rolling window。
+- 作者：Leon Trampert; Daniel Weber; Christian Rossow; Michael Schwarz
+- 对象：CSS, OpenPGP, S/MIME, email rendering；类型：rendering side channel。
+- 核心想法：利用 CSS 渲染条件及字体等特性，将已解密邮件中的字符映射为外部网络请求。
+- 作者报告：作者报告无需 JavaScript 的明文外传，并展示 Thunderbird 与 KMail 的特定配置案例。
+- 限制与下一步：需要恶意 HTML/CSS 注入、邮件被打开渲染及相关网络行为；无 JavaScript 不等于无攻击输入或无观察条件。版本和缓解按论文时点限定，不能宣称当前全部客户端仍受影响。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://d-we.me/papers/stylemail_ccs25.pdf。
+- [详细阅读记录](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
+- 代码/数据核查：no author code/data executed; completeness not verified；引用追踪：pending except explicit inventory。
+
+## Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3744795)；时间标记：within frozen rolling window。
+- 作者：Meng Shen; Jinhe Wu; Junyu Ai; Qi Li; Chenchen Ren; Ke Xu; Liehuang Zhu
+- 对象：Tor, website fingerprinting, transfer learning, CIF；类型：traffic analysis。
+- 核心想法：利用一致交互特征和数据增强，研究网站指纹在不同网络条件及防护流量上的迁移。
+- 作者报告：作者在十个数据集上比较闭集/开放世界设置；每网站五条有标签样本用于微调，另有预训练数据。
+- 限制与下一步：全部受测 WF 防护在未防护轨迹上模拟生成；当前范围为单网站主页，不含多标签页/站内网页。材料只覆盖部分场景；不能将微调样本数当作总训练预算。
+- 阅读层级：selected_full_text_sections；来源：https://raw.githubusercontent.com/wujinhe0814/Swallow/main/paper/Swallow.pdf。
+- 已读章节：Author repository PDF pages 1 and 13-14: abstract, ablation/pre-training discussion, simulated-defense and single-homepage limitations, all 37 bibliography positions. Repository README inspected; no code/data executed.
+- [详细阅读记录](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
+- 代码/数据核查：Author README read: selected closed/open-world scenarios and partial raw traces linked via Zenodo 16607834; no archive download, execution or completeness verification；引用追踪：All 37 author bibliography positions screened: 10 linked, 15 pending, 11 provisional background, one duplicate; no recursive closure。
+
 ## Synthesis of Sound and Precise Leakage Contracts for Open-Source RISC-V Processors
 
 - 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765148)；时间标记：within frozen rolling window by recorded publication or author-upload date。
@@ -2904,6 +3028,18 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2506.21069。
 - [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
 - 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventory。
+
+## Time Tells All: Deanonymization of Blockchain RPC Users with Zero Transaction Fee
+
+- 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765082)；时间标记：within frozen rolling window。
+- 作者：Shan Wang; Ming Yang; Yu Liu; Yue Zhang; Shuaiqing Zhang; Zhen Ling; Jiannong Cao; Xinwen Fu
+- 对象：blockchain, RPC, TCP timestamps, deanonymization；类型：network timing attack。
+- 核心想法：结合公开账本确认时刻与 RPC 轮询流量时刻，关联用户 IP 与链上化名。
+- 作者报告：作者预印本报告对多种公链 RPC 用户的时间相关推断，并强调不需交易手续费。
+- 限制与下一步：威胁模型是能观察网络边界或交换点的强被动对手；零交易费不等于零观察权限或零总成本。作者预印本与正式版本的显式关系和全文差异待核。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2508.21440。
+- [详细阅读记录](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
+- 代码/数据核查：no author code/data executed; completeness not verified；引用追踪：pending except explicit inventory。
 
 ## Timing Attacks on Differential Privacy are Practical
 
