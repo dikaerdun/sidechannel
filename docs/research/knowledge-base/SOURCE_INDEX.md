@@ -1,6 +1,8 @@
 # 增补来源索引
 
-2026-11-13 USENIX 接续：[筛查与选读来源](literature/provenance/usenix2026-candidates-20261113.json)、[另取目录与数量核对](literature/provenance/usenix2026-print-toc-crosscheck-20261113.json)保存 362 篇目录与 76 篇摘要判定依据。34 条新增卡片、已有 ML-KEM 卡片升级；SDitH、microSCALE 与 ML-KEM 的指定页码、渲染页核查及三份勘误范围见[证据笔记](literature/notes/usenix2026-scope-and-pqc-evidence-20261113.md)。本批后卡片 301 条、引用 103 条、待解析发现五条；没有作者代码执行或科学结果复现。
+2026-11-13 MPCitH 接续：[来源与哈希](literature/provenance/mpcith-followup-20261113.json)保存五条发现解析、16 条卡片与 95 条参考文献初筛依据。[证据笔记](literature/notes/mpcith-revisions-and-evidence-20261113.md)记录 FAEST 当前掩码撤回、CiC 剖析/枚举和未实验策略、HQC 摘要范围，以及模拟/实测与出版年份区别。本批后卡片 317 条、引用 134 条、待查发现 23 条；没有作者代码执行或科学复现。
+
+此前 2026-11-13 USENIX 接续：[筛查与选读来源](literature/provenance/usenix2026-candidates-20261113.json)、[另取目录与数量核对](literature/provenance/usenix2026-print-toc-crosscheck-20261113.json)保存 362 篇目录与 76 篇摘要判定依据。34 条新增卡片、已有 ML-KEM 卡片升级；SDitH、microSCALE 与 ML-KEM 的指定页码、渲染页核查及三份勘误范围见[证据笔记](literature/notes/usenix2026-scope-and-pqc-evidence-20261113.md)。本批后卡片 301 条、引用 103 条、待解析发现五条；没有作者代码执行或科学结果复现。
 
 2026-11-13 构思增补：[随机源反馈、求解难度与物理状态发现](brainstorms/2026-11-13-randomness-feedback-hardness-state-discovery.md)记录振荡器随机源、NIST 熵源说明、distribution hints、结构化提示与计算力学五个原始页面的摘要及元数据阅读。区分熵源耦合与最终随机性、合成约束实验与实际功耗、预测状态与物理因果。没有全文证明复核、独立验证或新增文献卡片。
 
@@ -29,7 +31,7 @@
 
 2026-11-13 文献接续：[S&P 2022 来源](literature/provenance/sp2022-candidates-20261113.json)记录 49 条摘要、147 条身份迁移和作者字段处理；[印刷目录来源](literature/provenance/sp2022-print-toc-crosscheck-20261113.json)记录 147 条对应及页码例外。[四篇 Kyber 来源](literature/provenance/kyber-four-reference-followup-20261113.json)记录指定正文、ACNS PDF 403、README-only 获取和三条版本关系。细节见[批次记录](records/2026-11-13-literature-sp2022-kyber-four.md)，未执行作者代码。
 
-2026-11-13 文献更新：统一放在[近五年文献库](literature/README.md)。[覆盖表](literature/COVERAGE.md)区分 1,458 条标题初筛、437 条摘要及以上判定和引用追踪；[258 条卡片](literature/PAPER_NOTES.md)与[179 条相邻主题](literature/ADJACENT_NOTES.md)保留实际阅读范围。此前[掩码与硬件来源](literature/provenance/sp2023-reference-followup-20261113.json)保存 41 项原始来源的时间与哈希：16 条新增卡片、一条正文升级、八条引用发现解析、13 条引用边和 7 条版本关系。会议/期刊版本不等于独立研究，正文限定、作者报告与模拟结果见[专题记录](literature/notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)。
+此前 2026-11-13 文献更新：统一放在[近五年文献库](literature/README.md)。[覆盖表](literature/COVERAGE.md)区分 1,458 条标题初筛、437 条摘要及以上判定和引用追踪；[258 条卡片](literature/PAPER_NOTES.md)与[179 条相邻主题](literature/ADJACENT_NOTES.md)保留实际阅读范围。此前[掩码与硬件来源](literature/provenance/sp2023-reference-followup-20261113.json)保存 41 项原始来源的时间与哈希：16 条新增卡片、一条正文升级、八条引用发现解析、13 条引用边和 7 条版本关系。会议/期刊版本不等于独立研究，正文限定、作者报告与模拟结果见[专题记录](literature/notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)。
 
 此前 [S&P 2023 来源](literature/provenance/sp2023-candidates-20261113.json)记录 47 篇不同论文的摘要、两篇指定正文、两个重复 DOI 对及 193 条身份迁移；[印刷目录来源](literature/provenance/sp2023-print-toc-crosscheck-20261113.json)记录字形解码、196 条对应、两条改题名和三个 N/A。该批留下的八条发现已在新批次解析，历史记录仍保留。
 

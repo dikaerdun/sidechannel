@@ -52,7 +52,9 @@
 
 ## AES
 
+- 2011 NIST NIAT Workshop · [A testing methodology for side-channel resistance validation](https://csrc.nist.gov/CSRC/media/Events/Non-Invasive-Attack-Testing-Workshop/documents/08_Goodwill.pdf) · leakage_detection · selected_full_text_sections
 - 2012 TACO · [An architecture-independent instruction shuffler to protect against side-channel attacks](https://doi.org/10.1145/2086696.2086699) · countermeasure · abstract_and_bibliographic_metadata
+- 2020 EUROCRYPT · [Side-Channel Masking with Pseudo-Random Generator](https://doi.org/10.1007/978-3-030-45727-3_12) · countermeasure · abstract_and_bibliographic_metadata
 - 2023 SP · [Spectre Declassified: Reading from the Right Place at the Wrong Time](https://doi.org/10.1109/sp46215.2023.10179355) · formal_and_experimental_side_channel · abstract_and_bibliographic_metadata
 - 2025 USENIX · [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) · method · abstract_and_bibliographic_metadata
 - 2025 TCHES · [PhaseSCA: Exploiting Phase-Modulated Emanations in Side Channels](https://doi.org/10.46586/tches.v2025.i1.392-419) · measurement · abstract_and_bibliographic_metadata
@@ -330,6 +332,7 @@
 ## chosen ciphertext
 
 - 2024 TCHES · [Defeating Low-Cost Countermeasures against Side-Channel Attacks in Lattice-based Encryption: A Case Study on Crystals-Kyber](https://doi.org/10.46586/tches.v2024.i2.795-818) · attack · abstract_and_bibliographic_metadata
+- 2025 PQCrypto · [Et tu, Brute? Side-Channel Assisted Chosen Ciphertext Attacks Using Valid Ciphertexts on HQC KEM](https://doi.org/10.1007/978-3-031-86602-9_11) · attack · abstract_and_bibliographic_metadata
 
 ## chosen content
 
@@ -568,6 +571,7 @@
 ## deep learning
 
 - 2023 ASHES · [A Side-Channel Attack on a Masked Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1145/3605769.3623992) · hardware_side_channel_attack · abstract_and_bibliographic_metadata
+- 2026 IACR CiC · [Side-Channel Attacks on VOLEitH Signature Schemes: Breaking Masked FAEST](https://doi.org/10.62056/aebngyl7s) · attack · selected_full_text_sections
 - 2026 USENIX · [SoK: Deep Learning-based Physical Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity26/presentation/karayalcin) · systematization · abstract_and_bibliographic_metadata
 
 ## defense evaluation
@@ -693,6 +697,10 @@
 - 2026 USENIX · [DuetORAM: Two-Server Distributed ORAM with Constant Rounds and O(log N) Communication](https://www.usenix.org/conference/usenixsecurity26/presentation/li-feng) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Remise: Authorized Anonymous Communication Systems](https://www.usenix.org/conference/usenixsecurity26/presentation/ravi-rohan) · metadata_countermeasure · abstract_and_bibliographic_metadata
 
+## DPA
+
+- 1999 CRYPTO · [Differential Power Analysis](https://doi.org/10.1007/3-540-48405-1_25) · foundational_attack · abstract_and_bibliographic_metadata
+
 ## DRAM
 
 - 2022 SP · [Noise-SDR: Arbitrary Modulation of Electromagnetic Noise from Unprivileged Software and Its Impact on Emission Security](https://doi.org/10.1109/sp46214.2022.9833767) · physical_channel_construction · abstract_and_bibliographic_metadata
@@ -794,7 +802,9 @@
 
 ## FAEST
 
+- 2025 IACR ePrint · [FAEST for Memory-Constrained Devices](https://eprint.iacr.org/2025/1261) · implementation_revision · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Non-supervised SASCA on the VOLEitH Framework](https://doi.org/10.46586/tches.v2026.i2.468-494) · attack · abstract_and_bibliographic_metadata
+- 2026 IACR CiC · [Side-Channel Attacks on VOLEitH Signature Schemes: Breaking Masked FAEST](https://doi.org/10.62056/aebngyl7s) · attack · selected_full_text_sections
 
 ## Falcon
 
@@ -870,6 +880,10 @@
 ## formal semantics
 
 - 2022 SP · [SoK: Practical Foundations for Software Spectre Defenses](https://doi.org/10.1109/sp46214.2022.9833707) · systematization · abstract_and_bibliographic_metadata
+
+## formal verification
+
+- 2016 CCS · [Strong Non-Interference and Type-Directed Higher-Order Masking](https://doi.org/10.1145/2976749.2978427) · formal_countermeasure · abstract_and_bibliographic_metadata
 
 ## FPGA
 
@@ -1003,6 +1017,10 @@
 
 - 2025 TCHES · [Improved Attacks Against Lattice-Based KEMs Using Hints From Hertzbleed](https://doi.org/10.46586/tches.v2025.i4.463-485) · attack · abstract_and_bibliographic_metadata
 
+## Higher Criticism
+
+- 2017 CARDIS · [Towards Sound and Optimal Leakage Detection Procedure](https://doi.org/10.1007/978-3-319-75208-2_7) · leakage_detection · abstract_and_bibliographic_metadata
+
 ## HLS
 
 - 2022 AsianHOST · [Vulnerable PQC against Side Channel Analysis - A Case Study on Kyber](https://doi.org/10.1109/asianhost56390.2022.10022165) · hardware_side_channel_evaluation · selected_full_text_sections
@@ -1013,6 +1031,7 @@
 - 2022 TCHES · [Don’t Reject This: Key-Recovery Timing Attacks Due to Rejection-Sampling in HQC and BIKE](https://doi.org/10.46586/tches.v2022.i3.223-263) · attack · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Cache-Timing Attack Against HQC](https://doi.org/10.46586/tches.v2023.i3.136-163) · attack · abstract_and_bibliographic_metadata
 - 2024 TCHES · [Single trace HQC shared key recovery with SASCA](https://doi.org/10.46586/tches.v2024.i2.64-87) · attack · abstract_and_bibliographic_metadata
+- 2025 PQCrypto · [Et tu, Brute? Side-Channel Assisted Chosen Ciphertext Attacks Using Valid Ciphertexts on HQC KEM](https://doi.org/10.1007/978-3-031-86602-9_11) · attack · abstract_and_bibliographic_metadata
 - 2025 TCHES · [Multi-Value Plaintext-Checking and Full-Decryption Oracle-Based Attacks on HQC from Offline Templates](https://doi.org/10.46586/tches.v2025.i4.254-289) · attack · abstract_and_bibliographic_metadata
 - 2025 TCHES · [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://doi.org/10.46586/tches.v2025.i1.251-274) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [DPA-Style Attacks on HQC](https://doi.org/10.46586/tches.v2026.i2.928-952) · attack · abstract_and_bibliographic_metadata
@@ -1022,6 +1041,10 @@
 ## human activity privacy
 
 - 2024 SP · [mimoCrypt: Multi-User Privacy-Preserving Wi-Fi Sensing via MIMO Encryption](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · physical_sensing_countermeasure · abstract_and_bibliographic_metadata
+
+## Hypercube
+
+- 2026 IACR ePrint · [HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without Masking](https://eprint.iacr.org/2026/081) · countermeasure_protocol · abstract_and_bibliographic_metadata
 
 ## hypervisor
 
@@ -1163,6 +1186,9 @@
 
 ## Keccak
 
+- 2010 SHA-3 Candidate Conference · [Building power analysis resistant implementations of Keccak](https://keccak.team/files/KeccakDPA.pdf) · countermeasure · selected_full_text_sections
+- 2017 DSD · [Higher-Order Side-Channel Protected Implementations of KECCAK](https://doi.org/10.1109/dsd.2017.21) · countermeasure · abstract_and_bibliographic_metadata
+- 2020 TCHES · [Single-Trace Attacks on Keccak](https://doi.org/10.46586/tches.v2020.i3.243-268) · attack · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei) · masking_countermeasure · selected_full_text_sections
 - 2026 TCHES · [How Strong is the FO-Calypse, Really? Instantiating Plaintext-Checking Oracles against Masked Software Implementations of ML-KEM](https://doi.org/10.46586/tches.v2026.i4.759-785) · attack · abstract_and_bibliographic_metadata
 
@@ -1354,6 +1380,10 @@
 
 - 2022 SP · [Evaluating Physical-Layer BLE Location Tracking Attacks on Mobile Devices](https://doi.org/10.1109/sp46214.2022.9833758) · physical_side_channel · abstract_and_bibliographic_metadata
 
+## LowMC
+
+- 2021 PQCrypto · [Differential Power Analysis of the Picnic Signature Scheme](https://doi.org/10.1007/978-3-030-81293-5_10) · attack · abstract_and_bibliographic_metadata
+
 ## LPN
 
 - 2023 TCHES · [LPN-based Attacks in the White-box Setting](https://doi.org/10.46586/tches.v2023.i4.318-343) · attack_method · abstract_and_bibliographic_metadata
@@ -1406,10 +1436,14 @@
 
 ## masking
 
+- 2010 SHA-3 Candidate Conference · [Building power analysis resistant implementations of Keccak](https://keccak.team/files/KeccakDPA.pdf) · countermeasure · selected_full_text_sections
+- 2016 CCS · [Strong Non-Interference and Type-Directed Higher-Order Masking](https://doi.org/10.1145/2976749.2978427) · formal_countermeasure · abstract_and_bibliographic_metadata
+- 2017 DSD · [Higher-Order Side-Channel Protected Implementations of KECCAK](https://doi.org/10.1109/dsd.2017.21) · countermeasure · abstract_and_bibliographic_metadata
 - 2017 CHES · [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) · pqc_single_trace_side_channel · abstract_and_bibliographic_metadata
 - 2018 EUROCRYPT · [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) · countermeasure · abstract_and_bibliographic_metadata
 - 2019 CARDIS · [An Efficient and Provable Masked Implementation of qTESLA](https://doi.org/10.1007/978-3-030-42068-0_5) · countermeasure · abstract_and_bibliographic_metadata
 - 2019 ACNS · [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) · countermeasure_and_evaluation · abstract_and_bibliographic_metadata
+- 2020 EUROCRYPT · [Side-Channel Masking with Pseudo-Random Generator](https://doi.org/10.1007/978-3-030-45727-3_12) · countermeasure · abstract_and_bibliographic_metadata
 - 2022 SP · [IronMask: Versatile Verification of Masking Security](https://doi.org/10.1109/sp46214.2022.9833600) · formal_verification · abstract_and_bibliographic_metadata
 - 2022 NIST PQC conference · [Leveling Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage) · historical_countermeasure_version · selected_full_text_sections
 - 2022 EUROCRYPT · [Mitaka: A Simpler, Parallelizable, Maskable Variant of Falcon](https://doi.org/10.1007/978-3-031-07082-2_9) · algorithm_and_countermeasure · selected_full_text_sections
@@ -1568,7 +1602,10 @@
 
 ## MPC-in-the-Head
 
+- 2020 CCS · [SNI-in-the-head: Protecting MPC-in-the-head Protocols against Side-channel Analysis](https://doi.org/10.1145/3372297.3417889) · countermeasure_protocol · abstract_and_bibliographic_metadata
+- 2021 PQCrypto · [Differential Power Analysis of the Picnic Signature Scheme](https://doi.org/10.1007/978-3-030-81293-5_10) · attack · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei) · masking_countermeasure · selected_full_text_sections
+- 2026 IACR ePrint · [HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without Masking](https://eprint.iacr.org/2026/081) · countermeasure_protocol · abstract_and_bibliographic_metadata
 
 ## MSR
 
@@ -1773,6 +1810,7 @@
 
 ## Picnic
 
+- 2021 PQCrypto · [Differential Power Analysis of the Picnic Signature Scheme](https://doi.org/10.1007/978-3-030-81293-5_10) · attack · abstract_and_bibliographic_metadata
 - 2021 TCHES · [Side-Channel Protections for Picnic Signatures](https://doi.org/10.46586/tches.v2021.i4.239-282) · countermeasure · abstract_and_bibliographic_metadata
 
 ## Picnic3
@@ -1802,6 +1840,7 @@
 
 ## power analysis
 
+- 1999 CRYPTO · [Differential Power Analysis](https://doi.org/10.1007/3-540-48405-1_25) · foundational_attack · abstract_and_bibliographic_metadata
 - 2023 TCAS-I · [Side Channel Security Oriented Evaluation and Protection on Hardware Implementations of Kyber](https://doi.org/10.1109/tcsi.2023.3288600) · hardware_evaluation_and_countermeasure · selected_full_text_sections
 
 ## power fingerprinting
@@ -1840,6 +1879,10 @@
 
 - 2025 SP · [Half Spectre, Full Exploit: Hardening Rowhammer Attacks with Half Spectre Gadgets](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-174) · microarchitectural_side_channel_enabling_fault_attack · selected_full_text_sections
 
+## PRG
+
+- 2020 EUROCRYPT · [Side-Channel Masking with Pseudo-Random Generator](https://doi.org/10.1007/978-3-030-45727-3_12) · countermeasure · abstract_and_bibliographic_metadata
+
 ## Prime+Probe
 
 - 2024 SP · [Efficient and Generic Microarchitectural Hash-Function Recovery](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · microarchitectural_mapping_and_side_channel · abstract_and_bibliographic_metadata
@@ -1850,9 +1893,17 @@
 
 - 2025 SP · [Mixnets on a tightrope: Quantifying the leakage of mix networks using a provably optimal heuristic adversary](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-180) · traffic_leakage_model_and_evaluation · abstract_and_bibliographic_metadata
 
+## private circuits
+
+- 2003 CRYPTO · [Private Circuits: Securing Hardware against Probing Attacks](https://doi.org/10.1007/978-3-540-45146-4_27) · formal_countermeasure · abstract_and_bibliographic_metadata
+
 ## probing
 
 - 2022 SP · [IronMask: Versatile Verification of Masking Security](https://doi.org/10.1109/sp46214.2022.9833600) · formal_verification · abstract_and_bibliographic_metadata
+
+## probing security
+
+- 2003 CRYPTO · [Private Circuits: Securing Hardware against Probing Attacks](https://doi.org/10.1007/978-3-540-45146-4_27) · formal_countermeasure · abstract_and_bibliographic_metadata
 
 ## profiled SCA
 
@@ -1935,6 +1986,10 @@
 ## recipient metadata
 
 - 2024 SP · [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · metadata_privacy_protocol · abstract_and_bibliographic_metadata
+
+## Reed-Muller
+
+- 2025 PQCrypto · [Et tu, Brute? Side-Channel Assisted Chosen Ciphertext Attacks Using Valid Ciphertexts on HQC KEM](https://doi.org/10.1007/978-3-031-86602-9_11) · attack · abstract_and_bibliographic_metadata
 
 ## reinforcement learning
 
@@ -2057,6 +2112,11 @@
 
 - 2022 SP · [Are We There Yet? Timing and Floating-Point Attacks on Differential Privacy Systems](https://doi.org/10.1109/sp46214.2022.9833672) · implementation_side_channel · abstract_and_bibliographic_metadata
 
+## SASCA
+
+- 2020 TCHES · [Single-Trace Attacks on Keccak](https://doi.org/10.46586/tches.v2020.i3.243-268) · attack · abstract_and_bibliographic_metadata
+- 2025 PQCrypto · [Single Trace Side-Channel Attack on the MPC-in-the-Head Framework](https://doi.org/10.1007/978-3-031-86602-9_10) · attack · abstract_and_bibliographic_metadata
+
 ## SassCache
 
 - 2023 SP · [Scatter and Split Securely: Defeating Cache Contention and Occupancy Attacks](https://doi.org/10.1109/sp46215.2023.10179440) · microarchitectural_countermeasure · abstract_and_bibliographic_metadata
@@ -2079,7 +2139,9 @@
 
 ## SDitH
 
+- 2025 PQCrypto · [Single Trace Side-Channel Attack on the MPC-in-the-Head Framework](https://doi.org/10.1007/978-3-031-86602-9_10) · attack · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei) · masking_countermeasure · selected_full_text_sections
+- 2026 IACR ePrint · [HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without Masking](https://eprint.iacr.org/2026/081) · countermeasure_protocol · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Non-supervised SASCA on the VOLEitH Framework](https://doi.org/10.46586/tches.v2026.i2.468-494) · attack · abstract_and_bibliographic_metadata
 
 ## self-training
@@ -2163,6 +2225,11 @@
 ## SMT
 
 - 2023 SP · [SQUIP: Exploiting the Scheduler Queue Contention Side Channel](https://doi.org/10.1109/sp46215.2023.10179368) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
+
+## SNI
+
+- 2016 CCS · [Strong Non-Interference and Type-Directed Higher-Order Masking](https://doi.org/10.1145/2976749.2978427) · formal_countermeasure · abstract_and_bibliographic_metadata
+- 2020 CCS · [SNI-in-the-head: Protecting MPC-in-the-head Protocols against Side-channel Analysis](https://doi.org/10.1145/3372297.3417889) · countermeasure_protocol · abstract_and_bibliographic_metadata
 
 ## software cache
 
@@ -2297,6 +2364,7 @@
 ## TCitH
 
 - 2025 TCHES · [Masking-Friendly Post-Quantum Signatures in the Threshold-Computation-in-the-Head Framework](https://doi.org/10.46586/tches.v2025.i4.667-710) · countermeasure · abstract_and_bibliographic_metadata
+- 2025 PQCrypto · [Single Trace Side-Channel Attack on the MPC-in-the-Head Framework](https://doi.org/10.1007/978-3-031-86602-9_10) · attack · abstract_and_bibliographic_metadata
 
 ## TCP
 
@@ -2322,6 +2390,10 @@
 ## template adaptation
 
 - 2025 TCHES · [Adaptive Template Attacks on the Kyber Binomial Sampler](https://doi.org/10.46586/tches.v2025.i3.470-492) · attack · abstract_and_bibliographic_metadata
+
+## template attacks
+
+- 2020 TCHES · [Single-Trace Attacks on Keccak](https://doi.org/10.46586/tches.v2020.i3.243-268) · attack · abstract_and_bibliographic_metadata
 
 ## templates
 
@@ -2409,6 +2481,8 @@
 
 ## TVLA
 
+- 2011 NIST NIAT Workshop · [A testing methodology for side-channel resistance validation](https://csrc.nist.gov/CSRC/media/Events/Non-Invasive-Attack-Testing-Workshop/documents/08_Goodwill.pdf) · leakage_detection · selected_full_text_sections
+- 2017 CARDIS · [Towards Sound and Optimal Leakage Detection Procedure](https://doi.org/10.1007/978-3-319-75208-2_7) · leakage_detection · abstract_and_bibliographic_metadata
 - 2025 TCAS-II · [A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber](https://doi.org/10.1109/tcsii.2025.3528751) · hardware_countermeasure · selected_full_text_sections
 
 ## TVM
@@ -2477,7 +2551,9 @@
 
 ## VOLEitH
 
+- 2025 IACR ePrint · [FAEST for Memory-Constrained Devices](https://eprint.iacr.org/2025/1261) · implementation_revision · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Non-supervised SASCA on the VOLEitH Framework](https://doi.org/10.46586/tches.v2026.i2.468-494) · attack · abstract_and_bibliographic_metadata
+- 2026 IACR CiC · [Side-Channel Attacks on VOLEitH Signature Schemes: Breaking Masked FAEST](https://doi.org/10.62056/aebngyl7s) · attack · selected_full_text_sections
 
 ## VR
 
@@ -2510,6 +2586,10 @@
 - 2025 SP · [CountMamba: A Generalized Website Fingerprinting Attack via Coarse-Grained Representation and Fine-Grained Prediction](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-250) · traffic_side_channel · abstract_and_bibliographic_metadata
 - 2026 USENIX · [TIMESLICE-SANDWICH: A GPU Side-Channel Attack Exploiting Time-Sliced Scheduling](https://www.usenix.org/conference/usenixsecurity26/presentation/kim-hodong) · scheduling_side_channel · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Towards Practical Few-shot Multi-tab Website Fingerprinting](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-lin) · traffic_side_channel · abstract_and_bibliographic_metadata
+
+## Welch t-test
+
+- 2011 NIST NIAT Workshop · [A testing methodology for side-channel resistance validation](https://csrc.nist.gov/CSRC/media/Events/Non-Invasive-Attack-Testing-Workshop/documents/08_Goodwill.pdf) · leakage_detection · selected_full_text_sections
 
 ## white-box masking
 
@@ -2546,6 +2626,10 @@
 ## XS-Leaks
 
 - 2023 SP · [The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web](https://doi.org/10.1109/sp46215.2023.10179311) · side_channel_discovery · abstract_and_bibliographic_metadata
+
+## ZKBoo
+
+- 2020 CCS · [SNI-in-the-head: Protecting MPC-in-the-head Protocols against Side-channel Analysis](https://doi.org/10.1145/3372297.3417889) · countermeasure_protocol · abstract_and_bibliographic_metadata
 
 ## ZRAM
 

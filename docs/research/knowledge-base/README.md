@@ -12,6 +12,7 @@
 
 ## 从这里开始
 
+- [MPCitH 与 FAEST/HQC 文献接续：16 条卡片、版本撤回和 95 条引用初筛](records/2026-11-13-literature-mpcith-followup.md)
 - [安全资源下界、难问题泄漏与跨实现预测：三项研究深化，待他人验证](brainstorms/2026-11-13-resource-bounds-lwe-leakage-counterfactuals.md)
 - [本轮交接：资源反例、全执行模拟与留出实现预测](records/2026-11-13-resource-lwe-counterfactual-handoff.md)
 - [USENIX 2026 文献接续：362 条目录对应、34 条新卡片与 PQC 证据边界](records/2026-11-13-literature-usenix2026.md)
@@ -41,7 +42,7 @@
 - [第四批交接：三项最小资格诊断与已知反例](records/2026-11-12-observation-handoff.md)
 - [再扩大研究对象：自动模型反例、测量与格求解联合设计、物理同步；BOLD-13 至 15 待验证](brainstorms/2026-11-12-model-breaking-directions.md)
 - [第三批构思修订与验证交接](records/2026-11-12-model-breaking-handoff.md)
-- [近五年文献库（建设中）：1,820 条标题初筛、301 条阅读卡片、引用扩展与版本追踪](literature/README.md)
+- [近五年文献库（建设中）：1,820 条标题初筛、317 条阅读卡片、引用扩展与版本追踪](literature/README.md)
 - [掩码与硬件补读：16 条新增记录、八条发现解析及版本/模拟边界](records/2026-11-13-literature-masking-lineage-hardware.md)
 - [S&P 2023 全标题、47 篇摘要补读及掩码/恒时引用](records/2026-11-13-literature-sp2023-candidates.md)
 - [S&P 2024 摘要补读、261 条目录核对与 Episode V 引用补漏](records/2026-11-13-literature-sp2024-candidates-kyber-v.md)

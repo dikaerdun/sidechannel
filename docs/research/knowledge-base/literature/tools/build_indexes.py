@@ -65,6 +65,8 @@ def render_citations(root,catalogs):
       f'追踪任务共 {len(tasks)} 项：'+', '.join(f'{k}={v}' for k,v in sorted(Counter(t['status'] for t in tasks).items()))+'。',
       f'已登记发现中，{len(resolved_discoveries)} 条完成身份与范围判定，{len(pending_discoveries)} 条仍待核查；已解析记录继续保留历史。','',
       'GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan、Peek-a-Walk、EasyCrypt、Episode V 及 S&P 2023 的指定引用继续保留。追加 GLP 期刊、Protecting Dilithium、3D-Shield 合计九条选读；所有选读均不构成完整参考文献筛查。',
+      'SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 条参考列表已逐条初筛，共 36 条对应、23 条新发现待核查、36 条暂列背景。背景条目未经原文最终排除，全部列表也不构成递归引用闭合。',
+      '[SDitH 引用清单](citations/sdith2026-reference-screen.jsonl) · [CiC FAEST 引用清单](citations/faest-cic2026-reference-screen.jsonl) · [HQC 引用清单](citations/hqc-valid2025-reference-screen.jsonl) · [修订与证据范围](notes/mpcith-revisions-and-evidence-20261113.md)','',
       '[GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)','',
       '| 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |','|---|---:|---|---|']
     papers={p['id']:p for p in (json.loads(x) for x in (root/'papers.jsonl').read_text().splitlines())}
@@ -94,7 +96,8 @@ def render_citations(root,catalogs):
       '- Peek-a-Walk 标题无 PQC 名称，正文包含参考 Dilithium-2 的 nonce 泄漏与格后处理；已对应 GoFetch 与 Too Many Hints 两条引用，其余参考文献尚待逐条筛查。',
       '- EasyCrypt S&P 2025 的 [11]、[12] 已对应 Episode IV、Episode V；后者补读恒时证明范围及 [八条选读引用](citations/kyber-v-selected-reference-screen.jsonl)，新增 CRYPTO 2020 与 CHES 2017 两篇窗口外基础卡片。ePrint 2025/1607 的 minor revision 与 2024/843 的 major revision 均有显式书目关系，全文差异尚未核对。见 [Episode V 范围记录](notes/kyber-verification-episode-v-20261113.md)。',
       '- S&P 2023 的 Raccoon 五条与 selSLH 四条选读均已对应，GLP、Protecting、3D-Shield 的九条选读继续保留。打乱论文全部 17 条引用现已对应并作范围判定，七条发现已解析；NIST 错误 DOI 已纠正。JCEN 后续两条实际引用及局部掩码的出版商提交引用分别记录，见 [完整种子引用清单](citations/kyber-shuffle-selected-reference-screen.jsonl)、[后续选读](citations/kyber-hardware-followup-selected-reference-screen.jsonl)与 [证据范围](notes/kyber-shuffle-followups-and-evidence-20261113.md)。这些关系不构成递归引用闭合。',
-      '- 前向关系只记录当前实际看到的引用，不等于枚举了所有后续论文。扩展会议的系统目录、未解析引用及基础文献筛查继续进行。','']
+      '- 前向关系只记录当前实际看到的引用，不等于枚举了所有后续论文。扩展会议的系统目录、未解析引用及基础文献筛查继续进行。',
+      '- FAEST 2025/1261 当前版撤回掩码实现，旧题名保留为被引版本；不能把 CiC 攻击自动认定为撤回原因。Godard 的预印本到 PQCrypto 关系仅为原始来源推定；CARDIS 2017/2018 与 Picnic 2021-07 的时间边界分开记录。','']
     (root/'CITATION_PROGRESS.md').write_text('\n'.join(lines))
     return {'verified_citation_edges':len(citations),'verified_version_edges':len(versions)-len(inferred_versions),'inferred_version_edges':len(inferred_versions),
             'task_status_counts':dict(Counter(t['status'] for t in tasks)),
@@ -191,7 +194,7 @@ def main():
             lines.append(f'| {venue} | {year} | {n if n else "待补齐"} | {toc_label} | {title_reviewed}/{n} | {reviewed}/{n} | {link} |')
     lines.extend(['','## 当前已知缺口','',
       '- S&P 2022、2023、2024、2025 已与另一来源取得的 IEEE 印刷论文集目录逐项对应；USENIX 2026 已与单独取得的官方论文集 PDF 目录对应。其余 25 个单元仍待独立核对；同一个 HTML 的两种导出不算独立证据，官方 PDF 也不是独立科学审查。',
-      '- USENIX 2026 的 381 个议程节点已分为 362 篇论文和 19 条其他活动；2016 论文的回顾讨论不计作 2026 新论文。362 个标题已读、76 篇有摘要及以上判定，286 篇摘要仍待复核；五条 SDitH 引用发现待解析。目录一处 L∞/L_infinity 仅为数学记号差异。',
+      '- USENIX 2026 的 381 个议程节点已分为 362 篇论文和 19 条其他活动；2016 论文的回顾讨论不计作 2026 新论文。362 个标题已读、76 篇有摘要及以上判定，286 篇摘要仍待复核。五条 SDitH 发现已解析，后续 CiC/HQC 又登记 23 条待核查引用；目录一处 L∞/L_infinity 仅为数学记号差异。',
       '- S&P 2022 全部 147 条标题已读，49 个候选/不确定项有摘要判定，其余 98 条待复核。独立印刷目录 140 条规范化题名相同、7 条改题名；146 个可用出版起始页匹配，MSR Templating 的 Crossref 页码缺失。三处作者尾部字符已按印刷目录更正，其他名字形式及录用/出版差异保留。',
       '- IEEE S&P 2026 页面标题与目录年度为 2026，但有一个 cycle 小标题写 2025，保留为需复核的页面不一致。',
       '- IEEE S&P 2023 主列表漏列 DVFS Frequently Leaks Secrets；GoFetch 引用与另一官方日程促成补录，独立印刷目录现已确认全部 196 条。194 条规范化题名相同、2 条改题名；三个 N/A、两组重复 DOI 和五条作者字段差异保留待查。该年标题候选/不确定项共 48 条均有摘要判定，其余 148 条仍待摘要复核。',
@@ -217,7 +220,8 @@ def main():
         elines.append(f'| {v} | {y} | {n} | 未完成；引用/检索/版本扩展 |')
     elines+=['','SAC 2022 的会议年与 2024 年上线日期分别记录；ICCD 2021-10、ISCA 2021-06 和 ASIACCS 2021-05 论文作为窗口前边界引用保留。TCHES 2020 卷的 Share-slicing 于 2019-11 发表；CRYPTO 2020 的 FO 时序与 CHES 2017 的单轨迹论文也作为窗口外基础引用，不计入 2021–2026 核心单元。CRYPTO、EUROCRYPT、ASIACRYPT、COSADE 等扩展会议仍有系统目录收集任务；已有个别记录不等于完整覆盖。',
              '另保留 GLP 2018、CARDIS 2019（2020 上线）的 qTESLA、ACNS 2019 Dilithium、PLDI/S&P 2020 与 CCS 2017 基础文献。GLP 期刊版在线于 2023 年、卷年 2024；2022 Leveling 固定稿与 2023 Protecting 修正版分列。3D-Shield 仅核定 arXiv 记录，其作者声明的会议身份仍待独立核对。',
-             '[元数据](catalogs/citation-expansion.jsonl) · [首批来源与哈希](provenance/citation-expansion.json) · [此前来源](provenance/citation-followup-20261113.json) · [掩码与硬件补读来源](provenance/sp2023-reference-followup-20261113.json) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl)','']
+             'MPCitH/FAEST/HQC 引用补入 16 条记录；Picnic DPA 于 2021-07 上线，在滚动窗口前；CARDIS 2017 检测论文于 2018 上线。CCS 2016/2020、Keccak、TVLA、Private Circuits 与 DPA 等基础来源单列，FAEST 当前掩码实现撤回状态保留在卡片与笔记。',
+             '[元数据](catalogs/citation-expansion.jsonl) · [首批来源与哈希](provenance/citation-expansion.json) · [此前来源](provenance/citation-followup-20261113.json) · [掩码与硬件补读来源](provenance/sp2023-reference-followup-20261113.json) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [MPCitH 后续来源](provenance/mpcith-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl)','']
     (root/'EXTENDED_SOURCES.md').write_text('\n'.join(elines))
     title_lines=['# 标题与副标题初筛','','这是一轮人工阅读后的 Codex 判定，不是关键词自动分类。全部判定均为标题层暂判；后续摘要判定见 decisions.jsonl。','',
                  f'当前 {len(titles)} 条：'+', '.join(f'{k}={v}' for k,v in sorted(Counter(r['decision'] for r in titles.values()).items()))+'。',

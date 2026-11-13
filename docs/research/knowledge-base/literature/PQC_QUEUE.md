@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6685 条，其中 375 条命中后量子相关关键词。
+当前目录记录 6701 条，其中 383 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -26,6 +26,8 @@
 | 2026 CCS | [Thresholdizing Standardized FALCON Signatures](https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html) | pending |
 | 2026 CCS | [When Module Lattice Leaks: Horizontal Fusion Attacks on ML-DSA Implementation](https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html) | pending |
 | 2026 CCS | [When Topology Betrays Privacy: Lattice-Based Reconstruction Attacks on Secure Aggregation in Decentralized Federated Learning](https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html) | pending |
+| 2026 IACR CiC | [Side-Channel Attacks on VOLEitH Signature Schemes: Breaking Masked FAEST](https://doi.org/10.62056/aebngyl7s) | include |
+| 2026 IACR ePrint | [HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without Masking](https://eprint.iacr.org/2026/081) | include |
 | 2026 SP | [A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter](https://www.ieee-security.org/TC/SP2026/accepted-papers.html#collapse-228) | pending |
 | 2026 SP | [Blinding Post-Quantum Hash-and-Sign Signatures](https://www.ieee-security.org/TC/SP2026/accepted-papers.html#collapse-33) | pending |
 | 2026 SP | [From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight](https://www.ieee-security.org/TC/SP2026/accepted-papers.html#collapse-247) | pending |
@@ -122,9 +124,12 @@
 | 2025 CCS | [Post-Quantum Threshold Ring Signature Applications from VOLE-in-the-Head](https://dl.acm.org/doi/10.1145/3719027.3744854) | pending |
 | 2025 CCS | [Sliced PIR: Offloading Heavyweight Work with NTT](https://dl.acm.org/doi/10.1145/3719027.3765154) | pending |
 | 2025 CCS | [Subversion-resilient key-exchange in the post-quantum world](https://dl.acm.org/doi/10.1145/3719027.3765165) | pending |
+| 2025 IACR ePrint | [FAEST for Memory-Constrained Devices](https://eprint.iacr.org/2025/1261) | include |
 | 2025 Journal of Cryptographic Engineering | [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) | include |
 | 2025 NDSS | [L-HAWK: A Controllable Physical Adversarial Patch Against a Long-Distance Target](https://www.ndss-symposium.org/ndss-paper/l-hawk-a-controllable-physical-adversarial-patch-against-a-long-distance-target/) | pending |
 | 2025 NDSS | [PQConnect: Automated Post-Quantum End-to-End Tunnels](https://www.ndss-symposium.org/ndss-paper/pqconnect-automated-post-quantum-end-to-end-tunnels/) | pending |
+| 2025 PQCrypto | [Et tu, Brute? Side-Channel Assisted Chosen Ciphertext Attacks Using Valid Ciphertexts on HQC KEM](https://doi.org/10.1007/978-3-031-86602-9_11) | include |
+| 2025 PQCrypto | [Single Trace Side-Channel Attack on the MPC-in-the-Head Framework](https://doi.org/10.1007/978-3-031-86602-9_10) | include |
 | 2025 SP | [Gold OPRF: Post-Quantum Oblivious Power-Residue PRF](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-197) | pending |
 | 2025 SP | [Papercraft: Lattice-based Verifiable Delay Function Implemented](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-153) | pending |
 | 2025 SP | [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) | include |
@@ -351,6 +356,7 @@
 | 2021 CCS | [Shorter and Faster Post-Quantum zkSNARKs from Lattices](https://www.sigsac.org/ccs/CCS2021/accepted-papers.html) | pending |
 | 2021 HOST | [Single-Trace Side-Channel Attacks on ω-Small Polynomial Sampling: With Applications to NTRU, NTRU Prime, and CRYSTALS-DILITHIUM](https://doi.org/10.1109/host49136.2021.9702284) | include |
 | 2021 ICCD | [An Efficient Non-Profiled Side-Channel Attack on the CRYSTALS-Dilithium Post-Quantum Signature](https://doi.org/10.1109/iccd53106.2021.00094) | include |
+| 2021 PQCrypto | [Differential Power Analysis of the Picnic Signature Scheme](https://doi.org/10.1007/978-3-030-81293-5_10) | include |
 | 2021 SP | [BUFFing signature schemes beyond unforgeability and the case of post-quantum signatures](https://www.ieee-security.org/TC/SP2021/program-papers.html) | pending |
 | 2021 SP | [Post-Quantum WireGuard](https://www.ieee-security.org/TC/SP2021/program-papers.html) | pending |
 | 2021 TCHES | [A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA](https://doi.org/10.46586/tches.v2021.i2.328-356) | adjacent |
@@ -375,8 +381,10 @@
 | 2021 USENIX | [A Side Journey To Titan](https://www.usenix.org/conference/usenixsecurity21/presentation/roche) | pending |
 | 2021 USENIX | [Privacy and Integrity Preserving Computations with CRISP](https://www.usenix.org/conference/usenixsecurity21/presentation/chatel) | pending |
 | 2021 USENIX | [Raccoon Attack: Finding and Exploiting Most-Significant-Bit-Oracles in TLS-DH(E)](https://www.usenix.org/conference/usenixsecurity21/presentation/merget) | pending |
+| 2020 CCS | [SNI-in-the-head: Protecting MPC-in-the-head Protocols against Side-channel Analysis](https://doi.org/10.1145/3372297.3417889) | include |
 | 2020 CRYPTO | [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) | include |
 | 2020 SPACE | [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) | include |
+| 2020 TCHES | [Single-Trace Attacks on Keccak](https://doi.org/10.46586/tches.v2020.i3.243-268) | include |
 | 2019 ACNS | [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) | include |
 | 2019 INDOCRYPT | [FPGA Implementation and Comparison of Protections Against SCAs for RLWE](https://doi.org/10.1007/978-3-030-35423-7_27) | include |
 | 2018 EUROCRYPT | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | include |

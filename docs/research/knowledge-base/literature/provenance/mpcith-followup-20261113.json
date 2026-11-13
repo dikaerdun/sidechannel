@@ -1,0 +1,635 @@
+{
+  "updated_on": "2026-11-13",
+  "batch": "mpcith-faest-hqc-followup",
+  "sources": [
+    {
+      "source_id": "mpcith-detection-crossref-search",
+      "url": "https://api.crossref.org/works?query.title=Towards+Sound+and+Optimal+Leakage+Detection+Procedure&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Towards+Sound+and+Optimal+Leakage+Detection+Procedure&rows=3",
+      "status": 429,
+      "retrieved_at": "2026-11-13T14:30:26.568050+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "retrieval failure/status only; body not treated as paper evidence"
+    },
+    {
+      "source_id": "mpcith-detection-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-319-75208-2_7",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-319-75208-2_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:41.657950+00:00",
+      "sha256": "90d602d57201be1b5262cf9ac6f30a31a299395977834bec5ecbd1b9b3216cb3",
+      "bytes": 17773,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-detection-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-75208-2_7",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-319-75208-2_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:33.010226+00:00",
+      "sha256": "ba9e385727271d644c3e947ad4144957b728b9d2382d65a9d55d7768aefc53ff",
+      "bytes": 341229,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-dpa-crossref-search",
+      "url": "https://api.crossref.org/works?query.title=Differential+Power+Analysis&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Differential+Power+Analysis&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:33:12.036396+00:00",
+      "sha256": "36590e975b6c5fe7053217d2f3ba638caeb8dbd2c3ab0d1ecd9a97f545f5fd5a",
+      "bytes": 10068,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-dpa-crossref",
+      "url": "https://api.crossref.org/works/10.1007/3-540-48405-1_25",
+      "response_url": "https://api.crossref.org/works/10.1007/3-540-48405-1_25",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:19.366904+00:00",
+      "sha256": "9e1df45fc55d2deaa6afdc31445907a604bc27ebfa042be3ea7d87dbfd9a52a5",
+      "bytes": 5656,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-dpa-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-48405-1_25",
+      "response_url": "https://link.springer.com/chapter/10.1007/3-540-48405-1_25",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:13.050580+00:00",
+      "sha256": "d9020aad4257e34ea7d109e943a08a09f3559c64c0451de68175036234e3c1dc",
+      "bytes": 240296,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-faest-author",
+      "url": "https://pascholl.github.io/publications",
+      "response_url": "https://pascholl.github.io/publications",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:30.687964+00:00",
+      "sha256": "a0e206fda621d04ce192b21ccbded57ab1a5b79ce5069977c471e727eacce43a",
+      "bytes": 25878,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-faest-eprint",
+      "url": "https://eprint.iacr.org/2025/1261",
+      "response_url": "https://eprint.iacr.org/2025/1261",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:17.933493+00:00",
+      "sha256": "0538bb2aec5b66eb2b2200deeae153eb51033acadca42b818e76d7163fde5608",
+      "bytes": 15231,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-faest-history",
+      "url": "https://eprint.iacr.org/archive/versions/2025/1261",
+      "response_url": "https://eprint.iacr.org/archive/versions/2025/1261",
+      "status": 403,
+      "retrieved_at": "2026-11-13T14:30:19.185623+00:00",
+      "sha256": "0e3270a20197136683e9dd156386f0411dd648e34d513c0f3360a66104ddd72f",
+      "bytes": 5643,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; body not treated as paper evidence"
+    },
+    {
+      "source_id": "mpcith-faest-pdf",
+      "url": "https://eprint.iacr.org/2025/1261.pdf",
+      "response_url": "https://eprint.iacr.org/2025/1261.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T14:30:16.894871+00:00",
+      "sha256": "3a73e81386a36d76b91250f51aad6c62457e6bd0ee4512b03bb437e44847f7bb",
+      "bytes": 5583,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; body not treated as paper evidence"
+    },
+    {
+      "source_id": "mpcith-faestattack-crossref",
+      "url": "https://api.crossref.org/works/10.62056/aebngyl7s",
+      "response_url": "https://api.crossref.org/works/10.62056/aebngyl7s",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:23.578475+00:00",
+      "sha256": "f94af8340d58db2ea9ee50bcf1a8e512f5a352ac4e66dd97aa78b903ca7515c5",
+      "bytes": 14151,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-faestattack-datacite",
+      "url": "https://api.datacite.org/dois/10.62056/aebngyl7s",
+      "response_url": "https://api.datacite.org/dois/10.62056/aebngyl7s",
+      "status": 404,
+      "retrieved_at": "2026-11-13T14:32:35.501935+00:00",
+      "sha256": "30b443bb0e590a597609b71b83a2424d39b6f050b18d234c6543cdd1f8791b6b",
+      "bytes": 87,
+      "content_type": "application/json; charset=utf-8",
+      "evidence_use": "retrieval failure/status only; body not treated as paper evidence"
+    },
+    {
+      "source_id": "mpcith-faestattack-pdf",
+      "url": "https://cic.iacr.org/p/2/4/24/pdf",
+      "response_url": "https://cic.iacr.org/p/2/4/24/pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:11.630930+00:00",
+      "sha256": "b1534fd709dd704523c315bacb2385f0767f404932a93466c946d0b64639bd12",
+      "bytes": 913710,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "mpcith-faestattack-publisher",
+      "url": "https://doi.org/10.62056/aebngyl7s",
+      "response_url": "https://cic.iacr.org/p/2/4/24",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:34.264721+00:00",
+      "sha256": "e858ddeaaa93e45a1923b56a9b3023948a6a95f1cdae813d633e8ed9618ca9d2",
+      "bytes": 75627,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-faestattack-readme",
+      "url": "https://github.com/KTH-HWSEC/breaking-masked-faest/blob/main/README.md",
+      "response_url": "https://github.com/KTH-HWSEC/breaking-masked-faest/blob/main/README.md",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:36:35.366001+00:00",
+      "sha256": "f99bff3021c617fa5e4fe691642c78fff673c67dfeeb0fb69551c85abe3ec03e",
+      "bytes": 1868,
+      "retrieval_method": "GitHub connector fetch_file; text materialized locally",
+      "git_blob_sha": "05f57fff7cbc43459587ef77b5fcc3601a11cf4a",
+      "content_type": "text/markdown"
+    },
+    {
+      "source_id": "mpcith-godard-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-86602-9_10",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-86602-9_10",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:20.748698+00:00",
+      "sha256": "aaad2180741b25ec56ea43e4035b03c260fe9b5ffce86adf1e5f7aa946437b5e",
+      "bytes": 14225,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-godard-eprint",
+      "url": "https://eprint.iacr.org/2024/1882",
+      "response_url": "https://eprint.iacr.org/2024/1882",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:18.505881+00:00",
+      "sha256": "62feaa4f6b5e5f3ff58e04faef9f9685ccf06d5b45b2b8ffbe5fb5a95438c2e4",
+      "bytes": 18401,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-godard-pdf",
+      "url": "https://eprint.iacr.org/2024/1882.pdf",
+      "response_url": "https://eprint.iacr.org/2024/1882.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T14:30:19.054599+00:00",
+      "sha256": "687815baa0f4ae30d1a4f3fdbfe6b4d24791bf96a0b3d14ebc4670c1d441ce0e",
+      "bytes": 5583,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; body not treated as paper evidence"
+    },
+    {
+      "source_id": "mpcith-godard-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-86602-9_10",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-86602-9_10",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:24.045785+00:00",
+      "sha256": "e21bdb8b2cf0a952ab30e71a991608d5e370cd25d3eb95a18ec6c64053773af4",
+      "bytes": 329795,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-hqc-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-86602-9_11",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-86602-9_11",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:49.916648+00:00",
+      "sha256": "1b7c15b848d8003c9a21d41b294195a873686ed908714138dd02c268aaa4be98",
+      "bytes": 16961,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-hqc-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-86602-9_11",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-86602-9_11",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:36.089455+00:00",
+      "sha256": "803f0dc7c9b2c889e38bc14022f1824cdf1d0bbcf4e9ac7b4e8c14496c153a21",
+      "bytes": 328719,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-hypershield-eprint",
+      "url": "https://eprint.iacr.org/2026/081",
+      "response_url": "https://eprint.iacr.org/2026/081",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:17.871368+00:00",
+      "sha256": "da6c0ef9c27e3011c1d8d4a9d0c797285eafa7b2e87e1cc33489d877880a4862",
+      "bytes": 20949,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-hypershield-pdf",
+      "url": "https://eprint.iacr.org/2026/081.pdf",
+      "response_url": "https://eprint.iacr.org/2026/081.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T14:30:17.825076+00:00",
+      "sha256": "e1396172b3f9ae1ad071c721e6ce408d07eaf982c4407f9c9baf73863b9e1cce",
+      "bytes": 5580,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; body not treated as paper evidence"
+    },
+    {
+      "source_id": "mpcith-keccak2010-author",
+      "url": "https://keccak.team/papers.html",
+      "response_url": "https://keccak.team/papers.html",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:09.401972+00:00",
+      "sha256": "662c4fe5005ca720ed3969bad28d85d69193d42556b3e9679171768ea2c38870",
+      "bytes": 52774,
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "mpcith-keccak2010-pdf",
+      "url": "https://keccak.team/files/KeccakDPA.pdf",
+      "response_url": "https://keccak.team/files/KeccakDPA.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:11.831301+00:00",
+      "sha256": "23041f63b20b148c533991a24a86b20c22e1ebb3eb564715f43c9fecc396ee7e",
+      "bytes": 365630,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "mpcith-keccak2017-crossref-search",
+      "url": "https://api.crossref.org/works?query.title=Higher-Order+Side-Channel+Protected+Implementations+of+KECCAK&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Higher-Order+Side-Channel+Protected+Implementations+of+KECCAK&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:33:04.120157+00:00",
+      "sha256": "861671147c9078f04da4093f633e069cb1fb646f1dcd2cada25e9860d5d2687d",
+      "bytes": 14322,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-keccak2017-crossref",
+      "url": "https://api.crossref.org/works/10.1109/dsd.2017.21",
+      "response_url": "https://api.crossref.org/works/10.1109/dsd.2017.21",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:21.132175+00:00",
+      "sha256": "75000fe31cfda33e545b69731fd30739a06edeb68a7352dd66720496ed88a2b1",
+      "bytes": 5238,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-keccak2017-eprint",
+      "url": "https://eprint.iacr.org/2017/395",
+      "response_url": "https://eprint.iacr.org/2017/395",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:58.349104+00:00",
+      "sha256": "54d27bef3120e0118c288f2266f0ed6631d59e6bbc6a7e1f3c8c043aa060103b",
+      "bytes": 15243,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-keccak2017-publisher",
+      "url": "https://ieeexplore.ieee.org/document/8049787/",
+      "response_url": "https://ieeexplore.ieee.org/document/8049787/",
+      "status": 202,
+      "retrieved_at": "2026-11-13T14:34:58.354864+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; body not treated as paper evidence"
+    },
+    {
+      "source_id": "mpcith-keccak2020-crossref-search",
+      "url": "https://api.crossref.org/works?query.title=Single-Trace+Attacks+on+Keccak&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Single-Trace+Attacks+on+Keccak&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:31.713515+00:00",
+      "sha256": "6fa7d21d2b91578b7b173bc042dfd284fcace1f4e57d6831a5fe96b9b0de1924",
+      "bytes": 13763,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-keccak2020-crossref",
+      "url": "https://api.crossref.org/works/10.46586/tches.v2020.i3.243-268",
+      "response_url": "https://api.crossref.org/works/10.46586/tches.v2020.i3.243-268",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:46.627592+00:00",
+      "sha256": "f2b2f8439e9386a85a5e6ce3b2a9a119c3d953fbe63fab873e51220f547bd181",
+      "bytes": 3931,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-keccak2020-publisher",
+      "url": "https://tches.iacr.org/index.php/TCHES/article/view/8590",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/view/8590",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:08.307497+00:00",
+      "sha256": "ffe649144cd02d4b6da61a57e528f14f3ba370b4086400c6b88609060ef4cfbe",
+      "bytes": 27940,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-mqom-eprint",
+      "url": "https://eprint.iacr.org/2026/078",
+      "response_url": "https://eprint.iacr.org/2026/078",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:35.132999+00:00",
+      "sha256": "f55c569685ce92d59b98613b9114b16fa57686e83e8c1994c9569cedc7b826fa",
+      "bytes": 17504,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-mqom-publisher-correct",
+      "url": "https://tches.iacr.org/index.php/TCHES/article/view/13093",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/view/13093",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:14.982065+00:00",
+      "sha256": "f35fee45625f8db1a20104b2612af1d205c3eb41bbc3fbb8ab1bab6bfb099cec",
+      "bytes": 27824,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-picnic-crossref-search",
+      "url": "https://api.crossref.org/works?query.title=Differential+Power+Analysis+of+the+Picnic+Signature+Scheme&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Differential+Power+Analysis+of+the+Picnic+Signature+Scheme&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:29.815582+00:00",
+      "sha256": "3edd7d6c3d12e44820a1ec5b03ca4719f219292cbe83ad2506aebe61d11e075c",
+      "bytes": 40522,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-picnic-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-81293-5_10",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-81293-5_10",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:37.903549+00:00",
+      "sha256": "1bf691b5b8cc00dc3fa80eb4bd055bed5ce26a9bcd4cda4c2ea4a5c5f7ad1e46",
+      "bytes": 23575,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-picnic-eprint",
+      "url": "https://eprint.iacr.org/2020/267",
+      "response_url": "https://eprint.iacr.org/2020/267",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:17.927487+00:00",
+      "sha256": "2bbc2626e645b757275649a987771febb0d1b8236d28ab6dc87cffb3ddee588a",
+      "bytes": 14985,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-picnic-pdf",
+      "url": "https://eprint.iacr.org/2020/267.pdf",
+      "response_url": "https://eprint.iacr.org/2020/267.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T14:30:19.811335+00:00",
+      "sha256": "883be932fba8f8a6f78ebfe8187fbf5cd4f4025f83f6bf90c82a18899347a184",
+      "bytes": 5580,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; body not treated as paper evidence"
+    },
+    {
+      "source_id": "mpcith-picnic-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-81293-5_10",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-81293-5_10",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:32.938010+00:00",
+      "sha256": "a1c13fc2624609ff54e8911bde38a59dea1eace83b5dee5d1f7fa8d6146ab9ce",
+      "bytes": 352222,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-pq2021-book",
+      "url": "https://link.springer.com/book/10.1007/978-3-030-81293-5",
+      "response_url": "https://link.springer.com/book/10.1007/978-3-030-81293-5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:24.999380+00:00",
+      "sha256": "1e1d65b5cd880f6ac2534b7ea82f906d7198874656c82b4a2e9fa08e79c70ad0",
+      "bytes": 303559,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-pq2025-book",
+      "url": "https://link.springer.com/book/10.1007/978-3-031-86602-9",
+      "response_url": "https://link.springer.com/book/10.1007/978-3-031-86602-9",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:25.916573+00:00",
+      "sha256": "bddc5c9ef6fdeca16b64e54d8a7733cd7ad746a6366db5a2fa38e58446bcb8c8",
+      "bytes": 297011,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-prg-crossref-search",
+      "url": "https://api.crossref.org/works?query.title=Side-Channel+Masking+with+Pseudo-Random+Generator&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Side-Channel+Masking+with+Pseudo-Random+Generator&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:58.229712+00:00",
+      "sha256": "f30a258c03da86236a7d7e514a6e3bbc9147e9f28d4e0569e9408ec844729d38",
+      "bytes": 39645,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-prg-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-45727-3_12",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-45727-3_12",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:15.964504+00:00",
+      "sha256": "c8729c7953652a0f5ce1e43664087c94848e2013b31c7fae94ed0b77cb0c92e6",
+      "bytes": 13733,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-prg-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-45727-3_12",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-45727-3_12",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:13.083137+00:00",
+      "sha256": "efa777f47efe2723250389a0a905fa23c71707c7eeea3a5d1805e5932e3785d2",
+      "bytes": 473208,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-private-crossref-search",
+      "url": "https://api.crossref.org/works?query.title=Private+Circuits%3A+Securing+Hardware+against+Probing+Attacks&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Private+Circuits%3A+Securing+Hardware+against+Probing+Attacks&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:34.014986+00:00",
+      "sha256": "1ae0e13f85438f0cdb7c6214c50d215d8a9999e6132803a01aeee7c8dac031de",
+      "bytes": 45235,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-private-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-540-45146-4_27",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-540-45146-4_27",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:43.932289+00:00",
+      "sha256": "f3d114a8d2a95d044abbbab941c0d3e894232f18a69e72bf5fd7e3027e0ac14d",
+      "bytes": 13529,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-private-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-540-45146-4_27",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-540-45146-4_27",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:37.371475+00:00",
+      "sha256": "d9bfb270efb28f08d3e9e458c45dbd930a4eb9c4ff2158dd91ffc609774a85de",
+      "bytes": 268747,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-sni-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3372297.3417889",
+      "response_url": "https://api.crossref.org/works/10.1145/3372297.3417889",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:21.308367+00:00",
+      "sha256": "c9ff92a90fe5a657a36d45e15a50e5ae1d9e51e4226cc78febcc79e831c8fdef",
+      "bytes": 10867,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-sni-eprint",
+      "url": "https://eprint.iacr.org/2020/544",
+      "response_url": "https://eprint.iacr.org/2020/544",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:20.446456+00:00",
+      "sha256": "39b7adf16322d368f4daa992b30e390b377aa9f818c29907a358ea8c89cc80dc",
+      "bytes": 16839,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-sni-institution",
+      "url": "https://research.uni-luebeck.de/de/publications/sni-in-the-head-protecting-mpc-in-the-head-protocols-against-side/",
+      "response_url": "https://research.uni-luebeck.de/de/publications/sni-in-the-head-protecting-mpc-in-the-head-protocols-against-side/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:24.372337+00:00",
+      "sha256": "fb315693100c34995c7edd0394490ee1d03a880622bf3438b477a5ccf011ebac",
+      "bytes": 56551,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "mpcith-sni-pdf",
+      "url": "https://eprint.iacr.org/2020/544.pdf",
+      "response_url": "https://eprint.iacr.org/2020/544.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T14:30:20.173112+00:00",
+      "sha256": "b6025c09d08eaa44dfdd71e41c2f4ebd252f325c5c4c760c565cd489d80aaf62",
+      "bytes": 5580,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; body not treated as paper evidence"
+    },
+    {
+      "source_id": "mpcith-sni-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3372297.3417889",
+      "response_url": "https://dl.acm.org/doi/10.1145/3372297.3417889",
+      "status": 403,
+      "retrieved_at": "2026-11-13T14:30:20.724338+00:00",
+      "sha256": "3fefa7e859206542f695e9d7bb7b11a07de5f72158cd4a5616becc0cccf77158",
+      "bytes": 5641,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; body not treated as paper evidence"
+    },
+    {
+      "source_id": "mpcith-sni2016-crossref-search",
+      "url": "https://api.crossref.org/works?query.title=Strong+non-interference+and+type-directed+higher-order+masking&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Strong+non-interference+and+type-directed+higher-order+masking&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:30:27.400484+00:00",
+      "sha256": "536c7a61ffab234c631e0ec426e6ab6239b175795530f9421a1574b5e4b49300",
+      "bytes": 46543,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-sni2016-crossref",
+      "url": "https://api.crossref.org/works/10.1145/2976749.2978427",
+      "response_url": "https://api.crossref.org/works/10.1145/2976749.2978427",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:32:39.614168+00:00",
+      "sha256": "d62d864bab1b68186c2eebe41ad3a143c98c8cf571fe6f14fa67d377a18dd854",
+      "bytes": 13501,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mpcith-sni2016-eprint",
+      "url": "https://eprint.iacr.org/2015/506",
+      "response_url": "https://eprint.iacr.org/2015/506",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:58.485147+00:00",
+      "sha256": "1a53da3d2732d48e464c73667deccb3433a2bc5e7fcffc1a2ed60fa6335ed98b",
+      "bytes": 16042,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "mpcith-sni2016-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/2976749.2978427",
+      "response_url": "https://dl.acm.org/doi/10.1145/2976749.2978427",
+      "status": 403,
+      "retrieved_at": "2026-11-13T14:32:33.967101+00:00",
+      "sha256": "c1283ec92704861a36e2483e8504b5acf8647df9df971dcb93900b2265f09dec",
+      "bytes": 5641,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure/status only; body not treated as paper evidence"
+    },
+    {
+      "source_id": "mpcith-tvla-pdf",
+      "url": "https://csrc.nist.gov/CSRC/media/Events/Non-Invasive-Attack-Testing-Workshop/documents/08_Goodwill.pdf",
+      "response_url": "https://csrc.nist.gov/CSRC/media/Events/Non-Invasive-Attack-Testing-Workshop/documents/08_Goodwill.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:19.997518+00:00",
+      "sha256": "b7942ff4cf558f6aafbe11d928041fbffed08345a131eac120e520d0c3310ff8",
+      "bytes": 4244097,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "mpcith-tvla-workshop",
+      "url": "https://csrc.nist.gov/Events/2011/Non-Invasive-Attack-Testing-Workshop",
+      "response_url": "https://csrc.nist.gov/Events/2011/Non-Invasive-Attack-Testing-Workshop",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:34:12.848614+00:00",
+      "sha256": "16b84b0096f486c398a7557095588f14b056785b2e15ee483a27bfb1c0f4f49a",
+      "bytes": 43777,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "usenix26-paper-liu-guowei",
+      "url": "https://www.usenix.org/system/files/usenixsecurity26-liu-guowei.pdf",
+      "response_url": "https://www.usenix.org/system/files/usenixsecurity26-liu-guowei.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T14:06:36.165839+00:00",
+      "sha256": "6b2e054507f02c73c47c2b7c268cd1731a0e0dff246e46f72374601e240cb75a",
+      "bytes": 1449138,
+      "content_type": "application/pdf"
+    }
+  ],
+  "counts": {
+    "new_catalog_records": 16,
+    "new_included_cards": 16,
+    "new_citation_edges": 31,
+    "new_version_edges": 6,
+    "verified_new_version_edges": 5,
+    "inferred_new_version_edges": 1,
+    "resolved_discoveries": 5,
+    "new_pending_discoveries": 23,
+    "reference_inventory_entries": 95
+  },
+  "evidence_scope": {
+    "faest": "current ePrint abstract/withdrawal note and author publication page; PDF Disclaimer and revision history unavailable",
+    "faest_attack": "selected publisher PDF sections, Table 5 visual check and artifact README; no code/data execution",
+    "hqc": "publisher abstract and all 30 HTML reference entries; no full-text body",
+    "foundations": "Keccak 2010 p1 and TVLA 2011 pp1-2; other new foundations abstract/metadata only"
+  },
+  "gaps": [
+    "Current FAEST retraction is not attributed to a specific attack paper without evidence",
+    "Godard preprint/formal relation inferred only; five other author relations explicit",
+    "Single-trace results retain profiling, device and enumeration conditions",
+    "Keccak 2020 and SNI-in-the-head simulation evidence separated from hardware",
+    "CiC public scripts do not mean datasets/models publicly downloadable",
+    "23 newly queued references, all new forward tasks and unprocessed core venue coverage remain open"
+  ],
+  "literature_goal_complete": false
+}

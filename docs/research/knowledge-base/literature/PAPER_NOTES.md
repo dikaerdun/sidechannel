@@ -2,7 +2,57 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 301 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 317 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+
+## Differential Power Analysis
+
+- 来源：[CRYPTO 1999](https://doi.org/10.1007/3-540-48405-1_25)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：Paul Kocher; Joshua Jaffe; Benjamin Jun
+- 对象：DPA, power analysis；类型：foundational_attack。
+- 核心想法：研究从设备功耗统计中提取秘密的差分分析方法及防护思路。
+- 作者报告：作者讨论具有物理信息泄漏的密码设备。
+- 限制与下一步：仅摘要与元数据；CRYPTO 1999 基础来源，不作为本地复现或后量子实测证据。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/3-540-48405-1_25。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## Private Circuits: Securing Hardware against Probing Attacks
+
+- 来源：[CRYPTO 2003](https://doi.org/10.1007/978-3-540-45146-4_27)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：Yuval Ishai; Amit Sahai; David Wagner
+- 对象：probing security, private circuits；类型：formal_countermeasure。
+- 核心想法：为有限数量电路线探测建立形式化威胁模型并构造私有电路。
+- 作者报告：作者提出效率构造和安全证明，作为后续掩码工作的理论基础。
+- 限制与下一步：有限线探测模型不是对所有模拟功耗与 EM 观察的无条件保证；正文证明未复核。CRYPTO 2003 窗口外基础文献。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-540-45146-4_27。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## Building power analysis resistant implementations of Keccak
+
+- 来源：[SHA-3 Candidate Conference 2010](https://keccak.team/files/KeccakDPA.pdf)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：Guido Bertoni; Joan Daemen; Michaël Peeters; Gilles Van Assche
+- 对象：Keccak, masking；类型：countermeasure。
+- 核心想法：利用 Keccak 步函数的代数结构设计软件和硬件掩码。
+- 作者报告：第一页提出软件两份额、硬件三份额的条件性讨论以及两种架构的面积吞吐权衡。
+- 限制与下一步：只阅读第一页摘要与引言；没有核查后续证明及模拟章节，不能把历史份额数表述升级为通用物理安全保证。作者页面提示已有更近的实现概述。
+- 阅读层级：selected_full_text_sections；来源：https://keccak.team/files/KeccakDPA.pdf; https://keccak.team/papers.html。
+- 已读章节：Author PDF page 1: abstract and introduction only; later construction, proofs and simulation sections unread.
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## A testing methodology for side-channel resistance validation
+
+- 来源：[NIST NIAT Workshop 2011](https://csrc.nist.gov/CSRC/media/Events/Non-Invasive-Attack-Testing-Workshop/documents/08_Goodwill.pdf)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：Gilbert Goodwill; Benjamin Jun; Josh Jaffe; Pankaj Rohatgi
+- 对象：TVLA, Welch t-test, AES；类型：leakage_detection。
+- 核心想法：提出以统计差异检测敏感中间量影响的侧信道测试流程。
+- 作者报告：介绍指定 AES 测试及三种实现的作者评估，失败判据不要求完整密钥恢复。
+- 限制与下一步：只读前两页；原文明确测试不能保证抵抗所有攻击。这是 NIST 工作坊论文，不能称作正式 NIST 标准。
+- 阅读层级：selected_full_text_sections；来源：https://csrc.nist.gov/CSRC/media/Events/Non-Invasive-Attack-Testing-Workshop/documents/08_Goodwill.pdf; https://csrc.nist.gov/Events/2011/Non-Invasive-Attack-Testing-Workshop。
+- 已读章节：NIST-hosted workshop PDF pages 1-2: introduction and opening testing-methodology/vendor-information requirements; experimental sections unread.
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
 ## An architecture-independent instruction shuffler to protect against side-channel attacks
 
@@ -14,6 +64,30 @@
 - 限制与下一步：数值属于作者指定平台和攻击，不是所有处理器的安全倍数；2012 年窗口外通用基础文献。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/works/10.1145/2086696.2086699。
 - [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## Strong Non-Interference and Type-Directed Higher-Order Masking
+
+- 来源：[CCS 2016](https://doi.org/10.1145/2976749.2978427)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：Gilles Barthe; Sonia Belaïd; François Dupressoir; Pierre-Alain Fouque; Benjamin Grégoire; Pierre-Yves Strub; Rébecca Zucchini
+- 对象：masking, SNI, formal verification；类型：formal_countermeasure。
+- 核心想法：用强非干扰与类型系统支持掩码算法的组合安全论证和自动验证。
+- 作者报告：扩展版摘要报告可扩展的方法及超出此前规模的例子。
+- 限制与下一步：实际阅读为作者明确说明经过大幅重写的扩展版摘要；原会议证明和版本差异未核查。逻辑探测保证不等于任意聚合功耗安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2015/506; https://api.crossref.org/works/10.1145/2976749.2978427。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## Towards Sound and Optimal Leakage Detection Procedure
+
+- 来源：[CARDIS 2017](https://doi.org/10.1007/978-3-319-75208-2_7)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：A. Adam Ding; Liwei Zhang; Francois Durvaux; Francois-Xavier Standaert; Yunsi Fei
+- 对象：TVLA, Higher Criticism；类型：leakage_detection。
+- 核心想法：将泄漏检测与最小 p 值聚合联系，并引入 Higher Criticism 检测多位置的弱信号。
+- 作者报告：作者报告特定统计设置的可检测性结果及数值比较。
+- 限制与下一步：最优性依赖论文模型，不是所有泄漏分布下的普遍结论；检出不等于密钥恢复，未检出不等于安全。CARDIS 2017 与 2018 出版分开。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-319-75208-2_7。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
 ## Jasmin: High-Assurance and High-Speed Cryptography
@@ -37,6 +111,18 @@
 - 限制与下一步：这是 CHES 2017 的窗口外基础工作；single trace 指攻击观察，不代表没有模板训练、设备或校准成本。掩码阶数、实现及算法迁移范围待全文核对，不能扩展为全部最终 PQC 标准。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-319-66787-4_25。
 - 代码/数据核查：not checked；引用追踪：pending。
+
+## Higher-Order Side-Channel Protected Implementations of KECCAK
+
+- 来源：[DSD 2017](https://doi.org/10.1109/dsd.2017.21)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：Hannes Gross; David Schaffenrath; Stefan Mangard
+- 对象：Keccak, masking；类型：countermeasure。
+- 核心想法：设计可通过参数调整保护阶数的 Keccak 硬件。
+- 作者报告：作者修订摘要报告四种 Keccak 变体及最高九阶配置。
+- 限制与下一步：配置阶数与所有物理攻击抵抗力不同；具体探测/毛刺模型和实验预算待全文。ePrint 明示为 DSD 2017 的小修订，未核对全文差异。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2017/395; https://api.crossref.org/works/10.1109/dsd.2017.21。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
 ## Masking the GLP Lattice-Based Signature Scheme at Any Order
 
@@ -83,6 +169,18 @@
 - [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
+## SNI-in-the-head: Protecting MPC-in-the-head Protocols against Side-channel Analysis
+
+- 来源：[CCS 2020](https://doi.org/10.1145/3372297.3417889)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：Okan Seker; Sebastian Berndt; Luca Wilke; Thomas Eisenbarth
+- 对象：ZKBoo, MPC-in-the-Head, SNI；类型：countermeasure_protocol。
+- 核心想法：利用平衡的强非干扰组件把 ZKBoo 扩展为可调探测阶数的协议。
+- 作者报告：作者以模拟 DPA 展示原协议问题，并报告防护与实际实现的性能评估。
+- 限制与下一步：DPA 演示是模拟，不能用性能实现替代物理采集证据；安全性依赖其探测模型。CCS 2020 为窗口外基础文献。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2020/544; https://research.uni-luebeck.de/de/publications/sni-in-the-head-protecting-mpc-in-the-head-protocols-against-side/。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
 ## A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM
 
 - 来源：[CRYPTO 2020](https://doi.org/10.1007/978-3-030-56880-1_13)；时间标记：outside rolling window; explicitly cited foundational work。
@@ -93,6 +191,18 @@
 - 限制与下一步：这是 CRYPTO 2020 的窗口外基础工作；需核对攻击时序精度、实现版本和各参数预算，不能推断当前恒时实现或全部 FO 转换都可攻击。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-56880-1_13。
 - 代码/数据核查：not checked；引用追踪：pending。
+
+## Side-Channel Masking with Pseudo-Random Generator
+
+- 来源：[EUROCRYPT 2020](https://doi.org/10.1007/978-3-030-45727-3_12)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：Jean-Sébastien Coron; Aurélien Greuet; Rina Zeitoun
+- 对象：masking, PRG, AES；类型：countermeasure。
+- 核心想法：用多个独立 PRG 降低指定 ISW 掩码电路的新鲜随机性成本。
+- 作者报告：作者给出探测模型中的构造及 ARM 慢 TRNG 条件下的可行性实现。
+- 限制与下一步：不同 PRG 的独立性和电路条件不可省略；不能改写成任意伪随机发生器都能替代安全随机性。仅摘要，未复核证明或实测安全范围。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-45727-3_12。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
 ## Constant-time foundations for the new spectre era
 
@@ -142,6 +252,18 @@
 - 已读章节：TCHES landing-page abstract; PDF pp.16–17 (printed pp.167–168): repetition/SNR limitations, sections 5–6
 - [详细阅读记录](notes/power-observation-and-pqc-boundaries-20261113.md)
 - 代码/数据核查：author README fully read; explicit no security claim for the supplied AES implementation and distinct supplemental setup; source/data files and build not verified；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
+
+## Single-Trace Attacks on Keccak
+
+- 来源：[TCHES 2020](https://doi.org/10.46586/tches.v2020.i3.243-268)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：Matthias J. Kannwischer; Peter Pessl; Robert Primas
+- 对象：Keccak, SASCA, template attacks；类型：attack。
+- 核心想法：结合模板匹配与因子图消息传递，研究 Keccak 临时秘密的单迹线恢复。
+- 作者报告：作者在通用微控制器的带噪 HW 模型中模拟评估恢复表现。
+- 限制与下一步：这是模拟而非硬件采集；单次目标观察仍有剖析假设。Keccak 是 PQC 构件，不代表完成某个具体 PQC 实现的恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://tches.iacr.org/index.php/TCHES/article/view/8590。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
 ## Red Alert for Power Leakage: Exploiting Intel RAPL-Induced Side Channels
 
@@ -198,6 +320,18 @@
 - 限制与下一步：部分对象是文献设计、专利或实现状态不确定的优化；不等于七类均在商业芯片上被实测。2021-06 作为窗口前边界引用保留。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://homes.cs.washington.edu/~dkohlbre/papers/pandora.pdf。
 - 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
+
+## Differential Power Analysis of the Picnic Signature Scheme
+
+- 来源：[PQCrypto 2021](https://doi.org/10.1007/978-3-030-81293-5_10)；时间标记：PQCrypto 2021 calendar-year boundary; online 2021-07-15 before rolling start 2021-11-12。
+- 作者：Tim Gellersen; Okan Seker; Thomas Eisenbarth
+- 对象：Picnic, LowMC, MPC-in-the-Head；类型：attack。
+- 核心想法：通过 MPC-LowMC 的两处泄漏恢复秘密，进而影响 Picnic 签名。
+- 作者报告：作者在 FRDM-K66F 上报告少于 1000 条 LowMC 迹线，可由少于 30 个 Picnic 签名取得。
+- 限制与下一步：LowMC 迹线数与 Picnic 签名数不能互换；仅读摘要。2021-07 上线早于滚动窗口起点，作为边界基础论文保留。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-81293-5_10; https://eprint.iacr.org/2020/267。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
 ## A Side-Channel Attack on a Masked IND-CCA Secure Saber KEM Implementation
 
@@ -2093,6 +2227,18 @@
 - [详细阅读记录](notes/power-observation-and-pqc-boundaries-20261113.md)
 - 代码/数据核查：not checked；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
 
+## FAEST for Memory-Constrained Devices
+
+- 来源：[IACR ePrint 2025](https://eprint.iacr.org/2025/1261)；时间标记：within rolling five-year window。
+- 作者：Diego F. Aranha; Johan Degn; Jonathan Eilath; Kent Nielsen; Peter Scholl
+- 对象：FAEST, VOLEitH；类型：implementation_revision。
+- 核心想法：以 VOLE 重算和复用降低 FAEST v1.1 Cortex-M4 实现的内存，并保留恒时实现。
+- 作者报告：当前修订明确撤回掩码实现；作者说明审稿人发现攻击，保留低内存优化。
+- 限制与下一步：不能继续把旧题名中的防护当作当前已成立结论；PDF Disclaimer 与历史页访问 403，未核查完整版本差异，也未确定撤回与某篇攻击论文的因果对应。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2025/1261; https://pascholl.github.io/publications。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：SDitH and CiC actual citations verified; current author revision retracts masked implementation; no exhaustive forward coverage or causal attribution。
+
 ## A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber
 
 - 来源：[Journal of Cryptographic Engineering 2025](https://doi.org/10.1007/s13389-025-00375-7)；时间标记：within rolling five-year window。
@@ -2105,6 +2251,30 @@
 - 已读章节：Publisher HTML abstract and sections 1–2, 4, 5 opening, 6, 8–10; reference entries 23/26/33 inspected, only 26/33 linked. Numerical recovery rates read from section 8 prose; tables 3/5 not independently transcribed. Section 7 and full bibliography not completely read.
 - [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：selected backward/forward relation verified; complete tracing pending。
+
+## Et tu, Brute? Side-Channel Assisted Chosen Ciphertext Attacks Using Valid Ciphertexts on HQC KEM
+
+- 来源：[PQCrypto 2025](https://doi.org/10.1007/978-3-031-86602-9_11)；时间标记：within rolling five-year window。
+- 作者：Thales B. Paiva; Prasanna Ravi; Dirmanto Jap; Shivam Bhasin; Sayan Das; Anupam Chattopadhyay
+- 对象：HQC, Reed-Muller, chosen ciphertext；类型：attack。
+- 核心想法：研究使用有效密文的侧信道辅助选择密文攻击，针对 HQC 译码的 ExpandAndSum 与 FindPeaks。
+- 作者报告：摘要报告指定实验中的完整密钥恢复及对打乱的扩展，用以分析依赖无效密文检测的防护。
+- 限制与下一步：100% 是作者所测条件的报告；平台、采集预算与准确版本待全文。不能泛化到所有 HQC 实现或最终标准；只核查摘要和参考列表。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-86602-9_11。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：all 30 bibliography entries screened: eight linked, 11 queued, 11 provisional background; recursive tracing incomplete。
+
+## Single Trace Side-Channel Attack on the MPC-in-the-Head Framework
+
+- 来源：[PQCrypto 2025](https://doi.org/10.1007/978-3-031-86602-9_10)；时间标记：within rolling five-year window。
+- 作者：Julie Godard; Nicolas Aragon; Philippe Gaborit; Antoine Loiseau; Julien Maillard
+- 对象：SDitH, TCitH, SASCA；类型：attack。
+- 核心想法：利用有限域乘法泄漏和多项式求值约束构造针对阈值 MPCitH 的软分析攻击。
+- 作者报告：作者报告 HW 模拟及 STM32F407 实测，并称各安全等级均可单迹线恢复目标私钥。
+- 限制与下一步：对象是原始阈值 TCitH/SDitH 结构；单条攻击迹线不等于无需剖析。训练预算、完整参数和正文尚未核查；预印本到正式版本关系仅作原始来源推定。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-86602-9_10; https://eprint.iacr.org/2024/1882。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
 ## BPSniff: Continuously Surveilling Private Blood Pressure Information in the Metaverse via Unrestricted Inbuilt Motion Sensors
 
@@ -2652,6 +2822,31 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2512.22301。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Side-Channel Attacks on VOLEitH Signature Schemes: Breaking Masked FAEST
+
+- 来源：[IACR CiC 2026](https://doi.org/10.62056/aebngyl7s)；时间标记：within rolling five-year window。
+- 作者：Sönke Jendral; Elena Dubrova
+- 对象：FAEST, VOLEitH, deep learning；类型：attack。
+- 核心想法：利用 witness 字节组合与 VOLE 标签转置的泄漏评估第一轮掩码 FAEST。
+- 作者报告：作者在不同剖析和测试设备上报告单次签名恢复；无额外加噪条件下，两方法分别为 998/1000 与 1000/1000。
+- 限制与下一步：每种方法使用 5000 条剖析迹线；数百万片段不等于独立采集。未知密钥自剖析只提出未实验，第二轮适用性仅讨论。训练与枚举成本必须计入；数据和预训练模型需向作者申请。
+- 阅读层级：selected_full_text_sections；来源：https://cic.iacr.org/p/2/4/24/pdf; https://doi.org/10.62056/aebngyl7s; https://github.com/KTH-HWSEC/breaking-masked-faest/blob/main/README.md。
+- 已读章节：Publisher PDF pages 2-3, 8-9, 12-13, 17-22 selected sections; Table 5 on page 20 visually checked; not all 27 pages or complete proofs. Artifact README read; no scripts inspected/executed.
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：Author README read at Git blob 05f57fff7cbc43459587ef77b5fcc3601a11cf4a; scripts listed, datasets/pretrained models available upon request; no code inspected/executed；引用追踪：all 38 bibliography entries screened: seven linked, 12 queued, 19 provisional background; recursive tracing incomplete。
+
+## HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without Masking
+
+- 来源：[IACR ePrint 2026](https://eprint.iacr.org/2026/081)；时间标记：within rolling five-year window。
+- 作者：Linda Pirker; Quinten Norga; Suparna Kundu; Anindya Ganguly; Barry van Leeuwen; Angshuman Karmakar; Ingrid Verbauwhede
+- 对象：SDitH, MPC-in-the-Head, Hypercube；类型：countermeasure_protocol。
+- 核心想法：通过增加隐藏份额和调整 GGM 树揭示方式改变 Hypercube-MPCitH 协议，在差分探测模型下提供阶数保护。
+- 作者报告：作者给出参数、计算量与签名长度权衡，并与传统掩码开销估计比较。
+- 限制与下一步：这是协议修改而非透明替换实现；全掩码比较值含估算。摘要不证明所有 SPA 或物理观察安全，正文和各参数证明待核查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2026/081。
+- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
 ## Hardware Implementation and Security Analysis of Local-Masked NTT for CRYSTALS-Kyber
 
 - 来源：[TC 2026](https://doi.org/10.1109/tc.2026.3729145)；时间标记：online 2026-09-17 within cutoff; assigned December 2026 issue is future at review date。
@@ -3003,10 +3198,10 @@
 - 对象：SDitH, MPC-in-the-Head, Common Shares, Keccak；类型：masking_countermeasure。
 - 核心想法：为 SDitH-Hypercube 的 last-party completion、BN 算术与秘密相关 Keccak 调用组织选择性掩码。
 - 作者报告：Cortex-M4 上比较保护配置；Common Shares 的 16 B/签名只计算术掩码随机性。一阶 EM TVLA 针对指定热点与 RNI+opt+IND-Keccak 配置。
-- 限制与下一步：选择性 Seed 边界不覆盖隐藏种子/种子树的完整单迹线恢复。IND 仅有一阶独立性，不能借用 DOM/SNI 的组合保证；不把局部 TVLA 未检出改写为完整签名无泄漏。
+- 限制与下一步：选择性 Seed 边界不覆盖隐藏种子/种子树的完整单迹线恢复。IND 仅有一阶独立性，不能借用 DOM/SNI 的组合保证；不把局部 TVLA 未检出改写为完整签名无泄漏。 所引 FAEST 2025/1261 当前修订已撤回其掩码实现；此版本事实不自动否定 SDitH 本文自己的防护结果，详见 MPCitH 修订笔记。
 - 阅读层级：selected_full_text_sections；来源：official final proceedings PDF and session abstract。
 - 已读章节：PDF pp.5,9,12-16: Seed boundary, masking randomness, selected measurements/limits and references; figure 4 visually checked
-- 代码/数据核查：author declares https://doi.org/10.5281/zenodo.20432040 in PDF p15; contents not inspected or run；引用追踪：pending。
+- 代码/数据核查：author declares https://doi.org/10.5281/zenodo.20432040 in PDF p15; contents not inspected or run；引用追踪：all 27 bibliography entries screened; 21 linked and six provisional background entries; original five discoveries resolved; recursive/forward closure incomplete。
 
 ## Attacks on Approximate Caches in Text-to-Image Diffusion Models
 

@@ -15,22 +15,32 @@
 | ASPLOS | 2023 | 1 | 未完成；引用/检索/版本扩展 |
 | ASPLOS | 2025 | 1 | 未完成；引用/检索/版本扩展 |
 | AsianHOST | 2022 | 1 | 未完成；引用/检索/版本扩展 |
+| CARDIS | 2017 | 1 | 未完成；引用/检索/版本扩展 |
 | CARDIS | 2019 | 1 | 未完成；引用/检索/版本扩展 |
+| CCS | 2016 | 1 | 未完成；引用/检索/版本扩展 |
 | CCS | 2017 | 1 | 未完成；引用/检索/版本扩展 |
+| CCS | 2020 | 1 | 未完成；引用/检索/版本扩展 |
 | CHES | 2017 | 1 | 未完成；引用/检索/版本扩展 |
+| CRYPTO | 1999 | 1 | 未完成；引用/检索/版本扩展 |
+| CRYPTO | 2003 | 1 | 未完成；引用/检索/版本扩展 |
 | CRYPTO | 2020 | 1 | 未完成；引用/检索/版本扩展 |
 | CRYPTO | 2023 | 1 | 未完成；引用/检索/版本扩展 |
 | CRYPTO | 2024 | 1 | 未完成；引用/检索/版本扩展 |
 | DATE | 2024 | 1 | 未完成；引用/检索/版本扩展 |
 | DIMVA | 2022 | 1 | 未完成；引用/检索/版本扩展 |
 | DIMVA | 2023 | 1 | 未完成；引用/检索/版本扩展 |
+| DSD | 2017 | 1 | 未完成；引用/检索/版本扩展 |
 | Design & Test | 2024 | 1 | 未完成；引用/检索/版本扩展 |
 | ETS | 2023 | 1 | 未完成；引用/检索/版本扩展 |
 | EUROCRYPT | 2018 | 1 | 未完成；引用/检索/版本扩展 |
+| EUROCRYPT | 2020 | 1 | 未完成；引用/检索/版本扩展 |
 | EUROCRYPT | 2022 | 1 | 未完成；引用/检索/版本扩展 |
 | FPT | 2022 | 1 | 未完成；引用/检索/版本扩展 |
 | HOST | 2021 | 1 | 未完成；引用/检索/版本扩展 |
 | HPCA | 2024 | 1 | 未完成；引用/检索/版本扩展 |
+| IACR CiC | 2026 | 1 | 未完成；引用/检索/版本扩展 |
+| IACR ePrint | 2025 | 1 | 未完成；引用/检索/版本扩展 |
+| IACR ePrint | 2026 | 1 | 未完成；引用/检索/版本扩展 |
 | ICCD | 2021 | 1 | 未完成；引用/检索/版本扩展 |
 | INDOCRYPT | 2019 | 1 | 未完成；引用/检索/版本扩展 |
 | ISCA | 2021 | 1 | 未完成；引用/检索/版本扩展 |
@@ -39,10 +49,14 @@
 | Journal of Cryptology | 2024 | 1 | 未完成；引用/检索/版本扩展 |
 | Journal of Systems Architecture | 2023 | 1 | 未完成；引用/检索/版本扩展 |
 | NIST IR | 2022 | 2 | 未完成；引用/检索/版本扩展 |
+| NIST NIAT Workshop | 2011 | 1 | 未完成；引用/检索/版本扩展 |
 | NIST PQC conference | 2022 | 1 | 未完成；引用/检索/版本扩展 |
 | PLDI | 2020 | 1 | 未完成；引用/检索/版本扩展 |
+| PQCrypto | 2021 | 1 | 未完成；引用/检索/版本扩展 |
 | PQCrypto | 2023 | 1 | 未完成；引用/检索/版本扩展 |
+| PQCrypto | 2025 | 2 | 未完成；引用/检索/版本扩展 |
 | SAC | 2022 | 1 | 未完成；引用/检索/版本扩展 |
+| SHA-3 Candidate Conference | 2010 | 1 | 未完成；引用/检索/版本扩展 |
 | SP | 2020 | 1 | 未完成；引用/检索/版本扩展 |
 | SPACE | 2020 | 1 | 未完成；引用/检索/版本扩展 |
 | TACO | 2012 | 1 | 未完成；引用/检索/版本扩展 |
@@ -51,7 +65,7 @@
 | TCAS-I | 2023 | 1 | 未完成；引用/检索/版本扩展 |
 | TCAS-II | 2024 | 2 | 未完成；引用/检索/版本扩展 |
 | TCAS-II | 2025 | 1 | 未完成；引用/检索/版本扩展 |
-| TCHES | 2020 | 1 | 未完成；引用/检索/版本扩展 |
+| TCHES | 2020 | 2 | 未完成；引用/检索/版本扩展 |
 | TECS | 2024 | 1 | 未完成；引用/检索/版本扩展 |
 | TIFS | 2024 | 1 | 未完成；引用/检索/版本扩展 |
 | arXiv | 2025 | 1 | 未完成；引用/检索/版本扩展 |
@@ -60,4 +74,5 @@
 
 SAC 2022 的会议年与 2024 年上线日期分别记录；ICCD 2021-10、ISCA 2021-06 和 ASIACCS 2021-05 论文作为窗口前边界引用保留。TCHES 2020 卷的 Share-slicing 于 2019-11 发表；CRYPTO 2020 的 FO 时序与 CHES 2017 的单轨迹论文也作为窗口外基础引用，不计入 2021–2026 核心单元。CRYPTO、EUROCRYPT、ASIACRYPT、COSADE 等扩展会议仍有系统目录收集任务；已有个别记录不等于完整覆盖。
 另保留 GLP 2018、CARDIS 2019（2020 上线）的 qTESLA、ACNS 2019 Dilithium、PLDI/S&P 2020 与 CCS 2017 基础文献。GLP 期刊版在线于 2023 年、卷年 2024；2022 Leveling 固定稿与 2023 Protecting 修正版分列。3D-Shield 仅核定 arXiv 记录，其作者声明的会议身份仍待独立核对。
-[元数据](catalogs/citation-expansion.jsonl) · [首批来源与哈希](provenance/citation-expansion.json) · [此前来源](provenance/citation-followup-20261113.json) · [掩码与硬件补读来源](provenance/sp2023-reference-followup-20261113.json) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl)
+MPCitH/FAEST/HQC 引用补入 16 条记录；Picnic DPA 于 2021-07 上线，在滚动窗口前；CARDIS 2017 检测论文于 2018 上线。CCS 2016/2020、Keccak、TVLA、Private Circuits 与 DPA 等基础来源单列，FAEST 当前掩码实现撤回状态保留在卡片与笔记。
+[元数据](catalogs/citation-expansion.jsonl) · [首批来源与哈希](provenance/citation-expansion.json) · [此前来源](provenance/citation-followup-20261113.json) · [掩码与硬件补读来源](provenance/sp2023-reference-followup-20261113.json) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [MPCitH 后续来源](provenance/mpcith-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl)
