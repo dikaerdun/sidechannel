@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-13 第十批构思增补：[密钥、种子与防护规模](brainstorms/2026-11-13-key-device-seeds-scaling.md)记录 NIST PQC FAQ 的种子格式条目、NIST 掩码 Technical note、硬件随机性生成与 Kyber 泄漏放大两篇论文的原始摘要及元数据阅读范围。种子格式允许不等于每次重新展开；逻辑阶数不等于物理观测范围。未复核完整证明，没有新实验，不增加正式文献卡片数量。
+
 2026-11-13 研究主线整理：[物理状态发现、关系计算与实现逆向设计](brainstorms/2026-11-13-three-research-programs.md)文末列出 Scam-V、输入输出预测状态、Rosita++、可模拟泄漏反例及 Pantomime 的原始摘要和元数据阅读范围。特别区分 Pantomime 的明确泄漏输入与仅公开信息的模拟目标；未复核完整证明，不改变正式文献卡片数量。
 
 2026-11-13 第九批构思增补：[调度器的关系计算、防护的不变量与采集选择](brainstorms/2026-11-13-schedulers-invariants-selection.md)文末记录 Self-Timed Masking、QTFlow、Kyber 硬件打乱、密文可塑性防护的摘要及元数据阅读，以及 AAAI 2014 选择偏差作者 PDF 第 1 页的阅读范围。数学例子未经独立核验，没有新实验或完整新颖性审查，不改变正式文献卡片数量。
