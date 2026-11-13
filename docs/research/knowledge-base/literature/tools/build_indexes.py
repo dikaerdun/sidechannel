@@ -64,7 +64,7 @@ def render_citations(root,catalogs):
       f'已核对 {len(citations)} 条引用条目；版本关系共 {len(versions)} 条，其中 {len(versions)-len(inferred_versions)} 条书目核实、{len(inferred_versions)} 条为原始来源推定。它们不等于被引论文已全部读完。',
       f'追踪任务共 {len(tasks)} 项：'+', '.join(f'{k}={v}' for k,v in sorted(Counter(t['status'] for t in tasks).items()))+'。',
       f'已登记发现中，{len(resolved_discoveries)} 条完成身份与范围判定，{len(pending_discoveries)} 条仍待核查；已解析记录继续保留历史。','',
-      'GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 选读 [61]，Peek-a-Walk 选读 [15]、[53]，EasyCrypt S&P 2025 选读 [11]、[12]，CRYPTO Episode V 选读八条，S&P 2023 Raccoon 与 selSLH 合计选读九条。这些选读不构成完整参考文献筛查。',
+      'GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan、Peek-a-Walk、EasyCrypt、Episode V 及 S&P 2023 的指定引用继续保留。追加 GLP 期刊、Protecting Dilithium、3D-Shield 合计九条选读；所有选读均不构成完整参考文献筛查。',
       '[GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)','',
       '| 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |','|---|---:|---|---|']
     papers={p['id']:p for p in (json.loads(x) for x in (root/'papers.jsonl').read_text().splitlines())}
@@ -77,7 +77,7 @@ def render_citations(root,catalogs):
             reading=('abstract read; '+decision['decision']+' (see ADJACENT_NOTES)') if decision else 'catalog only; abstract pending'
         version=f"; actual cited version: [preprint]({e['cited_version_url']})" if e.get('cited_version_url') else ''
         lines.append(f"| [{md(seed['title'])}]({seed['url']}) | {e['reference_number']} | [{md(r['title'])}]({r['url']}) | {reading}{version} |")
-    lines+=['','## 版本关系','','| 电子稿 | 目录中的正式记录 | 关系与边界 |','|---|---|---|']
+    lines+=['','## 版本关系','','| 版本来源 | 目录中的关联记录 | 关系与边界 |','|---|---|---|']
     for e in versions:
         r=catalog[e['to']]
         lines.append(f"| [来源]({e['from']}) | [{md(r['title'])}]({r['url']}) | {e['type']}; {md(e['status'])} |")
@@ -91,7 +91,7 @@ def render_citations(root,catalogs):
       '- Scheduled Disclosure 的密码实验对象为 SIKE-751；15 条引用已与目录对应，ASIACCS/DIMVA/ASPLOS 三条发现已读并解析。OpenTitan 的 Share-slicing 引用已补读摘要与讨论，作为窗口外基础文献保留；完整追踪仍未完成。',
       '- Peek-a-Walk 标题无 PQC 名称，正文包含参考 Dilithium-2 的 nonce 泄漏与格后处理；已对应 GoFetch 与 Too Many Hints 两条引用，其余参考文献尚待逐条筛查。',
       '- EasyCrypt S&P 2025 的 [11]、[12] 已对应 Episode IV、Episode V；后者补读恒时证明范围及 [八条选读引用](citations/kyber-v-selected-reference-screen.jsonl)，新增 CRYPTO 2020 与 CHES 2017 两篇窗口外基础卡片。ePrint 2025/1607 的 minor revision 与 2024/843 的 major revision 均有显式书目关系，全文差异尚未核对。见 [Episode V 范围记录](notes/kyber-verification-episode-v-20261113.md)。',
-      '- S&P 2023 的 Raccoon 五条与 selSLH 四条选读中，一条对应同届 Spectre Declassified，八条进入发现队列；包含窗口内 Mitaka/Leveling Dilithium 与窗口外掩码/恒时基础文献。见 [九条清单](citations/sp2023-selected-reference-screen.jsonl)。',
+      '- S&P 2023 的 Raccoon 五条与 selSLH 四条选读现均有目录目标，原八条发现已读并解析。Leveling 2022 与修正敏感性分类的 Protecting 2023 分列。追加 GLP、Protecting、3D-Shield 的九条选读，五条对应、四条待核查。见 [S&P 清单](citations/sp2023-selected-reference-screen.jsonl)、[后续选读清单](citations/sp2023-followup-selected-reference-screen.jsonl)及 [版本与硬件证据边界](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)。',
       '- 前向关系只记录当前实际看到的引用，不等于枚举了所有后续论文。扩展会议的系统目录、未解析引用及基础文献筛查继续进行。','']
     (root/'CITATION_PROGRESS.md').write_text('\n'.join(lines))
     return {'verified_citation_edges':len(citations),'verified_version_edges':len(versions)-len(inferred_versions),'inferred_version_edges':len(inferred_versions),
@@ -207,12 +207,13 @@ def main():
     render_adjacent(root,catalogs,decisions)
     citation_progress=render_citations(root,catalogs)
     extended=[r for r in catalogs if r['venue'] not in CORE_VENUES or not 2021<=r['venue_year']<=2026]
-    elines=['# 引用扩展来源','','这里只统计引用追踪实际取得的条目，**不是扩展会议的完整目录**。它们与核心会议共用 papers.jsonl、阅读队列和引用关系。','',
+    elines=['# 引用与检索扩展来源','','这里只统计引用、检索和版本追踪实际取得的条目，**不是扩展会议的完整目录**。它们与核心会议共用 papers.jsonl、阅读队列和引用关系；版本记录不能直接相加为独立研究数量。','',
             '| 会议/来源 | 年份 | 已取得条目 | 完整目录与独立核对 |','|---|---:|---:|---|']
     for (v,y),n in sorted(Counter((r['venue'],r['venue_year']) for r in extended).items()):
-        elines.append(f'| {v} | {y} | {n} | 未完成；仅引用扩展 |')
+        elines.append(f'| {v} | {y} | {n} | 未完成；引用/检索/版本扩展 |')
     elines+=['','SAC 2022 的会议年与 2024 年上线日期分别记录；ICCD 2021-10、ISCA 2021-06 和 ASIACCS 2021-05 论文作为窗口前边界引用保留。TCHES 2020 卷的 Share-slicing 于 2019-11 发表；CRYPTO 2020 的 FO 时序与 CHES 2017 的单轨迹论文也作为窗口外基础引用，不计入 2021–2026 核心单元。CRYPTO、EUROCRYPT、ASIACRYPT、COSADE 等扩展会议仍有系统目录收集任务；已有个别记录不等于完整覆盖。',
-             '[元数据](catalogs/citation-expansion.jsonl) · [首批来源与哈希](provenance/citation-expansion.json) · [本批来源及实际读取方式](provenance/citation-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl)','']
+             '另保留 GLP 2018、CARDIS 2019（2020 上线）的 qTESLA、ACNS 2019 Dilithium、PLDI/S&P 2020 与 CCS 2017 基础文献。GLP 期刊版在线于 2023 年、卷年 2024；2022 Leveling 固定稿与 2023 Protecting 修正版分列。3D-Shield 仅核定 arXiv 记录，其作者声明的会议身份仍待独立核对。',
+             '[元数据](catalogs/citation-expansion.jsonl) · [首批来源与哈希](provenance/citation-expansion.json) · [此前来源](provenance/citation-followup-20261113.json) · [掩码与硬件补读来源](provenance/sp2023-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl)','']
     (root/'EXTENDED_SOURCES.md').write_text('\n'.join(elines))
     title_lines=['# 标题与副标题初筛','','这是一轮人工阅读后的 Codex 判定，不是关键词自动分类。全部判定均为标题层暂判；后续摘要判定见 decisions.jsonl。','',
                  f'当前 {len(titles)} 条：'+', '.join(f'{k}={v}' for k,v in sorted(Counter(r['decision'] for r in titles.values()).items()))+'。',

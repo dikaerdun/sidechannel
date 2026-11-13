@@ -37,12 +37,14 @@
 | TCHES | [When Masking Multiplication Isn’t Enough: Exploiting Floating-Point Leakage in Falcon’s Pre-Image Computation](https://doi.org/10.46586/tches.v2026.i2.686-708) | abstract_and_bibliographic_metadata |
 | TCHES | [t-Probing (In-)Security: Pitfalls on Noise Assumptions](https://doi.org/10.46586/tches.v2026.i2.1-27) | abstract_and_bibliographic_metadata |
 | USENIX | [Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles](https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian) | abstract_and_bibliographic_metadata |
+| arXiv | [Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach](https://arxiv.org/abs/2611.01144) | selected_full_text_sections |
 
 ## 2025
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
 | ASPLOS | [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) | selected_full_text_sections |
+| Journal of Cryptographic Engineering | [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) | abstract_and_bibliographic_metadata |
 | SP | [BPSniff: Continuously Surveilling Private Blood Pressure Information in the Metaverse via Unrestricted Inbuilt Motion Sensors](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-81) | abstract_and_bibliographic_metadata |
 | SP | [BadRAM: Practical Memory Aliasing Attacks on Trusted Execution Environments](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-39) | selected_full_text_sections |
 | SP | [Breaking the Barrier: Post-Barrier Spectre Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-70) | abstract_and_bibliographic_metadata |
@@ -89,6 +91,7 @@
 | TCHES | [Tailorable codes for lattice-based KEMs with applications to compact ML-KEM instantiations](https://doi.org/10.46586/tches.v2025.i3.139-163) | abstract_and_bibliographic_metadata |
 | TCHES | [dCTIDH: Fast & Deterministic CTIDH](https://doi.org/10.46586/tches.v2025.i3.516-541) | abstract_and_bibliographic_metadata |
 | USENIX | [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | abstract_and_bibliographic_metadata |
+| arXiv | [A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography](https://arxiv.org/abs/2512.22301) | abstract_and_bibliographic_metadata |
 
 ## 2024
 
@@ -96,6 +99,7 @@
 |---|---|---|
 | CRYPTO | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | selected_full_text_sections |
 | HPCA | [PREFETCHX: Cross-Core Cache-Agnostic Prefetcher-based Side-Channel Attacks](https://doi.org/10.1109/hpca57654.2024.00037) | selected_full_text_sections |
+| Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | abstract_and_bibliographic_metadata |
 | SP | [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
 | SP | [BULKOR: Enabling Bulk Loading for Path ORAM](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
 | SP | [BUSted!!! Microarchitectural Side-Channel Attacks on the MCU Bus Interconnect](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | selected_full_text_sections |
@@ -143,9 +147,12 @@
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| ASHES | [A Side-Channel Attack on a Masked Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1145/3605769.3623992) | abstract_and_bibliographic_metadata |
 | ASIACRYPT | [Too Many Hints – When LLL Breaks LWE](https://doi.org/10.1007/978-981-99-8730-6_4) | abstract_and_bibliographic_metadata |
+| ASID | [Evaluating Side-Channel Attack Vulnerabilities in Post-Quantum CRYSTALS-Kyber Hardware Based on Simple Power Analysis](https://doi.org/10.1109/asid60355.2023.10426450) | abstract_and_bibliographic_metadata |
 | ASPLOS | [AfterImage: Leaking Control Flow Data and Tracking Load Operations via the Hardware Prefetcher](https://doi.org/10.1145/3575693.3575719) | abstract_and_bibliographic_metadata |
 | DIMVA | [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) | abstract_and_bibliographic_metadata |
+| ETS | [A Side-Channel Attack on a Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1109/ets56758.2023.10174000) | selected_full_text_sections |
 | Journal of Systems Architecture | [Exploiting the microarchitectural leakage of prefetching activities for side-channel attacks](https://doi.org/10.1016/j.sysarc.2023.102877) | selected_full_text_sections |
 | PQCrypto | [Breaking and Protecting the Crystal: Side-Channel Analysis of Dilithium in Hardware](https://doi.org/10.1007/978-3-031-40003-2_25) | abstract_and_bibliographic_metadata |
 | SP | [A Security RISC: Microarchitectural Attacks on Hardware RISC-V CPUs](https://doi.org/10.1109/sp46215.2023.10179399) | abstract_and_bibliographic_metadata |
@@ -173,6 +180,7 @@
 | SP | [Typing High-Speed Cryptography against Spectre v1](https://doi.org/10.1109/sp46215.2023.10179418) | selected_full_text_sections |
 | SP | [Uncovering User Interactions on Smartphones via Contactless Wireless Charging Side Channels](https://doi.org/10.1109/sp46215.2023.10179322) | abstract_and_bibliographic_metadata |
 | SP | [mmEcho: A mmWave-based Acoustic Eavesdropping Method](https://doi.org/10.1109/sp46215.2023.10179484) | abstract_and_bibliographic_metadata |
+| TCAS-I | [Side Channel Security Oriented Evaluation and Protection on Hardware Implementations of Kyber](https://doi.org/10.1109/tcsi.2023.3288600) | selected_full_text_sections |
 | TCHES | [Adapting Belief Propagation to Counter Shuffling of NTTs](https://doi.org/10.46586/tches.v2023.i1.60-88) | abstract_and_bibliographic_metadata |
 | TCHES | [Belief Propagation Meets Lattice Reduction: Security Estimates for Error-Tolerant Key Recovery from Decryption Errors](https://doi.org/10.46586/tches.v2023.i4.287-317) | abstract_and_bibliographic_metadata |
 | TCHES | [Cache-Timing Attack Against HQC](https://doi.org/10.46586/tches.v2023.i3.136-163) | abstract_and_bibliographic_metadata |
@@ -184,7 +192,7 @@
 | TCHES | [Kavach: Lightweight masking techniques for polynomial arithmetic in lattice-based cryptography](https://doi.org/10.46586/tches.v2023.i3.366-390) | abstract_and_bibliographic_metadata |
 | TCHES | [LPN-based Attacks in the White-box Setting](https://doi.org/10.46586/tches.v2023.i4.318-343) | abstract_and_bibliographic_metadata |
 | TCHES | [Multiple-Valued Plaintext-Checking Side-Channel Attacks on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2023.i3.473-503) | abstract_and_bibliographic_metadata |
-| TCHES | [Protecting Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://doi.org/10.46586/tches.v2023.i4.58-79) | abstract_and_bibliographic_metadata |
+| TCHES | [Protecting Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://doi.org/10.46586/tches.v2023.i4.58-79) | selected_full_text_sections |
 | TCHES | [Pushing the Limits of Generic Side-Channel Attacks on LWE-based KEMs - Parallel PC Oracle Attacks on Kyber KEM and Beyond](https://doi.org/10.46586/tches.v2023.i2.418-446) | abstract_and_bibliographic_metadata |
 | TCHES | [Separating Oil and Vinegar with a Single Trace: Side-Channel Assisted Kipnis-Shamir Attack on UOV](https://doi.org/10.46586/tches.v2023.i3.221-245) | abstract_and_bibliographic_metadata |
 | ePrint | [Single-Trace Side-Channel Attacks on CRYSTALS-Dilithium: Myth or Reality?](https://eprint.iacr.org/2023/1931) | abstract_and_bibliographic_metadata |
@@ -194,7 +202,9 @@
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
 | DIMVA | [Branch Different - Spectre Attacks on Apple Silicon](https://doi.org/10.1007/978-3-031-09484-2_7) | abstract_and_bibliographic_metadata |
+| EUROCRYPT | [Mitaka: A Simpler, Parallelizable, Maskable Variant of Falcon](https://doi.org/10.1007/978-3-031-07082-2_9) | selected_full_text_sections |
 | ISCA | [PACMAN: attacking ARM pointer authentication with speculative execution](https://doi.org/10.1145/3470496.3527429) | abstract_and_bibliographic_metadata |
+| NIST PQC conference | [Leveling Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage) | selected_full_text_sections |
 | SAC | [Profiling Side-Channel Attacks on Dilithium: A Small Bit-Fiddling Leak Breaks It All](https://doi.org/10.1007/978-3-031-58411-4_1) | abstract_and_bibliographic_metadata |
 | TCHES | [A Constant-time AVX2 Implementation of a Variant of ROLLO](https://doi.org/10.46586/tches.v2022.i1.152-174) | abstract_and_bibliographic_metadata |
 | TCHES | [A Key-Recovery Side-Channel Attack on Classic McEliece Implementations](https://doi.org/10.46586/tches.v2022.i4.800-827) | abstract_and_bibliographic_metadata |
@@ -243,10 +253,26 @@
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
 | CRYPTO | [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) | abstract_and_bibliographic_metadata |
+| PLDI | [Constant-time foundations for the new spectre era](https://doi.org/10.1145/3385412.3385970) | abstract_and_bibliographic_metadata |
+| SP | [The Last Mile: High-Assurance and High-Speed Cryptographic Implementations](https://doi.org/10.1109/sp40000.2020.00028) | selected_full_text_sections |
 | TCHES | [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) | selected_full_text_sections |
+
+## 2019
+
+| 来源 | 论文 | 阅读层级 |
+|---|---|---|
+| ACNS | [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) | abstract_and_bibliographic_metadata |
+| CARDIS | [An Efficient and Provable Masked Implementation of qTESLA](https://doi.org/10.1007/978-3-030-42068-0_5) | abstract_and_bibliographic_metadata |
+
+## 2018
+
+| 来源 | 论文 | 阅读层级 |
+|---|---|---|
+| EUROCRYPT | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | abstract_and_bibliographic_metadata |
 
 ## 2017
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| CCS | [Jasmin: High-Assurance and High-Speed Cryptography](https://doi.org/10.1145/3133956.3134078) | abstract_and_bibliographic_metadata |
 | CHES | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | abstract_and_bibliographic_metadata |

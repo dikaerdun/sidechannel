@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6650 条，其中 344 条命中后量子相关关键词。
+当前目录记录 6666 条，其中 356 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -113,6 +113,7 @@
 | 2026 USENIX | [Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles](https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian) | include |
 | 2026 USENIX | [VROOM: Accelerating (Almost All) Number-Theoretic Cryptography Using Vectorization and the Residue Number System](https://www.usenix.org/conference/usenixsecurity26/presentation/langowski) | pending |
 | 2026 USENIX | [ZipPIR: High-throughput Single-server PIR without Client-side Storage](https://www.usenix.org/conference/usenixsecurity26/presentation/mahdavi) | pending |
+| 2026 arXiv | [Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach](https://arxiv.org/abs/2611.01144) | include |
 | 2025 CCS | [CROSS-X: Generalized and Stable Cross-Cache Attack on the Linux Kernel](https://dl.acm.org/doi/10.1145/3719027.3765152) | pending |
 | 2025 CCS | [Formally Verified Correctness Bounds for Lattice-Based Cryptography](https://dl.acm.org/doi/10.1145/3719027.3765218) | pending |
 | 2025 CCS | [LZKSA: Lattice-based special zero-knowledge proofs for secure aggregation's input verification](https://dl.acm.org/doi/10.1145/3719027.3744812) | pending |
@@ -120,6 +121,7 @@
 | 2025 CCS | [Post-Quantum Threshold Ring Signature Applications from VOLE-in-the-Head](https://dl.acm.org/doi/10.1145/3719027.3744854) | pending |
 | 2025 CCS | [Sliced PIR: Offloading Heavyweight Work with NTT](https://dl.acm.org/doi/10.1145/3719027.3765154) | pending |
 | 2025 CCS | [Subversion-resilient key-exchange in the post-quantum world](https://dl.acm.org/doi/10.1145/3719027.3765165) | pending |
+| 2025 Journal of Cryptographic Engineering | [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) | include |
 | 2025 NDSS | [L-HAWK: A Controllable Physical Adversarial Patch Against a Long-Distance Target](https://www.ndss-symposium.org/ndss-paper/l-hawk-a-controllable-physical-adversarial-patch-against-a-long-distance-target/) | pending |
 | 2025 NDSS | [PQConnect: Automated Post-Quantum End-to-End Tunnels](https://www.ndss-symposium.org/ndss-paper/pqconnect-automated-post-quantum-end-to-end-tunnels/) | pending |
 | 2025 SP | [Gold OPRF: Post-Quantum Oblivious Power-Residue PRF](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-197) | pending |
@@ -182,12 +184,14 @@
 | 2025 USENIX | [Qelect: Lattice-based Single Secret Leader Election Made Practical](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-yunhao) | pending |
 | 2025 USENIX | [TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs](https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner) | pending |
 | 2025 USENIX | [Tracking You from a Thousand Miles Away! Turning a Bluetooth Device into an Apple AirTag Without Root Privileges](https://www.usenix.org/conference/usenixsecurity25/presentation/chen-junming) | pending |
+| 2025 arXiv | [A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography](https://arxiv.org/abs/2512.22301) | include |
 | 2024 CCS | [Practical Post-Quantum Signatures for Privacy](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
 | 2024 CCS | [The Insecurity of Masked Comparisons: SCAs on ML-KEM's FO-Transform](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
 | 2024 CCS | [The LaZer Library: Lattice-Based Zero Knowledge and Succinct Proofs for Quantum-Safe Privacy](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
 | 2024 CCS | [Two-Tier Data Packing in RLWE-based Homomorphic Encryption for Secure Federated Learning](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
 | 2024 CCS | [Whipping the Multivariate-based MAYO Signature Scheme using Hardware Platforms](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
 | 2024 CRYPTO | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | include |
+| 2024 Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | include |
 | 2024 NDSS | [When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications](https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/) | pending |
 | 2024 SP | [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | include |
 | 2024 SP | [Ligetron: Lightweight Scalable End-to-End Zero-Knowledge Proofs. Post-Quantum ZK-SNARKs on a Browser](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | pending |
@@ -233,18 +237,22 @@
 | 2024 USENIX | [PerfOMR: Oblivious Message Retrieval with Reduced Communication and Computation](https://www.usenix.org/conference/usenixsecurity24/presentation/liu-zeyu) | pending |
 | 2024 USENIX | [Scalable Multi-Party Computation Protocols for Machine Learning in the Honest-Majority Setting](https://www.usenix.org/conference/usenixsecurity24/presentation/liu-fengrun) | pending |
 | 2024 USENIX | [SWOOSH: Efficient Lattice-Based Non-Interactive Key Exchange](https://www.usenix.org/conference/usenixsecurity24/presentation/gajland) | pending |
+| 2023 ASHES | [A Side-Channel Attack on a Masked Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1145/3605769.3623992) | include |
 | 2023 ASIACRYPT | [Too Many Hints – When LLL Breaks LWE](https://doi.org/10.1007/978-981-99-8730-6_4) | include |
+| 2023 ASID | [Evaluating Side-Channel Attack Vulnerabilities in Post-Quantum CRYSTALS-Kyber Hardware Based on Simple Power Analysis](https://doi.org/10.1109/asid60355.2023.10426450) | include |
 | 2023 CCS | [Lattice-Based Blind Signatures: Short, Efficient, and Round-Optimal](https://www.sigsac.org/ccs/CCS2023/program.html) | pending |
 | 2023 CCS | [Post Quantum Fuzzy Stealth Signatures and Applications](https://www.sigsac.org/ccs/CCS2023/program.html) | pending |
 | 2023 CCS | [Post-Quantum Multi-Recipient Public Key Encryption](https://www.sigsac.org/ccs/CCS2023/program.html) | pending |
 | 2023 CCS | [SALSA PICANTE: A Machine Learning Attack on LWE with Binary Secrets](https://www.sigsac.org/ccs/CCS2023/program.html) | pending |
 | 2023 CCS | [Verifiable Mix-Nets and Distributed Decryption for Voting from Lattice-Based Assumptions](https://www.sigsac.org/ccs/CCS2023/program.html) | pending |
+| 2023 ETS | [A Side-Channel Attack on a Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1109/ets56758.2023.10174000) | include |
 | 2023 PQCrypto | [Breaking and Protecting the Crystal: Side-Channel Analysis of Dilithium in Hardware](https://doi.org/10.1007/978-3-031-40003-2_25) | include |
 | 2023 SP | [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) | include |
 | 2023 SP | [FIDO2, CTAP 2.1, and WebAuthn 2: Provable Security and Post-Quantum Instantiation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent |
 | 2023 SP | [High-Order Masking of Lattice Signatures in Quasilinear Time](https://www.ieee-security.org/TC/SP2023/program-papers.html) | include |
 | 2023 SP | [SPHINCS+C: Compressing SPHINCS+ With (Almost) No Cost](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent |
 | 2023 SP | [Typing High-Speed Cryptography against Spectre v1](https://www.ieee-security.org/TC/SP2023/program-papers.html) | include |
+| 2023 TCAS-I | [Side Channel Security Oriented Evaluation and Protection on Hardware Implementations of Kyber](https://doi.org/10.1109/tcsi.2023.3288600) | include |
 | 2023 TCHES | [Adapting Belief Propagation to Counter Shuffling of NTTs](https://doi.org/10.46586/tches.v2023.i1.60-88) | include |
 | 2023 TCHES | [BASALISC: Programmable Hardware Accelerator for BGV Fully Homomorphic Encryption](https://doi.org/10.46586/tches.v2023.i4.32-57) | adjacent |
 | 2023 TCHES | [Belief Propagation Meets Lattice Reduction: Security Estimates for Error-Tolerant Key Recovery from Decryption Errors](https://doi.org/10.46586/tches.v2023.i4.287-317) | include |
@@ -278,6 +286,8 @@
 | 2022 CCS | [Post Quantum Noise](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | pending |
 | 2022 CCS | [Practical, Round-Optimal Lattice-Based Blind Signatures](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | pending |
 | 2022 CCS | [When Frodo Flips: End-to-End Key Recovery on FrodoKEM via Rowhammer](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | pending |
+| 2022 EUROCRYPT | [Mitaka: A Simpler, Parallelizable, Maskable Variant of Falcon](https://doi.org/10.1007/978-3-031-07082-2_9) | include |
+| 2022 NIST PQC conference | [Leveling Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage) | include |
 | 2022 SAC | [Profiling Side-Channel Attacks on Dilithium: A Small Bit-Fiddling Leak Breaks It All](https://doi.org/10.1007/978-3-031-58411-4_1) | include |
 | 2022 SP | [A Logic and an Interactive Prover for the Computational Post-Quantum Security of Protocols](https://www.ieee-security.org/TC/SP2022/program-papers.html) | pending |
 | 2022 SP | [MatRiCT+: More Efficient Post-Quantum Private Blockchain Payments](https://www.ieee-security.org/TC/SP2022/program-papers.html) | pending |
@@ -349,4 +359,6 @@
 | 2021 USENIX | [Privacy and Integrity Preserving Computations with CRISP](https://www.usenix.org/conference/usenixsecurity21/presentation/chatel) | pending |
 | 2021 USENIX | [Raccoon Attack: Finding and Exploiting Most-Significant-Bit-Oracles in TLS-DH(E)](https://www.usenix.org/conference/usenixsecurity21/presentation/merget) | pending |
 | 2020 CRYPTO | [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) | include |
+| 2019 ACNS | [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) | include |
+| 2018 EUROCRYPT | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | include |
 | 2017 CHES | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | include |

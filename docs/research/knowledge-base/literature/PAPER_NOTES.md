@@ -2,7 +2,18 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 209 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 225 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+
+## Jasmin: High-Assurance and High-Speed Cryptography
+
+- 来源：[CCS 2017](https://doi.org/10.1145/3133956.3134078)；时间标记：outside rolling window; cited foundation retained。
+- 作者：José Bacelar Almeida; Manuel Barbosa; Gilles Barthe; Arthur Blot; Benjamin Grégoire; Vincent Laporte; Tiago Oliveira; Hugo Pacheco; Benedikt Schmidt; Pierre-Yves Strub
+- 对象：Jasmin, constant-time, verified compiler；类型：formal_verification_and_implementation。
+- 核心想法：以专用语言和经过证明的编译方法兼顾高保证密码实现与性能。
+- 作者报告：机构摘要报告 Coq 编译器证明、内存安全及恒时分析和 x64 性能比较。
+- 限制与下一步：恒时与功能证明有指定观察模型；不能将 2017 工作解释为覆盖后来 Spectre 或物理功耗的一般保证。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://researchportal.ip-paris.fr/en/publications/jasmin-high-assurance-and-high-speed-cryptography/。
+- 代码/数据核查：not checked；引用追踪：pending。
 
 ## Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption
 
@@ -15,6 +26,39 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-319-66787-4_25。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Masking the GLP Lattice-Based Signature Scheme at Any Order
+
+- 来源：[EUROCRYPT 2018](https://doi.org/10.1007/978-3-319-78375-8_12)；时间标记：outside rolling window; cited foundation retained。
+- 作者：Gilles Barthe; Sonia Belaïd; Thomas Espitau; Pierre-Alain Fouque; Benjamin Grégoire; Mélissa Rossi; Mehdi Tibouchi
+- 对象：GLP, lattice signatures, masking；类型：countermeasure。
+- 核心想法：为无需离散高斯采样的 GLP 格签名构造任意阶掩码，并扩展份额转换组件。
+- 作者报告：摘要报告 ISW/探针模型下的保护方法、考虑公开输出的定义及概念实现。
+- 限制与下一步：形式探针保证与概念实现不等于真实平台任意阶泄漏验证；与 2024 年期刊版分列并建立版本关系。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-319-78375-8_12。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Masking Dilithium: Efficient Implementation and Side-Channel Evaluation
+
+- 来源：[ACNS 2019](https://doi.org/10.1007/978-3-030-21568-2_17)；时间标记：outside rolling window; cited foundation retained。
+- 作者：Vincent Migliore; Benoît Gérard; Mehdi Tibouchi; Pierre-Alain Fouque
+- 对象：Dilithium, masking, Cortex-M3；类型：countermeasure_and_evaluation。
+- 核心想法：早期 Dilithium 掩码实现及侧信道评价，研究参数和转换操作的保护成本。
+- 作者报告：摘要报告 Cortex-M3 上的未保护泄漏与掩码评价；模数变更加速最耗时的掩码操作。
+- 限制与下一步：不能把组件加速当成全签名加速或最终 ML-DSA 结果；2023 Protecting 论文修正了其部分敏感性分类。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-21568-2_17。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## An Efficient and Provable Masked Implementation of qTESLA
+
+- 来源：[CARDIS 2019](https://doi.org/10.1007/978-3-030-42068-0_5)；时间标记：outside rolling window; cited foundation retained。
+- 作者：François Gérard; Mélissa Rossi
+- 对象：qTESLA, masking；类型：countermeasure。
+- 核心想法：将格签名掩码方法推进到 qTESLA，并调整参数和转换组件以改善保护成本。
+- 作者报告：摘要报告任意阶构造、专门的一阶组件和不同阶数的实现可行性评价。
+- 限制与下一步：CARDIS 2019 论文集章节于 2020-03-09 上线；涉及参数调整，不代表原参数或最终标准的物理安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-42068-0_5。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM
 
 - 来源：[CRYPTO 2020](https://doi.org/10.1007/978-3-030-56880-1_13)；时间标记：outside rolling window; explicitly cited foundational work。
@@ -24,6 +68,30 @@
 - 作者报告：作者在当时 FrodoKEM 参考实现上报告密钥恢复，并给出约 2^30 次解封装调用的实验量级。
 - 限制与下一步：这是 CRYPTO 2020 的窗口外基础工作；需核对攻击时序精度、实现版本和各参数预算，不能推断当前恒时实现或全部 FO 转换都可攻击。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-56880-1_13。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Constant-time foundations for the new spectre era
+
+- 来源：[PLDI 2020](https://doi.org/10.1145/3385412.3385970)；时间标记：outside rolling window; cited foundation retained。
+- 作者：Sunjay Cauligi; Craig Disselkoen; Klaus v. Gleissenthall; Dean Tullsen; Deian Stefan; Tamara Rezk; Gilles Barthe
+- 对象：constant-time, speculative execution, Pitchfork；类型：formal_model_and_analysis。
+- 核心想法：把推测与乱序执行纳入恒时语义及分析，检查传统恒时抽象的遗漏。
+- 作者报告：作者摘要报告微架构攻击者模型与 Pitchfork 对密码库的检查。
+- 限制与下一步：阅读作者 arXiv v3 摘要并与正式 DOI 核对身份；该观察模型不自动覆盖功耗、EM 或所有硬件实现。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/1910.01755。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## The Last Mile: High-Assurance and High-Speed Cryptographic Implementations
+
+- 来源：[SP 2020](https://doi.org/10.1109/sp40000.2020.00028)；时间标记：outside rolling window; cited foundation retained。
+- 作者：Jose Bacelar Almeida; Manuel Barbosa; Gilles Barthe; Benjamin Gregoire; Adrien Koutsos; Vincent Laporte; Tiago Oliveira; Pierre-Yves Strub
+- 对象：Jasmin, EasyCrypt, ChaCha20, Poly1305, constant-time；类型：formal_verification_and_implementation。
+- 核心想法：联结参考规格、优化实现和恒时检查，缩小高保证密码代码的最后实现差距。
+- 作者报告：摘要及引言说明 Jasmin/EasyCrypt 方法与向量化 ChaCha20/Poly1305 案例，检查控制流和访存的秘密依赖。
+- 限制与下一步：指定恒时观察模型不等于功耗或 EM 无泄漏；本批只读方法概述，未核验完整证明或运行工具。
+- 阅读层级：selected_full_text_sections；来源：https://conferences.computer.org/sp/pdfs/sp/2020/349700a965.pdf。
+- 已读章节：IEEE 18 页 PDF 第 1 页摘要与 §1 方法概述。
+- [详细阅读记录](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)
 - 代码/数据核查：not checked；引用追踪：pending。
 
 ## Share-slicing: Friend or Foe?
@@ -238,6 +306,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-09484-2_7。
 - 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
 
+## Mitaka: A Simpler, Parallelizable, Maskable Variant of Falcon
+
+- 来源：[EUROCRYPT 2022](https://doi.org/10.1007/978-3-031-07082-2_9)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
+- 作者：Thomas Espitau; Pierre-Alain Fouque; François Gérard; Mélissa Rossi; Akira Takahashi; Mehdi Tibouchi; Alexandre Wallet; Yang Yu
+- 对象：Mitaka, Falcon, Gaussian sampling, masking；类型：algorithm_and_countermeasure。
+- 核心想法：重组 Falcon 类签名采样与实现，以支持更简单、可并行和可掩码的构造。
+- 作者报告：作者给出探针模型下任意阶方案及初步 C 性能；作者稿 §6 明示初步浮点代码不保证恒时。
+- 限制与下一步：形式掩码、初步性能和物理泄漏评价分开；不能把作者稿的性能或模型保证扩展为最终 Falcon/FN-DSA 的安全实现。
+- 阅读层级：selected_full_text_sections；来源：https://link.springer.com/chapter/10.1007/978-3-031-07082-2_9。
+- 已读章节：作者 52 页稿 PDF 第 1 页摘要、§6–7 指定段落（PDF 17–19）：初步实现的非恒时限制、基准条件及探针掩码；未核对与正式章节的逐字差异。
+- [详细阅读记录](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)
+- 代码/数据核查：author manuscript links https://github.com/espitau/Mitaka-EC22 ; repository contents not retrieved；引用追踪：pending。
+
 ## PACMAN: attacking ARM pointer authentication with speculative execution
 
 - 来源：[ISCA 2022](https://doi.org/10.1145/3470496.3527429)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
@@ -248,6 +329,19 @@
 - 限制与下一步：绕过 Pointer Authentication 需要相关软件漏洞及攻击原语；不能理解为无前提任意内存入侵，也不是 PQC 攻击。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://dspace.mit.edu/server/api/core/bitstreams/f81a1533-d11a-4483-b921-d98c783830e2/content。
 - 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
+
+## Leveling Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations
+
+- 来源：[NIST PQC conference 2022](https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
+- 作者：Melissa Azouaoui; Olivier Bronchain; Gaëtan Cassiers; Clément Hoffmann; Yulia Kuzovkova; Joost Renes; Tobias Schneider; Markus Schönauer; François-Xavier Standaert; Christine van Vredendaal
+- 对象：Dilithium, leveled implementations, masking；类型：historical_countermeasure_version。
+- 核心想法：保留 Raccoon 实际引用的 2022 年 Leveling 版本，其敏感性分类区别于后来的正式论文。
+- 作者报告：旧摘要将计算分为 DPA、SPA 和可无界泄漏部分，并组合组件与打乱；结论把形式充分条件列为开放问题。
+- 限制与下一步：2023 Protecting §3.4 明确修正只需 SPA 的推测；不能用今天同号 ePrint 的新标题替代旧引文，旧性能也不能代表修正版保证。
+- 阅读层级：selected_full_text_sections；来源：https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage。
+- 已读章节：NIST 固定 25 页稿 PDF 第 1 页摘要、第 19 页表 3 说明与 §7 结论；不是对 ePrint 初版字节相同的声明。
+- [详细阅读记录](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
 
 ## Profiling Side-Channel Attacks on Dilithium: A Small Bit-Fiddling Leak Breaks It All
 
@@ -471,6 +565,17 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX session abstract。
 - 代码/数据核查：not checked；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
 
+## A Side-Channel Attack on a Masked Hardware Implementation of CRYSTALS-Kyber
+
+- 来源：[ASHES 2023](https://doi.org/10.1145/3605769.3623992)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
+- 作者：Yanning Ji; Elena Dubrova
+- 对象：Kyber, masked FPGA, deep learning, message recovery；类型：hardware_side_channel_attack。
+- 核心想法：针对一阶掩码 FPGA Kyber-512 的消息解码，利用 HD 泄漏直接推断消息。
+- 作者报告：官方摘要报告无需显式恢复各份额的剖析方法，重复同一解封装可提高共享密钥恢复成功率。
+- 限制与下一步：共享/会话密钥不同于长期私钥；重复预算与平台迁移条件需读正文，不能把摘要百分比用于跨论文排名。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.sigsac.org/ccs/CCS2023/tocs/tocs-ashes23.html。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## Too Many Hints – When LLL Breaks LWE
 
 - 来源：[ASIACRYPT 2023](https://doi.org/10.1007/978-981-99-8730-6_4)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
@@ -481,6 +586,17 @@
 - 限制与下一步：提示是给定的正确内积信息，不等于已经从同数量功耗迹线取得；提示获取、分布及误差条件须单独核查。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2023/777。
 - 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending; forward citation observed; exhaustive backward/forward closure pending。
+
+## Evaluating Side-Channel Attack Vulnerabilities in Post-Quantum CRYSTALS-Kyber Hardware Based on Simple Power Analysis
+
+- 来源：[ASID 2023](https://doi.org/10.1109/asid60355.2023.10426450)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
+- 作者：Munkhbaatar Chinbat; Liji Wu; Xiangmin Zhang; Altantsooj Batsukh; Yifan Yang; Le Wu
+- 对象：Kyber, FPGA, simple power analysis；类型：hardware_side_channel_evaluation。
+- 核心想法：考察 Kyber 硬件解封装期间消息编码的简单功耗分析风险。
+- 作者报告：摘要描述 k=3 配置和一条完整执行中 6,072,500 个采样点的分析。
+- 限制与下一步：采样点数不能当作 trace 数或密钥恢复预算；摘要不足以核定长期密钥恢复。会议为 2023，Xplore 收录年份不替换会议年。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10426450/。
+- 代码/数据核查：not checked；引用追踪：pending。
 
 ## AfterImage: Leaking Control Flow Data and Tracking Load Operations via the Hardware Prefetcher
 
@@ -504,6 +620,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-35504-2_2。
 - [详细阅读记录](notes/power-observation-and-pqc-boundaries-20261113.md)
 - 代码/数据核查：publisher-linked repository and README API requests returned 404 on 2026-11-13; no code or dataset retrieved; reason unknown；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
+
+## A Side-Channel Attack on a Hardware Implementation of CRYSTALS-Kyber
+
+- 来源：[ETS 2023](https://doi.org/10.1109/ets56758.2023.10174000)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
+- 作者：Yanning Ji; Ruize Wang; Kalle Ngo; Elena Dubrova; Linus Backlund
+- 对象：Kyber, FPGA, profiling, message recovery；类型：hardware_side_channel_attack。
+- 核心想法：利用硬件消息处理泄漏和密文构造进行剖析式消息推断，讨论会话密钥导出。
+- 作者报告：接受稿报告 200K 实际训练采集，经 cut-and-join 扩展为 6.4M；十个测试消息中分片方法给出字节排名及最多 2^64 枚举的估算。
+- 限制与下一步：6.4M 不是独立实测条数；字节排名加枚举上界不证明已经执行该完整搜索；目标为消息/会话密钥，不是长期私钥。
+- 阅读层级：selected_full_text_sections；来源：https://xplorestaging.ieee.org/document/10174000/。
+- 已读章节：机构接受稿 PDF 第 1 页版本封面、第 2 页摘要/引言、第 5 页 §VI.C–VII 和第 6 页指定表格段落；非完整复现。
+- [详细阅读记录](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
 
 ## Exploiting the microarchitectural leakage of prefetching activities for side-channel attacks
 
@@ -807,6 +936,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10179484/。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Side Channel Security Oriented Evaluation and Protection on Hardware Implementations of Kyber
+
+- 来源：[TCAS-I 2023](https://doi.org/10.1109/tcsi.2023.3288600)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
+- 作者：Yiqiang Zhao; Shijian Pan; Haocheng Ma; Ya Gao; Xintong Song; Jiaji He; Yier Jin
+- 对象：Kyber, FPGA, power analysis, electromagnetic, masking；类型：hardware_evaluation_and_countermeasure。
+- 核心想法：比较 HDL/HLS、流水与并行 Kyber 硬件的功耗/EM 泄漏，并提出保护实现。
+- 作者报告：作者评价 FPGA Kyber-768；Point 3 表 V 的局部 MTD 与正文整组密钥恢复预算不同，保护评估覆盖指定点和 10,000 条范围。
+- 限制与下一步：保护对象为 IND-CPA 解密，正文明确 FO 变换未保护；LFSR 条件与有限一阶 CPA 结果不构成完整 CCA 实现或最终 ML-KEM 的通用保证。
+- 阅读层级：selected_full_text_sections；来源：https://mahaocheng.me/assets/pdf/TCAS_2023_Kyber_SCA.pdf。
+- 已读章节：作者 11 页稿 PDF 第 1 页摘要、第 3 页实现条件、第 6 页表 V 与恢复预算、第 8–9 页保护及评价范围；第 6 页已视觉核对。
+- [详细阅读记录](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## Adapting Belief Propagation to Counter Shuffling of NTTs
 
 - 来源：[TCHES 2023](https://doi.org/10.46586/tches.v2023.i1.60-88)；时间标记：formal publication within rolling window。
@@ -933,11 +1075,13 @@
 - 来源：[TCHES 2023](https://doi.org/10.46586/tches.v2023.i4.58-79)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
 - 作者：Melissa Azouaoui; Olivier Bronchain; Gaëtan Cassiers; Clément Hoffmann; Yulia Kuzovkova; Joost Renes; Tobias Schneider; Markus Schönauer; François-Xavier Standaert; Christine Van Vredendaal
 - 对象：Dilithium；类型：countermeasure。
-- 核心想法：重新划分中间计算的物理敏感性，并结合新转换组件改进保护实现。
-- 作者报告：作者比较随机化与确定性签名在侧信道防护下的实现成本。
-- 限制与下一步：随机化模式更省成本不意味着无需保护；敏感性分类和随机源条件须读全文核查。
-- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
-- 代码/数据核查：not checked；引用追踪：pending。
+- 核心想法：修正早期 Dilithium 的敏感性分析，明确 y、z 的 DPA 保护与接受/拒绝尝试的区别。
+- 作者报告：§3.4 撤回旧版仅需 SPA 的类比；随机化实现的显著性能收益使用直接 TRNG 份额采样，作者明确其不遵循当时 Dilithium 的规定采样路径。
+- 限制与下一步：拒绝尝试 w1 不保护依赖额外 LWR 假设，另给保守保护选项；表 2 不含拒绝重复次数，不能当作最终签名时延或最终 ML-DSA 的安全保证。
+- 阅读层级：selected_full_text_sections；来源：https://tches.iacr.org/index.php/TCHES/article/download/11158/10597。
+- 已读章节：正式 22 页 PDF：第 6–8 页 §3.2–3.4、第 14 页 §5.2、第 17 页 §6.1 与表 2、第 19 页结论/代码入口、第 20–21 页 [ABC+22][MGTF19]；表 2 已视觉核对。
+- [详细阅读记录](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)
+- 代码/数据核查：paper links https://github.com/uclcrypto/pqm4_masked/tree/master ; contents not retrieved；引用追踪：in_progress; selected references only。
 
 ## Pushing the Limits of Generic Side-Channel Attacks on LWE-based KEMs - Parallel PC Oracle Attacks on Kyber KEM and Beyond
 
@@ -996,6 +1140,17 @@
 - 阅读层级：selected_full_text_sections；来源：https://www.comp.nus.edu.sg/~tcarlson/pdfs/chen2024nccapsac.pdf。
 - 已读章节：PDF page 1: abstract and introduction, including RSA implementation scope
 - 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
+
+## Masking the GLP Lattice-Based Signature Scheme at Any Order
+
+- 来源：[Journal of Cryptology 2024](https://doi.org/10.1007/s00145-023-09485-z)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
+- 作者：Gilles Barthe; Sonia Belaïd; Thomas Espitau; Pierre-Alain Fouque; Benjamin Grégoire; Mélissa Rossi; Mehdi Tibouchi
+- 对象：GLP, lattice signatures, masking；类型：countermeasure。
+- 核心想法：GLP 任意阶掩码工作的期刊版本，保留公开输出和份额转换的模型条件。
+- 作者报告：作者页面明确关联 EUROCRYPT 2018；期刊摘要报告形式模型与概念实现。
+- 限制与下一步：在线日期为 2023-11-29，卷年为 2024；不能当成与 2018 版无关的新研究或已核验全文等价。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/article/10.1007/s00145-023-09485-z。
+- 代码/数据核查：not checked；引用追踪：in_progress; selected references only。
 
 ## Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs
 
@@ -1482,6 +1637,17 @@
 - 已读章节：PDF p.1 abstract and bibliography; PDF p.4 section 3 Threat Model
 - [详细阅读记录](notes/power-observation-and-pqc-boundaries-20261113.md)
 - 代码/数据核查：not checked；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
+
+## A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber
+
+- 来源：[Journal of Cryptographic Engineering 2025](https://doi.org/10.1007/s13389-025-00375-7)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
+- 作者：Yanning Ji; Elena Dubrova
+- 对象：Kyber, masked FPGA, deep learning, message recovery；类型：hardware_side_channel_attack_and_countermeasure。
+- 核心想法：同一掩码硬件攻击研究的期刊记录，摘要还涉及封装过程与对策。
+- 作者报告：摘要报告消息解码 HD 泄漏、重复解封装提升共享密钥恢复，并分析封装及保护措施。
+- 限制与下一步：与 ASHES 2023 有显式书目关联，但逐项版本增量和实验差异未审计；保留两个出版记录，不计成两个独立攻击发现。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/article/10.1007/s13389-025-00375-7。
+- 代码/数据核查：not checked；引用追踪：pending。
 
 ## BPSniff: Continuously Surveilling Private Blood Pressure Information in the Metaverse via Unrestricted Inbuilt Motion Sensors
 
@@ -2005,6 +2171,17 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX session abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography
+
+- 来源：[arXiv 2025](https://arxiv.org/abs/2512.22301)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
+- 作者：Aayush Mainali; Sirjan Ghimire
+- 对象：Kyber, Saber, Frodo, timing, synthetic traces；类型：synthetic_risk_model。
+- 核心想法：用合成时序轨迹和场景噪声比较统计可分辨性，组合多种统计量形成风险分数。
+- 作者报告：摘要研究 idle、jitter、loaded 条件，比较 Welch、KS、Cliff、互信息及分布重叠。
+- 限制与下一步：算法家族差异来自设定的泄漏模型与合成数据，不是实际恒时实现测量或三种 KEM 的风险排名；需平台验证。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2512.22301。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## A Framework for designing High-Order Side-Channel Protected Hardware Implementations of ML-KEM
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i2.272-295)；时间标记：formal publication within rolling window。
@@ -2347,3 +2524,16 @@
 - 限制与下一步：抽象预言机查询数与底层测量迹线数分开；引用全文与实测复现仍待补查。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX session abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
+
+## Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach
+
+- 来源：[arXiv 2026](https://arxiv.org/abs/2611.01144)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
+- 作者：Carl Benda; Eren Kurshan; Aydin Aysu; Paul Franzon
+- 对象：Kyber, NTT, 3D integration, decoy computation；类型：simulated_countermeasure。
+- 核心想法：提出堆叠保护层与诱饵计算；数值评估在 Kyber NTT 的软件 HW 功耗代理中进行。
+- 作者报告：作者模型演示公开旋转因子的 CPA 排名转移及指定 TVLA 阈值结果；PDF 明示物理 FPGA 实现为后续工作。
+- 限制与下一步：不是实测 3D 芯片或秘密密钥恢复；有限软件 TVLA 通过不能证明通用安全。arXiv comments 列 IEEE 3DIC 2026，正式论文集/DOI 尚未独立核定。
+- 阅读层级：selected_full_text_sections；来源：https://arxiv.org/abs/2611.01144。
+- 已读章节：arXiv v1 摘要；六页 PDF 第 4 页 §IV、第 5 页限定说明/结论及选读参考 [2][3][4][7][9][10]；第 4–5 页已视觉核对。
+- [详细阅读记录](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)
+- 代码/数据核查：not checked；引用追踪：in_progress; selected references only。

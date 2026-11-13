@@ -1,14 +1,16 @@
 # 引用与版本追踪进度
 
-已核对 59 条引用条目；版本关系共 12 条，其中 11 条书目核实、1 条为原始来源推定。它们不等于被引论文已全部读完。
-追踪任务共 418 项：in_progress=39, pending=379。
-已登记发现中，14 条完成身份与范围判定，8 条仍待核查；已解析记录继续保留历史。
+已核对 72 条引用条目；版本关系共 19 条，其中 18 条书目核实、1 条为原始来源推定。它们不等于被引论文已全部读完。
+追踪任务共 450 项：in_progress=42, pending=408。
+已登记发现中，22 条完成身份与范围判定，4 条仍待核查；已解析记录继续保留历史。
 
-GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 选读 [61]，Peek-a-Walk 选读 [15]、[53]，EasyCrypt S&P 2025 选读 [11]、[12]，CRYPTO Episode V 选读八条，S&P 2023 Raccoon 与 selSLH 合计选读九条。这些选读不构成完整参考文献筛查。
+GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan、Peek-a-Walk、EasyCrypt、Episode V 及 S&P 2023 的指定引用继续保留。追加 GLP 期刊、Protecting Dilithium、3D-Shield 合计九条选读；所有选读均不构成完整参考文献筛查。
 [GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)
 
 | 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |
 |---|---:|---|---|
+| [Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach](https://arxiv.org/abs/2611.01144) | 4 | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | abstract_and_bibliographic_metadata |
+| [Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach](https://arxiv.org/abs/2611.01144) | 9 | [Masking Kyber: First- and Higher-Order Implementations](https://doi.org/10.46586/tches.v2021.i4.173-214) | abstract_and_bibliographic_metadata |
 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 8 | [Formally verifying Kyber: Episode IV: Implementation correctness](https://doi.org/10.46586/tches.v2023.i3.164-193) | abstract read; adjacent (see ADJACENT_NOTES) |
 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 36 | [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) | abstract_and_bibliographic_metadata |
 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 37 | [Chosen Ciphertext k-Trace Attacks on Masked CCA2 Secure Kyber](https://doi.org/10.46586/tches.v2021.i4.88-113) | abstract_and_bibliographic_metadata |
@@ -17,10 +19,21 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 55 | [A Side-Channel Attack on a Masked IND-CCA Secure Saber KEM Implementation](https://doi.org/10.46586/tches.v2021.i4.676-707) | abstract_and_bibliographic_metadata |
 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 57 | [Fault Attacks on CCA-secure Lattice KEMs](https://doi.org/10.46586/tches.v2021.i2.37-60) | abstract read; adjacent (see ADJACENT_NOTES) |
 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 58 | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | abstract_and_bibliographic_metadata |
+| [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | 6 | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | abstract_and_bibliographic_metadata |
+| [High-Order Masking of Lattice Signatures in Quasilinear Time](https://www.ieee-security.org/TC/SP2023/program-papers.html) | 8 | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | abstract_and_bibliographic_metadata |
+| [High-Order Masking of Lattice Signatures in Quasilinear Time](https://www.ieee-security.org/TC/SP2023/program-papers.html) | 9 | [An Efficient and Provable Masked Implementation of qTESLA](https://doi.org/10.1007/978-3-030-42068-0_5) | abstract_and_bibliographic_metadata |
+| [High-Order Masking of Lattice Signatures in Quasilinear Time](https://www.ieee-security.org/TC/SP2023/program-papers.html) | 13 | [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) | abstract_and_bibliographic_metadata |
+| [High-Order Masking of Lattice Signatures in Quasilinear Time](https://www.ieee-security.org/TC/SP2023/program-papers.html) | 14 | [Mitaka: A Simpler, Parallelizable, Maskable Variant of Falcon](https://doi.org/10.1007/978-3-031-07082-2_9) | selected_full_text_sections |
+| [High-Order Masking of Lattice Signatures in Quasilinear Time](https://www.ieee-security.org/TC/SP2023/program-papers.html) | 24 | [Leveling Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage) | selected_full_text_sections |
 | [Typing High-Speed Cryptography against Spectre v1](https://www.ieee-security.org/TC/SP2023/program-papers.html) | 8 | [Spectre Declassified: Reading from the Right Place at the Wrong Time](https://www.ieee-security.org/TC/SP2023/program-papers.html) | abstract_and_bibliographic_metadata |
+| [Typing High-Speed Cryptography against Spectre v1](https://www.ieee-security.org/TC/SP2023/program-papers.html) | 9 | [Constant-time foundations for the new spectre era](https://doi.org/10.1145/3385412.3385970) | abstract_and_bibliographic_metadata |
+| [Typing High-Speed Cryptography against Spectre v1](https://www.ieee-security.org/TC/SP2023/program-papers.html) | 14 | [Jasmin: High-Assurance and High-Speed Cryptography](https://doi.org/10.1145/3133956.3134078) | abstract_and_bibliographic_metadata |
+| [Typing High-Speed Cryptography against Spectre v1](https://www.ieee-security.org/TC/SP2023/program-papers.html) | 15 | [The Last Mile: High-Assurance and High-Speed Cryptographic Implementations](https://doi.org/10.1109/sp40000.2020.00028) | selected_full_text_sections |
 | [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | 11 | [Formally verifying Kyber: Episode IV: Implementation correctness](https://doi.org/10.46586/tches.v2023.i3.164-193) | abstract read; adjacent (see ADJACENT_NOTES) |
 | [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | 12 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | selected_full_text_sections |
 | [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) | 61 | [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) | selected_full_text_sections |
+| [Protecting Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://doi.org/10.46586/tches.v2023.i4.58-79) | ABC+22 | [Leveling Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage) | selected_full_text_sections |
+| [Protecting Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://doi.org/10.46586/tches.v2023.i4.58-79) | MGTF19 | [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) | abstract_and_bibliographic_metadata |
 | [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) | 15 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | selected_full_text_sections |
 | [Peek-a-Walk: Leaking Secrets via Page Walk Side Channels](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-76) | 53 | [Too Many Hints – When LLL Breaks LWE](https://doi.org/10.1007/978-981-99-8730-6_4) | abstract_and_bibliographic_metadata |
 | [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | 8 | [PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://www.ieee-security.org/TC/SP2021/program-papers.html) | catalog only; abstract pending |
@@ -71,7 +84,7 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 
 ## 版本关系
 
-| 电子稿 | 目录中的正式记录 | 关系与边界 |
+| 版本来源 | 目录中的关联记录 | 关系与边界 |
 |---|---|---|
 | [来源](https://eprint.iacr.org/2022/555) | [Adapting Belief Propagation to Counter Shuffling of NTTs](https://doi.org/10.46586/tches.v2023.i1.60-88) | preprint_of; verified bibliographic relation; full-text equivalence not checked |
 | [来源](https://eprint.iacr.org/2021/735) | [Side-Channel Protections for Picnic Signatures](https://doi.org/10.46586/tches.v2021.i4.239-282) | author_revision_of; verified bibliographic relation; full-text equivalence not checked |
@@ -85,6 +98,13 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 | [来源](https://eprint.iacr.org/2023/237) | [Fast Practical Lattice Reduction Through Iterated Compression](https://doi.org/10.1007/978-3-031-38548-3_1) | author_revision_of; bibliographic work-family relation checked; full-text equivalence not claimed |
 | [来源](https://eprint.iacr.org/2025/1607) | [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | author_revision_of; verified bibliographic relation; published-vs-revision full-text differences not audited |
 | [来源](https://eprint.iacr.org/2024/843) | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | author_revision_of; verified bibliographic relation; no claim of text equivalence or fully audited revision chronology |
+| [来源](https://doi.org/10.1007/978-3-319-78375-8_12) | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | version_of; verified bibliographic relation; full-text equivalence and complete revision differences not checked |
+| [来源](https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage) | [Protecting Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://doi.org/10.46586/tches.v2023.i4.58-79) | version_of; verified bibliographic relation; full-text equivalence and complete revision differences not checked |
+| [来源](https://eprint.iacr.org/2022/1406) | [Protecting Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://doi.org/10.46586/tches.v2023.i4.58-79) | preprint_of; verified bibliographic relation; full-text equivalence and complete revision differences not checked |
+| [来源](https://eprint.iacr.org/2021/1486) | [Mitaka: A Simpler, Parallelizable, Maskable Variant of Falcon](https://doi.org/10.1007/978-3-031-07082-2_9) | author_revision_of; verified bibliographic relation; full-text equivalence and complete revision differences not checked |
+| [来源](https://www.diva-portal.org/smash/get/diva2%3A1742542/FULLTEXT01.pdf) | [A Side-Channel Attack on a Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1109/ets56758.2023.10174000) | author_revision_of; verified bibliographic relation; full-text equivalence and complete revision differences not checked |
+| [来源](https://doi.org/10.1145/3605769.3623992) | [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) | version_of; verified bibliographic relation; full-text equivalence and complete revision differences not checked |
+| [来源](https://eprint.iacr.org/2023/1084) | [A Side-Channel Attack on a Masked Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1145/3605769.3623992) | author_revision_of; verified bibliographic relation; full-text equivalence and complete revision differences not checked |
 
 ## 本批纠正与未完成项
 
@@ -97,5 +117,5 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 - Scheduled Disclosure 的密码实验对象为 SIKE-751；15 条引用已与目录对应，ASIACCS/DIMVA/ASPLOS 三条发现已读并解析。OpenTitan 的 Share-slicing 引用已补读摘要与讨论，作为窗口外基础文献保留；完整追踪仍未完成。
 - Peek-a-Walk 标题无 PQC 名称，正文包含参考 Dilithium-2 的 nonce 泄漏与格后处理；已对应 GoFetch 与 Too Many Hints 两条引用，其余参考文献尚待逐条筛查。
 - EasyCrypt S&P 2025 的 [11]、[12] 已对应 Episode IV、Episode V；后者补读恒时证明范围及 [八条选读引用](citations/kyber-v-selected-reference-screen.jsonl)，新增 CRYPTO 2020 与 CHES 2017 两篇窗口外基础卡片。ePrint 2025/1607 的 minor revision 与 2024/843 的 major revision 均有显式书目关系，全文差异尚未核对。见 [Episode V 范围记录](notes/kyber-verification-episode-v-20261113.md)。
-- S&P 2023 的 Raccoon 五条与 selSLH 四条选读中，一条对应同届 Spectre Declassified，八条进入发现队列；包含窗口内 Mitaka/Leveling Dilithium 与窗口外掩码/恒时基础文献。见 [九条清单](citations/sp2023-selected-reference-screen.jsonl)。
+- S&P 2023 的 Raccoon 五条与 selSLH 四条选读现均有目录目标，原八条发现已读并解析。Leveling 2022 与修正敏感性分类的 Protecting 2023 分列。追加 GLP、Protecting、3D-Shield 的九条选读，五条对应、四条待核查。见 [S&P 清单](citations/sp2023-selected-reference-screen.jsonl)、[后续选读清单](citations/sp2023-followup-selected-reference-screen.jsonl)及 [版本与硬件证据边界](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)。
 - 前向关系只记录当前实际看到的引用，不等于枚举了所有后续论文。扩展会议的系统目录、未解析引用及基础文献筛查继续进行。

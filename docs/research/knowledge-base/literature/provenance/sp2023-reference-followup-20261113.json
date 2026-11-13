@@ -1,0 +1,620 @@
+{
+  "reviewed_on": "2026-11-13",
+  "sources": [
+    {
+      "source_id": "sp23ref-3dshield-arxiv",
+      "url": "https://arxiv.org/abs/2611.01144",
+      "response_url": "https://arxiv.org/abs/2611.01144",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:18.388473+00:00",
+      "sha256": "c757d1ed57ff462175b6740ca3eda838befccc1a6bc5c9a95ce1f73993e13550",
+      "bytes": 40350,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-3dshield-pdf",
+      "url": "https://arxiv.org/pdf/2611.01144v1",
+      "response_url": "https://arxiv.org/pdf/2611.01144v1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:45.550274+00:00",
+      "sha256": "968303ee7201501b2c89bb03d456d527ec6103bdd2a79d2a7348ab89cd31691b",
+      "bytes": 4674648,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "sp23ref-ashes-official-program",
+      "url": "https://www.sigsac.org/ccs/CCS2023/tocs/tocs-ashes23.html",
+      "response_url": "https://www.sigsac.org/ccs/CCS2023/tocs/tocs-ashes23.html",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:43:16.238900+00:00",
+      "sha256": "566afb358965beab256406ea35b7b1f5a0067f3783c5eb7320d1b9304f356fa0",
+      "bytes": 40841,
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "sp23ref-dilithium2019-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-21568-2_17",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-21568-2_17",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:04.528282+00:00",
+      "sha256": "d1e369fdb7c2c95fcda9cd3d6cf22496dd4de02b91b12de9a4bc7fc3108cce59",
+      "bytes": 14365,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-dilithium2019-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-21568-2_17",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-21568-2_17",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:10.687575+00:00",
+      "sha256": "51ade8c17b1bda7ed827d6a4a8fd7340596564fac2e00f3dddf1f7dd52f25d3b",
+      "bytes": 344984,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-glp2018-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-319-78375-8_12",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-319-78375-8_12",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:04.420145+00:00",
+      "sha256": "40e40b5b11542ce70201c963416b785f2613fe7b4f9751646448ffe98a9b9d0b",
+      "bytes": 18734,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-glp2018-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-78375-8_12",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-319-78375-8_12",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:09.479060+00:00",
+      "sha256": "f605bfbb9a2a8f225ec2fff9c18f0b919f58c2f46a0fc0210b1ab76f0ad142c4",
+      "bytes": 453543,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-glp2024-crossref",
+      "url": "https://api.crossref.org/works/10.1007/s00145-023-09485-z",
+      "response_url": "https://api.crossref.org/works/10.1007/s00145-023-09485-z",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:43.989529+00:00",
+      "sha256": "fc65604f98c76172eacf024e811d53b9bb42886eba792e9e036d9ca53a2d0870",
+      "bytes": 19699,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-glp2024-publisher",
+      "url": "https://link.springer.com/article/10.1007/s00145-023-09485-z",
+      "response_url": "https://link.springer.com/article/10.1007/s00145-023-09485-z",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:10.184386+00:00",
+      "sha256": "683f2bc43c36b257ada18928bd23be38649340bd21fd9ff787b7edd76794c4d4",
+      "bytes": 442674,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-jasmin-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3133956.3134078",
+      "response_url": "https://api.crossref.org/works/10.1145/3133956.3134078",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:06.664568+00:00",
+      "sha256": "205cad81b01b776757e2c2b70b03d1ea310598ca6d7f06b0bb7d8bca1d66dbff",
+      "bytes": 13241,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-jasmin-institution",
+      "url": "https://researchportal.ip-paris.fr/en/publications/jasmin-high-assurance-and-high-speed-cryptography/",
+      "response_url": "https://researchportal.ip-paris.fr/en/publications/jasmin-high-assurance-and-high-speed-cryptography/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:15.301590+00:00",
+      "sha256": "924ac43cd338bed78096277d173e9924f8889f55f295c0bc5107f0f567e265aa",
+      "bytes": 56832,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23ref-kyber-10174000-publisher",
+      "url": "https://xplorestaging.ieee.org/document/10174000/",
+      "response_url": "https://xplorestaging.ieee.org/document/10174000/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:18.388602+00:00",
+      "sha256": "eb3966def9209ec6b1bd7819dd2e4a18f30113a92dda7d68ddc9b2ad603f7e6d",
+      "bytes": 47836,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23ref-kyber-10426450-publisher",
+      "url": "https://xplorestaging.ieee.org/document/10426450/",
+      "response_url": "https://xplorestaging.ieee.org/document/10426450/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:17.587049+00:00",
+      "sha256": "3c5a28b9e96c56f32ff01b51112de65e945b18a250eb4c6bdaa33215f44d4b6a",
+      "bytes": 48911,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23ref-kyber-asid-crossref",
+      "url": "https://api.crossref.org/works/10.1109/ASID60355.2023.10426450",
+      "response_url": "https://api.crossref.org/works/10.1109/ASID60355.2023.10426450",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:56.120377+00:00",
+      "sha256": "429e18f79f8ed50e0c120e96687e50f99ea26395800330114a22e044e1875b19",
+      "bytes": 4362,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-kyber-ets-crossref",
+      "url": "https://api.crossref.org/works/10.1109/ETS56758.2023.10174000",
+      "response_url": "https://api.crossref.org/works/10.1109/ETS56758.2023.10174000",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:54.146415+00:00",
+      "sha256": "99f56b9687cf407b812d1ef3a6bbfa0a6b1c1c659378def061a6cccd2da3dfbc",
+      "bytes": 5564,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-kyber-ets-eprint",
+      "url": "https://eprint.iacr.org/2022/1452",
+      "response_url": "https://eprint.iacr.org/2022/1452",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:47.074265+00:00",
+      "sha256": "5a06f220faf337e61e559f872c9009c4b74f6a3897f64ee50548d1b1d625fbfd",
+      "bytes": 16500,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-kyber-ets-postprint",
+      "url": "https://www.diva-portal.org/smash/get/diva2%3A1742542/FULLTEXT01.pdf",
+      "response_url": "https://www.diva-portal.org/smash/get/diva2%3A1742542/FULLTEXT01.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:40:05.170116+00:00",
+      "sha256": "3c31794e6a2afe1c469831746f9695ae2f763db6fe55ed20f51d1953c22d7895",
+      "bytes": 1948186,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "sp23ref-kyber-masked-ashes-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3605769.3623992",
+      "response_url": "https://api.crossref.org/works/10.1145/3605769.3623992",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:57.755110+00:00",
+      "sha256": "b171bde16c38055b62bb0a2624612b13ad24c63714f4dfd07e4a3be5758a2edb",
+      "bytes": 19626,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-kyber-masked-eprint",
+      "url": "https://eprint.iacr.org/2023/1084",
+      "response_url": "https://eprint.iacr.org/2023/1084",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:43:17.650253+00:00",
+      "sha256": "134c6212bd2a0e6e863db53016e4c8d22b354dd63bcf1e449d0404581b75b931",
+      "bytes": 16511,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-kyber-masked-jce-crossref",
+      "url": "https://api.crossref.org/works/10.1007/s13389-025-00375-7",
+      "response_url": "https://api.crossref.org/works/10.1007/s13389-025-00375-7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:59.577464+00:00",
+      "sha256": "d323d9b9ba69d0f34cc8dcc9cf4f45238b9c9efcbb4daac9300077fa4c70dadc",
+      "bytes": 18843,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-kyber-masked-publisher",
+      "url": "https://link.springer.com/article/10.1007/s13389-025-00375-7",
+      "response_url": "https://link.springer.com/article/10.1007/s13389-025-00375-7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:47.520912+00:00",
+      "sha256": "324357457e927a21807e2664f5214d6de7a2bd1ebdaa0e7fe2ce08c3a83aec6c",
+      "bytes": 442294,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-kyber-tcas-author-pdf",
+      "url": "https://mahaocheng.me/assets/pdf/TCAS_2023_Kyber_SCA.pdf",
+      "response_url": "https://mahaocheng.me/assets/pdf/TCAS_2023_Kyber_SCA.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:18.699194+00:00",
+      "sha256": "561fc6cc79b3ebd760f87cf8557134ec3232cb5982be5bb99c4b68eeb92de198",
+      "bytes": 1871856,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "sp23ref-kyber-tcas-crossref",
+      "url": "https://api.crossref.org/works/10.1109/TCSI.2023.3288600",
+      "response_url": "https://api.crossref.org/works/10.1109/TCSI.2023.3288600",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:50.592882+00:00",
+      "sha256": "d08cc914e8947273f0c4ea4d181ea04e3c182e32b04ad6bdc517b40a72569c5f",
+      "bytes": 7046,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-lastmile-crossref",
+      "url": "https://api.crossref.org/works/10.1109/SP40000.2020.00028",
+      "response_url": "https://api.crossref.org/works/10.1109/SP40000.2020.00028",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:46.074969+00:00",
+      "sha256": "6d7b514deddea991613541e434623ce7d3fa10ef201718d648c1b429e547481c",
+      "bytes": 7709,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-lastmile-publisher-pdf",
+      "url": "https://conferences.computer.org/sp/pdfs/sp/2020/349700a965.pdf",
+      "response_url": "https://conferences.computer.org/sp/pdfs/sp/2020/349700a965.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:18.286027+00:00",
+      "sha256": "68fd2a0dde1ceb2ad1edf767f54d6c0f45d77a5b8054615e4a426102d2195fce",
+      "bytes": 294824,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "sp23ref-leveling-eprint",
+      "url": "https://eprint.iacr.org/2022/1406",
+      "response_url": "https://eprint.iacr.org/2022/1406",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:11.206691+00:00",
+      "sha256": "0af60ead0ac275c131f24081ae427be9409eb210750f35a80519a14b292b094e",
+      "bytes": 17812,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-leveling-nist",
+      "url": "https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage",
+      "response_url": "https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:12.205038+00:00",
+      "sha256": "fc8f1d2360099af52755a0e79cb26baab6bd82fa3198fcaa32830ca223eeb05d",
+      "bytes": 39301,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-leveling-nist-pdf",
+      "url": "https://csrc.nist.gov/csrc/media/Events/2022/fourth-pqc-standardization-conference/documents/papers/leveling-dilithium-against-leakage-pqc2022.pdf",
+      "response_url": "https://csrc.nist.gov/csrc/media/Events/2022/fourth-pqc-standardization-conference/documents/papers/leveling-dilithium-against-leakage-pqc2022.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:15.268570+00:00",
+      "sha256": "1ea4a09cb2081975d30fe3b353df7eb647565991cd0dcf6b42e273f76571b3fb",
+      "bytes": 787318,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "sp23ref-mitaka-author-pdf",
+      "url": "https://espitau.github.io/bin/mitaka.pdf",
+      "response_url": "https://espitau.github.io/bin/mitaka.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:17.066925+00:00",
+      "sha256": "d698c4fe91cfd8bcc5e40396c743324513cc1de14479f5c535d34b4628f6cea7",
+      "bytes": 837747,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "sp23ref-mitaka-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-07082-2_9",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-07082-2_9",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:04.508171+00:00",
+      "sha256": "c3e2f8c04d055a73271cec87d1feff28e7b36c20ea4b64a7fb44dd30fff00e74",
+      "bytes": 24437,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-mitaka-eprint",
+      "url": "https://eprint.iacr.org/2021/1486",
+      "response_url": "https://eprint.iacr.org/2021/1486",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:48.570637+00:00",
+      "sha256": "fa53066161c3a12add139cb482cca9f7c405a61fcc73f9612ffce52a34ebea9e",
+      "bytes": 18510,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-mitaka-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-07082-2_9",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-07082-2_9",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:12.101813+00:00",
+      "sha256": "ff321946f24ea29c9eb8e2ab115816e5afd9551dd7080366a92fddd08434a51f",
+      "bytes": 355856,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-pitchfork-arxiv",
+      "url": "https://arxiv.org/abs/1910.01755",
+      "response_url": "https://arxiv.org/abs/1910.01755",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:19.358024+00:00",
+      "sha256": "81a730ecb148f24f9550c5b24746415b65d23faaee375762de622dffbab3e1d2",
+      "bytes": 43651,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-pitchfork-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3385412.3385970",
+      "response_url": "https://api.crossref.org/works/10.1145/3385412.3385970",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:48.361753+00:00",
+      "sha256": "374ef75dd33d898fcff9502261fa1fcfd50d1b76ce7d21772b66d5faa5b924c4",
+      "bytes": 14605,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-protecting-publisher",
+      "url": "https://tches.iacr.org/index.php/TCHES/article/view/11158",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/view/11158",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:14.051869+00:00",
+      "sha256": "aed191a778de4a1b156d62cd48e15b4808fe4ab3ec462863530e2c0c2d90c1b0",
+      "bytes": 30800,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-protecting-publisher-pdf",
+      "url": "https://tches.iacr.org/index.php/TCHES/article/download/11158/10597",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/download/11158/10597",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:38:46.391182+00:00",
+      "sha256": "4a99a44790c068b09d123c2b663cfce69b0277f6af8d5f069cc7cbab863f0de3",
+      "bytes": 737120,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "sp23ref-qtesla-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-42068-0_5",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-42068-0_5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:05.862382+00:00",
+      "sha256": "0a3a30570e777e77583d76ae79204732057de5cc7032ca4ddffe26635a7d0eba",
+      "bytes": 15926,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23ref-qtesla-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-42068-0_5",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-42068-0_5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:09.507373+00:00",
+      "sha256": "7cdbd71215d325e5be2b9e67245002a901769c5a1ae1fed69192fcfd1af4cbb8",
+      "bytes": 312989,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-riskmodel-arxiv",
+      "url": "https://arxiv.org/abs/2512.22301",
+      "response_url": "https://arxiv.org/abs/2512.22301",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:18.516488+00:00",
+      "sha256": "4b0e16909af4e7b6a693b526a3bd8f9ec6dd1e946e9e71547405bebcfeecd6ba",
+      "bytes": 42115,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp23ref-rossi-author-list",
+      "url": "https://www.melissarossi.fr/index.php/research/",
+      "response_url": "https://www.melissarossi.fr/index.php/research/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:14.445940+00:00",
+      "sha256": "85fefa30dfbe8352c64ead631e12a171c68923e9ef9cbd79dfe9b1980d80713f",
+      "bytes": 52607,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "sp23ref-standaert-author-list",
+      "url": "https://perso.uclouvain.be/fstandae/publications.html",
+      "response_url": "https://perso.uclouvain.be/fstandae/publications.html",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:37:15.533725+00:00",
+      "sha256": "f0f65b1912b1b42ec1fe44adc1a9960e43337352dbc17a55603becc0feab7cbd",
+      "bytes": 164513,
+      "content_type": "text/html"
+    }
+  ],
+  "batch": "SP 2023 selected-reference resolution and Kyber hardware search/version follow-up",
+  "included_ids": [
+    "doi:10.1007/978-3-319-78375-8_12",
+    "doi:10.1007/s00145-023-09485-z",
+    "doi:10.1007/978-3-030-42068-0_5",
+    "doi:10.1007/978-3-030-21568-2_17",
+    "doi:10.1007/978-3-031-07082-2_9",
+    "doi:10.1145/3385412.3385970",
+    "doi:10.1145/3133956.3134078",
+    "doi:10.1109/sp40000.2020.00028",
+    "doi:10.1109/tcsi.2023.3288600",
+    "doi:10.1109/ets56758.2023.10174000",
+    "doi:10.1109/asid60355.2023.10426450",
+    "doi:10.1145/3605769.3623992",
+    "doi:10.1007/s13389-025-00375-7",
+    "nist-pqc:2022:leveling-dilithium",
+    "arxiv:2611.01144",
+    "arxiv:2512.22301"
+  ],
+  "upgraded_ids": [
+    "doi:10.46586/tches.v2023.i4.58-79"
+  ],
+  "resolved_discoveries": [
+    "raccoon2023-ref-13",
+    "raccoon2023-ref-14",
+    "raccoon2023-ref-24",
+    "raccoon2023-ref-8",
+    "raccoon2023-ref-9",
+    "selslh2023-ref-14",
+    "selslh2023-ref-15",
+    "selslh2023-ref-9"
+  ],
+  "selected_reference_inventory": "citations/sp2023-followup-selected-reference-screen.jsonl",
+  "readings": [
+    {
+      "id": "doi:10.1007/978-3-319-78375-8_12",
+      "level": "abstract_and_bibliographic_metadata",
+      "source_ids": [
+        "sp23ref-glp2018-publisher"
+      ],
+      "sections": "abstract and bibliographic/version metadata"
+    },
+    {
+      "id": "doi:10.1007/s00145-023-09485-z",
+      "level": "abstract_and_bibliographic_metadata",
+      "source_ids": [
+        "sp23ref-glp2024-publisher"
+      ],
+      "sections": "abstract and bibliographic/version metadata"
+    },
+    {
+      "id": "doi:10.1007/978-3-030-42068-0_5",
+      "level": "abstract_and_bibliographic_metadata",
+      "source_ids": [
+        "sp23ref-qtesla-publisher"
+      ],
+      "sections": "abstract and bibliographic/version metadata"
+    },
+    {
+      "id": "doi:10.1007/978-3-030-21568-2_17",
+      "level": "abstract_and_bibliographic_metadata",
+      "source_ids": [
+        "sp23ref-dilithium2019-publisher"
+      ],
+      "sections": "abstract and bibliographic/version metadata"
+    },
+    {
+      "id": "doi:10.1007/978-3-031-07082-2_9",
+      "level": "selected_full_text_sections",
+      "source_ids": [
+        "sp23ref-mitaka-publisher",
+        "sp23ref-mitaka-author-pdf",
+        "sp23ref-mitaka-eprint"
+      ],
+      "sections": "作者 52 页稿 PDF 第 1 页摘要、§6–7 指定段落（PDF 17–19）：初步实现的非恒时限制、基准条件及探针掩码；未核对与正式章节的逐字差异。"
+    },
+    {
+      "id": "doi:10.1145/3385412.3385970",
+      "level": "abstract_and_bibliographic_metadata",
+      "source_ids": [
+        "sp23ref-pitchfork-arxiv"
+      ],
+      "sections": "abstract and bibliographic/version metadata"
+    },
+    {
+      "id": "doi:10.1145/3133956.3134078",
+      "level": "abstract_and_bibliographic_metadata",
+      "source_ids": [
+        "sp23ref-jasmin-institution"
+      ],
+      "sections": "abstract and bibliographic/version metadata"
+    },
+    {
+      "id": "doi:10.1109/sp40000.2020.00028",
+      "level": "selected_full_text_sections",
+      "source_ids": [
+        "sp23ref-lastmile-publisher-pdf"
+      ],
+      "sections": "IEEE 18 页 PDF 第 1 页摘要与 §1 方法概述。"
+    },
+    {
+      "id": "doi:10.1109/tcsi.2023.3288600",
+      "level": "selected_full_text_sections",
+      "source_ids": [
+        "sp23ref-kyber-tcas-author-pdf"
+      ],
+      "sections": "作者 11 页稿 PDF 第 1 页摘要、第 3 页实现条件、第 6 页表 V 与恢复预算、第 8–9 页保护及评价范围；第 6 页已视觉核对。"
+    },
+    {
+      "id": "doi:10.1109/ets56758.2023.10174000",
+      "level": "selected_full_text_sections",
+      "source_ids": [
+        "sp23ref-kyber-10174000-publisher",
+        "sp23ref-kyber-ets-postprint",
+        "sp23ref-kyber-ets-eprint"
+      ],
+      "sections": "机构接受稿 PDF 第 1 页版本封面、第 2 页摘要/引言、第 5 页 §VI.C–VII 和第 6 页指定表格段落；非完整复现。"
+    },
+    {
+      "id": "doi:10.1109/asid60355.2023.10426450",
+      "level": "abstract_and_bibliographic_metadata",
+      "source_ids": [
+        "sp23ref-kyber-10426450-publisher"
+      ],
+      "sections": "abstract and bibliographic/version metadata"
+    },
+    {
+      "id": "doi:10.1145/3605769.3623992",
+      "level": "abstract_and_bibliographic_metadata",
+      "source_ids": [
+        "sp23ref-ashes-official-program",
+        "sp23ref-kyber-masked-eprint"
+      ],
+      "sections": "abstract and bibliographic/version metadata"
+    },
+    {
+      "id": "doi:10.1007/s13389-025-00375-7",
+      "level": "abstract_and_bibliographic_metadata",
+      "source_ids": [
+        "sp23ref-kyber-masked-publisher"
+      ],
+      "sections": "abstract and bibliographic/version metadata"
+    },
+    {
+      "id": "nist-pqc:2022:leveling-dilithium",
+      "level": "selected_full_text_sections",
+      "source_ids": [
+        "sp23ref-leveling-nist",
+        "sp23ref-leveling-nist-pdf"
+      ],
+      "sections": "NIST 固定 25 页稿 PDF 第 1 页摘要、第 19 页表 3 说明与 §7 结论；不是对 ePrint 初版字节相同的声明。"
+    },
+    {
+      "id": "arxiv:2611.01144",
+      "level": "selected_full_text_sections",
+      "source_ids": [
+        "sp23ref-3dshield-arxiv",
+        "sp23ref-3dshield-pdf"
+      ],
+      "sections": "arXiv v1 摘要；六页 PDF 第 4 页 §IV、第 5 页限定说明/结论及选读参考 [2][3][4][7][9][10]；第 4–5 页已视觉核对。"
+    },
+    {
+      "id": "arxiv:2512.22301",
+      "level": "abstract_and_bibliographic_metadata",
+      "source_ids": [
+        "sp23ref-riskmodel-arxiv"
+      ],
+      "sections": "abstract and bibliographic/version metadata"
+    },
+    {
+      "id": "doi:10.46586/tches.v2023.i4.58-79",
+      "level": "selected_full_text_sections",
+      "source_ids": [
+        "sp23ref-protecting-publisher",
+        "sp23ref-protecting-publisher-pdf",
+        "sp23ref-leveling-eprint",
+        "sp23ref-standaert-author-list"
+      ],
+      "sections": "正式 22 页 PDF：第 6–8 页 §3.2–3.4、第 14 页 §5.2、第 17 页 §6.1 与表 2、第 19 页结论/代码入口、第 20–21 页 [ABC+22][MGTF19]；表 2 已视觉核对。"
+    }
+  ],
+  "source_access_notes": [
+    "Two initial Crossref requests returned 429; successful sequential retries are the source records used here. No unavailable source has been counted as read."
+  ],
+  "metadata_exceptions": [
+    "GLP journal online 2023-11-29 versus 2024 volume year",
+    "CARDIS 2019 qTESLA chapter online 2020-03-09",
+    "Leveling frozen NIST author order and title differ from current Protecting/ePrint; do not silently merge",
+    "JCE page ACM Reference Format says 22 pages for ASHES while formal ASHES Crossref pages are 27–37; retain formal pagination and leave discrepancy explicit",
+    "ASID 2023 venue date distinct from later Xplore ingestion",
+    "3DShield arXiv ID starts 2611 but submission is 2026-10-31; IEEE 3DIC comment is author-supplied, formal proceedings unverified"
+  ],
+  "search_leads_resolved": [
+    "doi:10.1109/tcsi.2023.3288600",
+    "doi:10.1109/ets56758.2023.10174000",
+    "doi:10.1109/asid60355.2023.10426450",
+    "arxiv:2611.01144",
+    "arxiv:2512.22301"
+  ],
+  "scope_notes": [
+    "Publication/version records are not independent study counts",
+    "Six added records are outside the rolling five-year window and retained as cited foundations",
+    "All selected reference inventories remain partial",
+    "No paper result independently reproduced; no experiments or author programs executed"
+  ]
+}
