@@ -55,19 +55,28 @@ def render_citations(root,catalogs):
     edges=[json.loads(x) for x in (root/'citations/edges.jsonl').read_text().splitlines() if x]
     tasks=[json.loads(x) for x in (root/'citations/queue.jsonl').read_text().splitlines() if x]
     discoveries=[json.loads(x) for x in (root/'citations/discoveries.jsonl').read_text().splitlines() if x]
+    pending_discoveries=[d for d in discoveries if d['status'].startswith('pending_')]
+    resolved_discoveries=[d for d in discoveries if d['status']=='resolved_identity_and_scope']
+    decisions={d['id']:d for d in (json.loads(x) for x in (root/'screening/decisions.jsonl').read_text().splitlines())}
     citations=[e for e in edges if e['type']=='cites'];versions=[e for e in edges if e['type'] in {'preprint_of','version_of','author_revision_of'}]
+    inferred_versions=[e for e in versions if e.get('relation_confidence')=='primary_source_inference']
     lines=['# 引用与版本追踪进度','',
-      f'已核对 {len(citations)} 条引用关系、{len(versions)} 条版本关系；它们不等于被引论文已全部读完。',
+      f'已核对 {len(citations)} 条引用条目；版本关系共 {len(versions)} 条，其中 {len(versions)-len(inferred_versions)} 条书目核实、{len(inferred_versions)} 条为原始来源推定。它们不等于被引论文已全部读完。',
       f'追踪任务共 {len(tasks)} 项：'+', '.join(f'{k}={v}' for k,v in sorted(Counter(t['status'] for t in tasks).items()))+'。',
-      f'另有 {len(discoveries)} 条引用发现等待原始来源身份/范围核查。','',
+      f'已登记发现中，{len(resolved_discoveries)} 条完成身份与范围判定，{len(pending_discoveries)} 条仍待核查；已解析记录继续保留历史。','',
       '本批逐条阅读 GoFetch 参考文献 [1]–[98]，其中已解析关系见下表。其余条目分为新发现、基础研究或实现背景；这不代表前后向追踪已经完成。',
-      '[98 条参考文献初筛](citations/gofetch-reference-screen.jsonl) · [待核查发现](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)','',
+      '[98 条参考文献初筛](citations/gofetch-reference-screen.jsonl) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)','',
       '| 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |','|---|---:|---|---|']
     papers={p['id']:p for p in (json.loads(x) for x in (root/'papers.jsonl').read_text().splitlines())}
     for e in sorted(citations,key=lambda x:(x['from'],x['reference_number'])):
         r=catalog[e['to']]
         seed=catalog[e['from']]
-        lines.append(f"| [{md(seed['title'])}]({seed['url']}) | {e['reference_number']} | [{md(r['title'])}]({r['url']}) | {papers.get(r['id'],{}).get('reading_level','catalog only; abstract pending')} |")
+        reading=papers.get(r['id'],{}).get('reading_level')
+        if reading is None:
+            decision=decisions.get(r['id'],{})
+            reading=('abstract read; '+decision['decision']+' (see ADJACENT_NOTES)') if decision else 'catalog only; abstract pending'
+        version=f"; actual cited version: [preprint]({e['cited_version_url']})" if e.get('cited_version_url') else ''
+        lines.append(f"| [{md(seed['title'])}]({seed['url']}) | {e['reference_number']} | [{md(r['title'])}]({r['url']}) | {reading}{version} |")
     lines+=['','## 版本关系','','| 电子稿 | 目录中的正式记录 | 关系与边界 |','|---|---|---|']
     for e in versions:
         r=catalog[e['to']]
@@ -77,10 +86,26 @@ def render_citations(root,catalogs):
       '- GoFetch [58] 对应 SAC 2022 论文，但正式章节 2024 年上线；ePrint 与正式版作者顺序不同。书目关系已确认，全文差异未核对。',
       '- GoFetch [61] 的 Raccoon 是 TLS-DH(E) 攻击，不是同名后量子签名。',
       '- HOST 2021 采样论文的 ePrint 上传于 2022 年；会议年、出版日期和预印本日期分别保留。',
+      '- GoFetch [26] 实际引用 2023 年 XPT/PrefetchX 预印本；与 HPCA 2024 条目的研究版本关联由相同作者及机制推定，仍待显式版本链接/全文对照。标题及定量结果不同，不声称全文等价。',
+      '- GoFetch [71] 的 Flatter 已读摘要并归为格约简方法背景，见 [相邻主题记录](ADJACENT_NOTES.md)；未计作独立侧信道攻击。',
       '- 前向关系只记录当前实际看到的引用，不等于枚举了所有后续论文。扩展会议的系统目录、未解析引用及基础文献筛查继续进行。','']
     (root/'CITATION_PROGRESS.md').write_text('\n'.join(lines))
-    return {'verified_citation_edges':len(citations),'verified_version_edges':len(versions),
-            'task_status_counts':dict(Counter(t['status'] for t in tasks)),'unresolved_discoveries':len(discoveries)}
+    return {'verified_citation_edges':len(citations),'verified_version_edges':len(versions)-len(inferred_versions),'inferred_version_edges':len(inferred_versions),
+            'task_status_counts':dict(Counter(t['status'] for t in tasks)),
+            'unresolved_discoveries':len(pending_discoveries),'resolved_discoveries':len(resolved_discoveries)}
+
+def render_adjacent(root,catalogs,decisions):
+    catalog={r['id']:r for r in catalogs}
+    adjacent=[d for d in decisions.values() if d['decision']=='adjacent']
+    lines=['# 已阅读的相邻主题与方法背景','',
+           f'当前 {len(adjacent)} 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。','']
+    for d in sorted(adjacent,key=lambda d:(catalog[d['id']]['venue_year'],catalog[d['id']]['title'])):
+        r=catalog[d['id']]
+        lines+=['## '+r['title'],'',f"- 来源：[{r['venue']} {r['venue_year']}]({r['url']})。",
+                '- 判定依据：'+d['reason_zh'],
+                '- 阅读来源：'+d.get('reading_source','publisher-deposited Crossref abstract')+'。',
+                '- 核查日期：'+d['reviewed_on']+'；没有独立第二审读或本地复现。','']
+    (root/'ADJACENT_NOTES.md').write_text('\n'.join(lines))
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
@@ -101,6 +126,7 @@ def main():
     abstracts={k:v for k,v in abstracts.items() if v.strip().lower() not in {'','not available','n/a','none','no abstract available'}}
     decisions_path=root/'screening/decisions.jsonl'
     decisions={r['id']:r for r in (json.loads(x) for x in decisions_path.read_text().splitlines())} if decisions_path.exists() else {}
+    review_date=max((r['reviewed_on'] for r in decisions.values()),default='2026-11-12')
     title_path=root/'screening/title-decisions.jsonl'
     titles={r['id']:r for r in map(json.loads,title_path.read_text().splitlines())} if title_path.exists() else {}
     queue=[]
@@ -128,7 +154,7 @@ def main():
         lines.append(f"| {r['venue_year']} {r['venue']} | [{md(r['title'])}]({r['url']}) | {r['screening_status']} |")
     (root/'PQC_QUEUE.md').write_text('\n'.join(lines)+'\n')
     counts=Counter((r['venue'],r['venue_year']) for r in catalogs)
-    cells=[];lines=['# 目录覆盖与未完成工作','','更新：2026-11-12。目录记录数不是相关论文数，也不是版本去重后的论文数。',
+    cells=[];lines=['# 目录覆盖与未完成工作','',f'阅读判定更新：{review_date}；目录截点仍为 2026-11-12。目录记录数不是相关论文数，也不是版本去重后的论文数。',
        '“已提取”只说明已从指定来源解析记录；独立目录核对、逐条主题筛查、全文阅读和引用追踪另行判定。','',
        '| 会议/卷 | 年份 | 已提取记录 | 交叉核对 | 标题初筛 | 摘要及以上判定 | 来源与数量证据 |','|---|---:|---:|---|---|---|---|']
     for venue in ['TCHES','SP','USENIX','CCS','NDSS']:
@@ -161,14 +187,15 @@ def main():
       '- 当前统计只针对已收集目录；未取得的目录、没有摘要的条目和日期不明记录均不视为完成。'])
     (root/'COVERAGE.md').write_text('\n'.join(lines)+'\n')
     papers=render_papers(root)
+    render_adjacent(root,catalogs,decisions)
     citation_progress=render_citations(root,catalogs)
     extended=[r for r in catalogs if r['venue'] not in CORE_VENUES]
     elines=['# 引用扩展来源','','这里只统计引用追踪实际取得的条目，**不是扩展会议的完整目录**。它们与核心会议共用 papers.jsonl、阅读队列和引用关系。','',
             '| 会议/来源 | 年份 | 已取得条目 | 完整目录与独立核对 |','|---|---:|---:|---|']
     for (v,y),n in sorted(Counter((r['venue'],r['venue_year']) for r in extended).items()):
         elines.append(f'| {v} | {y} | {n} | 未完成；仅引用扩展 |')
-    elines+=['','SAC 2022 的会议年与 2024 年上线日期分别记录；ICCD 2021-10 论文作为年度边界补充保留。未取得的扩展会议（包括 CRYPTO、EUROCRYPT、ASIACRYPT、COSADE）仍有系统收集任务。',
-             '[元数据](catalogs/citation-expansion.jsonl) · [来源与哈希](provenance/citation-expansion.json) · [未解析引用发现](citations/discoveries.jsonl)','']
+    elines+=['','SAC 2022 的会议年与 2024 年上线日期分别记录；ICCD 2021-10 与 ISCA 2021-06 论文作为窗口前边界引用保留。CRYPTO、EUROCRYPT、ASIACRYPT、COSADE 等扩展会议仍有系统目录收集任务；已有个别记录不等于完整覆盖。',
+             '[元数据](catalogs/citation-expansion.jsonl) · [首批来源与哈希](provenance/citation-expansion.json) · [本批来源及实际读取方式](provenance/citation-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl)','']
     (root/'EXTENDED_SOURCES.md').write_text('\n'.join(elines))
     title_lines=['# 标题与副标题初筛','','这是一轮人工阅读后的 Codex 判定，不是关键词自动分类。全部判定均为标题层暂判；后续摘要判定见 decisions.jsonl。','',
                  f'当前 {len(titles)} 条：'+', '.join(f'{k}={v}' for k,v in sorted(Counter(r['decision'] for r in titles.values()).items()))+'。',
@@ -179,7 +206,7 @@ def main():
         title_lines.append(f"| {r['venue_year']} {r['venue']} | [{md(r['title'])}]({urls[r['id']]}) | {r['decision']} | {r['topic_hint']} |")
     title_lines += ['','逐条依据、阅读来源与是否独立复核见 [title-decisions.jsonl](screening/title-decisions.jsonl)。','']
     (root/'TITLE_SCREENING.md').write_text('\n'.join(title_lines))
-    write_json(root/'coverage.json',{'cutoff':'2026-11-12','rolling_window_start':'2021-11-12',
+    write_json(root/'coverage.json',{'cutoff':'2026-11-12','rolling_window_start':'2021-11-12','reading_updated_on':review_date,
                'total_catalog_records':len(catalogs),'priority_counts':dict(Counter(r['priority'] for r in queue)),
                'core_catalog_records':sum(counts[c['venue'],c['year']] for c in cells),'citation_expansion_records':len(extended),
                'title_screened_records':len(titles),'abstract_screened_records':len(decisions),

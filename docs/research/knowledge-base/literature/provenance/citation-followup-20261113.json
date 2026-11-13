@@ -1,0 +1,198 @@
+{
+  "sources": [
+    {
+      "source_id": "afterimage-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3575693.3575719",
+      "response_url": "https://api.crossref.org/works/10.1145/3575693.3575719",
+      "status": 200,
+      "retrieved_at": "2026-11-13T01:44:37.525452+00:00",
+      "sha256": "3c2f4cf67106bb59e6be282c85514d18d06c0efc2e68d96b72d117bf81b72b32",
+      "bytes": 21426,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "afterimage-formal-pdf",
+      "url": "https://www.comp.nus.edu.sg/~tcarlson/pdfs/chen2023lcfivthp.pdf",
+      "response_url": "https://www.comp.nus.edu.sg/~tcarlson/pdfs/chen2023lcfivthp.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T01:44:44.513143+00:00",
+      "sha256": "9c32fe6c7ecd5cae163d81b4a851038a094a9279fc6096db7544065e05f09adc",
+      "bytes": 899682,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "branch-different-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-09484-2_7",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-09484-2_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T01:44:39.516107+00:00",
+      "sha256": "66df7c3cf06ca3c5bf2bed3430f1815b5a1e5a85d1ad473c487f4f3da38e6b88",
+      "bytes": 14038,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "branch-different-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-09484-2_7",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-09484-2_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T01:47:54.298421+00:00",
+      "sha256": "e8fa525d94c65e71ffa614abd0570b8e1518922f7701398047ba747615646dad",
+      "bytes": 314423,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "flatter-eprint",
+      "url": "https://eprint.iacr.org/2023/237",
+      "response_url": "https://eprint.iacr.org/2023/237",
+      "status": 200,
+      "retrieved_at": "2026-11-13T01:44:49.612944+00:00",
+      "sha256": "0d6dabcb4543e6608e76f478716a4b924c6a56e4973adb7de038d5164359d723",
+      "bytes": 15855,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "flatter-query",
+      "url": "https://api.crossref.org/works?query.bibliographic=Fast+Practical+Lattice+Reduction+through+Iterated+Compression&rows=3",
+      "response_url": "https://api.crossref.org/works?query.bibliographic=Fast+Practical+Lattice+Reduction+through+Iterated+Compression&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:15:58.605698+00:00",
+      "sha256": "583bdb6062b65cde26fa8c570a18a091d79eec426d73b52e2a7787bbf189af22",
+      "bytes": 32723,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "key-mismatch-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-92068-5_4",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-92068-5_4",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:15:57.294815+00:00",
+      "sha256": "b0470281973ae95a26f0702b88e2abb754fbeeab0215fd4b83665ba570b9592b",
+      "bytes": 25473,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "key-mismatch-eprint",
+      "url": "https://eprint.iacr.org/2021/123",
+      "response_url": "https://eprint.iacr.org/2021/123",
+      "status": 200,
+      "retrieved_at": "2026-11-13T01:44:48.908561+00:00",
+      "sha256": "a76b9d551e2c0d788a0cb94c985f1d51c4b801c244bca5755691798fea8ba1b9",
+      "bytes": 16187,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "pacman-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3470496.3527429",
+      "response_url": "https://api.crossref.org/works/10.1145/3470496.3527429",
+      "status": 200,
+      "retrieved_at": "2026-11-13T01:44:40.831606+00:00",
+      "sha256": "5cb5655cf3120bc519d9eae0c596f5d01f605378a4e1a0937b490cd8c22c7b45",
+      "bytes": 27161,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "pacman-formal-pdf",
+      "url": "https://dspace.mit.edu/server/api/core/bitstreams/f81a1533-d11a-4483-b921-d98c783830e2/content",
+      "response_url": "https://cf003.cdn.4science.cloud/4s-assetstore-prod--mit--dspace/18784523703883469711497375862477822897?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B+filename%3D%223470496.3527429.pdf%22&Expires=1794534291&Signature=mwePAkmgvixnw7MBcz1Xi7pgSrNyuN8Qe4fuzqftQ9qlTir4l~lPxNJ7Kw4LYqKUCYiIZZkJvic11fopziS-Nnnjp64et82wmIGFa0EABjmTW-E8dbNE6DkAB3kAGf9m4aY9kcTSAa0mYhKHPIVes2qdx8FBrjdBKy5zRG-JJsCnUM5kYmq6Mky9w5NO~XkN900DK1~bMvl2tA2YPLAcjCFWBjQxs6VSfXN-O9n0QcLHjT33Br0LlHI0qkNwh3PNtRH35uI4b18yanUM84aXeBhgKVfm3Ugf1m2hYp~EoqxLK8quhwlPqQHYOf2bAw95h1oD6hH2Q50EItZa7LIw1w__&Key-Pair-Id=K1M0LPFHJMTXJX",
+      "status": 200,
+      "retrieved_at": "2026-11-13T01:44:49.661323+00:00",
+      "sha256": "6263bce0e3cf9a04ef3ed4008eadf13ac825cb5796d32a212417cccb9630c879",
+      "bytes": 607598,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "pandora-formal-pdf",
+      "url": "https://homes.cs.washington.edu/~dkohlbre/papers/pandora.pdf",
+      "response_url": "https://homes.cs.washington.edu/~dkohlbre/papers/pandora.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T01:44:47.662025+00:00",
+      "sha256": "d8f12b06736d6c8599b4d86a7aa07d618f58f6af268b366b8fa0149dd37464e2",
+      "bytes": 614420,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "pandora-query",
+      "url": "https://api.crossref.org/works?query.bibliographic=Opening+Pandora%E2%80%99s+Box%3A+A+Systematic+Study+of+New+Ways+Microarchitecture+Can+Leak+Private+Data&rows=3",
+      "response_url": "https://api.crossref.org/works?query.bibliographic=Opening+Pandora%E2%80%99s+Box%3A+A+Systematic+Study+of+New+Ways+Microarchitecture+Can+Leak+Private+Data&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:15:58.362176+00:00",
+      "sha256": "76e1adff3b1dc8407d026e77d30770bae5850fda85a88a01a84909cf8a5d2a2b",
+      "bytes": 22519,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "prefetch-journal-publisher-web",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1383762123000565",
+      "retrieved_on": "2026-11-13",
+      "retrieval_method": "web search/open primary publisher content",
+      "read_scope": "abstract and introduction preview",
+      "raw_response_available_locally": false,
+      "note": "direct HTTP cache attempt returned 403; successful reading was through web tool, no raw SHA asserted"
+    },
+    {
+      "source_id": "prefetch-journal-query",
+      "url": "https://api.crossref.org/works?query.bibliographic=Exploiting+the+microarchitectural+leakage+of+prefetching+activities+for+side-channel+attacks&rows=3",
+      "response_url": "https://api.crossref.org/works?query.bibliographic=Exploiting+the+microarchitectural+leakage+of+prefetching+activities+for+side-channel+attacks&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:16:00.729665+00:00",
+      "sha256": "0b6f1e4a1aa7673fb8693ce12fa4f64043d13c8b940ec7ec1e36afbf54a89789",
+      "bytes": 19364,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "prefetchx-arxiv",
+      "url": "https://arxiv.org/abs/2306.11195",
+      "response_url": "https://arxiv.org/abs/2306.11195",
+      "status": 200,
+      "retrieved_at": "2026-11-13T01:44:50.844542+00:00",
+      "sha256": "6a8ee077344b986555eeca8db8ba09aa627596aa8cb0140c674452dfc7a7d15f",
+      "bytes": 41146,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "prefetchx-crossref",
+      "url": "https://api.crossref.org/works/10.1109/HPCA57654.2024.00037",
+      "response_url": "https://api.crossref.org/works/10.1109/HPCA57654.2024.00037",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:15:55.348782+00:00",
+      "sha256": "b8751b5f11429e3f993e6f1e156dc12105c9c3562d3984ff9db13735c031a72e",
+      "bytes": 8242,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "prefetchx-formal-pdf",
+      "url": "https://www.comp.nus.edu.sg/~tcarlson/pdfs/chen2024nccapsac.pdf",
+      "response_url": "https://www.comp.nus.edu.sg/~tcarlson/pdfs/chen2024nccapsac.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T01:44:45.311834+00:00",
+      "sha256": "253f75d9a59f25874803e435906850b1fff09a82510e6f80ae5772a4065766a0",
+      "bytes": 1856894,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "too-many-hints-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-981-99-8730-6_4",
+      "response_url": "https://api.crossref.org/works/10.1007/978-981-99-8730-6_4",
+      "status": 200,
+      "retrieved_at": "2026-11-12T08:15:55.349853+00:00",
+      "sha256": "cfe7e07ab19e257a294d54b5dfd2375019d07b9ffd1392500802e21219c3ee3f",
+      "bytes": 16750,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "too-many-hints-eprint",
+      "url": "https://eprint.iacr.org/2023/777",
+      "response_url": "https://eprint.iacr.org/2023/777",
+      "status": 200,
+      "retrieved_at": "2026-11-13T01:44:48.646885+00:00",
+      "sha256": "6ae0c31964b64d770d829bfce3dffa260bc6e1d0cff9c201fc16c852ce997980",
+      "bytes": 17453,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "method": "manual primary abstract and listed-section reading; GoFetch reference entry identity matching",
+  "new_catalog_records": 9,
+  "full_venue_catalog": false,
+  "independent_second_review": false,
+  "reviewed_on": "2026-11-13"
+}

@@ -13,7 +13,9 @@ python3 docs/research/knowledge-base/literature/tools/build_indexes.py --cache <
 
 `harvest_catalogs.py` 保留全部目录条目与来源数量，并拒绝把零解析结果当作成功。CCS 2023/2025 使用官方网站页面脚本公开引用的 XML/JSON 数据；不会访问投稿系统或非公开资料。Crossref ISBN-only 查询只得到论文集容器，已明确不作为 CCS 论文目录。
 
-`build_indexes.py` 生成关键词优先级、覆盖表、候选队列、阅读卡片、标题筛查表与引用进度表。它读取已有的 `screening/decisions.jsonl`、`screening/title-decisions.jsonl`、`papers.jsonl` 和 `citations/`，不会自动作出纳入/排除判定。关键词不命中的记录仍为待筛查。原始摘要仅用于本地排队，不整批上传；`Not Available` 等占位文字不计作摘要。
+`build_indexes.py` 生成关键词优先级、覆盖表、候选队列、阅读卡片、相邻主题记录、标题筛查表与引用进度表。它读取已有的 `screening/decisions.jsonl`、`screening/title-decisions.jsonl`、`papers.jsonl` 和 `citations/`，不会自动作出纳入/排除判定。关键词不命中的记录仍为待筛查。原始摘要仅用于本地排队，不整批上传；`Not Available` 等占位文字不计作摘要。
+
+2026-11-13 更新：发现记录区分待处理与已解析，已解析记录继续保留；引用表显示实际被引预印本及相邻主题阅读状态。覆盖表同时保留目录截点与实际阅读更新日期。校验器检查解析状态、目录身份、范围判定和引用边一致，仍不判断引用闭包是否完整。
 
 正式条目在 `papers.jsonl`；摘要卡片是人工构思并经来源阅读后写入的整理，不由关键词推导。引用队列中的 pending 不表示关系已经核实。当前没有对目录覆盖或实验结论作自动完成判定。
 

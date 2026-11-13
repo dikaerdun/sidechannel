@@ -69,9 +69,23 @@ assert len(refs)==98 and {r['reference_number'] for r in refs}==set(range(1,99))
 assert all(r['final_scope_decision'] is False for r in refs)
 assert {(r['seed_id'],r['reference_number'],r['target_id']) for r in refs if r['status']=='linked_catalog'}=={(e['from'],e['reference_number'],e['to']) for e in cites if e['source_id']=='gofetch-2024-fulltext'}
 discoveries=read_rows(ROOT/'citations/discoveries.jsonl')
-assert {r['reference_number'] for r in refs if r['status']=='discovery_queued'}=={d['reference_number'] for d in discoveries}
+assert len({d['discovery_id'] for d in discoveries})==len(discoveries)
+pending_discoveries=[d for d in discoveries if d['status'].startswith('pending_')]
+resolved_discoveries=[d for d in discoveries if d['status']=='resolved_identity_and_scope']
+assert len(pending_discoveries)+len(resolved_discoveries)==len(discoveries),'Unknown discovery state'
+assert {r['reference_number'] for r in refs if r['status']=='discovery_queued'}=={d['reference_number'] for d in pending_discoveries}
+decision_map={d['id']:d for d in decisions}
+for d in resolved_discoveries:
+    assert d['target_id'] in ids and d['target_id'] in decision_map
+    assert d['scope_decision']==decision_map[d['target_id']]['decision']
+    assert any(e['from']==d['seed_id'] and e['to']==d['target_id'] and e['reference_number']==d['reference_number'] for e in cites)
+assert coverage['citation_progress']['unresolved_discoveries']==len(pending_discoveries)
+assert coverage['citation_progress']['resolved_discoveries']==len(resolved_discoveries)
 assert coverage['citation_progress']['verified_citation_edges']==len(cites)
-assert coverage['citation_progress']['verified_version_edges']==len(edges)-len(cites)
+versions=[e for e in edges if e['type']!='cites']
+inferred_versions=[e for e in versions if e.get('relation_confidence')=='primary_source_inference']
+assert coverage['citation_progress']['verified_version_edges']==len(versions)-len(inferred_versions)
+assert coverage['citation_progress']['inferred_version_edges']==len(inferred_versions)
 assert coverage['citation_progress']['task_status_counts']==dict(Counter(t['status'] for t in citation_tasks))
 excluded=[r for p in (ROOT/'catalog-exclusions').glob('*.jsonl') for r in read_rows(p)]
 assert all(r.get('reason') and r.get('source_ids') for r in excluded)
@@ -92,5 +106,6 @@ for p in ROOT.rglob('*'):
 print(json.dumps({'catalog_records':len(catalog),'core_cells':30,'nonpaper_entries':len(excluded),
                   'title_screened':len(titles),'abstract_or_above_decisions':len(decisions),'included_papers':len(papers),
                   'citation_task_status_counts':dict(Counter(t['status'] for t in citation_tasks)),
-                  'citation_edges':len(cites),'version_edges':len(edges)-len(cites),
+                  'citation_edges':len(cites),'version_edges':len(versions),'inferred_version_edges':len(inferred_versions),
+                  'resolved_discoveries':len(resolved_discoveries),'pending_discoveries':len(pending_discoveries),
                   'relative_links_checked':links,'artifact_checks':'passed','literature_goal_complete':False}))
