@@ -67,3 +67,9 @@ python3 docs/research/knowledge-base/literature/tools/reconcile_usenix2026_toc.p
 ```
 
 该工具需要 PyMuPDF，会核对缓存哈希并重新生成 362 条对应清单、来源记录及目录中的出版起始页。保留 O(1) 的混合字体，并显式处理已视读的 L∞/L_infinity 记号差异。它不执行 OCR，不重新阅读正文，也不自动更新人工摘要判定。重跑议程抓取后应再运行对应工具，避免覆盖补充的出版元数据。
+
+## S&P 2026 部分目录对应
+
+运行 `python3 docs/research/knowledge-base/literature/tools/audit_sp2026_print_toc.py --pdf <outside-repository-pdf>`。需要 PyMuPDF，来源见 [provenance](../provenance/sp2026-print-toc-crosscheck-20261114.json)。先校验冻结 PDF 的 SHA-256，再从第 3–18 页提取 252 条题名及印刷起始页。
+
+该目录比录用/出版元数据少两篇，状态必须保留为部分对应。校验器要求 `missing_catalog_ids` 与实际差集一致，且不能标成完整；生成器显示 252/254 与缺项数量。251 条起始页差异分别保存为印刷页与 Crossref 页，脚本不猜测差异原因。

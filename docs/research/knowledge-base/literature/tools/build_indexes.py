@@ -69,6 +69,8 @@ def render_citations(root,catalogs):
       '[SDitH 引用清单](citations/sdith2026-reference-screen.jsonl) · [CiC FAEST 引用清单](citations/faest-cic2026-reference-screen.jsonl) · [HQC 引用清单](citations/hqc-valid2025-reference-screen.jsonl) · [修订与证据范围](notes/mpcith-revisions-and-evidence-20261113.md)','',
       '另完整初筛 FALCON Down 的 28 个引用位置和 HQC RM/RS 的 17 条参考文献，选读 Saber 期刊版第 41 条：共 11 条对应、21 条新待查、13 条暂列背景、一个重复位置。Falcon [23] 与 [18] 相同，保留位置但不增加引用边。',
       '[Falcon 引用清单](citations/falcon-down2021-reference-screen.jsonl) · [HQC RM/RS 引用清单](citations/hqc-rmrs2022-reference-screen.jsonl) · [Saber 单条选读](citations/saber-journal2023-selected-reference-screen.jsonl) · [版本与恢复目标](notes/pqc-citation-followups-and-evidence-20261113.md)','',
+      'Goldilocks 的 49 条参考文献已初筛：11 条身份对应、18 条待查、20 条暂列背景。被引条目的完整摘要和前后向闭合仍待处理。',
+      '[Goldilocks 引用清单](citations/goldilocks2026-reference-screen.jsonl) · [S&P 2026 证据与目录差异](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)','',
       '[GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)','',
       '| 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |','|---|---:|---|---|']
     papers={p['id']:p for p in (json.loads(x) for x in (root/'papers.jsonl').read_text().splitlines())}
@@ -86,7 +88,8 @@ def render_citations(root,catalogs):
     lines+=['','## 版本关系','','| 版本来源 | 目录中的关联记录 | 关系与边界 |','|---|---|---|']
     for e in versions:
         r=catalog[e['to']]
-        lines.append(f"| [来源]({e['from']}) | [{md(r['title'])}]({r['url']}) | {e['type']}; {md(e['status'])} |")
+        source_url=catalog.get(e['from'],{}).get('url',e['from'])
+        lines.append(f"| [来源]({source_url}) | [{md(r['title'])}]({r['url']}) | {e['type']}; {md(e['status'])} |")
     lines+=['','## 累积纠正与未完成项','',
       '- GoFetch [89] 指向 S&P 2023 的 DVFS 论文：主列表漏列、另一官方日程有收录。已补条目并保留来源差异；此前独立印刷目录 196 条对应也确认包含该篇。',
       '- GoFetch [58] 对应 SAC 2022 论文，但正式章节 2024 年上线；ePrint 与正式版作者顺序不同。书目关系已确认，全文差异未核对。',
@@ -192,13 +195,16 @@ def main():
             cells.append(cell)
             link=f'[记录](provenance/{filename}.json)' if prov else '待取得'
             toc_caveat=f"；含 {toc['unpaginated_records']} 条无页码记录" if toc and toc['unpaginated_records'] else ''
-            toc_label=f"[{toc['print_toc_records']} 条对应{toc_caveat}]({toc['provenance_file']})" if toc else '待核对'
+            if toc and toc['missing_from_toc']:
+                toc_label=f"[{toc['print_toc_records']}/{toc['accepted_records']} 条对应；缺 {toc['missing_from_toc']} 条{toc_caveat}]({toc['provenance_file']})"
+            else:
+                toc_label=f"[{toc['print_toc_records']} 条对应{toc_caveat}]({toc['provenance_file']})" if toc else '待核对'
             lines.append(f'| {venue} | {year} | {n if n else "待补齐"} | {toc_label} | {title_reviewed}/{n} | {reviewed}/{n} | {link} |')
     lines.extend(['','## 当前已知缺口','',
-      '- S&P 2022、2023、2024、2025 已与另一来源取得的 IEEE 印刷论文集目录逐项对应；USENIX 2026 已与单独取得的官方论文集 PDF 目录对应。其余 25 个单元仍待独立核对；同一个 HTML 的两种导出不算独立证据，官方 PDF 也不是独立科学审查。',
+      '- S&P 2022、2023、2024、2025 与 USENIX 2026 共五个单元已和另取的论文集目录逐项对应；S&P 2026 部分对应（252/254，缺两条），其余 24 个单元待独立核对。同一个 HTML 的两种导出不算独立证据，目录核对也不是独立科学审查。',
       '- USENIX 2026 的 381 个议程节点已分为 362 篇论文和 19 条其他活动；2016 论文的回顾讨论不计作 2026 新论文。362 个标题已读、76 篇有摘要及以上判定，286 篇摘要仍待复核。五条 SDitH 及后续 CiC/HQC 的 23 条发现已解析；继续沿 Falcon/HQC RM/RS 登记 21 条新线索，仍不构成递归闭合。目录一处 L∞/L_infinity 仅为数学记号差异。',
       '- S&P 2022 全部 147 条标题已读，49 个候选/不确定项有摘要判定，其余 98 条待复核。独立印刷目录 140 条规范化题名相同、7 条改题名；146 个可用出版起始页匹配，MSR Templating 的 Crossref 页码缺失。三处作者尾部字符已按印刷目录更正，其他名字形式及录用/出版差异保留。',
-      '- IEEE S&P 2026 页面标题与目录年度为 2026，但有一个 cycle 小标题写 2025，保留为需复核的页面不一致。',
+      '- S&P 2026 的 254 条标题已读、74 篇有摘要及以上判定，180 篇仍待摘要复核。全部取得唯一出版 DOI；八处录用/出版题名变化保留。另取印刷目录只有 252 条，缺 Audience Injection Attacks 与 Enter, Exit, Page Fault, Leak；两者仍见于官方日程和出版元数据，不据缺项推定撤回。252 条中 251 条起始页与 Crossref 不同，分别保留，原因待查。原录用页一个 cycle 小标题写 2025，出版元数据已确认 2026，页面错误仍记录。',
       '- IEEE S&P 2023 主列表漏列 DVFS Frequently Leaks Secrets；GoFetch 引用与另一官方日程促成补录，独立印刷目录现已确认全部 196 条。194 条规范化题名相同、2 条改题名；三个 N/A、两组重复 DOI 和五条作者字段差异保留待查。该年标题候选/不确定项共 48 条均有摘要判定，其余 148 条仍待摘要复核。',
       '- CCS 2026 为截至截点的官方录用目录；会议尚未举行，不能统一标为已正式发表。',
       '- Crossref 的 ISBN 查询只返回 CCS 论文集容器，不能用于证明其中没有论文；已改用官方网站目录。',

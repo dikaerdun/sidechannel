@@ -1,0 +1,19 @@
+{
+  "reviewed_on": "2026-11-14",
+  "sources": [],
+  "title_screening_batches": [
+    {
+      "venue": "SP",
+      "year": 2026,
+      "records": 254,
+      "decision_counts": {
+        "outside_title_scope": 180,
+        "uncertain": 46,
+        "candidate": 28
+      }
+    }
+  ],
+  "catalog_file": "catalogs/sp-2026.jsonl",
+  "catalog_sha256": "8d566c095504fde8dd09f4986400d61e035256855fa4acd0aaf1222e56c71aaa",
+  "scope": "manual whole-cell title pass; not final inclusion/exclusion of 180 unread abstracts"
+}

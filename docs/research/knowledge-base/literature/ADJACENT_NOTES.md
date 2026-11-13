@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 227 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 270 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA
 
@@ -1010,12 +1010,26 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## 2FiA: Towards WiFi Sensing-Based Authentication with Unique Biometrics
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00087)。
+- 判定依据：Wi-Fi 呼吸/心搏用于身份认证；摘要不研究非预期计算活动泄漏。RSA 在此指生理耦合，不是密码算法。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573398/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## A Formal Security Analysis of CAN XL
 
 - 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/tang-zhaozhou)。
 - 判定依据：CAN XL MAC 子层形式化与信号协议攻击；摘要未建立秘密侧信道推断。
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## A Full Threshold NIST PQC-Compliant Framework for Distributed Trust in Federal Public Key Infrastructure
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00164)。
+- 判定依据：SHIELD 为符合 ML-DSA 功能的分布式门限签名框架；标准兼容及抗节点失陷不等于实现侧信道安全。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573478/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## A High-Performance and Reconfigurable Hardware Architecture for FrodoKEM
 
@@ -1024,12 +1038,33 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## A Leakage-Free Framework for Private Set Operations
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00171)。
+- 判定依据：during-execution leakage 指集合操作协议中间信息；未建立功耗、时间或访存观察模型。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573505/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00221)。
+- 判定依据：后量子恶意安全 OPRF 和 VOLE 协议；相关随机性及模转换不自动等于掩码实现防护。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573481/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## A Unified RISC-V Vector Framework for Large-Scale NTT in FHE and ZKP
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i4.970-997)。
 - 判定依据：RISC-V 向量框架适配 FHE/ZKP 大规模 NTT 并在 gem5 上评价性能，摘要未报告泄漏评估。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## AESpoly: Symmetric-Key Cryptographic Designs Using Instruction-Level Parallelism between AES and Polynomial Hash
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00138)。
+- 判定依据：利用 AES/CLMUL 指令并行性设计对称方案并比较性能；未在摘要评估观察通道。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573476/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## ARM MTE Performance in Practice
 
@@ -1080,6 +1115,13 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Auditing Apple’s DifferentialPrivacy.framework: Implementation Bugs, Misconfigurations, and Practical Risks
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00225)。
+- 判定依据：审计差分隐私浮点噪声及上传日志的协议输出风险；非本库实现侧信道纳入数，保留数值/隐私背景。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573572/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## BLE Theft Auto: Evaluating the Security of Aftermarket BLE-based Automotive Remote Control Systems
 
 - 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/yu-jerry)。
@@ -1093,6 +1135,41 @@
 - 判定依据：BOLT-FHE 通过块内执行和融合内核优化 GPU 自举；固定执行模板不是自动成立的侧信道证明。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00129)。
+- 判定依据：声学注入改变云台与跟踪结果，是主动传感器完整性攻击而非秘密观察。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573942/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00052)。
+- 判定依据：动态内存地址篡改绕过 TEE 保护并取得明文读写；按物理完整性/故障相邻保留，区别于 TEE.Fail 的事务观察路径。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573462/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00165)。
+- 判定依据：定义 LLM 输出提取与不可区分性的关系；是任务隐私理论，未建立密码实现的测量通道。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573553/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Blinding Post-Quantum Hash-and-Sign Signatures
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00032)。
+- 判定依据：blinding 是盲签名协议，非侧信道盲化；UOV/Wave 构造未由摘要建立物理防护。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573475/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## BreakFAST: Confused Deputy Attack on Infinity Fabric to Break AMD SEV-SNP
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00259)。
+- 判定依据：利用 PSP 与 MMIO 路由的 confused-deputy 逻辑缺陷；不是通过频率或功耗推断秘密。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573570/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Breaking the Myth of MPCitH Inefficiency: Optimizing MQOM for Embedded Platforms
 
@@ -1114,6 +1191,13 @@
 - 判定依据：零知识模型审计的泛化假设缺口；非时序或物理实现泄漏。
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Chorus: Secret Recovery with Ephemeral Client Committees
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00149)。
+- 判定依据：以临时客户端委员会实现合法秘密恢复；secret recovery 不是侧信道攻击恢复。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573522/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## CompLeak: Deep Learning Model Compression Exacerbates Privacy Leakage
 
@@ -1171,12 +1255,40 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Decor: Delegated Computation on Randomness for Secure Evaluation of Nonlinear Functions
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00256)。
+- 判定依据：可信 dealer 预处理非线性函数的 MPC 框架；未建立实体机器观察下的掩码保证。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573504/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Demystifying and Exploiting ASLR on NVIDIA GPUs
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00078)。
+- 判定依据：分析可获取地址之间的 ASLR 相关性及未随机化区域；摘要未建立额外时间/缓存读出通道，先作地址布局背景。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573432/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Descriptors of Exposure: Undermining Tor Anonymity through Exploiting Descriptor Flood
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00071)。
+- 判定依据：以描述符洪泛、节点失效推动 DoS/去匿名；具体身份观察机制待正文，先保留主动网络攻击相邻项。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573569/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Design and Implementation of a Physical Implant Attack on the Boeing 737
 
 - 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/crow)。
 - 判定依据：物理总线植入与信号操纵；摘要主要是完整性攻击，非旁路观测恢复秘密。
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Dory: Streaming PCG with Small Memory
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00079)。
+- 判定依据：流式相关随机数生成与 LPN 参数攻击；low Hamming weight 不意味着实测侧信道提示。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573541/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Download More RAM: Dismantling Windows Operating System Defences with Mischievous Memory
 
@@ -1248,6 +1360,20 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## GDDR: Greatly Disturbing DRAM Rows — Cross-Component Rowhammer Attacks from Modern GPUs
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00228)。
+- 判定依据：GPU Rowhammer 位翻转引发跨 GPU/CPU 内存访问，为故障与完整性研究。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573509/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## GPUBreach: Privilege Escalation Attacks on GPUs using Rowhammer
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00177)。
+- 判定依据：通过 GPU Rowhammer 提权后读取 cuPQC 密钥；PQC 案例属于内存失陷，不能记为 PQC 功耗恢复。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573424/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs
 
 - 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/wu-lichao)。
@@ -1255,12 +1381,33 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## GeForge: Hammering GDDR Memory to Forge GPU Page Tables for Fun and Profit
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00230)。
+- 判定依据：通过 GPU 页表位翻转获得访问和提权；不是正常执行下的秘密观测。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573423/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## GoSSamer: Lightweight and Linear-Communication Asynchronous (Dynamic Proactive) Secret Sharing and the Applications
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00185)。
+- 判定依据：异步及主动秘密分享的通信与计算优化；PQC 协议性质不等于物理泄漏韧性。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573498/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## HAMLOCK: HArdware-Model LOgically Combined attacK
 
 - 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/amgain)。
 - 判定依据：硬件木马与模型后门配合改变输出；低功耗开销不是秘密侧信道实验。
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Hardware Trojans from Invisible Inversions: On the Trojanizability of Standard Cell Libraries
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00219)。
+- 判定依据：比较标准单元的背面 SEM 可辨性并植入后门；不是功耗/EM 木马检测或秘密观察评估。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573433/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## HawkPU: An Efficient and Low-Latency Hardware Architecture for HAWK Signature Generation and Verification
 
@@ -1304,6 +1451,13 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## INSIGHT: Automatic Generation of Explanations for Efficient Identification of Hardware Bugs and Underspecifications
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00201)。
+- 判定依据：硬件与 ISA 参考模型的功能偏差解释和聚类；未由摘要建立侧信道非干扰。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573561/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Improving ML-KEM and ML-DSA on OpenTitan: Efficient Multiplication Vector Instructions for OTBN
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i2.495-519)。
@@ -1318,12 +1472,26 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## It’s a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00148)。
+- 判定依据：允许受策略约束的状态回滚并审计完整性；未说明物理历史或时序泄漏。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573496/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Jailbreaking the AMD Secure Processor: Enabling Live Analysis of SEV-SNP's Undocumented Security Boundaries
 
 - 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/shen)。
 - 判定依据：内存别名与 TOCTOU 破解 ASP 并直接读取/伪造；非被动 SCA。
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Lattice-based Threshold Blind Signatures
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00118)。
+- 判定依据：格门限盲签名的协议构造与证明；盲性、节点门限和硬件掩码是不同保证。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573582/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Libra: Pattern-Scheduling Co-Optimization for Cross-Scheme FHE Code Generation over GPGPU
 
@@ -1402,6 +1570,20 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Nonlocalizable Jamming with Curving Beams
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00253)。
+- 判定依据：曲线波束欺骗到达角并干扰无线系统；保留主动物理完整性背景。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573486/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Optimistic Asynchronous Dynamic-committee Proactive Secret Sharing
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00243)。
+- 判定依据：动态委员会主动秘密分享的复杂度改进；不是连续物理泄漏实验。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573576/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Optimized Implementations of Keccak, Kyber, and Dilithium on the MSP430 Microcontroller
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i2.409-440)。
@@ -1430,6 +1612,13 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00083)。
+- 判定依据：DDR5 刷新同步支持 Rowhammer 提权；以故障攻击背景保留。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573456/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Pipelining FALCON’s Gaussian sampler: Towards practical FALCON acceleration
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i4.447-470)。
@@ -1444,6 +1633,13 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## RIS-CLA: Reviving CSI-Based Continuous Location Authentication with Reconfigurable Intelligent Surfaces
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00031)。
+- 判定依据：可重构表面增强位置认证，主要目标为抗 CSI 猜测；非密码运算泄漏分析。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573485/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## RainHash2.0: Hardware- and Arithmetization-friendly Hash Function
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i4.62-115)。
@@ -1451,12 +1647,26 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Recovering and Rehosting Mobile Local LLM Conversations and Contexts via Memory Forensics
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00252)。
+- 判定依据：直接读取进程内存/KV cache 进行取证与会话重建；不是计算活动侧信道。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573549/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Refined Approx-SVP Rank Reduction Conditions and Adaptive Lattice Reduction for MSIS Security Estimation
 
 - 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i4.397-422)。
 - 判定依据：APBKZ/HeadAPBKZ 研究 Approx-SVP 条件和 MSIS 具体安全估计，属于格求解成本背景。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Revisiting PQ WireGuard: A Comprehensive Security Analysis With a New Design Using Reinforced KEMs
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00057)。
+- 判定依据：重新设计 PQ WireGuard 并证明 reinforced KEM 协议性质；无实现侧信道保证。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573471/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## SHARMONY: Composing SHA-2 and SHA-3 Hardware for Crypto-Agile PQC
 
@@ -1486,6 +1696,34 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## SatBleed: Security of Commoditized Communication Modules in Satellites
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00213)。
+- 判定依据：卫星通信模块固件、协议和架构漏洞研究；名称 Bleed 不足以说明侧信道。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573399/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Scalable Registration-Based Encryption from Lattices
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00199)。
+- 判定依据：格注册加密与密文压缩性能；不含摘要可确认的实现泄漏分析。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573539/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Secret State Leakage Attacks and their Impacts on EMV Contactless Payment Apps
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00125)。
+- 判定依据：有本地/root 能力的应用秘密状态提取和协议分析；未确认利用时间、功耗或微架构观察。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573484/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Secure Lookup Tables: Faster, Leaner, and More General
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00209)。
+- 判定依据：恶意安全 MPC 查找表协议；不是 CPU 缓存恒时 LUT 实现。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573422/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Shadowfax: Hybrid Security and Deniability for AKEMs
 
 - 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/gajland)。
@@ -1500,12 +1738,33 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Single-server Stateful PIR with Verifiability and Balanced Efficiency
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00019)。
+- 判定依据：PIR 查询隐私及可验证性构造；未给出客户端或服务器执行观察模型。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573634/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Sirens' Whisper: Inaudible Near-Ultrasonic Jailbreaks of Speech-Driven LLMs
 
 - 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/ling)。
 - 判定依据：利用麦克风非线性注入近超声指令；主要为输入完整性攻击，非窃听秘密。
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00241)。
+- 判定依据：代理浏览器通过特权 IPC 被提示注入/直接外传；区别于同进程 Spectre 案例。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573584/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## SoK: All You Ever Wanted to Know About Bootloader Security But Were Afraid to Ask
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00163)。
+- 判定依据：软件引导链漏洞的系统化综述；摘要不建立侧信道覆盖。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573574/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## SoK: Security of Cyber-physical Systems Under Intentional Electromagnetic Interference Attacks
 
@@ -1514,12 +1773,26 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## SoK: Systematizing a Decade of Architectural RowHammer Defenses Through the Lens of Streaming Algorithms
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00114)。
+- 判定依据：从流式算法整理 Rowhammer 防护，是故障防御综述，不计为侧信道防御。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573421/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## StackWarp: Breaking AMD SEV-SNP Integrity via Deterministic Stack-Pointer Manipulation through the CPU's Stack Engine
 
 - 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-ruiyi)。
 - 判定依据：Stack engine 控制产生架构状态操纵；RSA-CRT 恢复基于完整性破坏，非侧信道读出。
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Starfighters—On the General Applicability of X-Wing
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00143)。
+- 判定依据：X-Wing/QSF/QSI 的 IND-CCA 与绑定性质；协议组合证明不自动覆盖共享电路泄漏。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573402/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Structured Module Lattice-based Cryptography: Fine-Grained Parameter Selection without Compromising Performance
 
@@ -1542,6 +1815,27 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## The Person Behind the Sound: Demystifying Audio Private Attribute Profiling via Multimodal Large Language Models
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00150)。
+- 判定依据：音频内容的私人属性推断与多模态模型；不计为密码/系统实现观察通道，保留泛隐私背景。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573542/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## The Pipes Model for Latency and Throughput Analysis
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00255)。
+- 判定依据：分布式协议性能模型；latency/throughput 并非秘密相关时间泄漏分析。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573603/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## The Secrets Must Not Flow: Scaling Security Verification to Large Codebases
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00026)。
+- 判定依据：Diodon 验证协议核心及应用 I/O 独立性；摘要未把功耗、执行时间或微架构观察纳入保证。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573428/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Tracegram: Framing Trace-Level Traffic Analysis with Temporally-Aware Multiple Instance Learning
 
 - 来源：[USENIX 2026](https://www.usenix.org/conference/usenixsecurity26/presentation/qu)。
@@ -1555,6 +1849,13 @@
 - 判定依据：能力架构隔离 RTOS 与外围设备；摘要未给出侧信道防护模型。
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## TÄMU: Emulating Trusted Applications at the (GlobalPlatform)-API Layer
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00139)。
+- 判定依据：在 GlobalPlatform API 层重宿主 TEE 应用并模糊测试；重宿主不意味着物理或微架构侧信道保真。
+- 阅读来源：https://xplorestaging.ieee.org/document/11573358/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Vectorized Falcon-Sign Implementations using SSE2, AVX2, AVX-512F, NEON, and RVV
 

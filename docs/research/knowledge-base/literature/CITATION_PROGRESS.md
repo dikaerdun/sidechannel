@@ -1,8 +1,8 @@
 # 引用与版本追踪进度
 
-已核对 168 条引用条目；版本关系共 38 条，其中 33 条书目核实、5 条为原始来源推定。它们不等于被引论文已全部读完。
-追踪任务共 684 项：in_progress=56, pending=628。
-已登记发现中，61 条完成身份与范围判定，21 条仍待核查；已解析记录继续保留历史。
+已核对 179 条引用条目；版本关系共 39 条，其中 34 条书目核实、5 条为原始来源推定。它们不等于被引论文已全部读完。
+追踪任务共 748 项：in_progress=57, pending=691。
+已登记发现中，61 条完成身份与范围判定，39 条仍待核查；已解析记录继续保留历史。
 
 GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan、Peek-a-Walk、EasyCrypt、Episode V 及 S&P 2023 的指定引用继续保留。追加 GLP 期刊、Protecting Dilithium、3D-Shield 合计九条选读；所有选读均不构成完整参考文献筛查。
 SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 条参考列表已逐条初筛，原 23 条发现现已解析，共 59 条对应、36 条暂列背景。背景条目未经原文最终排除，全部列表也不构成递归引用闭合。
@@ -10,6 +10,9 @@ SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 �
 
 另完整初筛 FALCON Down 的 28 个引用位置和 HQC RM/RS 的 17 条参考文献，选读 Saber 期刊版第 41 条：共 11 条对应、21 条新待查、13 条暂列背景、一个重复位置。Falcon [23] 与 [18] 相同，保留位置但不增加引用边。
 [Falcon 引用清单](citations/falcon-down2021-reference-screen.jsonl) · [HQC RM/RS 引用清单](citations/hqc-rmrs2022-reference-screen.jsonl) · [Saber 单条选读](citations/saber-journal2023-selected-reference-screen.jsonl) · [版本与恢复目标](notes/pqc-citation-followups-and-evidence-20261113.md)
+
+Goldilocks 的 49 条参考文献已初筛：11 条身份对应、18 条待查、20 条暂列背景。被引条目的完整摘要和前后向闭合仍待处理。
+[Goldilocks 引用清单](citations/goldilocks2026-reference-screen.jsonl) · [S&P 2026 证据与目录差异](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
 
 [GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)
 
@@ -74,6 +77,17 @@ SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 �
 | [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | 11 | [Formally verifying Kyber: Episode IV: Implementation correctness](https://doi.org/10.46586/tches.v2023.i3.164-193) | abstract read; adjacent (see ADJACENT_NOTES) |
 | [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | 12 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | selected_full_text_sections |
 | [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) | 61 | [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) | selected_full_text_sections |
+| [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | 1 | [Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.usenix.org/conference/usenixsecurity22/presentation/wang-yingchen) | abstract_and_bibliographic_metadata |
+| [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | 2 | [Frequency Throttling Side-Channel Attack](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | catalog only; abstract pending |
+| [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | 3 | [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) | abstract_and_bibliographic_metadata |
+| [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | 4 | [Hot Pixels: Frequency, Power, and Temperature Attacks on GPUs and Arm SoCs](https://www.usenix.org/conference/usenixsecurity23/presentation/taneja) | catalog only; abstract pending |
+| [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | 5 | [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) | selected_full_text_sections |
+| [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | 6 | [Hints from Hertz: Dynamic Frequency Scaling Side-Channel Analysis of Number Theoretic Transform in Lattice-Based KEMs](https://doi.org/10.46586/tches.v2024.i3.200-223) | abstract_and_bibliographic_metadata |
+| [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | 21 | [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) | selected_full_text_sections |
+| [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | 22 | [A Side-Channel Attack on a Masked IND-CCA Secure Saber KEM Implementation](https://doi.org/10.46586/tches.v2021.i4.676-707) | abstract_and_bibliographic_metadata |
+| [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | 30 | [CacheQL: Quantifying and Localizing Cache Side-Channel Vulnerabilities in Production Software](https://www.usenix.org/conference/usenixsecurity23/presentation/yuan-yuanyuan-cacheql) | catalog only; abstract pending |
+| [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | 41 | [Collide+Power: Leaking Inaccessible Data with Software-based Power Side Channels](https://www.usenix.org/conference/usenixsecurity23/presentation/kogler) | catalog only; abstract pending |
+| [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | 49 | [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) | selected_full_text_sections |
 | [Hardware Implementation and Security Analysis of Local-Masked NTT for CRYSTALS-Kyber](https://doi.org/10.1109/tc.2026.3729145) | 11 | [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) | abstract_and_bibliographic_metadata; citation DOI from publisher metadata; full-text bibliography unread |
 | [A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber](https://doi.org/10.1109/tcsii.2025.3528751) | 1 | [Status report on the third round of the NIST Post-Quantum Cryptography Standardization process](https://doi.org/10.6028/nist.ir.8413) | abstract read; adjacent (see ADJACENT_NOTES) |
 | [A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber](https://doi.org/10.1109/tcsii.2025.3528751) | 2 | [Super-K: A Superscalar CRYSTALS-KYBER Processor Based on Efficient Arithmetic Array](https://doi.org/10.1109/tcsii.2024.3382772) | abstract read; adjacent (see ADJACENT_NOTES) |
@@ -226,6 +240,7 @@ SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 �
 | [来源](https://eprint.iacr.org/2022/1713) | [Breaking a Fifth-Order Masked Implementation of CRYSTALS-Kyber by Copy-Paste](https://doi.org/10.1145/3591866.3593072) | preprint_of; Inference from title, overlapping authors and abstract; formal version adds Ruize Wang; no explicit publication link or full-text comparison |
 | [来源](https://eprint.iacr.org/2021/902) | [Breaking Masked and Shuffled CCA Secure Saber KEM by Power Analysis](https://doi.org/10.1145/3474376.3487277) | preprint_of; Inference from title/authors/topic and later explicit journal extension; preprint itself does not name ASHES DOI; conference text unread |
 | [来源](https://eprint.iacr.org/2020/1559) | [On Exploiting Message Leakage in (Few) NIST PQC Candidates for Practical Message Recovery Attacks](https://doi.org/10.1109/tifs.2021.3139268) | preprint_of; Inference from authors/mechanism; preprint title adds key recovery and abstract candidate count differs; no explicit author DOI or full-text equivalence |
+| [来源](https://eprint.iacr.org/2026/1081) | [From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight](https://doi.org/10.1109/sp63933.2026.00239) | preprint_of; explicit author DOI and minor-revision declaration; full-text difference not inspected |
 
 ## 累积纠正与未完成项
 

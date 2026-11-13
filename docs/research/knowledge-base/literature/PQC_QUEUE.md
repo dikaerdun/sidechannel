@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6726 条，其中 405 条命中后量子相关关键词。
+当前目录记录 6727 条，其中 410 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -28,10 +28,14 @@
 | 2026 CCS | [When Topology Betrays Privacy: Lattice-Based Reconstruction Attacks on Secure Aggregation in Decentralized Federated Learning](https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html) | pending |
 | 2026 IACR CiC | [Side-Channel Attacks on VOLEitH Signature Schemes: Breaking Masked FAEST](https://doi.org/10.62056/aebngyl7s) | include |
 | 2026 IACR ePrint | [HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without Masking](https://eprint.iacr.org/2026/081) | include |
-| 2026 SP | [A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter](https://www.ieee-security.org/TC/SP2026/accepted-papers.html#collapse-228) | pending |
-| 2026 SP | [Blinding Post-Quantum Hash-and-Sign Signatures](https://www.ieee-security.org/TC/SP2026/accepted-papers.html#collapse-33) | pending |
-| 2026 SP | [From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight](https://www.ieee-security.org/TC/SP2026/accepted-papers.html#collapse-247) | pending |
-| 2026 SP | [Lattice-based Threshold Blind Signatures](https://www.ieee-security.org/TC/SP2026/accepted-papers.html#collapse-119) | pending |
+| 2026 SP | [A Full Threshold NIST PQC-Compliant Framework for Distributed Trust in Federal Public Key Infrastructure](https://doi.org/10.1109/sp63933.2026.00164) | adjacent |
+| 2026 SP | [A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter](https://doi.org/10.1109/sp63933.2026.00221) | adjacent |
+| 2026 SP | [Blinding Post-Quantum Hash-and-Sign Signatures](https://doi.org/10.1109/sp63933.2026.00032) | adjacent |
+| 2026 SP | [From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight](https://doi.org/10.1109/sp63933.2026.00239) | include |
+| 2026 SP | [Lattice-based Threshold Blind Signatures](https://doi.org/10.1109/sp63933.2026.00118) | adjacent |
+| 2026 SP | [Revisiting PQ WireGuard: A Comprehensive Security Analysis With a New Design Using Reinforced KEMs](https://doi.org/10.1109/sp63933.2026.00057) | adjacent |
+| 2026 SP | [Scalable Registration-Based Encryption from Lattices](https://doi.org/10.1109/sp63933.2026.00199) | adjacent |
+| 2026 SP | [Starfighters—On the General Applicability of X-Wing](https://doi.org/10.1109/sp63933.2026.00143) | adjacent |
 | 2026 TC | [Hardware Implementation and Security Analysis of Local-Masked NTT for CRYSTALS-Kyber](https://doi.org/10.1109/tc.2026.3729145) | include |
 | 2026 TCHES | [A Framework for designing High-Order Side-Channel Protected Hardware Implementations of ML-KEM](https://doi.org/10.46586/tches.v2026.i2.272-295) | include |
 | 2026 TCHES | [A High-Performance and Reconfigurable Hardware Architecture for FrodoKEM](https://doi.org/10.46586/tches.v2026.i3.171-197) | adjacent |
@@ -117,6 +121,7 @@
 | 2026 USENIX | [VROOM: Accelerating (Almost All) Number-Theoretic Cryptography Using Vectorization and the Residue Number System](https://www.usenix.org/conference/usenixsecurity26/presentation/langowski) | include |
 | 2026 USENIX | [ZipPIR: High-throughput Single-server PIR without Client-side Storage](https://www.usenix.org/conference/usenixsecurity26/presentation/mahdavi) | pending |
 | 2026 arXiv | [Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach](https://arxiv.org/abs/2611.01144) | include |
+| 2026 ePrint | [From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight](https://eprint.iacr.org/2026/1081) | include |
 | 2025 CCS | [CROSS-X: Generalized and Stable Cross-Cache Attack on the Linux Kernel](https://dl.acm.org/doi/10.1145/3719027.3765152) | pending |
 | 2025 CCS | [Formally Verified Correctness Bounds for Lattice-Based Cryptography](https://dl.acm.org/doi/10.1145/3719027.3765218) | pending |
 | 2025 CCS | [LZKSA: Lattice-based special zero-knowledge proofs for secure aggregation's input verification](https://dl.acm.org/doi/10.1145/3719027.3744812) | pending |

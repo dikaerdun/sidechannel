@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 342 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 374 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Differential Power Analysis
 
@@ -3149,6 +3149,379 @@
 - [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
+## AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00035)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Nicolas Dutly; Friederike Groschupp; Ivan Puddu; Kari Kostiainen; Srdjan Čapkun
+- 对象：SGX, AEX-Notify, ECDSA；类型：microarchitectural_side_channel。
+- 核心想法：以概率性中断计数绕过 AEX-Notify 的执行进度隐藏目标。
+- 作者报告：作者构造了启用 AEX-Notify 的 SGX ECDSA 密钥泄漏案例。
+- 限制与下一步：不需要确定性单步不等于没有中断控制权限；具体密钥恢复预算待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573587/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Can I Get More? An Incremental Inference Attack on Encrypted SQL
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00133)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Xiaoqian Sun; Ruiqi He; Yang Zhang; Siyi Lv; Guiyun Qin; Fangzhou Yi; Zheli Liu; Xiaofeng Chen
+- 对象：encrypted SQL, joint distributions；类型：system_metadata_side_channel。
+- 核心想法：从列相等关系建立锚点，再逐步利用跨列联合分布恢复加密 SQL 数据映射。
+- 作者报告：作者用最优传输处理部分域重叠，并区分值恢复和行恢复。
+- 限制与下一步：依赖允许泄漏及辅助分布；最优条件下不同查询场景的数字不可合并为普遍恢复率。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573930/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Chypnosis: Undervolting-based Static Side-channel Attacks
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00090)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Kyle Mitard; Saleh Khalaj Monfared; Fatemeh Khojasteh Dana; Robert Dumitru; Yuval Yarom; Shahin Tajik
+- 对象：Chypnosis, OpenTitan, FPGA, static leakage, impedance, LLSI；类型：physical_side_channel。
+- 核心想法：通过欠压停钟并阻止状态清理，再结合静态侧信道读取保留状态。
+- 作者报告：作者报告多种 FPGA 传感器及 OpenTitan 模块案例，并提出时钟检测改进。
+- 限制与下一步：包含主动供电操纵与 LLSI/阻抗读出，不能写成纯被动功耗；OpenTitan 模块实验不代表所有芯片版本。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573501/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Credential Extraction Attacks Against Compromised Credential Checking Services of Password Managers
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00103)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Yihe Duan; Ding Wang; Yutong Li
+- 对象：password managers, query patterns；类型：system_metadata_side_channel。
+- 核心想法：利用密码管理器向凭据检查服务发出的确定性查询模式关联用户并提高猜测能力。
+- 作者报告：攻击者为诚实但好奇的 C3 服务；作者评价 14 款管理器，其中 10 款受影响。
+- 限制与下一步：用户识别率与一次猜测收益不同；服务端可见查询条件不可省略，非加密算法本身被破解。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573497/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Crucible: Retrofitting Commodity CPUs with Vulnerabilities via Transparent Software Emulation
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00186)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Tristan Hornetz; Lukas Gerlach; Michael Schwarz
+- 对象：Crucible, transient execution, emulation；类型：research_infrastructure。
+- 核心想法：软件模拟 Meltdown 类瞬态漏洞以支持未修改的攻击与检测程序。
+- 作者报告：作者在不受影响的 x86 硬件上模拟缓存读出、瞬态窗口和围栏行为，复现三项端到端案例。
+- 限制与下一步：模拟得到的泄漏不证明宿主 CPU 原生存在漏洞；仿真保真度和适用漏洞族需区分。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573460/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Defeating Transient Execution Attacks by Limiting Secret Reachability Through Register Hiding and ShadowCFI
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00015)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Daniël Trujillo; Jagadish Kotra; David Kaplan; Mengjia Yan
+- 对象：Spectre v2, Register Hiding, ShadowCFI；类型：microarchitectural_countermeasure。
+- 核心想法：以寄存器状态隐藏和控制流恢复约束削弱推测路径上的秘密可达性。
+- 作者报告：作者实现 Linux 6.8.0 补丁并比较 AMD Zen 4 的防护开销。
+- 限制与下一步：针对指定 Spectre v2 类攻击和恢复条件；不能扩展为全部瞬态、功耗或 EM 安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573418/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00007)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Oleksii Oleksenko; Flavien Solt; Cedric Fournet; Jana Hofmann; Boris Kopf; Stavros Volos
+- 对象：model-based relational testing, domain isolation；类型：side_channel_discovery。
+- 核心想法：扩展关系测试以检查虚拟机、内核和进程之间的微架构隔离。
+- 作者报告：作者在六款 x86-64 CPU 上报告四项新泄漏及已知案例。
+- 限制与下一步：测试发现能力不等于穷尽证明；两次假阳性与所用模型、硬件集合一起保留。印刷目录缺此项，出版元数据仍存在。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573579/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## EyeSpy: Inferring Eye Gaze via Side-Channel Attacks Against Foveated Rendering
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00145)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Paul Maynard; Harris Amjad; Camila Molinares; Bo Ji; Brendan David-John
+- 对象：VR, foveated rendering, GPU workload, gaze；类型：system_side_channel。
+- 核心想法：通过注视点渲染引起的 GPU 工作量变化推断眼动位置。
+- 作者报告：攻击在视野内移动高成本对象并观察帧率/帧时间，评价多个设备及渲染平台。
+- 限制与下一步：需要控制渲染内容及性能观测；并非无需植入内容的被动读眼动。防御 F1 与角度误差属于不同任务。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573450/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Fractal: An Operating System Designed for Microarchitecture Reverse Engineering
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00141)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Joseph Ravichandran; Mengjia Yan
+- 对象：Fractal, microarchitecture, Apple M1；类型：research_infrastructure。
+- 核心想法：专用 OS 通过低噪声跨特权级并发与可控调度支持微架构逆向。
+- 作者报告：作者以 Apple M1 分支预测器为案例，报告有限 Phantom speculation 的证据。
+- 限制与下一步：逆向证据不等于完整数据窃取；不把一个 M1 案例扩张为所有 Apple Silicon。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573600/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00239)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Minki Hhan; Ga Hee Hong; Jiseung Kim; Changmin Lee; JeongHwan Lee
+- 对象：LWE, FHE, sparse ternary secrets, hints；类型：pqc_side_information_solver。
+- 核心想法：利用稀疏三元秘密结构减少 LWE 精确/近似提示的求解需求。
+- 作者报告：摘要报告 GAA 条件分析与经验结果；n=2^15、h=32 时为 320 条提示，h=192 的 OpenFHE 场景仅验证精确提示。
+- 限制与下一步：提示获取成本未由摘要建立；不是 ML-KEM 实测功耗恢复，O(h log h) 不能当作无条件保证。ePrint 正文访问 403，保留未读。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573630/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00167)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Inwhan Chun; Christine Guo; Riccardo Paccagnella
+- 对象：Goldilocks, Hertzbleed, SIKE, Classic McEliece, ECDSA；类型：pqc_system_countermeasure。
+- 核心想法：通过约束节流发生次数及持续时间限制 P-state 序列的泄漏。
+- 作者报告：作者给出 O(N log t) 界；静态策略 N 有界，测量含 SIKE、Classic McEliece 与 ECDSA。
+- 限制与下一步：限功耗到频率通道；冷态并非零泄漏，重访策略另计 N。τ 定义与实测计时起点待核对，SIKE 评估仅选 4/378 个比特。
+- 阅读层级：selected_full_text_sections；来源：https://xplorestaging.ieee.org/document/11573361/。
+- 已读章节：Publisher abstract; author PDF pp.3-10 and 13-17: model, design, implementation, evaluation setup/security scope, limitations, all 49 bibliography entries and appendices. Figures/table on pp.9 and 13 visually checked. Not complete proof or artifact audit.
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not retrieved or executed; timing-origin discrepancy requires implementation/author clarification；引用追踪：in_progress。
+
+## HEAP LOCALIZATION: Cache Side-Channel Based Linux Kernel Heap Exploit Techniques
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00196)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Yoochan Lee; Sihyun Roh; Hyuk Kwon; Byoungyoung Lee; Thorsten Holz
+- 对象：kernel heap, VIPT L1 cache；类型：microarchitectural_side_channel。
+- 核心想法：通过 VIPT L1 缓存行为推断内核堆对象的页内位置。
+- 作者报告：作者报告空闲与高负载条件下的定位成功率，并用于提高已存在漏洞的利用可靠性。
+- 限制与下一步：定位原语、任意读取和端到端提权是不同能力；不能将无内存泄露前提扩张为无其他漏洞。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573609/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Interplay of Efficient Model Checking and Secure Processor Design: A Case Study on Secure Speculation
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00203)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Tingzhen Dong; Kunpeng Wang; Yuheng Yang; Yu-Wei Fan; Qinhan Tan; Thomas Bourgeat; Sharad Malik; Mengjia Yan
+- 对象：BOOM, secure speculation, noninterference；类型：formal_side_channel_verification。
+- 核心想法：使用带历史的未解释函数抽象，保留信息流性质并弱化无关功能细节。
+- 作者报告：作者把验证经验反馈到 BOOM 安全推测机制的设计，提出自动化框架。
+- 限制与下一步：证明范围取决于抽象和观察性质；并非对任意真实物理波形的非干扰保证。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573397/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Keytar: Practical Keystroke Timing Attacks and Input Reconstruction
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00106)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Mufan Qiu; Lihsuan Chuang; Dohhyun Kim; Huaizhi Qu; Tianlong Chen; Andrew Kwong
+- 对象：keystroke timing, LLM, cache；类型：side_channel_reconstruction。
+- 核心想法：将按键间隔到输入文本的恢复建模为机器翻译，并结合语言模型上下文。
+- 作者报告：作者报告 top-5 候选中最佳结果的编辑距离阈值指标，并做原生及 Chrome 缓存观察案例。
+- 限制与下一步：34.9% 使用最佳 top-5 且归一化编辑距离不超过 0.1，并非 top-1 完全正确。重放训练、噪声测量与真实输入需分开。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573555/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## LatORAM: ORAMs from Lateral Stashes and Delayed Shuffling
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00075)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Sarvar Patel; Giuseppe Persiano; Joon Young Seo; Kevin Yeo
+- 对象：ORAM, access patterns；类型：access_pattern_countermeasure。
+- 核心想法：利用横向暂存与延迟打乱组合 ORAM 查询和摊销成本优势。
+- 作者报告：作者提出 LatORAM/LAT2ORAM，比较固定客户端存储下的通信及往返次数。
+- 限制与下一步：协议访问模式隐藏不等于客户端实现的功耗/缓存安全；在线与摊销成本不能混算。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573492/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Leafblower: a Leakage Attack Against Tee-Based Encrypted Databases
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00008)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Zachary Espiritu; Seny Kamara; Tarik Moataz; Valentin Ogier
+- 对象：TEE, encrypted databases, B+ trees；类型：system_metadata_side_channel。
+- 核心想法：利用加密 B+ 树索引的多快照结构泄漏推断插入顺序和明文。
+- 作者报告：攻击只观察操作后的索引文件快照，结合辅助分布，无需注入或读取操作信息。
+- 限制与下一步：96%/后段 100% 限小域和准确辅助信息的最优条件；不等于全部 TEE 数据库可完整恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573629/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Practical Covert Channel Across Isolated Browser Instances via GPU Command Queue Contention
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00254)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Jinhong Liu; Zifeng Kang; Song Li; Yinzhi Cao
+- 对象：GPU command queues, browser, covert channel；类型：covert_channel。
+- 核心想法：GPU 命令队列竞争支持跨隐私模式和跨浏览器的通信。
+- 作者报告：作者在众包环境自适应协商速率，报告 1,434 次实验的完成率和已完成传输准确率。
+- 限制与下一步：100% 是已完成传输的条件指标，整体完成率 92.81%；隐蔽通信不能直接当作被动受害者泄漏。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573605/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## PrintSpy: Pixel-Level Eavesdropping on Commodity Laser Printers via Electromagnetic Side Channels
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00119)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Wenhao Li; Jiarong Yang; Mingda Han; Xiuzhen Cheng; Pengfei Hu; Cong Wang
+- 对象：laser printers, electromagnetic, diffusion models；类型：physical_side_channel。
+- 核心想法：把打印机 EM 时间响应映射为像素矩阵，再以约束扩散模型修复结构。
+- 作者报告：作者报告多款打印机的页面重建与字符错误率。
+- 限制与下一步：生成式修复不能自动当作逐像素真值；距离、设备与文字先验条件待全文，非 PQC 秘密恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573525/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00192)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Fabian Thomas; Michael Schwarz
+- 对象：RISC-V, ARM, LoongArch, cache, AES；类型：microarchitectural_side_channel。
+- 核心想法：借指令/数据缓存不一致把缓存状态转成架构可见结果，减少对计时器的依赖。
+- 作者报告：作者测试 18 种微架构、12 种受影响，并给出 AES、Spectre 与 Android 事件案例。
+- 限制与下一步：无计时器不等于无缓存访问或执行能力；跨架构结果需要分别保留实现条件。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573426/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## RadKey: An LLM-Guided RF Backscatter System for Through-Wall Keystroke Inference
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00160)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Qijun Wang; Chunqi Qian; Huacheng Zeng
+- 对象：RF backscatter, keystrokes, LLM；类型：physical_side_channel。
+- 核心想法：专用无电池标签把键盘振动和声学响应调制到背散射信号，再推断按键。
+- 作者报告：作者构建标签与 RF 读出器，并用 LLM 伪标签在线适应。
+- 限制与下一步：穿墙指 RF 读出链；仍需放置专用标签。伪标签不是独立真值，适应收益和新用户泛化待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573589/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00063)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Mathé Hertogh; Dave Quakkelaar; Thijs Raymakers; Mahesh Hari Sarma; Marius Muench; Herbert Bos; Erik Van der Kouwe
+- 对象：Rain, L1TF, cloud, TLS；类型：microarchitectural_side_channel。
+- 核心想法：组合 L1TF 与推测越界载入，在商业云中跨虚拟机泄漏。
+- 作者报告：作者报告噪声环境下 Nginx TLS 密钥案例，平均端到端时间 15 小时。
+- 限制与下一步：特定云、老款 CPU 与缓解组合条件不代表所有云；密钥对象和计时边界待完整复核。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573429/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## SeqAss: Using SeqUential Associative Caches to Mitigate Conflict-Based Cache Attacks with Reduced Cache Misses and Performance Overhead
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00073)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Wei Song; Zhidong Wang; Jinchi Han; Da Xie; Hao Ma; Peng Liu
+- 对象：SeqAss, randomized cache；类型：microarchitectural_countermeasure。
+- 核心想法：以顺序相联方式防护冲突型缓存观察，同时保留组相联结构与 LRU。
+- 作者报告：摘要报告与 Mirage/Chameleon 的防护、缺失率、面积和动态功耗比较。
+- 限制与下一步：强度限所比较的冲突攻击模型；摘要面积/功耗百分数的基准措辞需查正文，暂不转述为绝对开销。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573472/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## State of Browser Process-Isolation: The Same-Site Weakness
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00096)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Fabian Kilger; Hannah Fischer; Adrian Staeves; Robin Marchart; Josef Schönberger; Fabian Franzen
+- 对象：browser process isolation, Spectre v1；类型：microarchitectural_side_channel。
+- 核心想法：分析同站子域共享进程的风险，并研究把域放入同进程后的观察攻击。
+- 作者报告：作者在三类浏览器引擎展示案例，并评估隔离头和更严格进程策略。
+- 限制与下一步：需相应子域控制/同进程条件；网站头采用率不能直接当作漏洞利用成功率。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573499/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00170)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Tristan Hornetz; Hosein Yavarzadeh; Albert Cheu; Adria Gascon; Lukas Gerlach; Daniel Moghimi; Phillipp Schoppmann; Michael Schwarz; Ruiyi Zhang
+- 对象：Intel TDX, AES, LLM tokenization；类型：microarchitectural_side_channel。
+- 核心想法：组合页级和缓存级主机观测，构建保密虚拟机访问轨迹。
+- 作者报告：作者报告 AES T 表密钥与 LLM 分词阶段提示词推断案例。
+- 限制与下一步：主机/恶意 hypervisor 能力不可省略；单条访存轨迹提示词恢复不代表任意模型、阶段或端到端响应解密。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573580/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## TEE.Fail: Breaking Trusted Execution Environments via DDR5 Memory Bus Interposition
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00101)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Jalen Chuang; Alex Seto; Nicolas Berrios; Stephan Van Schaik; Christina Garman; Daniel Genkin
+- 对象：TEE.Fail, DDR5, memory encryption；类型：physical_ciphertext_side_channel。
+- 核心想法：通过 DDR5 总线事务观察与确定性内存加密关系分析 TEE 秘密。
+- 作者报告：作者报告服务器 TEE 的物理 interposer 案例，部分场景涉及证明密钥。
+- 限制与下一步：需要物理总线接入，不能写成远程或纯软件攻击；不同 TEE 的观察/重放能力及恢复对象待正文区分。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573449/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## The Battle of Metasurfaces: Understanding Security in Smart Radio Environments
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00153)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Paul Staat; Christof Paar; Swarun Kumar
+- 对象：metasurfaces, RIS, wireless sensing, obfuscation；类型：physical_observation_and_countermeasures。
+- 核心想法：研究攻防双方都可改变无线传播环境时，信道混淆与感知防护的相互作用。
+- 作者报告：作者以 Wi-Fi 干扰、感知欺骗和信道混淆进行理论及实测分析。
+- 限制与下一步：纳入物理观察/防护背景；无线通信和感知的传播控制不等于密码芯片功耗或 EM 保护。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573514/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Transient Architectural Execution: From Weird Gates to Weird Programs
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00066)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Ping-Lun Wang; Fraser Brown; Riccardo Paccagnella; Eyal Ronen; Riad S. Wahby; Yuval Yarom
+- 对象：weird computation, transient execution, branch predictor；类型：side_channel_computation。
+- 核心想法：瞬态地把微架构状态载入寄存器计算，再写回微架构状态。
+- 作者报告：作者从布尔门推进到处理器式计算，并报告分支预测器上的宽变量及性能优势。
+- 限制与下一步：隐式计算和放大原语不等于新的完整密钥恢复；比较对象为已有 weird gates，非普通程序速度。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573411/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Trevex: A Black-Box Detection Framework for Data-Flow Transient Execution Vulnerabilities
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00135)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Daniel Weber; Fabian Thomas; Leon Trampert; Ruiyi Zhang; Michael Schwarz
+- 对象：TREVEX, transient execution, FP-DSS；类型：side_channel_discovery。
+- 核心想法：黑盒检测跨执行上下文的异常瞬态数据流。
+- 作者报告：作者测试 20 种微架构，报告 AMD FP-DSS、新 FPVI 变体及兆芯案例。
+- 限制与下一步：无 RTL/ISA 语义要求不代表无实验能力假设；检测覆盖不能作为不存在其他漏洞的证明。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573526/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00046)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Jean-Claude Graf; Sandro Rüegge; Ali Hajiabadi; Kaveh Razavi
+- 对象：VMSCAPE, Spectre-BTI, QEMU；类型：microarchitectural_side_channel。
+- 核心想法：研究虚拟化边界上未完全隔离的分支预测状态。
+- 作者报告：作者在 AMD Zen 5 的未修改 QEMU 上展示恶意 KVM 客户机泄漏主机用户态数据。
+- 限制与下一步：多个 CPU 上的原语与完整利用平台要区分；154 B/s 是特定 PoC 读出速率，非任意云通用速率。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573554/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## When VR Meets BCI: (Un)Observable Brainwave-Aware Privacy Reconstruction in the Metaverse via Unrestricted Inbuilt Motion Sensors
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00117)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Tao Ni; Zehua Sun; Qingchuan Zhao; Wei-Bin Lee; Cong Wang
+- 对象：VR, motion sensors, EEG-correlated representations；类型：sensor_side_channel。
+- 核心想法：从 VR 内置运动传感器研究与视觉刺激相关的隐私推断。
+- 作者报告：作者报告 EEG 相关表示、视觉内容类别、活动、身份和输入等不同任务。
+- 限制与下一步：EEG 相关表示不等于直接测得脑电或任意思维；各任务准确率不可合并，生理机制及泛化仍待正文核验。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573488/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Your Eyes Won't Lie: Snooping Online Voting Privacy from User Webcam
+
+- 来源：[SP 2026](https://doi.org/10.1109/sp63933.2026.00232)；时间标记：formal SP 2026 metadata within frozen 2021-11-12 to 2026-11-12 window。
+- 作者：Zeyu Deng; Jingwei Zhang; Chen Wang
+- 对象：webcam, eye motion, online voting；类型：physical_side_channel。
+- 核心想法：利用投票时眼动与手部选择行为的配合推断屏幕选项。
+- 作者报告：作者结合动作阶段、姿态校准和 transformer，评价网页表单及视频会议投票。
+- 限制与下一步：摄像头、界面及训练条件不能省略；指定场景最高准确率不等于普遍选票恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11573577/。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## Hardware Implementation and Security Analysis of Local-Masked NTT for CRYSTALS-Kyber
 
 - 来源：[TC 2026](https://doi.org/10.1109/tc.2026.3729145)；时间标记：online 2026-09-17 within cutoff; assigned December 2026 issue is future at review date。
@@ -3893,3 +4266,15 @@
 - 已读章节：arXiv v1 摘要；六页 PDF 第 4 页 §IV、第 5 页限定说明/结论及选读参考 [2][3][4][7][9][10]；第 4–5 页已视觉核对。
 - [详细阅读记录](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)
 - 代码/数据核查：not checked；引用追踪：in_progress; selected references only。
+
+## From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight
+
+- 来源：[ePrint 2026](https://eprint.iacr.org/2026/1081)；时间标记：ePrint received 2026-05-28 within frozen window。
+- 作者：Minki Hhan; Ga Hee Hong; Jiseung Kim; Changmin Lee; JeongHwan Lee
+- 对象：LWE, FHE, sparse ternary secrets, hints；类型：pqc_side_information_solver。
+- 核心想法：利用稀疏三元秘密结构减少 LWE 精确/近似提示的求解需求。
+- 作者报告：摘要报告 GAA 条件分析与经验结果；n=2^15、h=32 时为 320 条提示，h=192 的 OpenFHE 场景仅验证精确提示。
+- 限制与下一步：提示获取成本未由摘要建立；不是 ML-KEM 实测功耗恢复，O(h log h) 不能当作无条件保证。ePrint 正文访问 403，保留未读。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2026/1081。
+- [详细阅读记录](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+- 代码/数据核查：not checked; requested PDF returned HTTP 403 text/html challenge, not a readable paper；引用追踪：pending。

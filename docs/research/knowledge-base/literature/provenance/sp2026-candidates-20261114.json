@@ -1,0 +1,2856 @@
+{
+  "reviewed_on": "2026-11-14",
+  "sources": [
+    {
+      "source_id": "sp26-crossref-container",
+      "url": "https://api.crossref.org/works?query.container-title=2026+IEEE+Symposium+on+Security+and+Privacy+%28SP%29&filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-11-12&rows=1000&select=DOI%2Ctitle%2Csubtitle%2Cauthor%2Cpublished%2Cpublished-online%2Cpublished-print%2Cpage%2CISBN%2Ccontainer-title%2Cresource%2Ctype%2Cabstract",
+      "response_url": "https://api.crossref.org/works?query.container-title=2026+IEEE+Symposium+on+Security+and+Privacy+%28SP%29&filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-11-12&rows=1000&select=DOI%2Ctitle%2Csubtitle%2Cauthor%2Cpublished%2Cpublished-online%2Cpublished-print%2Cpage%2CISBN%2Ccontainer-title%2Cresource%2Ctype%2Cabstract",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:06:03.855126+00:00",
+      "sha256": "9d6d9af1f7a9546509e7f0cefa62f118c93464a02bc384a4a0fc8ec31696a0b2",
+      "bytes": 1245966,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-2",
+      "url": "https://xplorestaging.ieee.org/document/11573398/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573398/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:13.630766+00:00",
+      "sha256": "7a197f5ba4271d4c96a2de8e388201fb862faebc95a93532a1b2f979bb24f104",
+      "bytes": 48418,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-4",
+      "url": "https://xplorestaging.ieee.org/document/11573478/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573478/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:13.599328+00:00",
+      "sha256": "fb9743b326db731309798e59f314740f0423aeca253d0e767842426bfe03f1ea",
+      "bytes": 49516,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-5",
+      "url": "https://xplorestaging.ieee.org/document/11573505/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573505/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:13.256731+00:00",
+      "sha256": "b328888ec322146531c5325944c133fd3b7daef0723bd15def21bae8527f7640",
+      "bytes": 48201,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-7",
+      "url": "https://xplorestaging.ieee.org/document/11573481/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573481/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:15.042295+00:00",
+      "sha256": "223f1583ca4378a79b6aad38877bf9919154684488be0f40c50a5c1b91d5bf42",
+      "bytes": 46010,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-9",
+      "url": "https://xplorestaging.ieee.org/document/11573476/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573476/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:15.241291+00:00",
+      "sha256": "f35d22b1ac23b0b70d4bfb42fd0e5f9ff4224e95c3d40e0436c03a5d5fddd569",
+      "bytes": 46858,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-10",
+      "url": "https://xplorestaging.ieee.org/document/11573587/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573587/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:15.653620+00:00",
+      "sha256": "f4fd49bd6dee522b820547546cb674a57531acdb56e605786826edc68c203a7a",
+      "bytes": 45681,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-20",
+      "url": "https://xplorestaging.ieee.org/document/11573572/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573572/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:16.156797+00:00",
+      "sha256": "60a7b8f27a9aecc349f9711f722c74cface36beea821e2d8d9f433e5ae876d80",
+      "bytes": 49751,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-23",
+      "url": "https://xplorestaging.ieee.org/document/11573942/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573942/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:16.797255+00:00",
+      "sha256": "36ff36f6861a3072699f6619fbee84668d1bf7b3eca29259ecf33fa68a0d7fd5",
+      "bytes": 48126,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-25",
+      "url": "https://xplorestaging.ieee.org/document/11573462/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573462/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:17.582363+00:00",
+      "sha256": "63dbab7ba6eb89bb738da73e591f4f709f543b81498bd529ad1cac5bdf252e5b",
+      "bytes": 48649,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-28",
+      "url": "https://xplorestaging.ieee.org/document/11573553/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573553/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:19.049063+00:00",
+      "sha256": "f8f3e2db21db1a70fdd43198bf46197f0f1391d26aa3e66c6593c8d2a4f58051",
+      "bytes": 48211,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-31",
+      "url": "https://xplorestaging.ieee.org/document/11573475/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573475/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:18.729978+00:00",
+      "sha256": "825212a37c7aa8d283d18b73699bc33dcfb567fbdf1bea01e7d5269c4c669e5e",
+      "bytes": 47604,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-32",
+      "url": "https://xplorestaging.ieee.org/document/11573570/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573570/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:19.450703+00:00",
+      "sha256": "03217881aa7ba2b80a4866b0c270dac681c478343d5c8674878d1393e88cb1b8",
+      "bytes": 46371,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-39",
+      "url": "https://xplorestaging.ieee.org/document/11573930/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573930/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:20.322433+00:00",
+      "sha256": "4d2e865c119ff9ecb2d3f00d354baa4012ce0c9f7934247ea4522b4cb9e28857",
+      "bytes": 49725,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-45",
+      "url": "https://xplorestaging.ieee.org/document/11573522/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573522/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:21.194879+00:00",
+      "sha256": "85480ceaa4c56503966c407ca9b1a9b51b38b8b85ec110f3047dc207e60af220",
+      "bytes": 48355,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-46",
+      "url": "https://xplorestaging.ieee.org/document/11573501/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573501/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:20.709462+00:00",
+      "sha256": "47253c580d383a774af6dccaac51b0d098a41d743139d831307c307daef28443",
+      "bytes": 48691,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-58",
+      "url": "https://xplorestaging.ieee.org/document/11573497/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573497/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:21.660408+00:00",
+      "sha256": "b57c7176cbfc377190ea2dc0717a300933564a6fc57f65c0becda7bc95507e48",
+      "bytes": 49776,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-59",
+      "url": "https://xplorestaging.ieee.org/document/11573460/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573460/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:23.704915+00:00",
+      "sha256": "5ddf069d661f5ea09d4dd6a0cead406940299abde86ac0df3217d325bb0979d5",
+      "bytes": 48122,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-62",
+      "url": "https://xplorestaging.ieee.org/document/11573504/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573504/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:22.484742+00:00",
+      "sha256": "dd263936ac4d1b6bf1021bbbe2fc0193e338016f9aebe2bc4059169cb76290a3",
+      "bytes": 48168,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-64",
+      "url": "https://xplorestaging.ieee.org/document/11573418/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573418/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:23.264589+00:00",
+      "sha256": "ebeabb09faca391a70c41358ede93991a91455a0ca1a72c2f6122bc655047010",
+      "bytes": 48099,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-65",
+      "url": "https://xplorestaging.ieee.org/document/11573432/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573432/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:23.722347+00:00",
+      "sha256": "b92736848d5ea6aedca58b171c909afa2df5cf235c0074d4372aa08ab5704b7a",
+      "bytes": 47035,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-67",
+      "url": "https://xplorestaging.ieee.org/document/11573569/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573569/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:24.446963+00:00",
+      "sha256": "6e3270799dd15ef09e1f3a3295d58da4f905363738aa697acbbab8355baa34b5",
+      "bytes": 48801,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-70",
+      "url": "https://xplorestaging.ieee.org/document/11573541/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573541/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:25.843161+00:00",
+      "sha256": "bb583039e1cbdea9123d274b2e338835a7e3252f211b22ef6d1fc6d07d25e2db",
+      "bytes": 50676,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-78",
+      "url": "https://xplorestaging.ieee.org/document/11573579/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573579/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:25.566403+00:00",
+      "sha256": "11af988e7434a2f4433cf39927333f4222bc3bb55bf195882b89179ee46c8a2a",
+      "bytes": 48375,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-82",
+      "url": "https://xplorestaging.ieee.org/document/11573450/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573450/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:26.467376+00:00",
+      "sha256": "f22fb6f2152833158a089eb6b96b8341e6c3397fa3c5cba5918a754593ea07a4",
+      "bytes": 48091,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-85",
+      "url": "https://xplorestaging.ieee.org/document/11573600/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573600/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:27.250060+00:00",
+      "sha256": "f33c9b6b8bb5115161fbdb38364d68915ffd4366858a85123d9e71ba34e1dfa5",
+      "bytes": 46641,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-87",
+      "url": "https://xplorestaging.ieee.org/document/11573630/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573630/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:27.062044+00:00",
+      "sha256": "aaf47e5f46eb88270707e413ac1032adbf6a7b282ce4d0027099509a63dcfec3",
+      "bytes": 49521,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-89",
+      "url": "https://xplorestaging.ieee.org/document/11573509/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573509/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:27.772111+00:00",
+      "sha256": "aac246c478b3edafe95d0c8657ae36c0934245af1973d689de9274332877a4ef",
+      "bytes": 48166,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-90",
+      "url": "https://xplorestaging.ieee.org/document/11573423/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573423/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:28.860241+00:00",
+      "sha256": "afd0469d6d48d42f6853b2fb4126e765bcf6ae8636d713692db5e6e67980346a",
+      "bytes": 47823,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-93",
+      "url": "https://xplorestaging.ieee.org/document/11573361/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573361/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:28.647158+00:00",
+      "sha256": "216b54e7c11aa35f6246b7d0e8f23fa2a716153b1c2174c2e9446b9c003dacb5",
+      "bytes": 46680,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-94",
+      "url": "https://xplorestaging.ieee.org/document/11573498/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573498/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:29.491782+00:00",
+      "sha256": "231c798f78b209b280a5a3a8c0b1ec39e4f1d0ffd9b2eadc3df2fa7782389cfe",
+      "bytes": 51289,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-95",
+      "url": "https://xplorestaging.ieee.org/document/11573424/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573424/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:30.232943+00:00",
+      "sha256": "d2f12dbe164ff976f0d4d08ce585646999016df6b50590c32f2d1111429002d9",
+      "bytes": 47205,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-99",
+      "url": "https://xplorestaging.ieee.org/document/11573433/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573433/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:30.690605+00:00",
+      "sha256": "4d096b383c91da21ce3f736e182cc2be2c5b18c92697389f7c48beb9cb8c7a3a",
+      "bytes": 48700,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-100",
+      "url": "https://xplorestaging.ieee.org/document/11573609/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573609/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:30.683118+00:00",
+      "sha256": "5f2bcb5426a8426d936a2cca6e558b425c54ef602ad95f4f5827d2a3645b7b43",
+      "bytes": 47775,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-106",
+      "url": "https://xplorestaging.ieee.org/document/11573561/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573561/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:32.119299+00:00",
+      "sha256": "e9e783bafd799b9cfa8f4c2fb84bb29f2e25c5ea1016239e16dc2986774b5b68",
+      "bytes": 49681,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-109",
+      "url": "https://xplorestaging.ieee.org/document/11573397/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573397/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:31.905940+00:00",
+      "sha256": "1106333fb0f19e4b70f9a1b80b949d92e4cda352b8aa18df151b39e5f86674fc",
+      "bytes": 48038,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-111",
+      "url": "https://xplorestaging.ieee.org/document/11573496/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573496/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:32.405928+00:00",
+      "sha256": "bfd6b58fcf19722e6d680840415756f802e833beccb4d760263d1aa1873e87af",
+      "bytes": 46782,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-115",
+      "url": "https://xplorestaging.ieee.org/document/11573555/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573555/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:33.750619+00:00",
+      "sha256": "34ca3396d7ddefbdf097397c63da1c403a3b4b292f979d5a2375558c2ded55c5",
+      "bytes": 49856,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-118",
+      "url": "https://xplorestaging.ieee.org/document/11573492/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573492/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:33.686776+00:00",
+      "sha256": "2028a10173281a36a189d4518ce1c68eb941e37a0b89093123bf4e63c76e963f",
+      "bytes": 47687,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-119",
+      "url": "https://xplorestaging.ieee.org/document/11573582/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573582/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:33.932681+00:00",
+      "sha256": "a0cb4513cf6c5f64ab0ae7be647e28a9a2f0a29ca1d3e0602949cfd562102faa",
+      "bytes": 46038,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-120",
+      "url": "https://xplorestaging.ieee.org/document/11573629/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573629/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:36.184681+00:00",
+      "sha256": "a3686b64a66036473dc775af94c69aaf88cc8bec2a64d1f6d6c20d2e7d3a298a",
+      "bytes": 47706,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-142",
+      "url": "https://xplorestaging.ieee.org/document/11573486/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573486/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:34.874152+00:00",
+      "sha256": "ea967dad439c48a3e3ae605d22846f3fe2e14afd9eae201b35dc6128ee88a6e2",
+      "bytes": 46338,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-147",
+      "url": "https://xplorestaging.ieee.org/document/11573576/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573576/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:35.633471+00:00",
+      "sha256": "e662379dd4c3be4c16cb08d87dc8d332da2e135ad54fab1db93e52812e6f5641",
+      "bytes": 48643,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-153",
+      "url": "https://xplorestaging.ieee.org/document/11573456/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573456/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:37.636551+00:00",
+      "sha256": "f1756b71d54d889e7bca9a5d1c46df739ae4086a568a1408de491833361fe461",
+      "bytes": 46918,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-160",
+      "url": "https://xplorestaging.ieee.org/document/11573605/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573605/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:36.878489+00:00",
+      "sha256": "9950ecefb129f961cc354a866993b16051f0edd83a9eae0ec21fc70c8c239784",
+      "bytes": 48133,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-162",
+      "url": "https://xplorestaging.ieee.org/document/11573525/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573525/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:37.713885+00:00",
+      "sha256": "729ce5af5fc8e5a5a437c64799ac872dcaf008be75bf948c72de1ed9a41b5d32",
+      "bytes": 48303,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-172",
+      "url": "https://xplorestaging.ieee.org/document/11573589/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573589/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:38.948011+00:00",
+      "sha256": "a901b4c59e8cda519e0f34d8a87293ce73a70f5afc3cec3ae73c0b816992f9b9",
+      "bytes": 48755,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-173",
+      "url": "https://xplorestaging.ieee.org/document/11573429/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573429/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:39.217544+00:00",
+      "sha256": "bd83fd7cd7b34d0e686786ad90d3eba32a3e7227fd4570e17a39a052546bf0c8",
+      "bytes": 49267,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-174",
+      "url": "https://xplorestaging.ieee.org/document/11573549/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573549/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:39.769743+00:00",
+      "sha256": "dd2866a9729e9737f93272a7fe185d63f624899d4362f2aff6daa3d09401fdec",
+      "bytes": 48148,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-178",
+      "url": "https://xplorestaging.ieee.org/document/11573471/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573471/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:40.473241+00:00",
+      "sha256": "923f36757f01c923615f5d9c9d9c27267a7e791d9c74d3ba83346946f1166ca7",
+      "bytes": 48376,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-179",
+      "url": "https://xplorestaging.ieee.org/document/11573485/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573485/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:41.471591+00:00",
+      "sha256": "3d853216341dbd66c3592a0fdf540e18a10cf7116deafc7671fb604edc5f03d9",
+      "bytes": 47577,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-180",
+      "url": "https://xplorestaging.ieee.org/document/11573426/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573426/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:41.582131+00:00",
+      "sha256": "cfa38ede26558db264e71f2851e4fb7bd5304c0644566e385a93439568f2d505",
+      "bytes": 48499,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-182",
+      "url": "https://xplorestaging.ieee.org/document/11573399/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573399/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:42.392375+00:00",
+      "sha256": "7fa9f915f38e75e000cea0a957cf99bf3bac381456f76daa470aeb104b7a82cd",
+      "bytes": 46896,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-185",
+      "url": "https://xplorestaging.ieee.org/document/11573539/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573539/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:42.686963+00:00",
+      "sha256": "e26ac96028877a20a0254d2e296ede6083cbdc7363ecbbbc73334de19c1a9098",
+      "bytes": 48993,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-188",
+      "url": "https://xplorestaging.ieee.org/document/11573484/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573484/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:43.907092+00:00",
+      "sha256": "7ac3317320d4f13640163f3e243fdc7a29ac8da81220c2183d6d82cf42d73e89",
+      "bytes": 48917,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-189",
+      "url": "https://xplorestaging.ieee.org/document/11573422/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573422/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:43.600336+00:00",
+      "sha256": "a6e1397bc7a4962edb9c44f33db411b615e18d94f36578e402692440dcb05fae",
+      "bytes": 50455,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-190",
+      "url": "https://xplorestaging.ieee.org/document/11573472/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573472/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:44.377648+00:00",
+      "sha256": "f718c2acc2b91bd8f9ea6d551a05bbb91a8ad8697aa61a4df9571663fc222bee",
+      "bytes": 47796,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-195",
+      "url": "https://xplorestaging.ieee.org/document/11573634/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573634/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:45.706381+00:00",
+      "sha256": "2d5d74628f3c693cb4a310bfd4b17c5e6c7ee2067e0192ad6fbbb31c043518f7",
+      "bytes": 47168,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-196",
+      "url": "https://xplorestaging.ieee.org/document/11573584/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573584/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:45.283662+00:00",
+      "sha256": "5816f60f3f487c6832d33458f2c0def8918438c202cc29d34f93003282b3ccbf",
+      "bytes": 49099,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-199",
+      "url": "https://xplorestaging.ieee.org/document/11573574/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573574/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:46.128872+00:00",
+      "sha256": "243a420cdfb520b15d02e0afe6c1cbce9ce79bc5908d50da1bda5b6ac9eb724a",
+      "bytes": 45557,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-203",
+      "url": "https://xplorestaging.ieee.org/document/11573421/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573421/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:46.979079+00:00",
+      "sha256": "ce3cd992faf152c6579581fbe1bb43f3baef2442fd99bfd82789d500cee7fd61",
+      "bytes": 47828,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-208",
+      "url": "https://xplorestaging.ieee.org/document/11573402/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573402/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:48.985983+00:00",
+      "sha256": "07dc7de209c4c123ec1dcaf52466c616db4701ebb481998bf393b46eca6b5c3b",
+      "bytes": 46842,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-209",
+      "url": "https://xplorestaging.ieee.org/document/11573499/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573499/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:47.331363+00:00",
+      "sha256": "61912b895a9c2629346c9157d2ab2f1015e101c52b92a583dcc8283b6b60b403",
+      "bytes": 49896,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-213",
+      "url": "https://xplorestaging.ieee.org/document/11573580/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573580/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:48.675666+00:00",
+      "sha256": "3992f39deb7b6fe4bbec8a1f95d0c5c92750b47eaba7e1689e016c1610b95122",
+      "bytes": 49236,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-214",
+      "url": "https://xplorestaging.ieee.org/document/11573514/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573514/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:49.084186+00:00",
+      "sha256": "8b06135223c20a21288750ef3f18f19fce0291e543fe2e6547702317448f20bc",
+      "bytes": 49251,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-218",
+      "url": "https://xplorestaging.ieee.org/document/11573542/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573542/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:50.463137+00:00",
+      "sha256": "97e7c9613bc137f823ba1d1f5026f3f308f142553882489ce6dd5a63c6166319",
+      "bytes": 50006,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-219",
+      "url": "https://xplorestaging.ieee.org/document/11573603/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573603/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:50.792858+00:00",
+      "sha256": "ba6186ec6d8f7ab9b66a25e4c1fc4dde4ac064f5d0c8576a49ad38dee3c41920",
+      "bytes": 47756,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-220",
+      "url": "https://xplorestaging.ieee.org/document/11573428/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573428/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:51.185331+00:00",
+      "sha256": "5f68cd3b2642f406cf5e179ee2301e596327389b9e9cfaa2151fe1191ceca630",
+      "bytes": 47950,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-226",
+      "url": "https://xplorestaging.ieee.org/document/11573411/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573411/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:51.557159+00:00",
+      "sha256": "772f290c41c960b1cffea49797ad90c48ff554103eb91b932c480dd21213a65a",
+      "bytes": 48173,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-227",
+      "url": "https://xplorestaging.ieee.org/document/11573449/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573449/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:52.124801+00:00",
+      "sha256": "93bc5ea39a514a663c3fa79f3d5f2f7f04c61ca5f73ff31dd43d55f16d5d7c2c",
+      "bytes": 47863,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-228",
+      "url": "https://xplorestaging.ieee.org/document/11573526/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573526/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:52.534638+00:00",
+      "sha256": "f9ff1bd364019b31e2fbbf13cfd9319aeb5964a33a5f9b6c48c1de6355f58439",
+      "bytes": 48860,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-230",
+      "url": "https://xplorestaging.ieee.org/document/11573358/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573358/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:52.917050+00:00",
+      "sha256": "b85c5f57487d1d7e92c25487cbe85573e4d344b30bd4b437db0b07021460ef4a",
+      "bytes": 47161,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-240",
+      "url": "https://xplorestaging.ieee.org/document/11573554/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573554/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:54.036788+00:00",
+      "sha256": "00397ba255ad97d9f7e79628bbb2040e4a014e3a7c01cd3101ac04c3b4f0534f",
+      "bytes": 46942,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-247",
+      "url": "https://xplorestaging.ieee.org/document/11573488/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573488/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:54.639954+00:00",
+      "sha256": "b52df7777a09b83df527bc2cdcc84752cdf341635dcb386dd341976171d629d1",
+      "bytes": 48795,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-candidates-publisher-252",
+      "url": "https://xplorestaging.ieee.org/document/11573577/",
+      "response_url": "https://xplorestaging.ieee.org/document/11573577/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:23:54.458023+00:00",
+      "sha256": "ac4729141cf836f3278e2b811c07196c3855cccdcff0099ed4c0e067e270ec53",
+      "bytes": 50556,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-goldilocks-author-pdf",
+      "url": "https://www.cs.cmu.edu/~rpaccagn/papers/goldilocks-sp2026.pdf",
+      "response_url": "https://www.cs.cmu.edu/~rpaccagn/papers/goldilocks-sp2026.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:26:59.928815+00:00",
+      "sha256": "27dead25866e2d6a1a910b40f373ced2d68fb8debebc1a8fd8daaf1735e0d7c5",
+      "bytes": 583371,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "sp26-lwe-eprint-page",
+      "url": "https://eprint.iacr.org/2026/1081",
+      "response_url": "https://eprint.iacr.org/2026/1081",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:26:56.453548+00:00",
+      "sha256": "1f7df583e31bd61dc7782a7d77b18d36f9d495f5e2c93fd7f1f196981580cf02",
+      "bytes": 18553,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "sp26-lwe-eprint-pdf",
+      "url": "https://eprint.iacr.org/2026/1081.pdf",
+      "response_url": "https://eprint.iacr.org/2026/1081.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T16:26:57.188970+00:00",
+      "sha256": "622b9f988afbca1733023b392b5a0eaf18a7e61a1e4bf5d4f5b345a091435cc2",
+      "bytes": 5583,
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ],
+  "batch": {
+    "core_title_records_screened": 254,
+    "core_abstracts_read": 74,
+    "core_includes": 31,
+    "core_adjacent": 43,
+    "new_expansion_version_records": 1,
+    "new_paper_cards": 32,
+    "selected_full_text_papers": 1,
+    "new_nonpaper_records": 8,
+    "new_citation_edges": 11,
+    "new_verified_version_edges": 1,
+    "new_pending_discoveries": 18
+  },
+  "identity_upgrades": [
+    {
+      "accepted_index_1based": 1,
+      "previous_id": "title:sp:2026:0e77eaadc1b3d5fc",
+      "canonical_id": "doi:10.1109/sp63933.2026.00005",
+      "accepted_title": "\"I Wonder if These Warnings Are Accurate\": Security and Privacy Advice in Nine Majority World Countries",
+      "publisher_title": "“I Wonder if These Warnings are Accurate”: Security and Privacy Advice in Nine Majority World Countries",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 2,
+      "previous_id": "title:sp:2026:bc6179ea7bc54a90",
+      "canonical_id": "doi:10.1109/sp63933.2026.00087",
+      "accepted_title": "2FiA: Towards WiFi Sensing-Based Authentication with Unique Biometrics",
+      "publisher_title": "2FiA: Towards WiFi Sensing-Based Authentication with Unique Biometrics",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 3,
+      "previous_id": "title:sp:2026:2ae466e2359d00b5",
+      "canonical_id": "doi:10.1109/sp63933.2026.00202",
+      "accepted_title": "A Context is Worth a Thousand Lies: Evading Intrusion Detectors via Intelligent Context Distortion",
+      "publisher_title": "A Context Is Worth a Thousand Lies: Evading Intrusion Detectors via Intelligent Context Distortion",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 4,
+      "previous_id": "title:sp:2026:3c14d5fd4ede7b6f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00164",
+      "accepted_title": "A Full Threshold NIST PQC-Compliant Framework for Distributed Trust in Federal Public Key Infrastructure",
+      "publisher_title": "A Full Threshold NIST PQC-Compliant Framework for Distributed Trust in Federal Public Key Infrastructure",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 5,
+      "previous_id": "title:sp:2026:65f3edfa062f4872",
+      "canonical_id": "doi:10.1109/sp63933.2026.00171",
+      "accepted_title": "A Leakage-Free Framework for Private Set Operations",
+      "publisher_title": "A Leakage-Free Framework for Private Set Operations",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 6,
+      "previous_id": "title:sp:2026:803e537493d2bb8d",
+      "canonical_id": "doi:10.1109/sp63933.2026.00235",
+      "accepted_title": "A Liveness Attack to Ethereum PoS with No Additional Cost",
+      "publisher_title": "A Liveness Attack to Ethereum PoS with No Additional Cost",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 7,
+      "previous_id": "title:sp:2026:8376f8855c308f5b",
+      "canonical_id": "doi:10.1109/sp63933.2026.00221",
+      "accepted_title": "A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter",
+      "publisher_title": "A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 8,
+      "previous_id": "title:sp:2026:ebac14ad0c011f63",
+      "canonical_id": "doi:10.1109/sp63933.2026.00158",
+      "accepted_title": "Adversarial Hubness in Multi-Modal Retrieval",
+      "publisher_title": "Adversarial Hubness in Multi-Modal Retrieval",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 9,
+      "previous_id": "title:sp:2026:7da8e660e6a38f85",
+      "canonical_id": "doi:10.1109/sp63933.2026.00138",
+      "accepted_title": "AESpoly: Symmetric-Key Cryptographic Designs Using Instruction-Level Parallelism between AES and Polynomial Hash",
+      "publisher_title": "AESpoly: Symmetric-Key Cryptographic Designs Using Instruction-Level Parallelism Between AES and Polynomial Hash",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 10,
+      "previous_id": "title:sp:2026:c6223e671bdcb4e6",
+      "canonical_id": "doi:10.1109/sp63933.2026.00035",
+      "accepted_title": "AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX",
+      "publisher_title": "AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 11,
+      "previous_id": "title:sp:2026:049e90b0ea13230a",
+      "canonical_id": "doi:10.1109/sp63933.2026.00003",
+      "accepted_title": "Agentic Concolic Execution",
+      "publisher_title": "Agentic Concolic Execution",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 12,
+      "previous_id": "title:sp:2026:97ab837b4fbb5f51",
+      "canonical_id": "doi:10.1109/sp63933.2026.00088",
+      "accepted_title": "AI Wrote My Paper and All I Got Was This False Negative:* Measuring the Efficacy of Commercial AI Text Detectors",
+      "publisher_title": "AI Wrote My Paper and All I Got was This False Negative:* Measuring the Efficacy of Commercial AI Text Detectors",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 13,
+      "previous_id": "title:sp:2026:e49347a63fd12516",
+      "canonical_id": "doi:10.1109/sp63933.2026.00173",
+      "accepted_title": "APEX: Accurate Parallel Expressive Homomorphic Execution for Encrypted Databases",
+      "publisher_title": "APEX: Accurate Parallel Expressive Homomorphic Execution for Encrypted Databases",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 14,
+      "previous_id": "title:sp:2026:f61ec80888a3af59",
+      "canonical_id": "doi:10.1109/sp63933.2026.00016",
+      "accepted_title": "APIEcho: Training-less Anomaly Detection via Intra-API Behavioral Comparison for Web Applications",
+      "publisher_title": "APIECHO: Training-Less Anomaly Detection via Intra-API Behavioral Comparison for Web Applications",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 15,
+      "previous_id": "title:sp:2026:225ed17a46415f2d",
+      "canonical_id": "doi:10.1109/sp63933.2026.00215",
+      "accepted_title": "APT to Disagree: A Comparative Analysis of Attribution in Commercial TI",
+      "publisher_title": "APT to Disagree: A Comparative Analysis of Attribution in Commercial TI",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 16,
+      "previous_id": "title:sp:2026:708058fc93edc7f5",
+      "canonical_id": "doi:10.1109/sp63933.2026.00212",
+      "accepted_title": "Are LLM-Enhanced Graph Neural Networks Robust against Poisoning Attacks?",
+      "publisher_title": "Are LLM-Enhanced Graph Neural Networks Robust Against Poisoning Attacks?",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 17,
+      "previous_id": "title:sp:2026:8ba4a59ba829c3b2",
+      "canonical_id": "doi:10.1109/sp63933.2026.00181",
+      "accepted_title": "ARES: Scalable and Practical Gradient Inversion Attack in Federated Learning through Activation Recovery",
+      "publisher_title": "ARES: Scalable and Practical Gradient Inversion Attack in Federated Learning Through Activation Recovery",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 18,
+      "previous_id": "title:sp:2026:530d58107169abea",
+      "canonical_id": "doi:10.1109/sp63933.2026.00198",
+      "accepted_title": "AttnTrace: Contextual Attribution of Prompt Injection and Knowledge Corruption",
+      "publisher_title": "AttnTrace: Contextual Attribution of Prompt Injection and Knowledge Corruption",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 19,
+      "previous_id": "title:sp:2026:cbd7ee81a96bfe44",
+      "canonical_id": "doi:10.1109/sp63933.2026.00116",
+      "accepted_title": "Audience Injection Attacks: A New Class of Attacks on Web-Based Authorization and Authentication Standards",
+      "publisher_title": "Audience Injection Attacks: A New Class of Attacks on Web-Based Authorization and Authentication Standards",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 20,
+      "previous_id": "title:sp:2026:1ce3ce5c89be9e40",
+      "canonical_id": "doi:10.1109/sp63933.2026.00225",
+      "accepted_title": "Auditing Apple’s DifferentialPrivacy.framework: Implementation Bugs, Misconfigurations, and Practical Risks",
+      "publisher_title": "Auditing Apple's DifferentialPrivacy.framework: Implementation Bugs, Misconfigurations, and Practical Risks",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 21,
+      "previous_id": "title:sp:2026:62326131dc8fdedb",
+      "canonical_id": "doi:10.1109/sp63933.2026.00120",
+      "accepted_title": "Automated formal analysis of Signal's Double Ratchet: attacks, fixes and security proofs",
+      "publisher_title": "Automated Formal Analysis of Signal's Double Ratchet: Attacks, Fixes and Security Proofs",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 22,
+      "previous_id": "title:sp:2026:07447361e8ead545",
+      "canonical_id": "doi:10.1109/sp63933.2026.00152",
+      "accepted_title": "BACHunter: Detecting Broken Access Control Vulnerabilities in Intelligent Connected Vehicles",
+      "publisher_title": "BACHunter: Detecting Broken Access Control Vulnerabilities in Intelligent Connected Vehicles",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 23,
+      "previous_id": "title:sp:2026:abbcf04cdbb487c7",
+      "canonical_id": "doi:10.1109/sp63933.2026.00129",
+      "accepted_title": "Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection",
+      "publisher_title": "Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 24,
+      "previous_id": "title:sp:2026:27c0dab1e18f1d1d",
+      "canonical_id": "doi:10.1109/sp63933.2026.00188",
+      "accepted_title": "Batch Me If You Can: Coverage-guided RPKI Fuzzing at Scale",
+      "publisher_title": "Batch Me If You Can: Coverage-Guided RPKI Fuzzing at Scale",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 25,
+      "previous_id": "title:sp:2026:d07013d3b34ff139",
+      "canonical_id": "doi:10.1109/sp63933.2026.00052",
+      "accepted_title": "Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing",
+      "publisher_title": "Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 26,
+      "previous_id": "title:sp:2026:41c8aa2de61160a6",
+      "canonical_id": "doi:10.1109/sp63933.2026.00036",
+      "accepted_title": "Behind the Curtain: How Shared Hosting Providers Respond to Vulnerability Notifications",
+      "publisher_title": "Behind the Curtain: How Shared Hosting Providers Respond to Vulnerability Notifications",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 27,
+      "previous_id": "title:sp:2026:1568cc2fa8232b64",
+      "canonical_id": "doi:10.1109/sp63933.2026.00115",
+      "accepted_title": "Best of Both Worlds: Effective Foreign Bridge Identification in V8 Embedders for Security Analysis",
+      "publisher_title": "Best of Both Worlds: Effective Foreign Bridge Identification in V8 Embedders for Security Analysis",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 28,
+      "previous_id": "title:sp:2026:65583cb921ea85fd",
+      "canonical_id": "doi:10.1109/sp63933.2026.00165",
+      "accepted_title": "Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs",
+      "publisher_title": "Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 29,
+      "previous_id": "title:sp:2026:5fdc5dcd2a03b1ce",
+      "canonical_id": "doi:10.1109/sp63933.2026.00242",
+      "accepted_title": "Beyond Nodes vs. Edges: A Multi-View Fusion Framework for Provenance-Based Intrusion Detection",
+      "publisher_title": "Beyond Nodes vs. Edges: A Multi-View Fusion Framework for Provenance-Based Intrusion Detection",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 30,
+      "previous_id": "title:sp:2026:b98dcfd3f67c1c1f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00010",
+      "accepted_title": "Beyond the Control Plane: Understanding and Formal Verifying the Cross-Service Flaws in Cloud Identity Service",
+      "publisher_title": "C-Verifier: Understanding and Formally Verifying Cross-Service Flaws in AWS Cognito",
+      "matching_basis": "manual title change plus author/context correspondence"
+    },
+    {
+      "accepted_index_1based": 31,
+      "previous_id": "title:sp:2026:bc09585f3f57d06a",
+      "canonical_id": "doi:10.1109/sp63933.2026.00032",
+      "accepted_title": "Blinding Post-Quantum Hash-and-Sign Signatures",
+      "publisher_title": "Blinding Post-Quantum Hash-and-Sign Signatures",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 32,
+      "previous_id": "title:sp:2026:df1b05bda9b80241",
+      "canonical_id": "doi:10.1109/sp63933.2026.00259",
+      "accepted_title": "BreakFAST: Confused Deputy Attack on Infinity Fabric to Break AMD SEV-SNP",
+      "publisher_title": "BreakFAST: Confused Deputy Attack on Infinity Fabric to Break AMD SEV-SNP",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 33,
+      "previous_id": "title:sp:2026:d683ab5ea1b4fe4b",
+      "canonical_id": "doi:10.1109/sp63933.2026.00233",
+      "accepted_title": "Breaking Free from Ivory Tower: Evaluating and Enhancing Real-world Chinese Underground Adversarial Jargon Detection",
+      "publisher_title": "Breaking Free from Ivory Tower: Evaluating and Enhancing Real-world Chinese Underground Adversarial Jargon Detection",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 34,
+      "previous_id": "title:sp:2026:24d89cccc14e823b",
+      "canonical_id": "doi:10.1109/sp63933.2026.00077",
+      "accepted_title": "Breaking the Barrier for Asynchronous MPC with a Friend",
+      "publisher_title": "Breaking the Barrier for Asynchronous MPC with a Friend",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 35,
+      "previous_id": "title:sp:2026:5cd4d257614e573f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00040",
+      "accepted_title": "Breaking the Illusion: Automated Reasoning of GDPR Consent Violations",
+      "publisher_title": "Breaking the Illusion: Automated Reasoning of GDPR Consent Violations",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 36,
+      "previous_id": "title:sp:2026:48627c073933df24",
+      "canonical_id": "doi:10.1109/sp63933.2026.00001",
+      "accepted_title": "Bridge: High-Order Taint Vulnerabilities Detection in Linux-based IoT Firmware",
+      "publisher_title": "Bridge: High-Order Taint Vulnerabilities Detection in Linux-Based IoT Firmware",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 37,
+      "previous_id": "title:sp:2026:fa341f69c3cae309",
+      "canonical_id": "doi:10.1109/sp63933.2026.00002",
+      "accepted_title": "Camveil: Unveiling Security Camera Vulnerabilities through Multi-Protocol Coordinated Fuzzing",
+      "publisher_title": "Camveil: Unveiling Security Camera Vulnerabilities Through Multi-Protocol Coordinated Fuzzing",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 38,
+      "previous_id": "title:sp:2026:7fb811d32eb72dd2",
+      "canonical_id": "doi:10.1109/sp63933.2026.00179",
+      "accepted_title": "Can Foundation LLMs Accurately Estimate Password Strength and Provide Appropriate Password Feedback?",
+      "publisher_title": "Can Foundation LLMs Accurately Estimate Password Strength and Provide Appropriate Password Feedback?",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 39,
+      "previous_id": "title:sp:2026:3aef4f6e3da583d5",
+      "canonical_id": "doi:10.1109/sp63933.2026.00133",
+      "accepted_title": "Can I Get More? An Incremental Inference Attack on Encrypted SQL",
+      "publisher_title": "Can I Get More? An Incremental Inference Attack on Encrypted SQL",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 40,
+      "previous_id": "title:sp:2026:ab1c67e2f667d4a2",
+      "canonical_id": "doi:10.1109/sp63933.2026.00159",
+      "accepted_title": "Catch Me If You Can: Detector-Resistant Evasion via Semantics-Preserving Command Re-Realization",
+      "publisher_title": "Catch Me If You Can: Detector-Resistant Evasion via Semantics-Preserving Command Re-Realization",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 41,
+      "previous_id": "title:sp:2026:bc94392ada971de2",
+      "canonical_id": "doi:10.1109/sp63933.2026.00089",
+      "accepted_title": "Cavern: Efficient Honest-Majority Maliciously Secure $(2+1)$ -PC for $\\mathbb{Z}_{2^n}$ via DPFs",
+      "publisher_title": "CAVERN: Efficient Honest-Majority Maliciously Secure (2+1)-PC for $\\mathbb{Z}_{2^{n}}$ via DPF",
+      "matching_basis": "manual title change plus author/context correspondence"
+    },
+    {
+      "accepted_index_1based": 42,
+      "previous_id": "title:sp:2026:194d52dd693aee08",
+      "canonical_id": "doi:10.1109/sp63933.2026.00058",
+      "accepted_title": "CBUE: Conclusion Based Utility Evaluation for Differentially Private Categorical Data",
+      "publisher_title": "CBUE: Conclusion Based Utility Evaluation for Differentially Private Categorical Data",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 43,
+      "previous_id": "title:sp:2026:85ef364fd1b09604",
+      "canonical_id": "doi:10.1109/sp63933.2026.00229",
+      "accepted_title": "CenAlert: Amplifying User Voices to Rally Censorship Investigation",
+      "publisher_title": "CenAlert: Amplifying User Voices to Rally Censorship Investigation",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 44,
+      "previous_id": "title:sp:2026:85d2f65b74953568",
+      "canonical_id": "doi:10.1109/sp63933.2026.00098",
+      "accepted_title": "CenRL: A Framework for Performing Intelligent Censorship Measurements",
+      "publisher_title": "CenRL: A Framework for Performing Intelligent Censorship Measurements",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 45,
+      "previous_id": "title:sp:2026:d2a76300f9b3cbd2",
+      "canonical_id": "doi:10.1109/sp63933.2026.00149",
+      "accepted_title": "Chorus: Secret Recovery with Ephemeral Client Committees",
+      "publisher_title": "CHORUS: Secret Recovery with Ephemeral Client Committees",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 46,
+      "previous_id": "title:sp:2026:61aee0a77bd03764",
+      "canonical_id": "doi:10.1109/sp63933.2026.00090",
+      "accepted_title": "Chypnosis: Undervolting-based Static Side-channel Attacks",
+      "publisher_title": "Chypnosis: Undervolting-based Static Side-channel Attacks",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 47,
+      "previous_id": "title:sp:2026:31ed92119b6de5e8",
+      "canonical_id": "doi:10.1109/sp63933.2026.00146",
+      "accepted_title": "CiRCLE: Recovering Complex Data Structures in Binaries beyond Fragmentation",
+      "publisher_title": "CiRCLE: Recovering Complex Data Structures in Binaries Beyond Fragmentation",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 48,
+      "previous_id": "title:sp:2026:34ad30951693bafe",
+      "canonical_id": "doi:10.1109/sp63933.2026.00240",
+      "accepted_title": "Code-based Scalable Collaborative SNARKs",
+      "publisher_title": "Code-Based Scalable Collaborative SNARKs",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 49,
+      "previous_id": "title:sp:2026:4b4d8d337e4373da",
+      "canonical_id": "doi:10.1109/sp63933.2026.00004",
+      "accepted_title": "Concretely-Efficient Multi-Key Homomorphic Secret Sharing and Applications",
+      "publisher_title": "Concretely-Efficient Multi-Key Homomorphic Secret Sharing and Applications",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 50,
+      "previous_id": "title:sp:2026:c5820b90642bf854",
+      "canonical_id": "doi:10.1109/sp63933.2026.00054",
+      "accepted_title": "Consistent Estimation of Numerical Distributions under Local Differential Privacy by Wavelet Expansion",
+      "publisher_title": "Consistent Estimation of Numerical Distributions Under Local Differential Privacy by Wavelet Expansion",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 51,
+      "previous_id": "title:sp:2026:4643cac9573f1113",
+      "canonical_id": "doi:10.1109/sp63933.2026.00104",
+      "accepted_title": "Consumer Beware! Exploring Data Brokers’ CCPA Compliance",
+      "publisher_title": "Consumer Beware! Exploring Data Brokers' CCPA Compliance",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 52,
+      "previous_id": "title:sp:2026:3d08d45404c0b62e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00223",
+      "accepted_title": "Contextualizing Sink Knowledge for Java Vulnerability Discovery",
+      "publisher_title": "Contextualizing Sink Knowledge for Java Vulnerability Discovery",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 53,
+      "previous_id": "title:sp:2026:bfad31689a8c8952",
+      "canonical_id": "doi:10.1109/sp63933.2026.00074",
+      "accepted_title": "Convenience at a Cost: The Security Risks of Template-based Development in the App-in-App Ecosystem",
+      "publisher_title": "Convenience at a Cost: the Security Risks of Template-Based Development in the App-in-App Ecosystem",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 54,
+      "previous_id": "title:sp:2026:32f12d3a7d6c2a5f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00059",
+      "accepted_title": "Coral: Fast Succinct Non-Interactive Zero-Knowledge CFG Proofs",
+      "publisher_title": "Coral: Fast Succinct Non-Interactive Zero-Knowledge CFG Proofs",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 55,
+      "previous_id": "title:sp:2026:7ba3541e18ddd705",
+      "canonical_id": "doi:10.1109/sp63933.2026.00067",
+      "accepted_title": "Cosseter: GitHub Actions Permission Reduction Using Demand-Driven Static Analysis",
+      "publisher_title": "COSSETER: GitHub Actions Permission Reduction Using Demand-Driven Static Analysis",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 56,
+      "previous_id": "title:sp:2026:50815b43d0993a7c",
+      "canonical_id": "doi:10.1109/sp63933.2026.00110",
+      "accepted_title": "Cottontail: Large Language Model-Driven Concolic Execution for Highly Structured Test Input Generation",
+      "publisher_title": "Cottontail: Large Language Model-Driven Concolic Execution for Highly Structured Test Input Generation",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 57,
+      "previous_id": "title:sp:2026:398b1628f19dbe97",
+      "canonical_id": "doi:10.1109/sp63933.2026.00216",
+      "accepted_title": "Crashing Through Defenses: Exploiting Segfaults and Chaining around Intel CET",
+      "publisher_title": "Crashing Through Defenses: Exploiting Segfaults and Chaining Around Intel CET",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 58,
+      "previous_id": "title:sp:2026:c1a4de24358a0a7e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00103",
+      "accepted_title": "Credential Extraction Attacks Against Compromised Credential Checking Services of Password Managers",
+      "publisher_title": "Credential Extraction Attacks Against Compromised Credential Checking Services of Password Managers",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 59,
+      "previous_id": "title:sp:2026:962b14db4d263f4d",
+      "canonical_id": "doi:10.1109/sp63933.2026.00186",
+      "accepted_title": "Crucible: Retrofitting Commodity CPUs with Vulnerabilities via Transparent Software Emulation",
+      "publisher_title": "Crucible: Retrofitting Commodity CPUs with Vulnerabilities via Transparent Software Emulation",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 60,
+      "previous_id": "title:sp:2026:a58a13a96b199ca6",
+      "canonical_id": "doi:10.1109/sp63933.2026.00227",
+      "accepted_title": "Death Is Not the End: A Longitudinal Study on the Impact of Automatic Updates on Container Vulnerability Lifespans",
+      "publisher_title": "Death Is Not the End: a Longitudinal Study on the Impact of Automatic Updates on Container Vulnerability Lifespans",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 61,
+      "previous_id": "title:sp:2026:12acabe4bf84259c",
+      "canonical_id": "doi:10.1109/sp63933.2026.00151",
+      "accepted_title": "Decomposition-Based Optimal Bounds for Privacy Amplification via Shuffling",
+      "publisher_title": "Decomposition-Based Optimal Bounds for Privacy Amplification via Shuffling",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 62,
+      "previous_id": "title:sp:2026:04d840f330b642fc",
+      "canonical_id": "doi:10.1109/sp63933.2026.00256",
+      "accepted_title": "Decor: Delegated Computation on Randomness for Secure Evaluation of Nonlinear Functions",
+      "publisher_title": "Decor: Delegated Computation on Randomness for Secure Evaluation of Nonlinear Functions",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 63,
+      "previous_id": "title:sp:2026:96e4bdce2627ba01",
+      "canonical_id": "doi:10.1109/sp63933.2026.00060",
+      "accepted_title": "deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses",
+      "publisher_title": "deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 64,
+      "previous_id": "title:sp:2026:8ebd58a648a94868",
+      "canonical_id": "doi:10.1109/sp63933.2026.00015",
+      "accepted_title": "Defeating Transient Execution Attacks by Limiting Secret Reachability through Register Hiding and ShadowCFI",
+      "publisher_title": "Defeating Transient Execution Attacks by Limiting Secret Reachability Through Register Hiding and ShadowCFI",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 65,
+      "previous_id": "title:sp:2026:cf3354a5e52cc75d",
+      "canonical_id": "doi:10.1109/sp63933.2026.00078",
+      "accepted_title": "Demystifying and Exploiting ASLR on NVIDIA GPUs",
+      "publisher_title": "Demystifying and Exploiting ASLR on NVIDIA GPUs",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 66,
+      "previous_id": "title:sp:2026:40d3a83a5c90badf",
+      "canonical_id": "doi:10.1109/sp63933.2026.00128",
+      "accepted_title": "Demystifying the (In)Security of OAuth-based Account Linking in Connector Ecosystems",
+      "publisher_title": "Demystifying the (In)Security of Oauth-Based Account Linking in Connector Ecosystems",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 67,
+      "previous_id": "title:sp:2026:a9968f956461901e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00071",
+      "accepted_title": "Descriptors of Exposure: Undermining Tor Anonymity through Exploiting Descriptor Flood",
+      "publisher_title": "Descriptors of Exposure: Undermining Tor Anonymity Through Exploiting Descriptor Flood",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 68,
+      "previous_id": "title:sp:2026:da3fd2e24fe3a343",
+      "canonical_id": "doi:10.1109/sp63933.2026.00080",
+      "accepted_title": "Designing Transport-Level Encryption for Datacenter Networks",
+      "publisher_title": "Designing Transport-Level Encryption for Datacenter Networks",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 69,
+      "previous_id": "title:sp:2026:9716862c40dc72c9",
+      "canonical_id": "doi:10.1109/sp63933.2026.00121",
+      "accepted_title": "Detecting Privilege Escalation in Polyglot Microservices via Agentic Program Analysis",
+      "publisher_title": "Detecting Privilege Escalation in Polyglot Microservices via Agentic Program Analysis",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 70,
+      "previous_id": "title:sp:2026:8720aa26bdbfd66f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00079",
+      "accepted_title": "Dory: Streaming PCG with Small Memory",
+      "publisher_title": "Dory: Streaming PCG with Small Memory",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 71,
+      "previous_id": "title:sp:2026:aa31ed1554e25a09",
+      "canonical_id": "doi:10.1109/sp63933.2026.00112",
+      "accepted_title": "DREAM: Scalable Red Teaming for Text-to-Image Generative Systems via Distribution Modeling",
+      "publisher_title": "DREAM: Scalable Red Teaming for Text-to-Image Generative Systems via Distribution Modeling",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 72,
+      "previous_id": "title:sp:2026:57c4dedae988cbdc",
+      "canonical_id": "doi:10.1109/sp63933.2026.00220",
+      "accepted_title": "DY* Unchained: Now with Composable Security Proofs and Precise Compromise Scenarios",
+      "publisher_title": "DY* Unchained: Now with Composable Security Proofs and Precise Compromise Scenarios",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 73,
+      "previous_id": "title:sp:2026:cf417f0b1e0700de",
+      "canonical_id": "doi:10.1109/sp63933.2026.00226",
+      "accepted_title": "Efficient Arithmetic-and-Comparison Homomorphic Encryption with Space Switching",
+      "publisher_title": "Efficient Arithmetic-and-Comparison Homomorphic Encryption with Space Switching",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 74,
+      "previous_id": "title:sp:2026:4a824ccdc684e5de",
+      "canonical_id": "doi:10.1109/sp63933.2026.00013",
+      "accepted_title": "Efficient Fine-Grained Kernel Auditing using Augmented Reference Behavior Analysis and Virtualized Selective Tracing",
+      "publisher_title": "Fine-Grained Kernel Auditing Using Augmented Syscall Reference Behavior Analysis and Virtualized Selective Tracing",
+      "matching_basis": "manual title change plus author/context correspondence"
+    },
+    {
+      "accepted_index_1based": 75,
+      "previous_id": "title:sp:2026:cfcc00d4815bc7cb",
+      "canonical_id": "doi:10.1109/sp63933.2026.00172",
+      "accepted_title": "Efficient Fuzzy Private Set Intersection from Secret-shared OPRF",
+      "publisher_title": "Efficient Fuzzy Private Set Intersection from Secret-Shared OPRF",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 76,
+      "previous_id": "title:sp:2026:f2a330003ab472cd",
+      "canonical_id": "doi:10.1109/sp63933.2026.00072",
+      "accepted_title": "EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models",
+      "publisher_title": "ENCHTABLE: Unified Safety Alignment Transfer in Fine-Tuned Large Language Models",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 77,
+      "previous_id": "title:sp:2026:6ecbb3c3f51c78e2",
+      "canonical_id": "doi:10.1109/sp63933.2026.00043",
+      "accepted_title": "Ensemble Conformal Predictor (EnCP): A New Conformal Predictor with Robustness Guarantees against Data Poisoning Attacks",
+      "publisher_title": "Ensemble Conformal Predictor (EnCP): A New Conformal Predictor with Robustness Guarantees Against Data Poisoning Attacks",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 78,
+      "previous_id": "title:sp:2026:70636a6e06971684",
+      "canonical_id": "doi:10.1109/sp63933.2026.00007",
+      "accepted_title": "Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks",
+      "publisher_title": "Enter, Exit, Page Fault, Leak ${ }^{\\ddagger}$: Testing Isolation Boundaries for Microarchitectural Leaks",
+      "matching_basis": "manual title change plus author/context correspondence"
+    },
+    {
+      "accepted_index_1based": 79,
+      "previous_id": "title:sp:2026:49c07ef5d5238165",
+      "canonical_id": "doi:10.1109/sp63933.2026.00048",
+      "accepted_title": "Euston: Efficient and User-Friendly Secure Transfomer Inference with Non-Interactivity",
+      "publisher_title": "Euston: Efficient and User-Friendly Secure Transformer Inference with Non-Interactivity",
+      "matching_basis": "manual title change plus author/context correspondence"
+    },
+    {
+      "accepted_index_1based": 80,
+      "previous_id": "title:sp:2026:bb1b5643402e3df9",
+      "canonical_id": "doi:10.1109/sp63933.2026.00251",
+      "accepted_title": "Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models",
+      "publisher_title": "Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 81,
+      "previous_id": "title:sp:2026:e07942495dc35b57",
+      "canonical_id": "doi:10.1109/sp63933.2026.00044",
+      "accepted_title": "Exploiting Leaderboards for Large-Scale Distribution of Poisoned Models",
+      "publisher_title": "Exploiting Leaderboards for Large-Scale Distribution of Malicious Models",
+      "matching_basis": "manual title change plus author/context correspondence"
+    },
+    {
+      "accepted_index_1based": 82,
+      "previous_id": "title:sp:2026:66dda2776d0cf663",
+      "canonical_id": "doi:10.1109/sp63933.2026.00145",
+      "accepted_title": "EyeSpy: Inferring Eye Gaze via Side-Channel Attacks Against Foveated Rendering",
+      "publisher_title": "EyeSpy: Inferring Eye Gaze via Side-Channel Attacks Against Foveated Rendering",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 83,
+      "previous_id": "title:sp:2026:c9adeae0cebee8a8",
+      "canonical_id": "doi:10.1109/sp63933.2026.00102",
+      "accepted_title": "Fast Deterministically Safe Proof-of-Work Consensus",
+      "publisher_title": "Fast Deterministically Safe Proof-of-Work Consensus",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 84,
+      "previous_id": "title:sp:2026:c95acda441c2dd11",
+      "canonical_id": "doi:10.1109/sp63933.2026.00091",
+      "accepted_title": "Fizzle: A Framework for Deterministic and Reproducible Network Fuzzing",
+      "publisher_title": "Fizzle: A Framework for Deterministic and Reproducible Network Fuzzing",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 85,
+      "previous_id": "title:sp:2026:b85d1e0a25429674",
+      "canonical_id": "doi:10.1109/sp63933.2026.00141",
+      "accepted_title": "Fractal: An Operating System Designed for Microarchitecture Reverse Engineering",
+      "publisher_title": "Fractal: An Operating System Designed for Microarchitecture Reverse Engineering",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 86,
+      "previous_id": "title:sp:2026:516edb2bfa09e402",
+      "canonical_id": "doi:10.1109/sp63933.2026.00200",
+      "accepted_title": "From \"Be Careful\" to \"Here's Why\": Investigating User Reasoning with Context-Specific SMS Scam Warnings",
+      "publisher_title": "From “Be Careful” to “Here's Why”: Investigating User Reasoning with Context-Specific SMS Scam Warnings",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 87,
+      "previous_id": "title:sp:2026:202af7d4d9651258",
+      "canonical_id": "doi:10.1109/sp63933.2026.00239",
+      "accepted_title": "From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight",
+      "publisher_title": "From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 88,
+      "previous_id": "title:sp:2026:08598b40ebbb6907",
+      "canonical_id": "doi:10.1109/sp63933.2026.00178",
+      "accepted_title": "Fuzzing the Physical Space: Physics-Aware Testing of Black-Box Industrial Control Systems",
+      "publisher_title": "Fuzzing the Physical Space: Physics-Aware Testing of Black-Box Industrial Control Systems",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 89,
+      "previous_id": "title:sp:2026:7140f40a241285a8",
+      "canonical_id": "doi:10.1109/sp63933.2026.00228",
+      "accepted_title": "GDDR: Greatly Disturbing DRAM Rows — Cross-Component Rowhammer Attacks from Modern GPUs",
+      "publisher_title": "GDDRHammer: Greatly Disturbing DRAM Rows — Cross-Component Rowhammer Attacks From Modern GPUs",
+      "matching_basis": "manual title change plus author/context correspondence"
+    },
+    {
+      "accepted_index_1based": 90,
+      "previous_id": "title:sp:2026:a84cc7e29dc98d8e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00230",
+      "accepted_title": "GeForge: Hammering GDDR Memory to Forge GPU Page Tables for Fun and Profit",
+      "publisher_title": "GeForge: Hammering GDDR Memory to Forge GPU Page Tables for Fun and Profit",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 91,
+      "previous_id": "title:sp:2026:a80044ce37b75557",
+      "canonical_id": "doi:10.1109/sp63933.2026.00038",
+      "accepted_title": "Generate-then-Verify: Reconstructing Data from Limited Published Statistics",
+      "publisher_title": "Generate-then-Verify: Reconstructing Data from Limited Published Statistics",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 92,
+      "previous_id": "title:sp:2026:a88715d5cb2fadf0",
+      "canonical_id": "doi:10.1109/sp63933.2026.00047",
+      "accepted_title": "GHost in the SHELL: A GPU-to-Host Memory Attack and Its Mitigation",
+      "publisher_title": "GHost in the Shell: A GPU-to-Host Memory Attack and its Mitigation",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 93,
+      "previous_id": "title:sp:2026:a3c9aa36b9286c0d",
+      "canonical_id": "doi:10.1109/sp63933.2026.00167",
+      "accepted_title": "Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees",
+      "publisher_title": "Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 94,
+      "previous_id": "title:sp:2026:b2acbfc33a46e313",
+      "canonical_id": "doi:10.1109/sp63933.2026.00185",
+      "accepted_title": "GoSSamer: Lightweight and Linear-Communication Asynchronous (Dynamic Proactive) Secret Sharing and the Applications",
+      "publisher_title": "GoSSamer: Lightweight and Linear-Communication Asynchronous (Dynamic Proactive) Secret Sharing and the Applications",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 95,
+      "previous_id": "title:sp:2026:760ae68fb4defcd1",
+      "canonical_id": "doi:10.1109/sp63933.2026.00177",
+      "accepted_title": "GPUBreach: Privilege Escalation Attacks on GPUs using Rowhammer",
+      "publisher_title": "GPUBreach: Privilege Escalation Attacks on GPUs Using Rowhammer",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 96,
+      "previous_id": "title:sp:2026:0b9baad69bb5ee48",
+      "canonical_id": "doi:10.1109/sp63933.2026.00070",
+      "accepted_title": "GraphRAG under Fire",
+      "publisher_title": "GraphRAG Under Fire",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 97,
+      "previous_id": "title:sp:2026:fc16bed3dc451bae",
+      "canonical_id": "doi:10.1109/sp63933.2026.00204",
+      "accepted_title": "Guardians of the Air: In-Device Detection of 5G Control-Plane Threats",
+      "publisher_title": "Guardians of the Air: In-Device Detection of 5G Control-Plane Threats",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 98,
+      "previous_id": "title:sp:2026:eaccdfeaaed8cb32",
+      "canonical_id": "doi:10.1109/sp63933.2026.00122",
+      "accepted_title": "Hadal: Centralized Label DP without a Trusted Party",
+      "publisher_title": "Hadal: Centralized Label DP without a Trusted Party",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 99,
+      "previous_id": "title:sp:2026:ff558645517286d9",
+      "canonical_id": "doi:10.1109/sp63933.2026.00219",
+      "accepted_title": "Hardware Trojans from Invisible Inversions: On the Trojanizability of Standard Cell Libraries",
+      "publisher_title": "Hardware Trojans from Invisible Inversions: On the Trojanizability of Standard Cell Libraries",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 100,
+      "previous_id": "title:sp:2026:15b9d24175c7f2a4",
+      "canonical_id": "doi:10.1109/sp63933.2026.00196",
+      "accepted_title": "Heap Localization: Cache Side-Channel based Linux Kernel Heap Exploit Techniques",
+      "publisher_title": "HEAP LOCALIZATION: Cache Side-Channel Based Linux Kernel Heap Exploit Techniques",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 101,
+      "previous_id": "title:sp:2026:b49a7e38e9f98b45",
+      "canonical_id": "doi:10.1109/sp63933.2026.00217",
+      "accepted_title": "Hidden Secrets in the arXiv: Discovering, Analyzing, and Preventing Unintentional Information Disclosure in Source Files of Scientific Preprints",
+      "publisher_title": "Hidden Secrets in the arXiv: Discovering, Analyzing, and Preventing Unintentional Information Disclosure in Source Files of Scientific Preprints",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 102,
+      "previous_id": "title:sp:2026:91b1a7655bca816e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00214",
+      "accepted_title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
+      "publisher_title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 103,
+      "previous_id": "title:sp:2026:974b146a168847b6",
+      "canonical_id": "doi:10.1109/sp63933.2026.00258",
+      "accepted_title": "Hollow-LLM Attack: Computationally Trivial Weights in Zero-Knowledge Verification of LLM Inference",
+      "publisher_title": "Hollow-LLM Attack: Computationally Trivial Weights in Zero-Knowledge Verification of LLM Inference",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 104,
+      "previous_id": "title:sp:2026:f19ce966d52028fe",
+      "canonical_id": "doi:10.1109/sp63933.2026.00144",
+      "accepted_title": "Human-Centered Threat Modeling in Practice: Lessons, Challenges, and Paths Forward",
+      "publisher_title": "Human-Centered Threat Modeling in Practice: Lessons, Challenges, and Paths Forward",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 105,
+      "previous_id": "title:sp:2026:d523e4c89e956696",
+      "canonical_id": "doi:10.1109/sp63933.2026.00132",
+      "accepted_title": "Incalmo: An Autonomous LLM-assisted System for Red Teaming Multi-Host Networks",
+      "publisher_title": "Incalmo: an Autonomous Llm-Assisted System for Red Teaming Multi-Host Networks",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 106,
+      "previous_id": "title:sp:2026:4e1b48edfbc53e2d",
+      "canonical_id": "doi:10.1109/sp63933.2026.00201",
+      "accepted_title": "INSIGHT: Automatic Generation of Explanations for Efficient Identification of Hardware Bugs and Underspecifications",
+      "publisher_title": "INSIGHT: Automatic Generation of Explanations for Efficient Identification of Hardware Bugs and Underspecifications",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 107,
+      "previous_id": "title:sp:2026:7f1c45f1735f919d",
+      "canonical_id": "doi:10.1109/sp63933.2026.00061",
+      "accepted_title": "InsPIRe: Communication-Efficient PIR with Server-side Preprocessing",
+      "publisher_title": "InsPIRe: Communication-Efficient PIR with Server-Side Preprocessing",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 108,
+      "previous_id": "title:sp:2026:b4889d0a80daef0a",
+      "canonical_id": "doi:10.1109/sp63933.2026.00094",
+      "accepted_title": "International Students and Scams: At Risk Abroad",
+      "publisher_title": "International Students and Scams: At Risk Abroad",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 109,
+      "previous_id": "title:sp:2026:f956b628c9caad4e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00203",
+      "accepted_title": "Interplay of Efficient Model Checking and Secure Processor Design: A Case Study on Secure Speculation",
+      "publisher_title": "Interplay of Efficient Model Checking and Secure Processor Design: A Case Study on Secure Speculation",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 110,
+      "previous_id": "title:sp:2026:37a1818bc4bc047d",
+      "canonical_id": "doi:10.1109/sp63933.2026.00042",
+      "accepted_title": "Investigating the Impact of Dark Patterns on LLM-Based Web Agents",
+      "publisher_title": "Investigating the Impact of Dark Patterns on LLM-Based Web Agents",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 111,
+      "previous_id": "title:sp:2026:c5e027511c3f35cd",
+      "canonical_id": "doi:10.1109/sp63933.2026.00148",
+      "accepted_title": "It’s a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications",
+      "publisher_title": "It's a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 112,
+      "previous_id": "title:sp:2026:6b2e8aada9f1f4d0",
+      "canonical_id": "doi:10.1109/sp63933.2026.00134",
+      "accepted_title": "Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem",
+      "publisher_title": "Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 113,
+      "previous_id": "title:sp:2026:77b3a3bf2e5e85b8",
+      "canonical_id": "doi:10.1109/sp63933.2026.00109",
+      "accepted_title": "Jigsaw: Doubly Private Smart Contracts",
+      "publisher_title": "Jigsaw: Doubly Private Smart Contracts",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 114,
+      "previous_id": "title:sp:2026:4881bd8c1115f75f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00187",
+      "accepted_title": "KeyChaser: Unveiling API Keys in Browser Extensions",
+      "publisher_title": "KeyChaser: Unveiling API Keys in Browser Extensions",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 115,
+      "previous_id": "title:sp:2026:f746c911d81954d5",
+      "canonical_id": "doi:10.1109/sp63933.2026.00106",
+      "accepted_title": "KeyTAR: Practical Keystroke Timing Attacks and Input Reconstruction",
+      "publisher_title": "Keytar: Practical Keystroke Timing Attacks and Input Reconstruction",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 116,
+      "previous_id": "title:sp:2026:180766ae824d5fad",
+      "canonical_id": "doi:10.1109/sp63933.2026.00208",
+      "accepted_title": "Knocking on the Front Door: An LLM-Guided Systematic Analysis of DNS Query Processing Vulnerabilities",
+      "publisher_title": "Knocking on the Front Door: An LLM-Guided Systematic Analysis of DNS Query Processing Vulnerabilities",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 117,
+      "previous_id": "title:sp:2026:9d0fbf5669a0f181",
+      "canonical_id": "doi:10.1109/sp63933.2026.00207",
+      "accepted_title": "Language-Agnostic Detection of Computation-Constraint Inconsistencies in ZKP Programs via Value Inference",
+      "publisher_title": "Language-Agnostic Detection of Computation-Constraint Inconsistencies in ZKP Programs Via Value Inference",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 118,
+      "previous_id": "title:sp:2026:06de8e0c64971f71",
+      "canonical_id": "doi:10.1109/sp63933.2026.00075",
+      "accepted_title": "LatORAM: ORAMs from Lateral Stashes and Delayed Shuffling",
+      "publisher_title": "LatORAM: ORAMs from Lateral Stashes and Delayed Shuffling",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 119,
+      "previous_id": "title:sp:2026:cf2da4e056ab2971",
+      "canonical_id": "doi:10.1109/sp63933.2026.00118",
+      "accepted_title": "Lattice-based Threshold Blind Signatures",
+      "publisher_title": "Lattice-Based Threshold Blind Signatures",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 120,
+      "previous_id": "title:sp:2026:0b3fadb1f91a2acb",
+      "canonical_id": "doi:10.1109/sp63933.2026.00008",
+      "accepted_title": "Leafblower: a Leakage Attack Against TEE-Based Encrypted Databases",
+      "publisher_title": "Leafblower: a Leakage Attack Against Tee-Based Encrypted Databases",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 121,
+      "previous_id": "title:sp:2026:d6f84e5298d628bf",
+      "canonical_id": "doi:10.1109/sp63933.2026.00130",
+      "accepted_title": "LeakyLinks: Measuring the Security and Privacy Risks of URL Scanning Services",
+      "publisher_title": "LEAKYLINKS: Measuring the Security and Privacy Risks of URL Scanning Services",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 122,
+      "previous_id": "title:sp:2026:7a3d020425e459bf",
+      "canonical_id": "doi:10.1109/sp63933.2026.00174",
+      "accepted_title": "LISA: A Scale-Optimized and Psychometrically-Validated Instrument for the Lightweight Assessment of Organizational Information Security Awareness in Heterogeneous Organizations",
+      "publisher_title": "LISA: A Scale-Optimized and Psychometrically-Validated Instrument for the Lightweight Assessment of Organizational Information Security Awareness in Heterogeneous Organizations",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 123,
+      "previous_id": "title:sp:2026:9fecbc5842bc9150",
+      "canonical_id": "doi:10.1109/sp63933.2026.00037",
+      "accepted_title": "LLM Unlearning Should Be Form-Independent",
+      "publisher_title": "LLM Unlearning Should Be Form-Independent",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 124,
+      "previous_id": "title:sp:2026:cf7695a6adadb2da",
+      "canonical_id": "doi:10.1109/sp63933.2026.00111",
+      "accepted_title": "LLMs in the SOC: An Empirical Study of Human-AI Collaboration in Security Operations Centres",
+      "publisher_title": "LLMs in the SOC: An Empirical Study of Human-AI Collaboration in Security Operations Centres",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 125,
+      "previous_id": "title:sp:2026:bedbd12130fdba64",
+      "canonical_id": "doi:10.1109/sp63933.2026.00195",
+      "accepted_title": "LLMThief: Evaluating Configuration Leaking Risks in Commercial LLM App Stores",
+      "publisher_title": "LLMThief: Evaluating Configuration Leaking Risks in Commercial LLM App Stores",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 126,
+      "previous_id": "title:sp:2026:ba50a9845d5bff15",
+      "canonical_id": "doi:10.1109/sp63933.2026.00168",
+      "accepted_title": "Lost in Translation: Text Message Spoofing via Email",
+      "publisher_title": "Lost in Translation: Text Message Spoofing via Email",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 127,
+      "previous_id": "title:sp:2026:da0801a8d5560d10",
+      "canonical_id": "doi:10.1109/sp63933.2026.00176",
+      "accepted_title": "MAD-DAG: Protecting Blockchain Consensus from MEV",
+      "publisher_title": "Mad-Dag: Protecting Blockchain Consensus From MEV",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 128,
+      "previous_id": "title:sp:2026:a05033d9dd9dc4dd",
+      "canonical_id": "doi:10.1109/sp63933.2026.00218",
+      "accepted_title": "MadeYouReset: Exploiting HTTP/2 Server-Side Resets for Large-Scale DoS",
+      "publisher_title": "MadeYouReset: Exploiting HTTP/2 Server-Side Resets for Large-Scale DoS",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 129,
+      "previous_id": "title:sp:2026:0041838e3a344554",
+      "canonical_id": "doi:10.1109/sp63933.2026.00157",
+      "accepted_title": "Making Privacy Public: Toward a Differential Privacy Deployment Registry",
+      "publisher_title": "Making Privacy Public: Toward a Differential Privacy Deployment Registry",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 130,
+      "previous_id": "title:sp:2026:a1f82e75bba0a5f2",
+      "canonical_id": "doi:10.1109/sp63933.2026.00081",
+      "accepted_title": "MAYA: Addressing Inconsistencies in Generative Password Guessing through a Unified Benchmark",
+      "publisher_title": "MAYA: Addressing Inconsistencies in Generative Password Guessing Through a Unified Benchmark",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 131,
+      "previous_id": "title:sp:2026:445f7b216840d7f5",
+      "canonical_id": "doi:10.1109/sp63933.2026.00009",
+      "accepted_title": "Mechanized Safety and Liveness Proofs for the Mysticeti Consensus Protocol under the LiDO-DAG Framework",
+      "publisher_title": "Mechanized Safety and Liveness Proofs for the Mysticeti Consensus Protocol Under the LiDO-DAG Framework",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 132,
+      "previous_id": "title:sp:2026:b6a01f141c56721e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00095",
+      "accepted_title": "MetaBreak: Jailbreaking Online LLM Services via Special Token Manipulation",
+      "publisher_title": "MetaBreak: Jailbreaking Online LLM Services via Special Token Manipulation",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 133,
+      "previous_id": "title:sp:2026:45e7853417e26da0",
+      "canonical_id": "doi:10.1109/sp63933.2026.00191",
+      "accepted_title": "MoPE: A Mixture of Password Experts for Improving Password Guessing",
+      "publisher_title": "MoPE: A Mixture of Password Experts for Improving Password Guessing",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 134,
+      "previous_id": "title:sp:2026:2142dc6a696188f1",
+      "canonical_id": "doi:10.1109/sp63933.2026.00039",
+      "accepted_title": "MusicShield: Protection for Musicians in the Era of Generative AI",
+      "publisher_title": "MUSICSHIELD: Protection for Musicians in the Era of Generative AI",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 135,
+      "previous_id": "title:sp:2026:49cb578fd5e355c6",
+      "canonical_id": "doi:10.1109/sp63933.2026.00231",
+      "accepted_title": "NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE",
+      "publisher_title": "NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 136,
+      "previous_id": "title:sp:2026:81f3035302ea8120",
+      "canonical_id": "doi:10.1109/sp63933.2026.00126",
+      "accepted_title": "Navigating Developers’ Quagmire: LLM-Enabled Privacy Compliance Analysis for SDK Integrations",
+      "publisher_title": "Navigating Developers' Quagmire: LLM-Enabled Privacy Compliance Analysis for SDK Integrations",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 137,
+      "previous_id": "title:sp:2026:76764a647f37169d",
+      "canonical_id": "doi:10.1109/sp63933.2026.00099",
+      "accepted_title": "Nebula: Proving machine executions via folding schemes",
+      "publisher_title": "Nebula: Proving Machine Executions via Folding Schemes",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 138,
+      "previous_id": "title:sp:2026:6cf44ba3586e2c7b",
+      "canonical_id": "doi:10.1109/sp63933.2026.00236",
+      "accepted_title": "NetPanic: The Attack Surface You Can’t Syscall",
+      "publisher_title": "NetPanic: the Attack Surface You Can't Syscall",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 139,
+      "previous_id": "title:sp:2026:6b06711415867dee",
+      "canonical_id": "doi:10.1109/sp63933.2026.00100",
+      "accepted_title": "New Constructions of Functional Adaptor Signatures : Broader Functions and Improved Efficiency",
+      "publisher_title": "New Constructions of Functional Adaptor Signatures: Broader Functions and Improved Efficiency",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 140,
+      "previous_id": "title:sp:2026:22425df932dd6c78",
+      "canonical_id": "doi:10.1109/sp63933.2026.00050",
+      "accepted_title": "No Honor Among Crooks: Non-transferable Anonymous Tokens from Betrayability",
+      "publisher_title": "No Honor Among Crooks: Non-Transferable Anonymous Tokens from Betrayability",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 141,
+      "previous_id": "title:sp:2026:9066f47aea60ab68",
+      "canonical_id": "doi:10.1109/sp63933.2026.00022",
+      "accepted_title": "No Password, No Problem? A Large-Scale Field Study of Passkey Adoption and Usage",
+      "publisher_title": "No Password, No Problem? A Large-Scale Field Study of Passkey Adoption and Usage",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 142,
+      "previous_id": "title:sp:2026:61a0499cac4f018e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00253",
+      "accepted_title": "Nonlocalizable Jamming with Curving Beams",
+      "publisher_title": "Nonlocalizable Jamming with Curving Beams",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 143,
+      "previous_id": "title:sp:2026:926db51269a6d902",
+      "canonical_id": "doi:10.1109/sp63933.2026.00123",
+      "accepted_title": "On the (In)Security of Loading Machine Learning Models",
+      "publisher_title": "On the (In)Security of Loading Machine Learning Models",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 144,
+      "previous_id": "title:sp:2026:139b16454067820a",
+      "canonical_id": "doi:10.1109/sp63933.2026.00193",
+      "accepted_title": "On the Detectability of Active Gradient Inversion Attacks in Federated Learning",
+      "publisher_title": "On the Detectability of Active Gradient Inversion Attacks in Federated Learning",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 145,
+      "previous_id": "title:sp:2026:079cf27ad943e8a4",
+      "canonical_id": "doi:10.1109/sp63933.2026.00260",
+      "accepted_title": "One Char to Rule Them All: Systematically Exploring and Exploiting DNS Silent Vulnerabilities in Domain Name Resolution",
+      "publisher_title": "One Char to Rule Them All: Systematically Exploring and Exploiting DNS Silent Vulnerabilities in Domain Name Resolution",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 146,
+      "previous_id": "title:sp:2026:fd5b665b05bb268b",
+      "canonical_id": "doi:10.1109/sp63933.2026.00210",
+      "accepted_title": "One Tap to Hijack Them All: A Security Analysis of the Google Fast Pair Protocol",
+      "publisher_title": "One Tap to Hijack Them All: A Security Analysis of the Google Fast Pair Protocol",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 147,
+      "previous_id": "title:sp:2026:49b3c95616b26266",
+      "canonical_id": "doi:10.1109/sp63933.2026.00243",
+      "accepted_title": "Optimistic Asynchronous Dynamic-committee Proactive Secret Sharing",
+      "publisher_title": "Optimistic Asynchronous Dynamic-Committee Proactive Secret Sharing",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 148,
+      "previous_id": "title:sp:2026:f8377f8c777c7cc3",
+      "canonical_id": "doi:10.1109/sp63933.2026.00257",
+      "accepted_title": "Oxidizer: Toward Concise and High-fidelity Rust Decompilation",
+      "publisher_title": "Oxidizer: Toward Concise and High-fidelity Rust Decompilation",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 149,
+      "previous_id": "title:sp:2026:d9bccc713850e4f5",
+      "canonical_id": "doi:10.1109/sp63933.2026.00161",
+      "accepted_title": "Papers, Please: A First Look at Age Verification on the Web",
+      "publisher_title": "Papers, Please: A First Look at Age Verification on the Web",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 150,
+      "previous_id": "title:sp:2026:40706f0f34229f2c",
+      "canonical_id": "doi:10.1109/sp63933.2026.00154",
+      "accepted_title": "Parasites in the Toolchain: A Large-Scale Analysis of Attacks on the MCP Ecosystem",
+      "publisher_title": "Parasites in the Toolchain: A Large-Scale Analysis of Attacks on the MCP Ecosystem",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 151,
+      "previous_id": "title:sp:2026:e7414e24450a7037",
+      "canonical_id": "doi:10.1109/sp63933.2026.00020",
+      "accepted_title": "Parasol Compiler: Pushing the Boundaries of FHE Program Efficiency",
+      "publisher_title": "Parasol Compiler: Pushing the Boundaries of FHE Program Efficiency",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 152,
+      "previous_id": "title:sp:2026:a2a3b55aa50c488d",
+      "canonical_id": "doi:10.1109/sp63933.2026.00064",
+      "accepted_title": "Perceived Privacy Risk and Mitigation Post-Roe",
+      "publisher_title": "Perceived Privacy Risk and Mitigation Post-Roe",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 153,
+      "previous_id": "title:sp:2026:23f37004839273bf",
+      "canonical_id": "doi:10.1109/sp63933.2026.00083",
+      "accepted_title": "Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization",
+      "publisher_title": "Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 154,
+      "previous_id": "title:sp:2026:8cd2412a143d87aa",
+      "canonical_id": "doi:10.1109/sp63933.2026.00211",
+      "accepted_title": "PILOT: Command-line Interface Fuzzing via Path-Guided, Iterative Large Language Model Prompting",
+      "publisher_title": "PILOT: Command-Line Interface Fuzzing Via Path-Guided, Iterative Large Language Model Prompting",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 155,
+      "previous_id": "title:sp:2026:767489713172ba4c",
+      "canonical_id": "doi:10.1109/sp63933.2026.00189",
+      "accepted_title": "PLaTypus: Restricting Cross-Module Transitions to Mitigate Code-Reuse Attacks",
+      "publisher_title": "PLaTypus: Restricting Cross-Module Transitions to Mitigate Code-Reuse Attacks",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 156,
+      "previous_id": "title:sp:2026:24773c756d77342a",
+      "canonical_id": "doi:10.1109/sp63933.2026.00166",
+      "accepted_title": "Poisoned by the Host: Large-Scale Measurement of Host Name Poisoning in Web Applications",
+      "publisher_title": "Poisoned by the Host: Large-Scale Measurement of Host Name Poisoning in Web Applications",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 157,
+      "previous_id": "title:sp:2026:5e4a887302ce411c",
+      "canonical_id": "doi:10.1109/sp63933.2026.00034",
+      "accepted_title": "PORTGPT: Towards Automated Backporting Using Large Language Models",
+      "publisher_title": "PortGPT: Towards Automated Backporting Using Large Language Models",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 158,
+      "previous_id": "title:sp:2026:3f225932616dcf62",
+      "canonical_id": "doi:10.1109/sp63933.2026.00084",
+      "accepted_title": "Practical Anonymous Two-Party Gradient Boosting Decision Tree",
+      "publisher_title": "Practical Anonymous Two-Party Gradient Boosting Decision Tree",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 159,
+      "previous_id": "title:sp:2026:ca36fa37cad8d2df",
+      "canonical_id": "doi:10.1109/sp63933.2026.00033",
+      "accepted_title": "Practical Asynchronous Distributed Key Reconfiguration and Its Applications",
+      "publisher_title": "Practical Asynchronous Distributed Key Reconfiguration and Its Applications",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 160,
+      "previous_id": "title:sp:2026:d806b5df50ee17ef",
+      "canonical_id": "doi:10.1109/sp63933.2026.00254",
+      "accepted_title": "Practical Covert Channel across Isolated Browser Instances via GPU Command Queue Contention",
+      "publisher_title": "Practical Covert Channel Across Isolated Browser Instances via GPU Command Queue Contention",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 161,
+      "previous_id": "title:sp:2026:42cf10a15287a193",
+      "canonical_id": "doi:10.1109/sp63933.2026.00006",
+      "accepted_title": "Practical Multi-party Private Set Intersection with Reducible Zero-sharing",
+      "publisher_title": "Practical Multi-Party Private Set Intersection with Reducible Zero-Sharing",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 162,
+      "previous_id": "title:sp:2026:d3164d257f418a43",
+      "canonical_id": "doi:10.1109/sp63933.2026.00119",
+      "accepted_title": "PrintSpy: Pixel-Level Eavesdropping on Commodity Laser Printers via Electromagnetic Side Channels",
+      "publisher_title": "PrintSpy: Pixel-Level Eavesdropping on Commodity Laser Printers via Electromagnetic Side Channels",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 163,
+      "previous_id": "title:sp:2026:17b158aae66e3e1e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00014",
+      "accepted_title": "Privacy Perspectives and Practices of Chinese Smart Home Product Teams",
+      "publisher_title": "Privacy Perspectives and Practices of Chinese Smart Home Product Teams",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 164,
+      "previous_id": "title:sp:2026:52d74053f7818568",
+      "canonical_id": "doi:10.1109/sp63933.2026.00147",
+      "accepted_title": "Privacy-Conscious Algorithm Design via PAC Privacy",
+      "publisher_title": "Privacy-Conscious Algorithm Design Via PAC Privacy",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 165,
+      "previous_id": "title:sp:2026:a2ce2946e49f52cd",
+      "canonical_id": "doi:10.1109/sp63933.2026.00127",
+      "accepted_title": "Private Data Imputation",
+      "publisher_title": "Private Data Imputation",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 166,
+      "previous_id": "title:sp:2026:f8ab045b66245ff2",
+      "canonical_id": "doi:10.1109/sp63933.2026.00045",
+      "accepted_title": "PromoGuardian: Detecting Promotion Abuse Fraud with Multi-Relation Fused Graph Neural Networks",
+      "publisher_title": "Promoguardian: Detecting Promotion Abuse Fraud with Multi-Relation Fused Graph Neural Networks",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 167,
+      "previous_id": "title:sp:2026:caaea8ace01c0b9c",
+      "canonical_id": "doi:10.1109/sp63933.2026.00142",
+      "accepted_title": "PromptCOS: Towards Content-only System Prompt Copyright Auditing for LLMs",
+      "publisher_title": "PromptCOS: Towards Content-Only System Prompt Copyright Auditing for LLMs",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 168,
+      "previous_id": "title:sp:2026:80b5c2a183bf7534",
+      "canonical_id": "doi:10.1109/sp63933.2026.00105",
+      "accepted_title": "PromptLocate: Localizing Prompt Injection Attacks",
+      "publisher_title": "PromptLocate: Localizing Prompt Injection Attacks",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 169,
+      "previous_id": "title:sp:2026:9d72c4fca7157720",
+      "canonical_id": "doi:10.1109/sp63933.2026.00136",
+      "accepted_title": "Prrr: Personal Random Rewards for Blockchain Reporting",
+      "publisher_title": "Prrr: Personal Random Rewards for Blockchain Reporting",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 170,
+      "previous_id": "title:sp:2026:412747dc6866e708",
+      "canonical_id": "doi:10.1109/sp63933.2026.00169",
+      "accepted_title": "PUFFERDOS: Efficient and Effective Attack String Generation for Regular Expression Denial of Service Vulnerabilities",
+      "publisher_title": "PufferDoS: Efficient and Effective Attack String Generation for Regular Expression Denial of Service Vulnerabilities",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 171,
+      "previous_id": "title:sp:2026:e95d8cd837dd0690",
+      "canonical_id": "doi:10.1109/sp63933.2026.00085",
+      "accepted_title": "QuickSafe: Targeted Hardening Against Memory Corruption",
+      "publisher_title": "QuickSafe: Targeted Hardening Against Memory Corruption",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 172,
+      "previous_id": "title:sp:2026:067f650746f1070a",
+      "canonical_id": "doi:10.1109/sp63933.2026.00160",
+      "accepted_title": "RadKey: An LLM-Guided RF Backscatter System for Through-Wall Keystroke Inference",
+      "publisher_title": "RadKey: An LLM-Guided RF Backscatter System for Through-Wall Keystroke Inference",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 173,
+      "previous_id": "title:sp:2026:4e8d779a055ebb50",
+      "canonical_id": "doi:10.1109/sp63933.2026.00063",
+      "accepted_title": "Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities",
+      "publisher_title": "Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 174,
+      "previous_id": "title:sp:2026:7efb495d403dc2ff",
+      "canonical_id": "doi:10.1109/sp63933.2026.00252",
+      "accepted_title": "Recovering and Rehosting Mobile Local LLM Conversations and Contexts via Memory Forensics",
+      "publisher_title": "Recovering and Rehosting Mobile Local LLM Conversations and Contexts via Memory Forensics",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 175,
+      "previous_id": "title:sp:2026:234e6fd6be026225",
+      "canonical_id": "doi:10.1109/sp63933.2026.00261",
+      "accepted_title": "Resolve the Unresolved: Systematic Work Profiling for DNS Resolvers",
+      "publisher_title": "Resolve the Unresolved: Systematic Work Profiling for DNS Resolvers",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 176,
+      "previous_id": "title:sp:2026:a49ad775878e8df2",
+      "canonical_id": "doi:10.1109/sp63933.2026.00180",
+      "accepted_title": "Responsible Disclosure is a Two-Way Street: Empirically Measuring the Responsible Disclosure Contract in the Firmware Ecosystem",
+      "publisher_title": "Responsible Disclosure is a Two-Way Street: Empirically Measuring the Responsible Disclosure Contract in the Firmware Ecosystem",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 177,
+      "previous_id": "title:sp:2026:da37a68eb2258ba4",
+      "canonical_id": "doi:10.1109/sp63933.2026.00030",
+      "accepted_title": "Revelio: Blurred Images Can Still Disclose Your Identity",
+      "publisher_title": "Revelio: Blurred Images Can Still Disclose Your Identity",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 178,
+      "previous_id": "title:sp:2026:d8db293ce51b28fe",
+      "canonical_id": "doi:10.1109/sp63933.2026.00057",
+      "accepted_title": "Revisiting PQ WireGuard: A Comprehensive Security Analysis With a New Design Using Reinforced KEMs",
+      "publisher_title": "Revisiting PQ Wireguard: A Comprehensive Security Analysis with a New Design Using Reinforced KEMs",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 179,
+      "previous_id": "title:sp:2026:6e0be218d3abb2cb",
+      "canonical_id": "doi:10.1109/sp63933.2026.00031",
+      "accepted_title": "RIS-CLA: Reviving CSI-Based Continuous Location Authentication with Reconfigurable Intelligent Surfaces",
+      "publisher_title": "RIS-CLA: Reviving CSI-Based Continuous Location Authentication With Reconfigurable Intelligent Surfaces",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 180,
+      "previous_id": "title:sp:2026:3807a972e79b0dec",
+      "canonical_id": "doi:10.1109/sp63933.2026.00192",
+      "accepted_title": "RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence",
+      "publisher_title": "RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 181,
+      "previous_id": "title:sp:2026:ab6623a7bde969c1",
+      "canonical_id": "doi:10.1109/sp63933.2026.00238",
+      "accepted_title": "Robot: Robust Threshold BBS+ in Two Rounds",
+      "publisher_title": "Robot: Robust Threshold BBS+ in Two Rounds",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 182,
+      "previous_id": "title:sp:2026:4a9af8e82faefb36",
+      "canonical_id": "doi:10.1109/sp63933.2026.00213",
+      "accepted_title": "SatBleed: Security of Commoditized Communication Modules in Satellites",
+      "publisher_title": "SatBleed: Security of Commoditized Communication Modules in Satellites",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 183,
+      "previous_id": "title:sp:2026:1c6524c3cd39ec9a",
+      "canonical_id": "doi:10.1109/sp63933.2026.00068",
+      "accepted_title": "SaTor: Exploring Satellite Routing in Tor to Reduce Latency",
+      "publisher_title": "SaTor: Exploring Satellite Routing in Tor to Reduce Latency",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 184,
+      "previous_id": "title:sp:2026:1348da29949448c3",
+      "canonical_id": "doi:10.1109/sp63933.2026.00029",
+      "accepted_title": "Scalable Accountable Byzantine Agreement and Beyond",
+      "publisher_title": "Scalable Accountable Byzantine Agreement and Beyond",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 185,
+      "previous_id": "title:sp:2026:9eefd03e41c7b8a0",
+      "canonical_id": "doi:10.1109/sp63933.2026.00199",
+      "accepted_title": "Scalable Registration-Based Encryption from Lattices",
+      "publisher_title": "Scalable Registration-Based Encryption from Lattices",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 186,
+      "previous_id": "title:sp:2026:9bf7ffaea212cf6f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00092",
+      "accepted_title": "Sealing the Window: Efficient Tamper Protection for Provenance Logs",
+      "publisher_title": "Sealing the Window: Efficient Tamper Protection for Provenance Logs*",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 187,
+      "previous_id": "title:sp:2026:45ec1a015348ec39",
+      "canonical_id": "doi:10.1109/sp63933.2026.00017",
+      "accepted_title": "Searching for a Farang: Collective Security among Women in Pattaya, Thailand",
+      "publisher_title": "Searching for a Farang: Collective Security Among Women in Pattaya, Thailand",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 188,
+      "previous_id": "title:sp:2026:bb26fd7981741157",
+      "canonical_id": "doi:10.1109/sp63933.2026.00125",
+      "accepted_title": "Secret State Leakage Attacks and their Impacts on EMV Contactless Payment Apps",
+      "publisher_title": "Secret State Leakage Attacks and Their Impacts on EMV Contactless Payment Apps",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 189,
+      "previous_id": "title:sp:2026:4d4c3a3192c3aa13",
+      "canonical_id": "doi:10.1109/sp63933.2026.00209",
+      "accepted_title": "Secure Lookup Tables: Faster, Leaner, and More General",
+      "publisher_title": "Secure Lookup Tables: Faster, Leaner, and More General",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 190,
+      "previous_id": "title:sp:2026:032015fb2f70b2a9",
+      "canonical_id": "doi:10.1109/sp63933.2026.00073",
+      "accepted_title": "SeqAss: Using Sequential Associative Caches to Mitigate Conflict-Based Cache Attacks With Reduced Cache Misses and Performance Overhead",
+      "publisher_title": "SeqAss: Using SeqUential Associative Caches to Mitigate Conflict-Based Cache Attacks with Reduced Cache Misses and Performance Overhead",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 191,
+      "previous_id": "title:sp:2026:af9b4c0964aa99d9",
+      "canonical_id": "doi:10.1109/sp63933.2026.00051",
+      "accepted_title": "Setting the Course, but Forgetting to Steer: Analyzing Compliance with GDPR's Right of Access to Data by Instagram, TikTok, and YouTube",
+      "publisher_title": "Setting the Course, but Forgetting to Steer: Analyzing Compliance with GDPR's Right of Access to Data by Instagram, TikTok, and Youtube",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 192,
+      "previous_id": "title:sp:2026:b6d616246f6dc8e8",
+      "canonical_id": "doi:10.1109/sp63933.2026.00056",
+      "accepted_title": "SFA-Miner: Mining Path-Sensitive API Usage Patterns via Symbolic Finite Automata",
+      "publisher_title": "SFA-Miner: Mining Path-Sensitive API Usage Patterns Via Symbolic Finite Automata",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 193,
+      "previous_id": "title:sp:2026:3ad7df72313e6523",
+      "canonical_id": "doi:10.1109/sp63933.2026.00065",
+      "accepted_title": "Shared Spotlight Meridian: Distributed Sparse Pseudorandom Functions for Scalable Federated Learning",
+      "publisher_title": "Shared Spotlight Meridian: Distributed Sparse Pseudorandom Functions for Scalable Federated Learning",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 194,
+      "previous_id": "title:sp:2026:68656e4b088f2549",
+      "canonical_id": "doi:10.1109/sp63933.2026.00194",
+      "accepted_title": "Single-Server Private Outsourcing of zk-SNARKs",
+      "publisher_title": "Single-Server Private Outsourcing of zk-SNARKs",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 195,
+      "previous_id": "title:sp:2026:6f393edabbd335ac",
+      "canonical_id": "doi:10.1109/sp63933.2026.00019",
+      "accepted_title": "Single-server Stateful PIR with Verifiability and Balanced Efficiency",
+      "publisher_title": "Single-Server Stateful PIR with Verifiability and Balanced Efficiency",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 196,
+      "previous_id": "title:sp:2026:83ec6128ccbe79d8",
+      "canonical_id": "doi:10.1109/sp63933.2026.00241",
+      "accepted_title": "Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions",
+      "publisher_title": "Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 197,
+      "previous_id": "title:sp:2026:3413bb451510d58b",
+      "canonical_id": "doi:10.1109/sp63933.2026.00011",
+      "accepted_title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
+      "publisher_title": "SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 198,
+      "previous_id": "title:sp:2026:b13295421f31b647",
+      "canonical_id": "doi:10.1109/sp63933.2026.00222",
+      "accepted_title": "SoK: After Decades of Web Tracker Detection, What's Next?",
+      "publisher_title": "SoK: After Decades of Web Tracker Detection, What's Next?",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 199,
+      "previous_id": "title:sp:2026:3e1167cb654f243f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00163",
+      "accepted_title": "SoK: All You Ever Wanted to Know About Bootloader Security But Were Afraid to Ask",
+      "publisher_title": "SoK: All You Ever Wanted to Know About Bootloader Security but Were Afraid to Ask",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 200,
+      "previous_id": "title:sp:2026:01705244b20cdc22",
+      "canonical_id": "doi:10.1109/sp63933.2026.00137",
+      "accepted_title": "SoK: Critical Evaluation of Quantum Machine Learning for Adversarial Robustness",
+      "publisher_title": "SoK: Critical Evaluation of Quantum Machine Learning for Adversarial Robustness",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 201,
+      "previous_id": "title:sp:2026:cd8d1ae92cd5796f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00076",
+      "accepted_title": "SoK: Evaluating Jailbreak Guardrails for Large Language Models",
+      "publisher_title": "Sok: Evaluating Jailbreak Guardrails for Large Language Models",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 202,
+      "previous_id": "title:sp:2026:27c2f255c9b36004",
+      "canonical_id": "doi:10.1109/sp63933.2026.00107",
+      "accepted_title": "SoK: Robustness in Large Language Models against Jailbreak Attacks",
+      "publisher_title": "SoK: Robustness in Large Language Models against Jailbreak Attacks",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 203,
+      "previous_id": "title:sp:2026:0c4b4548b15ba43f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00114",
+      "accepted_title": "SoK: Systematizing a Decade of Architectural RowHammer Defenses Through the Lens of Streaming Algorithms",
+      "publisher_title": "SoK: Systematizing a Decade of Architectural Rowhammer Defenses Through the Lens of Streaming Algorithms",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 204,
+      "previous_id": "title:sp:2026:61ed787850a2091a",
+      "canonical_id": "doi:10.1109/sp63933.2026.00113",
+      "accepted_title": "Sort, Sweep, Mirror: Batch Private Interval Lookup with Logarithmic Cost",
+      "publisher_title": "Sort, Sweep, Mirror: Batch Private Interval Lookup with Logarithmic Cost",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 205,
+      "previous_id": "title:sp:2026:a643deb227c57b6f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00234",
+      "accepted_title": "Sparse Estimation Under Local Differential Privacy at All Privacy Levels",
+      "publisher_title": "Sparse Estimation Under Local Differential Privacy at All Privacy Levels",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 206,
+      "previous_id": "title:sp:2026:9263c50559d046bd",
+      "canonical_id": "doi:10.1109/sp63933.2026.00206",
+      "accepted_title": "SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection",
+      "publisher_title": "SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 207,
+      "previous_id": "title:sp:2026:90f10b95d2b57f85",
+      "canonical_id": "doi:10.1109/sp63933.2026.00184",
+      "accepted_title": "Specializing Language Models for Textual Fuzzing via Reinforcement Learning",
+      "publisher_title": "Specializing Language Models for Textual Fuzzing via Reinforcement Learning",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 208,
+      "previous_id": "title:sp:2026:7218ab90f2ce76ca",
+      "canonical_id": "doi:10.1109/sp63933.2026.00143",
+      "accepted_title": "Starfighters—On the General Applicability of X-Wing",
+      "publisher_title": "Starfighters-On the General Applicability of X-Wing",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 209,
+      "previous_id": "title:sp:2026:09e1246625820f0f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00096",
+      "accepted_title": "State of Browser Process-Isolation: The Same-Site Weakness",
+      "publisher_title": "State of Browser Process-Isolation: The Same-Site Weakness",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 210,
+      "previous_id": "title:sp:2026:f42f18ea17b55269",
+      "canonical_id": "doi:10.1109/sp63933.2026.00124",
+      "accepted_title": "StepStone: LLM-Based GPU Kernel Driver Fuzzing via User-Space Libraries",
+      "publisher_title": "StepStone: LLM-Based GPU Kernel Driver Fuzzing via User-Space Libraries",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 211,
+      "previous_id": "title:sp:2026:aeacaf3838b2728e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00093",
+      "accepted_title": "STIR/SHAKEN: A Cocktail of Cryptographic Clumsiness",
+      "publisher_title": "STIR/SHAKEN: A Cocktail of Cryptographic Clumsiness",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 212,
+      "previous_id": "title:sp:2026:b8eb6df18ec4cc59",
+      "canonical_id": "doi:10.1109/sp63933.2026.00155",
+      "accepted_title": "Stop Starving or Stuffing Me: Boosting Firmware Fuzzing Efficiency with On-demand Input Delivery",
+      "publisher_title": "Stop Starving or Stuffing Me: Boosting Firmware Fuzzing Efficiency with On-Demand Input Delivery",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 213,
+      "previous_id": "title:sp:2026:f4ad1a10575862b9",
+      "canonical_id": "doi:10.1109/sp63933.2026.00170",
+      "accepted_title": "TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads",
+      "publisher_title": "TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 214,
+      "previous_id": "title:sp:2026:31f3e723c7981497",
+      "canonical_id": "doi:10.1109/sp63933.2026.00153",
+      "accepted_title": "The Battle of Metasurfaces: Understanding Security in Smart Radio Environments",
+      "publisher_title": "The Battle of Metasurfaces: Understanding Security in Smart Radio Environments",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 215,
+      "previous_id": "title:sp:2026:61baae29bf745903",
+      "canonical_id": "doi:10.1109/sp63933.2026.00224",
+      "accepted_title": "The Fault in Our Drafts: Vulnerabilities in RPKI Specification and Software",
+      "publisher_title": "The Fault in Our Drafts: Vulnerabilities in RPKI Specification and Software",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 216,
+      "previous_id": "title:sp:2026:76262020675f7e1e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00108",
+      "accepted_title": "The First Large-Scale Systematic Study of Python Class Pollution Vulnerability",
+      "publisher_title": "The First Large-Scale Systematic Study of Python Class Pollution Vulnerability",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 217,
+      "previous_id": "title:sp:2026:59242bdc869a5f16",
+      "canonical_id": "doi:10.1109/sp63933.2026.00055",
+      "accepted_title": "The Passkey Promise: A Comparative Usability Study of MFA Methods",
+      "publisher_title": "The Passkey Promise: A Comparative Usability Study of MFA Methods",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 218,
+      "previous_id": "title:sp:2026:3c503847af3e5239",
+      "canonical_id": "doi:10.1109/sp63933.2026.00150",
+      "accepted_title": "The Person Behind the Sound: Demystifying Audio Private Attribute Profiling via Multimodal Large Language Models",
+      "publisher_title": "The Person Behind the Sound: Demystifying Audio Private Attribute Profiling Via Multimodal Large Language Models",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 219,
+      "previous_id": "title:sp:2026:ee5f1982d4d11def",
+      "canonical_id": "doi:10.1109/sp63933.2026.00255",
+      "accepted_title": "The Pipes Model for Latency and Throughput Analysis",
+      "publisher_title": "The Pipes Model for Latency and Throughput Analysis",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 220,
+      "previous_id": "title:sp:2026:b108cc6e3d08ebf5",
+      "canonical_id": "doi:10.1109/sp63933.2026.00026",
+      "accepted_title": "The Secrets Must Not Flow: Scaling Security Verification to Large Codebases",
+      "publisher_title": "The Secrets Must Not Flow: Scaling Security Verification to Large Codebases",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 221,
+      "previous_id": "title:sp:2026:778d6381d562efde",
+      "canonical_id": "doi:10.1109/sp63933.2026.00012",
+      "accepted_title": "The Threat Landscape of IP Leasing in the RPKI Era",
+      "publisher_title": "The Threat Landscape of IP Leasing in the RPKI Era",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 222,
+      "previous_id": "title:sp:2026:a57f4e4d51a52c91",
+      "canonical_id": "doi:10.1109/sp63933.2026.00205",
+      "accepted_title": "Toward Efficient Membership Inference Attacks against Federated Large Language Models: A Projection Residual Approach",
+      "publisher_title": "Toward Efficient Membership Inference Attacks Against Federated Large Language Models: A Projection Residual Approach",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 223,
+      "previous_id": "title:sp:2026:42d7bda5b0567171",
+      "canonical_id": "doi:10.1109/sp63933.2026.00027",
+      "accepted_title": "Toward Inclusive Security and Privacy for Deaf and Hard-of-Hearing People: A Community-Based Interview Study",
+      "publisher_title": "Toward Inclusive Security and Privacy for Deaf and Hard-of-Hearing People: A Community-Based Interview Study",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 224,
+      "previous_id": "title:sp:2026:976299e2882b1870",
+      "canonical_id": "doi:10.1109/sp63933.2026.00018",
+      "accepted_title": "Towards Automating Data Access Permissions in AI Agents",
+      "publisher_title": "Towards Automating Data Access Permissions in AI Agents",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 225,
+      "previous_id": "title:sp:2026:3c62c8b7abc6f578",
+      "canonical_id": "doi:10.1109/sp63933.2026.00041",
+      "accepted_title": "Towards Practical Zero-Knowledge Proof for PSPACE",
+      "publisher_title": "Towards Practical Zero-Knowledge Proof for PSPACE",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 226,
+      "previous_id": "title:sp:2026:1552534fe1b278f7",
+      "canonical_id": "doi:10.1109/sp63933.2026.00066",
+      "accepted_title": "Transient Architectural Execution: From Weird Gates to Weird Programs",
+      "publisher_title": "Transient Architectural Execution: From Weird Gates to Weird Programs",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 227,
+      "previous_id": "title:sp:2026:5166665e5f83d5e1",
+      "canonical_id": "doi:10.1109/sp63933.2026.00101",
+      "accepted_title": "Transparent Domain eXtensions: Breaking Intel TEE Implementations via DDR5 Memory Bus Interposition",
+      "publisher_title": "TEE.Fail: Breaking Trusted Execution Environments via DDR5 Memory Bus Interposition",
+      "matching_basis": "manual title change plus author/context correspondence"
+    },
+    {
+      "accepted_index_1based": 228,
+      "previous_id": "title:sp:2026:cae4f129236a5f82",
+      "canonical_id": "doi:10.1109/sp63933.2026.00135",
+      "accepted_title": "TREVEX: A Black-Box Detection Framework For Data-Flow Transient Execution Vulnerabilities",
+      "publisher_title": "Trevex: A Black-Box Detection Framework for Data-Flow Transient Execution Vulnerabilities",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 229,
+      "previous_id": "title:sp:2026:5297990e256c8387",
+      "canonical_id": "doi:10.1109/sp63933.2026.00156",
+      "accepted_title": "TrigFuzz: Triggering Conditions Guided Directed Fuzzing",
+      "publisher_title": "TRIGFUZZ: Triggering Conditions Guided Directed Fuzzing",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 230,
+      "previous_id": "title:sp:2026:284520a1c7a5eef3",
+      "canonical_id": "doi:10.1109/sp63933.2026.00139",
+      "accepted_title": "TÄMU: Emulating Trusted Applications at the (GlobalPlatform)-API Layer",
+      "publisher_title": "TÄMU: Emulating Trusted Applications at the (GlobalPlatform)-API Layer",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 231,
+      "previous_id": "title:sp:2026:4058346a27bbf1bd",
+      "canonical_id": "doi:10.1109/sp63933.2026.00190",
+      "accepted_title": "UltraProofs: Scalable Reed-Solomon Code Commitment",
+      "publisher_title": "UltraProofs: Scalable Reed-Solomon Code Commitment",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 232,
+      "previous_id": "title:sp:2026:f91ca8c27fd7802c",
+      "canonical_id": "doi:10.1109/sp63933.2026.00069",
+      "accepted_title": "Understanding and Analyzing Privacy Risks in Mobile Consent-Management Platforms",
+      "publisher_title": "Understanding and Analyzing Privacy Risks in Mobile Consent-Management Platforms",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 233,
+      "previous_id": "title:sp:2026:49f0db53d57d76f7",
+      "canonical_id": "doi:10.1109/sp63933.2026.00162",
+      "accepted_title": "Understanding Data Collection, Brokerage, and Spam in the Lead Marketing Ecosystem",
+      "publisher_title": "Understanding Data Collection, Brokerage, and Spam in the Lead Marketing Ecosystem",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 234,
+      "previous_id": "title:sp:2026:f9cc20ec38fe7fb2",
+      "canonical_id": "doi:10.1109/sp63933.2026.00082",
+      "accepted_title": "URLcoat: Exploiting Web Search Capability to Jailbreak Large Language Models",
+      "publisher_title": "URLcoat: Exploiting Web Search Capability to Jailbreak Large Language Models",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 235,
+      "previous_id": "title:sp:2026:36c374597eb35892",
+      "canonical_id": "doi:10.1109/sp63933.2026.00023",
+      "accepted_title": "Usable Anonymity in Reproductive Health Privacy",
+      "publisher_title": "Usable Anonymity in Reproductive Health Privacy",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 236,
+      "previous_id": "title:sp:2026:2e824770915ec7ab",
+      "canonical_id": "doi:10.1109/sp63933.2026.00182",
+      "accepted_title": "Vega: Low-latency zero-knowledge proofs over existing credentials",
+      "publisher_title": "Vega: Low-Latency Zero-Knowledge Proofs over Existing Credentials",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 237,
+      "previous_id": "title:sp:2026:ffd09d8084bb3054",
+      "canonical_id": "doi:10.1109/sp63933.2026.00028",
+      "accepted_title": "VerfCNN, Optimal Complexity zkSNARK for Convolutional Neural Networks",
+      "publisher_title": "VerfCNN, Optimal Complexity zkSNARK for Convolutional Neural Networks",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 238,
+      "previous_id": "title:sp:2026:feba014b9c30cc06",
+      "canonical_id": "doi:10.1109/sp63933.2026.00024",
+      "accepted_title": "Verifiable PIR with Small Client Storage",
+      "publisher_title": "Verifiable PIR with Small Client Storage",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 239,
+      "previous_id": "title:sp:2026:65d32d7ef9a5cd21",
+      "canonical_id": "doi:10.1109/sp63933.2026.00086",
+      "accepted_title": "VIA: Communication-Efficient Single-Server Private Information Retrieval",
+      "publisher_title": "VIA: Communication-Efficient Single-Server Private Information Retrieval",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 240,
+      "previous_id": "title:sp:2026:e746b6758226a76e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00046",
+      "accepted_title": "VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments",
+      "publisher_title": "VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 241,
+      "previous_id": "title:sp:2026:7fde5cc0641da7f1",
+      "canonical_id": "doi:10.1109/sp63933.2026.00183",
+      "accepted_title": "Weaponizing Reflectivity for Pointcloud Deception with Forged Invisible Geometries",
+      "publisher_title": "Weaponizing Reflectivity for Pointcloud Deception with Forged Invisible Geometries",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 242,
+      "previous_id": "title:sp:2026:2e66522f63ac768f",
+      "canonical_id": "doi:10.1109/sp63933.2026.00237",
+      "accepted_title": "Web Application Vulnerability Repair via Context-Aware Fault Localization and Directed Differential Fuzzing",
+      "publisher_title": "Web Application Vulnerability Repair Via Context-Aware Fault Localization and Directed Differential Fuzzing",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 243,
+      "previous_id": "title:sp:2026:3d657089a77e8f66",
+      "canonical_id": "doi:10.1109/sp63933.2026.00025",
+      "accepted_title": "WebCloak: Characterizing and Mitigating Threats from LLM-Driven Web Agents as Intelligent Scrapers",
+      "publisher_title": "WebCloak: Characterizing and Mitigating Threats From LLM-Driven Web Agents as Intelligent Scrapers",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 244,
+      "previous_id": "title:sp:2026:c423ab16ca7a5f8d",
+      "canonical_id": "doi:10.1109/sp63933.2026.00175",
+      "accepted_title": "Weighted Batched Threshold Encryption with Applications to Mempool Privacy",
+      "publisher_title": "Weighted Batched Threshold Encryption With Applications to Mempool Privacy",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 245,
+      "previous_id": "title:sp:2026:d890e1b37be753d5",
+      "canonical_id": "doi:10.1109/sp63933.2026.00062",
+      "accepted_title": "When AI Meets the Web: Prompt Injection Risks in Third-Party AI Chatbot Plugins",
+      "publisher_title": "When AI Meets the Web: Prompt Injection Risks in Third-Party AI Chatbot Plugins",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 246,
+      "previous_id": "title:sp:2026:6132b1e38aa86184",
+      "canonical_id": "doi:10.1109/sp63933.2026.00131",
+      "accepted_title": "When Designers Meet GenAI: Understanding the Role of Prompt-to-Design Generators in Privacy Dark Patterns",
+      "publisher_title": "When Designers Meet GenAI: Understanding the Role of Prompt-to-Design Generators in Privacy Dark Patterns",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 247,
+      "previous_id": "title:sp:2026:c199968b5f4db764",
+      "canonical_id": "doi:10.1109/sp63933.2026.00117",
+      "accepted_title": "When VR Meets BCI: (Un)Observable Brainwave-aware Privacy Reconstruction in the Metaverse via Unrestricted Inbuilt Motion Sensors",
+      "publisher_title": "When VR Meets BCI: (Un)Observable Brainwave-Aware Privacy Reconstruction in the Metaverse via Unrestricted Inbuilt Motion Sensors",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 248,
+      "previous_id": "title:sp:2026:18a65375c0c1e050",
+      "canonical_id": "doi:10.1109/sp63933.2026.00053",
+      "accepted_title": "Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation",
+      "publisher_title": "Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 249,
+      "previous_id": "title:sp:2026:84b0632ce8d5cef3",
+      "canonical_id": "doi:10.1109/sp63933.2026.00197",
+      "accepted_title": "WRATH: Turning Watermark Robustness Against Itself via a Watermark-Agnostic Black-Box Invalidation Attack",
+      "publisher_title": "WRATH: Turning Watermark Robustness Against Itself via a Watermark-Agnostic Black-Box Invalidation Attack",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 250,
+      "previous_id": "title:sp:2026:869eae6a1708dd43",
+      "canonical_id": "doi:10.1109/sp63933.2026.00140",
+      "accepted_title": "xDup: Privacy-Preserving Deduplication for Humanitarian Organizations using Fuzzy PSI",
+      "publisher_title": "xDup: Privacy-Preserving Deduplication for Humanitarian Organizations Using Fuzzy PSI",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 251,
+      "previous_id": "title:sp:2026:cbe55b2da94a6f7e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00097",
+      "accepted_title": "Your Compiler is Backdooring Your Model: Understanding and Exploiting Compilation Inconsistency Vulnerabilities in Deep Learning Compilers",
+      "publisher_title": "Your Compiler is Backdooring Your Model: Understanding and Exploiting Compilation Inconsistency Vulnerabilities in Deep Learning Compilers",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 252,
+      "previous_id": "title:sp:2026:52b8150ae3684601",
+      "canonical_id": "doi:10.1109/sp63933.2026.00232",
+      "accepted_title": "Your Eyes Won't Lie: Snooping Online Voting Privacy from User Webcam",
+      "publisher_title": "Your Eyes Won't Lie: Snooping Online Voting Privacy from User Webcam",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 253,
+      "previous_id": "title:sp:2026:4d594a1337c7aa7e",
+      "canonical_id": "doi:10.1109/sp63933.2026.00021",
+      "accepted_title": "Zelda: Efficient Multi-server Preprocessing PIR with Unconditional Security",
+      "publisher_title": "ZELDA: Efficient Multi-Server Preprocessing PIR With Unconditional Security",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    },
+    {
+      "accepted_index_1based": 254,
+      "previous_id": "title:sp:2026:4425cd69684de7e5",
+      "canonical_id": "doi:10.1109/sp63933.2026.00049",
+      "accepted_title": "zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits",
+      "publisher_title": "zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits",
+      "matching_basis": "unique normalized title within exact proceedings metadata"
+    }
+  ],
+  "author_metadata_discrepancies": [
+    {
+      "accepted_index_1based": 74,
+      "note": "Accepted Theodorus Wensan Februanto vs publisher/print Theodorus Februanto; retain both."
+    },
+    {
+      "accepted_index_1based": 78,
+      "note": "Accent normalization and affiliation difference in accepted/publisher metadata; same listed people, not full author audit."
+    },
+    {
+      "accepted_index_1based": 81,
+      "note": "Last two authors ordered Amir Houmansadr then Alina Oprea in accepted list, reversed in publisher/print; retain both ordered sources."
+    },
+    {
+      "accepted_index_1based": 227,
+      "note": "van/Van name capitalization retained in source representations."
+    }
+  ],
+  "notes": [
+    "Exact proceedings filter: 262 Crossref records = 254 unique paper DOIs + eight frontmatter/index records; no Crossref abstracts, publisher pages used for all 74 candidates.",
+    "ePrint 2026/1081 explicitly links formal DOI and minor revision. Its PDF request returned HTTP 403 text/html; challenge content is not a paper or full-text reading.",
+    "Goldilocks author PDF title/authors correspond to formal record; full publication-version equality not audited. Timing-origin difference is an open implementation question, not an established bug.",
+    "All 49 Goldilocks references initially screened. No recursive closure, author artifacts, experiments or independent second reader."
+  ]
+}

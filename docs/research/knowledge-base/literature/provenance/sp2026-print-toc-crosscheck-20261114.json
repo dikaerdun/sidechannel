@@ -1,0 +1,112 @@
+{
+  "reviewed_on": "2026-11-14",
+  "sources": [
+    {
+      "source_id": "sp26-print-toc",
+      "url": "https://www.proceedings.com/content/086/086453webtoc.pdf",
+      "response_url": "https://www.proceedings.com/content/086/086453webtoc.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:06:01.103253+00:00",
+      "sha256": "190885fec7b65444397f118b1b4228c0985c8f0dba918a10932f5e05c81eccde",
+      "bytes": 381754,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "sp26-print-container",
+      "url": "https://www.proceedings.com/86453.html",
+      "response_url": "https://www.proceedings.com/86453.html",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:27:01.767740+00:00",
+      "sha256": "c1323b32d05d3b3a49aeec89e89bb6a4ef726abe0b5d29246ac986f7cffbd2ed",
+      "bytes": 557241,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "sp26-program",
+      "url": "https://sp2026.ieee-security.org/program.html",
+      "response_url": "https://sp2026.ieee-security.org/program.html",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:06:00.674934+00:00",
+      "sha256": "6457e97dea32dcda6fa7d0e1e6c85972e60da1eaf46ed086a223fa7c56c9664a",
+      "bytes": 263022,
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "sp26-accepted-refresh",
+      "url": "https://www.ieee-security.org/TC/SP2026/accepted-papers.html",
+      "response_url": "https://www.ieee-security.org/TC/SP2026/accepted-papers.html",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:06:01.234794+00:00",
+      "sha256": "ee58a5d42c2309a5ab38d0d1009f12e14758b1f062f1e3d456894b9ba10227ed",
+      "bytes": 178208,
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "sp26-crossref-container",
+      "url": "https://api.crossref.org/works?query.container-title=2026+IEEE+Symposium+on+Security+and+Privacy+%28SP%29&filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-11-12&rows=1000&select=DOI%2Ctitle%2Csubtitle%2Cauthor%2Cpublished%2Cpublished-online%2Cpublished-print%2Cpage%2CISBN%2Ccontainer-title%2Cresource%2Ctype%2Cabstract",
+      "response_url": "https://api.crossref.org/works?query.container-title=2026+IEEE+Symposium+on+Security+and+Privacy+%28SP%29&filter=from-pub-date%3A2026-01-01%2Cuntil-pub-date%3A2026-11-12&rows=1000&select=DOI%2Ctitle%2Csubtitle%2Cauthor%2Cpublished%2Cpublished-online%2Cpublished-print%2Cpage%2CISBN%2Ccontainer-title%2Cresource%2Ctype%2Cabstract",
+      "status": 200,
+      "retrieved_at": "2026-11-13T16:06:03.855126+00:00",
+      "sha256": "9d6d9af1f7a9546509e7f0cefa62f118c93464a02bc384a4a0fc8ec31696a0b2",
+      "bytes": 1245966,
+      "content_type": "application/json"
+    }
+  ],
+  "book_identity": {
+    "ieee_catalog": "CFP26020-POD",
+    "print_isbn": "979-8-3315-6066-9",
+    "volumes": 7,
+    "vendor_total_pages": 4751
+  },
+  "extraction_notes": [
+    "Only Times-Roman 10pt title lines on PDF pages 3-18; cover and copyright excluded. All 252 rows re-extractable.",
+    "Rendered pages 1,3,4,5,8,9,15,17,18 inspected for cover, changed titles and membership anomalies; not a full independent second visual reading.",
+    "245 normalized exact titles plus seven publisher/print title changes. All observed rows map uniquely; two accepted/publisher records are absent.",
+    "251 of 252 print start pages differ from Crossref. Source pagination/order retained separately; discrepancy cause unresolved. Missing print entries alone do not establish withdrawal or nonpublication."
+  ],
+  "missing_records": [
+    {
+      "catalog_id": "doi:10.1109/sp63933.2026.00116",
+      "title": "Audience Injection Attacks: A New Class of Attacks on Web-Based Authorization and Authentication Standards",
+      "crossref_pages": "4054-4071",
+      "present_in_sources": [
+        "sp26-crossref-container",
+        "sp26-program",
+        "sp26-accepted-refresh"
+      ],
+      "status": "absent from this print TOC; still present in official program and publisher metadata"
+    },
+    {
+      "catalog_id": "doi:10.1109/sp63933.2026.00007",
+      "title": "Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks",
+      "crossref_pages": "584-601",
+      "present_in_sources": [
+        "sp26-crossref-container",
+        "sp26-program",
+        "sp26-accepted-refresh"
+      ],
+      "status": "absent from this print TOC; still present in official program and publisher metadata"
+    }
+  ],
+  "core_cell_crosschecks": [
+    {
+      "venue": "SP",
+      "year": 2026,
+      "status": "partial_print_toc_missing_entries",
+      "inventory_file": "toc-crosschecks/sp-2026.jsonl",
+      "accepted_records": 254,
+      "print_toc_records": 252,
+      "exact_normalized_title_matches": 245,
+      "manually_matched_title_changes": 7,
+      "unpaginated_records": 0,
+      "missing_from_toc": 2,
+      "missing_catalog_ids": [
+        "doi:10.1109/sp63933.2026.00116",
+        "doi:10.1109/sp63933.2026.00007"
+      ],
+      "extra_in_toc": 0,
+      "page_start_mismatches": 251,
+      "scope": "partial membership correspondence; missing entries and pagination differences remain open"
+    }
+  ]
+}

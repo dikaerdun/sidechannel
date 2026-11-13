@@ -1,6 +1,6 @@
 # 侧信道科研知识库
 
-更新日期：2026-11-14（追加待验证构思，保留既有实验与文献状态）。用途：让研究问题、证据、失败条件和下一步工作可检索、可复算、可接续。
+更新日期：2026-11-14（追加 S&P 2026 文献与待验证构思，保留既有实验状态）。用途：让研究问题、证据、失败条件和下一步工作可检索、可复算、可接续。
 
 2026-11-11 追加批次 EXP-20261111-07/08/09（离散通道）：**更正旧批的度量基础**——`r10`/`r00` 是 Montgomery 的近似随机重标记（`corr(r10,b1)=0.07`、`sign` 一致率 51%），所以拿 `b1` 做相关目标测的是被打散的代理，旧批 12–17 的“单点上限”是模型失配。换成结果值符号位后，三位点上单样本 AUC 0.994–1.000、互检 AUC 0.37–0.65（分处 copy 12/26/28）、`|b1|` 分层内最小 0.993 → PQC-H013 **有限支持**。H014（单 trace 候选集 ≤4）与 H015（基线差分）**不成立**，原因分别是幅度读数只精确命中 HW 23%、增益 CV 仅 0.10。核验方独立实现判定一致，核心数值 <1e−6；并指出主实现 `same_copy_near` 恒真、A599 有 1 处峰区漂移 745 样本。**仍未恢复任何 b1 完整值。**
 
@@ -12,6 +12,7 @@
 
 ## 从这里开始
 
+- [S&P 2026 文献接续：32 条新卡片、目录缺项及 Goldilocks 证据边界](records/2026-11-14-literature-sp2026.md)
 - [算法噪声的侧信息、高维去匿名化与跨尺度模型：三个大胆方向，待他人验证](brainstorms/2026-11-14-noise-labels-anonymity-and-scale.md)
 - [本轮交接：误差生命周期、图的等价类与尺度转换](records/2026-11-14-noise-anonymity-scale-handoff.md)
 - [秘密算子、物理操作语法与面向观察者的实现设计：三个长期目标，待他人验证](brainstorms/2026-11-14-secret-operators-physical-grammar-observation-design.md)
@@ -51,7 +52,7 @@
 - [第四批交接：三项最小资格诊断与已知反例](records/2026-11-12-observation-handoff.md)
 - [再扩大研究对象：自动模型反例、测量与格求解联合设计、物理同步；BOLD-13 至 15 待验证](brainstorms/2026-11-12-model-breaking-directions.md)
 - [第三批构思修订与验证交接](records/2026-11-12-model-breaking-handoff.md)
-- [近五年文献库（建设中）：1,820 条标题初筛、342 条阅读卡片、引用扩展与版本追踪](literature/README.md)
+- [近五年文献库（建设中）：2,074 条标题初筛、374 条阅读卡片、引用扩展与版本追踪](literature/README.md)
 - [掩码与硬件补读：16 条新增记录、八条发现解析及版本/模拟边界](records/2026-11-13-literature-masking-lineage-hardware.md)
 - [S&P 2023 全标题、47 篇摘要补读及掩码/恒时引用](records/2026-11-13-literature-sp2023-candidates.md)
 - [S&P 2024 摘要补读、261 条目录核对与 Episode V 引用补漏](records/2026-11-13-literature-sp2024-candidates-kyber-v.md)

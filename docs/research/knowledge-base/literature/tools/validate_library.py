@@ -76,9 +76,18 @@ for provenance in (ROOT/'provenance').glob('*.json'):
         inventory=read_rows(ROOT/check['inventory_file'])
         expected_ids={r['id'] for r in catalog if (r['venue'],r['venue_year'])==key}
         assert len(inventory)==len({r['catalog_id'] for r in inventory})==check['print_toc_records']
-        assert {r['catalog_id'] for r in inventory}==expected_ids
+        missing_list=check.get('missing_catalog_ids',[])
+        missing_ids=set(missing_list)
+        assert len(missing_list)==len(missing_ids),'Duplicate missing TOC identity'
+        assert missing_ids<=expected_ids,'Missing TOC identity outside this catalog cell'
+        assert {r['catalog_id'] for r in inventory}==expected_ids-missing_ids
         assert len(expected_ids)==check['accepted_records']
-        assert check['missing_from_toc']==check['extra_in_toc']==0
+        assert check['missing_from_toc']==len(missing_ids)
+        assert check['extra_in_toc']==0
+        if missing_ids:
+            assert check['status']=='partial_print_toc_missing_entries'
+        else:
+            assert check['status']!='partial_print_toc_missing_entries'
         assert sum(r['start_page']=='N/A' for r in inventory)==check['unpaginated_records']
         exact=[r for r in inventory if r['match']=='normalized_title_exact']
         changed=[r for r in inventory if r['match'].startswith('title_changed;')]
@@ -162,4 +171,6 @@ print(json.dumps({'catalog_records':len(catalog),'core_cells':30,'nonpaper_entri
                   'citation_task_status_counts':dict(Counter(t['status'] for t in citation_tasks)),
                   'citation_edges':len(cites),'version_edges':len(versions),'inferred_version_edges':len(inferred_versions),
                   'resolved_discoveries':len(resolved_discoveries),'pending_discoveries':len(pending_discoveries),
+                  'toc_fully_matched_cells':sum(not c['missing_from_toc'] for c in toc_cells.values()),
+                  'toc_partially_matched_cells':sum(bool(c['missing_from_toc']) for c in toc_cells.values()),
                   'relative_links_checked':links,'artifact_checks':'passed','literature_goal_complete':False}))

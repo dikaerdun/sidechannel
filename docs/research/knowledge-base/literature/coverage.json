@@ -1,32 +1,32 @@
 {
   "cutoff": "2026-11-12",
   "rolling_window_start": "2021-11-12",
-  "reading_updated_on": "2026-11-13",
-  "total_catalog_records": 6726,
+  "reading_updated_on": "2026-11-14",
+  "total_catalog_records": 6727,
   "priority_counts": {
-    "unmatched_pending": 5387,
-    "sca_terms": 934,
-    "pqc_terms": 204,
-    "pqc_and_sca_terms": 201
+    "unmatched_pending": 5366,
+    "sca_terms": 951,
+    "pqc_terms": 208,
+    "pqc_and_sca_terms": 202
   },
   "core_catalog_records": 6628,
-  "citation_expansion_records": 98,
-  "title_screened_records": 1820,
-  "abstract_screened_records": 569,
-  "included_papers": 342,
+  "citation_expansion_records": 99,
+  "title_screened_records": 2074,
+  "abstract_screened_records": 644,
+  "included_papers": 374,
   "reading_level_counts": {
-    "abstract_and_bibliographic_metadata": 298,
-    "selected_full_text_sections": 44
+    "abstract_and_bibliographic_metadata": 329,
+    "selected_full_text_sections": 45
   },
   "citation_progress": {
-    "verified_citation_edges": 168,
-    "verified_version_edges": 33,
+    "verified_citation_edges": 179,
+    "verified_version_edges": 34,
     "inferred_version_edges": 5,
     "task_status_counts": {
-      "pending": 628,
-      "in_progress": 56
+      "pending": 691,
+      "in_progress": 57
     },
-    "unresolved_discoveries": 21,
+    "unresolved_discoveries": 39,
     "resolved_discoveries": 61
   },
   "core_cells": [
@@ -183,12 +183,13 @@
       "catalog_records": 254,
       "catalog_parsed": true,
       "provenance_file": "provenance/sp-2026.json",
-      "independent_toc_crosscheck": "pending",
-      "screened_records": 0,
-      "title_screened_records": 0,
-      "abstract_screened_records": 0,
+      "independent_toc_crosscheck": "partial_print_toc_missing_entries",
+      "screened_records": 74,
+      "title_screened_records": 254,
+      "abstract_screened_records": 74,
       "citation_chasing": "pending",
-      "complete": false
+      "complete": false,
+      "toc_crosscheck_provenance": "provenance/sp2026-print-toc-crosscheck-20261114.json"
     },
     {
       "venue": "USENIX",

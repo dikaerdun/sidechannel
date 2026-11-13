@@ -8,6 +8,37 @@
 |---|---|---|
 | IACR CiC | [Side-Channel Attacks on VOLEitH Signature Schemes: Breaking Masked FAEST](https://doi.org/10.62056/aebngyl7s) | selected_full_text_sections |
 | IACR ePrint | [HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without Masking](https://eprint.iacr.org/2026/081) | abstract_and_bibliographic_metadata |
+| SP | [AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX](https://doi.org/10.1109/sp63933.2026.00035) | abstract_and_bibliographic_metadata |
+| SP | [Can I Get More? An Incremental Inference Attack on Encrypted SQL](https://doi.org/10.1109/sp63933.2026.00133) | abstract_and_bibliographic_metadata |
+| SP | [Chypnosis: Undervolting-based Static Side-channel Attacks](https://doi.org/10.1109/sp63933.2026.00090) | abstract_and_bibliographic_metadata |
+| SP | [Credential Extraction Attacks Against Compromised Credential Checking Services of Password Managers](https://doi.org/10.1109/sp63933.2026.00103) | abstract_and_bibliographic_metadata |
+| SP | [Crucible: Retrofitting Commodity CPUs with Vulnerabilities via Transparent Software Emulation](https://doi.org/10.1109/sp63933.2026.00186) | abstract_and_bibliographic_metadata |
+| SP | [Defeating Transient Execution Attacks by Limiting Secret Reachability Through Register Hiding and ShadowCFI](https://doi.org/10.1109/sp63933.2026.00015) | abstract_and_bibliographic_metadata |
+| SP | [Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks](https://doi.org/10.1109/sp63933.2026.00007) | abstract_and_bibliographic_metadata |
+| SP | [EyeSpy: Inferring Eye Gaze via Side-Channel Attacks Against Foveated Rendering](https://doi.org/10.1109/sp63933.2026.00145) | abstract_and_bibliographic_metadata |
+| SP | [Fractal: An Operating System Designed for Microarchitecture Reverse Engineering](https://doi.org/10.1109/sp63933.2026.00141) | abstract_and_bibliographic_metadata |
+| SP | [From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight](https://doi.org/10.1109/sp63933.2026.00239) | abstract_and_bibliographic_metadata |
+| SP | [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | selected_full_text_sections |
+| SP | [HEAP LOCALIZATION: Cache Side-Channel Based Linux Kernel Heap Exploit Techniques](https://doi.org/10.1109/sp63933.2026.00196) | abstract_and_bibliographic_metadata |
+| SP | [Interplay of Efficient Model Checking and Secure Processor Design: A Case Study on Secure Speculation](https://doi.org/10.1109/sp63933.2026.00203) | abstract_and_bibliographic_metadata |
+| SP | [Keytar: Practical Keystroke Timing Attacks and Input Reconstruction](https://doi.org/10.1109/sp63933.2026.00106) | abstract_and_bibliographic_metadata |
+| SP | [LatORAM: ORAMs from Lateral Stashes and Delayed Shuffling](https://doi.org/10.1109/sp63933.2026.00075) | abstract_and_bibliographic_metadata |
+| SP | [Leafblower: a Leakage Attack Against Tee-Based Encrypted Databases](https://doi.org/10.1109/sp63933.2026.00008) | abstract_and_bibliographic_metadata |
+| SP | [Practical Covert Channel Across Isolated Browser Instances via GPU Command Queue Contention](https://doi.org/10.1109/sp63933.2026.00254) | abstract_and_bibliographic_metadata |
+| SP | [PrintSpy: Pixel-Level Eavesdropping on Commodity Laser Printers via Electromagnetic Side Channels](https://doi.org/10.1109/sp63933.2026.00119) | abstract_and_bibliographic_metadata |
+| SP | [RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence](https://doi.org/10.1109/sp63933.2026.00192) | abstract_and_bibliographic_metadata |
+| SP | [RadKey: An LLM-Guided RF Backscatter System for Through-Wall Keystroke Inference](https://doi.org/10.1109/sp63933.2026.00160) | abstract_and_bibliographic_metadata |
+| SP | [Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities](https://doi.org/10.1109/sp63933.2026.00063) | abstract_and_bibliographic_metadata |
+| SP | [SeqAss: Using SeqUential Associative Caches to Mitigate Conflict-Based Cache Attacks with Reduced Cache Misses and Performance Overhead](https://doi.org/10.1109/sp63933.2026.00073) | abstract_and_bibliographic_metadata |
+| SP | [State of Browser Process-Isolation: The Same-Site Weakness](https://doi.org/10.1109/sp63933.2026.00096) | abstract_and_bibliographic_metadata |
+| SP | [TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads](https://doi.org/10.1109/sp63933.2026.00170) | abstract_and_bibliographic_metadata |
+| SP | [TEE.Fail: Breaking Trusted Execution Environments via DDR5 Memory Bus Interposition](https://doi.org/10.1109/sp63933.2026.00101) | abstract_and_bibliographic_metadata |
+| SP | [The Battle of Metasurfaces: Understanding Security in Smart Radio Environments](https://doi.org/10.1109/sp63933.2026.00153) | abstract_and_bibliographic_metadata |
+| SP | [Transient Architectural Execution: From Weird Gates to Weird Programs](https://doi.org/10.1109/sp63933.2026.00066) | abstract_and_bibliographic_metadata |
+| SP | [Trevex: A Black-Box Detection Framework for Data-Flow Transient Execution Vulnerabilities](https://doi.org/10.1109/sp63933.2026.00135) | abstract_and_bibliographic_metadata |
+| SP | [VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments](https://doi.org/10.1109/sp63933.2026.00046) | abstract_and_bibliographic_metadata |
+| SP | [When VR Meets BCI: (Un)Observable Brainwave-Aware Privacy Reconstruction in the Metaverse via Unrestricted Inbuilt Motion Sensors](https://doi.org/10.1109/sp63933.2026.00117) | abstract_and_bibliographic_metadata |
+| SP | [Your Eyes Won't Lie: Snooping Online Voting Privacy from User Webcam](https://doi.org/10.1109/sp63933.2026.00232) | abstract_and_bibliographic_metadata |
 | TC | [Hardware Implementation and Security Analysis of Local-Masked NTT for CRYSTALS-Kyber](https://doi.org/10.1109/tc.2026.3729145) | abstract_and_bibliographic_metadata |
 | TCHES | [A Framework for designing High-Order Side-Channel Protected Hardware Implementations of ML-KEM](https://doi.org/10.46586/tches.v2026.i2.272-295) | abstract_and_bibliographic_metadata |
 | TCHES | [ABRA-CAPA-DABRA: Full break of CAPA](https://doi.org/10.46586/tches.v2026.i3.334-341) | abstract_and_bibliographic_metadata |
@@ -75,6 +106,7 @@
 | USENIX | [Your Keywords Know Each Other: Breaking SSE with <1% Leaked Documents](https://www.usenix.org/conference/usenixsecurity26/presentation/bian-mingyu) | abstract_and_bibliographic_metadata |
 | USENIX | [microSCALE: Static Analysis for Microarchitectural Side-channel Leakage Evaluation](https://www.usenix.org/conference/usenixsecurity26/presentation/kumar-e) | selected_full_text_sections |
 | arXiv | [Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach](https://arxiv.org/abs/2611.01144) | selected_full_text_sections |
+| ePrint | [From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight](https://eprint.iacr.org/2026/1081) | abstract_and_bibliographic_metadata |
 
 ## 2025
 

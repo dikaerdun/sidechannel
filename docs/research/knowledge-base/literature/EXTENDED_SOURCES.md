@@ -91,6 +91,7 @@
 | arXiv | 2025 | 1 | 未完成；引用/检索/版本扩展 |
 | arXiv | 2026 | 1 | 未完成；引用/检索/版本扩展 |
 | ePrint | 2023 | 1 | 未完成；引用/检索/版本扩展 |
+| ePrint | 2026 | 1 | 未完成；引用/检索/版本扩展 |
 
 SAC 2022 的会议年与 2024 年上线日期分别记录；ICCD 2021-10、ISCA 2021-06 和 ASIACCS 2021-05 论文作为窗口前边界引用保留。TCHES 2020 卷的 Share-slicing 于 2019-11 发表；CRYPTO 2020 的 FO 时序与 CHES 2017 的单轨迹论文也作为窗口外基础引用，不计入 2021–2026 核心单元。CRYPTO、EUROCRYPT、ASIACRYPT、COSADE 等扩展会议仍有系统目录收集任务；已有个别记录不等于完整覆盖。
 另保留 GLP 2018、CARDIS 2019（2020 上线）的 qTESLA、ACNS 2019 Dilithium、PLDI/S&P 2020 与 CCS 2017 基础文献。GLP 期刊版在线于 2023 年、卷年 2024；2022 Leveling 固定稿与 2023 Protecting 修正版分列。3D-Shield 仅核定 arXiv 记录，其作者声明的会议身份仍待独立核对。

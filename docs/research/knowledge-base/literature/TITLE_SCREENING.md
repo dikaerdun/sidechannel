@@ -2,8 +2,8 @@
 
 这是一轮人工阅读后的 Codex 判定，不是关键词自动分类。全部判定均为标题层暂判；后续摘要判定见 decisions.jsonl。
 
-当前 1820 条：adjacent=448, candidate=407, outside_title_scope=841, uncertain=124。
-按来源计：SP=859, TCHES=599, USENIX=362。未列来源仍待逐题筛查。
+当前 2074 条：adjacent=448, candidate=435, outside_title_scope=1021, uncertain=170。
+按来源计：SP=1113, TCHES=599, USENIX=362。未列来源仍待逐题筛查。
 candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题层范围外暂判；uncertain=标题不足以判定。没有因此删除任何研究论文目录条目。
 
 | 年/会议 | 论文 | 暂判 | 主题提示 |
@@ -1318,6 +1318,260 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2025 TCHES | [dCTIDH: Fast & Deterministic CTIDH](https://doi.org/10.46586/tches.v2025.i3.516-541) | candidate | candidate |
 | 2025 TCHES | [mid-pSquare: Leveraging the Strong Side-Channel Security of Prime-Field Masking in Software](https://doi.org/10.46586/tches.v2025.i4.486-519) | candidate | candidate |
 | 2025 TCHES | [pracy: A Practical Compiler for Attribute-Based Encryption in Python](https://doi.org/10.46586/tches.v2025.i4.46-91) | outside_title_scope | non_sca_crypto_computation |
+| 2026 SP | ["I Wonder if These Warnings Are Accurate": Security and Privacy Advice in Nine Majority World Countries](https://doi.org/10.1109/sp63933.2026.00005) | outside_title_scope | other_security_research |
+| 2026 SP | [2FiA: Towards WiFi Sensing-Based Authentication with Unique Biometrics](https://doi.org/10.1109/sp63933.2026.00087) | uncertain | scope_to_check |
+| 2026 SP | [A Context is Worth a Thousand Lies: Evading Intrusion Detectors via Intelligent Context Distortion](https://doi.org/10.1109/sp63933.2026.00202) | outside_title_scope | other_security_research |
+| 2026 SP | [A Full Threshold NIST PQC-Compliant Framework for Distributed Trust in Federal Public Key Infrastructure](https://doi.org/10.1109/sp63933.2026.00164) | uncertain | scope_to_check |
+| 2026 SP | [A Leakage-Free Framework for Private Set Operations](https://doi.org/10.1109/sp63933.2026.00171) | uncertain | scope_to_check |
+| 2026 SP | [A Liveness Attack to Ethereum PoS with No Additional Cost](https://doi.org/10.1109/sp63933.2026.00235) | outside_title_scope | other_security_research |
+| 2026 SP | [A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter](https://doi.org/10.1109/sp63933.2026.00221) | uncertain | scope_to_check |
+| 2026 SP | [AESpoly: Symmetric-Key Cryptographic Designs Using Instruction-Level Parallelism between AES and Polynomial Hash](https://doi.org/10.1109/sp63933.2026.00138) | uncertain | scope_to_check |
+| 2026 SP | [AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX](https://doi.org/10.1109/sp63933.2026.00035) | candidate | side_channel_or_observation |
+| 2026 SP | [AI Wrote My Paper and All I Got Was This False Negative:* Measuring the Efficacy of Commercial AI Text Detectors](https://doi.org/10.1109/sp63933.2026.00088) | outside_title_scope | other_security_research |
+| 2026 SP | [APEX: Accurate Parallel Expressive Homomorphic Execution for Encrypted Databases](https://doi.org/10.1109/sp63933.2026.00173) | outside_title_scope | other_security_research |
+| 2026 SP | [APIEcho: Training-less Anomaly Detection via Intra-API Behavioral Comparison for Web Applications](https://doi.org/10.1109/sp63933.2026.00016) | outside_title_scope | other_security_research |
+| 2026 SP | [APT to Disagree: A Comparative Analysis of Attribution in Commercial TI](https://doi.org/10.1109/sp63933.2026.00215) | outside_title_scope | other_security_research |
+| 2026 SP | [ARES: Scalable and Practical Gradient Inversion Attack in Federated Learning through Activation Recovery](https://doi.org/10.1109/sp63933.2026.00181) | outside_title_scope | other_security_research |
+| 2026 SP | [Adversarial Hubness in Multi-Modal Retrieval](https://doi.org/10.1109/sp63933.2026.00158) | outside_title_scope | other_security_research |
+| 2026 SP | [Agentic Concolic Execution](https://doi.org/10.1109/sp63933.2026.00003) | outside_title_scope | other_security_research |
+| 2026 SP | [Are LLM-Enhanced Graph Neural Networks Robust against Poisoning Attacks?](https://doi.org/10.1109/sp63933.2026.00212) | outside_title_scope | other_security_research |
+| 2026 SP | [AttnTrace: Contextual Attribution of Prompt Injection and Knowledge Corruption](https://doi.org/10.1109/sp63933.2026.00198) | outside_title_scope | other_security_research |
+| 2026 SP | [Audience Injection Attacks: A New Class of Attacks on Web-Based Authorization and Authentication Standards](https://doi.org/10.1109/sp63933.2026.00116) | outside_title_scope | other_security_research |
+| 2026 SP | [Auditing Apple’s DifferentialPrivacy.framework: Implementation Bugs, Misconfigurations, and Practical Risks](https://doi.org/10.1109/sp63933.2026.00225) | uncertain | scope_to_check |
+| 2026 SP | [Automated formal analysis of Signal's Double Ratchet: attacks, fixes and security proofs](https://doi.org/10.1109/sp63933.2026.00120) | outside_title_scope | other_security_research |
+| 2026 SP | [BACHunter: Detecting Broken Access Control Vulnerabilities in Intelligent Connected Vehicles](https://doi.org/10.1109/sp63933.2026.00152) | outside_title_scope | other_security_research |
+| 2026 SP | [Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection](https://doi.org/10.1109/sp63933.2026.00129) | uncertain | scope_to_check |
+| 2026 SP | [Batch Me If You Can: Coverage-guided RPKI Fuzzing at Scale](https://doi.org/10.1109/sp63933.2026.00188) | outside_title_scope | other_security_research |
+| 2026 SP | [Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing](https://doi.org/10.1109/sp63933.2026.00052) | uncertain | scope_to_check |
+| 2026 SP | [Behind the Curtain: How Shared Hosting Providers Respond to Vulnerability Notifications](https://doi.org/10.1109/sp63933.2026.00036) | outside_title_scope | other_security_research |
+| 2026 SP | [Best of Both Worlds: Effective Foreign Bridge Identification in V8 Embedders for Security Analysis](https://doi.org/10.1109/sp63933.2026.00115) | outside_title_scope | other_security_research |
+| 2026 SP | [Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs](https://doi.org/10.1109/sp63933.2026.00165) | uncertain | scope_to_check |
+| 2026 SP | [Beyond Nodes vs. Edges: A Multi-View Fusion Framework for Provenance-Based Intrusion Detection](https://doi.org/10.1109/sp63933.2026.00242) | outside_title_scope | other_security_research |
+| 2026 SP | [Beyond the Control Plane: Understanding and Formal Verifying the Cross-Service Flaws in Cloud Identity Service](https://doi.org/10.1109/sp63933.2026.00010) | outside_title_scope | other_security_research |
+| 2026 SP | [Blinding Post-Quantum Hash-and-Sign Signatures](https://doi.org/10.1109/sp63933.2026.00032) | uncertain | scope_to_check |
+| 2026 SP | [BreakFAST: Confused Deputy Attack on Infinity Fabric to Break AMD SEV-SNP](https://doi.org/10.1109/sp63933.2026.00259) | uncertain | scope_to_check |
+| 2026 SP | [Breaking Free from Ivory Tower: Evaluating and Enhancing Real-world Chinese Underground Adversarial Jargon Detection](https://doi.org/10.1109/sp63933.2026.00233) | outside_title_scope | other_security_research |
+| 2026 SP | [Breaking the Barrier for Asynchronous MPC with a Friend](https://doi.org/10.1109/sp63933.2026.00077) | outside_title_scope | other_security_research |
+| 2026 SP | [Breaking the Illusion: Automated Reasoning of GDPR Consent Violations](https://doi.org/10.1109/sp63933.2026.00040) | outside_title_scope | other_security_research |
+| 2026 SP | [Bridge: High-Order Taint Vulnerabilities Detection in Linux-based IoT Firmware](https://doi.org/10.1109/sp63933.2026.00001) | outside_title_scope | other_security_research |
+| 2026 SP | [CBUE: Conclusion Based Utility Evaluation for Differentially Private Categorical Data](https://doi.org/10.1109/sp63933.2026.00058) | outside_title_scope | other_security_research |
+| 2026 SP | [Camveil: Unveiling Security Camera Vulnerabilities through Multi-Protocol Coordinated Fuzzing](https://doi.org/10.1109/sp63933.2026.00002) | outside_title_scope | other_security_research |
+| 2026 SP | [Can Foundation LLMs Accurately Estimate Password Strength and Provide Appropriate Password Feedback?](https://doi.org/10.1109/sp63933.2026.00179) | outside_title_scope | other_security_research |
+| 2026 SP | [Can I Get More? An Incremental Inference Attack on Encrypted SQL](https://doi.org/10.1109/sp63933.2026.00133) | candidate | side_channel_or_observation |
+| 2026 SP | [Catch Me If You Can: Detector-Resistant Evasion via Semantics-Preserving Command Re-Realization](https://doi.org/10.1109/sp63933.2026.00159) | outside_title_scope | other_security_research |
+| 2026 SP | [Cavern: Efficient Honest-Majority Maliciously Secure $(2+1)$ -PC for $\mathbb{Z}_{2^n}$ via DPFs](https://doi.org/10.1109/sp63933.2026.00089) | outside_title_scope | other_security_research |
+| 2026 SP | [CenAlert: Amplifying User Voices to Rally Censorship Investigation](https://doi.org/10.1109/sp63933.2026.00229) | outside_title_scope | other_security_research |
+| 2026 SP | [CenRL: A Framework for Performing Intelligent Censorship Measurements](https://doi.org/10.1109/sp63933.2026.00098) | outside_title_scope | other_security_research |
+| 2026 SP | [Chorus: Secret Recovery with Ephemeral Client Committees](https://doi.org/10.1109/sp63933.2026.00149) | uncertain | scope_to_check |
+| 2026 SP | [Chypnosis: Undervolting-based Static Side-channel Attacks](https://doi.org/10.1109/sp63933.2026.00090) | candidate | side_channel_or_observation |
+| 2026 SP | [CiRCLE: Recovering Complex Data Structures in Binaries beyond Fragmentation](https://doi.org/10.1109/sp63933.2026.00146) | outside_title_scope | other_security_research |
+| 2026 SP | [Code-based Scalable Collaborative SNARKs](https://doi.org/10.1109/sp63933.2026.00240) | outside_title_scope | other_security_research |
+| 2026 SP | [Concretely-Efficient Multi-Key Homomorphic Secret Sharing and Applications](https://doi.org/10.1109/sp63933.2026.00004) | outside_title_scope | other_security_research |
+| 2026 SP | [Consistent Estimation of Numerical Distributions under Local Differential Privacy by Wavelet Expansion](https://doi.org/10.1109/sp63933.2026.00054) | outside_title_scope | other_security_research |
+| 2026 SP | [Consumer Beware! Exploring Data Brokers’ CCPA Compliance](https://doi.org/10.1109/sp63933.2026.00104) | outside_title_scope | other_security_research |
+| 2026 SP | [Contextualizing Sink Knowledge for Java Vulnerability Discovery](https://doi.org/10.1109/sp63933.2026.00223) | outside_title_scope | other_security_research |
+| 2026 SP | [Convenience at a Cost: The Security Risks of Template-based Development in the App-in-App Ecosystem](https://doi.org/10.1109/sp63933.2026.00074) | outside_title_scope | other_security_research |
+| 2026 SP | [Coral: Fast Succinct Non-Interactive Zero-Knowledge CFG Proofs](https://doi.org/10.1109/sp63933.2026.00059) | outside_title_scope | other_security_research |
+| 2026 SP | [Cosseter: GitHub Actions Permission Reduction Using Demand-Driven Static Analysis](https://doi.org/10.1109/sp63933.2026.00067) | outside_title_scope | other_security_research |
+| 2026 SP | [Cottontail: Large Language Model-Driven Concolic Execution for Highly Structured Test Input Generation](https://doi.org/10.1109/sp63933.2026.00110) | outside_title_scope | other_security_research |
+| 2026 SP | [Crashing Through Defenses: Exploiting Segfaults and Chaining around Intel CET](https://doi.org/10.1109/sp63933.2026.00216) | outside_title_scope | other_security_research |
+| 2026 SP | [Credential Extraction Attacks Against Compromised Credential Checking Services of Password Managers](https://doi.org/10.1109/sp63933.2026.00103) | uncertain | scope_to_check |
+| 2026 SP | [Crucible: Retrofitting Commodity CPUs with Vulnerabilities via Transparent Software Emulation](https://doi.org/10.1109/sp63933.2026.00186) | candidate | side_channel_or_observation |
+| 2026 SP | [DREAM: Scalable Red Teaming for Text-to-Image Generative Systems via Distribution Modeling](https://doi.org/10.1109/sp63933.2026.00112) | outside_title_scope | other_security_research |
+| 2026 SP | [DY* Unchained: Now with Composable Security Proofs and Precise Compromise Scenarios](https://doi.org/10.1109/sp63933.2026.00220) | outside_title_scope | other_security_research |
+| 2026 SP | [Death Is Not the End: A Longitudinal Study on the Impact of Automatic Updates on Container Vulnerability Lifespans](https://doi.org/10.1109/sp63933.2026.00227) | outside_title_scope | other_security_research |
+| 2026 SP | [Decomposition-Based Optimal Bounds for Privacy Amplification via Shuffling](https://doi.org/10.1109/sp63933.2026.00151) | outside_title_scope | other_security_research |
+| 2026 SP | [Decor: Delegated Computation on Randomness for Secure Evaluation of Nonlinear Functions](https://doi.org/10.1109/sp63933.2026.00256) | uncertain | scope_to_check |
+| 2026 SP | [Defeating Transient Execution Attacks by Limiting Secret Reachability through Register Hiding and ShadowCFI](https://doi.org/10.1109/sp63933.2026.00015) | candidate | side_channel_or_observation |
+| 2026 SP | [Demystifying and Exploiting ASLR on NVIDIA GPUs](https://doi.org/10.1109/sp63933.2026.00078) | uncertain | scope_to_check |
+| 2026 SP | [Demystifying the (In)Security of OAuth-based Account Linking in Connector Ecosystems](https://doi.org/10.1109/sp63933.2026.00128) | outside_title_scope | other_security_research |
+| 2026 SP | [Descriptors of Exposure: Undermining Tor Anonymity through Exploiting Descriptor Flood](https://doi.org/10.1109/sp63933.2026.00071) | uncertain | scope_to_check |
+| 2026 SP | [Designing Transport-Level Encryption for Datacenter Networks](https://doi.org/10.1109/sp63933.2026.00080) | outside_title_scope | other_security_research |
+| 2026 SP | [Detecting Privilege Escalation in Polyglot Microservices via Agentic Program Analysis](https://doi.org/10.1109/sp63933.2026.00121) | outside_title_scope | other_security_research |
+| 2026 SP | [Dory: Streaming PCG with Small Memory](https://doi.org/10.1109/sp63933.2026.00079) | uncertain | scope_to_check |
+| 2026 SP | [Efficient Arithmetic-and-Comparison Homomorphic Encryption with Space Switching](https://doi.org/10.1109/sp63933.2026.00226) | outside_title_scope | other_security_research |
+| 2026 SP | [Efficient Fine-Grained Kernel Auditing using Augmented Reference Behavior Analysis and Virtualized Selective Tracing](https://doi.org/10.1109/sp63933.2026.00013) | outside_title_scope | other_security_research |
+| 2026 SP | [Efficient Fuzzy Private Set Intersection from Secret-shared OPRF](https://doi.org/10.1109/sp63933.2026.00172) | outside_title_scope | other_security_research |
+| 2026 SP | [EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models](https://doi.org/10.1109/sp63933.2026.00072) | outside_title_scope | other_security_research |
+| 2026 SP | [Ensemble Conformal Predictor (EnCP): A New Conformal Predictor with Robustness Guarantees against Data Poisoning Attacks](https://doi.org/10.1109/sp63933.2026.00043) | outside_title_scope | other_security_research |
+| 2026 SP | [Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks](https://doi.org/10.1109/sp63933.2026.00007) | candidate | side_channel_or_observation |
+| 2026 SP | [Euston: Efficient and User-Friendly Secure Transfomer Inference with Non-Interactivity](https://doi.org/10.1109/sp63933.2026.00048) | outside_title_scope | other_security_research |
+| 2026 SP | [Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models](https://doi.org/10.1109/sp63933.2026.00251) | outside_title_scope | other_security_research |
+| 2026 SP | [Exploiting Leaderboards for Large-Scale Distribution of Poisoned Models](https://doi.org/10.1109/sp63933.2026.00044) | outside_title_scope | other_security_research |
+| 2026 SP | [EyeSpy: Inferring Eye Gaze via Side-Channel Attacks Against Foveated Rendering](https://doi.org/10.1109/sp63933.2026.00145) | candidate | side_channel_or_observation |
+| 2026 SP | [Fast Deterministically Safe Proof-of-Work Consensus](https://doi.org/10.1109/sp63933.2026.00102) | outside_title_scope | other_security_research |
+| 2026 SP | [Fizzle: A Framework for Deterministic and Reproducible Network Fuzzing](https://doi.org/10.1109/sp63933.2026.00091) | outside_title_scope | other_security_research |
+| 2026 SP | [Fractal: An Operating System Designed for Microarchitecture Reverse Engineering](https://doi.org/10.1109/sp63933.2026.00141) | uncertain | scope_to_check |
+| 2026 SP | [From "Be Careful" to "Here's Why": Investigating User Reasoning with Context-Specific SMS Scam Warnings](https://doi.org/10.1109/sp63933.2026.00200) | outside_title_scope | other_security_research |
+| 2026 SP | [From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight](https://doi.org/10.1109/sp63933.2026.00239) | candidate | side_channel_or_observation |
+| 2026 SP | [Fuzzing the Physical Space: Physics-Aware Testing of Black-Box Industrial Control Systems](https://doi.org/10.1109/sp63933.2026.00178) | outside_title_scope | other_security_research |
+| 2026 SP | [GDDR: Greatly Disturbing DRAM Rows — Cross-Component Rowhammer Attacks from Modern GPUs](https://doi.org/10.1109/sp63933.2026.00228) | uncertain | scope_to_check |
+| 2026 SP | [GHost in the SHELL: A GPU-to-Host Memory Attack and Its Mitigation](https://doi.org/10.1109/sp63933.2026.00047) | outside_title_scope | other_security_research |
+| 2026 SP | [GPUBreach: Privilege Escalation Attacks on GPUs using Rowhammer](https://doi.org/10.1109/sp63933.2026.00177) | uncertain | scope_to_check |
+| 2026 SP | [GeForge: Hammering GDDR Memory to Forge GPU Page Tables for Fun and Profit](https://doi.org/10.1109/sp63933.2026.00230) | uncertain | scope_to_check |
+| 2026 SP | [Generate-then-Verify: Reconstructing Data from Limited Published Statistics](https://doi.org/10.1109/sp63933.2026.00038) | outside_title_scope | other_security_research |
+| 2026 SP | [GoSSamer: Lightweight and Linear-Communication Asynchronous (Dynamic Proactive) Secret Sharing and the Applications](https://doi.org/10.1109/sp63933.2026.00185) | uncertain | scope_to_check |
+| 2026 SP | [Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees](https://doi.org/10.1109/sp63933.2026.00167) | candidate | side_channel_or_observation |
+| 2026 SP | [GraphRAG under Fire](https://doi.org/10.1109/sp63933.2026.00070) | outside_title_scope | other_security_research |
+| 2026 SP | [Guardians of the Air: In-Device Detection of 5G Control-Plane Threats](https://doi.org/10.1109/sp63933.2026.00204) | outside_title_scope | other_security_research |
+| 2026 SP | [Hadal: Centralized Label DP without a Trusted Party](https://doi.org/10.1109/sp63933.2026.00122) | outside_title_scope | other_security_research |
+| 2026 SP | [Hardware Trojans from Invisible Inversions: On the Trojanizability of Standard Cell Libraries](https://doi.org/10.1109/sp63933.2026.00219) | uncertain | scope_to_check |
+| 2026 SP | [Heap Localization: Cache Side-Channel based Linux Kernel Heap Exploit Techniques](https://doi.org/10.1109/sp63933.2026.00196) | candidate | side_channel_or_observation |
+| 2026 SP | [Hidden Secrets in the arXiv: Discovering, Analyzing, and Preventing Unintentional Information Disclosure in Source Files of Scientific Preprints](https://doi.org/10.1109/sp63933.2026.00217) | outside_title_scope | other_security_research |
+| 2026 SP | [Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection](https://doi.org/10.1109/sp63933.2026.00214) | outside_title_scope | other_security_research |
+| 2026 SP | [Hollow-LLM Attack: Computationally Trivial Weights in Zero-Knowledge Verification of LLM Inference](https://doi.org/10.1109/sp63933.2026.00258) | outside_title_scope | other_security_research |
+| 2026 SP | [Human-Centered Threat Modeling in Practice: Lessons, Challenges, and Paths Forward](https://doi.org/10.1109/sp63933.2026.00144) | outside_title_scope | other_security_research |
+| 2026 SP | [INSIGHT: Automatic Generation of Explanations for Efficient Identification of Hardware Bugs and Underspecifications](https://doi.org/10.1109/sp63933.2026.00201) | uncertain | scope_to_check |
+| 2026 SP | [Incalmo: An Autonomous LLM-assisted System for Red Teaming Multi-Host Networks](https://doi.org/10.1109/sp63933.2026.00132) | outside_title_scope | other_security_research |
+| 2026 SP | [InsPIRe: Communication-Efficient PIR with Server-side Preprocessing](https://doi.org/10.1109/sp63933.2026.00061) | outside_title_scope | other_security_research |
+| 2026 SP | [International Students and Scams: At Risk Abroad](https://doi.org/10.1109/sp63933.2026.00094) | outside_title_scope | other_security_research |
+| 2026 SP | [Interplay of Efficient Model Checking and Secure Processor Design: A Case Study on Secure Speculation](https://doi.org/10.1109/sp63933.2026.00203) | candidate | side_channel_or_observation |
+| 2026 SP | [Investigating the Impact of Dark Patterns on LLM-Based Web Agents](https://doi.org/10.1109/sp63933.2026.00042) | outside_title_scope | other_security_research |
+| 2026 SP | [It’s a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications](https://doi.org/10.1109/sp63933.2026.00148) | uncertain | scope_to_check |
+| 2026 SP | [Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem](https://doi.org/10.1109/sp63933.2026.00134) | outside_title_scope | other_security_research |
+| 2026 SP | [Jigsaw: Doubly Private Smart Contracts](https://doi.org/10.1109/sp63933.2026.00109) | outside_title_scope | other_security_research |
+| 2026 SP | [KeyChaser: Unveiling API Keys in Browser Extensions](https://doi.org/10.1109/sp63933.2026.00187) | outside_title_scope | other_security_research |
+| 2026 SP | [KeyTAR: Practical Keystroke Timing Attacks and Input Reconstruction](https://doi.org/10.1109/sp63933.2026.00106) | candidate | side_channel_or_observation |
+| 2026 SP | [Knocking on the Front Door: An LLM-Guided Systematic Analysis of DNS Query Processing Vulnerabilities](https://doi.org/10.1109/sp63933.2026.00208) | outside_title_scope | other_security_research |
+| 2026 SP | [LISA: A Scale-Optimized and Psychometrically-Validated Instrument for the Lightweight Assessment of Organizational Information Security Awareness in Heterogeneous Organizations](https://doi.org/10.1109/sp63933.2026.00174) | outside_title_scope | other_security_research |
+| 2026 SP | [LLM Unlearning Should Be Form-Independent](https://doi.org/10.1109/sp63933.2026.00037) | outside_title_scope | other_security_research |
+| 2026 SP | [LLMThief: Evaluating Configuration Leaking Risks in Commercial LLM App Stores](https://doi.org/10.1109/sp63933.2026.00195) | outside_title_scope | other_security_research |
+| 2026 SP | [LLMs in the SOC: An Empirical Study of Human-AI Collaboration in Security Operations Centres](https://doi.org/10.1109/sp63933.2026.00111) | outside_title_scope | other_security_research |
+| 2026 SP | [Language-Agnostic Detection of Computation-Constraint Inconsistencies in ZKP Programs via Value Inference](https://doi.org/10.1109/sp63933.2026.00207) | outside_title_scope | other_security_research |
+| 2026 SP | [LatORAM: ORAMs from Lateral Stashes and Delayed Shuffling](https://doi.org/10.1109/sp63933.2026.00075) | candidate | side_channel_or_observation |
+| 2026 SP | [Lattice-based Threshold Blind Signatures](https://doi.org/10.1109/sp63933.2026.00118) | uncertain | scope_to_check |
+| 2026 SP | [Leafblower: a Leakage Attack Against TEE-Based Encrypted Databases](https://doi.org/10.1109/sp63933.2026.00008) | candidate | side_channel_or_observation |
+| 2026 SP | [LeakyLinks: Measuring the Security and Privacy Risks of URL Scanning Services](https://doi.org/10.1109/sp63933.2026.00130) | outside_title_scope | other_security_research |
+| 2026 SP | [Lost in Translation: Text Message Spoofing via Email](https://doi.org/10.1109/sp63933.2026.00168) | outside_title_scope | other_security_research |
+| 2026 SP | [MAD-DAG: Protecting Blockchain Consensus from MEV](https://doi.org/10.1109/sp63933.2026.00176) | outside_title_scope | other_security_research |
+| 2026 SP | [MAYA: Addressing Inconsistencies in Generative Password Guessing through a Unified Benchmark](https://doi.org/10.1109/sp63933.2026.00081) | outside_title_scope | other_security_research |
+| 2026 SP | [MadeYouReset: Exploiting HTTP/2 Server-Side Resets for Large-Scale DoS](https://doi.org/10.1109/sp63933.2026.00218) | outside_title_scope | other_security_research |
+| 2026 SP | [Making Privacy Public: Toward a Differential Privacy Deployment Registry](https://doi.org/10.1109/sp63933.2026.00157) | outside_title_scope | other_security_research |
+| 2026 SP | [Mechanized Safety and Liveness Proofs for the Mysticeti Consensus Protocol under the LiDO-DAG Framework](https://doi.org/10.1109/sp63933.2026.00009) | outside_title_scope | other_security_research |
+| 2026 SP | [MetaBreak: Jailbreaking Online LLM Services via Special Token Manipulation](https://doi.org/10.1109/sp63933.2026.00095) | outside_title_scope | other_security_research |
+| 2026 SP | [MoPE: A Mixture of Password Experts for Improving Password Guessing](https://doi.org/10.1109/sp63933.2026.00191) | outside_title_scope | other_security_research |
+| 2026 SP | [MusicShield: Protection for Musicians in the Era of Generative AI](https://doi.org/10.1109/sp63933.2026.00039) | outside_title_scope | other_security_research |
+| 2026 SP | [NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE](https://doi.org/10.1109/sp63933.2026.00231) | outside_title_scope | other_security_research |
+| 2026 SP | [Navigating Developers’ Quagmire: LLM-Enabled Privacy Compliance Analysis for SDK Integrations](https://doi.org/10.1109/sp63933.2026.00126) | outside_title_scope | other_security_research |
+| 2026 SP | [Nebula: Proving machine executions via folding schemes](https://doi.org/10.1109/sp63933.2026.00099) | outside_title_scope | other_security_research |
+| 2026 SP | [NetPanic: The Attack Surface You Can’t Syscall](https://doi.org/10.1109/sp63933.2026.00236) | outside_title_scope | other_security_research |
+| 2026 SP | [New Constructions of Functional Adaptor Signatures : Broader Functions and Improved Efficiency](https://doi.org/10.1109/sp63933.2026.00100) | outside_title_scope | other_security_research |
+| 2026 SP | [No Honor Among Crooks: Non-transferable Anonymous Tokens from Betrayability](https://doi.org/10.1109/sp63933.2026.00050) | outside_title_scope | other_security_research |
+| 2026 SP | [No Password, No Problem? A Large-Scale Field Study of Passkey Adoption and Usage](https://doi.org/10.1109/sp63933.2026.00022) | outside_title_scope | other_security_research |
+| 2026 SP | [Nonlocalizable Jamming with Curving Beams](https://doi.org/10.1109/sp63933.2026.00253) | uncertain | scope_to_check |
+| 2026 SP | [On the (In)Security of Loading Machine Learning Models](https://doi.org/10.1109/sp63933.2026.00123) | outside_title_scope | other_security_research |
+| 2026 SP | [On the Detectability of Active Gradient Inversion Attacks in Federated Learning](https://doi.org/10.1109/sp63933.2026.00193) | outside_title_scope | other_security_research |
+| 2026 SP | [One Char to Rule Them All: Systematically Exploring and Exploiting DNS Silent Vulnerabilities in Domain Name Resolution](https://doi.org/10.1109/sp63933.2026.00260) | outside_title_scope | other_security_research |
+| 2026 SP | [One Tap to Hijack Them All: A Security Analysis of the Google Fast Pair Protocol](https://doi.org/10.1109/sp63933.2026.00210) | outside_title_scope | other_security_research |
+| 2026 SP | [Optimistic Asynchronous Dynamic-committee Proactive Secret Sharing](https://doi.org/10.1109/sp63933.2026.00243) | uncertain | scope_to_check |
+| 2026 SP | [Oxidizer: Toward Concise and High-fidelity Rust Decompilation](https://doi.org/10.1109/sp63933.2026.00257) | outside_title_scope | other_security_research |
+| 2026 SP | [PILOT: Command-line Interface Fuzzing via Path-Guided, Iterative Large Language Model Prompting](https://doi.org/10.1109/sp63933.2026.00211) | outside_title_scope | other_security_research |
+| 2026 SP | [PLaTypus: Restricting Cross-Module Transitions to Mitigate Code-Reuse Attacks](https://doi.org/10.1109/sp63933.2026.00189) | outside_title_scope | other_security_research |
+| 2026 SP | [PORTGPT: Towards Automated Backporting Using Large Language Models](https://doi.org/10.1109/sp63933.2026.00034) | outside_title_scope | other_security_research |
+| 2026 SP | [PUFFERDOS: Efficient and Effective Attack String Generation for Regular Expression Denial of Service Vulnerabilities](https://doi.org/10.1109/sp63933.2026.00169) | outside_title_scope | other_security_research |
+| 2026 SP | [Papers, Please: A First Look at Age Verification on the Web](https://doi.org/10.1109/sp63933.2026.00161) | outside_title_scope | other_security_research |
+| 2026 SP | [Parasites in the Toolchain: A Large-Scale Analysis of Attacks on the MCP Ecosystem](https://doi.org/10.1109/sp63933.2026.00154) | outside_title_scope | other_security_research |
+| 2026 SP | [Parasol Compiler: Pushing the Boundaries of FHE Program Efficiency](https://doi.org/10.1109/sp63933.2026.00020) | outside_title_scope | other_security_research |
+| 2026 SP | [Perceived Privacy Risk and Mitigation Post-Roe](https://doi.org/10.1109/sp63933.2026.00064) | outside_title_scope | other_security_research |
+| 2026 SP | [Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization](https://doi.org/10.1109/sp63933.2026.00083) | uncertain | scope_to_check |
+| 2026 SP | [Poisoned by the Host: Large-Scale Measurement of Host Name Poisoning in Web Applications](https://doi.org/10.1109/sp63933.2026.00166) | outside_title_scope | other_security_research |
+| 2026 SP | [Practical Anonymous Two-Party Gradient Boosting Decision Tree](https://doi.org/10.1109/sp63933.2026.00084) | outside_title_scope | other_security_research |
+| 2026 SP | [Practical Asynchronous Distributed Key Reconfiguration and Its Applications](https://doi.org/10.1109/sp63933.2026.00033) | outside_title_scope | other_security_research |
+| 2026 SP | [Practical Covert Channel across Isolated Browser Instances via GPU Command Queue Contention](https://doi.org/10.1109/sp63933.2026.00254) | candidate | side_channel_or_observation |
+| 2026 SP | [Practical Multi-party Private Set Intersection with Reducible Zero-sharing](https://doi.org/10.1109/sp63933.2026.00006) | outside_title_scope | other_security_research |
+| 2026 SP | [PrintSpy: Pixel-Level Eavesdropping on Commodity Laser Printers via Electromagnetic Side Channels](https://doi.org/10.1109/sp63933.2026.00119) | candidate | side_channel_or_observation |
+| 2026 SP | [Privacy Perspectives and Practices of Chinese Smart Home Product Teams](https://doi.org/10.1109/sp63933.2026.00014) | outside_title_scope | other_security_research |
+| 2026 SP | [Privacy-Conscious Algorithm Design via PAC Privacy](https://doi.org/10.1109/sp63933.2026.00147) | outside_title_scope | other_security_research |
+| 2026 SP | [Private Data Imputation](https://doi.org/10.1109/sp63933.2026.00127) | outside_title_scope | other_security_research |
+| 2026 SP | [PromoGuardian: Detecting Promotion Abuse Fraud with Multi-Relation Fused Graph Neural Networks](https://doi.org/10.1109/sp63933.2026.00045) | outside_title_scope | other_security_research |
+| 2026 SP | [PromptCOS: Towards Content-only System Prompt Copyright Auditing for LLMs](https://doi.org/10.1109/sp63933.2026.00142) | outside_title_scope | other_security_research |
+| 2026 SP | [PromptLocate: Localizing Prompt Injection Attacks](https://doi.org/10.1109/sp63933.2026.00105) | outside_title_scope | other_security_research |
+| 2026 SP | [Prrr: Personal Random Rewards for Blockchain Reporting](https://doi.org/10.1109/sp63933.2026.00136) | outside_title_scope | other_security_research |
+| 2026 SP | [QuickSafe: Targeted Hardening Against Memory Corruption](https://doi.org/10.1109/sp63933.2026.00085) | outside_title_scope | other_security_research |
+| 2026 SP | [RIS-CLA: Reviving CSI-Based Continuous Location Authentication with Reconfigurable Intelligent Surfaces](https://doi.org/10.1109/sp63933.2026.00031) | uncertain | scope_to_check |
+| 2026 SP | [RISCy Cache Coherence: Timer-Free Architectural Cache Attacks via Instruction/Data Cache Incoherence](https://doi.org/10.1109/sp63933.2026.00192) | candidate | side_channel_or_observation |
+| 2026 SP | [RadKey: An LLM-Guided RF Backscatter System for Through-Wall Keystroke Inference](https://doi.org/10.1109/sp63933.2026.00160) | candidate | side_channel_or_observation |
+| 2026 SP | [Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities](https://doi.org/10.1109/sp63933.2026.00063) | candidate | side_channel_or_observation |
+| 2026 SP | [Recovering and Rehosting Mobile Local LLM Conversations and Contexts via Memory Forensics](https://doi.org/10.1109/sp63933.2026.00252) | uncertain | scope_to_check |
+| 2026 SP | [Resolve the Unresolved: Systematic Work Profiling for DNS Resolvers](https://doi.org/10.1109/sp63933.2026.00261) | outside_title_scope | other_security_research |
+| 2026 SP | [Responsible Disclosure is a Two-Way Street: Empirically Measuring the Responsible Disclosure Contract in the Firmware Ecosystem](https://doi.org/10.1109/sp63933.2026.00180) | outside_title_scope | other_security_research |
+| 2026 SP | [Revelio: Blurred Images Can Still Disclose Your Identity](https://doi.org/10.1109/sp63933.2026.00030) | outside_title_scope | other_security_research |
+| 2026 SP | [Revisiting PQ WireGuard: A Comprehensive Security Analysis With a New Design Using Reinforced KEMs](https://doi.org/10.1109/sp63933.2026.00057) | uncertain | scope_to_check |
+| 2026 SP | [Robot: Robust Threshold BBS+ in Two Rounds](https://doi.org/10.1109/sp63933.2026.00238) | outside_title_scope | other_security_research |
+| 2026 SP | [SFA-Miner: Mining Path-Sensitive API Usage Patterns via Symbolic Finite Automata](https://doi.org/10.1109/sp63933.2026.00056) | outside_title_scope | other_security_research |
+| 2026 SP | [STIR/SHAKEN: A Cocktail of Cryptographic Clumsiness](https://doi.org/10.1109/sp63933.2026.00093) | outside_title_scope | other_security_research |
+| 2026 SP | [SaTor: Exploring Satellite Routing in Tor to Reduce Latency](https://doi.org/10.1109/sp63933.2026.00068) | outside_title_scope | other_security_research |
+| 2026 SP | [SatBleed: Security of Commoditized Communication Modules in Satellites](https://doi.org/10.1109/sp63933.2026.00213) | uncertain | scope_to_check |
+| 2026 SP | [Scalable Accountable Byzantine Agreement and Beyond](https://doi.org/10.1109/sp63933.2026.00029) | outside_title_scope | other_security_research |
+| 2026 SP | [Scalable Registration-Based Encryption from Lattices](https://doi.org/10.1109/sp63933.2026.00199) | uncertain | scope_to_check |
+| 2026 SP | [Sealing the Window: Efficient Tamper Protection for Provenance Logs](https://doi.org/10.1109/sp63933.2026.00092) | outside_title_scope | other_security_research |
+| 2026 SP | [Searching for a Farang: Collective Security among Women in Pattaya, Thailand](https://doi.org/10.1109/sp63933.2026.00017) | outside_title_scope | other_security_research |
+| 2026 SP | [Secret State Leakage Attacks and their Impacts on EMV Contactless Payment Apps](https://doi.org/10.1109/sp63933.2026.00125) | uncertain | scope_to_check |
+| 2026 SP | [Secure Lookup Tables: Faster, Leaner, and More General](https://doi.org/10.1109/sp63933.2026.00209) | uncertain | scope_to_check |
+| 2026 SP | [SeqAss: Using Sequential Associative Caches to Mitigate Conflict-Based Cache Attacks With Reduced Cache Misses and Performance Overhead](https://doi.org/10.1109/sp63933.2026.00073) | candidate | side_channel_or_observation |
+| 2026 SP | [Setting the Course, but Forgetting to Steer: Analyzing Compliance with GDPR's Right of Access to Data by Instagram, TikTok, and YouTube](https://doi.org/10.1109/sp63933.2026.00051) | outside_title_scope | other_security_research |
+| 2026 SP | [Shared Spotlight Meridian: Distributed Sparse Pseudorandom Functions for Scalable Federated Learning](https://doi.org/10.1109/sp63933.2026.00065) | outside_title_scope | other_security_research |
+| 2026 SP | [Single-Server Private Outsourcing of zk-SNARKs](https://doi.org/10.1109/sp63933.2026.00194) | outside_title_scope | other_security_research |
+| 2026 SP | [Single-server Stateful PIR with Verifiability and Balanced Efficiency](https://doi.org/10.1109/sp63933.2026.00019) | uncertain | scope_to_check |
+| 2026 SP | [Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions](https://doi.org/10.1109/sp63933.2026.00241) | uncertain | scope_to_check |
+| 2026 SP | [SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment](https://doi.org/10.1109/sp63933.2026.00011) | outside_title_scope | other_security_research |
+| 2026 SP | [SoK: After Decades of Web Tracker Detection, What's Next?](https://doi.org/10.1109/sp63933.2026.00222) | outside_title_scope | other_security_research |
+| 2026 SP | [SoK: All You Ever Wanted to Know About Bootloader Security But Were Afraid to Ask](https://doi.org/10.1109/sp63933.2026.00163) | uncertain | scope_to_check |
+| 2026 SP | [SoK: Critical Evaluation of Quantum Machine Learning for Adversarial Robustness](https://doi.org/10.1109/sp63933.2026.00137) | outside_title_scope | other_security_research |
+| 2026 SP | [SoK: Evaluating Jailbreak Guardrails for Large Language Models](https://doi.org/10.1109/sp63933.2026.00076) | outside_title_scope | other_security_research |
+| 2026 SP | [SoK: Robustness in Large Language Models against Jailbreak Attacks](https://doi.org/10.1109/sp63933.2026.00107) | outside_title_scope | other_security_research |
+| 2026 SP | [SoK: Systematizing a Decade of Architectural RowHammer Defenses Through the Lens of Streaming Algorithms](https://doi.org/10.1109/sp63933.2026.00114) | uncertain | scope_to_check |
+| 2026 SP | [Sort, Sweep, Mirror: Batch Private Interval Lookup with Logarithmic Cost](https://doi.org/10.1109/sp63933.2026.00113) | outside_title_scope | other_security_research |
+| 2026 SP | [Sparse Estimation Under Local Differential Privacy at All Privacy Levels](https://doi.org/10.1109/sp63933.2026.00234) | outside_title_scope | other_security_research |
+| 2026 SP | [SpecAuditor: Generating Audit Specifications for LLM-Driven Bug Detection](https://doi.org/10.1109/sp63933.2026.00206) | outside_title_scope | other_security_research |
+| 2026 SP | [Specializing Language Models for Textual Fuzzing via Reinforcement Learning](https://doi.org/10.1109/sp63933.2026.00184) | outside_title_scope | other_security_research |
+| 2026 SP | [Starfighters—On the General Applicability of X-Wing](https://doi.org/10.1109/sp63933.2026.00143) | uncertain | scope_to_check |
+| 2026 SP | [State of Browser Process-Isolation: The Same-Site Weakness](https://doi.org/10.1109/sp63933.2026.00096) | candidate | side_channel_or_observation |
+| 2026 SP | [StepStone: LLM-Based GPU Kernel Driver Fuzzing via User-Space Libraries](https://doi.org/10.1109/sp63933.2026.00124) | outside_title_scope | other_security_research |
+| 2026 SP | [Stop Starving or Stuffing Me: Boosting Firmware Fuzzing Efficiency with On-demand Input Delivery](https://doi.org/10.1109/sp63933.2026.00155) | outside_title_scope | other_security_research |
+| 2026 SP | [TDXRay: Microarchitectural Side-Channel Analysis of Intel TDX for Real-World Workloads](https://doi.org/10.1109/sp63933.2026.00170) | candidate | side_channel_or_observation |
+| 2026 SP | [TREVEX: A Black-Box Detection Framework For Data-Flow Transient Execution Vulnerabilities](https://doi.org/10.1109/sp63933.2026.00135) | candidate | side_channel_or_observation |
+| 2026 SP | [The Battle of Metasurfaces: Understanding Security in Smart Radio Environments](https://doi.org/10.1109/sp63933.2026.00153) | uncertain | scope_to_check |
+| 2026 SP | [The Fault in Our Drafts: Vulnerabilities in RPKI Specification and Software](https://doi.org/10.1109/sp63933.2026.00224) | outside_title_scope | other_security_research |
+| 2026 SP | [The First Large-Scale Systematic Study of Python Class Pollution Vulnerability](https://doi.org/10.1109/sp63933.2026.00108) | outside_title_scope | other_security_research |
+| 2026 SP | [The Passkey Promise: A Comparative Usability Study of MFA Methods](https://doi.org/10.1109/sp63933.2026.00055) | outside_title_scope | other_security_research |
+| 2026 SP | [The Person Behind the Sound: Demystifying Audio Private Attribute Profiling via Multimodal Large Language Models](https://doi.org/10.1109/sp63933.2026.00150) | uncertain | scope_to_check |
+| 2026 SP | [The Pipes Model for Latency and Throughput Analysis](https://doi.org/10.1109/sp63933.2026.00255) | uncertain | scope_to_check |
+| 2026 SP | [The Secrets Must Not Flow: Scaling Security Verification to Large Codebases](https://doi.org/10.1109/sp63933.2026.00026) | candidate | side_channel_or_observation |
+| 2026 SP | [The Threat Landscape of IP Leasing in the RPKI Era](https://doi.org/10.1109/sp63933.2026.00012) | outside_title_scope | other_security_research |
+| 2026 SP | [Toward Efficient Membership Inference Attacks against Federated Large Language Models: A Projection Residual Approach](https://doi.org/10.1109/sp63933.2026.00205) | outside_title_scope | other_security_research |
+| 2026 SP | [Toward Inclusive Security and Privacy for Deaf and Hard-of-Hearing People: A Community-Based Interview Study](https://doi.org/10.1109/sp63933.2026.00027) | outside_title_scope | other_security_research |
+| 2026 SP | [Towards Automating Data Access Permissions in AI Agents](https://doi.org/10.1109/sp63933.2026.00018) | outside_title_scope | other_security_research |
+| 2026 SP | [Towards Practical Zero-Knowledge Proof for PSPACE](https://doi.org/10.1109/sp63933.2026.00041) | outside_title_scope | other_security_research |
+| 2026 SP | [Transient Architectural Execution: From Weird Gates to Weird Programs](https://doi.org/10.1109/sp63933.2026.00066) | candidate | side_channel_or_observation |
+| 2026 SP | [Transparent Domain eXtensions: Breaking Intel TEE Implementations via DDR5 Memory Bus Interposition](https://doi.org/10.1109/sp63933.2026.00101) | uncertain | scope_to_check |
+| 2026 SP | [TrigFuzz: Triggering Conditions Guided Directed Fuzzing](https://doi.org/10.1109/sp63933.2026.00156) | outside_title_scope | other_security_research |
+| 2026 SP | [TÄMU: Emulating Trusted Applications at the (GlobalPlatform)-API Layer](https://doi.org/10.1109/sp63933.2026.00139) | uncertain | scope_to_check |
+| 2026 SP | [URLcoat: Exploiting Web Search Capability to Jailbreak Large Language Models](https://doi.org/10.1109/sp63933.2026.00082) | outside_title_scope | other_security_research |
+| 2026 SP | [UltraProofs: Scalable Reed-Solomon Code Commitment](https://doi.org/10.1109/sp63933.2026.00190) | outside_title_scope | other_security_research |
+| 2026 SP | [Understanding Data Collection, Brokerage, and Spam in the Lead Marketing Ecosystem](https://doi.org/10.1109/sp63933.2026.00162) | outside_title_scope | other_security_research |
+| 2026 SP | [Understanding and Analyzing Privacy Risks in Mobile Consent-Management Platforms](https://doi.org/10.1109/sp63933.2026.00069) | outside_title_scope | other_security_research |
+| 2026 SP | [Usable Anonymity in Reproductive Health Privacy](https://doi.org/10.1109/sp63933.2026.00023) | outside_title_scope | other_security_research |
+| 2026 SP | [VIA: Communication-Efficient Single-Server Private Information Retrieval](https://doi.org/10.1109/sp63933.2026.00086) | outside_title_scope | other_security_research |
+| 2026 SP | [VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments](https://doi.org/10.1109/sp63933.2026.00046) | candidate | side_channel_or_observation |
+| 2026 SP | [Vega: Low-latency zero-knowledge proofs over existing credentials](https://doi.org/10.1109/sp63933.2026.00182) | outside_title_scope | other_security_research |
+| 2026 SP | [VerfCNN, Optimal Complexity zkSNARK for Convolutional Neural Networks](https://doi.org/10.1109/sp63933.2026.00028) | outside_title_scope | other_security_research |
+| 2026 SP | [Verifiable PIR with Small Client Storage](https://doi.org/10.1109/sp63933.2026.00024) | outside_title_scope | other_security_research |
+| 2026 SP | [WRATH: Turning Watermark Robustness Against Itself via a Watermark-Agnostic Black-Box Invalidation Attack](https://doi.org/10.1109/sp63933.2026.00197) | outside_title_scope | other_security_research |
+| 2026 SP | [Weaponizing Reflectivity for Pointcloud Deception with Forged Invisible Geometries](https://doi.org/10.1109/sp63933.2026.00183) | outside_title_scope | other_security_research |
+| 2026 SP | [Web Application Vulnerability Repair via Context-Aware Fault Localization and Directed Differential Fuzzing](https://doi.org/10.1109/sp63933.2026.00237) | outside_title_scope | other_security_research |
+| 2026 SP | [WebCloak: Characterizing and Mitigating Threats from LLM-Driven Web Agents as Intelligent Scrapers](https://doi.org/10.1109/sp63933.2026.00025) | outside_title_scope | other_security_research |
+| 2026 SP | [Weighted Batched Threshold Encryption with Applications to Mempool Privacy](https://doi.org/10.1109/sp63933.2026.00175) | outside_title_scope | other_security_research |
+| 2026 SP | [When AI Meets the Web: Prompt Injection Risks in Third-Party AI Chatbot Plugins](https://doi.org/10.1109/sp63933.2026.00062) | outside_title_scope | other_security_research |
+| 2026 SP | [When Designers Meet GenAI: Understanding the Role of Prompt-to-Design Generators in Privacy Dark Patterns](https://doi.org/10.1109/sp63933.2026.00131) | outside_title_scope | other_security_research |
+| 2026 SP | [When VR Meets BCI: (Un)Observable Brainwave-aware Privacy Reconstruction in the Metaverse via Unrestricted Inbuilt Motion Sensors](https://doi.org/10.1109/sp63933.2026.00117) | candidate | side_channel_or_observation |
+| 2026 SP | [Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation](https://doi.org/10.1109/sp63933.2026.00053) | outside_title_scope | other_security_research |
+| 2026 SP | [Your Compiler is Backdooring Your Model: Understanding and Exploiting Compilation Inconsistency Vulnerabilities in Deep Learning Compilers](https://doi.org/10.1109/sp63933.2026.00097) | outside_title_scope | other_security_research |
+| 2026 SP | [Your Eyes Won't Lie: Snooping Online Voting Privacy from User Webcam](https://doi.org/10.1109/sp63933.2026.00232) | candidate | side_channel_or_observation |
+| 2026 SP | [Zelda: Efficient Multi-server Preprocessing PIR with Unconditional Security](https://doi.org/10.1109/sp63933.2026.00021) | outside_title_scope | other_security_research |
+| 2026 SP | [deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses](https://doi.org/10.1109/sp63933.2026.00060) | outside_title_scope | other_security_research |
+| 2026 SP | [xDup: Privacy-Preserving Deduplication for Humanitarian Organizations using Fuzzy PSI](https://doi.org/10.1109/sp63933.2026.00140) | outside_title_scope | other_security_research |
+| 2026 SP | [zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits](https://doi.org/10.1109/sp63933.2026.00049) | outside_title_scope | other_security_research |
 | 2026 TCHES | [A Divide-and-Conquer Strategy for Hard-Label Extraction of Deep Neural Networks via Side-Channel Attacks](https://doi.org/10.46586/tches.v2026.i3.646-678) | candidate | candidate |
 | 2026 TCHES | [A Framework for designing High-Order Side-Channel Protected Hardware Implementations of ML-KEM](https://doi.org/10.46586/tches.v2026.i2.272-295) | candidate | candidate |
 | 2026 TCHES | [A High-Performance and Reconfigurable Hardware Architecture for FrodoKEM](https://doi.org/10.46586/tches.v2026.i3.171-197) | adjacent | pqc_implementation |
