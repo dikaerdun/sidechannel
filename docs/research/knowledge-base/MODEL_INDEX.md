@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-13 追加[安全资源下界、难问题泄漏与跨实现预测](brainstorms/2026-11-13-resource-bounds-lwe-leakage-counterfactuals.md)：分别深化 BOLD-36、RP-C、原型 M 与 BOLD-19。先交有限模型中的证明或反例、允许泄漏接口及全执行模拟、对整份留出实现的分叉预测。三项待用户安排他人验证，不增加 BOLD 编号或升级实验状态；详见[交接记录](records/2026-11-13-resource-lwe-counterfactual-handoff.md)。
+
 2026-11-13 追加 [BOLD-20261113-40 随机源反馈](brainstorms/2026-11-13-randomness-feedback-hardness-state-discovery.md)：计算可能通过共享物理环境影响熵源，再经真实调理器进入防护。分层检查耦合、调理后关系和实际可见性。同文深化 BOLD-14 的总求解成本及 BOLD-22/原型 M 的跨内核状态预测，后两项不增加种子编号。均待用户安排他人验证，无新实验；详见[交接记录](records/2026-11-13-randomness-hardness-state-handoff.md)。
 
 补齐索引：[BOLD-20261113-37 至 39](brainstorms/2026-11-13-self-calibration-hidden-encoding-observer.md)及[原型 E R M](brainstorms/2026-11-13-echo-representations-mechanism-discovery.md)已在此前批次发布，状态仍为待验证。当前共追踪 40 条 BOLD 种子，编号数量不代表独立机制或已确认发现的数量。
