@@ -1,8 +1,8 @@
 # 引用与版本追踪进度
 
-已核对 274 条引用条目；版本关系共 70 条，其中 61 条书目核实、9 条为原始来源推定。它们不等于被引论文已全部读完。
-追踪任务共 1012 项：in_progress=68, pending=944。
-已登记发现中，100 条完成身份与范围判定，105 条仍待核查；已解析记录继续保留历史。
+已核对 282 条引用条目；版本关系共 71 条，其中 61 条书目核实、10 条为原始来源推定。它们不等于被引论文已全部读完。
+追踪任务共 1080 项：in_progress=69, pending=1011。
+已登记发现中，100 条完成身份与范围判定，120 条仍待核查；已解析记录继续保留历史。
 
 GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan、Peek-a-Walk、EasyCrypt、Episode V 及 S&P 2023 的指定引用继续保留。追加 GLP 期刊、Protecting Dilithium、3D-Shield 合计九条选读；所有选读均不构成完整参考文献筛查。
 SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 条参考列表已逐条初筛，原 23 条发现现已解析，共 59 条对应、36 条暂列背景。背景条目未经原文最终排除，全部列表也不构成递归引用闭合。
@@ -26,6 +26,9 @@ floor 正式版 31 条引用现为 21 条对应、0 条待查身份、10 条暂�
 
 Swallow 作者 PDF 的 37 个参考位置已全部初筛：10 条目录对应、15 条待查、11 条暂列背景、一个重复位置。第 19 条重复第 18 条，不重复计边；实际被引预印本年份与后续正式版本分开保留。
 [Swallow 引用清单](citations/swallow2025-reference-screen.jsonl) · [CCS 2025 指标与迁移范围](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)
+
+NDSS 2026 的 PortRush 全部 43 个参考位置初筛：八条对应、十五条待查、十九条暂列背景、一条重复；打印年份、网站版本及同名论文差异保留。SNPeek 新增一条作者材料链支持的推定版本关系，尚未全文比对。
+[PortRush 引用清单](citations/portrush2026-reference-screen.jsonl) · [NDSS 2026 证据与范围](notes/ndss2026-resource-observation-and-scope-20261114.md)
 
 NDSS 2025 的 Borrowed Time 八条与 PQConnect 四条引用选读共核对七条关系、保留五条待查。其余书目未筛；KyberSlash 当前作者页明确关联 TCHES 2025，但实际被引 2024 文件的修订差异未比对。
 [Borrowed Time 八条选读](citations/borrowedtime2025-selected-reference-screen.jsonl) · [PQConnect 四条选读](citations/pqconnect2025-selected-reference-screen.jsonl) · [NDSS 2025 证据与范围](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
@@ -229,6 +232,14 @@ NDSS 2025 的 Borrowed Time 八条与 PQConnect 四条引用选读共核对七�
 | [On Borrowed Time – Preventing Static Side-Channel Analysis](https://www.ndss-symposium.org/ndss-paper/on-borrowed-time-preventing-static-side-channel-analysis/) | 48 | [Power Analysis Attacks: Revealing the Secrets of Smart Cards](https://doi.org/10.1007/978-0-387-38162-6) | abstract read; adjacent (see ADJACENT_NOTES) |
 | [On Borrowed Time – Preventing Static Side-Channel Analysis](https://www.ndss-symposium.org/ndss-paper/on-borrowed-time-preventing-static-side-channel-analysis/) | 52 | [LeakyOhm: Secret Bits Extraction using Impedance Analysis](https://www.sigsac.org/ccs/CCS2023/program.html) | catalog only; abstract pending |
 | [On Borrowed Time – Preventing Static Side-Channel Analysis](https://www.ndss-symposium.org/ndss-paper/on-borrowed-time-preventing-static-side-channel-analysis/) | 56 | [Countermeasures against Static Power Attacks: – Comparing Exhaustive Logic Balancing and Other Protection Schemes in 28 nm CMOS –](https://doi.org/10.46586/tches.v2021.i3.780-805) | catalog only; abstract pending |
+| [PortRush: Detect Write Port Contention Side-Channel Vulnerabilities via Hardware Fuzzing](https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/) | 13 | [WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors](https://www.usenix.org/conference/usenixsecurity24/presentation/borkar) | catalog only; abstract pending |
+| [PortRush: Detect Write Port Contention Side-Channel Vulnerabilities via Hardware Fuzzing](https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/) | 16 | [HyPFuzz: Formal-Assisted Processor Fuzzing](https://www.usenix.org/conference/usenixsecurity23/presentation/chen-chen) | catalog only; abstract pending |
+| [PortRush: Detect Write Port Contention Side-Channel Vulnerabilities via Hardware Fuzzing](https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/) | 23 | [SpecDoctor: Differential Fuzz Testing to Find Transient Execution Vulnerabilities](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | catalog only; abstract pending |
+| [PortRush: Detect Write Port Contention Side-Channel Vulnerabilities via Hardware Fuzzing](https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/) | 24 | [DIFUZZRTL: Differential Fuzz Testing to Find CPU Bugs](https://www.ieee-security.org/TC/SP2021/program-papers.html) | catalog only; abstract pending |
+| [PortRush: Detect Write Port Contention Side-Channel Vulnerabilities via Hardware Fuzzing](https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/) | 26 | [TheHuzz: Instruction Fuzzing of Processors Using Golden-Reference Models for Finding Software-Exploitable Vulnerabilities](https://www.usenix.org/conference/usenixsecurity22/presentation/kande) | catalog only; abstract pending |
+| [PortRush: Detect Write Port Contention Side-Channel Vulnerabilities via Hardware Fuzzing](https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/) | 37 | [Osiris: Automated Discovery of Microarchitectural Side Channels](https://www.usenix.org/conference/usenixsecurity21/presentation/weber) | catalog only; abstract pending |
+| [PortRush: Detect Write Port Contention Side-Channel Vulnerabilities via Hardware Fuzzing](https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/) | 39 | [MorFuzz: Fuzzing Processor via Runtime Instruction Morphing enhanced Synchronizable Co-simulation](https://www.usenix.org/conference/usenixsecurity23/presentation/xu-jinyan) | catalog only; abstract pending |
+| [PortRush: Detect Write Port Contention Side-Channel Vulnerabilities via Hardware Fuzzing](https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/) | 41 | [MobFuzz: Adaptive Multi-objective Optimization in Gray-box Fuzzing](https://www.ndss-symposium.org/ndss-paper/auto-draft-199/) | catalog only; abstract pending |
 | [PQConnect: Automated Post-Quantum End-to-End Tunnels](https://www.ndss-symposium.org/ndss-paper/pqconnect-automated-post-quantum-end-to-end-tunnels/) | 13 | [KyberSlash: Exploiting secret-dependent division timings in Kyber implementations](https://doi.org/10.46586/tches.v2025.i2.209-234) | abstract_and_bibliographic_metadata; actual cited version: [preprint](https://eprint.iacr.org/2024/1049) |
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 15 | [Exploiting Intermediate Value Leakage in Dilithium: A Template-Based Approach](https://doi.org/10.46586/tches.v2023.i4.188-210) | abstract_and_bibliographic_metadata |
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 26 | [PREFETCHX: Cross-Core Cache-Agnostic Prefetcher-based Side-Channel Attacks](https://doi.org/10.1109/hpca57654.2024.00037) | selected_full_text_sections; actual cited version: [preprint](https://arxiv.org/abs/2306.11195) |
@@ -383,6 +394,7 @@ NDSS 2025 的 Borrowed Time 八条与 PQConnect 四条引用选读共核对七�
 | [来源](https://eprint.iacr.org/2016/486) | [Domain-Oriented Masking: Compact Masked Hardware Implementations with Arbitrary Protection Order](https://doi.org/10.1145/2996366.2996426) | preprint_of; Same primary title/authors/topic; ePrint still says preprint and does not explicitly name this publication. Inferred relationship only; content equivalence not established. |
 | [来源](https://eprint.iacr.org/2021/199) | [Generic, efficient and isochronous Gaussian sampling over the integers](https://doi.org/10.1186/s42400-022-00113-0) | preprint_of; Same primary title/authors/topic; ePrint still says preprint and does not explicitly name this publication. Inferred relationship only; content equivalence not established. |
 | [来源](https://eprint.iacr.org/2024/1049) | [KyberSlash: Exploiting secret-dependent division timings in Kyber implementations](https://doi.org/10.46586/tches.v2025.i2.209-234) | author_revision_of; explicit bibliographic relation; exact 2024 cited revision and full-text differences not compared |
+| [来源](https://arxiv.org/abs/2506.15924) | [SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs](https://www.ndss-symposium.org/ndss-paper/snpeek-side-channel-analysis-for-privacy-applications-on-confidential-vms/) | preprint_of; inferred version association, not an explicit publisher version statement |
 
 ## 累积纠正与未完成项
 

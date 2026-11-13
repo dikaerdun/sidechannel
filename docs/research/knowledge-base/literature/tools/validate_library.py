@@ -120,7 +120,12 @@ reference_map={(r['seed_id'],r['reference_number']):r for r in refs}
 for r in refs:
     if r['status']!='duplicate_reference':continue
     original=reference_map[(r['seed_id'],r['duplicate_of_reference_number'])]
-    assert original['status']=='linked_catalog' and original['target_id']==r['target_id']
+    if original['status']=='linked_catalog':
+        assert original['target_id']==r['target_id']
+    else:
+        assert original['status']=='discovery_queued'
+        assert 'target_id' not in r and 'target_id' not in original
+        assert r['duplicate_of_discovery_id']==original['discovery_id']
     assert original['reference_number']!=r['reference_number']
     assert original['source_id']==r['source_id'] and original['source_sha256']==r['source_sha256']
     assert not any(e['from']==r['seed_id'] and e['reference_number']==r['reference_number'] for e in cites)

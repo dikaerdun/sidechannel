@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 506 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 540 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
 
@@ -4753,6 +4753,421 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2026/081。
 - [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## Beyond RTT: An Adversarially Robust Two-Tiered Approach For Residential Proxy Detection
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/beyond-rtt-an-adversarially-robust-two-tiered-approach-for-residential-proxy-detection/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Temoor Ali (Qatar Computing Research Institute), Shehel Yoosuf (Hamad Bin Khalifa University), Mouna Rabhi (Qatar Computing Research Institute), Mashael Al-Sabah (Qatar Computing Research Institute), Hao Yun (Qatar Computing Research Institute)
+- 对象：traffic fingerprinting, proxy detection；类型：evaluation and detection。
+- 核心想法：以流量关联和结构特征辨认住宅代理，评估对抗流量调度。
+- 作者报告：作者在 15 个月 EarnApp 流量上比较轻量特征与 CorrTransform，报告多种观察角色和对抗条件的性能。
+- 限制与下一步：ISP 与内容提供商、设备与连接分类的指标不同；纳入流量指纹方法，不是密码密钥恢复。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Bit of a Close Talker: A Practical Guide to Serverless Cloud Co-Location Attacks
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/bit-of-a-close-talker-a-practical-guide-to-serverless-cloud-co-location-attacks/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Wei Shao (University of California, Davis), Najmeh Nazari (University of California, Davis), Behnam Omidi (George Mason University), Setareh Rafatirad (University of California, Davis), Khaled N. Khasawneh (George Mason University), Houman Homayoun (University of California Davis), Chongzhou Fang (Rochester Institute of Technology)
+- 对象：serverless, co-location, scheduling；类型：attack enabler and countermeasure。
+- 核心想法：分析 serverless 调度器并建立攻击者与受害者实例的物理共置条件。
+- 作者报告：作者在开源基础设施与 Azure Functions 上演示共置，并提出 Double-Dip 调度器。
+- 限制与下一步：属于微架构侧信道的前置能力；成功共置不是已恢复秘密，平台版本和具体通道待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## CELLSHIFT: RTT-Aware Trace Transduction for Real-World Website Fingerprinting
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/cellshift-rtt-aware-trace-transduction-for-real-world-website-fingerprinting/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Rob Jansen (U.S. Naval Research Laboratory)
+- 对象：website fingerprinting, Tor, measurement vantage；类型：methodology。
+- 核心想法：用 RTT 与时间戳将 Tor 出口观察转换为入口视角的流量迹线。
+- 作者报告：CELLSHIFT 在合成与自然交互数据上评估视角转换，并用转换数据增强现有网站指纹方法。
+- 限制与下一步：出口记录不是入口观察的直接实测；需要区分转换误差、数据增强效果与真实攻击预算。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Cease at the Ultimate Goodness: Towards Efficient Website Fingerprinting Defense via Iterative Mutual Information Minimization
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/cease-at-the-ultimate-goodness-towards-efficient-website-fingerprinting-defense-via-iterative-mutual-information-minimization/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Rong Wang (Southeast University), Zhen Ling (Southeast University), Guangchi Liu (Southeast University), Shaofeng Li (Southeast University), Junzhou Luo (Southeast University and Fuyao University of Science and Technology), Xinwen Fu (University of Massachusetts Lowell)
+- 对象：website fingerprinting, Tor, mutual information；类型：countermeasure。
+- 核心想法：以互信息下降指导填充包位置，降低 Tor 网站指纹可用性。
+- 作者报告：FRUGAL 在多种场景比较带宽开销与攻击成功率，并单独评估攻击者再训练。
+- 限制与下一步：闭世界 DF 的 2.68% 对应 30% 带宽开销；不同开销和训练条件不可混用，也不是普适信息论安全证明。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Continuous User Behavior Monitoring using DNS Cache Timing Attacks
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/continuous-user-behavior-monitoring-using-dns-cache-timing-attacks/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Hannes Weissteiner (Graz University of Technology, Graz, Austria), Roland Czerny (Graz University of Technology, Graz, Austria), Simone Franza (Graz University of Technology, Graz, Austria), Stefan Gast (Graz University of Technology, Graz, Austria), Johanna Ullrich (University of Vienna, Vienna, Austria), Daniel Gruss (Graz University of Technology, Graz, Austria)
+- 对象：DNS cache, timing, Evict+Reload；类型：attack。
+- 核心想法：通过本地 DNS 缓存逐出与重载，持续推断访问行为。
+- 作者报告：DMT 比较非特权本地、跨 VM、JavaScript 与无脚本字体加载等观察路径。
+- 限制与下一步：跨 VM 的 103 网站开放世界 F1 92.48% 不等于浏览器场景；各路径的逐出时间、观测时间和权限不同。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Cross-Cache Attacks for the Linux Kernel via PCP Massaging
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/cross-cache-attacks-for-the-linux-kernel-via-pcp-massaging/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Claudio Migliorelli (IBM Research Europe – Zurich), Andrea Mambretti (IBM Research Europe – Zurich), Alessandro Sorniotti (IBM Research Europe – Zurich), Vittorio Zaccaria (Politecnico di Milano), Anil Kurmus (IBM Research Europe – Zurich)
+- 对象：Linux allocator, timing, PCP, cross-cache；类型：attack enabler。
+- 核心想法：用分配时延判断 PCP 列表与更低层分配器状态，辅助内核跨缓存布局。
+- 作者报告：PCPLOST 在六个已公开 CVE 上评估利用，正文区分同阶与跨阶页面策略。
+- 限制与下一步：这里的 cache 主要是内核对象分配缓存；时序辅助布局与后续 OOB/UAF 利用分开，超过 90% 的布局可靠性不是密钥恢复率。
+- 阅读层级：selected_full_text_sections；来源：official NDSS abstract; formal PDF only for listed sections。
+- 已读章节：PDF pp.4-6 selected paragraphs: allocator timing and PCP versus free_area; not complete sections
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## DNN Latency Sequencing: Extracting DNN Architectures from Intel SGX Enclaves with Single-Stepping Attacks
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/dnn-latency-sequencing-extracting-dnn-architectures-from-intel-sgx-enclaves-with-single-stepping-attacks/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Minkyung Park (University of Texas at Dallas), Zelun Kong (University of Texas at Dallas), Dave (Jing) Tian (Purdue University), Z. Berkay Celik (Purdue University), Chung Hwan Kim (University of Texas at Dallas)
+- 对象：SGX, single stepping, DNN architecture；类型：attack。
+- 核心想法：通过 SGX 单步时延重建 DNN 的函数和基本块执行结构。
+- 作者报告：DLS 在 Darknet、TensorFlow Lite 与 ONNX Runtime 上报告架构恢复准确率 97.3%、96.4% 和 93.6%。
+- 限制与下一步：需要 SGX-Step 单步条件；架构恢复不等于权重或训练数据恢复，模型粒度与准确率定义待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## DualStrike: Accurate, Real-time Eavesdropping and Injection of Keystrokes on Commodity Keyboards
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/dualstrike-accurate-real-time-eavesdropping-and-injection-of-keystrokes-on-commodity-keyboards/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Xiaomeng Chen (Shanghai Jiao Tong University), Jike Wang (Shanghai Jiao Tong University), Zhenyu Chen (Shanghai Jiao Tong University), Qi Alfred Chen (University of California, Irvine), Xinbing Wang (Shanghai Jiao Tong University), Dongyao Chen (Shanghai Jiao Tong University)
+- 对象：Hall-effect keyboard, magnetic, keystroke inference；类型：attack and countermeasure。
+- 核心想法：利用霍尔键盘的磁场响应监听按键，并另行进行磁性输入注入。
+- 作者报告：DualStrike 在六款键盘上分别评估监听、注入及偏移校准。
+- 限制与下一步：超过 98.9% 的注入准确率与超过 99% 的监听准确率是不同实验；4 cm 是位移校准条件，不是统一攻击距离。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Enhancing Website Fingerprinting Attacks against Traffic Drift
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/enhancing-website-fingerprinting-attacks-against-traffic-drift/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Xinhao Deng (INSC, Tsinghua University and Ant Group), Yixiang Zhang (INSC, Tsinghua University), Qi Li (INSC, Tsinghua University, State Key Laboratory of Internet Architecture, Tsinghua University and Zhongguancun Laboratory), Zhuotao Liu (INSC, Tsinghua University and Zhongguancun Laboratory), Yabo Wang (DCST, Tsinghua University), Ke Xu (DCST, Tsinghua University, State Key Laboratory of Internet Architecture, Tsinghua University and Zhongguancun Laboratory)
+- 对象：website fingerprinting, domain adaptation；类型：attack。
+- 核心想法：通过无真值标签的在线适配，应对网站指纹中的流量漂移。
+- 作者报告：Proteus 结合分布匹配、预测熵与伪标签，在六类漂移和八种既有模型上比较。
+- 限制与下一步：94.24% 是 F1 的平均相对提升，不是绝对 F1；适配数据可得性、测试污染与各漂移拆分待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Eviction Notice: Reviving and Advancing Page Cache Attacks
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/eviction-notice-reviving-and-advancing-page-cache-attacks/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Sudheendra Raghav Neela (Graz University of Technology), Jonas Juffinger (Graz University of Technology), Lukas Maar (Graz University of Technology), Daniel Gruss (Graz University of Technology)
+- 对象：page cache, Linux, covert channel；类型：attack。
+- 核心想法：从 flush、reload、evict、monitor 原语系统构造 Linux 页缓存通道。
+- 作者报告：作者报告五种通道、跨进程隐蔽通信、按键时序及网站指纹案例。
+- 限制与下一步：37.7 kB/s 通道容量、0.8 微秒时间分辨率与闭世界 F1 90.54% 不是同一指标；最新内核指论文实验时状态。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Exploiting TLBs in Virtualized GPUs for Cross-VM Side-Channel Attacks
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/exploiting-tlbs-in-virtualized-gpus-for-cross-vm-side-channel-attacks/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Hongyue Jin (Clemson University), Yanan Guo (University of Rochester), Zhenkai Zhang (Clemson University)
+- 对象：GPU, TLB, Prime+Probe；类型：attack。
+- 核心想法：利用虚拟 NVIDIA GPU 的 TLB 构造跨 VM Prime+Probe。
+- 作者报告：作者演示游戏对手位置观察与虚拟桌面网站指纹两类云场景。
+- 限制与下一步：需要相应 GPU 虚拟化和共享条件；未声称 GPU 密钥恢复，具体型号、调度和容量待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/fuzzilicon-a-post-silicon-microcode-guided-x86-cpu-fuzzer/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Johannes Lenzen (Technical University of Darmstadt), Mohamadreza Rostami (Technical University of Darmstadt), Lichao Wu (Technical University of Darmstadt), Ahmad-Reza Sadeghi (Technical University of Darmstadt)
+- 对象：microcode, speculative execution, fuzzing；类型：automated analysis。
+- 核心想法：通过微码插桩为 x86 后硅漏洞模糊测试提供反馈。
+- 作者报告：Fuzzilicon 在 Intel Goldmont 上报告两项新微码推测执行问题，并自动重现 μSpectre 类漏洞。
+- 限制与下一步：依赖逆向微码更新接口及特定微架构；16.27% 是可挂钩位置覆盖率，不能当作全部 CPU 状态覆盖。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Hiding an Ear in Plain Sight: On the Practicality and Implications of Acoustic Eavesdropping with Telecom Fiber Optic Cables
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/hiding-an-ear-in-plain-sight-on-the-practicality-and-implications-of-acoustic-eavesdropping-with-telecom-fiber-optic-cables/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Youqian Zhang (The Hong Kong Polytechnic University), Zheng Fang (The Hong Kong Polytechnic University), Huan Wu (The Hong Kong Polytechnic University & Technological and Higher Education Institute of Hong Kong), Sze Yiu Chau (The Chinese University of Hong Kong), Chao Lu (The Hong Kong Polytechnic University), Xiapu Luo (The Hong Kong Polytechnic University)
+- 对象：optical fiber, acoustic, DAS；类型：attack。
+- 核心想法：利用电信光纤对振动的响应恢复周围声学信息。
+- 作者报告：作者使用商用分布式声学感知设备和增强声学耦合的 Sensory Receptor，评估活动、定位与语音。
+- 限制与下一步：需要接入光纤一端及所述耦合条件；不能简化为任意未改动光纤均可远程听音。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Huma: Censorship Circumvention via Web Protocol Tunneling with Deferred Traffic Replacement
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/huma-censorship-circumvention-via-web-protocol-tunneling-with-deferred-traffic-replacement/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Sina Kamali (University of Waterloo), Diogo Barradas (University of Waterloo)
+- 对象：traffic analysis, censorship circumvention, web tunneling；类型：countermeasure。
+- 核心想法：通过延后隐蔽数据响应和模拟正常浏览行为，降低网页隧道的流量指纹。
+- 作者报告：Huma 将正常响应与后台准备的隐蔽数据分离，并考虑恶意网站的端点关联。
+- 限制与下一步：属于流量分析对抗；时序拟态、内容暴露与端点关联条件须分开，摘要没有通用不可检测保证。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Learning from Leakage: Database Reconstruction from Just a Few Multidimensional Range Queries
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/learning-from-leakage-database-reconstruction-from-just-a-few-multidimensional-range-queries/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Peijie Li (Delft University of Technology), Huanhuan Chen (Delft University of Technology), Kaitai Liang (University of Turku and Delft University of Technology), Evangelia Anna Markatou (Delft University of Technology)
+- 对象：searchable encryption, access patterns, database reconstruction；类型：attack。
+- 核心想法：利用加密数据库多维范围查询的访问与搜索模式重建几何关系。
+- 作者报告：REMIN 使用查询共现表示学习；主动变体 REMIN-P 加入辅助锚点提高重建。
+- 限制与下一步：被动泄漏滥用与主动数据投毒能力不同；MSE 相对降低不是完整数据库恢复率。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Lightening the Load: A Cluster-Based Framework for A Lower-Overhead, Provable Website Fingerprinting Defense
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/lightening-the-load-a-cluster-based-framework-for-a-lower-overhead-provable-website-fingerprinting-defense/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Khashayar Khajavi (Simon Fraser University), Tao Wang (Simon Fraser University)
+- 对象：website fingerprinting, traffic padding, adaptive defense；类型：countermeasure。
+- 核心想法：将流量聚类与早期分类结合，为不同匿名集合选择填充参数。
+- 作者报告：Adaptive Tamaraw 报告高隐私模式中的攻击准确率界，以及不同效率配置的开销降低。
+- 限制与下一步：低于 30% 的界与减少 99 个百分点开销属于不同配置；证明依赖匿名集合和切换模型，尚未全文审查。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## MVP-ORAM: a Wait-free Concurrent ORAM for Confidential BFT Storage
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/mvp-oram-a-wait-free-concurrent-oram-for-confidential-bft-storage/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Robin Vassantlal (LASIGE, Faculdade de Ciências, Universidade de Lisboa, Portugal), Hasan Heydari (LASIGE, Faculdade de Ciências, Universidade de Lisboa, Portugal), Bernardo Ferreira (LASIGE, Faculdade de Ciências, Universidade de Lisboa, Portugal), Alysson Bessani (LASIGE, Faculdade de Ciências, Universidade de Lisboa, Portugal)
+- 对象：ORAM, BFT, access patterns；类型：countermeasure。
+- 核心想法：为并发、可失败客户端构造无等待 ORAM，并分析访问模式泄漏。
+- 作者报告：MVP-ORAM 给出依赖工作负载和并发数的较弱 obliviousness 定义，并实现 BFT 存储原型。
+- 限制与下一步：不可把其较弱定义写成经典全访问不可区分；偏斜访问等前提及并发泄漏必须随结论保留。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Mirage: Private, Mobility-based Routing for Censorship Evasion
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/mirage-private-mobility-based-routing-for-censorship-evasion/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Zachary Ratliff (Harvard University), Ruoxing (David) Yang (Georgetown University), Avery Bai (Georgetown University), Harel Berger (Ariel University), Micah Sherr (Georgetown University), James Mickens (Harvard University)
+- 对象：routing privacy, local differential privacy, mobility；类型：countermeasure。
+- 核心想法：对基于移动轨迹的消息路由使用局部差分隐私，限制路由决策泄漏位置历史。
+- 作者报告：MIRAGE 在 Cadence 模拟器中以行人与出租车轨迹评估通信和隐私权衡。
+- 限制与下一步：属于可观察路由的隐私防护；为仿真评估，不能称作真实部署或对全部流量关联安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## OCCUPY+PROBE: Cross-Privilege Branch Target Buffer Side-Channel Attacks at Instruction Granularity
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/occupyprobe-cross-privilege-branch-target-buffer-side-channel-attacks-at-instruction-granularity/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Kaiyuan Rong (Tsinghua University, Zhongguancun Laboratory), Junqi Fang (Tsinghua University, Zhongguancun Laboratory), Haixia Wang (Tsinghua University), Dapeng Ju (Tsinghua University, Zhongguancun Laboratory), Dongsheng Wang (Tsinghua University, Zhongguancun Laboratory)
+- 对象：BTB, RSA, kernel, branch history；类型：attack。
+- 核心想法：利用 BTB 跨权限替换关系观察内核分支及其标签。
+- 作者报告：OCCUPY+PROBE 在 Linux Kernel Crypto API 的 RSA 案例中比较泄漏与真实 dp/dq 分支序列，报告基于编辑距离的准确率。
+- 限制与下一步：仅同一逻辑核；论文的 98.6% 均值是序列相似指标，不是完整密钥成功率。地址知识、调度中断、2M passes/10 次请求与另 150 次请求分别记录。
+- 阅读层级：selected_full_text_sections；来源：official NDSS abstract; formal PDF only for listed sections。
+- 已读章节：PDF pp.10-11 selected RSA paragraphs; p.13 results/metric and p.14 limitations
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## On the Security Risks of Memory Adaptation and Augmentation in Data-plane DoS Mitigation
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/on-the-security-risks-of-memory-adaptation-and-augmentation-in-data-plane-dos-mitigation/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Hocheol Nam (KAIST), Daehyun Lim (KAIST), Huancheng Zhou (Texas A&M University), Guofei Gu (Texas A&M University), Min Suk Kang (KAIST)
+- 对象：timing, programmable switch, resource contention；类型：attack and countermeasure。
+- 核心想法：利用可编程交换机的侧信道时序，对齐跨数据面和控制面的内存争用。
+- 作者报告：Heracles 在 Tofino 硬件上评估 DoS 防护破坏，并提出解耦内存操作的 Shield。
+- 限制与下一步：纳入时序观察辅助攻击；最终影响是 DoS 缓解失效，不是私密数据恢复；1–2 秒同步是其攻击条件。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## OptiMix: Scalable and Distributed Approaches for Latency Optimization in Modern Mixnets
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/optimix-scalable-and-distributed-approaches-for-latency-optimization-in-modern-mixnets/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Mahdi Rahimi (KU Leuven)
+- 对象：mixnets, traffic analysis, cover traffic；类型：countermeasure。
+- 核心想法：在 mixnet 节点布局、路由和负载平衡中优化时延并约束匿名损失。
+- 作者报告：OptiMix 使用 Nym 数据评估，并通过额外 cover traffic 讨论低时延与匿名性的权衡。
+- 限制与下一步：最高四倍性能改善依赖比较设计；额外带宽、恶意节点和信任模型不能从匿名保证中省略。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Passive Multi-Target GUTI Identification via Visual-RF Correlation in LTE Networks
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/passive-multi-target-guti-identification-via-visual-rf-correlation-in-lte-networks/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Byeongdo Hong (The Affiliated Institute of ETRI), Gunwoo Yoon (The Affiliated Institute of ETRI)
+- 对象：LTE, GUTI, multimodal correlation；类型：attack。
+- 核心想法：将视频中的设备使用时刻与 LTE 控制消息关联，识别临时 GUTI。
+- 作者报告：作者在多个商用网络评估多目标关联，报告某些部署标识可持续至 33 天。
+- 限制与下一步：需要相机视野、同步 RF 观察及对应消息捕获；最少三次交互和最长保持时间不是统一保证。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Rui Xiao (Zhejiang University), Sibo Feng (Zhejiang University), Soundarya Ramesh (National University of Singapore), Jun Han (KAIST), Jinsong Han (Zhejiang University)
+- 对象：GPU, electromagnetic, DNN architecture；类型：attack。
+- 核心想法：从 GPU 远场电磁信号的调幅结构推断 DNN 架构。
+- 作者报告：ModelSpy 在五款消费 GPU 上分别报告层分段和超参数估计，摘要最大距离为六米。
+- 限制与下一步：目标是架构而非权重；最佳效果可受 GPU 型号知识影响，后续对抗样本等攻击需要额外条件。
+- 阅读层级：selected_full_text_sections；来源：official NDSS abstract; formal PDF only for listed sections。
+- 已读章节：PDF p.3: architecture recovery threat model and distinction from weights
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## PhantomMotion: Laser-Based Motion Injection Attacks on Wireless Security Surveillance Systems
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/phantommotion-laser-based-motion-injection-attacks-on-wireless-security-surveillance-systems/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Yan He (University of Oklahoma), Guanchong Huang (University of Oklahoma), Song Fang (University of Oklahoma)
+- 对象：traffic feedback, laser injection, motion sensor；类型：side-channel-assisted attack。
+- 核心想法：以激光诱发假运动，同时通过 Wi-Fi 流量反馈判断安防系统是否触发。
+- 作者报告：PhantomMotion 在 18 款设备上评估注入及反馈，报告部分条件下距离可达 120 米。
+- 限制与下一步：主要破坏是传感器输入完整性；纳入的是无线响应反馈这一辅助观察，不称作被动音视频窃取。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## PortRush: Detect Write Port Contention Side-Channel Vulnerabilities via Hardware Fuzzing
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Peihong Lin (National University of Defense Technology), Pengfei Wang (National University of Defense Technology), Lei Zhou (National University of Defense Technology), Gen Zhang (National University of Defense Technology), Xu Zhou (National University of Defense Technology), Wei Xie (National University of Defense Technology), Zhiyuan Jiang (National University of Defense Technology), Kai Lu (National University of Defense Technology)
+- 对象：RTL, write-port contention, RISC-V, fuzzing；类型：automated analysis。
+- 核心想法：以写请求图、优先关系和 RTL 信号监测发现写端口争用时序通道。
+- 作者报告：PortRush 在软件 RTL 仿真中静态标记 177 个潜在争用，动态触发 BOOM/NutShell 的 35 个实例，再验证构造的瞬态执行情形。
+- 限制与下一步：三个核均被分析不等于三个核均触发；Rocket 的所列争用未触发。潜在实例、动态事件和可利用漏洞数量不可混同；没有硅片或功耗测量。
+- 阅读层级：selected_full_text_sections；来源：official NDSS abstract; formal PDF only for listed sections。
+- 已读章节：PDF pp.8-11: search/validation and software simulation; p.11 tables rendered; pp.15-16 all 43 references inventoried, appendix opening only
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：backward bibliography inventory in progress。
+
+## SNPeek: Side-Channel Analysis for Privacy Applications on Confidential VMs
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/snpeek-side-channel-analysis-for-privacy-applications-on-confidential-vms/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Ruiyi Zhang (CISPA Helmholtz Center for Information Security and Google), Albert Cheu (Google), Adria Gascon (Google), Daniel Moghimi (Google), Phillipp Schoppmann (Google), Michael Schwarz (CISPA Helmholtz Center for Information Security), Octavian Suciu (Google)
+- 对象：SEV-SNP, ciphertext, ORAM, differential privacy；类型：evaluation toolkit。
+- 核心想法：在 SEV-SNP 硬件上组合页表、缓存、密文和计数器观察，评估隐私应用泄漏。
+- 作者报告：SNPeek 评估 PIR、private heavy hitters 与 Wasm UDF；497 kbit/s 来自恶意 UDF 和管理程序配合的密文隐蔽通道。
+- 限制与下一步：不同任务的区分优势与通道吞吐量不可互换；需要特权主机和相应 SEV-SNP 服务器。论文关于 Zen5/KVM 缓解状态是历史陈述。
+- 阅读层级：selected_full_text_sections；来源：official NDSS abstract; formal PDF only for listed sections。
+- 已读章节：PDF p.3: observation classes/historical mitigation state; p.13 malicious-UDF covert channel; p.19 artifact requirements; official artifact README
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：formal PDF artifact appendix and linked GitHub README read; README describes demonstration-only software; no installation or execution；引用追踪：pending。
+
+## Side-channel Inference of User Activities in AR/VR Using GPU Profiling
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/side-channel-inference-of-user-activities-in-ar-vr-using-gpu-profiling/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Seonghun Son (Iowa State University), Chandrika Mukherjee (Purdue University), Reham Mohamed Aburas (American University of Sharjah), Berk Gulmezoglu (Iowa State University), Z. Berkay Celik (Purdue University)
+- 对象：AR/VR, GPU profiling, performance counters；类型：attack。
+- 核心想法：通过 1 Hz GPU 指标推断 AR/VR 应用和对象交互。
+- 作者报告：OVRWatcher 以后台 profiler 脚本绕过不可并发运行普通应用的限制，报告应用和对象级识别。
+- 限制与下一步：正文实验证明使用开发者模式加载应用，另讨论打包 profiler 的路径；无 root 不等于无需安装/执行条件，商店可部署性不能仅凭其讨论确认。
+- 阅读层级：selected_full_text_sections；来源：official NDSS abstract; formal PDF only for listed sections。
+- 已读章节：PDF p.4: developer-mode experiment and bundled-profiler alternative
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Time and Time Again: Leveraging TCP Timestamps to Improve Remote Timing Attacks
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/time-and-time-again-leveraging-tcp-timestamps-to-improve-remote-timing-attacks/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Vik Vanderlinden (DistriNet, KU Leuven), Tom Van Goethem (DistriNet, KU Leuven), Mathy Vanhoef (DistriNet, KU Leuven)
+- 对象：remote timing, TCP timestamps；类型：attack methodology。
+- 核心想法：使用服务端 TCP 时间戳降低网络路径抖动对远程时序测量的影响。
+- 作者报告：作者以请求确认和响应时间戳估计处理时间，并研究串行处理放大及分布式观察。
+- 限制与下一步：避开路径抖动不等于消除服务端调度、时间戳粒度和协议前提；任意 TCP 服务都可利用的强解读尚无依据。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Time will Tell: Large-scale De-anonymization of Hidden I2P Services via Live Behavior Alignment
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/time-will-tell-large-scale-de-anonymization-of-hidden-i2p-services-via-live-behavior-alignment/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Hongze Wang (Southeast University), Zhen Ling (Southeast University), Xiangyu Xu (Southeast University), Yumingzhi Pan (Southeast University), Guangchi Liu (Southeast University), Junzhou Luo (Southeast University and Fuyao University of Science and Technology), Xinwen Fu (University of Massachusetts Lowell)
+- 对象：I2P, traffic correlation, de-anonymization；类型：attack。
+- 核心想法：关联 I2P 路由器与隐藏服务的在线离线行为，缩小服务对应节点。
+- 作者报告：I2PERCEPTION 使用 15 个 floodfill 路由器、八个月观察与主动服务探测，报告所有受控服务被去匿名。
+- 限制与下一步：路由观察被动但完整方法含主动探测；受控服务成功率不能推广到全部 I2P 服务。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## VDORAM: Towards a Random Access Machine with Both Public Verifiability and Distributed Obliviousness
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/vdoram-towards-a-random-access-machine-with-both-public-verifiability-and-distributed-obliviousness/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Huayi Qi (School of Computer Science and Technology, Shandong University, Qingdao, Shandong, China and Institute for Network Sciences and Cyberspace, Tsinghua University, Beijing, China), Minghui Xu (School of Computer Science and Technology, Shandong University, Qingdao, Shandong, China), Xiaohua Jia (Department of Computer Science, City University of Hong Kong, Kowloon, Hong Kong SAR, China), Xiuzhen Cheng (School of Computer Science and Technology, Shandong University, Qingdao, Shandong, China)
+- 对象：ORAM, MPC, zkSNARK, access patterns；类型：countermeasure。
+- 核心想法：结合多方计算和可验证执行，为分布式 RAM 隐藏访问行为。
+- 作者报告：VDORAM 将协作 zkSNARK 与 MPC 集成，并报告原型和性能比较。
+- 限制与下一步：纳入访问模式防护；分布式 obliviousness 与公开可验证性不自动覆盖物理功耗或内部实现泄漏。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## WBSLT: A Framework for White-Box Encryption Based on Substitution-Linear Transformation Ciphers
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/wbslt-a-framework-for-white-box-encryption-based-on-substitution-linear-transformation-ciphers/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Yang Shi (Tongji University), Tianchen Gao (Tongji University), Yimin Li (Tongji University), Jiayao Gao (Tongji University), Kaifeng Huang (Tongji University)
+- 对象：white-box cryptography, DCA, masking, SLT；类型：countermeasure。
+- 核心想法：在白盒 SLT 密码实现中重组表边界，并结合掩码、打乱和外部编码。
+- 作者报告：WBSLT 明确将差分计算分析与差分故障分析作为防护对象。
+- 限制与下一步：白盒观察能力与物理功耗不同；摘要中的理论免疫主张需核对具体攻击类、组合前提和正文证明。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## When Mixnets Fail: Evaluating, Quantifying, and Mitigating the Impact of Adversarial Nodes in Mix Networks
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/when-mixnets-fail-evaluating-quantifying-and-mitigating-the-impact-of-adversarial-nodes-in-mix-networks/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Mahdi Rahimi (KU Leuven)
+- 对象：mixnets, traffic correlation, anonymity metrics；类型：evaluation and countermeasure。
+- 核心想法：分析恶意 mixnode 与累计通信量对匿名性的影响，并设计路径选择与风险指标。
+- 作者报告：作者比较理论、实测数据和模拟分析，提出面对网络观察者和被控节点的不同权衡。
+- 限制与下一步：10%/5% 节点与 4MB/30MB 阈值需成对记录；最高 80% 风险下降是评估配置结果，不是普适匿名保证。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## WiFinger: Fingerprinting Noisy IoT Event Traffic Using Packet-level Sequence Matching
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/wifinger-fingerprinting-noisy-iot-event-traffic-using-packet-level-sequence-matching/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Ronghua Li (The Hong Kong Polytechnic University), Shinan Liu (The University of Hong Kong), Haibo Hu (The Hong Kong Polytechnic University, PolyU Research Centre for Privacy and Security Technologies in Future Smart Systems), Qingqing Ye (The Hong Kong Polytechnic University), Nick Feamster (University of Chicago)
+- 对象：IoT, traffic fingerprinting, sequence matching；类型：attack。
+- 核心想法：将多 IoT 事件流量推断改为有噪声的包序列匹配。
+- 作者报告：WiFinger 在无线丢包和多事件条件下比较现有方法，报告平均召回 89% 与很低误报。
+- 限制与下一步：几乎零误报不能当作严格为零；事件先验、训练样本数和更新成本待全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS abstract; formal PDF only for listed sections。
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## XR Devices Send WiFi Packets When They Should Not: Cross-Building Keylogging Attacks via Non-Cooperative Wireless Sensing
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/xr-devices-send-wifi-packets-when-they-should-not-cross-building-keylogging-attacks-via-non-cooperative-wireless-sensing/)；时间标记：NDSS 2026 within frozen window; earliest online date not independently established。
+- 作者：Christopher Vattheuer (University of California, Los Angeles (UCLA)), Justin Feng (University of California, Los Angeles (UCLA)), Hossein Khalili (University of California, Los Angeles (UCLA)), Nader Sehatbakhsh (University of California, Los Angeles (UCLA)), Omid Abari (University of California, Los Angeles (UCLA))
+- 对象：XR, Wi-Fi CSI, keystroke inference, active sensing；类型：attack。
+- 核心想法：主动诱发 XR 设备 Wi-Fi ACK，再结合 CSI 与流量时刻推断虚拟键盘输入。
+- 作者报告：TwiST 的 30 米跨楼 78.6% 为字典辅助 top-25；正文使用 30/60/90 秒片段和字典内英语词。
+- 限制与下一步：不是纯被动、top-1 或任意密码恢复；实验用两块并置 ESP32，单块可行是作者讨论。三位用户的正文限制与表中 User1–4 标记待澄清。
+- 阅读层级：selected_full_text_sections；来源：official NDSS abstract; formal PDF only for listed sections。
+- 已读章节：PDF pp.5,9,10,13: active sensing, timing anchors, dictionary sampling and limitations; p.12 dictionary paragraph; p.17 Table VI rendered
+- [详细阅读记录](notes/ndss2026-resource-observation-and-scope-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
 
 ## AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX
 

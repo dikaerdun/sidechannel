@@ -1,0 +1,987 @@
+{
+  "sources": [
+    {
+      "source_id": "ndss-2026",
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "response_url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "status": 200,
+      "retrieved_at": "2026-11-12T06:57:40.596112+00:00",
+      "sha256": "daf015920827a7b7bfe32155e00fff6c1d9e810a6ac2c76ea305d2f26a5f993e",
+      "bytes": 282217,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-17",
+      "url": "https://www.ndss-symposium.org/ndss-paper/analysis-of-the-security-design-engineering-and-implementation-of-the-securedna-system/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/analysis-of-the-security-design-engineering-and-implementation-of-the-securedna-system/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:10.119069+00:00",
+      "sha256": "ca2994912322fdaa11dd68608b9cc0d00b2bf784a9e5208a986db68e883cfa15",
+      "bytes": 71479,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-19",
+      "url": "https://www.ndss-symposium.org/ndss-paper/anonycall-enabling-native-private-calling-in-mobile-networks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/anonycall-enabling-native-private-calling-in-mobile-networks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:10.224386+00:00",
+      "sha256": "11f839819b62db512c23ef7804213592d9e697bef2e2e759b8109909bddfa51e",
+      "bytes": 70854,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-21",
+      "url": "https://www.ndss-symposium.org/ndss-paper/are-your-sites-truly-isolated-automatically-detecting-logic-bugs-in-site-isolation-implementations/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/are-your-sites-truly-isolated-automatically-detecting-logic-bugs-in-site-isolation-implementations/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:10.145071+00:00",
+      "sha256": "1078250391c51c63dd2934db7bc825469d41f9fc17488a44aed19b628cbc9f44",
+      "bytes": 70750,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-24",
+      "url": "https://www.ndss-symposium.org/ndss-paper/automated-code-annotation-with-llms-for-establishing-tee-boundaries/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/automated-code-annotation-with-llms-for-establishing-tee-boundaries/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:10.586773+00:00",
+      "sha256": "98252945f8e3b76003bf9dc6fe27e306252f00c13bdf712e8124d700cf5e849e",
+      "bytes": 70750,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-26",
+      "url": "https://www.ndss-symposium.org/ndss-paper/bacnet-or-badnet-on-the-insecurity-of-implicitly-reserved-fields-in-bacnet/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/bacnet-or-badnet-on-the-insecurity-of-implicitly-reserved-fields-in-bacnet/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:10.122792+00:00",
+      "sha256": "39b8bd154b42e21850263b39b03dc1db2f5f8ca79978ae4ccf6c00a452e8d882",
+      "bytes": 70717,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-28",
+      "url": "https://www.ndss-symposium.org/ndss-paper/better-safe-than-sorry-uncovering-the-insecure-resource-management-in-app-in-app-cloud-services/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/better-safe-than-sorry-uncovering-the-insecure-resource-management-in-app-in-app-cloud-services/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:11.120533+00:00",
+      "sha256": "5f702a5ec662bb51e76ff569b4e0a106a566eff1eba8efb15dd2fd7b397fea95",
+      "bytes": 71030,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-32",
+      "url": "https://www.ndss-symposium.org/ndss-paper/beyond-rtt-an-adversarially-robust-two-tiered-approach-for-residential-proxy-detection/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/beyond-rtt-an-adversarially-robust-two-tiered-approach-for-residential-proxy-detection/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:11.125617+00:00",
+      "sha256": "3c5c1d0d403cd896bb6a1e0efdf87f29cf535cd89402f7315eb1ab789de90110",
+      "bytes": 70956,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-34",
+      "url": "https://www.ndss-symposium.org/ndss-paper/bit-of-a-close-talker-a-practical-guide-to-serverless-cloud-co-location-attacks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/bit-of-a-close-talker-a-practical-guide-to-serverless-cloud-co-location-attacks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:11.125804+00:00",
+      "sha256": "ed3b053d70710481d0d185c3dd833453be09222269b52e04218ee0fdee81ffe5",
+      "bytes": 71017,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-35",
+      "url": "https://www.ndss-symposium.org/ndss-paper/bkpir-keyword-pir-for-private-boolean-retrieval/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/bkpir-keyword-pir-for-private-boolean-retrieval/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:11.320539+00:00",
+      "sha256": "17e8b3b0a9110c1ff2ca77013862d7b02d84a710fa85619f8a3792eceb0482ae",
+      "bytes": 69991,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-38",
+      "url": "https://www.ndss-symposium.org/ndss-paper/breaking-isolation-a-new-perspective-on-hypervisor-exploitation-via-cross-domain-attacks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/breaking-isolation-a-new-perspective-on-hypervisor-exploitation-via-cross-domain-attacks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:11.589456+00:00",
+      "sha256": "99bb279829530e9854a6eba7975d400a19cd30e510d3da57c32cd8df0852c213",
+      "bytes": 70511,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-40",
+      "url": "https://www.ndss-symposium.org/ndss-paper/breaking-the-generative-steganography-trilemma-anstega-for-optimal-capacity-efficiency-and-security/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/breaking-the-generative-steganography-trilemma-anstega-for-optimal-capacity-efficiency-and-security/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:12.134538+00:00",
+      "sha256": "b9c0893eeb91078671c4df640f4a2b78e9ccb30928770b29cd3ef38ecb26b553",
+      "bytes": 70862,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-44",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cache-me-catch-you-cache-related-security-threats-in-llm-serving-frameworks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cache-me-catch-you-cache-related-security-threats-in-llm-serving-frameworks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:12.113840+00:00",
+      "sha256": "b2c4ab4f74df14a12b91e60fef3e56aac23bd30b6bd52c4140bf6c0947c7a21f",
+      "bytes": 70143,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-45",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cascading-and-proxy-membership-inference-attacks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cascading-and-proxy-membership-inference-attacks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:12.120096+00:00",
+      "sha256": "e4427802269bb05aed955a3334f65dc304b70c4f1d9ce4d2fdff197532301a11",
+      "bytes": 70043,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-49",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cease-at-the-ultimate-goodness-towards-efficient-website-fingerprinting-defense-via-iterative-mutual-information-minimization/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cease-at-the-ultimate-goodness-towards-efficient-website-fingerprinting-defense-via-iterative-mutual-information-minimization/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:12.317953+00:00",
+      "sha256": "9122f3be99e3c7d4c3f2e7e2b1b05c179ef1f216af148a3b6ab484fc3db74004",
+      "bytes": 71576,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-50",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cellshift-rtt-aware-trace-transduction-for-real-world-website-fingerprinting/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cellshift-rtt-aware-trace-transduction-for-real-world-website-fingerprinting/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:12.585370+00:00",
+      "sha256": "c15e38e7cee0b61a3f65b120a368bb090152acf7fd5f0eed54a7a66683d85df8",
+      "bytes": 70066,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-58",
+      "url": "https://www.ndss-symposium.org/ndss-paper/connecting-the-dots-an-investigative-study-on-linking-private-user-data-across-messaging-apps/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/connecting-the-dots-an-investigative-study-on-linking-private-user-data-across-messaging-apps/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:13.106195+00:00",
+      "sha256": "2da4b9c22355cfdc8be02e156a570b9c6da2ae8c48502936bf5bdcc65a6f3681",
+      "bytes": 70706,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-61",
+      "url": "https://www.ndss-symposium.org/ndss-paper/continuous-user-behavior-monitoring-using-dns-cache-timing-attacks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/continuous-user-behavior-monitoring-using-dns-cache-timing-attacks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:13.101891+00:00",
+      "sha256": "42d72278a15657b24a7e01597725ceea1dfab1b2e62d2d32eede4cee4409e89f",
+      "bytes": 71181,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-67",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cross-boundary-mobile-tracking-exploring-java-to-javascript-information-diffusion-in-webviews/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cross-boundary-mobile-tracking-exploring-java-to-javascript-information-diffusion-in-webviews/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:13.448586+00:00",
+      "sha256": "b5629d00db535fe4e572235567f46b3eeb2357f438f6de2c0f70fa08064dc75c",
+      "bytes": 71665,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-68",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cross-cache-attacks-for-the-linux-kernel-via-pcp-massaging/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cross-cache-attacks-for-the-linux-kernel-via-pcp-massaging/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:13.716799+00:00",
+      "sha256": "3f6f8bf493ba89ae65e701e5e59d4a42acadb53a392bc7036b72851c5c6f6463",
+      "bytes": 69823,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-paper-68",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f862-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f862-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:43:18.583512+00:00",
+      "sha256": "6310fdd6f1b37a4f3c837754b63201cb46b489d73e4256b5ae228ce7100cdead",
+      "bytes": 11759160,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-page-70",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cryptobazaar-private-sealed-bid-auctions-at-scale/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cryptobazaar-private-sealed-bid-auctions-at-scale/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:13.570275+00:00",
+      "sha256": "cf8f95d2a1e36688143e9c7f8510397cdd9227e1330ce84b716a00a68131996c",
+      "bytes": 69367,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-71",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cryptpeft-efficient-and-private-neural-network-inference-via-parameter-efficient-fine-tuning/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cryptpeft-efficient-and-private-neural-network-inference-via-parameter-efficient-fine-tuning/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:14.242785+00:00",
+      "sha256": "292a9111406cfae926bcb75ce46d1356a63e1d54eefb351baca76e31ce7d8875",
+      "bytes": 71981,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-78",
+      "url": "https://www.ndss-symposium.org/ndss-paper/demystifying-the-access-control-mechanism-of-esxi-vmkernel/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/demystifying-the-access-control-mechanism-of-esxi-vmkernel/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:14.112528+00:00",
+      "sha256": "fed721e64222a92d8a40bfb8ec0e72451fe8bc64b1d81816538f5e432ad9d434",
+      "bytes": 69632,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-82",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dnn-latency-sequencing-extracting-dnn-architectures-from-intel-sgx-enclaves-with-single-stepping-attacks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/dnn-latency-sequencing-extracting-dnn-architectures-from-intel-sgx-enclaves-with-single-stepping-attacks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:14.430477+00:00",
+      "sha256": "20924459e86b5f16303707476d803f8716af714d4f109620a75ed6bfad18e66e",
+      "bytes": 71166,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-85",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dualstrike-accurate-real-time-eavesdropping-and-injection-of-keystrokes-on-commodity-keyboards/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/dualstrike-accurate-real-time-eavesdropping-and-injection-of-keystrokes-on-commodity-keyboards/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:14.543950+00:00",
+      "sha256": "965cd8eea3479f9fd44aad3b48b78d3e2b55f0f8a7ff26d6f6a6332545b81e9b",
+      "bytes": 70843,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-89",
+      "url": "https://www.ndss-symposium.org/ndss-paper/enhancing-website-fingerprinting-attacks-against-traffic-drift/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/enhancing-website-fingerprinting-attacks-against-traffic-drift/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:14.717144+00:00",
+      "sha256": "1e7d7b224a46a2cbef142f629cfe2851c626dd438f0d63c45eb36a125d3d91ad",
+      "bytes": 71262,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-91",
+      "url": "https://www.ndss-symposium.org/ndss-paper/eviction-notice-reviving-and-advancing-page-cache-attacks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/eviction-notice-reviving-and-advancing-page-cache-attacks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:15.290179+00:00",
+      "sha256": "52ca7da161f56c2a7f38af3362a921f165f1fc2f5034be2c62d2b91801a7333a",
+      "bytes": 70602,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-92",
+      "url": "https://www.ndss-symposium.org/ndss-paper/exia-trusted-transitions-for-enclaves-via-external-input-attestation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/exia-trusted-transitions-for-enclaves-via-external-input-attestation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:15.227346+00:00",
+      "sha256": "413892548d370238d5824c3b5af494481979cc011d44ac978862e5a2af5b5431",
+      "bytes": 70742,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-93",
+      "url": "https://www.ndss-symposium.org/ndss-paper/exploiting-tlbs-in-virtualized-gpus-for-cross-vm-side-channel-attacks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/exploiting-tlbs-in-virtualized-gpus-for-cross-vm-side-channel-attacks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:15.397253+00:00",
+      "sha256": "43ccb1d704eeb5fc61d9c40a1b811453784d37e0fe1014febca5b128ffa9c111",
+      "bytes": 69817,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-100",
+      "url": "https://www.ndss-symposium.org/ndss-paper/flippyram-a-large-scale-study-of-rowhammer-prevalence/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/flippyram-a-large-scale-study-of-rowhammer-prevalence/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:15.541820+00:00",
+      "sha256": "df647fcc6f188349a5b1d0a4b136026d318f7225922d1f847e8c4e3e5848ae54",
+      "bytes": 71429,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-106",
+      "url": "https://www.ndss-symposium.org/ndss-paper/fuzzilicon-a-post-silicon-microcode-guided-x86-cpu-fuzzer/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/fuzzilicon-a-post-silicon-microcode-guided-x86-cpu-fuzzer/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:15.802381+00:00",
+      "sha256": "bb8c54d2593f9c9b39aa5b0f1d7e7f35d8ca50b1d81cd6cbc6d8527258db32a4",
+      "bytes": 70565,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-107",
+      "url": "https://www.ndss-symposium.org/ndss-paper/goldenfuzz-generative-golden-reference-hardware-fuzzing/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/goldenfuzz-generative-golden-reference-hardware-fuzzing/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:16.225035+00:00",
+      "sha256": "994c54b5f0200746e9934e9e33b98969edf65c44266e884c752a19560b8dbee9",
+      "bytes": 70980,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-108",
+      "url": "https://www.ndss-symposium.org/ndss-paper/hey-there-you-are-using-whatsapp-enumerating-three-billion-accounts-for-security-and-privacy/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/hey-there-you-are-using-whatsapp-enumerating-three-billion-accounts-for-security-and-privacy/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:16.373021+00:00",
+      "sha256": "98a83e464fd255c62cab0e33011341496b6068b9702e18e0ed90f22b50f7de8f",
+      "bytes": 71087,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-109",
+      "url": "https://www.ndss-symposium.org/ndss-paper/hiding-an-ear-in-plain-sight-on-the-practicality-and-implications-of-acoustic-eavesdropping-with-telecom-fiber-optic-cables/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/hiding-an-ear-in-plain-sight-on-the-practicality-and-implications-of-acoustic-eavesdropping-with-telecom-fiber-optic-cables/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:16.463715+00:00",
+      "sha256": "622aa26d4a8501c0f1e825b8c86f3fd063b7741255b01592774bf1b7c1fc3ad4",
+      "bytes": 70956,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-112",
+      "url": "https://www.ndss-symposium.org/ndss-paper/huma-censorship-circumvention-via-web-protocol-tunneling-with-deferred-traffic-replacement/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/huma-censorship-circumvention-via-web-protocol-tunneling-with-deferred-traffic-replacement/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:16.551190+00:00",
+      "sha256": "f0e3793fa071aa3c95fc018e77ff8d8380b016a5d23a98a27c9449cbacdf7476",
+      "bytes": 69852,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-113",
+      "url": "https://www.ndss-symposium.org/ndss-paper/hypermirage-direct-state-manipulation-in-hybrid-virtual-cpu-fuzzing/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/hypermirage-direct-state-manipulation-in-hybrid-virtual-cpu-fuzzing/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:16.797140+00:00",
+      "sha256": "a52daeb4c9c3121035f6d78be870720afcccc2b17d69994f0b74ec23305514e9",
+      "bytes": 70659,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-123",
+      "url": "https://www.ndss-symposium.org/ndss-paper/isolatos-detecting-double-fetch-bugs-in-cots-rtos-by-re-enabling-kernel-isolation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/isolatos-detecting-double-fetch-bugs-in-cots-rtos-by-re-enabling-kernel-isolation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:17.228665+00:00",
+      "sha256": "9a4b1a47eb1b415c12abaf07fea72adeaeb2d6dfff1d0a563d36f5194b5b02de",
+      "bytes": 70696,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-126",
+      "url": "https://www.ndss-symposium.org/ndss-paper/know-me-by-my-pulse-toward-practical-continuous-authentication-on-wearable-devices-via-wrist-worn-ppg/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/know-me-by-my-pulse-toward-practical-continuous-authentication-on-wearable-devices-via-wrist-worn-ppg/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:17.379444+00:00",
+      "sha256": "2591dd99a1b0c0f4ab71ec6ee6be7ae7e66d28736e4ea8b562dc3f1ead2edcf2",
+      "bytes": 70954,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-128",
+      "url": "https://www.ndss-symposium.org/ndss-paper/latticebox-a-hardware-software-co-designed-framework-for-scalable-and-low-latency-compartmentalization/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/latticebox-a-hardware-software-co-designed-framework-for-scalable-and-low-latency-compartmentalization/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:17.459827+00:00",
+      "sha256": "bedfa6d95fde512827c0446ec778b3519351407cfafd0e67492b5d6d2f0ee6b3",
+      "bytes": 71001,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-129",
+      "url": "https://www.ndss-symposium.org/ndss-paper/learning-from-leakage-database-reconstruction-from-just-a-few-multidimensional-range-queries/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/learning-from-leakage-database-reconstruction-from-just-a-few-multidimensional-range-queries/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:17.550799+00:00",
+      "sha256": "ffa78ca9e861fa0983ae32f6187fa22e6bee80772ab160ac060245405050402f",
+      "bytes": 70264,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-133",
+      "url": "https://www.ndss-symposium.org/ndss-paper/lightening-the-load-a-cluster-based-framework-for-a-lower-overhead-provable-website-fingerprinting-defense/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/lightening-the-load-a-cluster-based-framework-for-a-lower-overhead-provable-website-fingerprinting-defense/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:17.798187+00:00",
+      "sha256": "68ffd23168545b18a99c3bddcbc1e9b3cb98df2a4acf3fdeb2b08d24c5ba23cd",
+      "bytes": 70664,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-139",
+      "url": "https://www.ndss-symposium.org/ndss-paper/looma-a-low-latency-pqtls-authentication-architecture-for-cloud-applications/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/looma-a-low-latency-pqtls-authentication-architecture-for-cloud-applications/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:18.213371+00:00",
+      "sha256": "ce9419da549bd347c38ff787646f63106ae7b2d7447e5542ec1498b7773355b7",
+      "bytes": 69762,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-paper-139",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f74-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f74-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:43:17.740292+00:00",
+      "sha256": "2ebd68dc1dbd9c38a17373797df836df2bcc0b5bf3f9b522128332309fbb040f",
+      "bytes": 2301474,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-page-140",
+      "url": "https://www.ndss-symposium.org/ndss-paper/losing-the-beat-understanding-and-mitigating-desynchronization-risks-in-container-isolation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/losing-the-beat-understanding-and-mitigating-desynchronization-risks-in-container-isolation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:18.484728+00:00",
+      "sha256": "081a31c0aa493b807369b69e9c658a22adef9c42fe93ac8f1cff281321f74acf",
+      "bytes": 70775,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-143",
+      "url": "https://www.ndss-symposium.org/ndss-paper/memory-band-aid-a-principled-rowhammer-defense-in-depth/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/memory-band-aid-a-principled-rowhammer-defense-in-depth/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:18.444248+00:00",
+      "sha256": "92c3249bd7c96440edde0956b6923f9339eb5ed860c865ab00206ef6a1ac2838",
+      "bytes": 70926,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-147",
+      "url": "https://www.ndss-symposium.org/ndss-paper/mirage-private-mobility-based-routing-for-censorship-evasion/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/mirage-private-mobility-based-routing-for-censorship-evasion/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:18.544733+00:00",
+      "sha256": "e6357c2c8334664a2eaa0584b4759786a42b90666d8998106feaa48738587bab",
+      "bytes": 70858,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-150",
+      "url": "https://www.ndss-symposium.org/ndss-paper/mvp-oram-a-wait-free-concurrent-oram-for-confidential-bft-storage/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/mvp-oram-a-wait-free-concurrent-oram-for-confidential-bft-storage/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:18.789145+00:00",
+      "sha256": "1c8be78004b91eb5290d49893f96a1a04808f40a7ffadb7a8006783fb1ab9d0c",
+      "bytes": 71364,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-151",
+      "url": "https://www.ndss-symposium.org/ndss-paper/mvpnalyzer-an-investigative-framework-for-auditing-the-security-privacy-of-mobile-vpns/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/mvpnalyzer-an-investigative-framework-for-auditing-the-security-privacy-of-mobile-vpns/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:19.307363+00:00",
+      "sha256": "a69ed8dab826d2864152b12ba04e6f3f9c92d0b9598c3b4929927f5cf982f3e2",
+      "bytes": 71297,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-157",
+      "url": "https://www.ndss-symposium.org/ndss-paper/occupyprobe-cross-privilege-branch-target-buffer-side-channel-attacks-at-instruction-granularity/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/occupyprobe-cross-privilege-branch-target-buffer-side-channel-attacks-at-instruction-granularity/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:19.457659+00:00",
+      "sha256": "83b6bbc0c61676074f0202c652f7887bbca2c6264640e8f0f621314725a4e6d1",
+      "bytes": 71359,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-paper-157",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-s925-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-s925-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:43:16.709489+00:00",
+      "sha256": "6067be9d82083d6c0dfb35d7971eec45241f086dc2f2cbd433f01d573d93167a",
+      "bytes": 882835,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-page-160",
+      "url": "https://www.ndss-symposium.org/ndss-paper/on-the-security-risks-of-memory-adaptation-and-augmentation-in-data-plane-dos-mitigation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/on-the-security-risks-of-memory-adaptation-and-augmentation-in-data-plane-dos-mitigation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:19.514997+00:00",
+      "sha256": "e6089f67e15b248652b906231d9f4ee036bf5aff18cf45139ca643945bf39d09",
+      "bytes": 70953,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-162",
+      "url": "https://www.ndss-symposium.org/ndss-paper/optimix-scalable-and-distributed-approaches-for-latency-optimization-in-modern-mixnets/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/optimix-scalable-and-distributed-approaches-for-latency-optimization-in-modern-mixnets/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:19.913671+00:00",
+      "sha256": "a182e7945711f7d480812ac74c3f64b4240bb3d6b58c60dfe25c8f296d5763c8",
+      "bytes": 70704,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-166",
+      "url": "https://www.ndss-symposium.org/ndss-paper/pallas-and-aegis-rollback-resilience-in-tee-aided-blockchain-consensus/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/pallas-and-aegis-rollback-resilience-in-tee-aided-blockchain-consensus/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:19.770243+00:00",
+      "sha256": "e71ca0ba8368795f31b9d0b62d09d67e6f6e7b22ecf11de5a9064c4bb13bc43a",
+      "bytes": 70289,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-169",
+      "url": "https://www.ndss-symposium.org/ndss-paper/passive-multi-target-guti-identification-via-visual-rf-correlation-in-lte-networks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/passive-multi-target-guti-identification-via-visual-rf-correlation-in-lte-networks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:20.302337+00:00",
+      "sha256": "3bccb4c7e2e16b48e3aedb6c717149be89bd7352fd0a0a0b1c3fe3c607ce89a7",
+      "bytes": 70511,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-171",
+      "url": "https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:20.467784+00:00",
+      "sha256": "dd0b7cb8b64284897ae803e958638b9b6472e0e378870457f43188e85aa7bd31",
+      "bytes": 70485,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-paper-171",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-s141-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-s141-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:43:17.974096+00:00",
+      "sha256": "eb2f3e887a564b637549fa0a08c5b0b26d00591ae8f51adaf85b278e6de3704d",
+      "bytes": 4001692,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-page-172",
+      "url": "https://www.ndss-symposium.org/ndss-paper/phantommap-gpu-assisted-kernel-exploitation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/phantommap-gpu-assisted-kernel-exploitation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:20.511478+00:00",
+      "sha256": "a6c9276449d7d83769e3f07e1511a21eef868fcb6027c26f6018555109b72a59",
+      "bytes": 70295,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-173",
+      "url": "https://www.ndss-symposium.org/ndss-paper/phantommotion-laser-based-motion-injection-attacks-on-wireless-security-surveillance-systems/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/phantommotion-laser-based-motion-injection-attacks-on-wireless-security-surveillance-systems/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:20.754082+00:00",
+      "sha256": "323874c5177939d39a19e3c62c1d3f7eb2997fecce0b4363788537a8f383ed16",
+      "bytes": 70710,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-176",
+      "url": "https://www.ndss-symposium.org/ndss-paper/phyfuzz-detecting-sensor-vulnerabilities-with-physical-signal-fuzzing/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/phyfuzz-detecting-sensor-vulnerabilities-with-physical-signal-fuzzing/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:20.916173+00:00",
+      "sha256": "6c63b245009d222393a066fa378f66d0073446507ac0ea2b04e081666b50b926",
+      "bytes": 70175,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-178",
+      "url": "https://www.ndss-symposium.org/ndss-paper/pitfalls-for-security-isolation-in-multi-cpu-systems/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/pitfalls-for-security-isolation-in-multi-cpu-systems/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:21.286032+00:00",
+      "sha256": "5ca84dcc5b9c53b7b9076037834e8f387615b11c003002794a750f635dcb3bc3",
+      "bytes": 70126,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-179",
+      "url": "https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:21.480610+00:00",
+      "sha256": "c832235d7fc139939662ce1e049121da8bf57f9f78e7e97ab4a5bec49a5993e7",
+      "bytes": 71320,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-paper-179",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f587-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f587-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:43:17.315438+00:00",
+      "sha256": "02291088c5242dbdc18c79093d59a12827b77ca779f8c597ac7a4982b0c324ff",
+      "bytes": 1190481,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-page-190",
+      "url": "https://www.ndss-symposium.org/ndss-paper/qnbad-quantum-noise-induced-backdoor-attacks-against-zero-noise-extrapolation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/qnbad-quantum-noise-induced-backdoor-attacks-against-zero-noise-extrapolation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:21.525102+00:00",
+      "sha256": "87c295cdceb0e1d2873677dcd7cd9ea93309a35ada4d201b52b6fd5a3ffdbb7a",
+      "bytes": 71189,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-191",
+      "url": "https://www.ndss-symposium.org/ndss-paper/refuzz-reusing-tests-for-processor-fuzzing-with-contextual-bandits/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/refuzz-reusing-tests-for-processor-fuzzing-with-contextual-bandits/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:21.740927+00:00",
+      "sha256": "b626e39bb7872c2f299a21bf60bd6cc2800b61a3053a50fb2c8c28bb9fed086c",
+      "bytes": 70477,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-201",
+      "url": "https://www.ndss-symposium.org/ndss-paper/rtrace-towards-better-visibility-of-shared-library-execution/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/rtrace-towards-better-visibility-of-shared-library-execution/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:21.909170+00:00",
+      "sha256": "4991d989502f3c5373f9c2fce3e924ded812837b47e12b82f77cf7efd9ea914a",
+      "bytes": 70484,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-205",
+      "url": "https://www.ndss-symposium.org/ndss-paper/secv-securing-connected-vehicles-with-hardware-trust-anchors/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/secv-securing-connected-vehicles-with-hardware-trust-anchors/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:22.260020+00:00",
+      "sha256": "bee619523551e74019ecc2ea0ef79eca286735856e0516d03759068d4a9a24e3",
+      "bytes": 69670,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-207",
+      "url": "https://www.ndss-symposium.org/ndss-paper/shadow-in-the-cache-unveiling-and-mitigating-privacy-risks-of-kv-cache-in-llm-inference/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/shadow-in-the-cache-unveiling-and-mitigating-privacy-risks-of-kv-cache-in-llm-inference/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:22.453889+00:00",
+      "sha256": "6796903e876d4d9e4615387ab108ddb6b045e484597d91518df5f5b960c48629",
+      "bytes": 70424,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-paper-207",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f258-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f258-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:43:18.825994+00:00",
+      "sha256": "4087ef12f47e73dbe2a4c412787ab3a15b6ffaa721cc587f0d114964edec4711",
+      "bytes": 1051001,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-page-209",
+      "url": "https://www.ndss-symposium.org/ndss-paper/side-channel-inference-of-user-activities-in-ar-vr-using-gpu-profiling/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/side-channel-inference-of-user-activities-in-ar-vr-using-gpu-profiling/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:22.516667+00:00",
+      "sha256": "97bc6e8d9d70c32611d800a131321f598ed295c829c35a2d3c061b82d8b20684",
+      "bytes": 70704,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-paper-209",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-s1302-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-s1302-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:43:19.899547+00:00",
+      "sha256": "795103fbe880ef883180fcc15e9dce66d61d2894719943ceeea35064bcbc0bca",
+      "bytes": 5745204,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-page-212",
+      "url": "https://www.ndss-symposium.org/ndss-paper/snpeek-side-channel-analysis-for-privacy-applications-on-confidential-vms/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/snpeek-side-channel-analysis-for-privacy-applications-on-confidential-vms/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:22.735353+00:00",
+      "sha256": "f6034b54b553bf5991055d301639c421dea43ff846e58efecea669d6d515b4f2",
+      "bytes": 70244,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-paper-212",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f699-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f699-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:43:20.200544+00:00",
+      "sha256": "ecf5538320fe61c2d7005e3e6f456041873729866158569dc9444223c72c6dc3",
+      "bytes": 2147374,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-page-213",
+      "url": "https://www.ndss-symposium.org/ndss-paper/sok-analysis-of-accelerator-tee-designs/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/sok-analysis-of-accelerator-tee-designs/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:23.020363+00:00",
+      "sha256": "d9636d77c05e1f6ccb74c6d97be3f6bdecc14566f1a7837cdaab4f56a4dbd1f3",
+      "bytes": 71225,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-paper-213",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1424-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1424-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:43:19.773315+00:00",
+      "sha256": "8a3278373d5b1a9600083c0ad885cdd52da396ed1937f903a1423f0d7e23e416",
+      "bytes": 1215103,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-page-216",
+      "url": "https://www.ndss-symposium.org/ndss-paper/sok-understanding-the-fundamentals-and-implications-of-sensor-out-of-band-vulnerabilities/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/sok-understanding-the-fundamentals-and-implications-of-sensor-out-of-band-vulnerabilities/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:23.236898+00:00",
+      "sha256": "5a7637147782604813af60f37b5ebf924a4f866d342fbb4d78a56673a59b8041",
+      "bytes": 70345,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-218",
+      "url": "https://www.ndss-symposium.org/ndss-paper/strategic-games-and-zero-shot-attacks-on-heavy-hitter-network-flow-monitoring/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/strategic-games-and-zero-shot-attacks-on-heavy-hitter-network-flow-monitoring/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:23.426006+00:00",
+      "sha256": "3ae26f76e808e53a521d6379be82d346d28527704395c11f88820cc484788223",
+      "bytes": 70894,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-223",
+      "url": "https://www.ndss-symposium.org/ndss-paper/targeted-physical-evasion-attacks-in-the-near-infrared-domain/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/targeted-physical-evasion-attacks-in-the-near-infrared-domain/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:23.509484+00:00",
+      "sha256": "19254428004af68d16903cc4369f49305321a9bab14175d679c60b54d3098df3",
+      "bytes": 70190,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-226",
+      "url": "https://www.ndss-symposium.org/ndss-paper/the-heat-is-on-understanding-and-mitigating-vulnerabilities-of-thermal-image-perception-in-autonomous-systems/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/the-heat-is-on-understanding-and-mitigating-vulnerabilities-of-thermal-image-perception-in-autonomous-systems/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:23.710319+00:00",
+      "sha256": "40bde4e2168d68c54622cd973c2a851401bc53ca5d4700d11127d750381c6489",
+      "bytes": 72147,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-232",
+      "url": "https://www.ndss-symposium.org/ndss-paper/time-and-time-again-leveraging-tcp-timestamps-to-improve-remote-timing-attacks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/time-and-time-again-leveraging-tcp-timestamps-to-improve-remote-timing-attacks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:23.990890+00:00",
+      "sha256": "3317d5b12308ec52041b8bfc7ef4842eefe28905f8cedde7dba2b116097dd337",
+      "bytes": 70729,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-paper-232",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-s893-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-s893-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:43:20.119596+00:00",
+      "sha256": "0a4d4ce90788495cbc5c9449b7e3605250a264be4ad2c630e46103d405440c65",
+      "bytes": 393490,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-page-233",
+      "url": "https://www.ndss-symposium.org/ndss-paper/time-will-tell-large-scale-de-anonymization-of-hidden-i2p-services-via-live-behavior-alignment/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/time-will-tell-large-scale-de-anonymization-of-hidden-i2p-services-via-live-behavior-alignment/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:24.202921+00:00",
+      "sha256": "3697fcafcae0c55aa6e36e98ca65e733dee23019d57350c4b8e8c05bf6ef3ecd",
+      "bytes": 70441,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-237",
+      "url": "https://www.ndss-symposium.org/ndss-paper/towards-effective-prompt-stealing-attack-against-text-to-image-diffusion-models/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/towards-effective-prompt-stealing-attack-against-text-to-image-diffusion-models/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:24.420103+00:00",
+      "sha256": "db488177af22e476aebfd64406b85fea578ea5501a99786d900e7b3e4dd368b7",
+      "bytes": 70773,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-240",
+      "url": "https://www.ndss-symposium.org/ndss-paper/uiee-secure-and-efficient-user-space-isolated-execution-environment-for-embedded-tee-systems/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/uiee-secure-and-efficient-user-space-isolated-execution-environment-for-embedded-tee-systems/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:24.683066+00:00",
+      "sha256": "30650143b816a2fb4f845acecca031322eba154363ab6517190f3fae5b6879ed",
+      "bytes": 71317,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-249",
+      "url": "https://www.ndss-symposium.org/ndss-paper/vdoram-towards-a-random-access-machine-with-both-public-verifiability-and-distributed-obliviousness/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/vdoram-towards-a-random-access-machine-with-both-public-verifiability-and-distributed-obliviousness/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:24.680265+00:00",
+      "sha256": "2f4f01b83fc2fff7436c18278469642909cb55b570e60558f3f3620629ca4a7d",
+      "bytes": 71717,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-254",
+      "url": "https://www.ndss-symposium.org/ndss-paper/vulsca-a-community-level-sca-approach-for-accurate-c-c-supply-chain-vulnerability-analysis/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/vulsca-a-community-level-sca-approach-for-accurate-c-c-supply-chain-vulnerability-analysis/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:25.376762+00:00",
+      "sha256": "2e3095cf4d8a1f924082e05201ba639f52ab086ac414a137b507ac98e7017d7e",
+      "bytes": 70858,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-256",
+      "url": "https://www.ndss-symposium.org/ndss-paper/wbslt-a-framework-for-white-box-encryption-based-on-substitution-linear-transformation-ciphers/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/wbslt-a-framework-for-white-box-encryption-based-on-substitution-linear-transformation-ciphers/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:25.205376+00:00",
+      "sha256": "829dc57f2a87f8be016c48dcfe17ffe104e29f72bcd751dcc587adf8f3ab3ab1",
+      "bytes": 70247,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-259",
+      "url": "https://www.ndss-symposium.org/ndss-paper/when-cache-poisoning-meets-llm-systems-semantic-cache-poisoning-and-its-countermeasures/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/when-cache-poisoning-meets-llm-systems-semantic-cache-poisoning-and-its-countermeasures/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:25.522869+00:00",
+      "sha256": "e93a82419fabffdf6b4256a7ecbb09ceb40a8a0754f761855e9d8f7283fbe04a",
+      "bytes": 70784,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-261",
+      "url": "https://www.ndss-symposium.org/ndss-paper/when-mixnets-fail-evaluating-quantifying-and-mitigating-the-impact-of-adversarial-nodes-in-mix-networks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/when-mixnets-fail-evaluating-quantifying-and-mitigating-the-impact-of-adversarial-nodes-in-mix-networks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:26.094364+00:00",
+      "sha256": "3465d9c49d638e0b28e6baf6bc176e0c55daa8e25325936f1018bc95e342b125",
+      "bytes": 70164,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-263",
+      "url": "https://www.ndss-symposium.org/ndss-paper/wifinger-fingerprinting-noisy-iot-event-traffic-using-packet-level-sequence-matching/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/wifinger-fingerprinting-noisy-iot-event-traffic-using-packet-level-sequence-matching/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:25.697301+00:00",
+      "sha256": "cb816f50584e270b7dbd18052d56c438e11ad48b280f341bc511373fb88331ca",
+      "bytes": 70548,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-264",
+      "url": "https://www.ndss-symposium.org/ndss-paper/xr-devices-send-wifi-packets-when-they-should-not-cross-building-keylogging-attacks-via-non-cooperative-wireless-sensing/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/xr-devices-send-wifi-packets-when-they-should-not-cross-building-keylogging-attacks-via-non-cooperative-wireless-sensing/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:41:26.280793+00:00",
+      "sha256": "84dd1c38d08235ce14f662bb1f95bfbd4d9c5ce1d7139519082e847ab6696614",
+      "bytes": 72379,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-paper-264",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f926-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f926-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:43:20.704745+00:00",
+      "sha256": "f0b215eacd60c6ca9d7255043cdf389a22389a68285553631994596380b16fdc",
+      "bytes": 2970120,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-snpeek-arxiv",
+      "url": "https://arxiv.org/abs/2506.15924",
+      "response_url": "https://arxiv.org/abs/2506.15924",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:46:28.931256+00:00",
+      "sha256": "0f2881a208d1eab22b6f5138de991b0441d6ae944eb5a82f64c14af148a1a014",
+      "bytes": 42348,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "ndss26-snpeek-readme",
+      "url": "https://github.com/google-parfait/cvm-side-channel-analysis/blob/main/README.md",
+      "status": 200,
+      "retrieved_at": "2026-11-13T20:46:59.692296+00:00",
+      "sha256": "2976ae15e5daeb854e63cc8b1e38f74b465b0688b4a085442ca9356b9f1d0711",
+      "bytes": 780,
+      "github_blob_sha": "726d3a6434b0f26ff8540976a00ee18631cbe201",
+      "source_type": "GitHub connector UTF-8 README content; no code executed"
+    }
+  ],
+  "reviewed_on": "2026-11-14",
+  "title_screening_batches": [
+    {
+      "venue": "NDSS",
+      "year": 2026,
+      "records": 265,
+      "decision_counts": {
+        "candidate": 27,
+        "uncertain": 53,
+        "outside_title_scope": 185
+      }
+    }
+  ],
+  "catalog_file": "catalogs/ndss-2026.jsonl",
+  "catalog_sha256": "0dfd6199ad76d5cb6ea4312199f0868d9462bf9d6e4c841ff95d1a9d59eefda1",
+  "complete_primary_abstracts_read": 80,
+  "new_included_cards": 34,
+  "new_pqc_cards": 0,
+  "adjacent_decisions": 46,
+  "remaining_unread_abstracts": 185,
+  "selected_full_text_records": [
+    "url:https://www.ndss-symposium.org/ndss-paper/cross-cache-attacks-for-the-linux-kernel-via-pcp-massaging/",
+    "url:https://www.ndss-symposium.org/ndss-paper/looma-a-low-latency-pqtls-authentication-architecture-for-cloud-applications/",
+    "url:https://www.ndss-symposium.org/ndss-paper/occupyprobe-cross-privilege-branch-target-buffer-side-channel-attacks-at-instruction-granularity/",
+    "url:https://www.ndss-symposium.org/ndss-paper/peering-inside-the-black-box-long-range-and-scalable-model-architecture-snooping-via-gpu-electromagnetic-side-channel/",
+    "url:https://www.ndss-symposium.org/ndss-paper/portrush-detect-write-port-contention-side-channel-vulnerabilities-via-hardware-fuzzing/",
+    "url:https://www.ndss-symposium.org/ndss-paper/shadow-in-the-cache-unveiling-and-mitigating-privacy-risks-of-kv-cache-in-llm-inference/",
+    "url:https://www.ndss-symposium.org/ndss-paper/side-channel-inference-of-user-activities-in-ar-vr-using-gpu-profiling/",
+    "url:https://www.ndss-symposium.org/ndss-paper/snpeek-side-channel-analysis-for-privacy-applications-on-confidential-vms/",
+    "url:https://www.ndss-symposium.org/ndss-paper/xr-devices-send-wifi-packets-when-they-should-not-cross-building-keylogging-attacks-via-non-cooperative-wireless-sensing/"
+  ],
+  "full_bibliography_positions_inventoried": 43,
+  "new_citation_edges": 8,
+  "new_pending_discoveries": 15,
+  "new_inferred_version_edges": 1,
+  "independent_toc_crosscheck": "pending; official accepted page says 265 accepted but introductory program sentence says 194 presentations, membership not independently compared",
+  "scope": "Full title and selected abstract pass; bibliography inventory is not recursive/forward closure. No experiments or author code executed.",
+  "reading_corrections": [
+    "PortRush software simulation, static potential versus dynamic contention and Rocket non-triggering separated.",
+    "TwiST dictionary top-25 and active packet elicitation; three-user limitations sentence versus User1-4 table remains unresolved.",
+    "OCCUPY+PROBE edit-distance sequence accuracy is not a complete RSA key recovery success rate.",
+    "Shadow in the Cache explicitly uses direct KV-cache access; cache poisoning and quantum backdoors not mislabeled as physical SCA."
+  ]
+}

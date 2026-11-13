@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6776 条，其中 431 条命中后量子相关关键词。
+当前目录记录 6776 条，其中 433 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -28,6 +28,8 @@
 | 2026 CCS | [When Topology Betrays Privacy: Lattice-Based Reconstruction Attacks on Secure Aggregation in Decentralized Federated Learning](https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html) | pending |
 | 2026 IACR CiC | [Side-Channel Attacks on VOLEitH Signature Schemes: Breaking Masked FAEST](https://doi.org/10.62056/aebngyl7s) | include |
 | 2026 IACR ePrint | [HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without Masking](https://eprint.iacr.org/2026/081) | include |
+| 2026 NDSS | [LatticeBox: A Hardware-Software Co-Designed Framework for Scalable and Low-Latency Compartmentalization](https://www.ndss-symposium.org/ndss-paper/latticebox-a-hardware-software-co-designed-framework-for-scalable-and-low-latency-compartmentalization/) | adjacent |
+| 2026 NDSS | [Looma: A Low-Latency PQTLS Authentication Architecture for Cloud Applications](https://www.ndss-symposium.org/ndss-paper/looma-a-low-latency-pqtls-authentication-architecture-for-cloud-applications/) | adjacent |
 | 2026 SP | [A Full Threshold NIST PQC-Compliant Framework for Distributed Trust in Federal Public Key Infrastructure](https://doi.org/10.1109/sp63933.2026.00164) | adjacent |
 | 2026 SP | [A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter](https://doi.org/10.1109/sp63933.2026.00221) | adjacent |
 | 2026 SP | [Blinding Post-Quantum Hash-and-Sign Signatures](https://doi.org/10.1109/sp63933.2026.00032) | adjacent |
