@@ -4,18 +4,18 @@
   "reading_updated_on": "2026-11-14",
   "total_catalog_records": 6776,
   "priority_counts": {
-    "unmatched_pending": 5326,
-    "sca_terms": 1017,
+    "unmatched_pending": 5325,
+    "sca_terms": 1018,
     "pqc_terms": 217,
     "pqc_and_sca_terms": 216
   },
   "core_catalog_records": 6628,
   "citation_expansion_records": 148,
-  "title_screened_records": 3304,
-  "abstract_screened_records": 979,
-  "included_papers": 540,
+  "title_screened_records": 3444,
+  "abstract_screened_records": 985,
+  "included_papers": 545,
   "reading_level_counts": {
-    "abstract_and_bibliographic_metadata": 468,
+    "abstract_and_bibliographic_metadata": 473,
     "selected_full_text_sections": 72
   },
   "citation_progress": {
@@ -23,7 +23,7 @@
     "verified_version_edges": 61,
     "inferred_version_edges": 10,
     "task_status_counts": {
-      "pending": 1011,
+      "pending": 1021,
       "in_progress": 69
     },
     "unresolved_discoveries": 120,
@@ -395,9 +395,9 @@
       "catalog_parsed": true,
       "provenance_file": "provenance/ndss-2024.json",
       "independent_toc_crosscheck": "pending",
-      "screened_records": 0,
-      "title_screened_records": 0,
-      "abstract_screened_records": 0,
+      "screened_records": 6,
+      "title_screened_records": 140,
+      "abstract_screened_records": 6,
       "citation_chasing": "pending",
       "complete": false
     },

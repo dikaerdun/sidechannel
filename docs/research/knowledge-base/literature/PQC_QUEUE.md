@@ -223,7 +223,7 @@
 | 2024 IACR ePrint | [Single-trace side-channel attacks on MAYO exploiting leaky modular multiplication](https://eprint.iacr.org/2024/1850) | include |
 | 2024 IACR ePrint | [Singular points of UOV and VOX](https://eprint.iacr.org/2024/219) | adjacent |
 | 2024 Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | include |
-| 2024 NDSS | [When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications](https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/) | pending |
+| 2024 NDSS | [When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications](https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/) | adjacent |
 | 2024 PQCrypto | [One Vector to Rule Them All: Key Recovery from One Vector in UOV Schemes](https://doi.org/10.1007/978-3-031-62746-0_5) | adjacent |
 | 2024 SP | [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | include |
 | 2024 SP | [Ligetron: Lightweight Scalable End-to-End Zero-Knowledge Proofs. Post-Quantum ZK-SNARKs on a Browser](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | pending |

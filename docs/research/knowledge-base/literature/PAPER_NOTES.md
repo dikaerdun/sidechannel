@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 540 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 545 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
 
@@ -2418,6 +2418,66 @@
 - 限制与下一步：在线日期为 2023-11-29，卷年为 2024；不能当成与 2018 版无关的新研究或已核验全文等价。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/article/10.1007/s00145-023-09485-z。
 - 代码/数据核查：not checked；引用追踪：in_progress; selected references only。
+
+## BliMe: Verifiably Secure Outsourced Computation with Hardware-Enforced Taint Tracking
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/blime-verifiably-secure-outsourced-computation-with-hardware-enforced-taint-tracking/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Hossam ElAtali (University of Waterloo), Lachlan J. Gunn (Aalto University), Hans Liljestrand (University of Waterloo), N. Asokan (University of Waterloo, Aalto University)
+- 对象：taint tracking, ISA, RISC-V, formal verification；类型：architecture and formal analysis。
+- 核心想法：用 ISA 污点策略约束外包计算对客户数据的使用，并给出 RTL 实现和简化模型证明。
+- 作者报告：BliMe-BOOM 基于 BOOM RISC-V；作者报告功耗小于 1.5%、FPGA 资源不超过 9.0% 的开销，不同实现的性能开销为 8–25%。
+- 限制与下一步：机器检查证明针对简化 ISA；摘要不能支持对全部模拟功耗、EM 或微架构观察的保证。低功耗开销不是低泄漏量；HSM 与原子加解密/污点操作是架构前提。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/blime-verifiably-secure-outsourced-computation-with-hardware-enforced-taint-tracking/。
+- [详细阅读记录](notes/ndss2024-initial-observation-models-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## IdleLeak: Exploiting Idle State Side Effects for Information Leakage
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/idleleak-exploiting-idle-state-side-effects-for-information-leakage/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Fabian Rauscher (Graz University of Technology), Andreas Kogler (Graz University of Technology), Jonas Juffinger (Graz University of Technology), Daniel Gruss (Graz University of Technology)
+- 对象：idle states, microarchitecture, covert channel, timing；类型：attack。
+- 核心想法：利用可由非特权软件进入的 C0.1/C0.2 空闲状态观察系统活动及建立隐蔽通道。
+- 作者报告：作者分别报告按键时刻、网站/视频指纹和隐蔽通道结果，涉及原生和跨 VM 情景。
+- 限制与下一步：7.1 Mbit/s 为原生性能增强型隐蔽通道，46.3 kbit/s 为该类跨 VM 情景，656.37 kbit/s 为原生中断型；不能当作秘密密钥恢复速率。摘要区分 C0.1 逻辑兄弟核观察和 C0.2 效应；硬件与调度细节待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/idleleak-exploiting-idle-state-side-effects-for-information-leakage/。
+- [详细阅读记录](notes/ndss2024-initial-observation-models-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## SENSE: Enhancing Microarchitectural Awareness for TEEs via Subscription-Based Notification
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/sense-enhancing-microarchitectural-awareness-for-tees-via-subscription-based-notification/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Fan Sang (Georgia Institute of Technology), Jaehyuk Lee (Georgia Institute of Technology), Xiaokuan Zhang (George Mason University), Meng Xu (University of Waterloo), Scott Constable (Intel), Yuan Xiao (Intel), Michael Steiner (Intel), Mona Vij (Intel), Taesoo Kim (Georgia Institute of Technology)
+- 对象：TEE, microarchitectural notification, cache, gem5；类型：countermeasure。
+- 核心想法：让用户态 TEE 订阅细粒度微架构事件，以支持防御方判断活动并响应缓存侧信道。
+- 作者报告：作者在 gem5 模拟器上原型化 SENSE，报告所评估缓存攻击防御与良性条件下 1.2% 性能开销，并分析通知是否增加泄漏。
+- 限制与下一步：是模拟器原型；不等于芯片实测或对任意侧信道安全。通知接口的安全证明条件、攻击清单及恶意场景成本仍须正文核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/sense-enhancing-microarchitectural-awareness-for-tees-via-subscription-based-notification/。
+- [详细阅读记录](notes/ndss2024-initial-observation-models-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## TEE-SHirT: Scalable Leakage-Free Cache Hierarchies for TEEs
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/tee-shirt-scalable-leakage-free-cache-hierarchies-for-tees/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Kerem Arikan (Binghamton University), Abraham Farrell (Binghamton University), Williams Zhang Cen (Binghamton University), Jack McMahon (Binghamton University), Barry Williams (Binghamton University), Yu David Liu (Binghamton University), Nael Abu-Ghazaleh (University of California, Riverside), Dmitry Ponomarev (Binghamton University)
+- 对象：TEE, cache partitioning, coherence, formal model；类型：countermeasure。
+- 核心想法：为 TEE 构造多级缓存分区，并处理分区元数据、共享一致性和多线程 enclave。
+- 作者报告：三层方案包含共享 LLC 与私有 L2 分区，以及上下文切换和系统调用时刷新的非分区 L1；作者提出形式化安全模型。
+- 限制与下一步：标题中的 leakage-free 需要按正文观察语义解释；摘要未证明整机功耗、EM 或所有微架构通道无泄漏，性能与实现细节待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/tee-shirt-scalable-leakage-free-cache-hierarchies-for-tees/。
+- [详细阅读记录](notes/ndss2024-initial-observation-models-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
+
+## Timing Channels in Adaptive Neural Networks
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/timing-channels-in-adaptive-neural-networks/)；时间标记：NDSS 2024 within frozen window; earliest online date not independently established。
+- 作者：Ayomide Akinsanya (Stevens Institute of Technology), Tegan Brennan (Stevens Institute of Technology)
+- 对象：adaptive neural networks, timing, attribute inference；类型：attack。
+- 核心想法：研究自适应神经网络按输入改变计算量时产生的敏感属性时序泄漏。
+- 作者报告：作者评估六类 ADNN 与四个数据集，并在两个虚构 Web 应用中演示公网时序利用；最高报告属性猜测概率提升 9.89 倍。
+- 限制与下一步：9.89 倍是相对猜测概率提升，不是准确率或密钥成功率；两个应用为演示应用，不是对真实医疗或人事系统的入侵。各属性基率和网络条件待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://www.ndss-symposium.org/ndss-paper/timing-channels-in-adaptive-neural-networks/。
+- [详细阅读记录](notes/ndss2024-initial-observation-models-20261114.md)
+- 代码/数据核查：not checked; no author code executed；引用追踪：pending。
 
 ## Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Deep Learning-Based Side-Channel Analysis
 

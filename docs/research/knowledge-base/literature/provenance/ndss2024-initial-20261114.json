@@ -1,0 +1,109 @@
+{
+  "adjacent_decisions": 1,
+  "catalog_file": "catalogs/ndss-2024.jsonl",
+  "catalog_sha256": "7e3980d414aab838845f24a6e7d0d170df0660159a78e453fb212000f5fe88c2",
+  "complete_primary_abstracts_read": 6,
+  "context_source_scope": "research-polka-nist-20261114: NIST presentation description only, used in brainstorming, not a formal new card or full-proof review",
+  "independent_toc_crosscheck": "pending",
+  "new_citation_edges": 0,
+  "new_included_cards": 5,
+  "new_pqc_cards": 0,
+  "remaining_unread_abstracts": 134,
+  "reviewed_on": "2026-11-14",
+  "scope": "Initial title pass and six complete abstracts; no full-text, citation, formal-proof or scientific validation. No experiments or author code executed.",
+  "selected_full_text_records": [],
+  "sources": [
+    {
+      "bytes": 174459,
+      "content_type": "text/html; charset=UTF-8",
+      "response_url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/",
+      "retrieved_at": "2026-11-12T06:57:30.098015+00:00",
+      "sha256": "3d5cf390ec270388d7719ccc0e6caeeb79d15579a222d409a129d9f53092c375",
+      "source_id": "ndss-2024",
+      "status": 200,
+      "url": "https://www.ndss-symposium.org/ndss2024/accepted-papers/"
+    },
+    {
+      "bytes": 70290,
+      "content_type": "text/html; charset=UTF-8",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/blime-verifiably-secure-outsourced-computation-with-hardware-enforced-taint-tracking/",
+      "retrieved_at": "2026-11-13T21:03:05.486575+00:00",
+      "sha256": "b5b5a088d22613b383fce2f866d09e2f57b8edb8d97f1794e7b1db7199fe8c21",
+      "source_id": "ndss24-page-19",
+      "status": 200,
+      "url": "https://www.ndss-symposium.org/ndss-paper/blime-verifiably-secure-outsourced-computation-with-hardware-enforced-taint-tracking/"
+    },
+    {
+      "bytes": 70936,
+      "content_type": "text/html; charset=UTF-8",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/idleleak-exploiting-idle-state-side-effects-for-information-leakage/",
+      "retrieved_at": "2026-11-13T21:03:05.509801+00:00",
+      "sha256": "f2e19079f4fe3c3580276047f36f5bc89cfddaf3497e636634a0b306507c4f22",
+      "source_id": "ndss24-page-66",
+      "status": 200,
+      "url": "https://www.ndss-symposium.org/ndss-paper/idleleak-exploiting-idle-state-side-effects-for-information-leakage/"
+    },
+    {
+      "bytes": 71057,
+      "content_type": "text/html; charset=UTF-8",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/sense-enhancing-microarchitectural-awareness-for-tees-via-subscription-based-notification/",
+      "retrieved_at": "2026-11-13T21:03:05.612307+00:00",
+      "sha256": "2c1c9d55a44972061a28dcade1f56600433e1f213ce44adeda46d5dae3d08e48",
+      "source_id": "ndss24-page-111",
+      "status": 200,
+      "url": "https://www.ndss-symposium.org/ndss-paper/sense-enhancing-microarchitectural-awareness-for-tees-via-subscription-based-notification/"
+    },
+    {
+      "bytes": 69573,
+      "content_type": "text/html; charset=UTF-8",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/tee-shirt-scalable-leakage-free-cache-hierarchies-for-tees/",
+      "retrieved_at": "2026-11-13T21:03:05.512198+00:00",
+      "sha256": "dd34d53808065add1a4dc9fe0ec2fa8ed00b81afc457235bb4ed89dde4de5013",
+      "source_id": "ndss24-page-122",
+      "status": 200,
+      "url": "https://www.ndss-symposium.org/ndss-paper/tee-shirt-scalable-leakage-free-cache-hierarchies-for-tees/"
+    },
+    {
+      "bytes": 69721,
+      "content_type": "text/html; charset=UTF-8",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/timing-channels-in-adaptive-neural-networks/",
+      "retrieved_at": "2026-11-13T21:03:05.498867+00:00",
+      "sha256": "7f250ae8911661fc17d0863d83dda90c5de682225575aceff1fbe00fc522b3d7",
+      "source_id": "ndss24-page-126",
+      "status": 200,
+      "url": "https://www.ndss-symposium.org/ndss-paper/timing-channels-in-adaptive-neural-networks/"
+    },
+    {
+      "bytes": 70754,
+      "content_type": "text/html; charset=UTF-8",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/",
+      "retrieved_at": "2026-11-13T21:03:06.455181+00:00",
+      "sha256": "ae44b290cdad621d9f67369e048536599a3067103f0be3c74965c378d1bc4c42",
+      "source_id": "ndss24-page-139",
+      "status": 200,
+      "url": "https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/"
+    },
+    {
+      "bytes": 40313,
+      "content_type": "text/html; charset=utf-8",
+      "response_url": "https://csrc.nist.gov/Presentations/2022/towards-leakage-resistant-post-quantum-cca-secure",
+      "retrieved_at": "2026-11-13T21:07:13.106945+00:00",
+      "sha256": "33b25e900f66c2e16b01061d84ce0c53147eb5549930c924da77573d14b2480c",
+      "source_id": "research-polka-nist-20261114",
+      "status": 200,
+      "url": "https://csrc.nist.gov/Presentations/2022/towards-leakage-resistant-post-quantum-cca-secure"
+    }
+  ],
+  "title_screening_batches": [
+    {
+      "decision_counts": {
+        "candidate": 21,
+        "outside_title_scope": 82,
+        "uncertain": 37
+      },
+      "records": 140,
+      "venue": "NDSS",
+      "year": 2024
+    }
+  ]
+}

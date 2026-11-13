@@ -319,6 +319,11 @@
 | INDOCRYPT | [OccPoIs: Points of Interest Based on Neural Network’s Key Recovery in Side-Channel Analysis Through Occlusion](https://doi.org/10.1007/978-3-031-80311-6_1) | abstract_and_bibliographic_metadata |
 | JCEN | [Regularizers to the rescue: fighting overfitting in deep learning-based side-channel analysis](https://doi.org/10.1007/s13389-024-00361-5) | abstract_and_bibliographic_metadata |
 | Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | abstract_and_bibliographic_metadata |
+| NDSS | [BliMe: Verifiably Secure Outsourced Computation with Hardware-Enforced Taint Tracking](https://www.ndss-symposium.org/ndss-paper/blime-verifiably-secure-outsourced-computation-with-hardware-enforced-taint-tracking/) | abstract_and_bibliographic_metadata |
+| NDSS | [IdleLeak: Exploiting Idle State Side Effects for Information Leakage](https://www.ndss-symposium.org/ndss-paper/idleleak-exploiting-idle-state-side-effects-for-information-leakage/) | abstract_and_bibliographic_metadata |
+| NDSS | [SENSE: Enhancing Microarchitectural Awareness for TEEs via Subscription-Based Notification](https://www.ndss-symposium.org/ndss-paper/sense-enhancing-microarchitectural-awareness-for-tees-via-subscription-based-notification/) | abstract_and_bibliographic_metadata |
+| NDSS | [TEE-SHirT: Scalable Leakage-Free Cache Hierarchies for TEEs](https://www.ndss-symposium.org/ndss-paper/tee-shirt-scalable-leakage-free-cache-hierarchies-for-tees/) | abstract_and_bibliographic_metadata |
+| NDSS | [Timing Channels in Adaptive Neural Networks](https://www.ndss-symposium.org/ndss-paper/timing-channels-in-adaptive-neural-networks/) | abstract_and_bibliographic_metadata |
 | SAC | [Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Deep Learning-Based Side-Channel Analysis](https://doi.org/10.1007/978-3-031-82841-6_12) | abstract_and_bibliographic_metadata |
 | SP | [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
 | SP | [BULKOR: Enabling Bulk Loading for Path ORAM](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |

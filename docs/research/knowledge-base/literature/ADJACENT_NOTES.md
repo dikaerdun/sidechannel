@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 439 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 440 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## Power Analysis Attacks: Revealing the Secrets of Smart Cards
 
@@ -827,6 +827,13 @@
 - 判定依据：SatOver 利用信令和伪基站阻断 direct-to-cell 接入，主要是协议可用性与接入劫持；不可与卫星位置元数据侧信道合并。
 - 阅读来源：https://xplorestaging.ieee.org/document/10646850/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications
+
+- 来源：[NDSS 2024](https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/)。
+- 判定依据：后量子 V2V 认证、证书传输调度与混合协议性能；摘要未给侧信道贡献。93% 冗余与 0.39 ms 增量均为文中特定情景，不证明物理抗泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## "That's my perspective from 30 years of doing this": An Interview Study on Practices, Experiences, and Challenges of Updating Cryptographic Code
 

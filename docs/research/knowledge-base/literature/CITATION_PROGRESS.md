@@ -1,7 +1,7 @@
 # 引用与版本追踪进度
 
 已核对 282 条引用条目；版本关系共 71 条，其中 61 条书目核实、10 条为原始来源推定。它们不等于被引论文已全部读完。
-追踪任务共 1080 项：in_progress=69, pending=1011。
+追踪任务共 1090 项：in_progress=69, pending=1021。
 已登记发现中，100 条完成身份与范围判定，120 条仍待核查；已解析记录继续保留历史。
 
 GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan、Peek-a-Walk、EasyCrypt、Episode V 及 S&P 2023 的指定引用继续保留。追加 GLP 期刊、Protecting Dilithium、3D-Shield 合计九条选读；所有选读均不构成完整参考文献筛查。
