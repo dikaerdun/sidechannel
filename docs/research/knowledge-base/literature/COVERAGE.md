@@ -33,20 +33,20 @@
 | NDSS | 2022 | 85 | 待核对 | 0/85 | 0/85 | [记录](provenance/ndss-2022.json) |
 | NDSS | 2023 | 94 | 待核对 | 0/94 | 0/94 | [记录](provenance/ndss-2023.json) |
 | NDSS | 2024 | 140 | [140 条对应；含 140 条无页码记录](provenance/ndss2024-completion-saber-20261114.json) | 140/140 | 140/140 | [记录](provenance/ndss-2024.json) |
-| NDSS | 2025 | 211 | 待核对 | 211/211 | 71/211 | [记录](provenance/ndss-2025.json) |
+| NDSS | 2025 | 211 | [211 条对应；含 211 条无页码记录](provenance/ndss2025-second-toc-20261114.json) | 211/211 | 141/211 | [记录](provenance/ndss-2025.json) |
 | NDSS | 2026 | 265 | 待核对 | 265/265 | 80/265 | [记录](provenance/ndss-2026.json) |
 
 ## 当前已知缺口
 
 - CCS 2025 的 316 条标题及 34 篇选定摘要已读，282 篇摘要仍待复核。官方日程与录用表的 DOI 集合一致，但同源列表不算独立出版目录核对。Co-Prime/GAPDiS 原始摘要仍待取得；BFId、HW-Spy、Swallow 的迁移和指标限制见 [第二轮笔记](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)。Swallow 37 个引用位置保留 15 条待查。mUOV 的模型、机械验证与缩小参数一阶检测范围分别记录；ML-Cube 的缓存缓解仍待正文。mUOV 最初 17 条发现现已解析 16 条，UOV 2018 待完整摘要；floor 11 条身份已解析，十条背景和递归追踪未闭合，见 [掩码与采样接续](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)。
-- S&P 2022、2023、2024、2025、USENIX 2025、2026 与 NDSS 2024 共七个单元已和另取的论文集目录逐项对应；S&P 2026 部分对应（252/254，缺两条），其余 22 个单元待独立核对。同一个 HTML 的两种导出不算独立证据，目录核对也不是独立科学审查。
+- S&P 2022、2023、2024、2025、USENIX 2025、2026 与 NDSS 2024、2025 共八个单元已和另取的论文集目录逐项对应；S&P 2026 部分对应（252/254，缺两条），其余 21 个单元待独立核对。同一个 HTML 的两种导出不算独立证据，目录核对也不是独立科学审查。
 - USENIX 2025 的 438 条标题及 103 篇选定摘要已读，335 篇摘要仍待复核。438 条与印刷目录逐项对应，但主席致辞 407+32=439 的总数差异未解决。DL-BSCA 的单系数 GE、真实 HW 选点与 TEEcorrelate 的模拟/成本估计及公式问题见 [证据笔记](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)；原 38 条引用发现已解析 12 条，其余 26 条及 MORE 新增 19 条继续追踪。
 - USENIX 2026 的 381 个议程节点已分为 362 篇论文和 19 条其他活动；2016 论文的回顾讨论不计作 2026 新论文。362 个标题已读、76 篇有摘要及以上判定，286 篇摘要仍待复核。五条 SDitH 及后续 CiC/HQC 的 23 条发现已解析；继续沿 Falcon/HQC RM/RS 登记 21 条新线索，仍不构成递归闭合。目录一处 L∞/L_infinity 仅为数学记号差异。
 - S&P 2022 全部 147 条标题已读，49 个候选/不确定项有摘要判定，其余 98 条待复核。独立印刷目录 140 条规范化题名相同、7 条改题名；146 个可用出版起始页匹配，MSR Templating 的 Crossref 页码缺失。三处作者尾部字符已按印刷目录更正，其他名字形式及录用/出版差异保留。
 - S&P 2026 的 254 条标题已读、74 篇有摘要及以上判定，180 篇仍待摘要复核。全部取得唯一出版 DOI；八处录用/出版题名变化保留。另取印刷目录只有 252 条，缺 Audience Injection Attacks 与 Enter, Exit, Page Fault, Leak；两者仍见于官方日程和出版元数据，不据缺项推定撤回。252 条中 251 条起始页与 Crossref 不同，分别保留，原因待查。原录用页一个 cycle 小标题写 2025，出版元数据已确认 2026，页面错误仍记录。
 - IEEE S&P 2023 主列表漏列 DVFS Frequently Leaks Secrets；GoFetch 引用与另一官方日程促成补录，独立印刷目录现已确认全部 196 条。194 条规范化题名相同、2 条改题名；三个 N/A、两组重复 DOI 和五条作者字段差异保留待查。该年标题候选/不确定项共 48 条均有摘要判定，其余 148 条仍待摘要复核。
 - NDSS 2026 已读 265 条标题与 80 篇官方摘要，新增 34 张通用卡片及 46 条相邻判定；185 篇摘要及独立目录对应仍待处理。PortRush 软件仿真、SNPeek 隐蔽通道、RSA 序列指标和 XR 字典 top-25 分开记录，见 [本批证据](notes/ndss2026-resource-observation-and-scope-20261114.md)。43 个参考位置初筛不代表递归闭合。
-- NDSS 2025 已读 211 条标题与 71 篇官方摘要，新增 27 张通用卡片及 44 条相邻判定，140 篇摘要与独立目录对应仍待处理。静态功耗防护、Android 部分字节排名、NISQ 实测/理想分类及 PQConnect 实现限制分开记录，见 [本批证据](notes/ndss2025-static-power-quantum-and-scope-20261114.md)。十二条引用选读新增七条关系、五条待查，不代表完整书目。
+- NDSS 2025 已读 211 条标题与 141 篇完整官方摘要，累计 28 张通用卡片及 113 条相邻判定，另 70 篇摘要未读。独立印刷目录的 213 个位置对应 211 个不同论文，两个重复位置和三处斜体题名已核查；日程另含两条非论文活动。MineShark 的流量推断与主动确认分开，见 [第二轮证据](notes/ndss2025-second-abstracts-toc-and-traffic-evidence-20261114.md)。静态功耗防护、Android 部分字节排名、NISQ 实测/理想分类及 PQConnect 实现限制分开记录，见 [本批证据](notes/ndss2025-static-power-quantum-and-scope-20261114.md)。十二条引用选读新增七条关系、五条待查，不代表完整书目。
 - NDSS 2024 的 140 条标题与全部 140 篇完整官方摘要已读：20 条通用纳入、120 条相邻；新增 MASTERKEY 的计时部分，保留 VETEOS 显式状态访问的区别。独立印刷目录 140 条对应，138 条规范化题名相同、两条差异；不代表全文与引用闭合，见 [摘要补齐与基础引用](notes/ndss2024-complete-abstracts-and-saber-foundations-20261114.md)。此前八篇正文选读区分感测距离与回传距离、语义生成与物理恢复、故障转储与被动侧信道，见 [本批证据](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)。另补两篇 PQC 掩码论文；SABER 缩小参数测试、Kyber 双平台及逐函数 TVLA 的范围不能省略。EM Eye 42 条与 Kyber 25 条书目初筛仍未递归闭合。
 - CCS 2026 为截至截点的官方录用目录；会议尚未举行，不能统一标为已正式发表。
 - Crossref 的 ISBN 查询只返回 CCS 论文集容器，不能用于证明其中没有论文；已改用官方网站目录。

@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 574 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 575 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
 
@@ -3969,6 +3969,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
 - [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
 - 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## MineShark: Cryptomining Traffic Detection at Scale
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/mineshark-cryptomining-traffic-detection-at-scale/)；时间标记：within frozen 2021-11-12 to 2026-11-12 publication window (NDSS 2025)。
+- 作者：Shaoke Xi (Zhejiang University), Tianyi Fu (Zhejiang University), Kai Bu (Zhejiang University), Chunling Yang (Zhejiang University), Zhihua Chang (Zhejiang University), Wenzhi Chen (Zhejiang University), Zhou Ma (Zhejiang University), Chongjie Chen (HANG ZHOU CITY BRAIN CO., LTD), Yongsheng Shen (HANG ZHOU CITY BRAIN CO., LTD), Kui Ren (Zhejiang University)
+- 对象：encrypted traffic, traffic fingerprinting, cryptomining, timing；类型：evaluation。
+- 核心想法：MineShark 将挖矿消息的大小、时序与顺序映射到网络流量特征，以识别含加密在内的活动类型。
+- 作者报告：作者在十个月校园网部署中报告发现 105 个矿池；第 13 页另报告 43 个加密挖矿地址在发现日被排入监测列表前 4%，再通过主动探测确认。
+- 限制与下一步：推断阶段使用非载荷特征，但整个系统包含载荷检查、地址关联和主动探测；不能把最终告警准确性归于纯被动侧信道。105 个矿池与 43 个地址不是同一统计单位。真实部署与合并回放压力测试不同，离线 FPR 不能直接代表线上告警；所选正文未核实所有防对抗与迁移条件。这是活动分类，不是 PQC 密钥恢复。
+- 阅读层级：selected_full_text_sections；来源：https://www.ndss-symposium.org/ndss-paper/mineshark-cryptomining-traffic-detection-at-scale/。
+- 已读章节：Complete official abstract and page metadata; PDF pp.1,3,5,9,13; selected references 14,16,23,24 on p.15, p.16 consulted; p.9 rendered. No complete bibliography/proof audit
+- [详细阅读记录](notes/ndss2025-second-abstracts-toc-and-traffic-evidence-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：four selected backward references inventoried; remaining 49, recursive and forward coverage pending。
 
 ## Non-intrusive and Unconstrained Keystroke Inference in VR Platforms via Infrared Side Channel
 

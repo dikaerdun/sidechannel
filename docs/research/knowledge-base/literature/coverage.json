@@ -12,21 +12,21 @@
   "core_catalog_records": 6628,
   "citation_expansion_records": 162,
   "title_screened_records": 3444,
-  "abstract_screened_records": 1133,
-  "included_papers": 574,
+  "abstract_screened_records": 1203,
+  "included_papers": 575,
   "reading_level_counts": {
     "abstract_and_bibliographic_metadata": 488,
-    "selected_full_text_sections": 86
+    "selected_full_text_sections": 87
   },
   "citation_progress": {
-    "verified_citation_edges": 325,
+    "verified_citation_edges": 326,
     "verified_version_edges": 68,
     "inferred_version_edges": 12,
     "task_status_counts": {
-      "pending": 1076,
-      "in_progress": 72
+      "pending": 1077,
+      "in_progress": 73
     },
-    "unresolved_discoveries": 133,
+    "unresolved_discoveries": 136,
     "resolved_discoveries": 112
   },
   "core_cells": [
@@ -408,12 +408,13 @@
       "catalog_records": 211,
       "catalog_parsed": true,
       "provenance_file": "provenance/ndss-2025.json",
-      "independent_toc_crosscheck": "pending",
-      "screened_records": 71,
+      "independent_toc_crosscheck": "matched_print_toc",
+      "screened_records": 141,
       "title_screened_records": 211,
-      "abstract_screened_records": 71,
+      "abstract_screened_records": 141,
       "citation_chasing": "pending",
-      "complete": false
+      "complete": false,
+      "toc_crosscheck_provenance": "provenance/ndss2025-second-toc-20261114.json"
     },
     {
       "venue": "NDSS",

@@ -137,7 +137,7 @@
 | 2025 IACR ePrint | [FAEST for Memory-Constrained Devices](https://eprint.iacr.org/2025/1261) | include |
 | 2025 ICCD | [Masked Gadgets for Integer-Floating-Point Conversion with Applications to Falcon](https://doi.org/10.1109/iccd65941.2025.00078) | pending |
 | 2025 Journal of Cryptographic Engineering | [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) | include |
-| 2025 NDSS | [L-HAWK: A Controllable Physical Adversarial Patch Against a Long-Distance Target](https://www.ndss-symposium.org/ndss-paper/l-hawk-a-controllable-physical-adversarial-patch-against-a-long-distance-target/) | pending |
+| 2025 NDSS | [L-HAWK: A Controllable Physical Adversarial Patch Against a Long-Distance Target](https://www.ndss-symposium.org/ndss-paper/l-hawk-a-controllable-physical-adversarial-patch-against-a-long-distance-target/) | adjacent |
 | 2025 NDSS | [PQConnect: Automated Post-Quantum End-to-End Tunnels](https://www.ndss-symposium.org/ndss-paper/pqconnect-automated-post-quantum-end-to-end-tunnels/) | adjacent |
 | 2025 NDSS | [SHAFT: Secure, Handy, Accurate and Fast Transformer Inference](https://www.ndss-symposium.org/ndss-paper/shaft-secure-handy-accurate-and-fast-transformer-inference/) | adjacent |
 | 2025 PQCrypto | [Et tu, Brute? Side-Channel Assisted Chosen Ciphertext Attacks Using Valid Ciphertexts on HQC KEM](https://doi.org/10.1007/978-3-031-86602-9_11) | include |

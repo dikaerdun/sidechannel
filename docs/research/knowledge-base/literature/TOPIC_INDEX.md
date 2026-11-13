@@ -876,6 +876,10 @@
 
 - 2025 CCS · [An Empirical Study Measuring In-The-Wild Cryptographic Microarchitectural Side-Channel Patches](https://doi.org/10.1145/3719027.3744881) · evaluation · abstract_and_bibliographic_metadata
 
+## cryptomining
+
+- 2025 NDSS · [MineShark: Cryptomining Traffic Detection at Scale](https://www.ndss-symposium.org/ndss-paper/mineshark-cryptomining-traffic-detection-at-scale/) · evaluation · selected_full_text_sections
+
 ## CSI
 
 - 2025 CCS · [BFId: Identity Inference Attacks Utilizing Beamforming Feedback Information](https://doi.org/10.1145/3719027.3765062) · physical privacy attack · selected_full_text_sections
@@ -1355,6 +1359,7 @@
 
 - 2022 SP · [DeepCoFFEA: Improved Flow Correlation Attacks on Tor via Metric Learning and Amplification](https://doi.org/10.1109/sp46214.2022.9833801) · traffic_metadata_side_channel · abstract_and_bibliographic_metadata
 - 2024 NDSS · [Low-Quality Training Data Only? A Robust Framework for Detecting Encrypted Malicious Network Traffic](https://www.ndss-symposium.org/ndss-paper/low-quality-training-data-only-a-robust-framework-for-detecting-encrypted-malicious-network-traffic/) · methodology · abstract_and_bibliographic_metadata
+- 2025 NDSS · [MineShark: Cryptomining Traffic Detection at Scale](https://www.ndss-symposium.org/ndss-paper/mineshark-cryptomining-traffic-detection-at-scale/) · evaluation · selected_full_text_sections
 - 2026 USENIX · [From Length to Content: Token-Length Side-Channel Attacks on LLM API Merged Outputs](https://www.usenix.org/conference/usenixsecurity26/presentation/li-sijia) · traffic_side_channel · abstract_and_bibliographic_metadata
 
 ## ensembles
@@ -4244,6 +4249,7 @@
 - 2025 arXiv · [A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography](https://arxiv.org/abs/2512.22301) · synthetic_risk_model · abstract_and_bibliographic_metadata
 - 2025 NDSS · [GadgetMeter: Quantitatively and Accurately Gauging the Exploitability of Speculative Gadgets](https://www.ndss-symposium.org/ndss-paper/gadgetmeter-quantitatively-and-accurately-gauging-the-exploitability-of-speculative-gadgets/) · automated analysis · abstract_and_bibliographic_metadata
 - 2025 NDSS · [KernelSnitch: Side Channel-Attacks on Kernel Data Structures](https://www.ndss-symposium.org/ndss-paper/kernelsnitch-side-channel-attacks-on-kernel-data-structures/) · attack · abstract_and_bibliographic_metadata
+- 2025 NDSS · [MineShark: Cryptomining Traffic Detection at Scale](https://www.ndss-symposium.org/ndss-paper/mineshark-cryptomining-traffic-detection-at-scale/) · evaluation · selected_full_text_sections
 - 2025 NDSS · [Secret Spilling Drive: Leaking User Behavior through SSD Contention](https://www.ndss-symposium.org/ndss-paper/secret-spilling-drive-leaking-user-behavior-through-ssd-contention/) · attack · abstract_and_bibliographic_metadata
 - 2025 CCS · [Timing Attacks on Differential Privacy are Practical](https://doi.org/10.1145/3719027.3765146) · evaluation · abstract_and_bibliographic_metadata
 - 2026 NDSS · [Continuous User Behavior Monitoring using DNS Cache Timing Attacks](https://www.ndss-symposium.org/ndss-paper/continuous-user-behavior-monitoring-using-dns-cache-timing-attacks/) · attack · abstract_and_bibliographic_metadata
@@ -4330,6 +4336,7 @@
 - 2024 NDSS · [CP-IoT: A Cross-Platform Monitoring System for Smart Home](https://www.ndss-symposium.org/ndss-paper/cp-iot-a-cross-platform-monitoring-system-for-smart-home/) · measurement and defense · abstract_and_bibliographic_metadata
 - 2024 NDSS · [On Precisely Detecting Censorship Circumvention in Real-World Networks](https://www.ndss-symposium.org/ndss-paper/on-precisely-detecting-censorship-circumvention-in-real-world-networks/) · attack methodology · abstract_and_bibliographic_metadata
 - 2025 NDSS · [Evaluating Machine Learning-Based IoT Device Identification Models for Security Applications](https://www.ndss-symposium.org/ndss-paper/evaluating-machine-learning-based-iot-device-identification-models-for-security-applications/) · evaluation · abstract_and_bibliographic_metadata
+- 2025 NDSS · [MineShark: Cryptomining Traffic Detection at Scale](https://www.ndss-symposium.org/ndss-paper/mineshark-cryptomining-traffic-detection-at-scale/) · evaluation · selected_full_text_sections
 - 2026 NDSS · [Beyond RTT: An Adversarially Robust Two-Tiered Approach For Residential Proxy Detection](https://www.ndss-symposium.org/ndss-paper/beyond-rtt-an-adversarially-robust-two-tiered-approach-for-residential-proxy-detection/) · evaluation and detection · abstract_and_bibliographic_metadata
 - 2026 NDSS · [WiFinger: Fingerprinting Noisy IoT Event Traffic Using Packet-level Sequence Matching](https://www.ndss-symposium.org/ndss-paper/wifinger-fingerprinting-noisy-iot-event-traffic-using-packet-level-sequence-matching/) · attack · abstract_and_bibliographic_metadata
 

@@ -1146,3 +1146,5 @@
 {"direction": "forward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-319-29360-8_15", "status": "pending"}
 {"direction": "backward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-662-48324-4_34", "status": "pending"}
 {"direction": "forward", "reason": "Complete bibliography, forward citations and version comparison remain open", "seed_id": "doi:10.1007/978-3-662-48324-4_34", "status": "pending"}
+{"direction": "backward", "reason": "Four selected references: one catalog identity linked, three pending; other 49 and recursive coverage open", "seed_id": "url:https://www.ndss-symposium.org/ndss-paper/mineshark-cryptomining-traffic-detection-at-scale/", "status": "in_progress"}
+{"direction": "forward", "reason": "Forward citations and version comparison remain open", "seed_id": "url:https://www.ndss-symposium.org/ndss-paper/mineshark-cryptomining-traffic-detection-at-scale/", "status": "pending"}

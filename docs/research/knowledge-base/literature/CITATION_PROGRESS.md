@@ -1,8 +1,8 @@
 # 引用与版本追踪进度
 
-已核对 325 条引用条目；版本关系共 80 条，其中 68 条书目核实、12 条为原始来源推定。它们不等于被引论文已全部读完。
-追踪任务共 1148 项：in_progress=72, pending=1076。
-已登记发现中，112 条完成身份与范围判定，133 条仍待核查；已解析记录继续保留历史。
+已核对 326 条引用条目；版本关系共 80 条，其中 68 条书目核实、12 条为原始来源推定。它们不等于被引论文已全部读完。
+追踪任务共 1150 项：in_progress=73, pending=1077。
+已登记发现中，112 条完成身份与范围判定，136 条仍待核查；已解析记录继续保留历史。
 
 GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan、Peek-a-Walk、EasyCrypt、Episode V 及 S&P 2023 的指定引用继续保留。追加 GLP 期刊、Protecting Dilithium、3D-Shield 合计九条选读；所有选读均不构成完整参考文献筛查。
 SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 条参考列表已逐条初筛，原 23 条发现现已解析，共 59 条对应、36 条暂列背景。背景条目未经原文最终排除，全部列表也不构成递归引用闭合。
@@ -31,6 +31,7 @@ NDSS 2026 的 PortRush 全部 43 个参考位置初筛：八条对应、十五�
 [PortRush 引用清单](citations/portrush2026-reference-screen.jsonl) · [NDSS 2026 证据与范围](notes/ndss2026-resource-observation-and-scope-20261114.md)
 
 NDSS 2025 的 Borrowed Time 八条与 PQConnect 四条引用选读共核对七条关系、保留五条待查。其余书目未筛；KyberSlash 当前作者页明确关联 TCHES 2025，但实际被引 2024 文件的修订差异未比对。
+MineShark 四条基线引用选读：一条对应到既有 NDSS 2022 目录但摘要未读，三条待查；其余 49 条及递归/前向覆盖未完成。见 [四条选读](citations/mineshark2025-selected-reference-screen.jsonl) 与 [流量证据](notes/ndss2025-second-abstracts-toc-and-traffic-evidence-20261114.md)。
 [Borrowed Time 八条选读](citations/borrowedtime2025-selected-reference-screen.jsonl) · [PQConnect 四条选读](citations/pqconnect2025-selected-reference-screen.jsonl) · [NDSS 2025 证据与范围](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
 
 NDSS 2024 的 EM Eye 全部 42 条参考初筛：3 条对应、13 条待查、26 条暂列背景。Faults in Our Bus 另选五条：3 条对应、2 条背景；由此补入 SABER JETC 与一阶掩码 Kyber 两张 PQC 卡片。
@@ -276,6 +277,7 @@ NDSS 2024 的 EM Eye 全部 42 条参考初筛：3 条对应、13 条待查、26
 | [Faults in Our Bus: Novel Bus Fault Attack to Break ARM TrustZone](https://www.ndss-symposium.org/ndss-paper/faults-in-our-bus-novel-bus-fault-attack-to-break-arm-trustzone/) | 64 | [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) | selected_full_text_sections |
 | [Faults in Our Bus: Novel Bus Fault Attack to Break ARM TrustZone](https://www.ndss-symposium.org/ndss-paper/faults-in-our-bus-novel-bus-fault-attack-to-break-arm-trustzone/) | 65 | [First-Order Masked Kyber on ARM Cortex-M4](https://eprint.iacr.org/2022/058) | selected_full_text_sections |
 | [Faults in Our Bus: Novel Bus Fault Attack to Break ARM TrustZone](https://www.ndss-symposium.org/ndss-paper/faults-in-our-bus-novel-bus-fault-attack-to-break-arm-trustzone/) | 66 | [Fault Attacks on CCA-secure Lattice KEMs](https://doi.org/10.46586/tches.v2021.i2.37-60) | abstract read; adjacent (see ADJACENT_NOTES) |
+| [MineShark: Cryptomining Traffic Detection at Scale](https://www.ndss-symposium.org/ndss-paper/mineshark-cryptomining-traffic-detection-at-scale/) | 24 | [A Lightweight IoT Cryptojacking Detection Mechanism in Heterogeneous Smart Home Networks](https://www.ndss-symposium.org/ndss-paper/auto-draft-196/) | catalog only; abstract pending |
 | [On Borrowed Time – Preventing Static Side-Channel Analysis](https://www.ndss-symposium.org/ndss-paper/on-borrowed-time-preventing-static-side-channel-analysis/) | 19 | [Prime-Field Masking in Hardware and its Soundness against Low-Noise SCA Attacks](https://doi.org/10.46586/tches.v2023.i2.482-518) | catalog only; abstract pending |
 | [On Borrowed Time – Preventing Static Side-Channel Analysis](https://www.ndss-symposium.org/ndss-paper/on-borrowed-time-preventing-static-side-channel-analysis/) | 39 | [Differential Power Analysis](https://doi.org/10.1007/3-540-48405-1_25) | abstract_and_bibliographic_metadata |
 | [On Borrowed Time – Preventing Static Side-Channel Analysis](https://www.ndss-symposium.org/ndss-paper/on-borrowed-time-preventing-static-side-channel-analysis/) | 41 | [Real-World Snapshots vs. Theory: Questioning the t-Probing Security Model.](https://www.ieee-security.org/TC/SP2021/program-papers.html) | catalog only; abstract pending |
