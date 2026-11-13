@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 130 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 139 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Share-slicing: Friend or Foe?
 
@@ -271,6 +271,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Complete and Improved FPGA Implementation of Classic McEliece
+
+- 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i3.71-113)；时间标记：formal publication within rolling window。
+- 作者：Po-Jen Chen; Tung Chou; Sanjay Deshpande; Norman Lahr; Ruben Niederhagen; Jakub Szefer; Wen Wang
+- 对象：Classic McEliece, FPGA, early-abort systemization；类型：constant_time_implementation。
+- 核心想法：实现第三轮 Classic McEliece 的种子扩展、密钥生成、封装及解封装，并通过提前中止矩阵系统化减少平均开销。
+- 作者报告：作者以失败后重新生成密钥解释提前中止与其恒时要求的相容性；FixedWeight 的恒时描述明确限定成功尝试。
+- 限制与下一步：不能写成整个随机重试调用耗时固定；实际 keygen/decap 范围为 systematic 变体。未审计失败种子状态、泄漏独立性或物理测量；修订版勘误仍待取得核对。
+- 阅读层级：selected_full_text_sections；来源：https://tches.iacr.org/index.php/TCHES/article/download/9695/9226。
+- 已读章节：PDF pp.2–3 (printed pp.72–73): motivation, contributions and systematic-variant scope; PDF p.30 (printed p.100): FixedWeight randomness/retry and successful-attempt constant-time statement
+- [详细阅读记录](notes/tches-implementation-evidence-boundaries-20261113.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## Curse of Re-encryption: A Generic Power/EM Analysis on Post-Quantum KEMs
 
 - 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i1.296-322)；时间标记：formal publication within rolling window。
@@ -348,6 +361,17 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Multi-moduli NTTs for Saber on Cortex-M3 and Cortex-M4
+
+- 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i1.127-151)；时间标记：formal publication within rolling window。
+- 作者：Amin Abdulrahman; Jiun-Peng Chen; Yu-Jia Chen; Vincent Hwang; Matthias J. Kannwischer; Bo-Yin Yang
+- 对象：Saber, NTT, Cortex-M3, Cortex-M4；类型：masked_implementation_optimization。
+- 核心想法：比较多模数 NTT 与 Toom–Cook 在 Saber 掩码及未保护实现中的速度和栈空间。
+- 作者报告：作者报告 Cortex-M4 掩码实现相对所比 Toom–Cook 基线提速 16%，并研究 Cortex-M3/M4 的时间与空间折衷。
+- 限制与下一步：掩码实现的性能优化不等于新的泄漏安全证明；摘要未给出物理泄漏验证，保护阶数、随机性及基线版本待正文核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## Post-Quantum Authenticated Encryption against Chosen-Ciphertext Side-Channel Attacks
 
 - 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i4.372-396)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
@@ -357,6 +381,17 @@
 - 作者报告：作者在 outsider-security 模型下评估实例化、通信和签名验证故障防护开销。
 - 限制与下一步：改变了协议和信任/认证条件；不能作为原 FO KEM 的无代价直接替换或同模型速度比较。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Racing BIKE: Improved Polynomial Multiplication and Inversion in Hardware
+
+- 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i1.557-588)；时间标记：formal publication within rolling window。
+- 作者：Jan Richter-Brockmann; Ming-Shing Chen; Santosh Ghosh; Tim Güneysu
+- 对象：BIKE, sparse polynomial multiplication, FPGA；类型：constant_time_implementation。
+- 核心想法：优化 BIKE 的稀疏多项式乘法和求逆，并将各 KEM 操作映射到共享硬件。
+- 作者报告：摘要明确声称封装所用稀疏乘法器在非固定汉明重量下保持时间恒定；求逆采用扩展欧几里得算法。
+- 限制与下一步：恒时声明的直接对象是所述稀疏乘法器，不能转移给求逆、整套 KEM 或功耗/电磁安全；不同性能配置需分别核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 代码/数据核查：not checked；引用追踪：pending。
 
 ## SIKE Channels: Zero-Value Side-Channel Attacks on SIKE
@@ -703,6 +738,17 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## HAETAE: Shorter Lattice-Based Fiat-Shamir Signatures
+
+- 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i3.25-75)；时间标记：formal publication within rolling window。
+- 作者：Jung Hee Cheon; Hyeongmin Choe; Julien Devevey; Tim Güneysu; Dongyeon Hong; Markus Krausz; Georg Land; Marc Möller; Damien Stehlé; MinJune Yi
+- 对象：HAETAE, Fiat-Shamir with Aborts, Cortex-M4, AVX2；类型：countermeasure_and_scheme_design。
+- 核心想法：以超球与双峰拒绝采样设计较紧凑的 HAETAE 签名，同时讨论实现攻击防护。
+- 作者报告：摘要报告恒时便携参考实现、AVX2 优化及 Cortex-M4 低栈实现，并声称给出高效侧信道保护方法。
+- 限制与下一步：本次仅读摘要；具体防护组件、阶数、假设及实测覆盖待正文核对。不能把参考实现的恒时描述或方案紧凑性当作全部优化版本的功耗安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## High-assurance zeroization
 
 - 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i1.375-397)；时间标记：formal publication within rolling window。
@@ -756,6 +802,17 @@
 - 作者报告：作者给出探针模型下非干扰论证、Cortex-M4 性能及选定 TVLA 评估。
 - 限制与下一步：不同阶数的实现与泄漏测试需分别记录；有限 TVLA 未检出不证明所有攻击安全。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## MiRitH: Efficient Post-Quantum Signatures from MinRank in the Head
+
+- 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i2.304-328)；时间标记：formal publication within rolling window。
+- 作者：Gora Adj; Stefano Barbero; Emanuele Bellini; Andre Esser; Luis Rivera-Zamarripa; Carlo Sanna; Javier Verbel; Floyd Zweydinger
+- 对象：MiRitH, MinRank, MPC-in-the-head, AVX2, ARM NEON；类型：constant_time_implementation。
+- 核心想法：提出基于 MinRank 的 MiRitH，并给出适用于 Intel AVX2 与 ARM NEON 的优化恒时实现。
+- 作者报告：作者同时研究方案参数、量子搜索成本和有限域实现；摘要将两种向量平台实现描述为恒时。
+- 限制与下一步：量子安全分析、代码恒时性质与功耗泄漏防护是不同主张；MPC-in-the-head 的多方视图不自动构成物理掩码。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 代码/数据核查：not checked；引用追踪：pending。
 
 ## SPA-GPT: General Pulse Tailor for Simple Power Analysis Based on Reinforcement Learning
@@ -988,6 +1045,17 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## HADES: Automated Hardware Design Exploration for Cryptographic Primitives
+
+- 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i4.1-45)；时间标记：formal publication within rolling window。
+- 作者：Fabian Buschkowski; Georg Land; Niklas Höher; Jan Richter-Brockmann; Pascal Sasdrich; Tim Güneysu
+- 对象：HADES, Kyber, ChaCha20, hardware masking；类型：countermeasure_design_tool。
+- 核心想法：将安全要求纳入密码硬件设计空间探索，结合性能预测选择可综合 HDL 实现。
+- 作者报告：作者展示对称算法及 PQC 案例，并声明为 ChaCha20 与 Kyber 提供支持任意阶掩码的硬件实现。
+- 限制与下一步：支持任意阶不等于每阶和每种综合布局均经过实测；性能预测、模型内安全与芯片测量要分开核查。仅读摘要，未运行工具。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## HRaccoon: A High-performance Configurable SCA Resilient Raccoon Hardware Accelerator
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i3.413-436)；时间标记：formal publication within rolling window。
@@ -1109,6 +1177,17 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Tailorable codes for lattice-based KEMs with applications to compact ML-KEM instantiations
+
+- 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i3.139-163)；时间标记：formal publication within rolling window。
+- 作者：Thales B. Paiva; Marcos A. Simplicio Jr; Syed Mahbub Hafiz; Bahattin Yildiz; Eduardo L. Cominetti; Henrique S. Ogawa
+- 对象：ML-KEM, error-correction codes, isochronous decoding；类型：constant_time_implementation。
+- 核心想法：用可定制纠错码改善格 KEM 公钥或密文压缩，并为新增译码步骤提供等时实现。
+- 作者报告：作者在 AVX2、Cortex-M4 和 Cortex-A53 上评估译码开销，并给出不依赖噪声系数独立假设的失败率分析。
+- 限制与下一步：修改后的压缩参数/编码并非未经变化的标准 ML-KEM；失败率保证与等时译码不等于整套方案的物理泄漏安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## dCTIDH: Fast & Deterministic CTIDH
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i3.516-541)；时间标记：formal publication within frozen 2021-11-12 to 2026-11-12 window。
@@ -1162,6 +1241,17 @@
 - 作者报告：作者以 PrimeTime PX 产生的迹线训练，在五种目标上比较波形和侧信道评估。
 - 限制与下一步：参照是 EDA 功耗模拟，不是实测硅片真值；推理加速与含训练的总成本分开。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Adapting AES-Oriented Optimizations to Rijndael-256: Cortex-M4, ARMv8-A, and CUDA
+
+- 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i4.575-596)；时间标记：formal publication within rolling window。
+- 作者：Siwoo Eum; Minho Song; Minjoo Sim; Anupam Chattopadhyay; Hwajeong Seo
+- 对象：Rijndael-256, Cortex-M4, ARMv8-A, CUDA, PQC signatures；类型：constant_time_implementation。
+- 核心想法：将 AES 优化适配到 Rijndael-256 的较宽状态，并研究其作为 PQC 签名组件时的性能。
+- 作者报告：摘要明确限定 Cortex-M4 位切片版本具有秘密无关的控制流和访存；AArch64 重用 AESE，CUDA 使用共享内存 T 表。
+- 限制与下一步：不能把 Cortex-M4 的性质推广到另两种实现；PQC 集成性能来自 Apple M2，不能据此宣称这些签名均获恒时或功耗保护。具体四个签名对象待正文核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 代码/数据核查：not checked；引用追踪：pending。
 
 ## Compressed Key Exchange Protocol from Orientations of Large Discriminant Using AVX-512
@@ -1415,6 +1505,19 @@
 - 作者报告：作者比较恒时替代方案与 Tempo 编译器，给出 UC 模拟及 Oracle-MLWE 假设关系。
 - 限制与下一步：协议级假设、所公开种子和密码口令保护须联合核对；不是对所有 ML-KEM 调用的漏洞声明。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Verified non-recursive calculation of Beneš networks applied to Classic McEliece
+
+- 来源：[TCHES 2026](https://doi.org/10.46586/tches.v2026.i3.306-333)；时间标记：formal publication within rolling window。
+- 作者：Wrenna Robson; Samuel Kelly
+- 对象：Classic McEliece, Beneš networks, constant-time permutation, Lean, AVX2；类型：constant_time_implementation_and_verification。
+- 核心想法：构造非递归 Beneš 网络控制位算法，针对秘密置换避免依赖秘密的分支与访存。
+- 作者报告：正文说明便携 C 与 AVX2 实现遵循恒时规则，并使用 cryptoint、DOIT 指令及 Valgrind 检查；另给出 Lean 数学证明。
+- 限制与下一步：Lean 原型不以恒时为目标，FastCycleMin/oSort 存在作者明确的形式验证缺口；Valgrind 只用于其列出的分支和访存检查，不能当作端到端证明或物理泄漏评估。
+- 阅读层级：selected_full_text_sections；来源：https://tches.iacr.org/index.php/TCHES/article/download/13094/12645。
+- 已读章节：PDF p.1 (printed p.306): abstract and problem statement; PDF p.17 (printed p.322), sections 4.4 and 5: Lean verification gap and constant-time implementation checks
+- [详细阅读记录](notes/tches-implementation-evidence-boundaries-20261113.md)
 - 代码/数据核查：not checked；引用追踪：pending。
 
 ## When Masking Multiplication Isn’t Enough: Exploiting Floating-Point Leakage in Falcon’s Pre-Image Computation

@@ -258,3 +258,21 @@
 {"direction": "forward", "reason": "citation closure remains open", "seed_id": "title:sp:2025:881e81171539796f", "status": "pending"}
 {"direction": "backward", "reason": "citation closure remains open", "seed_id": "title:sp:2025:9117f521e22ad81a", "status": "pending"}
 {"direction": "forward", "reason": "citation closure remains open", "seed_id": "title:sp:2025:9117f521e22ad81a", "status": "pending"}
+{"direction": "backward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2022.i1.127-151", "status": "pending"}
+{"direction": "forward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2022.i1.127-151", "status": "pending"}
+{"direction": "backward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2022.i1.557-588", "status": "pending"}
+{"direction": "forward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2022.i1.557-588", "status": "pending"}
+{"direction": "backward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2022.i3.71-113", "status": "pending"}
+{"direction": "forward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2022.i3.71-113", "status": "pending"}
+{"direction": "backward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2024.i2.304-328", "status": "pending"}
+{"direction": "forward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2024.i2.304-328", "status": "pending"}
+{"direction": "backward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2024.i3.25-75", "status": "pending"}
+{"direction": "forward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2024.i3.25-75", "status": "pending"}
+{"direction": "backward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2025.i3.139-163", "status": "pending"}
+{"direction": "forward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2025.i3.139-163", "status": "pending"}
+{"direction": "backward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2025.i4.1-45", "status": "pending"}
+{"direction": "forward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2025.i4.1-45", "status": "pending"}
+{"direction": "backward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2026.i3.306-333", "status": "pending"}
+{"direction": "forward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2026.i3.306-333", "status": "pending"}
+{"direction": "backward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2026.i4.575-596", "status": "pending"}
+{"direction": "forward", "reason": "read actual references/citing works; metadata absence is not evidence of no citations", "seed_id": "doi:10.46586/tches.v2026.i4.575-596", "status": "pending"}

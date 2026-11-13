@@ -5,12 +5,12 @@
 
 | 会议/卷 | 年份 | 已提取记录 | 交叉核对 | 标题初筛 | 摘要及以上判定 | 来源与数量证据 |
 |---|---:|---:|---|---|---|---|
-| TCHES | 2021 | 78 | 待核对 | 78/78 | 15/78 | [记录](provenance/tches.json) |
-| TCHES | 2022 | 83 | 待核对 | 83/83 | 19/83 | [记录](provenance/tches.json) |
-| TCHES | 2023 | 78 | 待核对 | 78/78 | 21/78 | [记录](provenance/tches.json) |
-| TCHES | 2024 | 101 | 待核对 | 101/101 | 17/101 | [记录](provenance/tches.json) |
-| TCHES | 2025 | 111 | 待核对 | 111/111 | 20/111 | [记录](provenance/tches.json) |
-| TCHES | 2026 | 148 | 待核对 | 148/148 | 39/148 | [记录](provenance/tches.json) |
+| TCHES | 2021 | 78 | 待核对 | 78/78 | 19/78 | [记录](provenance/tches.json) |
+| TCHES | 2022 | 83 | 待核对 | 83/83 | 29/83 | [记录](provenance/tches.json) |
+| TCHES | 2023 | 78 | 待核对 | 78/78 | 25/78 | [记录](provenance/tches.json) |
+| TCHES | 2024 | 101 | 待核对 | 101/101 | 32/101 | [记录](provenance/tches.json) |
+| TCHES | 2025 | 111 | 待核对 | 111/111 | 39/111 | [记录](provenance/tches.json) |
+| TCHES | 2026 | 148 | 待核对 | 148/148 | 73/148 | [记录](provenance/tches.json) |
 | SP | 2021 | 115 | 待核对 | 0/115 | 0/115 | [记录](provenance/sp-2021.json) |
 | SP | 2022 | 147 | 待核对 | 0/147 | 0/147 | [记录](provenance/sp-2022.json) |
 | SP | 2023 | 196 | 待核对 | 0/196 | 1/196 | [记录](provenance/sp-2023.json) |

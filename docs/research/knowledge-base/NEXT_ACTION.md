@@ -4,11 +4,13 @@
 
 ## 2026-11-13 文献库建设接续
 
-[统一文献入口](literature/README.md)当前包含 30 个核心会议年单元和 18 条引用扩展/基础记录；854 条标题已初筛，165 条摘要及以上判定，纳入 130 篇。已核对 48 条引用、10 条版本关系（9 条核实、1 条推定），13 条已登记发现完成身份与范围解析。S&P 2025 的 255 条录用记录已与独立取得的 IEEE 印刷目录双向对应，含一处改题名和一条页码 N/A 的记录。详见[本批记录](records/2026-11-13-literature-power-sp2025-followup.md)。
+[统一文献入口](literature/README.md)当前包含 30 个核心会议年单元和 18 条引用扩展/基础记录；854 条标题已初筛，251 条摘要及以上判定，纳入 139 篇。已核对 48 条引用、10 条版本关系（9 条核实、1 条推定），13 条已登记发现完成身份与范围解析。S&P 2025 的 255 条录用记录已与独立取得的 IEEE 印刷目录双向对应，含一处改题名和一条页码 N/A 的记录。
 
-下一步继续 S&P 2025 剩余候选/不确定项及 TCHES 剩余 86 条冻结 PQC 候选摘要，并推进其他目录逐题筛查。S&P 2025 仍有 244 条无摘要判定，其余 29 个核心单元待独立目录核对；扩展会议系统目录和全文专题也未完成。GoFetch 尚有 58 条基础引用待处理，Scheduled Disclosure 另有 16 条。补查 N/A 记录的最终出版状态，以及 Finger in the Power 链接仓库返回 404 的原因；Peek-a-Walk 的端到端材料完整性仍待实查。
+最新批次已读完剩余 86 条冻结 TCHES 候选摘要，新增 9 篇纳入卡片和 77 条相邻判定；原 168 条补读队列现在都有判定。四篇另查指定正文位置，区分掩码优化、恒时实现、功能证明和性能背景，详见[批次记录](records/2026-11-13-literature-tches-remaining.md)及[实现证据专题](literature/notes/tches-implementation-evidence-boundaries-20261113.md)。相邻判定仍受阅读深度限制，不能当作全文排除。
 
-新阅读明确了 Peek-a-Walk 的参考 Dilithium-2 案例、Share-slicing 的位交互假设与重复成本，以及软件功耗读取/调度权限条件，见[专题记录](literature/notes/power-observation-and-pqc-boundaries-20261113.md)。接续时先读[覆盖与缺口](literature/COVERAGE.md)，不能把目录对应、已登记发现清零或脚本通过视为普查完成。
+下一步继续 S&P 2025 剩余候选/不确定项、TCHES 非关键词候选及其他目录逐题筛查，优先补读 HADES、HAETAE 防护章节和 McEliece FPGA 勘误。S&P 2025 仍有 244 条无摘要判定，其余 29 个核心单元待独立目录核对；扩展会议系统目录和全文专题也未完成。GoFetch 尚有 58 条基础引用待处理，Scheduled Disclosure 另有 16 条；278 项前后向任务中有 28 项进行中、250 项待处理，没有任务完成全部追踪。
+
+继续查 S&P 的 N/A 记录最终出版状态、Finger in the Power 链接仓库返回 404 的原因，以及 Peek-a-Walk 端到端材料完整性。此前的[功耗权限与 PQC 恢复范围](literature/notes/power-observation-and-pqc-boundaries-20261113.md)继续有效。接续时先读[覆盖与缺口](literature/COVERAGE.md)，不能把冻结队列补读完、目录对应或脚本通过视为普查完成。
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 

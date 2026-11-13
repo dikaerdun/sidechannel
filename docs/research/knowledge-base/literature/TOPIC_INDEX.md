@@ -39,9 +39,17 @@
 
 - 2025 SP · [TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15) · attack · abstract_and_bibliographic_metadata
 
+## ARM NEON
+
+- 2024 TCHES · [MiRitH: Efficient Post-Quantum Signatures from MinRank in the Head](https://doi.org/10.46586/tches.v2024.i2.304-328) · constant_time_implementation · abstract_and_bibliographic_metadata
+
 ## ARM pointer authentication
 
 - 2022 ISCA · [PACMAN: attacking ARM pointer authentication with speculative execution](https://doi.org/10.1145/3470496.3527429) · attack · abstract_and_bibliographic_metadata
+
+## ARMv8-A
+
+- 2026 TCHES · [Adapting AES-Oriented Optimizations to Rijndael-256: Cortex-M4, ARMv8-A, and CUDA](https://doi.org/10.46586/tches.v2026.i4.575-596) · constant_time_implementation · abstract_and_bibliographic_metadata
 
 ## Ascon
 
@@ -57,10 +65,20 @@
 - 2026 TCHES · [Compressed Key Exchange Protocol from Orientations of Large Discriminant Using AVX-512](https://doi.org/10.46586/tches.v2026.i3.679-718) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Efficient and Parallel Implementation of Isogeny-based Deterministic Group Actions](https://doi.org/10.46586/tches.v2026.i3.541-565) · constant_time_implementation · abstract_and_bibliographic_metadata
 
+## AVX2
+
+- 2024 TCHES · [HAETAE: Shorter Lattice-Based Fiat-Shamir Signatures](https://doi.org/10.46586/tches.v2024.i3.25-75) · countermeasure_and_scheme_design · abstract_and_bibliographic_metadata
+- 2024 TCHES · [MiRitH: Efficient Post-Quantum Signatures from MinRank in the Head](https://doi.org/10.46586/tches.v2024.i2.304-328) · constant_time_implementation · abstract_and_bibliographic_metadata
+- 2026 TCHES · [Verified non-recursive calculation of Beneš networks applied to Classic McEliece](https://doi.org/10.46586/tches.v2026.i3.306-333) · constant_time_implementation_and_verification · selected_full_text_sections
+
 ## belief propagation
 
 - 2023 TCHES · [Belief Propagation Meets Lattice Reduction: Security Estimates for Error-Tolerant Key Recovery from Decryption Errors](https://doi.org/10.46586/tches.v2023.i4.287-317) · method · abstract_and_bibliographic_metadata
 - 2024 TCHES · [Exploiting Small-Norm Polynomial Multiplication with Physical Attacks: Application to CRYSTALS-Dilithium](https://doi.org/10.46586/tches.v2024.i2.359-383) · attack · abstract_and_bibliographic_metadata
+
+## Beneš networks
+
+- 2026 TCHES · [Verified non-recursive calculation of Beneš networks applied to Classic McEliece](https://doi.org/10.46586/tches.v2026.i3.306-333) · constant_time_implementation_and_verification · selected_full_text_sections
 
 ## BIKE
 
@@ -68,6 +86,7 @@
 - 2022 TCHES · [Curse of Re-encryption: A Generic Power/EM Analysis on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2022.i1.296-322) · attack · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Don’t Reject This: Key-Recovery Timing Attacks Due to Rejection-Sampling in HQC and BIKE](https://doi.org/10.46586/tches.v2022.i3.223-263) · attack · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Faster Constant-Time Decoder for MDPC Codes and Applications to BIKE KEM](https://doi.org/10.46586/tches.v2022.i4.110-134) · constant_time_implementation · abstract_and_bibliographic_metadata
+- 2022 TCHES · [Racing BIKE: Improved Polynomial Multiplication and Inversion in Hardware](https://doi.org/10.46586/tches.v2022.i1.557-588) · constant_time_implementation · abstract_and_bibliographic_metadata
 
 ## bit interaction
 
@@ -119,6 +138,10 @@
 - 2026 TCHES · [Efficient High-Order Masking of FrodoKEM’s CDT-Based Gaussian Sampler](https://doi.org/10.46586/tches.v2026.i2.868-892) · countermeasure · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Slicing Bits and Cutting Costs in CDT Sampling: High-Order Masking of FrodoKEM’s Gaussian Sampler, Revisited](https://doi.org/10.46586/tches.v2026.i4.549-574) · countermeasure · abstract_and_bibliographic_metadata
 
+## ChaCha20
+
+- 2025 TCHES · [HADES: Automated Hardware Design Exploration for Cryptographic Primitives](https://doi.org/10.46586/tches.v2025.i4.1-45) · countermeasure_design_tool · abstract_and_bibliographic_metadata
+
 ## chosen ciphertext
 
 - 2024 TCHES · [Defeating Low-Cost Countermeasures against Side-Channel Attacks in Lattice-based Encryption: A Case Study on Crystals-Kyber](https://doi.org/10.46586/tches.v2024.i2.795-818) · attack · abstract_and_bibliographic_metadata
@@ -135,18 +158,25 @@
 
 - 2021 TCHES · [Classic McEliece on the ARM Cortex-M4](https://doi.org/10.46586/tches.v2021.i3.125-148) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2022 TCHES · [A Key-Recovery Side-Channel Attack on Classic McEliece Implementations](https://doi.org/10.46586/tches.v2022.i4.800-827) · attack · abstract_and_bibliographic_metadata
+- 2022 TCHES · [Complete and Improved FPGA Implementation of Classic McEliece](https://doi.org/10.46586/tches.v2022.i3.71-113) · constant_time_implementation · selected_full_text_sections
 - 2023 SP · [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) · attack · abstract_and_bibliographic_metadata
 - 2025 TCHES · [Full Key-Recovery Cubic-Time Template Attack on Classic McEliece Decapsulation](https://doi.org/10.46586/tches.v2025.i1.367-391) · attack · abstract_and_bibliographic_metadata
 - 2025 TCHES · [Leaky McEliece: Secret Key Recovery From Highly Erroneous Side-Channel Information](https://doi.org/10.46586/tches.v2025.i2.94-125) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Key-Recovery Side-Channel Attack on the Berlekamp-Massey Decoding Algorithm in the Classic McEliece KEM](https://doi.org/10.46586/tches.v2026.i4.838-862) · attack · abstract_and_bibliographic_metadata
+- 2026 TCHES · [Verified non-recursive calculation of Beneš networks applied to Classic McEliece](https://doi.org/10.46586/tches.v2026.i3.306-333) · constant_time_implementation_and_verification · selected_full_text_sections
 
 ## conditional VAE
 
 - 2025 TCHES · [Optimal Dimensionality Reduction using Conditional Variational AutoEncoder](https://doi.org/10.46586/tches.v2025.i3.164-211) · method · abstract_and_bibliographic_metadata
 
+## constant-time permutation
+
+- 2026 TCHES · [Verified non-recursive calculation of Beneš networks applied to Classic McEliece](https://doi.org/10.46586/tches.v2026.i3.306-333) · constant_time_implementation_and_verification · selected_full_text_sections
+
 ## Cortex-M3
 
 - 2021 TCHES · [Compact Dilithium Implementations on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2021.i1.1-24) · constant_time_implementation · abstract_and_bibliographic_metadata
+- 2022 TCHES · [Multi-moduli NTTs for Saber on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2022.i1.127-151) · masked_implementation_optimization · abstract_and_bibliographic_metadata
 
 ## Cortex-M4
 
@@ -154,6 +184,9 @@
 - 2021 TCHES · [Compact Dilithium Implementations on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2021.i1.1-24) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2021 TCHES · [Optimizing BIKE for the Intel Haswell and ARM Cortex-M4](https://doi.org/10.46586/tches.v2021.i3.97-124) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2021 TCHES · [Rainbow on Cortex-M4](https://doi.org/10.46586/tches.v2021.i4.650-675) · constant_time_component · abstract_and_bibliographic_metadata
+- 2022 TCHES · [Multi-moduli NTTs for Saber on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2022.i1.127-151) · masked_implementation_optimization · abstract_and_bibliographic_metadata
+- 2024 TCHES · [HAETAE: Shorter Lattice-Based Fiat-Shamir Signatures](https://doi.org/10.46586/tches.v2024.i3.25-75) · countermeasure_and_scheme_design · abstract_and_bibliographic_metadata
+- 2026 TCHES · [Adapting AES-Oriented Optimizations to Rijndael-256: Cortex-M4, ARMv8-A, and CUDA](https://doi.org/10.46586/tches.v2026.i4.575-596) · constant_time_implementation · abstract_and_bibliographic_metadata
 
 ## covert channel
 
@@ -177,6 +210,10 @@
 
 - 2021 TCHES · [CTIDH: faster constant-time CSIDH](https://doi.org/10.46586/tches.v2021.i4.351-387) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2025 TCHES · [dCTIDH: Fast & Deterministic CTIDH](https://doi.org/10.46586/tches.v2025.i3.516-541) · constant_time_implementation · abstract_and_bibliographic_metadata
+
+## CUDA
+
+- 2026 TCHES · [Adapting AES-Oriented Optimizations to Rijndael-256: Cortex-M4, ARMv8-A, and CUDA](https://doi.org/10.46586/tches.v2026.i4.575-596) · constant_time_implementation · abstract_and_bibliographic_metadata
 
 ## data speculation
 
@@ -243,6 +280,10 @@
 
 - 2025 SP · [Training Solo: On the Limitations of Domain Isolation Against Spectre-v2 Attacks](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-194) · attack · abstract_and_bibliographic_metadata
 
+## early-abort systemization
+
+- 2022 TCHES · [Complete and Improved FPGA Implementation of Classic McEliece](https://doi.org/10.46586/tches.v2022.i3.71-113) · constant_time_implementation · selected_full_text_sections
+
 ## ECDAA
 
 - 2024 TCHES · [TPMScan: A wide-scale study of security-relevant properties of TPM 2.0 chips](https://doi.org/10.46586/tches.v2024.i2.714-734) · evaluation · abstract_and_bibliographic_metadata
@@ -256,6 +297,10 @@
 ## ECSCHNORR
 
 - 2024 TCHES · [TPMScan: A wide-scale study of security-relevant properties of TPM 2.0 chips](https://doi.org/10.46586/tches.v2024.i2.714-734) · evaluation · abstract_and_bibliographic_metadata
+
+## error-correction codes
+
+- 2025 TCHES · [Tailorable codes for lattice-based KEMs with applications to compact ML-KEM instantiations](https://doi.org/10.46586/tches.v2025.i3.139-163) · constant_time_implementation · abstract_and_bibliographic_metadata
 
 ## EtS KEM
 
@@ -276,6 +321,10 @@
 - 2026 TCHES · [Secret Key Recovery of FALCON using Simple Power Analysis in Conditional Calculator](https://doi.org/10.46586/tches.v2026.i2.953-975) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [When Masking Multiplication Isn’t Enough: Exploiting Floating-Point Leakage in Falcon’s Pre-Image Computation](https://doi.org/10.46586/tches.v2026.i2.686-708) · attack · abstract_and_bibliographic_metadata
 
+## Fiat-Shamir with Aborts
+
+- 2024 TCHES · [HAETAE: Shorter Lattice-Based Fiat-Shamir Signatures](https://doi.org/10.46586/tches.v2024.i3.25-75) · countermeasure_and_scheme_design · abstract_and_bibliographic_metadata
+
 ## FIDO
 
 - 2025 SP · [EUCLEAK](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-239) · attack · abstract_and_bibliographic_metadata
@@ -295,6 +344,11 @@
 ## FO transform
 
 - 2021 TCHES · [Attacking and Defending Masked Polynomial Comparison for Lattice-Based Cryptography](https://doi.org/10.46586/tches.v2021.i3.334-359) · attack · abstract_and_bibliographic_metadata
+
+## FPGA
+
+- 2022 TCHES · [Complete and Improved FPGA Implementation of Classic McEliece](https://doi.org/10.46586/tches.v2022.i3.71-113) · constant_time_implementation · selected_full_text_sections
+- 2022 TCHES · [Racing BIKE: Improved Polynomial Multiplication and Inversion in Hardware](https://doi.org/10.46586/tches.v2022.i1.557-588) · constant_time_implementation · abstract_and_bibliographic_metadata
 
 ## fresh re-keying
 
@@ -327,6 +381,18 @@
 
 - 2023 SP · [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) · attack · abstract_and_bibliographic_metadata
 - 2025 SP · [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) · attack · selected_full_text_sections
+
+## HADES
+
+- 2025 TCHES · [HADES: Automated Hardware Design Exploration for Cryptographic Primitives](https://doi.org/10.46586/tches.v2025.i4.1-45) · countermeasure_design_tool · abstract_and_bibliographic_metadata
+
+## HAETAE
+
+- 2024 TCHES · [HAETAE: Shorter Lattice-Based Fiat-Shamir Signatures](https://doi.org/10.46586/tches.v2024.i3.25-75) · countermeasure_and_scheme_design · abstract_and_bibliographic_metadata
+
+## hardware masking
+
+- 2025 TCHES · [HADES: Automated Hardware Design Exploration for Cryptographic Primitives](https://doi.org/10.46586/tches.v2025.i4.1-45) · countermeasure_design_tool · abstract_and_bibliographic_metadata
 
 ## HAWK
 
@@ -382,6 +448,10 @@
 
 - 2021 TCHES · [Chosen Ciphertext k-Trace Attacks on Masked CCA2 Secure Kyber](https://doi.org/10.46586/tches.v2021.i4.88-113) · attack · abstract_and_bibliographic_metadata
 
+## isochronous decoding
+
+- 2025 TCHES · [Tailorable codes for lattice-based KEMs with applications to compact ML-KEM instantiations](https://doi.org/10.46586/tches.v2025.i3.139-163) · constant_time_implementation · abstract_and_bibliographic_metadata
+
 ## isogeny group actions
 
 - 2026 TCHES · [Efficient and Parallel Implementation of Isogeny-based Deterministic Group Actions](https://doi.org/10.46586/tches.v2026.i3.541-565) · constant_time_implementation · abstract_and_bibliographic_metadata
@@ -426,6 +496,7 @@
 - 2024 TCHES · [SPA-GPT: General Pulse Tailor for Simple Power Analysis Based on Reinforcement Learning](https://doi.org/10.46586/tches.v2024.i4.40-83) · method · abstract_and_bibliographic_metadata
 - 2025 TCHES · [Avengers assemble! Supervised learning meets lattice reduction: A single power trace attack against CRYSTALS-Kyber Key Generation](https://doi.org/10.46586/tches.v2025.i4.409-436) · attack · abstract_and_bibliographic_metadata
 - 2025 USENIX · [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) · method · abstract_and_bibliographic_metadata
+- 2025 TCHES · [HADES: Automated Hardware Design Exploration for Cryptographic Primitives](https://doi.org/10.46586/tches.v2025.i4.1-45) · countermeasure_design_tool · abstract_and_bibliographic_metadata
 - 2025 TCHES · [KyberSlash: Exploiting secret-dependent division timings in Kyber implementations](https://doi.org/10.46586/tches.v2025.i2.209-234) · attack · abstract_and_bibliographic_metadata
 - 2025 TCHES · [MulLeak: Exploiting Multiply Instruction Leakage to Attack the Stack-optimized Kyber Implementation on Cortex-M4](https://doi.org/10.46586/tches.v2025.i2.23-68) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [AIPS: AI-Based Power Simulation for Pre-Silicon Side-Channel Security Evaluation](https://doi.org/10.46586/tches.v2026.i2.441-467) · method · abstract_and_bibliographic_metadata
@@ -456,6 +527,10 @@
 ## LDA
 
 - 2023 TCHES · [LPN-based Attacks in the White-box Setting](https://doi.org/10.46586/tches.v2023.i4.318-343) · attack_method · abstract_and_bibliographic_metadata
+
+## Lean
+
+- 2026 TCHES · [Verified non-recursive calculation of Beneš networks applied to Classic McEliece](https://doi.org/10.46586/tches.v2026.i3.306-333) · constant_time_implementation_and_verification · selected_full_text_sections
 
 ## Libjade
 
@@ -532,6 +607,14 @@
 
 - 2025 ASPLOS · [Controlled Preemption: Amplifying Side-Channel Attacks from Userspace](https://doi.org/10.1145/3676641.3715985) · attack_primitive · selected_full_text_sections
 
+## MinRank
+
+- 2024 TCHES · [MiRitH: Efficient Post-Quantum Signatures from MinRank in the Head](https://doi.org/10.46586/tches.v2024.i2.304-328) · constant_time_implementation · abstract_and_bibliographic_metadata
+
+## MiRitH
+
+- 2024 TCHES · [MiRitH: Efficient Post-Quantum Signatures from MinRank in the Head](https://doi.org/10.46586/tches.v2024.i2.304-328) · constant_time_implementation · abstract_and_bibliographic_metadata
+
 ## ML-DSA
 
 - 2025 SP · [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) · implementation_security_design · selected_full_text_sections
@@ -543,6 +626,7 @@
 
 ## ML-KEM
 
+- 2025 TCHES · [Tailorable codes for lattice-based KEMs with applications to compact ML-KEM instantiations](https://doi.org/10.46586/tches.v2025.i3.139-163) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2025 SP · [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) · implementation_security_design · selected_full_text_sections
 - 2026 TCHES · [A Framework for designing High-Order Side-Channel Protected Hardware Implementations of ML-KEM](https://doi.org/10.46586/tches.v2026.i2.272-295) · countermeasure · abstract_and_bibliographic_metadata
 - 2026 TCHES · [How Strong is the FO-Calypse, Really? Instantiating Plaintext-Checking Oracles against Masked Software Implementations of ML-KEM](https://doi.org/10.46586/tches.v2026.i4.759-785) · attack · abstract_and_bibliographic_metadata
@@ -560,6 +644,7 @@
 ## MPC-in-the-head
 
 - 2021 TCHES · [Side-Channel Protections for Picnic Signatures](https://doi.org/10.46586/tches.v2021.i4.239-282) · countermeasure · abstract_and_bibliographic_metadata
+- 2024 TCHES · [MiRitH: Efficient Post-Quantum Signatures from MinRank in the Head](https://doi.org/10.46586/tches.v2024.i2.304-328) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2025 TCHES · [Masking-Friendly Post-Quantum Signatures in the Threshold-Computation-in-the-Head Framework](https://doi.org/10.46586/tches.v2025.i4.667-710) · countermeasure · abstract_and_bibliographic_metadata
 
 ## multicore isolation
@@ -599,6 +684,7 @@
 
 ## NTT
 
+- 2022 TCHES · [Multi-moduli NTTs for Saber on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2022.i1.127-151) · masked_implementation_optimization · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Adapting Belief Propagation to Counter Shuffling of NTTs](https://doi.org/10.46586/tches.v2023.i1.60-88) · method · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Kavach: Lightweight masking techniques for polynomial arithmetic in lattice-based cryptography](https://doi.org/10.46586/tches.v2023.i3.366-390) · countermeasure · abstract_and_bibliographic_metadata
 - 2024 TCHES · [Hints from Hertz: Dynamic Frequency Scaling Side-Channel Analysis of Number Theoretic Transform in Lattice-Based KEMs](https://doi.org/10.46586/tches.v2024.i3.200-223) · attack · abstract_and_bibliographic_metadata
@@ -666,6 +752,10 @@
 
 - 2025 TCHES · [Optimal Dimensionality Reduction using Conditional Variational AutoEncoder](https://doi.org/10.46586/tches.v2025.i3.164-211) · method · abstract_and_bibliographic_metadata
 
+## PQC signatures
+
+- 2026 TCHES · [Adapting AES-Oriented Optimizations to Rijndael-256: Cortex-M4, ARMv8-A, and CUDA](https://doi.org/10.46586/tches.v2026.i4.575-596) · constant_time_implementation · abstract_and_bibliographic_metadata
+
 ## pre-silicon power simulation
 
 - 2026 TCHES · [AIPS: AI-Based Power Simulation for Pre-Silicon Side-Channel Security Evaluation](https://doi.org/10.46586/tches.v2026.i2.441-467) · method · abstract_and_bibliographic_metadata
@@ -712,6 +802,10 @@
 
 - 2024 TCHES · [SPA-GPT: General Pulse Tailor for Simple Power Analysis Based on Reinforcement Learning](https://doi.org/10.46586/tches.v2024.i4.40-83) · method · abstract_and_bibliographic_metadata
 
+## Rijndael-256
+
+- 2026 TCHES · [Adapting AES-Oriented Optimizations to Rijndael-256: Cortex-M4, ARMv8-A, and CUDA](https://doi.org/10.46586/tches.v2026.i4.575-596) · constant_time_implementation · abstract_and_bibliographic_metadata
+
 ## RISC-V
 
 - 2022 TCHES · [Masked Accelerators and Instruction Set Extensions for Post-Quantum Cryptography](https://doi.org/10.46586/tches.v2022.i1.414-460) · countermeasure · abstract_and_bibliographic_metadata
@@ -740,6 +834,7 @@
 - 2022 TCHES · [High-order Table-based Conversion Algorithms and Masking Lattice-based Encryption](https://doi.org/10.46586/tches.v2022.i2.1-40) · countermeasure · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Higher-Order Masked Ciphertext Comparison for Lattice-Based Cryptography](https://doi.org/10.46586/tches.v2022.i2.115-139) · attack_and_countermeasure · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Masked Accelerators and Instruction Set Extensions for Post-Quantum Cryptography](https://doi.org/10.46586/tches.v2022.i1.414-460) · countermeasure · abstract_and_bibliographic_metadata
+- 2022 TCHES · [Multi-moduli NTTs for Saber on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2022.i1.127-151) · masked_implementation_optimization · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Single-Trace Side-Channel Attacks on the Toom-Cook: The Case Study of Saber](https://doi.org/10.46586/tches.v2022.i4.285-310) · attack · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Multiple-Valued Plaintext-Checking Side-Channel Attacks on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2023.i3.473-503) · attack · abstract_and_bibliographic_metadata
 
@@ -794,6 +889,10 @@
 ## sparse fixed-weight sampling
 
 - 2026 TCHES · [Sota Voce: Low-Noise Sampling of Sparse Fixed-Weight Vectors](https://doi.org/10.46586/tches.v2026.i1.353-375) · constant_time_implementation · abstract_and_bibliographic_metadata
+
+## sparse polynomial multiplication
+
+- 2022 TCHES · [Racing BIKE: Improved Polynomial Multiplication and Inversion in Hardware](https://doi.org/10.46586/tches.v2022.i1.557-588) · constant_time_implementation · abstract_and_bibliographic_metadata
 
 ## Spectre
 

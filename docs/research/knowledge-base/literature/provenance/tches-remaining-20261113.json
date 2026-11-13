@@ -1,0 +1,91 @@
+{
+  "reviewed_on": "2026-11-13",
+  "sources": [
+    {
+      "source_id": "tches-crossref-page1",
+      "url": "https://api.crossref.org/journals/2569-2925/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-11-12&rows=1000&cursor=%2A",
+      "response_url": "https://api.crossref.org/journals/2569-2925/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-11-12&rows=1000&cursor=%2A",
+      "status": 200,
+      "retrieved_at": "2026-11-12T06:57:10.886054+00:00",
+      "sha256": "8801199da551a98bdbabd5eb45dd9045a9d7d4e72f7cd10daac9fc1ab30b1892",
+      "bytes": 2683805,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "mceliece-fpga-tches-pdf",
+      "url": "https://tches.iacr.org/index.php/TCHES/article/download/9695/9226",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/download/9695/9226",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:26:45.212431+00:00",
+      "sha256": "5aa059d6b899f425329fe172918474863ef8cbe234b19f983ae81b8dd5eae76f",
+      "bytes": 1218798,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "benes-tches-pdf",
+      "url": "https://tches.iacr.org/index.php/TCHES/article/download/13094/12645",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/download/13094/12645",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:26:15.085013+00:00",
+      "sha256": "c8f93848d65ae57e81ae919d2a5ba330093e047ed7016a1c2f0cae1ff6cfe856",
+      "bytes": 684630,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "hakyber-tches-pdf",
+      "url": "https://tches.iacr.org/index.php/TCHES/article/download/10960/10267",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/download/10960/10267",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:26:14.426543+00:00",
+      "sha256": "3d5c85d8cd4b4c60b1622b3e5dcd4ee7d16ace45f8e57ff286255480eac739b1",
+      "bytes": 682542,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "verified-ntt-tches-pdf",
+      "url": "https://tches.iacr.org/index.php/TCHES/article/download/9838/9341",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/download/9838/9341",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:26:14.732221+00:00",
+      "sha256": "32557acdd1522ad413d90c3d10f6a1ac577f2399c33926177eb33e4049c03259",
+      "bytes": 662579,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "mceliece-fpga-nist-pdf",
+      "url": "https://csrc.nist.gov/csrc/media/Events/2022/fourth-pqc-standardization-conference/documents/papers/complete-and-improved-fpga-implementation-of-classic-mceliece-pqc2022.pdf",
+      "response_url": "https://csrc.nist.gov/csrc/media/Events/2022/fourth-pqc-standardization-conference/documents/papers/complete-and-improved-fpga-implementation-of-classic-mceliece-pqc2022.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T07:26:44.795771+00:00",
+      "sha256": "7d33d5841062f194a667414a22382b6f4d0dfe2d661149b02a82758ebef9e2f7",
+      "bytes": 798652,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "mceliece-fpga-corrected-eprint-pdf",
+      "url": "https://eprint.iacr.org/2022/412.pdf",
+      "response_url": "https://eprint.iacr.org/2022/412.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T07:26:10.905149+00:00",
+      "sha256": "0f36719eeae657821b08ff50c4a2a0911191fef17665053dc7e357113f69e0f4",
+      "bytes": 5580,
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ],
+  "batch": {
+    "abstracts_read": 86,
+    "new_includes": 9,
+    "new_adjacent": 77,
+    "new_paper_cards_with_selected_full_text": 2,
+    "additional_adjacent_full_text_scope_checks": 2,
+    "snapshot_sha256": "8a961ee5e438bdccdf9d330022db7a21b84f27726a26ac0a7462d56065a56514",
+    "inventory_file": "screening/batches/tches-pqc-remaining-20261113.jsonl"
+  },
+  "notes": [
+    "All 86 normalized abstracts were individually read and matched to the hashed Crossref deposit.",
+    "Adjacent is provisional at stated reading depth; it is not full-text exclusion.",
+    "The NIST McEliece alternate PDF was inspected on p.1 only; it has a shorter abstract and is not substituted for the corrected ePrint.",
+    "The ePrint correction notice was visible in search results; fetching the PDF returned HTTP 403. Errata text was not read.",
+    "No complete reference-list pass, independent agent review, code audit or experiment in this batch."
+  ]
+}
