@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-14 基础文献接续：[来源与哈希](literature/provenance/kyber-foundations-saber-20261114.json)登记四张新增卡片、已有 Keccak 的阅读扩充、三个渲染页及 SABER 全部 44 个参考位置。解析四条发现、新增八条待查，18 条引用和 3 条版本关系（2 条明确、1 条推定）。[证据笔记](literature/notes/kyber-foundations-and-saber-lineage-20261114.md)保留局部 NTT 实测、门级模拟、TVLA 分组及版本区别；三个研究目标仍待他人验证。
+
 2026-11-14 NDSS 2024 第二批：[来源与哈希](literature/provenance/ndss2024-second-20261114.json)记录 52 篇官方摘要、两篇引用促成的 PQC 掩码卡片、八篇 NDSS 与两篇防护论文的正文选读。EM Eye 全部 42 条引用及总线故障五条选读新增六条引用、十三条待查；一条 SABER 版本关系明确核实。两份代码材料仅 README 阅读；测试参数、转储权限、平台、距离和恢复指标见[证据笔记](literature/notes/ndss2024-physical-observation-and-masking-scope-20261114.md)。
 
 2026-11-14 Kyber 引用接续：[来源与哈希](literature/provenance/kyber-masked-bibliography-20261114.json)保存当前作者 PDF 的完整 25 个参考位置及三个原始摘要/元数据来源。新增十一条引用、两条明确版本关系、四条待查；既有 Saber 攻击卡片收紧高阶剖析和 24 条攻击迹线的预算边界。未比较完整版本差异或核对攻击全文，见[记录](records/2026-11-14-kyber-masked-bibliography.md)；没有新实验或卡片数量增加。

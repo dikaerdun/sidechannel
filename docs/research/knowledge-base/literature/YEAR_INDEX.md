@@ -562,6 +562,7 @@
 | TCHES | [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) | selected_full_text_sections |
 | TCHES | [Single-Trace Attacks on Keccak](https://doi.org/10.46586/tches.v2020.i3.243-268) | abstract_and_bibliographic_metadata |
 | TIFS | [Trivially and Efficiently Composing Masked Gadgets With Probe Isolating Non-Interference](https://doi.org/10.1109/tifs.2020.2971153) | selected_full_text_sections |
+| ePrint | [Drop by Drop you break the rock - Exploiting generic vulnerabilities in Lattice-based PKE/KEMs using EM-based Physical Attacks](https://eprint.iacr.org/2020/549) | abstract_and_bibliographic_metadata |
 
 ## 2019
 
@@ -572,6 +573,7 @@
 | COSADE | [Practical Evaluation of Masking for NTRUEncrypt on ARM Cortex-M4](https://doi.org/10.1007/978-3-030-16350-1_14) | abstract_and_bibliographic_metadata |
 | ESORICS | [maskVerif: Automated Verification of Higher-Order Masking in Presence of Physical Defaults](https://doi.org/10.1007/978-3-030-29959-0_15) | abstract_and_bibliographic_metadata |
 | INDOCRYPT | [FPGA Implementation and Comparison of Protections Against SCAs for RLWE](https://doi.org/10.1007/978-3-030-35423-7_27) | abstract_and_bibliographic_metadata |
+| LATINCRYPT | [More Practical Single-Trace Attacks on the Number Theoretic Transform](https://doi.org/10.1007/978-3-030-30530-7_7) | selected_full_text_sections |
 | PKC | [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) | selected_full_text_sections |
 | SAC | [A Timing Attack on the HQC Encryption Scheme](https://doi.org/10.1007/978-3-030-38471-5_22) | abstract_and_bibliographic_metadata |
 
@@ -605,12 +607,14 @@
 |---|---|---|
 | CCS | [Strong Non-Interference and Type-Directed Higher-Order Masking](https://doi.org/10.1145/2976749.2978427) | abstract_and_bibliographic_metadata |
 | CHES | [Flush, Gauss, and Reload – A Cache Attack on the BLISS Lattice-Based Signature Scheme](https://doi.org/10.1007/978-3-662-53140-2_16) | abstract_and_bibliographic_metadata |
+| JCEN | [Leakage assessment methodology: Extended version](https://doi.org/10.1007/s13389-016-0120-y) | abstract_and_bibliographic_metadata |
 | TIS | [Domain-Oriented Masking: Compact Masked Hardware Implementations with Arbitrary Protection Order](https://doi.org/10.1145/2996366.2996426) | abstract_and_bibliographic_metadata |
 
 ## 2015
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| CHES | [Leakage Assessment Methodology: A Clear Roadmap for Side-Channel Evaluations](https://doi.org/10.1007/978-3-662-48324-4_25) | selected_full_text_sections |
 | FSE | [Conversion from Arithmetic to Boolean Masking with Logarithmic Complexity](https://doi.org/10.1007/978-3-662-48116-5_7) | abstract_and_bibliographic_metadata |
 
 ## 2014
@@ -637,7 +641,7 @@
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
 | CHES | [Provably Secure Higher-Order Masking of AES](https://doi.org/10.1007/978-3-642-15031-9_28) | abstract_and_bibliographic_metadata |
-| SHA-3 Candidate Conference | [Building power analysis resistant implementations of Keccak](https://keccak.team/files/KeccakDPA.pdf) | selected_full_text_sections |
+| Second SHA-3 Candidate Conference | [Building power analysis resistant implementations of Keccak](https://keccak.team/files/KeccakDPA.pdf) | selected_full_text_sections |
 
 ## 2003
 

@@ -329,6 +329,7 @@
 ## belief propagation
 
 - 2017 CHES · [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) · pqc_single_trace_side_channel · abstract_and_bibliographic_metadata
+- 2019 LATINCRYPT · [More Practical Single-Trace Attacks on the Number Theoretic Transform](https://doi.org/10.1007/978-3-030-30530-7_7) · attack · selected_full_text_sections
 - 2023 TCHES · [Belief Propagation Meets Lattice Reduction: Security Estimates for Error-Tolerant Key Recovery from Decryption Errors](https://doi.org/10.46586/tches.v2023.i4.287-317) · method · abstract_and_bibliographic_metadata
 - 2024 TCHES · [Exploiting Small-Norm Polynomial Multiplication with Physical Attacks: Application to CRYSTALS-Dilithium](https://doi.org/10.46586/tches.v2024.i2.359-383) · attack · abstract_and_bibliographic_metadata
 
@@ -1277,6 +1278,7 @@
 
 ## EM
 
+- 2020 ePrint · [Drop by Drop you break the rock - Exploiting generic vulnerabilities in Lattice-based PKE/KEMs using EM-based Physical Attacks](https://eprint.iacr.org/2020/549) · attack · abstract_and_bibliographic_metadata
 - 2022 TC · [Magnifying Side-Channel Leakage of Lattice-Based Cryptosystems With Chosen Ciphertexts: The Case Study of Kyber](https://doi.org/10.1109/tc.2021.3122997) · attack · abstract_and_bibliographic_metadata
 - 2022 AsianHOST · [Vulnerable PQC against Side Channel Analysis - A Case Study on Kyber](https://doi.org/10.1109/asianhost56390.2022.10022165) · hardware_side_channel_evaluation · selected_full_text_sections
 - 2024 NDSS · [EM Eye: Characterizing Electromagnetic Side-channel Eavesdropping on Embedded Cameras](https://www.ndss-symposium.org/ndss-paper/em-eye-characterizing-electromagnetic-side-channel-eavesdropping-on-embedded-cameras/) · attack and countermeasure · selected_full_text_sections
@@ -1403,6 +1405,10 @@
 
 - 2024 HOST · [Breaking SCA-Protected CRYSTALS-Kyber with a Single Trace](https://doi.org/10.1109/host55342.2024.10545390) · combined_fault_and_side_channel · abstract_and_bibliographic_metadata
 - 2024 TECS · [Side-channel and Fault-injection attacks over Lattice-based Post-quantum Schemes (Kyber, Dilithium): Survey and New Results](https://doi.org/10.1145/3603170) · survey_and_countermeasures · abstract_and_bibliographic_metadata
+
+## faults
+
+- 2020 ePrint · [Drop by Drop you break the rock - Exploiting generic vulnerabilities in Lattice-based PKE/KEMs using EM-based Physical Attacks](https://eprint.iacr.org/2020/549) · attack · abstract_and_bibliographic_metadata
 
 ## federated learning
 
@@ -1630,6 +1636,7 @@
 
 ## glitches
 
+- 2010 Second SHA-3 Candidate Conference · [Building power analysis resistant implementations of Keccak](https://keccak.team/files/KeccakDPA.pdf) · countermeasure · selected_full_text_sections
 - 2018 TCHES · [Composable Masking Schemes in the Presence of Physical Defaults & the Robust Probing Model](https://doi.org/10.46586/tches.v2018.i3.89-120) · masking theory · abstract_and_bibliographic_metadata
 - 2019 ESORICS · [maskVerif: Automated Verification of Higher-Order Masking in Presence of Physical Defaults](https://doi.org/10.1007/978-3-030-29959-0_15) · formal verification · abstract_and_bibliographic_metadata
 
@@ -1783,6 +1790,11 @@
 
 - 2010 CHES · [Provably Secure Higher-Order Masking of AES](https://doi.org/10.1007/978-3-642-15031-9_28) · formal_countermeasure · abstract_and_bibliographic_metadata
 - 2023 APKC · [Breaking a Fifth-Order Masked Implementation of CRYSTALS-Kyber by Copy-Paste](https://doi.org/10.1145/3591866.3593072) · attack · abstract_and_bibliographic_metadata
+
+## higher-order testing
+
+- 2015 CHES · [Leakage Assessment Methodology: A Clear Roadmap for Side-Channel Evaluations](https://doi.org/10.1007/978-3-662-48324-4_25) · evaluation · selected_full_text_sections
+- 2016 JCEN · [Leakage assessment methodology: Extended version](https://doi.org/10.1007/s13389-016-0120-y) · evaluation · abstract_and_bibliographic_metadata
 
 ## hints
 
@@ -2064,7 +2076,7 @@
 
 ## Keccak
 
-- 2010 SHA-3 Candidate Conference · [Building power analysis resistant implementations of Keccak](https://keccak.team/files/KeccakDPA.pdf) · countermeasure · selected_full_text_sections
+- 2010 Second SHA-3 Candidate Conference · [Building power analysis resistant implementations of Keccak](https://keccak.team/files/KeccakDPA.pdf) · countermeasure · selected_full_text_sections
 - 2017 DSD · [Higher-Order Side-Channel Protected Implementations of KECCAK](https://doi.org/10.1109/dsd.2017.21) · countermeasure · abstract_and_bibliographic_metadata
 - 2020 TCHES · [Single-Trace Attacks on Keccak](https://doi.org/10.46586/tches.v2020.i3.243-268) · attack · abstract_and_bibliographic_metadata
 - 2026 USENIX · [Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei) · masking_countermeasure · selected_full_text_sections
@@ -2126,6 +2138,7 @@
 ## Kyber
 
 - 2019 PKC · [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) · masking · selected_full_text_sections
+- 2020 ePrint · [Drop by Drop you break the rock - Exploiting generic vulnerabilities in Lattice-based PKE/KEMs using EM-based Physical Attacks](https://eprint.iacr.org/2020/549) · attack · abstract_and_bibliographic_metadata
 - 2020 SPACE · [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) · countermeasure · abstract_and_bibliographic_metadata
 - 2020 IEEE Access · [Single-Trace Attacks on Message Encoding in Lattice-Based KEMs](https://doi.org/10.1109/access.2020.3029521) · attack · abstract_and_bibliographic_metadata
 - 2021 TCHES · [Chosen Ciphertext k-Trace Attacks on Masked CCA2 Secure Kyber](https://doi.org/10.46586/tches.v2021.i4.88-113) · attack · abstract_and_bibliographic_metadata
@@ -2183,6 +2196,10 @@
 - 2026 arXiv · [Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach](https://arxiv.org/abs/2611.01144) · simulated_countermeasure · selected_full_text_sections
 - 2026 TCHES · [TAME: A Deep Learning-based Blind Side-Channel Analysis Framework](https://doi.org/10.46586/tches.v2026.i4.632-655) · method · abstract_and_bibliographic_metadata
 
+## Kyber Round 1
+
+- 2019 LATINCRYPT · [More Practical Single-Trace Attacks on the Number Theoretic Transform](https://doi.org/10.1007/978-3-030-30530-7_7) · attack · selected_full_text_sections
+
 ## Kyber768
 
 - 2022 ePrint · [First-Order Masked Kyber on ARM Cortex-M4](https://eprint.iacr.org/2022/058) · countermeasure · selected_full_text_sections
@@ -2191,6 +2208,10 @@
 ## L1TF
 
 - 2026 SP · [Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities](https://doi.org/10.1109/sp63933.2026.00063) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
+
+## LAC
+
+- 2020 ePrint · [Drop by Drop you break the rock - Exploiting generic vulnerabilities in Lattice-based PKE/KEMs using EM-based Physical Attacks](https://eprint.iacr.org/2020/549) · attack · abstract_and_bibliographic_metadata
 
 ## LAM
 
@@ -2464,7 +2485,7 @@
 ## masking
 
 - 1999 CRYPTO · [Towards Sound Approaches to Counteract Power-Analysis Attacks](https://doi.org/10.1007/3-540-48405-1_26) · formal_countermeasure · abstract_and_bibliographic_metadata
-- 2010 SHA-3 Candidate Conference · [Building power analysis resistant implementations of Keccak](https://keccak.team/files/KeccakDPA.pdf) · countermeasure · selected_full_text_sections
+- 2010 Second SHA-3 Candidate Conference · [Building power analysis resistant implementations of Keccak](https://keccak.team/files/KeccakDPA.pdf) · countermeasure · selected_full_text_sections
 - 2014 CARDIS · [On the Cost of Lazy Engineering for Masked Software Implementations](https://doi.org/10.1007/978-3-319-16763-3_5) · leakage model and evaluation · abstract_and_bibliographic_metadata
 - 2016 CCS · [Strong Non-Interference and Type-Directed Higher-Order Masking](https://doi.org/10.1145/2976749.2978427) · formal_countermeasure · abstract_and_bibliographic_metadata
 - 2017 DSD · [Higher-Order Side-Channel Protected Implementations of KECCAK](https://doi.org/10.1109/dsd.2017.21) · countermeasure · abstract_and_bibliographic_metadata
@@ -2557,6 +2578,10 @@
 
 - 2024 SP · [Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_analysis_and_memory_safety_defense · abstract_and_bibliographic_metadata
 - 2025 SP · [TikTag: Breaking ARM's Memory Tagging Extension with Speculative Execution](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-15) · attack · abstract_and_bibliographic_metadata
+
+## message decoding
+
+- 2020 ePrint · [Drop by Drop you break the rock - Exploiting generic vulnerabilities in Lattice-based PKE/KEMs using EM-based Physical Attacks](https://eprint.iacr.org/2020/549) · attack · abstract_and_bibliographic_metadata
 
 ## message encoding
 
@@ -2781,6 +2806,11 @@
 - 2024 IACR ePrint · [Single-trace side-channel attacks on MAYO exploiting leaky modular multiplication](https://eprint.iacr.org/2024/1850) · attack · abstract_and_bibliographic_metadata
 - 2025 QRSEC · [Single-trace Side-Channel Attacks on MAYO Exploiting Leaky Modular Multiplication](https://doi.org/10.1145/3733820.3764682) · attack · abstract_and_bibliographic_metadata
 
+## multivariate testing
+
+- 2015 CHES · [Leakage Assessment Methodology: A Clear Roadmap for Side-Channel Evaluations](https://doi.org/10.1007/978-3-662-48324-4_25) · evaluation · selected_full_text_sections
+- 2016 JCEN · [Leakage assessment methodology: Extended version](https://doi.org/10.1007/s13389-016-0120-y) · evaluation · abstract_and_bibliographic_metadata
+
 ## mutual information
 
 - 2026 NDSS · [Cease at the Ultimate Goodness: Towards Efficient Website Fingerprinting Defense via Iterative Mutual Information Minimization](https://www.ndss-symposium.org/ndss-paper/cease-at-the-ultimate-goodness-towards-efficient-website-fingerprinting-defense-via-iterative-mutual-information-minimization/) · countermeasure · abstract_and_bibliographic_metadata
@@ -2824,6 +2854,7 @@
 
 - 2019 PKC · [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) · masking · selected_full_text_sections
 - 2020 PQCrypto · [Defeating NewHope with a Single Trace](https://doi.org/10.1007/978-3-030-44223-1_11) · attack · abstract_and_bibliographic_metadata
+- 2020 ePrint · [Drop by Drop you break the rock - Exploiting generic vulnerabilities in Lattice-based PKE/KEMs using EM-based Physical Attacks](https://eprint.iacr.org/2020/549) · attack · abstract_and_bibliographic_metadata
 - 2021 TCHES · [Compact Dilithium Implementations on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2021.i1.1-24) · constant_time_implementation · abstract_and_bibliographic_metadata
 
 ## Noise protocols
@@ -2876,6 +2907,7 @@
 ## NTT
 
 - 2017 CHES · [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) · pqc_single_trace_side_channel · abstract_and_bibliographic_metadata
+- 2019 LATINCRYPT · [More Practical Single-Trace Attacks on the Number Theoretic Transform](https://doi.org/10.1007/978-3-030-30530-7_7) · attack · selected_full_text_sections
 - 2020 SPACE · [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) · countermeasure · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Multi-moduli NTTs for Saber on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2022.i1.127-151) · masked_implementation_optimization · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Adapting Belief Propagation to Counter Shuffling of NTTs](https://doi.org/10.46586/tches.v2023.i1.60-88) · method · abstract_and_bibliographic_metadata
@@ -3288,6 +3320,7 @@
 
 ## profiling
 
+- 2019 LATINCRYPT · [More Practical Single-Trace Attacks on the Number Theoretic Transform](https://doi.org/10.1007/978-3-030-30530-7_7) · attack · selected_full_text_sections
 - 2023 ETS · [A Side-Channel Attack on a Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1109/ets56758.2023.10174000) · hardware_side_channel_attack · selected_full_text_sections
 - 2024 CiC · [Leakage Model-flexible Deep Learning-based Side-channel Analysis](https://doi.org/10.62056/ay4c3txol7) · leakage modeling · abstract_and_bibliographic_metadata
 
@@ -3558,6 +3591,10 @@
 
 - 2022 TCHES · [A Constant-time AVX2 Implementation of a Variant of ROLLO](https://doi.org/10.46586/tches.v2022.i1.152-174) · constant_time_implementation · abstract_and_bibliographic_metadata
 
+## Round5
+
+- 2020 ePrint · [Drop by Drop you break the rock - Exploiting generic vulnerabilities in Lattice-based PKE/KEMs using EM-based Physical Attacks](https://eprint.iacr.org/2020/549) · attack · abstract_and_bibliographic_metadata
+
 ## routing
 
 - 2024 NDSS · [LARMix: Latency-Aware Routing in Mix Networks](https://www.ndss-symposium.org/ndss-paper/larmix-latency-aware-routing-in-mix-networks/) · countermeasure · abstract_and_bibliographic_metadata
@@ -3617,6 +3654,7 @@
 ## Saber
 
 - 2019 PKC · [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) · masking · selected_full_text_sections
+- 2020 ePrint · [Drop by Drop you break the rock - Exploiting generic vulnerabilities in Lattice-based PKE/KEMs using EM-based Physical Attacks](https://eprint.iacr.org/2020/549) · attack · abstract_and_bibliographic_metadata
 - 2020 IEEE Access · [Single-Trace Attacks on Message Encoding in Lattice-Based KEMs](https://doi.org/10.1109/access.2020.3029521) · attack · abstract_and_bibliographic_metadata
 - 2021 TCHES · [A Side-Channel Attack on a Masked IND-CCA Secure Saber KEM Implementation](https://doi.org/10.46586/tches.v2021.i4.676-707) · attack · abstract_and_bibliographic_metadata
 - 2021 JETC · [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) · countermeasure · selected_full_text_sections
@@ -4297,6 +4335,8 @@
 ## TVLA
 
 - 2011 NIST NIAT Workshop · [A testing methodology for side-channel resistance validation](https://csrc.nist.gov/CSRC/media/Events/Non-Invasive-Attack-Testing-Workshop/documents/08_Goodwill.pdf) · leakage_detection · selected_full_text_sections
+- 2015 CHES · [Leakage Assessment Methodology: A Clear Roadmap for Side-Channel Evaluations](https://doi.org/10.1007/978-3-662-48324-4_25) · evaluation · selected_full_text_sections
+- 2016 JCEN · [Leakage assessment methodology: Extended version](https://doi.org/10.1007/s13389-016-0120-y) · evaluation · abstract_and_bibliographic_metadata
 - 2017 CARDIS · [Towards Sound and Optimal Leakage Detection Procedure](https://doi.org/10.1007/978-3-319-75208-2_7) · leakage_detection · abstract_and_bibliographic_metadata
 - 2021 JETC · [A Side-Channel-Resistant Implementation of SABER](https://doi.org/10.1145/3429983) · countermeasure · selected_full_text_sections
 - 2022 ePrint · [First-Order Masked Kyber on ARM Cortex-M4](https://eprint.iacr.org/2022/058) · countermeasure · selected_full_text_sections

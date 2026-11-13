@@ -86,7 +86,8 @@ def render_citations(root,catalogs):
       '[Borrowed Time 八条选读](citations/borrowedtime2025-selected-reference-screen.jsonl) · [PQConnect 四条选读](citations/pqconnect2025-selected-reference-screen.jsonl) · [NDSS 2025 证据与范围](notes/ndss2025-static-power-quantum-and-scope-20261114.md)','',
       'NDSS 2024 的 EM Eye 全部 42 条参考初筛：3 条对应、13 条待查、26 条暂列背景。Faults in Our Bus 另选五条：3 条对应、2 条背景；由此补入 SABER JETC 与一阶掩码 Kyber 两张 PQC 卡片。',
       '[EM Eye 引用清单](citations/emeye2024-reference-screen.jsonl) · [总线故障五条选读](citations/busfault2024-selected-reference-screen.jsonl) · [NDSS 2024 物理观察与掩码范围](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)','',
-      '一阶掩码 Kyber 的 2023 作者修订稿全部 25 个参考位置已初筛：11 条目录对应、4 条待查、10 条暂列背景。原文引用的 2021 ePrint 与后续正式/作者修订分别保留，新增两条明确版本关系；不能把引用解析或摘要报告的攻击迹线数视为全文核验或总攻击成本。',
+      '一阶掩码 Kyber 的 25 个参考位置现为 15 条对应、0 条身份待查、10 条暂列背景；四条历史引用已解析，Keccak 复用既有卡片。SABER 作者稿 44 条全部初筛：14 条对应、8 条待查、22 条暂列背景。NTT 的局部实测与剖析预算、Keccak 门级模拟及 TVLA 采集条件分别保留；均未递归闭合。',
+      '[SABER 完整引用清单](citations/saber-j2021-reference-screen.jsonl) · [基础来源与研究命题](notes/kyber-foundations-and-saber-lineage-20261114.md)',
       '[Kyber 完整引用清单](citations/kyber-masked2022-reference-screen.jsonl) · [引用与版本接续](../records/2026-11-14-kyber-masked-bibliography.md)','',
       '[GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)','',
       '| 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |','|---|---:|---|---|']

@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6778 条，其中 436 条命中后量子相关关键词。
+当前目录记录 6782 条，其中 438 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -428,9 +428,11 @@
 | 2020 SPACE | [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) | include |
 | 2020 TCHES | [Generic Side-channel attacks on CCA-secure lattice-based PKE and KEMs](https://doi.org/10.46586/tches.v2020.i3.307-335) | include |
 | 2020 TCHES | [Single-Trace Attacks on Keccak](https://doi.org/10.46586/tches.v2020.i3.243-268) | include |
+| 2020 ePrint | [Drop by Drop you break the rock - Exploiting generic vulnerabilities in Lattice-based PKE/KEMs using EM-based Physical Attacks](https://eprint.iacr.org/2020/549) | include |
 | 2019 ACNS | [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) | include |
 | 2019 COSADE | [Practical Evaluation of Masking for NTRUEncrypt on ARM Cortex-M4](https://doi.org/10.1007/978-3-030-16350-1_14) | include |
 | 2019 INDOCRYPT | [FPGA Implementation and Comparison of Protections Against SCAs for RLWE](https://doi.org/10.1007/978-3-030-35423-7_27) | include |
+| 2019 LATINCRYPT | [More Practical Single-Trace Attacks on the Number Theoretic Transform](https://doi.org/10.1007/978-3-030-30530-7_7) | include |
 | 2019 PKC | [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) | include |
 | 2019 SAC | [A Timing Attack on the HQC Encryption Scheme](https://doi.org/10.1007/978-3-030-38471-5_22) | include |
 | 2019 SECRYPT | [BEARZ Attack FALCON: Implementation Attacks with Countermeasures on the FALCON Signature Scheme](https://doi.org/10.5220/0007834800610071) | adjacent |

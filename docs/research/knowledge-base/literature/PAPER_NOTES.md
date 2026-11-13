@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 561 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 565 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
 
@@ -66,16 +66,16 @@
 
 ## Building power analysis resistant implementations of Keccak
 
-- 来源：[SHA-3 Candidate Conference 2010](https://keccak.team/files/KeccakDPA.pdf)；时间标记：outside rolling five-year window; cited foundation。
+- 来源：[Second SHA-3 Candidate Conference 2010](https://keccak.team/files/KeccakDPA.pdf)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
 - 作者：Guido Bertoni; Joan Daemen; Michaël Peeters; Gilles Van Assche
-- 对象：Keccak, masking；类型：countermeasure。
-- 核心想法：利用 Keccak 步函数的代数结构设计软件和硬件掩码。
-- 作者报告：第一页提出软件两份额、硬件三份额的条件性讨论以及两种架构的面积吞吐权衡。
-- 限制与下一步：只阅读第一页摘要与引言；没有核查后续证明及模拟章节，不能把历史份额数表述升级为通用物理安全保证。作者页面提示已有更近的实现概述。
-- 阅读层级：selected_full_text_sections；来源：https://keccak.team/files/KeccakDPA.pdf; https://keccak.team/papers.html。
-- 已读章节：Author PDF page 1: abstract and introduction only; later construction, proofs and simulation sections unread.
-- [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
-- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+- 对象：Keccak, masking, glitches；类型：countermeasure。
+- 核心想法：分别讨论 Keccak 软件与硬件的掩码实现及其物理条件。
+- 作者报告：作者以门级功耗模拟比较三份额与普通核，指出软件顺序、编译及硬件毛刺需要不同处理。
+- 限制与下一步：第 7 节是无噪声、理想同步且没有布局布线的模拟，不是流片实测；用已知内部值作相关性表征，不是端到端密钥恢复。随机数生成电路不在该文范围内；作者索引提示有更新实现综述。
+- 阅读层级：selected_full_text_sections；来源：https://keccak.team/papers.html。
+- 已读章节：Author-hosted PDF complete abstract p.1, software/hardware assumptions pp.4-6 and gate-level power simulations pp.12-13; p.12 rendered; author publication index metadata
+- [详细阅读记录](notes/kyber-foundations-and-saber-lineage-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
 
 ## A testing methodology for side-channel resistance validation
 
@@ -126,6 +126,19 @@
 - [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
 - 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
 
+## Leakage Assessment Methodology: A Clear Roadmap for Side-Channel Evaluations
+
+- 来源：[CHES 2015](https://doi.org/10.1007/978-3-662-48324-4_25)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
+- 作者：Tobias Schneider; Amir Moradi
+- 对象：TVLA, higher-order testing, multivariate testing；类型：evaluation。
+- 核心想法：整理高阶、多变量泄漏检测与相应采集流程。
+- 作者报告：作者要求随机交错固定/随机组，指出固定输入的选择和测试框架处理可能改变检测结果。
+- 限制与下一步：单次固定输入未检出不能作为安全保证；测试阶数、带宽、采集历史和分组必须声明。正文所说扩展案例指参考 22 的 ePrint 2015/207，不能直接改指 2016 期刊版。高阶矩推导未复算。
+- 阅读层级：selected_full_text_sections；来源：http://link.springer.com/10.1007/978-3-662-48324-4_25。
+- 已读章节：Complete publisher/ePrint abstracts; publisher PDF p.1, pp.6-7 and pp.14-17 on grouping, acquisition and interpretation; reference 22 on p.18; p.7 rendered; moment derivations not independently checked
+- [详细阅读记录](notes/kyber-foundations-and-saber-lineage-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
+
 ## Conversion from Arithmetic to Boolean Masking with Logarithmic Complexity
 
 - 来源：[FSE 2015](https://doi.org/10.1007/978-3-662-48116-5_7)；时间标记：pre-window foundational reference。
@@ -161,6 +174,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-662-53140-2_16。
 - [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
 - 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
+
+## Leakage assessment methodology: Extended version
+
+- 来源：[JCEN 2016](https://doi.org/10.1007/s13389-016-0120-y)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
+- 作者：Tobias Schneider; Amir Moradi
+- 对象：TVLA, higher-order testing, multivariate testing；类型：evaluation。
+- 核心想法：期刊扩展版讨论高阶与多变量 t 检验的稳定实现及采集方法。
+- 作者报告：摘要报告稳定计算方法、采集建议及设计泄漏案例。
+- 限制与下一步：在线日期为 2016-02-12，卷期为 2016 年；与会议版分列为版本记录，不计作独立新研究。扩展关系根据出版页标题、作者与 CHES 2015 标签推定，尚未逐版全文核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：http://link.springer.com/10.1007/s13389-016-0120-y。
+- 已读章节：Complete publisher abstract and metadata; page labels CHES 2015 and Extended version; main article, appendices and derivations not reviewed
+- [详细阅读记录](notes/kyber-foundations-and-saber-lineage-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
 
 ## Domain-Oriented Masking: Compact Masked Hardware Implementations with Arbitrary Protection Order
 
@@ -397,6 +423,19 @@
 - [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
+## More Practical Single-Trace Attacks on the Number Theoretic Transform
+
+- 来源：[LATINCRYPT 2019](https://doi.org/10.1007/978-3-030-30530-7_7)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
+- 作者：Peter Pessl; Robert Primas
+- 对象：Kyber Round 1, NTT, belief propagation, profiling；类型：attack。
+- 核心想法：结合 HW 模板与信念传播，研究历史 Kyber 恒时实现的单迹线 NTT 输入恢复。
+- 作者报告：实测同一器件的 2000 条迹线分为 1900 条建模与 100 条攻击，83 次正确恢复 NTT 输入；模板数是 213。
+- 限制与下一步：实测仅运行误差多项式的前向 NTT，使用 Round 1 参数，不能外推当前 ML-KEM。三段成功率 0.83³ 是估计，格后处理 95% 来自重组已有实验；单迹线不含剖析成本。位置依赖被观察到，前序指令与供电低通只是作者解释假设。恢复目标是消息/会话材料，非长期私钥。
+- 阅读层级：selected_full_text_sections；来源：https://link.springer.com/10.1007/978-3-030-30530-7_7。
+- 已读章节：Complete ePrint/publisher abstracts; publisher PDF p.1, p.10 and pp.16-18 including hardware setup, position-dependent templates and success-rate interpretation; p.17 rendered
+- [详细阅读记录](notes/kyber-foundations-and-saber-lineage-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
+
 ## Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto
 
 - 来源：[PKC 2019](https://doi.org/10.1007/978-3-030-17259-6_18)；时间标记：pre-window foundational reference。
@@ -592,6 +631,19 @@
 - [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
 - 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
 
+## Drop by Drop you break the rock - Exploiting generic vulnerabilities in Lattice-based PKE/KEMs using EM-based Physical Attacks
+
+- 来源：[ePrint 2020](https://eprint.iacr.org/2020/549)；时间标记：foundation: before frozen 2021-11-12 to 2026-11-12 publication window。
+- 作者：Prasanna Ravi; Shivam Bhasin; Sujoy Sinha Roy; Anupam Chattopadhyay
+- 对象：NewHope, Kyber, Saber, Round5, LAC, message decoding, EM, faults；类型：attack。
+- 核心想法：考察五个历史格 PKE/KEM 实现的消息译码泄漏。
+- 作者报告：摘要分别报告被动 EM、故障以及联合攻击，目标为消息恢复。
+- 限制与下一步：正文访问 403，输入条件、剖析和迹线预算未核实。历史 NIST 第二轮实现不能自动对应最终标准；消息恢复不等于长期私钥恢复。不能将全部结果称为纯被动攻击，也未确立与另列 TCHES 2020 / TIFS 论文的版本等价。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2020/549。
+- 已读章节：Complete ePrint abstract and publication metadata; author publication index used to distinguish separately listed works; PDF unavailable (403)
+- [详细阅读记录](notes/kyber-foundations-and-saber-lineage-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：pending。
+
 ## Breaking Masked and Shuffled CCA Secure Saber KEM by Power Analysis
 
 - 来源：[ASHES 2021](https://doi.org/10.1145/3474376.3487277)；时间标记：within rolling five-year window by publication date。
@@ -706,9 +758,9 @@
 - 作者报告：作者报告低于 3M 周期与低于 12 kB 动态内存；作者稿对关键函数及缩减参数解封装做固定/随机 TVLA。
 - 限制与下一步：JETC 在线于 2021-04-23，早于五年窗口，作为引用基础保留。作者稿完整解封装测试将 l 改为 1；存在最终比较峰和不重复的轻微越界，不能写为整条曲线无泄漏。动态内存不含另存的秘密份额；28 页作者稿与 26 页正式版未逐页比对。
 - 阅读层级：selected_full_text_sections；来源：https://doi.org/10.1145/3429983。
-- 已读章节：Crossref publisher-deposited and ePrint complete abstracts; author-hosted 28-page PDF p.1 and pp.17-20 security evaluation/memory accounting; p.19 rendered
+- 已读章节：Crossref publisher-deposited and ePrint complete abstracts; author-hosted 28-page PDF p.1 and pp.17-20 security evaluation/memory accounting; p.19 rendered; complete 44-reference bibliography on author-PDF pp.24-28 read and inventoried
 - [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
-- 代码/数据核查：official GitHub README read and blob hash checked; source code and executable not audited or run；引用追踪：pending。
+- 代码/数据核查：official GitHub README read and blob hash checked; source code and executable not audited or run；引用追踪：backward bibliography inventoried; eight identities and provisional backgrounds plus recursive/forward coverage remain open。
 
 ## Differential Power Analysis of the Picnic Signature Scheme
 
@@ -1542,7 +1594,7 @@
 - 阅读层级：selected_full_text_sections；来源：https://eprint.iacr.org/2022/058。
 - 已读章节：Current ePrint complete abstract and metadata; author revision dated 2023-12-11 PDF pp.1,7-9 evaluation/conclusion, p.8 plots rendered; NIST 2021 description and author version index; older full text not compared; complete 25-reference bibliography on PDF pp.9-11 read and inventoried
 - [详细阅读记录](notes/ndss2024-physical-observation-and-masking-scope-20261114.md)
-- 代码/数据核查：official GitHub README read and blob hash checked; source code and executable not audited or run；引用追踪：backward bibliography inventoried; unresolved identities, provisional background and recursive/forward coverage pending。
+- 代码/数据核查：official GitHub README read and blob hash checked; source code and executable not audited or run；引用追踪：all four queued printed identities resolved; ten provisional backgrounds, recursive/forward and full-version audit remain open。
 
 ## SoK: Deep Learning-based Physical Side-channel Analysis
 

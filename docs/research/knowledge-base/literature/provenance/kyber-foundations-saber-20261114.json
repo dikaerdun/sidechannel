@@ -1,0 +1,229 @@
+{
+  "reviewed_on": "2026-11-14",
+  "sources": [
+    {
+      "source_id": "kyberbase-drop-eprint",
+      "url": "https://eprint.iacr.org/2020/549",
+      "response_url": "https://eprint.iacr.org/2020/549",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:48:25.809044+00:00",
+      "sha256": "f7173014f358277d514ce42b1deebac2bf43004f04f7f579d0feb54858ec3742",
+      "bytes": 15858,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "kyberbase-drop-pdf",
+      "url": "https://eprint.iacr.org/2020/549.pdf",
+      "response_url": "https://eprint.iacr.org/2020/549.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T21:48:51.945285+00:00",
+      "sha256": "fe196991d026d81a0c3d92eda580460b0389e265e6057e4ede4be8d2c9b712d8",
+      "bytes": 5580,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "kyberbase-keccak-index",
+      "url": "https://keccak.team/papers.html",
+      "response_url": "https://keccak.team/papers.html",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:48:27.250652+00:00",
+      "sha256": "662c4fe5005ca720ed3969bad28d85d69193d42556b3e9679171768ea2c38870",
+      "bytes": 52774,
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "kyberbase-keccak-pdf",
+      "url": "https://keccak.team/files/KeccakDPA.pdf",
+      "response_url": "https://keccak.team/files/KeccakDPA.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:48:53.864280+00:00",
+      "sha256": "23041f63b20b148c533991a24a86b20c22e1ebb3eb564715f43c9fecc396ee7e",
+      "bytes": 365630,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "kyberbase-ntt-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-30530-7_7",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-30530-7_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:48:52.856016+00:00",
+      "sha256": "cb7e5d506fd91a197ae588d13c913a8e799d14b9764b559968b4d32b18c93b33",
+      "bytes": 17300,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "kyberbase-ntt-eprint",
+      "url": "https://eprint.iacr.org/2019/795",
+      "response_url": "https://eprint.iacr.org/2019/795",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:48:25.825867+00:00",
+      "sha256": "b73e3541b40a4f2fe5cd25d32dafa64451283698e1177889601eb890734324c7",
+      "bytes": 15876,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "kyberbase-ntt-pdf",
+      "url": "https://eprint.iacr.org/2019/795.pdf",
+      "response_url": "https://eprint.iacr.org/2019/795.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T21:48:51.964715+00:00",
+      "sha256": "1f697e984d54a228d0aeac352139f3910625628bafe9b954002c6f89626d5a0c",
+      "bytes": 5580,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "kyberbase-ntt-publisher-pdf",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-30530-7_7.pdf?pdf=inline%20link",
+      "response_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-30530-7_7.pdf?pdf=inline+link",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:50:37.507066+00:00",
+      "sha256": "700d1b2bc6018e0ecd47cff6dd82fe09a29543b1d96f0e3c37e98cd3f57fd0cf",
+      "bytes": 548634,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "kyberbase-ntt-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-30530-7_7",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-30530-7_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:49:26.276673+00:00",
+      "sha256": "202295c81f47af5f37f224614fa58e979aaf1cf2a2990830284146d9f4e6068c",
+      "bytes": 373795,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "kyberbase-pessl-index",
+      "url": "https://pessl.cc/",
+      "response_url": "https://pessl.cc/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:49:24.097491+00:00",
+      "sha256": "39cbd3c3c45f91167799a02be7545c99d67d7074b73c418cad9792340e7fa41d",
+      "bytes": 36711,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "kyberbase-ravi-index",
+      "url": "https://www.prasanna-ravi.com/",
+      "response_url": "https://www.prasanna-ravi.com/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:49:24.379760+00:00",
+      "sha256": "0d263d0d70f4a45fa373ccf00c71448442411a416827bb51bc32ab3f5ca76604",
+      "bytes": 652481,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "kyberbase-tvla-conf-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-662-48324-4_25",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-662-48324-4_25",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:48:53.042844+00:00",
+      "sha256": "5ca9e17a4d714b0ecd9accae0f753c4fb4e12fd4cd0706f675b5d76f69409a2d",
+      "bytes": 12949,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "kyberbase-tvla-conf-pdf",
+      "url": "https://iacr.org/archive/ches2015/92930478/92930478.pdf",
+      "response_url": "https://iacr.org/archive/ches2015/92930478/92930478.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T21:48:52.152891+00:00",
+      "sha256": "aaa9c6d00cad7a1bcf2e7c42c8ead611e42c761142c7031abc594c674e437e98",
+      "bytes": 5736,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "kyberbase-tvla-conf-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-662-48324-4_25",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-662-48324-4_25",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:49:25.907775+00:00",
+      "sha256": "4d4985ba43325f055dafe99860b2a654336fdd199973351be3f6b927520fbc43",
+      "bytes": 349679,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "kyberbase-tvla-eprint",
+      "url": "https://eprint.iacr.org/2015/207",
+      "response_url": "https://eprint.iacr.org/2015/207",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:48:26.203158+00:00",
+      "sha256": "39162e8e5da8d90fff41c302272bf2da8cadd1a6c8c08a2d504b91d3992da8ff",
+      "bytes": 15422,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "kyberbase-tvla-journal-crossref",
+      "url": "https://api.crossref.org/works/10.1007/s13389-016-0120-y",
+      "response_url": "https://api.crossref.org/works/10.1007/s13389-016-0120-y",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:48:53.030575+00:00",
+      "sha256": "bbd2a83e3a7dd7550d19958249e1818fe813e39f1e320806a2b45dd818d31538",
+      "bytes": 14666,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "kyberbase-tvla-journal-publisher",
+      "url": "https://link.springer.com/article/10.1007/s13389-016-0120-y",
+      "response_url": "https://link.springer.com/article/10.1007/s13389-016-0120-y",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:48:55.125831+00:00",
+      "sha256": "425dca066cb39458868171b7f0499e70ce2d9449d36b7744378b539be1da5312",
+      "bytes": 310643,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "kyberbase-tvla-publisher-pdf",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-662-48324-4_25.pdf?pdf=inline%20link",
+      "response_url": "https://link.springer.com/content/pdf/10.1007/978-3-662-48324-4_25.pdf?pdf=inline+link",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:50:36.032746+00:00",
+      "sha256": "bd3c0ebab93944f03a6ddfc8289c5cf6c59dfd6e9bfb94777c30e8c45f14d6d1",
+      "bytes": 445224,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss24-kyber-author-pdf",
+      "url": "https://cryptojedi.org/papers/maskedkyber-20231211.pdf",
+      "response_url": "https://cryptojedi.org/papers/maskedkyber-20231211.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:18:48.169742+00:00",
+      "sha256": "a3d219da0c72fde630eb60b6070146017d515bba32909f99c180e37a796f07cc",
+      "bytes": 862688,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss24-saber-pdf",
+      "url": "https://www.esat.kuleuven.be/cosic/pqcrypto/saber/files/maskedSaber.pdf",
+      "response_url": "https://www.esat.kuleuven.be/cosic/pqcrypto/saber/files/maskedSaber.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T21:16:57.396456+00:00",
+      "sha256": "19864438094ab511ed88456aaa619b8b0ac64c0000d666d60434c2a5de0dcd2c",
+      "bytes": 1743619,
+      "content_type": "application/pdf"
+    }
+  ],
+  "new_paper_cards": 4,
+  "upgraded_existing_cards": 1,
+  "new_scope_counts": {
+    "pqc": 2,
+    "general_sca": 2
+  },
+  "resolved_discoveries": 4,
+  "new_pending_discoveries": 8,
+  "new_citation_edges": 18,
+  "new_version_edges": 3,
+  "explicit_new_version_edges": 2,
+  "inferred_new_version_edges": 1,
+  "saber_reference_inventory": {
+    "background_provisional": 22,
+    "linked_catalog": 14,
+    "discovery_queued": 8
+  },
+  "kyber_reference_inventory": {
+    "background_provisional": 10,
+    "linked_catalog": 15
+  },
+  "reading_scope": "Five complete original abstracts, selected Keccak/NTT/CHES 2015 sections, all 44 SABER author-PDF reference positions; no full-paper or proof-complete claim. PDF pages Keccak 12, NTT 17 and CHES 7 visually checked. Existing Keccak identity reused and reading expanded, not counted as a new card.",
+  "scientific_status": "No experiments, simulations, model training or author-code execution; single Codex reading, no independent scientific review.",
+  "access_limits": "Three original PDF requests returned 403; NTT and CHES 2015 publisher PDFs succeeded; Drop by Drop remains abstract-only. JCEN main text not accessed."
+}
