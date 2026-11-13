@@ -1,0 +1,753 @@
+{
+  "updated_on": "2026-11-14",
+  "batch": "mUOV and Falcon floor masking foundations and Gaussian timing",
+  "sources": [
+    {
+      "source_id": "maskrefs-a2b2015-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-662-48116-5_7",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-662-48116-5_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:23.333442+00:00",
+      "sha256": "ad6977dfdba884b27fd4da3b24971faa09da1fc43bd22df00e751072429bef3e",
+      "bytes": 8401,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-a2b2015-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-662-48116-5_7",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-662-48116-5_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:07.399341+00:00",
+      "sha256": "a4f1265761ede936069cad601a6b267ecfeffe1012dd1eef23914fe4cd957a9e",
+      "bytes": 349858,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-b2a2014-crossref-fixed",
+      "url": "https://api.crossref.org/works/10.1007/978-3-662-44709-3_11",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-662-44709-3_11",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:41:54.664976+00:00",
+      "sha256": "e3f9be85b1ef77aa9b927c0b63b5d45302bf36268b4ce9a6adca76cc4d36cdf2",
+      "bytes": 11121,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-b2a2014-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-662-44709-3_11",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-662-44709-3_11",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:01.421436+00:00",
+      "sha256": "c1a4505298f350733df6f857df5787f65223cbbfc092a59680b77f31680cb133",
+      "bytes": 257595,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-b2a2014-query",
+      "url": "https://api.crossref.org/works?query.title=Secure+Conversion+between+Boolean+and+Arithmetic+Masking+of+Any+Order&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Secure+Conversion+between+Boolean+and+Arithmetic+Masking+of+Any+Order&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:21.146770+00:00",
+      "sha256": "50022c064f302a7e26d30862c451542d521a71a65c8249a6a74d0aadb140c847",
+      "bytes": 26169,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-b2a2017-crossref-fixed",
+      "url": "https://api.crossref.org/works/10.1007/978-3-319-66787-4_5",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-319-66787-4_5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:41:55.913779+00:00",
+      "sha256": "33c6a15965adea2631b5ff1f0082582b44602f412a644bae8d22c7de8595aeb4",
+      "bytes": 11966,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-b2a2017-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-66787-4_5",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-319-66787-4_5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:03.999590+00:00",
+      "sha256": "af754667f689999da0e29590988f9bd6f246339965f7c7414d41524d212627eb",
+      "bytes": 382341,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-b2a2017-query",
+      "url": "https://api.crossref.org/works?query.title=High-Order+Conversion+from+Boolean+to+Arithmetic+Masking&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=High-Order+Conversion+from+Boolean+to+Arithmetic+Masking&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:21.199239+00:00",
+      "sha256": "9b548cfc08219bae45e89fd86854bd662089d664cf44f4ef61a38e87f37fd659",
+      "bytes": 19767,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-b2a2018-crossref-fixed",
+      "url": "https://api.crossref.org/works/10.46586/tches.v2018.i2.22-45",
+      "response_url": "https://api.crossref.org/works/10.46586/tches.v2018.i2.22-45",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:41:57.183504+00:00",
+      "sha256": "3150320978aaf497151c723bf86f949a0fe4a2a5a9e099548c89c4dbfdc9f44b",
+      "bytes": 3349,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-b2a2018-crossref",
+      "url": "https://api.crossref.org/works/10.13154/tches.v2018.i2.22-45",
+      "response_url": "https://api.crossref.org/works/10.13154/tches.v2018.i2.22-45",
+      "status": 404,
+      "retrieved_at": "2026-11-13T19:30:23.364411+00:00",
+      "sha256": "ae8462e3af85ca7577aaa97ff22a194f9dfd7fada58cf4944b53d2fdfa7b1f92",
+      "bytes": 19,
+      "content_type": "text/plain",
+      "evidence_use": "HTTP failure only; not scholarly content"
+    },
+    {
+      "source_id": "maskrefs-b2a2018-publisher",
+      "url": "https://tches.iacr.org/index.php/TCHES/article/view/873",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/view/873",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:18.187801+00:00",
+      "sha256": "66e0a51eb8225619d96ce6cd3dd943a15a2e2b76d109d61f1e408283552a02ef",
+      "bytes": 29953,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-bearz-crossref",
+      "url": "https://api.crossref.org/works/10.5220/0007834800610071",
+      "response_url": "https://api.crossref.org/works/10.5220/0007834800610071",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:24.426194+00:00",
+      "sha256": "2745dc1c4c623a6726eafc21a0670b908d7d47379643a9c934002b8135cf2966",
+      "bytes": 2787,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-bearz-eprint",
+      "url": "https://eprint.iacr.org/2019/478",
+      "response_url": "https://eprint.iacr.org/2019/478",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:25.680543+00:00",
+      "sha256": "28316dc1ee364dff6f25a26accceb73532b467af561354d0b6bca9aa95ca4836",
+      "bytes": 16237,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-bearz-pdf",
+      "url": "https://www.scitepress.org/Papers/2019/78348/78348.pdf",
+      "response_url": "https://www.scitepress.org/Papers/2019/78348/78348.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:43:41.721130+00:00",
+      "sha256": "b790c20a6362f38f263cab177e5e956093baaec021fedbab9a55a2fb97731fe9",
+      "bytes": 368455,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "maskrefs-bearz-publisher",
+      "url": "https://www.scitepress.org/PublishedPapers/2019/78348/pdf/index.html",
+      "response_url": "https://www.scitepress.org/PublishedPapers/2019/78348/pdf/index.html",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:28.377701+00:00",
+      "sha256": "8c39ff8282f100e30200ed8e6dd3af85025fc153732e3bd2a6367877cd6a77c7",
+      "bytes": 328897,
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "maskrefs-blissb-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3133956.3134023",
+      "response_url": "https://api.crossref.org/works/10.1145/3133956.3134023",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:24.460334+00:00",
+      "sha256": "fc9795bfeade80fb48895b27778f64d8c2fcb274a56f3f4b9fdf3ba8a4f11856",
+      "bytes": 13646,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-blissb-eprint",
+      "url": "https://eprint.iacr.org/2017/490",
+      "response_url": "https://eprint.iacr.org/2017/490",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:43:35.688199+00:00",
+      "sha256": "b024698ec819398465993462b82cb16c42b00b7350d22fdf7a2cc746c07f6a6e",
+      "bytes": 17640,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-blissb-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3133956.3134023",
+      "response_url": "https://dl.acm.org/doi/10.1145/3133956.3134023",
+      "status": 403,
+      "retrieved_at": "2026-11-13T19:42:15.003513+00:00",
+      "sha256": "dc3c270134cc4bdc5506137f3d5c83b971e454b6925b551f46d855e66fa0d73b",
+      "bytes": 5641,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "HTTP failure only; not scholarly content"
+    },
+    {
+      "source_id": "maskrefs-blissbranch-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3133956.3134028",
+      "response_url": "https://api.crossref.org/works/10.1145/3133956.3134028",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:23.325295+00:00",
+      "sha256": "ce042720cf6d0e56b4965ad6b9fc1f614e7e2f5f2bbf7c5d81d53bd1e9a576b7",
+      "bytes": 5287,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-blissbranch-eprint",
+      "url": "https://eprint.iacr.org/2017/505",
+      "response_url": "https://eprint.iacr.org/2017/505",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:43:35.675827+00:00",
+      "sha256": "d252667e3d67718e5ebbca28966b1b963fd551dabd1d5827fd60be4e7c0efa29",
+      "bytes": 18492,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-blissbranch-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3133956.3134028",
+      "response_url": "https://dl.acm.org/doi/10.1145/3133956.3134028",
+      "status": 403,
+      "retrieved_at": "2026-11-13T19:42:15.115430+00:00",
+      "sha256": "5172834e82325141f70753c9974bd9ec6b1faa7a21293bfcb723bce91eaecb7c",
+      "bytes": 5641,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "HTTP failure only; not scholarly content"
+    },
+    {
+      "source_id": "maskrefs-dom-crossref-fixed",
+      "url": "https://api.crossref.org/works/10.1145/2996366.2996426",
+      "response_url": "https://api.crossref.org/works/10.1145/2996366.2996426",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:41:57.183803+00:00",
+      "sha256": "814517085aa06480b33d6a074c89b6c0e5cee16cb506f96b13536634981d95ec",
+      "bytes": 2987,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-dom-eprint",
+      "url": "https://eprint.iacr.org/2016/486",
+      "response_url": "https://eprint.iacr.org/2016/486",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:09.178811+00:00",
+      "sha256": "acf6dd0e9a9a8a2c7da51115f627130341ed81bd55951761656aeacf4ae2eb2c",
+      "bytes": 16326,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-dom-institution",
+      "url": "https://tugraz.elsevierpure.com/en/publications/domain-oriented-masking-compact-masked-hardware-implementations-w/",
+      "response_url": "https://tugraz.elsevierpure.com/en/publications/domain-oriented-masking-compact-masked-hardware-implementations-w/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:44:15.492857+00:00",
+      "sha256": "2b38c65e62ff7f9335b2ff7f3d13b6e13e9248ce7a11d18819f127a9fe7f6875",
+      "bytes": 66079,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "maskrefs-dom-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/2996366.2996426",
+      "response_url": "https://dl.acm.org/doi/10.1145/2996366.2996426",
+      "status": 403,
+      "retrieved_at": "2026-11-13T19:42:14.237396+00:00",
+      "sha256": "f858be9f83102a26d0fa05e2043aee34a55901ceab40442384dc1bed738db0ef",
+      "bytes": 5641,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "HTTP failure only; not scholarly content"
+    },
+    {
+      "source_id": "maskrefs-dom-query",
+      "url": "https://api.crossref.org/works?query.title=Domain-Oriented+Masking+Compact+Masked+Hardware+Implementations+with+Arbitrary+Protection+Order&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Domain-Oriented+Masking+Compact+Masked+Hardware+Implementations+with+Arbitrary+Protection+Order&rows=3",
+      "status": 429,
+      "retrieved_at": "2026-11-13T19:30:22.241523+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "HTTP failure only; not scholarly content"
+    },
+    {
+      "source_id": "maskrefs-falcon2023-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-031-30634-1_19",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-031-30634-1_19",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:24.586752+00:00",
+      "sha256": "c7f9bd5e4d82be87915c04eba4c08e20ea00ec95c109e43aa71defe4542b1d5d",
+      "bytes": 20734,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-falcon2023-eprint",
+      "url": "https://eprint.iacr.org/2023/224",
+      "response_url": "https://eprint.iacr.org/2023/224",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:25.758970+00:00",
+      "sha256": "f49be78ad1a946f6d23419142f04b2fb69b72e6f4e79c1e76c912c3f7982d3bf",
+      "bytes": 17931,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-falcon2023-pdf",
+      "url": "https://eprint.iacr.org/2023/224.pdf",
+      "response_url": "https://eprint.iacr.org/2023/224.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T19:30:25.949454+00:00",
+      "sha256": "caf7a3c498ef9457750e6d7839b1b233e103294503519df313c02bc432c7bcae",
+      "bytes": 5580,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "HTTP failure only; not scholarly content"
+    },
+    {
+      "source_id": "maskrefs-falcon2023-publisher-pdf",
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-30634-1_19.pdf",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-30634-1_19",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:43:39.343151+00:00",
+      "sha256": "259f8503e72d986245cacb0e0e9fbe82b4864950b71d3f92684e2b45064d96f0",
+      "bytes": 346951,
+      "content_type": "text/html; charset=utf-8",
+      "evidence_use": "HTTP 200 HTML landing-page redirect, not a PDF. Does not establish paper full-text access."
+    },
+    {
+      "source_id": "maskrefs-falcon2023-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-30634-1_19",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-30634-1_19",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:04.795167+00:00",
+      "sha256": "f325f21ed70076828f83538b7e5b1b4bed58cf650adef2318990b29279d2c393",
+      "bytes": 346951,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-falcon2023-slides",
+      "url": "https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/102/slides.pdf",
+      "response_url": "https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/102/slides.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:43:40.043439+00:00",
+      "sha256": "12b2f1fa37e6ada5553b71099c7961b9a56f013cc9c1bf35d7d26aa9dc80ca2f",
+      "bytes": 2846001,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "maskrefs-flushgauss-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-662-53140-2_16",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-662-53140-2_16",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:23.519216+00:00",
+      "sha256": "a9f19671318b48185930f21ce8062aa72477fd93d624d585e4f9790b65fd0920",
+      "bytes": 17090,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-flushgauss-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-662-53140-2_16",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-662-53140-2_16",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:07.486397+00:00",
+      "sha256": "d60480d0d6e293d9605a2d60d2bbf343f075d53ef95226e5c5694db75b258b05",
+      "bytes": 391472,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-gauss2022-crossref-fixed",
+      "url": "https://api.crossref.org/works/10.1186/s42400-022-00113-0",
+      "response_url": "https://api.crossref.org/works/10.1186/s42400-022-00113-0",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:41:58.479296+00:00",
+      "sha256": "c265d53117d3793fdaa1c3b9974543cf97fb6ef0809ae01f67ad311030f75ce2",
+      "bytes": 19575,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-gauss2022-eprint",
+      "url": "https://eprint.iacr.org/2021/199",
+      "response_url": "https://eprint.iacr.org/2021/199",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:43:36.339313+00:00",
+      "sha256": "51b3c2024fa0f5f8975739ff187a1fda6c660497ea1ec03010ab3a28c411364d",
+      "bytes": 16416,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-gauss2022-publisher-pdf",
+      "url": "https://link.springer.com/content/pdf/10.1186/s42400-022-00113-0.pdf",
+      "response_url": "https://link.springer.com/content/pdf/10.1186/s42400-022-00113-0.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:43:46.785769+00:00",
+      "sha256": "942741899ff6b5d35a20b61b8e09730ff3f397cd05c56c559aa3296b59e2d0b6",
+      "bytes": 4822131,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "maskrefs-gauss2022-publisher",
+      "url": "https://link.springer.com/article/10.1186/s42400-022-00113-0",
+      "response_url": "https://link.springer.com/article/10.1186/s42400-022-00113-0",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:13.297012+00:00",
+      "sha256": "70ea35a89029570d1e5dccbbeabe65db40b0fcc5443fb8d65e60d82c65ffc24e",
+      "bytes": 498298,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-hashretry-eprint",
+      "url": "https://eprint.iacr.org/2024/609",
+      "response_url": "https://eprint.iacr.org/2024/609",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:25.689547+00:00",
+      "sha256": "3d02440479156bafc0848a314ff53f7ffa29fa801a355f67290fec539d0cfcaa",
+      "bytes": 17906,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-hashretry-query",
+      "url": "https://api.crossref.org/works?query.title=New+Security+Proofs+and+Techniques+for+Hash-and-Sign+with+Retry+Signature+Schemes&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=New+Security+Proofs+and+Techniques+for+Hash-and-Sign+with+Retry+Signature+Schemes&rows=3",
+      "status": 429,
+      "retrieved_at": "2026-11-13T19:30:20.948444+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "HTTP failure only; not scholarly content"
+    },
+    {
+      "source_id": "maskrefs-isochronous-author-pdf",
+      "url": "https://tprest.github.io/pdf/pub/isochronous-gaussian-sampling.pdf",
+      "response_url": "https://tprest.github.io/pdf/pub/isochronous-gaussian-sampling.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:43:38.717922+00:00",
+      "sha256": "7793c1ba34e10405d19e2b72d41277782f398570fe512d18c3a205444c1ab45b",
+      "bytes": 8165790,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "maskrefs-isochronous-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-44223-1_4",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-44223-1_4",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:24.416234+00:00",
+      "sha256": "a5702f81408196a8fdf1b4aef9f86eccc697859e6892b8f81027f88ae1ed49ca",
+      "bytes": 27393,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-isochronous-eprint",
+      "url": "https://eprint.iacr.org/2019/1411",
+      "response_url": "https://eprint.iacr.org/2019/1411",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:25.686274+00:00",
+      "sha256": "19a4b287b2b4330e5b515072dc2d9b595bb4feb690733a68db1873553dd8dc06",
+      "bytes": 15526,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-isochronous-pdf",
+      "url": "https://eprint.iacr.org/2019/1411.pdf",
+      "response_url": "https://eprint.iacr.org/2019/1411.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T19:30:26.156114+00:00",
+      "sha256": "7ea160dfa551eee056f28a35b9ade597d898ab15b821a9c8f18f1e5aa3eca1d9",
+      "bytes": 5583,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "HTTP failure only; not scholarly content"
+    },
+    {
+      "source_id": "maskrefs-isochronous-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-44223-1_4",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-44223-1_4",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:08.156199+00:00",
+      "sha256": "470f5b8d4372b5a206b2e58ee7f0ced0abba5b3bee07e8c810bdd16e395f74f4",
+      "bytes": 361376,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-kocher-crossref",
+      "url": "https://api.crossref.org/works/10.1007/3-540-68697-5_9",
+      "response_url": "https://api.crossref.org/works/10.1007/3-540-68697-5_9",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:24.432014+00:00",
+      "sha256": "b2087d2fa03b1ccb2554acd46b76ea2f52e340b73ccd1d3541c6aec2113cb81d",
+      "bytes": 5112,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-kocher-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-68697-5_9",
+      "response_url": "https://link.springer.com/chapter/10.1007/3-540-68697-5_9",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:10.326351+00:00",
+      "sha256": "43d636e8125e3d9168d18877280db491b5e1d3065319b6668d36aa2e314398a1",
+      "bytes": 237714,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-lazy-crossref-fixed",
+      "url": "https://api.crossref.org/works/10.1007/978-3-319-16763-3_5",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-319-16763-3_5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:43:37.799892+00:00",
+      "sha256": "40db3d9c20d3985f42cd391027d49feff85ec880759bcf46e5044b8049fcad8a",
+      "bytes": 15155,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-lazy-eprint",
+      "url": "https://eprint.iacr.org/2014/413",
+      "response_url": "https://eprint.iacr.org/2014/413",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:08.754486+00:00",
+      "sha256": "73bf9c3b463a691e34f0065487651659006ca33f9f5016db2132fb6dfc31bb62",
+      "bytes": 15987,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-lazy-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-16763-3_5",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-319-16763-3_5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:00.684640+00:00",
+      "sha256": "bb38ad45d7faace736e6e53074c9f6f55a0f8029f32ec19c1869a141b5ac316e",
+      "bytes": 322523,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-lazy-query",
+      "url": "https://api.crossref.org/works?query.title=On+the+Cost+of+Lazy+Engineering+for+Masked+Software+Implementations&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=On+the+Cost+of+Lazy+Engineering+for+Masked+Software+Implementations&rows=3",
+      "status": 429,
+      "retrieved_at": "2026-11-13T19:30:20.992521+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "HTTP failure only; not scholarly content"
+    },
+    {
+      "source_id": "maskrefs-lowlatency-crossref-fixed",
+      "url": "https://api.crossref.org/works/10.46586/tches.v2018.i2.1-21",
+      "response_url": "https://api.crossref.org/works/10.46586/tches.v2018.i2.1-21",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:41:55.927326+00:00",
+      "sha256": "b49f2879db0e195d6ffe1e6033e3681cb0e45e2a5cc97c6d8cc3dac1d11bced7",
+      "bytes": 3858,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-lowlatency-eprint",
+      "url": "https://eprint.iacr.org/2017/1223",
+      "response_url": "https://eprint.iacr.org/2017/1223",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:09.761578+00:00",
+      "sha256": "68b8d2ec3127041436cdc72858128162f78ac3f7a5dc7006256eb90346b37680",
+      "bytes": 15630,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-lowlatency-query",
+      "url": "https://api.crossref.org/works?query.title=Generic+Low-Latency+Masking+in+Hardware&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Generic+Low-Latency+Masking+in+Hardware&rows=3",
+      "status": 429,
+      "retrieved_at": "2026-11-13T19:30:22.226200+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "HTTP failure only; not scholarly content"
+    },
+    {
+      "source_id": "maskrefs-maskverif-crossref-fixed",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-29959-0_15",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-29959-0_15",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:41:54.662003+00:00",
+      "sha256": "4f13b0c74b820111419b5e2aacc610d939bedca2e61ce538fbd56bbe8962b8ea",
+      "bytes": 23474,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-maskverif-eprint",
+      "url": "https://eprint.iacr.org/2018/562",
+      "response_url": "https://eprint.iacr.org/2018/562",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:43:35.572970+00:00",
+      "sha256": "f0efed918f9b624f6b9438789f7c5fa187e7f42644f02c78354e67b7013ee95a",
+      "bytes": 16305,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-maskverif-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-29959-0_15",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-29959-0_15",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:00.684587+00:00",
+      "sha256": "1378b1f2d306332e31629fa250841a00717ce7eaa8096a7c35df1d7e9bb9fd78",
+      "bytes": 408539,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-maskverif-query",
+      "url": "https://api.crossref.org/works?query.title=maskVerif+Automated+Verification+of+Higher-Order+Masking+in+Presence+of+Physical+Defaults&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=maskVerif+Automated+Verification+of+Higher-Order+Masking+in+Presence+of+Physical+Defaults&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:21.193350+00:00",
+      "sha256": "d3d3faa2ae86e07ec0d327ae6f8ba4286494b38e5007178ff6d98a2ec32d99d6",
+      "bytes": 26991,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-pini-author-pdf",
+      "url": "https://perso.uclouvain.be/fstandae/PUBLIS/237.pdf",
+      "response_url": "https://perso.uclouvain.be/fstandae/PUBLIS/237.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:14.459976+00:00",
+      "sha256": "9e4406a45fd6fc05243ae1ce60b4769cd072bd90b589dd17b3c47d7f2a1d0ec2",
+      "bytes": 499267,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "maskrefs-pini-crossref",
+      "url": "https://api.crossref.org/works/10.1109/tifs.2020.2971153",
+      "response_url": "https://api.crossref.org/works/10.1109/tifs.2020.2971153",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:23.398964+00:00",
+      "sha256": "0855ac81bca2fefc4392c74f42543eda08fc33bb614a3f6a270586ce810dca54",
+      "bytes": 7364,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-pini-publisher",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8979162/",
+      "response_url": "https://ieeexplore.ieee.org/abstract/document/8979162/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:15.461223+00:00",
+      "sha256": "0c406c413f260ee1a8b2a005503da6197e8984e85823353c3adcf250ccb38212",
+      "bytes": 55062,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "maskrefs-powerbook-crossref-fixed",
+      "url": "https://api.crossref.org/works/10.1007/978-0-387-38162-6",
+      "response_url": "https://api.crossref.org/works/10.1007/978-0-387-38162-6",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:41:57.301418+00:00",
+      "sha256": "daa14f09a19df2e7d7a8f897c3c8e903cf93fafa129e94bb2172b07d8430ffb8",
+      "bytes": 2907,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-powerbook-publisher",
+      "url": "https://link.springer.com/book/10.1007/978-0-387-38162-6",
+      "response_url": "https://link.springer.com/book/10.1007/978-0-387-38162-6",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:12.709153+00:00",
+      "sha256": "3271f65a49bbf4ec6b64e72742629e8813f7757ae6e09aabea0b173a44656763",
+      "bytes": 291499,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-powerbook-query",
+      "url": "https://api.crossref.org/works?query.title=Power+Analysis+Attacks+Revealing+the+Secrets+of+Smart+Cards&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Power+Analysis+Attacks+Revealing+the+Secrets+of+Smart+Cards&rows=3",
+      "status": 429,
+      "retrieved_at": "2026-11-13T19:30:22.246762+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "HTTP failure only; not scholarly content"
+    },
+    {
+      "source_id": "maskrefs-robust-query",
+      "url": "https://api.crossref.org/works?query.title=Composable+Masking+Schemes+in+the+Presence+of+Physical+Defaults+and+the+Robust+Probing+Model&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Composable+Masking+Schemes+in+the+Presence+of+Physical+Defaults+and+the+Robust+Probing+Model&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:22.437158+00:00",
+      "sha256": "e6114fd3e339e541f93872992db5206823a264d2c59826985edd65c1c0ac4f5d",
+      "bytes": 41950,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-uov2018-crossref",
+      "url": "https://api.crossref.org/works/10.1016/j.future.2018.04.083",
+      "response_url": "https://api.crossref.org/works/10.1016/j.future.2018.04.083",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:30:25.495661+00:00",
+      "sha256": "5cab442fe6b693def864817baadfdaa055955c8708f89068f684115cfae11c9e",
+      "bytes": 15814,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-wire-crossref-fixed",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-84252-9_8",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-84252-9_8",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:41:56.037435+00:00",
+      "sha256": "abd6a803359435c737659ae3feb9b7ad93d4172014a04cc6bcff89116b87ee15",
+      "bytes": 15617,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "maskrefs-wire-eprint",
+      "url": "https://eprint.iacr.org/2021/258",
+      "response_url": "https://eprint.iacr.org/2021/258",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:10.078641+00:00",
+      "sha256": "c9c0576012db3b16b1954429bad963353d0c07dc99b4296a633c84f8d70829a6",
+      "bytes": 13756,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-wire-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-84252-9_8",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-84252-9_8",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:42:04.374013+00:00",
+      "sha256": "2345221a7a056d1ce2492139c20d5e957ef24f086cbb798de6f1626a5367a0c9",
+      "bytes": 454261,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "maskrefs-wire-query",
+      "url": "https://api.crossref.org/works?query.title=Secure+Wire+Shuffling+in+the+Probing+Model&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Secure+Wire+Shuffling+in+the+Probing+Model&rows=3",
+      "status": 429,
+      "retrieved_at": "2026-11-13T19:30:22.005891+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "HTTP failure only; not scholarly content"
+    },
+    {
+      "source_id": "maskrefs-lowlatency-publisher",
+      "url": "https://tches.iacr.org/index.php/TCHES/article/view/871",
+      "response_url": "https://tches.iacr.org/index.php/TCHES/article/view/871",
+      "status": 200,
+      "retrieved_at": "2026-11-13T19:54:16.085431+00:00",
+      "sha256": "312da51b45d2d6956436190c637bb79cbc733b284f4e19435e2a5486bbd550b9",
+      "bytes": 27685,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "counts": {
+    "new_catalog_records": 21,
+    "new_cards": 18,
+    "new_decisions": 21,
+    "resolved_discoveries": 20,
+    "new_citation_edges": 21,
+    "new_version_edges": 11,
+    "verified_new_versions": 8,
+    "inferred_new_versions": 3,
+    "new_selected_reference_positions": 1,
+    "new_pending_discoveries": 0
+  },
+  "reading_note": "notes/masking-foundations-gaussian-timing-and-falcon-20261114.md",
+  "scope_note": "Frozen window 2021-11-12 to 2026-11-12; 2022 Gaussian and 2023 Falcon are within-window include records. Other include records are pre-window foundations; no experiments or author-code execution.",
+  "gaps": [
+    "UOV 2018 primary abstract/full text remains blocked despite matched DOI",
+    "Falcon 2023 paper PDF remains unavailable; accessible author presentation is not paper full text; physical vs simulated recovery conditions still pending",
+    "Gaussian 2022 only selected reference 22 screened; 44 others and forward coverage pending",
+    "DOM formal abstract and ePrint area figures differ; inferred relation, not full-version equality",
+    "Lazy engineering, DOM and Gaussian 2022 preprint links inferred, not explicit publication statements",
+    "Book physical format not specified by cited entry; separate edition/publication dates retained",
+    "mUOV final ACM reference list not compared; 24+10 provisional background positions and recursive closure remain",
+    "Core venue-year coverage and full subject screening remain incomplete"
+  ]
+}

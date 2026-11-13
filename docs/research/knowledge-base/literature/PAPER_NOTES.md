@@ -2,7 +2,19 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 461 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 479 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+
+## Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
+
+- 来源：[CRYPTO 1996](https://doi.org/10.1007/3-540-68697-5_9)；时间标记：pre-window foundational reference。
+- 作者：Paul C. Kocher
+- 对象：RSA, Diffie-Hellman, DSS, timing；类型：timing attack。
+- 核心想法：建立私钥运算耗时与秘密推断的基础研究入口。
+- 作者报告：摘要说明准确计时条件下对固定 DH 指数、RSA 等对象的风险，并讨论部分防护。
+- 限制与下一步：1996 年基础文献；摘要中的潜在网络应用不等于任意现代实现可远程利用，未读全部算法与实测。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/3-540-68697-5_9。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
 
 ## Differential Power Analysis
 
@@ -90,6 +102,42 @@
 - [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
+## On the Cost of Lazy Engineering for Masked Software Implementations
+
+- 来源：[CARDIS 2014](https://doi.org/10.1007/978-3-319-16763-3_5)；时间标记：pre-window foundational reference。
+- 作者：Josep Balasch; Benedikt Gierlichs; Vincent Grosso; Oscar Reparaz; François-Xavier Standaert
+- 对象：masking, transition leakage, compiler；类型：leakage model and evaluation。
+- 核心想法：量化从中间值泄漏模型转到转换泄漏模型时的掩码保证损失。
+- 作者报告：摘要给出安全阶数折半的模型归约，并报告两款微控制器上的手写/编译汇编及随机性复用比较。
+- 限制与下一步：CARDIS 举办年为 2014，章节出版为 2015；折半结果带有模型与实现条件，不能视为所有掩码必然失效。仅摘要，平台细节未读。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-319-16763-3_5。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
+
+## Secure Conversion between Boolean and Arithmetic Masking of Any Order
+
+- 来源：[CHES 2014](https://doi.org/10.1007/978-3-662-44709-3_11)；时间标记：pre-window foundational reference。
+- 作者：Jean-Sébastien Coron; Johann Großschädl; Praveen Kumar Vadnala
+- 对象：B2A, A2B, HMAC-SHA-1, ISW；类型：masking conversion。
+- 核心想法：提出任意阶布尔与算术掩码双向转换。
+- 作者报告：摘要给出两方向 O(n²k) 复杂度与 ISW 框架证明，并报告 32 位 AVR 上 HMAC-SHA-1 周期。
+- 限制与下一步：窗口外基础文献；复杂度变量 n 为阶数、k 为位宽。模型证明与周期评估不能自动推出功耗实测无泄漏。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-662-44709-3_11。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
+
+## Conversion from Arithmetic to Boolean Masking with Logarithmic Complexity
+
+- 来源：[FSE 2015](https://doi.org/10.1007/978-3-662-48116-5_7)；时间标记：pre-window foundational reference。
+- 作者：Jean-Sébastien Coron; Johann Großschädl; Mehdi Tibouchi; Praveen Kumar Vadnala
+- 对象：A2B, Kogge-Stone, Boolean addition；类型：masking conversion。
+- 核心想法：用 Kogge-Stone 进位结构将 A2B 及布尔份额加法的位宽复杂度改为对数级。
+- 作者报告：摘要证明一阶保护，报告 k=64 时相对 Goubin 算法约 23% 提升。
+- 限制与下一步：本篇摘要的证明范围是一阶，不能因被高阶采样论文引用就标为任意阶转换。窗口外，仅摘要。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-662-48116-5_7。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
+
 ## Strong Non-Interference and Type-Directed Higher-Order Masking
 
 - 来源：[CCS 2016](https://doi.org/10.1145/2976749.2978427)；时间标记：outside rolling five-year window; cited foundation。
@@ -101,6 +149,30 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2015/506; https://api.crossref.org/works/10.1145/2976749.2978427。
 - [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## Flush, Gauss, and Reload – A Cache Attack on the BLISS Lattice-Based Signature Scheme
+
+- 来源：[CHES 2016](https://doi.org/10.1007/978-3-662-53140-2_16)；时间标记：pre-window foundational reference。
+- 作者：Leon Groot Bruinderink; Andreas Hülsing; Tanja Lange; Yuval Yarom
+- 对象：BLISS, Flush+Reload, Gaussian sampler；类型：attack。
+- 核心想法：从离散 Gaussian 采样器的缓存访问获得辅助信息并恢复 BLISS 密钥。
+- 作者报告：正式摘要分别报告理想侧信道 450 签名与真实 Flush+Reload 概念验证不足 3500 签名；理想情形成功率 0.96。
+- 限制与下一步：450 与不足 3500 属于不同观察模型，不能只取较小值作为实测预算；摘要为两款 CPU 的证据，不是功耗波形测量。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-662-53140-2_16。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
+
+## Domain-Oriented Masking: Compact Masked Hardware Implementations with Arbitrary Protection Order
+
+- 来源：[TIS 2016](https://doi.org/10.1145/2996366.2996426)；时间标记：pre-window foundational reference。
+- 作者：Hannes Gross; Stefan Mangard; Thomas Korak
+- 对象：DOM, AES, threshold implementations；类型：hardware masking。
+- 核心想法：提出 domain-oriented masking 的硬件组织方法；此记录对应 mUOV 实际引用的 TIS 摘要。
+- 作者报告：机构摘要报告 AES 综合至第 15 保护阶、至第二保护阶的 t-test 评估，以及一阶每 S-box 18 随机位。
+- 限制与下一步：会议摘要报告约 6 kGE，而 ePrint 摘要为 7.1 kGE；不合并面积数字。高阶综合不等于相同阶数物理验证，机构摘要有重复段落。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://tugraz.elsevierpure.com/en/publications/domain-oriented-masking-compact-masked-hardware-implementations-w/。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
 
 ## Towards Sound and Optimal Leakage Detection Procedure
 
@@ -124,6 +196,42 @@
 - 限制与下一步：恒时与功能证明有指定观察模型；不能将 2017 工作解释为覆盖后来 Spectre 或物理功耗的一般保证。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://researchportal.ip-paris.fr/en/publications/jasmin-high-assurance-and-high-speed-cryptography/。
 - 代码/数据核查：not checked；引用追踪：pending。
+
+## Side-Channel Attacks on BLISS Lattice-Based Signatures: Exploiting Branch Tracing against strongSwan and Electromagnetic Emanations in Microcontrollers
+
+- 来源：[CCS 2017](https://doi.org/10.1145/3133956.3134028)；时间标记：pre-window foundational reference。
+- 作者：Thomas Espitau; Pierre-Alain Fouque; Benoît Gérard; Mehdi Tibouchi
+- 对象：BLISS, strongSwan, branch tracing, EMA, rejection sampling；类型：attack。
+- 核心想法：分别利用拒绝采样、Gaussian 采样和稀疏乘法泄漏分析 BLISS。
+- 作者报告：摘要报告相对范数路线的因子分解条件、strongSwan 单次执行分支跟踪恢复，以及 AVR 单条 EMA 的整数规划路线。
+- 限制与下一步：三条路线的访问能力与密钥条件不能混合；相对范数路线只覆盖满足条件的密钥。历史 BLISS 不等于当前标准化方案。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2017/505。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
+
+## To BLISS-B or not to be: Attacking strongSwan's Implementation of Post-Quantum Signatures
+
+- 来源：[CCS 2017](https://doi.org/10.1145/3133956.3134023)；时间标记：pre-window foundational reference。
+- 作者：Peter Pessl; Leon Groot Bruinderink; Yuval Yarom
+- 对象：BLISS-B, strongSwan, cache, LPN；类型：attack。
+- 核心想法：推进 BLISS/BLISS-B 密钥恢复，并在 strongSwan 上研究异步缓存观测。
+- 作者报告：作者摘要报告综合 LPN、整数规划、似然与格约简的恢复流程，约观察 6000 次签名生成。
+- 限制与下一步：明确区分前作概念验证与本作生产实现；6000 为摘要报告，完整测量/后处理成本未审。历史软件版本不自动适用于当前部署。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2017/490。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
+
+## High-Order Conversion from Boolean to Arithmetic Masking
+
+- 来源：[CHES 2017](https://doi.org/10.1007/978-3-319-66787-4_5)；时间标记：pre-window foundational reference。
+- 作者：Jean-Sébastien Coron
+- 对象：B2A, ISW, Hutter-Tunstall；类型：masking conversion and cryptanalysis。
+- 核心想法：给出复杂度不依赖寄存器位宽的高阶 B2A，并分析旧转换算法。
+- 作者报告：作者摘要报告小阶数性能提升，并给出针对 Hutter-Tunstall 三阶算法的三阶攻击及 t≥4 算法的四阶攻击。
+- 限制与下一步：攻击对象是特定 Hutter-Tunstall 构造，不是对所有高阶转换的否定；仅读正式摘要，未审完整证明。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-319-66787-4_5。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
 
 ## Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption
 
@@ -170,6 +278,42 @@
 - 限制与下一步：形式探针保证与概念实现不等于真实平台任意阶泄漏验证；与 2024 年期刊版分列并建立版本关系。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-319-78375-8_12。
 - 代码/数据核查：not checked；引用追踪：pending。
+
+## Composable Masking Schemes in the Presence of Physical Defaults & the Robust Probing Model
+
+- 来源：[TCHES 2018](https://doi.org/10.46586/tches.v2018.i3.89-120)；时间标记：pre-window foundational reference。
+- 作者：Sebastian Faust; Vincent Grosso; Santos Merino Del Pozo; Clara Paglialonga; François-Xavier Standaert
+- 对象：robust probing, glitches, composability；类型：masking theory。
+- 核心想法：以 robust probing 模型同时研究物理效应鲁棒性和掩码组合。
+- 作者报告：作者构造并证明高阶、鲁棒、可组合乘法部件，强调它们与既有 ISW/TI/DOM 类方案的实现差别。
+- 限制与下一步：2018 年模型结果；物理默认效应只在具体形式化范围内覆盖，不能替代部署实现评估。摘要来自出版商提交的 Crossref。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/works?query.title=Composable+Masking+Schemes+in+the+Presence+of+Physical+Defaults+and+the+Robust+Probing+Model&rows=3。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
+
+## Generic Low-Latency Masking in Hardware
+
+- 来源：[TCHES 2018](https://doi.org/10.46586/tches.v2018.i2.1-21)；时间标记：pre-window foundational reference。
+- 作者：Hannes Gross; Rinat Iusupov; Roderick Bloem
+- 对象：DOM, AES, Ascon, latency；类型：hardware masking。
+- 核心想法：通过避免非线性份额碰撞及调整份额压缩，交换延迟、面积与随机性。
+- 作者报告：摘要报告单周期和双周期一阶 AES S-box 的不同成本，并对 Ascon 部件进行至三阶形式验证。
+- 限制与下一步：无在线随机性是特定极端变体，不能与所有压缩输出变体混用；形式验证阶数、综合规模及物理安全是不同证据。旧 DOI 保留。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/works/10.46586/tches.v2018.i2.1-21。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
+
+## Improved High-Order Conversion From Boolean to Arithmetic Masking
+
+- 来源：[TCHES 2018](https://doi.org/10.46586/tches.v2018.i2.22-45)；时间标记：pre-window foundational reference。
+- 作者：Luk Bettale; Jean-Sébastien Coron; Rina Zeitoun
+- 对象：B2A, ISW, mask refreshing；类型：masking conversion。
+- 核心想法：简化 2017 年高阶 B2A 的掩码刷新，在 ISW 探针模型下保持证明。
+- 作者报告：出版商摘要报告实际实现约快 25%。
+- 限制与下一步：窗口外基础论文；25% 为相对所比较转换算法，不能当作完整 PQC 应用提速。被引旧 DOI 与当前 Crossref DOI 均保留。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/works/10.46586/tches.v2018.i2.22-45。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
 
 ## Practical CCA2-Secure and Masked Ring-LWE Implementation
 
@@ -228,6 +372,18 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-16350-1_14。
 - [详细阅读记录](notes/pqc-citation-followups-and-evidence-20261113.md)
 - 代码/数据核查：no author code or data executed; artifact contents not inspected；引用追踪：pending except explicitly inventoried citations。
+
+## maskVerif: Automated Verification of Higher-Order Masking in Presence of Physical Defaults
+
+- 来源：[ESORICS 2019](https://doi.org/10.1007/978-3-030-29959-0_15)；时间标记：pre-window foundational reference。
+- 作者：Gilles Barthe; Sonia Belaïd; Gaëtan Cassiers; Pierre-Alain Fouque; Benjamin Grégoire; Francois-Xavier Standaert
+- 对象：masking, glitches, transitions, maskVerif；类型：formal verification。
+- 核心想法：自动验证含毛刺或转换泄漏模型下的高阶掩码，并研究组合条件。
+- 作者报告：作者以概率信息流方法扩展掩码验证，处理传统独立泄漏假设在物理默认效应下的失效。
+- 限制与下一步：窗口外基础论文；工具在指定模型下的验证不等于任意 CMOS 的实测安全。仅读摘要。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-29959-0_15。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
 
 ## FPGA Implementation and Comparison of Protections Against SCAs for RLWE
 
@@ -348,6 +504,19 @@
 - [详细阅读记录](notes/pqc-citation-followups-and-evidence-20261113.md)
 - 代码/数据核查：no author code or data executed; artifact contents not inspected；引用追踪：pending except explicitly inventoried citations。
 
+## Isochronous Gaussian Sampling: From Inception to Implementation: With Applications to the Falcon Signature Scheme
+
+- 来源：[PQCrypto 2020](https://doi.org/10.1007/978-3-030-44223-1_4)；时间标记：pre-window foundational reference。
+- 作者：James Howe; Thomas Prest; Thomas Ricosset; Mélissa Rossi
+- 对象：Gaussian sampler, FALCON, SAGA, isochrony；类型：timing countermeasure。
+- 核心想法：以 isochrony 描述随机运行时间与指定敏感量独立或统计接近，并提供 SAGA 采样测试。
+- 作者报告：作者稿第 4 页给出定义，第 9 页 Theorem 8 在基本整数/浮点运算 isochronous 等前提下论证采样时间分布。
+- 限制与下一步：isochrony 不要求每次耗时相等，也不保护功耗/EM。原语时序、σ 范围及散度前提不可省略；作者稿与正式章节未全量比对。
+- 阅读层级：selected_full_text_sections；来源：https://link.springer.com/chapter/10.1007/978-3-030-44223-1_4。
+- 已读章节：Publisher/ePrint abstracts; author 25-page PDF pages 4 and 9, Definition 4, Theorem 8, Corollary 9 and SAGA introduction. Page 9 visually checked; proofs and full artifact coverage not read.
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：One explicit 2022 -> 2020 citation verified; full backward/forward closure pending。
+
 ## The Last Mile: High-Assurance and High-Speed Cryptographic Implementations
 
 - 来源：[SP 2020](https://doi.org/10.1109/sp40000.2020.00028)；时间标记：outside rolling window; cited foundation retained。
@@ -410,6 +579,19 @@
 - [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
+## Trivially and Efficiently Composing Masked Gadgets With Probe Isolating Non-Interference
+
+- 来源：[TIFS 2020](https://doi.org/10.1109/tifs.2020.2971153)；时间标记：pre-window foundational reference。
+- 作者：Gaetan Cassiers; Francois-Xavier Standaert
+- 对象：PINI, SNI, MIMO-SNI, AES；类型：composable masking。
+- 核心想法：以份额位置约束定义 PINI，简化部件组合，并讨论多输入多输出组合。
+- 作者报告：作者提出组合定理及乘法部件，比较 AES 与轻量密码性能；作者稿引言明确抽象探针安全只是实现分析的一步。
+- 限制与下一步：仅读出版摘要及作者稿第 1 页摘要/引言，未完整审查定理；不能从 PINI 自动外推毛刺、转换或其他实际物理效应。
+- 阅读层级：selected_full_text_sections；来源：https://ieeexplore.ieee.org/abstract/document/8979162/。
+- 已读章节：Publisher full abstract; author 13-page PDF page 1 abstract and introduction only. Formal theorems and benchmarks not fully read.
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
+
 ## Breaking Masked and Shuffled CCA Secure Saber KEM by Power Analysis
 
 - 来源：[ASHES 2021](https://doi.org/10.1145/3474376.3487277)；时间标记：within rolling five-year window by publication date。
@@ -455,6 +637,18 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-98365-9_4。
 - [详细阅读记录](notes/pqc-citation-followups-and-evidence-20261113.md)
 - 代码/数据核查：no author code or data executed; artifact contents not inspected；引用追踪：pending except explicitly inventoried citations。
+
+## Secure Wire Shuffling in the Probing Model
+
+- 来源：[CRYPTO 2021](https://doi.org/10.1007/978-3-030-84252-9_8)；时间标记：pre-window foundational reference。
+- 作者：Jean-Sébastien Coron; Lorenzo Spignoli
+- 对象：wire shuffling, probing, AES；类型：countermeasure theory。
+- 核心想法：改进线打乱在最坏情形探针模型中的统计安全构造。
+- 作者报告：摘要报告相对于探针数 t 的线性开销，并给出 AES 实现在 t≥6000 时超过所比较掩码实现的条件。
+- 限制与下一步：CRYPTO 2021 于五年截点之前；统计安全与传统掩码的完美安全不同，不能将 t≥6000 的比较外推为常见低阶硬件优势。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-84252-9_8。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
 
 ## FALCON Down: Breaking FALCON Post-Quantum Signature Scheme through Side-Channel Attacks
 
@@ -659,6 +853,19 @@
 - 已读章节：六页作者 PDF 第 1 页摘要、第 4 页 §IV 指定模型与 §V.A 平台设置；未阅读全文结果表。
 - [详细阅读记录](notes/kyber-multiplication-and-shuffling-20261113.md)
 - 代码/数据核查：not inspected；引用追踪：pending。
+
+## Generic, efficient and isochronous Gaussian sampling over the integers
+
+- 来源：[Cybersecurity 2022](https://doi.org/10.1186/s42400-022-00113-0)；时间标记：within frozen rolling window。
+- 作者：Shuo Sun; Yongbin Zhou; Yunfeng Ji; Rui Zhang; Yang Tao
+- 对象：Gaussian sampler, FALCON, PALISADE, COSAC, isochrony；类型：timing countermeasure。
+- 核心想法：组合指数 Bernoulli 采样与不同 Gaussian 采样变体，分别定义所保护敏感量。
+- 作者报告：正文表 1 区分 Type I/II/III；作者报告 FALCON 已建 LDL 树后的签名提速和 PALISADE 在线阶段收益。
+- 限制与下一步：表 1 脚注提醒 COSAC 与 Algorithm 8 的拒绝率可能依赖中心；不能把它们当成保护 σ/c/z 的 Type I。整数及若干浮点原语 isochronous 是前提，除法等需预计算。
+- 阅读层级：selected_full_text_sections；来源：https://link.springer.com/article/10.1186/s42400-022-00113-0。
+- 已读章节：Publisher full abstract; formal PDF pages 3 and 5 (Table 1, footnotes, contributions, Definition 2 and primitive assumptions), page 21 data-availability statement; HTML reference 22. Pages 3 and 5 visually checked; remaining proofs not fully read.
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：One explicit 2022 -> 2020 citation verified; full backward/forward closure pending。
 
 ## Branch Different - Spectre Attacks on Apple Silicon
 
@@ -1415,6 +1622,18 @@
 - 已读章节：机构接受稿 PDF 第 1 页版本封面、第 2 页摘要/引言、第 5 页 §VI.C–VII 和第 6 页指定表格段落；非完整复现。
 - [详细阅读记录](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)
 - 代码/数据核查：not checked；引用追踪：pending。
+
+## Improved Power Analysis Attacks on Falcon
+
+- 来源：[EUROCRYPT 2023](https://doi.org/10.1007/978-3-031-30634-1_19)；时间标记：within frozen rolling window。
+- 作者：Shiduo Zhang; Xiuhan Lin; Yang Yu; Weijia Wang
+- 对象：Falcon-512, Mitaka, Gaussian sampler, covariance, sign leakage；类型：attack。
+- 核心想法：以协方差谱分解改进基本采样泄漏利用，并研究整数采样的随机符号泄漏。
+- 作者报告：正式摘要分列 220000 traces/约 25% 成功率、170000 traces 的符号路线，以及两泄漏组合的 45000 signature measurements。
+- 限制与下一步：三种预算和成功条件不可混合；仅摘要明确了 Cortex-M4 漏点，完整恢复的测量/模拟划分仍待正文。IACR 作者幻灯选读不代替论文全文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-30634-1_19。
+- [详细阅读记录](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)
+- 代码/数据核查：no author code or data executed; artifact completeness not inspected；引用追踪：pending except selected verified Gaussian follow-up。
 
 ## A Shared Key Recovery Attack on a Masked Implementation of CRYSTALS-Kyber’s Encapsulation Algorithm
 
@@ -3076,7 +3295,7 @@
 - 阅读层级：selected_full_text_sections；来源：https://eprint.iacr.org/2024/1875。
 - 已读章节：NIST-hosted author manuscript: PDF page 1; pages 15-18 (composition caveat, implementation, TVLA, performance); pages 19-22 bibliography and discussion; page 23 Appendix A only. Page 17 table/figure visually checked. Remaining proofs and appendices not fully reviewed.
 - [详细阅读记录](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)
-- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：52 author-manuscript entries screened: 18 linked, 10 pending, 24 provisional background; not closure。
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：52 author-manuscript entries: 27 linked, 1 pending, 24 provisional background; final ACM bibliography and recursive/forward closure pending。
 
 ## Masking Gaussian Elimination at Arbitrary Order with Application to Multivariate-and Code-Based PQC
 
@@ -3102,7 +3321,7 @@
 - 阅读层级：selected_full_text_sections；来源：https://cic.iacr.org/p/1/4/9。
 - 已读章节：Formal publisher PDF pages 1, 18-23: abstract, performance Tables 5-6, conclusion, all 31 bibliography positions; page 19 visually checked. Author 22-page PDF pages 1, 16-22 also consulted, but formal bibliography controls this inventory. Proofs not fully reviewed.
 - [详细阅读记录](notes/muov-followups-and-masked-sampling-20261114.md)
-- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：pending except explicit inventories。
+- 代码/数据核查：no author code/data executed; artifact completeness not inspected；引用追踪：31 formal reference positions: 21 linked, 0 pending identities, 10 provisional background; target full texts and recursive/forward closure pending。
 
 ## A Practical Tutorial on Deep Learning-based Side-channel Analysis
 

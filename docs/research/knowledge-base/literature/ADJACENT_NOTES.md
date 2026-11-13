@@ -1,6 +1,20 @@
 # 已阅读的相邻主题与方法背景
 
-当前 346 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 349 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+
+## Power Analysis Attacks: Revealing the Secrets of Smart Cards
+
+- 来源：[Springer book 2007](https://doi.org/10.1007/978-0-387-38162-6)。
+- 判定依据：基础专著的出版商简介及第一版日期已核对，保留相邻参考入口，不将整本书或简介当作近五年研究论文/全文阅读。
+- 阅读来源：https://link.springer.com/book/10.1007/978-0-387-38162-6。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## BEARZ Attack FALCON: Implementation Attacks with Countermeasures on the FALCON Signature Scheme
+
+- 来源：[SECRYPT 2019](https://doi.org/10.5220/0007834800610071)。
+- 判定依据：主要为 Falcon 故障分析：100% 恢复对应故障后处理模拟；另讨论故障与计时防护成本。未证明完整功耗/EM 实测恢复，保留相邻层。
+- 阅读来源：https://eprint.iacr.org/2019/478。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA
 
@@ -715,6 +729,13 @@
 - 判定依据：CI cache 指依赖包缓存对象的隔离、投毒和直接敏感文件暴露；不是 CPU cache 时序侧信道。作为跨信任域缓存设计背景保留。
 - 阅读来源：https://xplorestaging.ieee.org/document/10646699/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## New Security Proofs and Techniques for Hash-and-Sign with Retry Signature Schemes
+
+- 来源：[IACR ePrint 2024](https://eprint.iacr.org/2024/609)。
+- 判定依据：实际被引 ePrint 2024/609 研究 Hash-and-Sign with Retry 的经典安全界，应用于 MAYO/PROV/修改 UOV；是安全证明背景，没有物理观察验证，不能当作更紧量子安全界。
+- 阅读来源：https://eprint.iacr.org/2024/609。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Nibbling MAYO: Optimized Implementations for AVX2 and Cortex-M4
 

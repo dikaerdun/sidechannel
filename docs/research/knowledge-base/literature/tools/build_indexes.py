@@ -75,8 +75,8 @@ def render_citations(root,catalogs):
       '[DL-BSCA 引用清单](citations/usenix2025-blind-reference-screen.jsonl) · [TEEcorrelate 六条选读](citations/usenix2025-tee-reference-screen.jsonl) · [盲分析与计数器防护证据](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)','',
       'MORE 的 27 条出版商引用已完整初筛：3 条对应、19 条待查、5 条暂列背景；只完成列表初筛，没有递归闭合。',
       '[MORE 引用清单](citations/more2024-reference-screen.jsonl) · [本批版本与防护范围](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)','',
-      'mUOV 的 NIST 托管作者稿全部 52 条参考位置已初筛：18 条目录对应、10 条待查、24 条暂列背景；最终 ACM 参考列表尚未对照，未完成递归或前向闭合。',
-      '后续解析 mUOV 七条发现，并完成 floor 正式版 31 条引用初筛：10 条对应、11 条待查、10 条暂列背景。Maskaglia 只核对参考 5；ICCD 浮点转换仍为元数据线索。见 [接续笔记](notes/muov-followups-and-masked-sampling-20261114.md)。',
+      'mUOV 的 NIST 托管作者稿全部 52 条参考位置已初筛：27 条目录对应、1 条待查、24 条暂列背景；剩余 UOV 2018 完整原始摘要未取得。最终 ACM 参考列表尚未对照，未完成递归或前向闭合。',
+      'floor 正式版 31 条引用现为 21 条对应、0 条待查身份、10 条暂列背景；身份解析不代表全文、背景与递归闭合。2022 Gaussian 参考 22 已核实指向 2020 sampler，其余 44 条未筛。Maskaglia 只核对参考 5；ICCD 浮点转换仍为元数据线索。见 [掩码与采样接续](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)。',
       '[mUOV 引用清单](citations/muov2025-reference-screen.jsonl) · [CCS 2025 掩码与观察边界](notes/ccs2025-masking-contracts-and-observation-boundaries-20261114.md)','',
       'Swallow 作者 PDF 的 37 个参考位置已全部初筛：10 条目录对应、15 条待查、11 条暂列背景、一个重复位置。第 19 条重复第 18 条，不重复计边；实际被引预印本年份与后续正式版本分开保留。',
       '[Swallow 引用清单](citations/swallow2025-reference-screen.jsonl) · [CCS 2025 指标与迁移范围](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)','',
@@ -210,7 +210,7 @@ def main():
                 toc_label=f"[{toc['print_toc_records']} 条对应{toc_caveat}]({toc['provenance_file']})" if toc else '待核对'
             lines.append(f'| {venue} | {year} | {n if n else "待补齐"} | {toc_label} | {title_reviewed}/{n} | {reviewed}/{n} | {link} |')
     lines.extend(['','## 当前已知缺口','',
-      '- CCS 2025 的 316 条标题及 34 篇选定摘要已读，282 篇摘要仍待复核。官方日程与录用表的 DOI 集合一致，但同源列表不算独立出版目录核对。Co-Prime/GAPDiS 原始摘要仍待取得；BFId、HW-Spy、Swallow 的迁移和指标限制见 [第二轮笔记](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)。Swallow 37 个引用位置新增 15 条待查。mUOV 的模型、机械验证与缩小参数一阶检测范围分别记录；ML-Cube 的缓存缓解仍待正文。作者稿 52 条引用初筛的 17 条待查已解析七条；另补 floor 的 31 条正式引用与 Maskaglia 选读，见 [接续笔记](notes/muov-followups-and-masked-sampling-20261114.md)。',
+      '- CCS 2025 的 316 条标题及 34 篇选定摘要已读，282 篇摘要仍待复核。官方日程与录用表的 DOI 集合一致，但同源列表不算独立出版目录核对。Co-Prime/GAPDiS 原始摘要仍待取得；BFId、HW-Spy、Swallow 的迁移和指标限制见 [第二轮笔记](notes/ccs2025-second-pass-metrics-transfer-and-access-20261114.md)。Swallow 37 个引用位置保留 15 条待查。mUOV 的模型、机械验证与缩小参数一阶检测范围分别记录；ML-Cube 的缓存缓解仍待正文。mUOV 最初 17 条发现现已解析 16 条，UOV 2018 待完整摘要；floor 11 条身份已解析，十条背景和递归追踪未闭合，见 [掩码与采样接续](notes/masking-foundations-gaussian-timing-and-falcon-20261114.md)。',
       '- S&P 2022、2023、2024、2025 与 USENIX 2025、2026 共六个单元已和另取的论文集目录逐项对应；S&P 2026 部分对应（252/254，缺两条），其余 23 个单元待独立核对。同一个 HTML 的两种导出不算独立证据，目录核对也不是独立科学审查。',
       '- USENIX 2025 的 438 条标题及 103 篇选定摘要已读，335 篇摘要仍待复核。438 条与印刷目录逐项对应，但主席致辞 407+32=439 的总数差异未解决。DL-BSCA 的单系数 GE、真实 HW 选点与 TEEcorrelate 的模拟/成本估计及公式问题见 [证据笔记](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)；原 38 条引用发现已解析 12 条，其余 26 条及 MORE 新增 19 条继续追踪。',
       '- USENIX 2026 的 381 个议程节点已分为 362 篇论文和 19 条其他活动；2016 论文的回顾讨论不计作 2026 新论文。362 个标题已读、76 篇有摘要及以上判定，286 篇摘要仍待复核。五条 SDitH 及后续 CiC/HQC 的 23 条发现已解析；继续沿 Falcon/HQC RM/RS 登记 21 条新线索，仍不构成递归闭合。目录一处 L∞/L_infinity 仅为数学记号差异。',

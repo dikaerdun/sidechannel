@@ -319,6 +319,7 @@
 | ASPLOS | [AfterImage: Leaking Control Flow Data and Tracking Load Operations via the Hardware Prefetcher](https://doi.org/10.1145/3575693.3575719) | abstract_and_bibliographic_metadata |
 | DIMVA | [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) | abstract_and_bibliographic_metadata |
 | ETS | [A Side-Channel Attack on a Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1109/ets56758.2023.10174000) | selected_full_text_sections |
+| EUROCRYPT | [Improved Power Analysis Attacks on Falcon](https://doi.org/10.1007/978-3-031-30634-1_19) | abstract_and_bibliographic_metadata |
 | FPS | [A Shared Key Recovery Attack on a Masked Implementation of CRYSTALS-Kyber’s Encapsulation Algorithm](https://doi.org/10.1007/978-3-031-57537-2_26) | abstract_and_bibliographic_metadata |
 | IACR ePrint | [An End-to-end Plaintext-based Side-channel Collision Attack without Trace Segmentation](https://eprint.iacr.org/2023/1109) | abstract_and_bibliographic_metadata |
 | IACR ePrint | [Lightweight but Not Easy: Side-channel Analysis of the Ascon Authenticated Cipher on a 32-bit Microcontroller](https://eprint.iacr.org/2023/1598) | abstract_and_bibliographic_metadata |
@@ -374,6 +375,7 @@
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
 | AsianHOST | [Vulnerable PQC against Side Channel Analysis - A Case Study on Kyber](https://doi.org/10.1109/asianhost56390.2022.10022165) | selected_full_text_sections |
+| Cybersecurity | [Generic, efficient and isochronous Gaussian sampling over the integers](https://doi.org/10.1186/s42400-022-00113-0) | selected_full_text_sections |
 | DIMVA | [Branch Different - Spectre Attacks on Apple Silicon](https://doi.org/10.1007/978-3-031-09484-2_7) | abstract_and_bibliographic_metadata |
 | EUROCRYPT | [Mitaka: A Simpler, Parallelizable, Maskable Variant of Falcon](https://doi.org/10.1007/978-3-031-07082-2_9) | selected_full_text_sections |
 | FPT | [A Masked Pure-Hardware Implementation of Kyber Cryptographic Algorithm](https://doi.org/10.1109/icfpt56656.2022.9974404) | abstract_and_bibliographic_metadata |
@@ -441,6 +443,7 @@
 | ASIACCS | [Red Alert for Power Leakage: Exploiting Intel RAPL-Induced Side Channels](https://doi.org/10.1145/3433210.3437517) | abstract_and_bibliographic_metadata |
 | ASIACRYPT | [A Systematic Approach and Analysis of Key Mismatch Attacks on Lattice-Based NIST Candidate KEMs](https://doi.org/10.1007/978-3-030-92068-5_4) | abstract_and_bibliographic_metadata |
 | CBCrypto | [Information-Set Decoding with Hints](https://doi.org/10.1007/978-3-030-98365-9_4) | abstract_and_bibliographic_metadata |
+| CRYPTO | [Secure Wire Shuffling in the Probing Model](https://doi.org/10.1007/978-3-030-84252-9_8) | abstract_and_bibliographic_metadata |
 | DAC | [FALCON Down: Breaking FALCON Post-Quantum Signature Scheme through Side-Channel Attacks](https://doi.org/10.1109/dac18074.2021.9586131) | selected_full_text_sections |
 | HOST | [Single-Trace Side-Channel Attacks on ω-Small Polynomial Sampling: With Applications to NTRU, NTRU Prime, and CRYSTALS-DILITHIUM](https://doi.org/10.1109/host49136.2021.9702284) | abstract_and_bibliographic_metadata |
 | ICCD | [An Efficient Non-Profiled Side-Channel Attack on the CRYSTALS-Dilithium Post-Quantum Signature](https://doi.org/10.1109/iccd53106.2021.00094) | selected_full_text_sections |
@@ -470,11 +473,13 @@
 | IEEE Access | [Single-Trace Attacks on Message Encoding in Lattice-Based KEMs](https://doi.org/10.1109/access.2020.3029521) | abstract_and_bibliographic_metadata |
 | PLDI | [Constant-time foundations for the new spectre era](https://doi.org/10.1145/3385412.3385970) | abstract_and_bibliographic_metadata |
 | PQCrypto | [Defeating NewHope with a Single Trace](https://doi.org/10.1007/978-3-030-44223-1_11) | abstract_and_bibliographic_metadata |
+| PQCrypto | [Isochronous Gaussian Sampling: From Inception to Implementation: With Applications to the Falcon Signature Scheme](https://doi.org/10.1007/978-3-030-44223-1_4) | selected_full_text_sections |
 | SP | [The Last Mile: High-Assurance and High-Speed Cryptographic Implementations](https://doi.org/10.1109/sp40000.2020.00028) | selected_full_text_sections |
 | SPACE | [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) | abstract_and_bibliographic_metadata |
 | TCHES | [Generic Side-channel attacks on CCA-secure lattice-based PKE and KEMs](https://doi.org/10.46586/tches.v2020.i3.307-335) | abstract_and_bibliographic_metadata |
 | TCHES | [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) | selected_full_text_sections |
 | TCHES | [Single-Trace Attacks on Keccak](https://doi.org/10.46586/tches.v2020.i3.243-268) | abstract_and_bibliographic_metadata |
+| TIFS | [Trivially and Efficiently Composing Masked Gadgets With Probe Isolating Non-Interference](https://doi.org/10.1109/tifs.2020.2971153) | selected_full_text_sections |
 
 ## 2019
 
@@ -483,6 +488,7 @@
 | ACNS | [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) | abstract_and_bibliographic_metadata |
 | CARDIS | [An Efficient and Provable Masked Implementation of qTESLA](https://doi.org/10.1007/978-3-030-42068-0_5) | abstract_and_bibliographic_metadata |
 | COSADE | [Practical Evaluation of Masking for NTRUEncrypt on ARM Cortex-M4](https://doi.org/10.1007/978-3-030-16350-1_14) | abstract_and_bibliographic_metadata |
+| ESORICS | [maskVerif: Automated Verification of Higher-Order Masking in Presence of Physical Defaults](https://doi.org/10.1007/978-3-030-29959-0_15) | abstract_and_bibliographic_metadata |
 | INDOCRYPT | [FPGA Implementation and Comparison of Protections Against SCAs for RLWE](https://doi.org/10.1007/978-3-030-35423-7_27) | abstract_and_bibliographic_metadata |
 | PKC | [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) | selected_full_text_sections |
 | SAC | [A Timing Attack on the HQC Encryption Scheme](https://doi.org/10.1007/978-3-030-38471-5_22) | abstract_and_bibliographic_metadata |
@@ -493,6 +499,9 @@
 |---|---|---|
 | CCS | [Measuring Information Leakage in Website Fingerprinting Attacks and Defenses](https://doi.org/10.1145/3243734.3243832) | abstract_and_bibliographic_metadata |
 | EUROCRYPT | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | abstract_and_bibliographic_metadata |
+| TCHES | [Composable Masking Schemes in the Presence of Physical Defaults & the Robust Probing Model](https://doi.org/10.46586/tches.v2018.i3.89-120) | abstract_and_bibliographic_metadata |
+| TCHES | [Generic Low-Latency Masking in Hardware](https://doi.org/10.46586/tches.v2018.i2.1-21) | abstract_and_bibliographic_metadata |
+| TCHES | [Improved High-Order Conversion From Boolean to Arithmetic Masking](https://doi.org/10.46586/tches.v2018.i2.22-45) | abstract_and_bibliographic_metadata |
 | TCHES | [Practical CCA2-Secure and Masked Ring-LWE Implementation](https://doi.org/10.46586/tches.v2018.i1.142-174) | abstract_and_bibliographic_metadata |
 | TCHES | [Side-Channel Attacks on Post-Quantum Signature Schemes based on Multivariate Quadratic Equations: - Rainbow and UOV -](https://doi.org/10.46586/tches.v2018.i3.500-523) | abstract_and_bibliographic_metadata |
 
@@ -502,6 +511,9 @@
 |---|---|---|
 | CARDIS | [Towards Sound and Optimal Leakage Detection Procedure](https://doi.org/10.1007/978-3-319-75208-2_7) | abstract_and_bibliographic_metadata |
 | CCS | [Jasmin: High-Assurance and High-Speed Cryptography](https://doi.org/10.1145/3133956.3134078) | abstract_and_bibliographic_metadata |
+| CCS | [Side-Channel Attacks on BLISS Lattice-Based Signatures: Exploiting Branch Tracing against strongSwan and Electromagnetic Emanations in Microcontrollers](https://doi.org/10.1145/3133956.3134028) | abstract_and_bibliographic_metadata |
+| CCS | [To BLISS-B or not to be: Attacking strongSwan's Implementation of Post-Quantum Signatures](https://doi.org/10.1145/3133956.3134023) | abstract_and_bibliographic_metadata |
+| CHES | [High-Order Conversion from Boolean to Arithmetic Masking](https://doi.org/10.1007/978-3-319-66787-4_5) | abstract_and_bibliographic_metadata |
 | CHES | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | abstract_and_bibliographic_metadata |
 | DSD | [Higher-Order Side-Channel Protected Implementations of KECCAK](https://doi.org/10.1109/dsd.2017.21) | abstract_and_bibliographic_metadata |
 
@@ -510,6 +522,21 @@
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
 | CCS | [Strong Non-Interference and Type-Directed Higher-Order Masking](https://doi.org/10.1145/2976749.2978427) | abstract_and_bibliographic_metadata |
+| CHES | [Flush, Gauss, and Reload – A Cache Attack on the BLISS Lattice-Based Signature Scheme](https://doi.org/10.1007/978-3-662-53140-2_16) | abstract_and_bibliographic_metadata |
+| TIS | [Domain-Oriented Masking: Compact Masked Hardware Implementations with Arbitrary Protection Order](https://doi.org/10.1145/2996366.2996426) | abstract_and_bibliographic_metadata |
+
+## 2015
+
+| 来源 | 论文 | 阅读层级 |
+|---|---|---|
+| FSE | [Conversion from Arithmetic to Boolean Masking with Logarithmic Complexity](https://doi.org/10.1007/978-3-662-48116-5_7) | abstract_and_bibliographic_metadata |
+
+## 2014
+
+| 来源 | 论文 | 阅读层级 |
+|---|---|---|
+| CARDIS | [On the Cost of Lazy Engineering for Masked Software Implementations](https://doi.org/10.1007/978-3-319-16763-3_5) | abstract_and_bibliographic_metadata |
+| CHES | [Secure Conversion between Boolean and Arithmetic Masking of Any Order](https://doi.org/10.1007/978-3-662-44709-3_11) | abstract_and_bibliographic_metadata |
 
 ## 2012
 
@@ -542,3 +569,9 @@
 |---|---|---|
 | CRYPTO | [Differential Power Analysis](https://doi.org/10.1007/3-540-48405-1_25) | abstract_and_bibliographic_metadata |
 | CRYPTO | [Towards Sound Approaches to Counteract Power-Analysis Attacks](https://doi.org/10.1007/3-540-48405-1_26) | abstract_and_bibliographic_metadata |
+
+## 1996
+
+| 来源 | 论文 | 阅读层级 |
+|---|---|---|
+| CRYPTO | [Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems](https://doi.org/10.1007/3-540-68697-5_9) | abstract_and_bibliographic_metadata |

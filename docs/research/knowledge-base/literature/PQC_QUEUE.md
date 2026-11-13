@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6755 条，其中 424 条命中后量子相关关键词。
+当前目录记录 6776 条，其中 430 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -282,6 +282,7 @@
 | 2023 CCS | [SALSA PICANTE: A Machine Learning Attack on LWE with Binary Secrets](https://www.sigsac.org/ccs/CCS2023/program.html) | pending |
 | 2023 CCS | [Verifiable Mix-Nets and Distributed Decryption for Voting from Lattice-Based Assumptions](https://www.sigsac.org/ccs/CCS2023/program.html) | pending |
 | 2023 ETS | [A Side-Channel Attack on a Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1109/ets56758.2023.10174000) | include |
+| 2023 EUROCRYPT | [Improved Power Analysis Attacks on Falcon](https://doi.org/10.1007/978-3-031-30634-1_19) | include |
 | 2023 FPS | [A Shared Key Recovery Attack on a Masked Implementation of CRYSTALS-Kyber’s Encapsulation Algorithm](https://doi.org/10.1007/978-3-031-57537-2_26) | include |
 | 2023 ICCAD | [Invited Paper: Machine Learning Based Blind Side-Channel Attacks on PQC-Based KEMs - A Case Study of Kyber KEM](https://doi.org/10.1109/iccad57390.2023.10323721) | include |
 | 2023 JCEN | [A side-channel attack on a masked and shuffled software implementation of Saber](https://doi.org/10.1007/s13389-023-00315-3) | include |
@@ -417,6 +418,7 @@
 | 2020 CRYPTO | [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) | include |
 | 2020 IEEE Access | [Single-Trace Attacks on Message Encoding in Lattice-Based KEMs](https://doi.org/10.1109/access.2020.3029521) | include |
 | 2020 PQCrypto | [Defeating NewHope with a Single Trace](https://doi.org/10.1007/978-3-030-44223-1_11) | include |
+| 2020 PQCrypto | [Isochronous Gaussian Sampling: From Inception to Implementation: With Applications to the Falcon Signature Scheme](https://doi.org/10.1007/978-3-030-44223-1_4) | include |
 | 2020 SPACE | [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) | include |
 | 2020 TCHES | [Generic Side-channel attacks on CCA-secure lattice-based PKE and KEMs](https://doi.org/10.46586/tches.v2020.i3.307-335) | include |
 | 2020 TCHES | [Single-Trace Attacks on Keccak](https://doi.org/10.46586/tches.v2020.i3.243-268) | include |
@@ -425,8 +427,12 @@
 | 2019 INDOCRYPT | [FPGA Implementation and Comparison of Protections Against SCAs for RLWE](https://doi.org/10.1007/978-3-030-35423-7_27) | include |
 | 2019 PKC | [Efficiently Masking Binomial Sampling at Arbitrary Orders for Lattice-Based Crypto](https://doi.org/10.1007/978-3-030-17259-6_18) | include |
 | 2019 SAC | [A Timing Attack on the HQC Encryption Scheme](https://doi.org/10.1007/978-3-030-38471-5_22) | include |
+| 2019 SECRYPT | [BEARZ Attack FALCON: Implementation Attacks with Countermeasures on the FALCON Signature Scheme](https://doi.org/10.5220/0007834800610071) | adjacent |
 | 2018 EUROCRYPT | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | include |
 | 2018 Future Generation Computer Systems | [Side-channel security analysis of UOV signature for cloud-based Internet of Things](https://doi.org/10.1016/j.future.2018.04.083) | pending |
 | 2018 TCHES | [Practical CCA2-Secure and Masked Ring-LWE Implementation](https://doi.org/10.46586/tches.v2018.i1.142-174) | include |
 | 2018 TCHES | [Side-Channel Attacks on Post-Quantum Signature Schemes based on Multivariate Quadratic Equations: - Rainbow and UOV -](https://doi.org/10.46586/tches.v2018.i3.500-523) | include |
+| 2017 CCS | [Side-Channel Attacks on BLISS Lattice-Based Signatures: Exploiting Branch Tracing against strongSwan and Electromagnetic Emanations in Microcontrollers](https://doi.org/10.1145/3133956.3134028) | include |
+| 2017 CCS | [To BLISS-B or not to be: Attacking strongSwan's Implementation of Post-Quantum Signatures](https://doi.org/10.1145/3133956.3134023) | include |
 | 2017 CHES | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | include |
+| 2016 CHES | [Flush, Gauss, and Reload – A Cache Attack on the BLISS Lattice-Based Signature Scheme](https://doi.org/10.1007/978-3-662-53140-2_16) | include |
