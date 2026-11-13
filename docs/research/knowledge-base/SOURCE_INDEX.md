@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-13 构思增补：[随机源反馈、求解难度与物理状态发现](brainstorms/2026-11-13-randomness-feedback-hardness-state-discovery.md)记录振荡器随机源、NIST 熵源说明、distribution hints、结构化提示与计算力学五个原始页面的摘要及元数据阅读。区分熵源耦合与最终随机性、合成约束实验与实际功耗、预测状态与物理因果。没有全文证明复核、独立验证或新增文献卡片。
+
 2026-11-13 打乱引用接续：[来源与哈希](literature/provenance/kyber-shuffle-followup-20261113.json)保存七条发现解析、全部 17 条种子引用、NIST 错误 DOI、出版年份及访问限制。[证据笔记](literature/notes/kyber-shuffle-followups-and-evidence-20261113.md)区分零值过滤计算时间和迹线、裁减 FPGA 与完整原设计、消息/会话恢复及长期私钥。新增九条卡片，升级已有 JCEN 卡片，未运行作者代码。
 2026-11-13 第十一批构思增补：[算法约束自校准、隐藏编码与可感知测量](brainstorms/2026-11-13-self-calibration-hidden-encoding-observer.md)记录盲校准、ExSASCA、SCAUL、EVIL Machine、联合编码防护、Renesas SRAM ECC 说明及探头检测论文七项原始页面的阅读范围。两项 Tektronix 页面直接访问 403，未据搜索片段建立事实。手工理想见证与现实机制分开，未运行实验或增加正式文献卡片。
 

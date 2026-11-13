@@ -16,6 +16,8 @@
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-13 增补[随机源反馈及两项研究深化](brainstorms/2026-11-13-randomness-feedback-hardness-state-discovery.md)：新种子 BOLD-40 先交实际耦合闭环、调理器与可见性；BOLD-14 的深化先交两套约束及完整求解成本；BOLD-22 与原型 M 的深化先交两个竞争状态模型及分叉干预。后两项不重复计为新机制。用户安排他人验证，随机源方向保留小规模探索机会；详见[交接记录](records/2026-11-13-randomness-hardness-state-handoff.md)。未运行实验、仿真、训练或派发任务，原有文献与实验接续保持不变。
+
 2026-11-13 增补[第十一批 BOLD-20261113-37 至 39](brainstorms/2026-11-13-self-calibration-hidden-encoding-observer.md)：37 先交联合标定的可辨识性与锚点；38 先交实际编码矩阵、份额布局和节点关系；39 先交只改读出与改变状态演化的竞争预测。验证由用户另行安排，39 保留小规模探索机会，详见[交接记录](records/2026-11-13-calibration-encoding-observer-handoff.md)。未运行实验、仿真、训练或派发任务，文献普查及历史实验接续保持不变。
 
 2026-11-13 增补[三个研究原型 E、R、M](brainstorms/2026-11-13-echo-representations-mechanism-discovery.md)：E 先交可实现的响应反向操作对及间隔扫描预测；R 先交小内核的正确表示图、转换成本与不变量；M 先交两个竞争机制和使预测分叉的合法干预。它们细化 RP-A、RP-C，不增加 BOLD 编号；E 保留小规模探索机会。用户安排其他人验证，详见[交接记录](records/2026-11-13-echo-representation-discovery-handoff.md)。没有执行实验或派发任务，文献普查接续保持不变。

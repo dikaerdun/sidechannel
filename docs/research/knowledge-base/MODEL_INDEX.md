@@ -4,6 +4,10 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-13 追加 [BOLD-20261113-40 随机源反馈](brainstorms/2026-11-13-randomness-feedback-hardness-state-discovery.md)：计算可能通过共享物理环境影响熵源，再经真实调理器进入防护。分层检查耦合、调理后关系和实际可见性。同文深化 BOLD-14 的总求解成本及 BOLD-22/原型 M 的跨内核状态预测，后两项不增加种子编号。均待用户安排他人验证，无新实验；详见[交接记录](records/2026-11-13-randomness-hardness-state-handoff.md)。
+
+补齐索引：[BOLD-20261113-37 至 39](brainstorms/2026-11-13-self-calibration-hidden-encoding-observer.md)及[原型 E R M](brainstorms/2026-11-13-echo-representations-mechanism-discovery.md)已在此前批次发布，状态仍为待验证。当前共追踪 40 条 BOLD 种子，编号数量不代表独立机制或已确认发现的数量。
+
 2026-11-13 追加 [BOLD-20261113-34 至 36](brainstorms/2026-11-13-key-device-seeds-scaling.md)：合法密钥与器件的风险交互、种子展开及重建政策、防护阶数与实际资源共同变化的边界。三项均为**待验证提案**，将追踪种子扩至 36 条，不宣称三个独立新机制；详见[第十批交接](records/2026-11-13-key-seed-scaling-handoff.md)。用户另行安排验证，无新实验或独立核验。
 
 2026-11-13 将既有 33 条 BOLD 种子组织为[三条研究主线 RP-A 至 C](brainstorms/2026-11-13-three-research-programs.md)：物理状态发现、物理关系计算、实现与泄漏说明的共同设计。均待验证，不增加独立机制数量，不升级下表实验状态；详见[交接记录](records/2026-11-13-research-programs-handoff.md)。用户另行安排验证者。
