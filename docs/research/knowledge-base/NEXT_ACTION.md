@@ -42,6 +42,8 @@ ICCAD Kyber、CSUR、OT-PCA 与 Aegis 身份已对应；继续补 Kyber 分类�
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-14 增补[自我观察、密钥选择与动态防护](brainstorms/2026-11-14-self-observation-key-selection-adaptive-defense.md)。先分别提交内部与外部观察的覆盖条件或盲区、器件条件下的密钥重加权及密码学后果、包含配置痕迹与物理历史的动态策略模型。第一项保留一次理论诊断。三项深化已有种子，待用户安排他人验证；未执行或派发任务，见[本轮交接](records/2026-11-14-self-observation-selection-strategy-handoff.md)。定位性阅读未增加正式文献卡片。
+
 2026-11-14 增补[硬件适应、公开可模拟波形与稀有泄漏路径](brainstorms/2026-11-14-adaptive-hardware-simulation-rare-paths.md)。验证者先交真实反馈与策略更新规则、明确观察范围内的模拟命题、无需测试秘密标签的事件定义与首次进入预测。第二项保留理论诊断机会；三项深化现有种子，验证由用户安排，见[交接记录](records/2026-11-14-adaptation-simulation-rare-paths-handoff.md)。未运行实验、仿真、训练或派发任务。
 
 2026-11-14 增补[器件条件、噪声响应与判定边界几何](brainstorms/2026-11-14-population-noise-response-boundaries.md)。验证者先交固定设备参数与合法校准、共享参数的噪声与响应模型、真实离散分区及留出输入方向预测。第二项保留长期物理诊断机会；第一项区分混合通道与平均单机风险，第三项需比较已有判定预言机研究。三项深化既有方向，不增加种子计数，验证由用户安排，见[交接记录](records/2026-11-14-population-response-boundary-handoff.md)。未运行实验或派发任务。
