@@ -38,6 +38,8 @@ ICCAD Kyber、CSUR、OT-PCA 与 Aegis 身份已对应；继续补 Kyber 分类�
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-14 增补[器件条件、噪声响应与判定边界几何](brainstorms/2026-11-14-population-noise-response-boundaries.md)。验证者先交固定设备参数与合法校准、共享参数的噪声与响应模型、真实离散分区及留出输入方向预测。第二项保留长期物理诊断机会；第一项区分混合通道与平均单机风险，第三项需比较已有判定预言机研究。三项深化既有方向，不增加种子计数，验证由用户安排，见[交接记录](records/2026-11-14-population-response-boundary-handoff.md)。未运行实验或派发任务。
+
 2026-11-14 增补[瞬态响应、顺序放大与防护相容性](brainstorms/2026-11-14-transients-switching-compatibility.md)。验证者先交有物理坐标的响应模型与留出脉冲预测、两种正确编排及状态转移、有限实现库的满足解或相容约束冲突。相容性方向保留理论诊断；A、B 同属动力学路线。用户安排他人验证，本轮未派发或执行实验任务，不增加种子计数；见[交接记录](records/2026-11-14-transient-switching-compatibility-handoff.md)。
 
 2026-11-14 增补[跨密钥关系、光子事件与后量子求解成本](brainstorms/2026-11-14-key-populations-photon-events-quantum-costs.md)。验证者先交有无合法锚点的小型关系图及资源转换、合法电路与同次光子事件预算、有限 PQC 约束实例及完整求解资源表。光子方向保留远期诊断。用户安排验证，本轮未派发或执行任务，不增加种子计数，见[交接记录](records/2026-11-14-key-photon-quantum-handoff.md)。
