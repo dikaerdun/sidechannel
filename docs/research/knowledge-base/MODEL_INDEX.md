@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-14 追加[物理遗忘、份额的时空隔离与可逆计算](brainstorms/2026-11-14-physical-forgetting-spacetime-reversible-computation.md)：分别要求考虑既有记录的未来观察界限、真实传播图与联合观察条件、能量和可区分性的完整记账。三项深化已有方向，BOLD 种子仍为 40 条；可逆计算保留远期理论诊断，验证由用户安排，无新实验或独立核验。见[交接记录](records/2026-11-14-forgetting-spacetime-reversible-handoff.md)。
+
 2026-11-14 追加[回路关系、正确性裕量与防护后的信息迁移](brainstorms/2026-11-14-cycle-relations-correctness-margins-leakage-migration.md)：分别要求真实依赖图中的闭合不变量、正确工作区域内的留出响应预测、固定总预算下的全生命周期任务比较。另保留三个开放问题。三项深化旧方向，BOLD 种子仍为 40 条；待用户安排他人验证，无实验或独立核验。见[交接记录](records/2026-11-14-cycle-margin-migration-handoff.md)。
 
 2026-11-14 追加[算法噪声的侧信息、高维去匿名化与跨尺度模型](brainstorms/2026-11-14-noise-labels-anonymity-and-scale.md)：分别研究物理标签如何改变困难问题、关系约束如何消除部分排列歧义、模型如何预测观察尺度变化。深化既有方向，BOLD 种子仍为 40 条；待用户安排他人验证，无实验或独立核验。见[交接记录](records/2026-11-14-noise-anonymity-scale-handoff.md)。

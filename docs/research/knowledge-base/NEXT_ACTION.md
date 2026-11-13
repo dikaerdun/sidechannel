@@ -24,6 +24,8 @@
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-14 增补[物理遗忘、时空隔离与可逆计算](brainstorms/2026-11-14-physical-forgetting-spacetime-reversible-computation.md)。验证者先交同数字边界的准备历史与未来观察预算、真实传播图及路径干预预测、可逆小映射与完整能量记账。第三项保留一次远期理论诊断。三项深化旧方向，未增加编号或执行任务；由用户安排验证，见[交接记录](records/2026-11-14-forgetting-spacetime-reversible-handoff.md)。
+
 2026-11-14 增补[回路关系、正确性裕量与信息迁移](brainstorms/2026-11-14-cycle-relations-correctness-margins-leakage-migration.md)。验证者先交实际关联图与合法断开对照、真实路径及正常工作条件的分叉预测、固定总预算的完整观察与秘密任务。回路方向保留理论诊断机会，另外三个开放问题暂不展开。三项深化已有种子，未增加编号或执行任务；验证由用户安排，见[交接记录](records/2026-11-14-cycle-margin-migration-handoff.md)。
 
 2026-11-14 增补[算法噪声、高维匿名性与跨尺度模型](brainstorms/2026-11-14-noise-labels-anonymity-and-scale.md)。验证者先交误差生命周期及侧信息通道、小图的排列与秘密等价类、两种模型对留出尺度的分叉预测。第三项保留理论诊断机会。三项深化已有种子，未增加编号、派发任务或执行实验；验证由用户安排，见[交接记录](records/2026-11-14-noise-anonymity-scale-handoff.md)。
