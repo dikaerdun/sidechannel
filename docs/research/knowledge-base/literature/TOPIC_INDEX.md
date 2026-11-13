@@ -828,6 +828,7 @@
 ## covert channels
 
 - 2025 CCS · [IOValve: Leakage-Free I/O Sandbox for Large-Scale Untrusted Data Processing](https://doi.org/10.1145/3719027.3765121) · countermeasure · abstract_and_bibliographic_metadata
+- 2025 NDSS · [SketchFeature: High-Quality Per-Flow Feature Extractor Towards Security-Aware Data Plane](https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/) · evaluation · selected_full_text_sections
 
 ## CPA
 
@@ -1433,6 +1434,10 @@
 ## faults
 
 - 2020 ePrint · [Drop by Drop you break the rock - Exploiting generic vulnerabilities in Lattice-based PKE/KEMs using EM-based Physical Attacks](https://eprint.iacr.org/2020/549) · attack · abstract_and_bibliographic_metadata
+
+## feature extraction
+
+- 2025 NDSS · [SketchFeature: High-Quality Per-Flow Feature Extractor Towards Security-Aware Data Plane](https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/) · evaluation · selected_full_text_sections
 
 ## federated learning
 
@@ -2894,6 +2899,10 @@
 
 - 2025 NDSS · [The Discriminative Power of Cross-layer RTTs in Fingerprinting Proxy Traffic](https://www.ndss-symposium.org/ndss-paper/the-discriminative-power-of-cross-layer-rtts-in-fingerprinting-proxy-traffic/) · attack · abstract_and_bibliographic_metadata
 
+## network traffic
+
+- 2025 NDSS · [SketchFeature: High-Quality Per-Flow Feature Extractor Towards Security-Aware Data Plane](https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/) · evaluation · selected_full_text_sections
+
 ## neural-network inputs
 
 - 2025 SP · [CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels](https://doi.org/10.1109/sp61157.2025.00079) · attack · abstract_and_bibliographic_metadata
@@ -4251,6 +4260,7 @@
 - 2025 NDSS · [KernelSnitch: Side Channel-Attacks on Kernel Data Structures](https://www.ndss-symposium.org/ndss-paper/kernelsnitch-side-channel-attacks-on-kernel-data-structures/) · attack · abstract_and_bibliographic_metadata
 - 2025 NDSS · [MineShark: Cryptomining Traffic Detection at Scale](https://www.ndss-symposium.org/ndss-paper/mineshark-cryptomining-traffic-detection-at-scale/) · evaluation · selected_full_text_sections
 - 2025 NDSS · [Secret Spilling Drive: Leaking User Behavior through SSD Contention](https://www.ndss-symposium.org/ndss-paper/secret-spilling-drive-leaking-user-behavior-through-ssd-contention/) · attack · abstract_and_bibliographic_metadata
+- 2025 NDSS · [SketchFeature: High-Quality Per-Flow Feature Extractor Towards Security-Aware Data Plane](https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/) · evaluation · selected_full_text_sections
 - 2025 CCS · [Timing Attacks on Differential Privacy are Practical](https://doi.org/10.1145/3719027.3765146) · evaluation · abstract_and_bibliographic_metadata
 - 2026 NDSS · [Continuous User Behavior Monitoring using DNS Cache Timing Attacks](https://www.ndss-symposium.org/ndss-paper/continuous-user-behavior-monitoring-using-dns-cache-timing-attacks/) · attack · abstract_and_bibliographic_metadata
 - 2026 NDSS · [Cross-Cache Attacks for the Linux Kernel via PCP Massaging](https://www.ndss-symposium.org/ndss-paper/cross-cache-attacks-for-the-linux-kernel-via-pcp-massaging/) · attack enabler · selected_full_text_sections

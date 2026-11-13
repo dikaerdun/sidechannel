@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 628 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 697 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## Power Analysis Attacks: Revealing the Secrets of Smart Cards
 
@@ -2676,6 +2676,13 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Mysticeti: Reaching the Latency Limits with Uncertified DAGs
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/mysticeti-reaching-the-latency-limits-with-uncertified-dags/)。
+- 判定依据：DAG 拜占庭共识与快速提交；延迟是协议性能指标，未建立秘密侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/mysticeti-reaching-the-latency-limits-with-uncertified-dags/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Narrowbeer: A Practical Replay Attack Against the Widevine DRM
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/roudot)。
@@ -2697,11 +2704,32 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## NodeMedic-FINE: Automatic Detection and Exploit Synthesis for Node.js Vulnerabilities
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/nodemedic-fine-automatic-detection-and-exploit-synthesis-for-node-js-vulnerabilities/)。
+- 判定依据：Node.js 的污点分析、类型感知测试与代码/命令注入验证；直接软件漏洞。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/nodemedic-fine-automatic-detection-and-exploit-synthesis-for-node-js-vulnerabilities/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## On the Realism of LiDAR Spoofing Attacks against Autonomous Driving Vehicle at High Speed and Long Distance
 
 - 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/on-the-realism-of-lidar-spoofing-attacks-against-autonomous-driving-vehicle-at-high-speed-and-long-distance/)。
 - 判定依据：激光欺骗 LiDAR 的距离和速度可行性，属于主动传感器注入。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/on-the-realism-of-lidar-spoofing-attacks-against-autonomous-driving-vehicle-at-high-speed-and-long-distance/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## On the Robustness of LDP Protocols for Numerical Attributes under Data Poisoning Attacks
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/on-the-robustness-of-ldp-protocols-for-numerical-attributes-under-data-poisoning-attacks/)。
+- 判定依据：攻击者提交恶意数据污染 LDP 数值估计；属于统计隐私与鲁棒性背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/on-the-robustness-of-ldp-protocols-for-numerical-attributes-under-data-poisoning-attacks/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Onion Franking: Abuse Reports for Mix-Based Private Messaging
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/onion-franking-abuse-reports-for-mix-based-private-messaging/)。
+- 判定依据：洋葱加密消息的可验证滥用举报与元数据保护；摘要贡献是协议机制，未评估具体测量型泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/onion-franking-abuse-reports-for-mix-based-private-messaging/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Optimized One-Dimensional SQIsign Verification on Intel and Cortex-M4
@@ -2717,6 +2745,13 @@
 - 判定依据：在 RISC-V 多种 ISA 上优化 Keccak/NTT 与双发射调度，摘要没有非干扰或物理泄漏结论。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## PBP: Post-training Backdoor Purification for Malware Classifiers
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/pbp-post-training-backdoor-purification-for-malware-classifiers/)。
+- 判定依据：通过激活分布与批归一化清除恶意软件分类器后门；不是设备侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/pbp-post-training-backdoor-purification-for-malware-classifiers/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## PICACHV: Formally Verified Data Use Policy Enforcement for Secure Data Analytics
 
@@ -2760,6 +2795,13 @@
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/phantomlidar-cross-modality-signal-injection-attacks-against-lidar/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## PolicyPulse: Precision Semantic Role Extraction for Enhanced Privacy Policy Comprehension
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/policypulse-precision-semantic-role-extraction-for-enhanced-privacy-policy-comprehension/)。
+- 判定依据：用语义角色抽取改善隐私政策理解；文本分析背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/policypulse-precision-semantic-role-extraction-for-enhanced-privacy-policy-comprehension/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Posthammer: Pervasive Browser-based Rowhammer Attacks with Postponed Refresh Commands
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/de-ridder)。
@@ -2795,11 +2837,39 @@
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/privacy-preserving-data-deduplication-for-enhancing-federated-learning-of-language-models/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## Probe-Me-Not: Protecting Pre-trained Encoders from Malicious Probing
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/probe-me-not-protecting-pre-trained-encoders-from-malicious-probing/)。
+- 判定依据：限制预训练编码器在禁止领域的迁移用途；probing 指训练下游分类器，不是电路探测。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/probe-me-not-protecting-pre-trained-encoders-from-malicious-probing/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Prompt Inference Attack on Distributed Large Language Model Inference Frameworks
 
 - 来源：[CCS 2025](https://doi.org/10.1145/3719027.3744820)。
 - 判定依据：从分布式 LLM 传输的中间输出重建提示，摘要未显示额外物理或微架构观察；保留为相邻隐私研究，与 MoEcho 硬件侧信道区分。
 - 阅读来源：https://arxiv.org/abs/2503.09291。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## PropertyGPT: LLM-driven Formal Verification of Smart Contracts through Retrieval-Augmented Property Generation
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/propertygpt-llm-driven-formal-verification-of-smart-contracts-through-retrieval-augmented-property-generation/)。
+- 判定依据：LLM 检索生成智能合约性质并由证明器验证；研究工具方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/propertygpt-llm-driven-formal-verification-of-smart-contracts-through-retrieval-augmented-property-generation/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## ProvGuard: Detecting SDN Control Policy Manipulation via Contextual Semantics of Provenance Graphs
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/provguard-detecting-sdn-control-policy-manipulation-via-contextual-semantics-of-provenance-graphs/)。
+- 判定依据：用控制器插桩和溯源图检测 SDN 策略操纵；显式活动日志与入侵检测背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/provguard-detecting-sdn-control-policy-manipulation-via-contextual-semantics-of-provenance-graphs/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Provably Unlearnable Data Examples
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/provably-unlearnable-data-examples/)。
+- 判定依据：对抗扰动与参数平滑下的不可学习性认证；不是物理观测泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/provably-unlearnable-data-examples/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt
@@ -2808,6 +2878,13 @@
 - 判定依据：混合推演与电路等价检查用于 ML-KEM 优化代码的功能正确性。所读正文另介绍 Jasmin 对恒时/推测恒时属性的保持能力；功能等价证明本身不等于这些属性或模拟泄漏的证明。按功能验证与工具链背景保留。出版题名为 Faster Verification of Faster Implementations，录用目录的 Proving Faster Implementations Faster 是同一论文的题名别名。
 - 阅读来源：https://xplorestaging.ieee.org/document/11023411/ ; https://cryptosith.org/papers/mapreduce-20250907.pdf。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## QMSan: Efficiently Detecting Uninitialized Memory Errors During Fuzzing
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/qmsan-efficiently-detecting-uninitialized-memory-errors-during-fuzzing/)。
+- 判定依据：QEMU 动态翻译支持未初始化内存错误检测；内存安全测试背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/qmsan-efficiently-detecting-uninitialized-memory-errors-during-fuzzing/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Qelect: Lattice-based Single Secret Leader Election Made Practical
 
@@ -2822,6 +2899,20 @@
 - 判定依据：以量子筛电路和纠错成本估计 Module-LWE 安全强度，属于计算攻击成本背景。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## RACONTEUR: A Knowledgeable, Insightful, and Portable LLM-Powered Shell Command Explainer
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/raconteur-a-knowledgeable-insightful-and-portable-llm-powered-shell-command-explainer/)。
+- 判定依据：结合专业知识和检索解释 shell 命令；安全分析工具背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/raconteur-a-knowledgeable-insightful-and-portable-llm-powered-shell-command-explainer/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## RAIFLE: Reconstruction Attacks on Interaction-based Federated Learning with Adversarial Data Manipulation
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/raifle-reconstruction-attacks-on-interaction-based-federated-learning-with-adversarial-data-manipulation/)。
+- 判定依据：服务器操纵推荐项特征并从联邦学习交互重建用户信息；主动模型/更新反演相邻主题。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/raifle-reconstruction-attacks-on-interaction-based-federated-learning-with-adversarial-data-manipulation/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## RContainer: A Secure Container Architecture through Extending ARM CCA Hardware Primitives
 
@@ -2865,6 +2956,20 @@
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/recurrent-private-set-intersection-for-unbalanced-databases-with-cuckoo-hashing-and-leveled-fhe/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## Rediscovering Method Confusion in Proposed Security Fixes for Bluetooth
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/rediscovering-method-confusion-in-proposed-security-fixes-for-bluetooth/)。
+- 判定依据：蓝牙配对方法混淆、协议攻击和形式化修复；未建立功耗、时序或其他测量型泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/rediscovering-method-confusion-in-proposed-security-fixes-for-bluetooth/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Reinforcement Unlearning
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/reinforcement-unlearning/)。
+- 判定依据：强化学习中的环境遗忘及环境推断评估；模型隐私背景，不是芯片记忆。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/reinforcement-unlearning/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Repurposing Neural Networks for Efficient Cryptographic Computation
 
 - 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/repurposing-neural-networks-for-efficient-cryptographic-computation/)。
@@ -2879,11 +2984,53 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/11023297/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Rethinking Trust in Forge-Based Git Security
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/rethinking-trust-in-forge-based-git-security/)。
+- 判定依据：gittuf 分散仓库政策、活动追踪与授权验证；供应链完整性背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/rethinking-trust-in-forge-based-git-security/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Retrofitting XoM for Stripped Binaries without Embedded Data Relocation
 
 - 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/retrofitting-xom-for-stripped-binaries-without-embedded-data-relocation/)。
 - 判定依据：以 MPK 加固执行只读内存并限制 JIT-ROP 的直接代码读取，未见侧信道保证。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/retrofitting-xom-for-stripped-binaries-without-embedded-data-relocation/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Revealing the Black Box of Device Search Engine: Scanning Assets, Strategies, and Ethical Consideration
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/revealing-the-black-box-of-device-search-engine-scanning-assets-strategies-and-ethical-consideration/)。
+- 判定依据：通过蜜罐观察搜索引擎扫描行为并检查公开结果的隐私问题；直接网络行为和数据发布研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/revealing-the-black-box-of-device-search-engine-scanning-assets-strategies-and-ethical-consideration/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Revisiting Concept Drift in Windows Malware Detection: Adaptation to Real Drifted Malware with Minimal Samples
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/revisiting-concept-drift-in-windows-malware-detection-adaptation-to-real-drifted-malware-with-minimal-samples/)。
+- 判定依据：用图网络与域适应改善漂移恶意软件检测；跨分布学习方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/revisiting-concept-drift-in-windows-malware-detection-adaptation-to-real-drifted-malware-with-minimal-samples/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Revisiting EM-based Estimation for Locally Differentially Private Protocols
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/revisiting-em-based-estimation-for-locally-differentially-private-protocols/)。
+- 判定依据：LDP 中基于混合模型的 EM 估计；EM 是期望最大化算法，不是电磁泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/revisiting-em-based-estimation-for-locally-differentially-private-protocols/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Revisiting Physical-World Adversarial Attack on Traffic Sign Recognition: A Commercial Systems Perspective
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/revisiting-physical-world-adversarial-attack-on-traffic-sign-recognition-a-commercial-systems-perspective/)。
+- 判定依据：交通标志对抗扰动与商业识别系统的空间记忆；主动感知欺骗，不是秘密旁路观测。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/revisiting-physical-world-adversarial-attack-on-traffic-sign-recognition-a-commercial-systems-perspective/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Ring of Gyges: Accountable Anonymous Broadcast via Secret-Shared Shuffle
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/ring-of-gyges-accountable-anonymous-broadcast-via-secret-shared-shuffle/)。
+- 判定依据：四方秘密共享混洗与可追责匿名广播；协议匿名性背景，未报告物理份额泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/ring-of-gyges-accountable-anonymous-broadcast-via-secret-shared-shuffle/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## RollingEvidence: Autoregressive Video Evidence via Rolling Shutter Effect
@@ -2914,6 +3061,13 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## SCAMMAGNIFIER: Piercing the Veil of Fraudulent Shopping Website Campaigns
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/scammagnifier-piercing-the-veil-of-fraudulent-shopping-website-campaigns/)。
+- 判定依据：购物域名、结账和商户标识分析以识别诈骗；直接交易生态测量。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/scammagnifier-piercing-the-veil-of-fraudulent-shopping-website-campaigns/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## SCRUTINIZER: Towards Secure Forensics on Compromised TrustZone
 
 - 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/scrutinizer-towards-secure-forensics-on-compromised-trustzone/)。
@@ -2935,11 +3089,46 @@
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/siguard-guarding-secure-inference-with-post-data-privacy/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## SKILLPoV: Towards Accessible and Effective Privacy Notice for Amazon Alexa Skills
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/skillpov-towards-accessible-and-effective-privacy-notice-for-amazon-alexa-skills/)。
+- 判定依据：Alexa 技能的语音隐私告知及代码插桩；声音是告知界面，不是窃听通道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/skillpov-towards-accessible-and-effective-privacy-notice-for-amazon-alexa-skills/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## SafeSplit: A Novel Defense Against Client-Side Backdoor Attacks in Split Learning
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/safesplit-a-novel-defense-against-client-side-backdoor-attacks-in-split-learning/)。
+- 判定依据：拆分学习后门防护；频域和旋转距离描述模型参数变化，不是采集波形。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/safesplit-a-novel-defense-against-client-side-backdoor-attacks-in-split-learning/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Safety Misalignment Against Large Language Models
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/safety-misalignment-against-large-language-models/)。
+- 判定依据：LLM 提示、微调和编辑造成安全失配及其防护；模型行为安全背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/safety-misalignment-against-large-language-models/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Save what must be saved: Secure context switching with Sailor
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/kalani)。
 - 判定依据：从 Sail ISA 规范推导上下文切换必须保存的架构状态；摘要未明确旁路观察，保留隔离及架构泄漏背景。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Scale-MIA: A Scalable Model Inversion Attack against Secure Federated Learning via Latent Space Reconstruction
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/scale-mia-a-scalable-model-inversion-attack-against-secure-federated-learning-via-latent-space-reconstruction/)。
+- 判定依据：从聚合模型更新和精心构造的层进行数据反演；不是物理聚合功耗推断。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/scale-mia-a-scalable-model-inversion-attack-against-secure-federated-learning-via-latent-space-reconstruction/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## ScopeVerif: Analyzing the Security of Android’s Scoped Storage via Differential Analysis
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/scopeverif-analyzing-the-security-of-androids-scoped-storage-via-differential-analysis/)。
+- 判定依据：差分检查 Android 分区存储操作是否违反访问策略；文件访问权限缺陷。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/scopeverif-analyzing-the-security-of-androids-scoped-storage-via-differential-analysis/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Secure Data Analytics in Apache Spark with Fine-grained Policy Enforcement and Isolated Execution
@@ -2970,6 +3159,13 @@
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/secure-transformer-inference-made-non-interactive/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## Securing BGP ASAP: ASPA and other Post-ROV Defenses
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/securing-bgp-asap-aspa-and-other-post-rov-defenses/)。
+- 判定依据：BGP 路由劫持、路由泄漏及 ASPA 防护；route leakage 不指秘密侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/securing-bgp-asap-aspa-and-other-post-rov-defenses/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Security Attacks Abusing Pulse-level Quantum Circuits
 
 - 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-6)。
@@ -2998,6 +3194,13 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Sheep’s Clothing, Wolf’s Data: Detecting Server-Induced Client Vulnerabilities in Windows Remote IPC
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/sheeps-clothing-wolfs-data-detecting-server-induced-client-vulnerabilities-in-windows-remote-ipc/)。
+- 判定依据：通过操纵 Windows IPC 返回值测试客户端漏洞；主动输入与内存安全问题。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/sheeps-clothing-wolfs-data-detecting-server-induced-client-vulnerabilities-in-windows-remote-ipc/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Sieving with Streaming Memory Access
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i2.362-384)。
@@ -3005,11 +3208,25 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Silence False Alarms: Identifying Anti-Reentrancy Patterns on Ethereum to Refine Smart Contract Reentrancy Detection
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/silence-false-alarms-identifying-anti-reentrancy-patterns-on-ethereum-to-refine-smart-contract-reentrancy-detection/)。
+- 判定依据：通过图表示和聚类识别智能合约防重入模式；静态分析方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/silence-false-alarms-identifying-anti-reentrancy-patterns-on-ethereum-to-refine-smart-contract-reentrancy-detection/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Singular Points of UOV and VOX
 
 - 来源：[EUROCRYPT 2025](https://doi.org/10.1007/978-3-031-91095-1_11)。
 - 判定依据：EUROCRYPT 2025 正式代数分析，建立与实际被引 ePrint 的显式关系；不是已完成侧信道采集或一般 UOV 失效的证据。
 - 阅读来源：https://link.springer.com/chapter/10.1007/978-3-031-91095-1_11。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Siniel: Distributed Privacy-Preserving zkSNARK
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/siniel-distributed-privacy-preserving-zksnark/)。
+- 判定依据：将 zkSNARK 证明生成委托给多个工作者并保护见证；协议隐私和效率，不是物理实现评估。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/siniel-distributed-privacy-preserving-zksnark/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## SoK: A Security Architect's View of Printed Circuit Board Attacks
@@ -3047,11 +3264,32 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## SongBsAb: A Dual Prevention Approach against Singing Voice Conversion based Illegal Song Covers
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/songbsab-a-dual-prevention-approach-against-singing-voice-conversion-based-illegal-song-covers/)。
+- 判定依据：对歌声添加扰动以阻止未授权声音转换；主动输入保护，不是被动声学泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/songbsab-a-dual-prevention-approach-against-singing-voice-conversion-based-illegal-song-covers/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Spatial-Domain Wireless Jamming with Reconfigurable Intelligent Surfaces
 
 - 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/spatial-domain-wireless-jamming-with-reconfigurable-intelligent-surfaces/)。
 - 判定依据：可重构智能表面对无线干扰进行空间定向，属于信号压制。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/spatial-domain-wireless-jamming-with-reconfigurable-intelligent-surfaces/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Starshields for iOS: Navigating the Security Cosmos in Satellite Communication
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/starshields-for-ios-navigating-the-security-cosmos-in-satellite-communication/)。
+- 判定依据：iOS 卫星消息协议的完整性缺陷与限制绕过；摘要中的位置消息滥用是显式协议字段通道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/starshields-for-ios-navigating-the-security-cosmos-in-satellite-communication/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Statically Discover Cross-Entry Use-After-Free Vulnerabilities in the Linux Kernel
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/statically-discover-cross-entry-use-after-free-vulnerabilities-in-the-linux-kernel/)。
+- 判定依据：跨入口别名分析与偏序约束检测 Linux UAF；程序内存安全背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/statically-discover-cross-entry-use-after-free-vulnerabilities-in-the-linux-kernel/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## System Register Hijacking: Compromising Kernel Integrity By Turning System Registers Against the System
@@ -3068,6 +3306,13 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## THEMIS: Regulating Textual Inversion for Personalized Concept Censorship
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/themis-regulating-textual-inversion-for-personalized-concept-censorship/)。
+- 判定依据：向文本反演嵌入加入触发机制以限制个性化图像概念；模型用途治理。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/themis-regulating-textual-inversion-for-personalized-concept-censorship/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## THEMIS: Towards Practical Intellectual Property Protection for Post-Deployment On-Device Deep Learning Models
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/huang-yujin)。
@@ -3082,11 +3327,25 @@
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/tme-box-scalable-in-process-isolation-through-intel-tme-mk-memory-encryption/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## TWINFUZZ: Differential Testing of Video Hardware Acceleration Stacks
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/twinfuzz-differential-testing-of-video-hardware-acceleration-stacks/)。
+- 判定依据：正文的设备指纹来自特制视频的解码输出差异，另有跨标签页内容直接泄漏；保留功能差异与测试方法背景，不混同时间、共享资源或电磁侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/twinfuzz-differential-testing-of-video-hardware-acceleration-stacks/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## TZ-DATASHIELD: Automated Data Protection for Embedded Systems via Data-Flow-Based Compartmentalization
 
 - 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/tz-datashield-automated-data-protection-for-embedded-systems-via-data-flow-based-compartmentalization/)。
 - 判定依据：TrustZone 数据流分区和控制流完整性，未见物理或微架构泄漏评估。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/tz-datashield-automated-data-protection-for-embedded-systems-via-data-flow-based-compartmentalization/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## The (Un)usual Suspects – Studying Reasons for Lacking Updates in WordPress
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/the-unusual-suspects-studying-reasons-for-lacking-updates-in-wordpress/)。
+- 判定依据：访谈研究 WordPress 网站缺乏更新的原因；用户与运营行为研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-unusual-suspects-studying-reasons-for-lacking-updates-in-wordpress/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## The Forking Way: When TEEs Meet Consensus
@@ -3096,11 +3355,60 @@
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-forking-way-when-tees-meet-consensus/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## The Guardians of Name Street: Studying the Defensive Registration Practices of the Fortune 500
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/the-guardians-of-name-street-studying-the-defensive-registration-practices-of-the-fortune-500/)。
+- 判定依据：防御性域名注册与 DNS 查询统计；域名滥用治理，不是秘密测量推断。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-guardians-of-name-street-studying-the-defensive-registration-practices-of-the-fortune-500/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## The Kids Are All Right: Investigating the Susceptibility of Teens and Adults to YouTube Giveaway Scams
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/the-kids-are-all-right-investigating-the-susceptibility-of-teens-and-adults-to-youtube-giveaway-scams/)。
+- 判定依据：青少年和成人对 YouTube 赠品诈骗的辨别；社会工程与用户研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-kids-are-all-right-investigating-the-susceptibility-of-teens-and-adults-to-youtube-giveaway-scams/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## The Midas Touch: Triggering the Capability of LLMs for RM-API Misuse Detection
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/the-midas-touch-triggering-the-capability-of-llms-for-rm-api-misuse-detection/)。
+- 判定依据：LLM 提取资源管理 API 约束并辅助 CodeQL 检错；研究工具方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-midas-touch-triggering-the-capability-of-llms-for-rm-api-misuse-detection/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## The Philosopher’s Stone: Trojaning Plugins of Large Language Models
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/the-philosophers-stone-trojaning-plugins-of-large-language-models/)。
+- 判定依据：低秩适配器投毒使 LLM 输出或工具调用被操纵；后门攻击背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-philosophers-stone-trojaning-plugins-of-large-language-models/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## The Power of Words: A Comprehensive Analysis of Rationales and Their Effects on Users’ Permission Decisions
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/the-power-of-words-a-comprehensive-analysis-of-rationales-and-their-effects-on-users-permission-decisions/)。
+- 判定依据：应用权限请求理由及其对用户决策的影响；可用安全研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-power-of-words-a-comprehensive-analysis-of-rationales-and-their-effects-on-users-permission-decisions/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## The Road to Trust: Building Enclaves within Confidential VMs
 
 - 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/the-road-to-trust-building-enclaves-within-confidential-vms/)。
 - 判定依据：SEV-SNP 中模拟 SGX enclave 的完整性与兼容性架构，摘要未建立侧信道保护。
 - 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-road-to-trust-building-enclaves-within-confidential-vms/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## The Skeleton Keys: A Large Scale Analysis of Credential Leakage in Mini-apps
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/the-skeleton-keys-a-large-scale-analysis-of-credential-leakage-in-mini-apps/)。
+- 判定依据：小程序凭据机制中的直接密钥/令牌暴露与语义验证；不是密码能耗或时序恢复。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/the-skeleton-keys-a-large-scale-analysis-of-credential-leakage-in-mini-apps/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Time-varying Bottleneck Links in LEO Satellite Networks: Identification, Exploits, and Countermeasures
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/time-varying-bottleneck-links-in-leo-satellite-networks-identification-exploits-and-countermeasures/)。
+- 判定依据：正文以公开轨道、流量信息和模拟识别瓶颈并分析链路洪泛；延迟推断仅为背景条件，当前贡献归为网络可用性相邻研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/time-varying-bottleneck-links-in-leo-satellite-networks-identification-exploits-and-countermeasures/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## TimeTravel: Real-time Timing Drift Attack on System Time Using Acoustic Waves
@@ -3110,11 +3418,25 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## Too Subtle to Notice: Investigating Executable Stack Issues in Linux Systems
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/too-subtle-to-notice-investigating-executable-stack-issues-in-linux-systems/)。
+- 判定依据：编译工具链、加载器与内核对可执行栈的共同影响；W xor X 配置与内存安全。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/too-subtle-to-notice-investigating-executable-stack-issues-in-linux-systems/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Towards Practical, End-to-End Formally Verified X.509 Certificate Validators with Verdict
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/lin-zhengyao)。
 - 判定依据：X.509 解析、构建及验证策略正确性；摘要未给侧信道保证。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Towards Understanding Unsafe Video Generation
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/towards-understanding-unsafe-video-generation/)。
+- 判定依据：视频生成的有害内容及采样阶段过滤；sampling 指扩散生成步骤，不是测量采样。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/towards-understanding-unsafe-video-generation/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Tracking You from a Thousand Miles Away! Turning a Bluetooth Device into an Apple AirTag Without Root Privileges
@@ -3131,11 +3453,95 @@
 - 阅读来源：https://liuzhuotao.github.io/publications/trafficformer/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## TrajDeleter: Enabling Trajectory Forgetting in Offline Reinforcement Learning Agents
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/trajdeleter-enabling-trajectory-forgetting-in-offline-reinforcement-learning-agents/)。
+- 判定依据：离线强化学习轨迹遗忘及审计；训练数据隐私背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/trajdeleter-enabling-trajectory-forgetting-in-offline-reinforcement-learning-agents/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Translating C To Rust: Lessons from a User Study
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/translating-c-to-rust-lessons-from-a-user-study/)。
+- 判定依据：人工将 C 迁移为安全 Rust 的用户研究；内存安全与实现方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/translating-c-to-rust-lessons-from-a-user-study/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Transparency or Information Overload? Evaluating Users’ Comprehension and Perceptions of the iOS App Privacy Report
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/transparency-or-information-overload-evaluating-users-comprehension-and-perceptions-of-the-ios-app-privacy-report/)。
+- 判定依据：用户对 iOS 隐私报告中传感器访问和域名活动的理解；可用隐私研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/transparency-or-information-overload-evaluating-users-comprehension-and-perceptions-of-the-ios-app-privacy-report/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Transparent Attested DNS for Confidential Computing Services
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/delignat-lavaud)。
 - 判定依据：通过 DNS 名称绑定 TEE 远程证明并作透明日志；协议认证不等于消除侧信道。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Truman: Constructing Device Behavior Models from OS Drivers to Fuzz Virtual Devices
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/truman-constructing-device-behavior-models-from-os-drivers-to-fuzz-virtual-devices/)。
+- 判定依据：从驱动推导设备行为模型并测试虚拟设备；依赖建模方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/truman-constructing-device-behavior-models-from-os-drivers-to-fuzz-virtual-devices/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Try to Poison My Deep Learning Data? Nowhere to Hide Your Trajectory Spectrum!
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/try-to-poison-my-deep-learning-data-nowhere-to-hide-your-trajectory-spectrum/)。
+- 判定依据：在训练轨迹谱域识别投毒样本；谱特征来自模型训练，不是硬件响应。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/try-to-poison-my-deep-learning-data-nowhere-to-hide-your-trajectory-spectrum/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Tweezers: A Framework for Security Event Detection via Event Attribution-centric Tweet Embedding
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/tweezers-a-framework-for-security-event-detection-via-event-attribution-centric-tweet-embedding/)。
+- 判定依据：从推文嵌入识别安全事件与威胁情报；文本与图分析背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/tweezers-a-framework-for-security-event-detection-via-event-attribution-centric-tweet-embedding/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## UI-CTX: Understanding UI Behaviors with Code Contexts for Mobile Applications
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/ui-ctx-understanding-ui-behaviors-with-code-contexts-for-mobile-applications/)。
+- 判定依据：结合 UI 处理图和代码语义解释控件行为；显式程序分析背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/ui-ctx-understanding-ui-behaviors-with-code-contexts-for-mobile-applications/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## URVFL: Undetectable Data Reconstruction Attack on Vertical Federated Learning
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/urvfl-undetectable-data-reconstruction-attack-on-vertical-federated-learning/)。
+- 判定依据：通过恶意梯度与标签信息重建纵向联邦学习数据；模型更新反演背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/urvfl-undetectable-data-reconstruction-attack-on-vertical-federated-learning/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Uncovering the iceberg from the tip: Generating API Specifications for Bug Detection via Specification Propagation Analysis
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/uncovering-the-iceberg-from-the-tip-generating-api-specifications-for-bug-detection-via-specification-propagation-analysis/)。
+- 判定依据：沿调用关系传播 API 规格以发现误用；验证方法背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/uncovering-the-iceberg-from-the-tip-generating-api-specifications-for-bug-detection-via-specification-propagation-analysis/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Understanding Data Importance in Machine Learning Attacks: Does Valuable Data Pose Greater Harm?
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/understanding-data-importance-in-machine-learning-attacks-does-valuable-data-pose-greater-harm/)。
+- 判定依据：分析数据价值与成员推断、模型窃取等攻击的关系；模型隐私背景。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/understanding-data-importance-in-machine-learning-attacks-does-valuable-data-pose-greater-harm/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Understanding Miniapp Malware: Identification, Dissection, and Characterization
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/understanding-miniapp-malware-identification-dissection-and-characterization/)。
+- 判定依据：收集并分析恶意小程序的生命周期和隐私滥用；生态行为与直接数据访问。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/understanding-miniapp-malware-identification-dissection-and-characterization/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Unleashing the Power of Generative Model in Recovering Variable Names from Stripped Binary
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/unleashing-the-power-of-generative-model-in-recovering-variable-names-from-stripped-binary/)。
+- 判定依据：利用生成模型恢复被剥离二进制的变量名；逆向理解工具，不等于秘密恢复。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/unleashing-the-power-of-generative-model-in-recovering-variable-names-from-stripped-binary/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## VeloFHE: GPU Acceleration for FHEW and TFHE Bootstrapping
@@ -3144,6 +3550,34 @@
 - 判定依据：VeloFHE 通过 GPU NTT、批处理与异步执行优化 FHEW/TFHE 自举，摘要未研究侧信道。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## VeriBin: Adaptive Verification of Patches at the Binary Level
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/veribin-adaptive-verification-of-patches-at-the-binary-level/)。
+- 判定依据：对二进制补丁作符号执行和功能等价验证；方法背景，功能等价不等于泄漏等价。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/veribin-adaptive-verification-of-patches-at-the-binary-level/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## VoiceRadar: Voice Deepfake Detection using Micro-Frequency and Compositional Analysis
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/voiceradar-voice-deepfake-detection-using-micro-frequency-and-compositional-analysis/)。
+- 判定依据：用物理启发的频率模型识别音频深度伪造；输入是待鉴别音频本身，未建立设备旁路泄漏。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/voiceradar-voice-deepfake-detection-using-micro-frequency-and-compositional-analysis/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## VulShield: Protecting Vulnerable Code Before Deploying Patches
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/vulshield-protecting-vulnerable-code-before-deploying-patches/)。
+- 判定依据：依据 sanitizer 报告生成内核执行策略以临时阻止漏洞触发；内存安全缓解。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/vulshield-protecting-vulnerable-code-before-deploying-patches/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Vulnerability, Where Art Thou? An Investigation of Vulnerability Management in Android Smartphone Chipsets
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/vulnerability-where-art-thou-an-investigation-of-vulnerability-management-in-android-smartphone-chipsets/)。
+- 判定依据：Android 芯片漏洞披露、继承与修补生命周期研究；不凭芯片关键词认定侧信道。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/vulnerability-where-art-thou-an-investigation-of-vulnerability-management-in-android-smartphone-chipsets/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## WAVEN: WebAssembly Memory Virtualization for Enclaves
 
@@ -3157,6 +3591,27 @@
 - 来源：[CCS 2025](https://doi.org/10.1145/3719027.3765156)。
 - 判定依据：为 WebAssembly 提供静态非干扰与内存完整性分析；摘要没有明确的计时/物理泄漏模型，保留相邻层，不能由 noninterference 标题自动当作侧信道证明。
 - 阅读来源：https://arxiv.org/abs/2509.08758。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Was This You? Investigating the Design Considerations for Suspicious Login Notifications
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/was-this-you-investigating-the-design-considerations-for-suspicious-login-notifications/)。
+- 判定依据：可疑登录邮件通知的设计与用户理解；认证可用性研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/was-this-you-investigating-the-design-considerations-for-suspicious-login-notifications/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Welcome to Jurassic Park: A Comprehensive Study of Security Risks in Deno and its Ecosystem
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/welcome-to-jurassic-park-a-comprehensive-study-of-security-risks-in-deno-and-its-ecosystem/)。
+- 判定依据：Deno 权限、导入、符号链接和供应链问题；直接访问控制缺陷。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/welcome-to-jurassic-park-a-comprehensive-study-of-security-risks-in-deno-and-its-ecosystem/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## What’s Done Is Not What’s Claimed: Detecting and Interpreting Inconsistencies in App Behaviors
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/whats-done-is-not-whats-claimed-detecting-and-interpreting-inconsistencies-in-app-behaviors/)。
+- 判定依据：比较用户预期和应用代码行为以发现未授权数据访问；直接隐私披露，不是波形推断。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/whats-done-is-not-whats-claimed-detecting-and-interpreting-inconsistencies-in-app-behaviors/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Who Pays Whom? Anonymous EMV-Compliant Contactless Payments
@@ -3180,11 +3635,39 @@
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
+## YuraScanner: Leveraging LLMs for Task-driven Web App Scanning
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/yurascanner-leveraging-llms-for-task-driven-web-app-scanning/)。
+- 判定依据：LLM 驱动 Web 工作流扫描与 XSS 发现；主动软件测试方法。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/yurascanner-leveraging-llms-for-task-driven-web-app-scanning/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## eSIMplicity or eSIMplification? Privacy and Security Risks in the eSIM Ecosystem
 
 - 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/motallebighomi)。
 - 判定依据：eSIM 提供商、路由与配置生态隐私；非实现侧信道。
 - 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## type++: Prohibiting Type Confusion with Inline Type Information
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/type-prohibiting-type-confusion-with-inline-type-information/)。
+- 判定依据：通过内联类型信息防止 C++ 类型混淆；程序内存安全。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/type-prohibiting-type-confusion-with-inline-type-information/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## “Where Are We On Cyber?” – A Qualitative Study On Boards’ Cybersecurity Risk Decision Making
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/where-are-we-on-cyber-a-qualitative-study-on-boards-cybersecurity-risk-decision-making/)。
+- 判定依据：董事会网络安全风险决策的访谈；组织治理研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/where-are-we-on-cyber-a-qualitative-study-on-boards-cybersecurity-risk-decision-making/。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## ”Who is Trying to Access My Account?” Exploring User Perceptions and Reactions to Risk-based Authentication Notifications
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/who-is-trying-to-access-my-account-exploring-user-perceptions-and-reactions-to-risk-based-authentication-notifications/)。
+- 判定依据：用户对风险认证通知的认知和反应；可用认证研究。
+- 阅读来源：https://www.ndss-symposium.org/ndss-paper/who-is-trying-to-access-my-account-exploring-user-perceptions-and-reactions-to-risk-based-authentication-notifications/。
 - 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## "Tap" Without Tapping: A Tag Discovery Forgery Attack on Android NFC

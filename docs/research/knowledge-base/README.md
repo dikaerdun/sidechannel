@@ -12,6 +12,7 @@
 
 ## 从这里开始
 
+- [NDSS 2025 摘要补齐：211/211 篇、SketchFeature 与观察机制边界](records/2026-11-14-literature-ndss2025-completion.md)
 - [参数规模、随机性实现与物理密码原语：三个待他人验证的方向](brainstorms/2026-11-14-parameter-scaling-randomness-realization-physical-primitives.md)
 - [本轮交接：资源边界、同分布实现对与完整物理接口](records/2026-11-14-parameter-randomness-physical-primitive-handoff.md)
 - [NDSS 2025 第二轮：70 篇新增摘要、211 个目录成员对应与 MineShark](records/2026-11-14-literature-ndss2025-second-toc.md)
@@ -87,7 +88,7 @@
 - [第四批交接：三项最小资格诊断与已知反例](records/2026-11-12-observation-handoff.md)
 - [再扩大研究对象：自动模型反例、测量与格求解联合设计、物理同步；BOLD-13 至 15 待验证](brainstorms/2026-11-12-model-breaking-directions.md)
 - [第三批构思修订与验证交接](records/2026-11-12-model-breaking-handoff.md)
-- [近五年文献库（建设中）：3,444 条标题初筛、575 条阅读卡片、引用扩展与版本追踪](literature/README.md)
+- [近五年文献库（建设中）：3,444 条标题初筛、576 条阅读卡片、引用扩展与版本追踪](literature/README.md)
 - [掩码与硬件补读：16 条新增记录、八条发现解析及版本/模拟边界](records/2026-11-13-literature-masking-lineage-hardware.md)
 - [S&P 2023 全标题、47 篇摘要补读及掩码/恒时引用](records/2026-11-13-literature-sp2023-candidates.md)
 - [S&P 2024 摘要补读、261 条目录核对与 Episode V 引用补漏](records/2026-11-13-literature-sp2024-candidates-kyber-v.md)

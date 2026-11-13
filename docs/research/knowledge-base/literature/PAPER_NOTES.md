@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 575 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 576 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
 
@@ -4080,6 +4080,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：official NDSS paper-page abstract; selected formal PDF text only where recorded。
 - [详细阅读记录](notes/ndss2025-static-power-quantum-and-scope-20261114.md)
 - 代码/数据核查：not checked; official PDF link identified, no author code executed；引用追踪：pending。
+
+## SketchFeature: High-Quality Per-Flow Feature Extractor Towards Security-Aware Data Plane
+
+- 来源：[NDSS 2025](https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/)；时间标记：within frozen 2021-11-12 to 2026-11-12 publication window (NDSS 2025)。
+- 作者：Sian Kim (Ewha Womans University), Seyed Mohammad Mehdi Mirnajafizadeh (Wayne State University), Bara Kim (Korea University), Rhongho Jang (Wayne State University), DaeHun Nyang (Ewha Womans University)
+- 对象：covert channels, timing, network traffic, feature extraction；类型：evaluation。
+- 核心想法：SketchFeature 在可编程交换机数据平面提取包间隔和包大小的逐流分布，减少选择性测量与粗量化对隐蔽信道检测造成的盲区。
+- 作者报告：表 II 的隐蔽时间信道场景报告 AUC 0.999、F1 0.965、FPR 0.003、FNR 0.0；该场景使用合成时间信道与 CAIDA 背景流量。作者报告 Tofino-1 部署使用 12 个流水级中的 7 个。
+- 限制与下一步：三阶特征是逐流分布向量，不是三阶矩或高阶掩码攻击。隐蔽时间信道数据为合成，检测场景用 80/20 流划分与 5 秒背景混合，不能外推实网泛化；CTC 未纳入前一项特征质量评估。交换机内状态对攻击者不可见是威胁模型条件。数据平面提取特征不等于该 CNN 全在数据平面运行。检测到隐蔽通信不等于解码其内容或恢复密码秘密；未独立复现或核验完整证明。
+- 阅读层级：selected_full_text_sections；来源：https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/。
+- 已读章节：Complete official abstract and page metadata; PDF pp.1,3,10-13; selected references 6,31,42,50 on pp.14-15; p.13 Table II rendered; no complete proof or bibliography audit
+- [详细阅读记录](notes/ndss2025-completion-and-channel-boundaries-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：four selected backward references inventoried; remaining 62, recursive and forward coverage pending。
 
 ## Speak Up, I’m Listening: Extracting Speech from Zero-Permission VR Sensors
 
