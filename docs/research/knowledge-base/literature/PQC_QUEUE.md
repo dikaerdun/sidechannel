@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6670 条，其中 360 条命中后量子相关关键词。
+当前目录记录 6686 条，其中 375 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -30,6 +30,7 @@
 | 2026 SP | [Blinding Post-Quantum Hash-and-Sign Signatures](https://www.ieee-security.org/TC/SP2026/accepted-papers.html#collapse-33) | pending |
 | 2026 SP | [From Perfect to Approximate Hints: Efficient LWE Secret Recovery Leveraging Low Hamming Weight](https://www.ieee-security.org/TC/SP2026/accepted-papers.html#collapse-247) | pending |
 | 2026 SP | [Lattice-based Threshold Blind Signatures](https://www.ieee-security.org/TC/SP2026/accepted-papers.html#collapse-119) | pending |
+| 2026 TC | [Hardware Implementation and Security Analysis of Local-Masked NTT for CRYSTALS-Kyber](https://doi.org/10.1109/tc.2026.3729145) | include |
 | 2026 TCHES | [A Framework for designing High-Order Side-Channel Protected Hardware Implementations of ML-KEM](https://doi.org/10.46586/tches.v2026.i2.272-295) | include |
 | 2026 TCHES | [A High-Performance and Reconfigurable Hardware Architecture for FrodoKEM](https://doi.org/10.46586/tches.v2026.i3.171-197) | adjacent |
 | 2026 TCHES | [A Unified RISC-V Vector Framework for Large-Scale NTT in FHE and ZKP](https://doi.org/10.46586/tches.v2026.i4.970-997) | adjacent |
@@ -194,12 +195,16 @@
 | 2024 CCS | [Two-Tier Data Packing in RLWE-based Homomorphic Encryption for Secure Federated Learning](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
 | 2024 CCS | [Whipping the Multivariate-based MAYO Signature Scheme using Hardware Platforms](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | pending |
 | 2024 CRYPTO | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | include |
+| 2024 DATE | [Bitstream Fault Injection Attacks on CRYSTALS Kyber Implementations on FPGAs](https://doi.org/10.23919/date58400.2024.10546550) | adjacent |
+| 2024 Design & Test | [Securing CRYSTALS-Kyber in FPGA Using Duplication and Clock Randomization](https://doi.org/10.1109/mdat.2023.3298805) | include |
 | 2024 Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | include |
 | 2024 NDSS | [When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications](https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/) | pending |
 | 2024 SP | [Group Oblivious Message Retrieval](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | include |
 | 2024 SP | [Ligetron: Lightweight Scalable End-to-End Zero-Knowledge Proofs. Post-Quantum ZK-SNARKs on a Browser](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | pending |
 | 2024 SP | [MPC-in-the-Head Framework without Repetition and its Applications to the Lattice-based Cryptography](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | pending |
 | 2024 SP | [Video-Based Cryptanalysis: Extracting Cryptographic Keys from Video Footage of a Device's Power LED Captured By Standard Video Cameras](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | include |
+| 2024 TCAS-II | [A Configurable ML-KEM/Kyber Key-Encapsulation Hardware Accelerator Architecture](https://doi.org/10.1109/tcsii.2024.3442228) | adjacent |
+| 2024 TCAS-II | [Super-K: A Superscalar CRYSTALS-KYBER Processor Based on Efficient Arithmetic Array](https://doi.org/10.1109/tcsii.2024.3382772) | adjacent |
 | 2024 TCHES | [A Highly-efficient Lattice-based Post-Quantum Cryptography Processor for IoT Applications](https://doi.org/10.46586/tches.v2024.i2.130-153) | adjacent |
 | 2024 TCHES | [A Not So Discrete Sampler: Power Analysis Attacks on HAWK signature scheme](https://doi.org/10.46586/tches.v2024.i4.156-178) | include |
 | 2024 TCHES | [Carry Your Fault: A Fault Propagation Attack on Side-Channel Protected LWE-based KEM](https://doi.org/10.46586/tches.v2024.i2.844-869) | adjacent |
@@ -230,6 +235,8 @@
 | 2024 TCHES | [SDitH in Hardware](https://doi.org/10.46586/tches.v2024.i2.215-251) | adjacent |
 | 2024 TCHES | [Single trace HQC shared key recovery with SASCA](https://doi.org/10.46586/tches.v2024.i2.64-87) | include |
 | 2024 TCHES | [SPA-GPT: General Pulse Tailor for Simple Power Analysis Based on Reinforcement Learning](https://doi.org/10.46586/tches.v2024.i4.40-83) | include |
+| 2024 TECS | [A Configurable CRYSTALS-Kyber Hardware Implementation with Side-Channel Protection](https://doi.org/10.1145/3587037) | include |
+| 2024 TIFS | [Zero-Value Filtering for Accelerating Non-Profiled Side-Channel Attack on Incomplete NTT-Based Implementations of Lattice-Based Cryptography](https://doi.org/10.1109/tifs.2024.3359890) | include |
 | 2024 USENIX | [Abuse-Resistant Location Tracking: Balancing Privacy and Safety in the Offline Finding Ecosystem](https://www.usenix.org/conference/usenixsecurity24/presentation/eldridge) | pending |
 | 2024 USENIX | [Divide and Surrender: Exploiting Variable Division Instruction Timing in HQC Key Recovery Attacks](https://www.usenix.org/conference/usenixsecurity24/presentation/schr%C3%B6der) | pending |
 | 2024 USENIX | [Fast RS-IOP Multivariate Polynomial Commitments and Verifiable Secret Sharing](https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-zongyang) | pending |
@@ -255,6 +262,9 @@
 | 2023 SP | [High-Order Masking of Lattice Signatures in Quasilinear Time](https://www.ieee-security.org/TC/SP2023/program-papers.html) | include |
 | 2023 SP | [SPHINCS+C: Compressing SPHINCS+ With (Almost) No Cost](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent |
 | 2023 SP | [Typing High-Speed Cryptography against Spectre v1](https://www.ieee-security.org/TC/SP2023/program-papers.html) | include |
+| 2023 TCAD | [Error Detection Architectures for Hardware/Software Co-Design Approaches of Number-Theoretic Transform](https://doi.org/10.1109/tcad.2022.3218614) | adjacent |
+| 2023 TCAD | [Low-Cost Shuffling Countermeasures Against Side-Channel Attacks for NTT-Based Post-Quantum Cryptography](https://doi.org/10.1109/tcad.2022.3174142) | include |
+| 2023 TCAD | [Reconfigurable and High-Efficiency Polynomial Multiplication Accelerator for CRYSTALS-Kyber](https://doi.org/10.1109/tcad.2022.3230359) | adjacent |
 | 2023 TCAS-I | [Side Channel Security Oriented Evaluation and Protection on Hardware Implementations of Kyber](https://doi.org/10.1109/tcsi.2023.3288600) | include |
 | 2023 TCHES | [Adapting Belief Propagation to Counter Shuffling of NTTs](https://doi.org/10.46586/tches.v2023.i1.60-88) | include |
 | 2023 TCHES | [BASALISC: Programmable Hardware Accelerator for BGV Fully Homomorphic Encryption](https://doi.org/10.46586/tches.v2023.i4.32-57) | adjacent |
@@ -291,6 +301,9 @@
 | 2022 CCS | [Practical, Round-Optimal Lattice-Based Blind Signatures](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | pending |
 | 2022 CCS | [When Frodo Flips: End-to-End Key Recovery on FrodoKEM via Rowhammer](https://www.sigsac.org/ccs/CCS2022/program/accepted-papers.html) | pending |
 | 2022 EUROCRYPT | [Mitaka: A Simpler, Parallelizable, Maskable Variant of Falcon](https://doi.org/10.1007/978-3-031-07082-2_9) | include |
+| 2022 FPT | [A Masked Pure-Hardware Implementation of Kyber Cryptographic Algorithm](https://doi.org/10.1109/icfpt56656.2022.9974404) | include |
+| 2022 NIST IR | [Status report on the third round of the NIST Post-Quantum Cryptography Standardization process](https://doi.org/10.6028/nist.ir.8413) | adjacent |
+| 2022 NIST IR | [Status report on the third round of the NIST Post-Quantum Cryptography Standardization process](https://doi.org/10.6028/nist.ir.8413-upd1) | adjacent |
 | 2022 NIST PQC conference | [Leveling Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations](https://csrc.nist.gov/presentations/2022/leveling-dilithium-against-leakage) | include |
 | 2022 SAC | [Profiling Side-Channel Attacks on Dilithium: A Small Bit-Fiddling Leak Breaks It All](https://doi.org/10.1007/978-3-031-58411-4_1) | include |
 | 2022 SP | [A Logic and an Interactive Prover for the Computational Post-Quantum Security of Protocols](https://doi.org/10.1109/sp46214.2022.9833800) | adjacent |
@@ -363,6 +376,8 @@
 | 2021 USENIX | [Privacy and Integrity Preserving Computations with CRISP](https://www.usenix.org/conference/usenixsecurity21/presentation/chatel) | pending |
 | 2021 USENIX | [Raccoon Attack: Finding and Exploiting Most-Significant-Bit-Oracles in TLS-DH(E)](https://www.usenix.org/conference/usenixsecurity21/presentation/merget) | pending |
 | 2020 CRYPTO | [A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM](https://doi.org/10.1007/978-3-030-56880-1_13) | include |
+| 2020 SPACE | [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) | include |
 | 2019 ACNS | [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) | include |
+| 2019 INDOCRYPT | [FPGA Implementation and Comparison of Protections Against SCAs for RLWE](https://doi.org/10.1007/978-3-030-35423-7_27) | include |
 | 2018 EUROCRYPT | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/978-3-319-78375-8_12) | include |
 | 2017 CHES | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | include |

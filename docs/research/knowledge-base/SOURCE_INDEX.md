@@ -1,5 +1,6 @@
 # 增补来源索引
 
+2026-11-13 打乱引用接续：[来源与哈希](literature/provenance/kyber-shuffle-followup-20261113.json)保存七条发现解析、全部 17 条种子引用、NIST 错误 DOI、出版年份及访问限制。[证据笔记](literature/notes/kyber-shuffle-followups-and-evidence-20261113.md)区分零值过滤计算时间和迹线、裁减 FPGA 与完整原设计、消息/会话恢复及长期私钥。新增九条卡片，升级已有 JCEN 卡片，未运行作者代码。
 2026-11-13 第十一批构思增补：[算法约束自校准、隐藏编码与可感知测量](brainstorms/2026-11-13-self-calibration-hidden-encoding-observer.md)记录盲校准、ExSASCA、SCAUL、EVIL Machine、联合编码防护、Renesas SRAM ECC 说明及探头检测论文七项原始页面的阅读范围。两项 Tektronix 页面直接访问 403，未据搜索片段建立事实。手工理想见证与现实机制分开，未运行实验或增加正式文献卡片。
 
 2026-11-13 原型增补：[泄漏回波、动态表示与机制发现](brainstorms/2026-11-13-echo-representations-mechanism-discovery.md)记录动态解耦、差分逻辑、汇编级平衡、局部 NTT 掩码、Kavach、Scam-V、Rosita++ 七项原始摘要及元数据的阅读范围。IEEE 同题记录直接打开返回 418，未建立经核实的版本关系。三个原型细化已有主线，未运行实验或增加正式文献卡片。

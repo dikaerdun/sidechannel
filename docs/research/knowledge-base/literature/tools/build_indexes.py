@@ -76,6 +76,8 @@ def render_citations(root,catalogs):
             decision=decisions.get(r['id'],{})
             reading=('abstract read; '+decision['decision']+' (see ADJACENT_NOTES)') if decision else 'catalog only; abstract pending'
         version=f"; actual cited version: [preprint]({e['cited_version_url']})" if e.get('cited_version_url') else ''
+        if e.get('evidence_level')=='publisher_deposited_reference':
+            reading += '; citation DOI from publisher metadata; full-text bibliography unread'
         lines.append(f"| [{md(seed['title'])}]({seed['url']}) | {e['reference_number']} | [{md(r['title'])}]({r['url']}) | {reading}{version} |")
     lines+=['','## 版本关系','','| 版本来源 | 目录中的关联记录 | 关系与边界 |','|---|---|---|']
     for e in versions:
@@ -91,7 +93,7 @@ def render_citations(root,catalogs):
       '- Scheduled Disclosure 的密码实验对象为 SIKE-751；15 条引用已与目录对应，ASIACCS/DIMVA/ASPLOS 三条发现已读并解析。OpenTitan 的 Share-slicing 引用已补读摘要与讨论，作为窗口外基础文献保留；完整追踪仍未完成。',
       '- Peek-a-Walk 标题无 PQC 名称，正文包含参考 Dilithium-2 的 nonce 泄漏与格后处理；已对应 GoFetch 与 Too Many Hints 两条引用，其余参考文献尚待逐条筛查。',
       '- EasyCrypt S&P 2025 的 [11]、[12] 已对应 Episode IV、Episode V；后者补读恒时证明范围及 [八条选读引用](citations/kyber-v-selected-reference-screen.jsonl)，新增 CRYPTO 2020 与 CHES 2017 两篇窗口外基础卡片。ePrint 2025/1607 的 minor revision 与 2024/843 的 major revision 均有显式书目关系，全文差异尚未核对。见 [Episode V 范围记录](notes/kyber-verification-episode-v-20261113.md)。',
-      '- S&P 2023 的 Raccoon 五条与 selSLH 四条选读现均有目录目标，原八条发现已读并解析。Leveling 2022 与修正敏感性分类的 Protecting 2023 分列。追加 GLP、Protecting、3D-Shield 的九条选读现均已对应；四条 Kyber 发现已解析。打乱论文另有九条选读，两条对应、七条待核查，见 [新引用清单](citations/kyber-shuffle-selected-reference-screen.jsonl) 与 [证据范围](notes/kyber-multiplication-and-shuffling-20261113.md)。见 [S&P 清单](citations/sp2023-selected-reference-screen.jsonl)、[后续选读清单](citations/sp2023-followup-selected-reference-screen.jsonl)及 [版本与硬件证据边界](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)。',
+      '- S&P 2023 的 Raccoon 五条与 selSLH 四条选读均已对应，GLP、Protecting、3D-Shield 的九条选读继续保留。打乱论文全部 17 条引用现已对应并作范围判定，七条发现已解析；NIST 错误 DOI 已纠正。JCEN 后续两条实际引用及局部掩码的出版商提交引用分别记录，见 [完整种子引用清单](citations/kyber-shuffle-selected-reference-screen.jsonl)、[后续选读](citations/kyber-hardware-followup-selected-reference-screen.jsonl)与 [证据范围](notes/kyber-shuffle-followups-and-evidence-20261113.md)。这些关系不构成递归引用闭合。',
       '- 前向关系只记录当前实际看到的引用，不等于枚举了所有后续论文。扩展会议的系统目录、未解析引用及基础文献筛查继续进行。','']
     (root/'CITATION_PROGRESS.md').write_text('\n'.join(lines))
     return {'verified_citation_edges':len(citations),'verified_version_edges':len(versions)-len(inferred_versions),'inferred_version_edges':len(inferred_versions),

@@ -48,6 +48,7 @@
 
 ## AES
 
+- 2012 TACO · [An architecture-independent instruction shuffler to protect against side-channel attacks](https://doi.org/10.1145/2086696.2086699) · countermeasure · abstract_and_bibliographic_metadata
 - 2023 SP · [Spectre Declassified: Reading from the Right Place at the Wrong Time](https://doi.org/10.1109/sp46215.2023.10179355) · formal_and_experimental_side_channel · abstract_and_bibliographic_metadata
 - 2025 USENIX · [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) · method · abstract_and_bibliographic_metadata
 - 2025 TCHES · [PhaseSCA: Exploiting Phase-Modulated Emanations in Side Channels](https://doi.org/10.46586/tches.v2025.i1.392-419) · measurement · abstract_and_bibliographic_metadata
@@ -511,7 +512,6 @@
 ## deep learning
 
 - 2023 ASHES · [A Side-Channel Attack on a Masked Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1145/3605769.3623992) · hardware_side_channel_attack · abstract_and_bibliographic_metadata
-- 2025 Journal of Cryptographic Engineering · [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) · hardware_side_channel_attack_and_countermeasure · abstract_and_bibliographic_metadata
 
 ## defense evaluation
 
@@ -552,6 +552,7 @@
 ## Dilithium
 
 - 2019 ACNS · [Masking Dilithium: Efficient Implementation and Side-Channel Evaluation](https://doi.org/10.1007/978-3-030-21568-2_17) · countermeasure_and_evaluation · abstract_and_bibliographic_metadata
+- 2020 SPACE · [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) · countermeasure · abstract_and_bibliographic_metadata
 - 2021 ICCD · [An Efficient Non-Profiled Side-Channel Attack on the CRYSTALS-Dilithium Post-Quantum Signature](https://doi.org/10.1109/iccd53106.2021.00094) · attack · selected_full_text_sections
 - 2021 TCHES · [Compact Dilithium Implementations on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2021.i1.1-24) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2021 HOST · [Single-Trace Side-Channel Attacks on ω-Small Polynomial Sampling: With Applications to NTRU, NTRU Prime, and CRYSTALS-DILITHIUM](https://doi.org/10.1109/host49136.2021.9702284) · attack · abstract_and_bibliographic_metadata
@@ -565,6 +566,7 @@
 - 2024 TCHES · [Exploiting Small-Norm Polynomial Multiplication with Physical Attacks: Application to CRYSTALS-Dilithium](https://doi.org/10.46586/tches.v2024.i2.359-383) · attack · abstract_and_bibliographic_metadata
 - 2024 USENIX · [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) · attack · selected_full_text_sections
 - 2024 TCHES · [Improved High-Order Masked Generation of Masking Vector and Rejection Sampling in Dilithium](https://doi.org/10.46586/tches.v2024.i4.335-354) · countermeasure · abstract_and_bibliographic_metadata
+- 2024 TIFS · [Zero-Value Filtering for Accelerating Non-Profiled Side-Channel Attack on Incomplete NTT-Based Implementations of Lattice-Based Cryptography](https://doi.org/10.1109/tifs.2024.3359890) · attack · selected_full_text_sections
 - 2025 TCHES · [Rejected Signatures’ Challenges Pose New Challenges: Key Recovery of CRYSTALS-Dilithium via Side-Channel Attacks](https://doi.org/10.46586/tches.v2025.i4.817-847) · attack · abstract_and_bibliographic_metadata
 
 ## Dilithium-2
@@ -961,6 +963,10 @@
 
 - 2023 SP · [A Security RISC: Microarchitectural Attacks on Hardware RISC-V CPUs](https://doi.org/10.1109/sp46215.2023.10179399) · microarchitectural_side_channel · abstract_and_bibliographic_metadata
 
+## instruction shuffling
+
+- 2012 TACO · [An architecture-independent instruction shuffler to protect against side-channel attacks](https://doi.org/10.1145/2086696.2086699) · countermeasure · abstract_and_bibliographic_metadata
+
 ## Intel and AMD
 
 - 2023 DIMVA · [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) · measurement_and_fingerprinting · abstract_and_bibliographic_metadata
@@ -1057,9 +1063,11 @@
 
 ## Kyber
 
+- 2020 SPACE · [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) · countermeasure · abstract_and_bibliographic_metadata
 - 2021 TCHES · [Chosen Ciphertext k-Trace Attacks on Masked CCA2 Secure Kyber](https://doi.org/10.46586/tches.v2021.i4.88-113) · attack · abstract_and_bibliographic_metadata
 - 2021 TCHES · [Compact Dilithium Implementations on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2021.i1.1-24) · constant_time_implementation · abstract_and_bibliographic_metadata
 - 2021 TCHES · [Masking Kyber: First- and Higher-Order Implementations](https://doi.org/10.46586/tches.v2021.i4.173-214) · countermeasure · abstract_and_bibliographic_metadata
+- 2022 FPT · [A Masked Pure-Hardware Implementation of Kyber Cryptographic Algorithm](https://doi.org/10.1109/icfpt56656.2022.9974404) · countermeasure · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Bitslicing Arithmetic/Boolean Masking Conversions for Fun and Profit: with Application to Lattice-Based KEMs](https://doi.org/10.46586/tches.v2022.i4.553-588) · countermeasure · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Curse of Re-encryption: A Generic Power/EM Analysis on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2022.i1.296-322) · attack · abstract_and_bibliographic_metadata
 - 2022 TCHES · [High-order Table-based Conversion Algorithms and Masking Lattice-based Encryption](https://doi.org/10.46586/tches.v2022.i2.1-40) · countermeasure · abstract_and_bibliographic_metadata
@@ -1079,22 +1087,26 @@
 - 2023 TCAS-I · [Side Channel Security Oriented Evaluation and Protection on Hardware Implementations of Kyber](https://doi.org/10.1109/tcsi.2023.3288600) · hardware_evaluation_and_countermeasure · selected_full_text_sections
 - 2023 ASIACRYPT · [Too Many Hints – When LLL Breaks LWE](https://doi.org/10.1007/978-981-99-8730-6_4) · method · abstract_and_bibliographic_metadata
 - 2023 SP · [Typing High-Speed Cryptography against Spectre v1](https://doi.org/10.1109/sp46215.2023.10179418) · pqc_formal_countermeasure · selected_full_text_sections
+- 2024 TECS · [A Configurable CRYSTALS-Kyber Hardware Implementation with Side-Channel Protection](https://doi.org/10.1145/3587037) · countermeasure · abstract_and_bibliographic_metadata
 - 2024 ACNS · [Breaking DPA-Protected Kyber via the Pair-Pointwise Multiplication](https://doi.org/10.1007/978-3-031-54773-7_5) · template_side_channel · abstract_and_bibliographic_metadata
 - 2024 TCHES · [Defeating Low-Cost Countermeasures against Side-Channel Attacks in Lattice-based Encryption: A Case Study on Crystals-Kyber](https://doi.org/10.46586/tches.v2024.i2.795-818) · attack · abstract_and_bibliographic_metadata
 - 2024 CRYPTO · [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) · formal_pqc_security_and_constant_time · selected_full_text_sections
 - 2024 USENIX · [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) · attack · selected_full_text_sections
 - 2024 TCHES · [Hints from Hertz: Dynamic Frequency Scaling Side-Channel Analysis of Number Theoretic Transform in Lattice-Based KEMs](https://doi.org/10.46586/tches.v2024.i3.200-223) · attack · abstract_and_bibliographic_metadata
 - 2024 TCHES · [SPA-GPT: General Pulse Tailor for Simple Power Analysis Based on Reinforcement Learning](https://doi.org/10.46586/tches.v2024.i4.40-83) · method · abstract_and_bibliographic_metadata
+- 2024 Design & Test · [Securing CRYSTALS-Kyber in FPGA Using Duplication and Clock Randomization](https://doi.org/10.1109/mdat.2023.3298805) · countermeasure · abstract_and_bibliographic_metadata
 - 2024 ACM TECS · [Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication](https://doi.org/10.1145/3569420) · polynomial_multiplication_side_channel · selected_full_text_sections
+- 2024 TIFS · [Zero-Value Filtering for Accelerating Non-Profiled Side-Channel Attack on Incomplete NTT-Based Implementations of Lattice-Based Cryptography](https://doi.org/10.1109/tifs.2024.3359890) · attack · selected_full_text_sections
 - 2025 TCAS-II · [A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber](https://doi.org/10.1109/tcsii.2025.3528751) · hardware_countermeasure · selected_full_text_sections
 - 2025 arXiv · [A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography](https://arxiv.org/abs/2512.22301) · synthetic_risk_model · abstract_and_bibliographic_metadata
-- 2025 Journal of Cryptographic Engineering · [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) · hardware_side_channel_attack_and_countermeasure · abstract_and_bibliographic_metadata
+- 2025 Journal of Cryptographic Engineering · [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) · attack · selected_full_text_sections
 - 2025 TCHES · [Avengers assemble! Supervised learning meets lattice reduction: A single power trace attack against CRYSTALS-Kyber Key Generation](https://doi.org/10.46586/tches.v2025.i4.409-436) · attack · abstract_and_bibliographic_metadata
 - 2025 USENIX · [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) · method · abstract_and_bibliographic_metadata
 - 2025 TCHES · [HADES: Automated Hardware Design Exploration for Cryptographic Primitives](https://doi.org/10.46586/tches.v2025.i4.1-45) · countermeasure_design_tool · abstract_and_bibliographic_metadata
 - 2025 TCHES · [KyberSlash: Exploiting secret-dependent division timings in Kyber implementations](https://doi.org/10.46586/tches.v2025.i2.209-234) · attack · abstract_and_bibliographic_metadata
 - 2025 TCHES · [MulLeak: Exploiting Multiply Instruction Leakage to Attack the Stack-optimized Kyber Implementation on Cortex-M4](https://doi.org/10.46586/tches.v2025.i2.23-68) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [AIPS: AI-Based Power Simulation for Pre-Silicon Side-Channel Security Evaluation](https://doi.org/10.46586/tches.v2026.i2.441-467) · method · abstract_and_bibliographic_metadata
+- 2026 TC · [Hardware Implementation and Security Analysis of Local-Masked NTT for CRYSTALS-Kyber](https://doi.org/10.1109/tc.2026.3729145) · countermeasure_evaluation · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Keep it Simple: Refreshing the NTT of Kyber’s Decapsulation to Prevent Plaintext-Checking Side-Channel Attacks](https://doi.org/10.46586/tches.v2026.i1.472-499) · countermeasure · abstract_and_bibliographic_metadata
 - 2026 arXiv · [Side-Channel Attack Prevention for Post Quantum Cryptography Algorithms: A 3D-Shield Approach](https://arxiv.org/abs/2611.01144) · simulated_countermeasure · selected_full_text_sections
 - 2026 TCHES · [TAME: A Deep Learning-based Blind Side-Channel Analysis Framework](https://doi.org/10.46586/tches.v2026.i4.632-655) · method · abstract_and_bibliographic_metadata
@@ -1133,6 +1145,10 @@
 ## lattice-based cryptography
 
 - 2021 TCHES · [Analysis and Comparison of Table-based Arithmetic to Boolean Masking](https://doi.org/10.46586/tches.v2021.i3.275-297) · attack_and_countermeasure · abstract_and_bibliographic_metadata
+
+## lattice-based PQC
+
+- 2023 TCAD · [Low-Cost Shuffling Countermeasures Against Side-Channel Attacks for NTT-Based Post-Quantum Cryptography](https://doi.org/10.1109/tcad.2022.3174142) · countermeasure · abstract_and_bibliographic_metadata
 
 ## LDA
 
@@ -1216,7 +1232,6 @@
 ## masked FPGA
 
 - 2023 ASHES · [A Side-Channel Attack on a Masked Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1145/3605769.3623992) · hardware_side_channel_attack · abstract_and_bibliographic_metadata
-- 2025 Journal of Cryptographic Engineering · [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) · hardware_side_channel_attack_and_countermeasure · abstract_and_bibliographic_metadata
 
 ## masked KMAC
 
@@ -1282,7 +1297,6 @@
 
 - 2023 ETS · [A Side-Channel Attack on a Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1109/ets56758.2023.10174000) · hardware_side_channel_attack · selected_full_text_sections
 - 2023 ASHES · [A Side-Channel Attack on a Masked Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1145/3605769.3623992) · hardware_side_channel_attack · abstract_and_bibliographic_metadata
-- 2025 Journal of Cryptographic Engineering · [A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber](https://doi.org/10.1007/s13389-025-00375-7) · hardware_side_channel_attack_and_countermeasure · abstract_and_bibliographic_metadata
 
 ## metadata-private messaging
 
@@ -1452,11 +1466,14 @@
 ## NTT
 
 - 2017 CHES · [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) · pqc_single_trace_side_channel · abstract_and_bibliographic_metadata
+- 2020 SPACE · [On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4](https://doi.org/10.1007/978-3-030-66626-2_7) · countermeasure · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Multi-moduli NTTs for Saber on Cortex-M3 and Cortex-M4](https://doi.org/10.46586/tches.v2022.i1.127-151) · masked_implementation_optimization · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Adapting Belief Propagation to Counter Shuffling of NTTs](https://doi.org/10.46586/tches.v2023.i1.60-88) · method · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Kavach: Lightweight masking techniques for polynomial arithmetic in lattice-based cryptography](https://doi.org/10.46586/tches.v2023.i3.366-390) · countermeasure · abstract_and_bibliographic_metadata
+- 2023 TCAD · [Low-Cost Shuffling Countermeasures Against Side-Channel Attacks for NTT-Based Post-Quantum Cryptography](https://doi.org/10.1109/tcad.2022.3174142) · countermeasure · abstract_and_bibliographic_metadata
 - 2024 TCHES · [Hints from Hertz: Dynamic Frequency Scaling Side-Channel Analysis of Number Theoretic Transform in Lattice-Based KEMs](https://doi.org/10.46586/tches.v2024.i3.200-223) · attack · abstract_and_bibliographic_metadata
 - 2024 ACM TECS · [Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication](https://doi.org/10.1145/3569420) · polynomial_multiplication_side_channel · selected_full_text_sections
+- 2026 TC · [Hardware Implementation and Security Analysis of Local-Masked NTT for CRYSTALS-Kyber](https://doi.org/10.1109/tc.2026.3729145) · countermeasure_evaluation · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Keep it Simple: Refreshing the NTT of Kyber’s Decapsulation to Prevent Plaintext-Checking Side-Channel Attacks](https://doi.org/10.46586/tches.v2026.i1.472-499) · countermeasure · abstract_and_bibliographic_metadata
 - 2026 TCHES · [NTT-PEEL: Bit Shift Side-Channel in FALCON’s Number Theoretic Transform](https://doi.org/10.46586/tches.v2026.i2.709-735) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [Neur-SASCA: High-Noise-Tolerant and Automated Single-Trace Attack against NTT](https://doi.org/10.46586/tches.v2026.i3.908-932) · method · abstract_and_bibliographic_metadata
@@ -1721,6 +1738,10 @@
 - 2024 SP · [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · hardware_supported_side_channel_countermeasure · abstract_and_bibliographic_metadata
 - 2024 SP · [CONJUNCT: Learning Inductive Invariants to Prove Unbounded Instruction Safety Against Microarchitectural Timing Attacks](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · formal_side_channel_verification · abstract_and_bibliographic_metadata
 - 2026 TCHES · [AIPS: AI-Based Power Simulation for Pre-Silicon Side-Channel Security Evaluation](https://doi.org/10.46586/tches.v2026.i2.441-467) · method · abstract_and_bibliographic_metadata
+
+## RLWE
+
+- 2019 INDOCRYPT · [FPGA Implementation and Comparison of Protections Against SCAs for RLWE](https://doi.org/10.1007/978-3-030-35423-7_27) · countermeasure · abstract_and_bibliographic_metadata
 
 ## rolling shutter
 

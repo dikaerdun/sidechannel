@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 179 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 186 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA
 
@@ -240,6 +240,20 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/9833752/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Status report on the third round of the NIST Post-Quantum Cryptography Standardization process
+
+- 来源：[NIST IR 2022](https://doi.org/10.6028/nist.ir.8413)。
+- 判定依据：NIST 第三轮标准化选择背景，不是独立侧信道实验；原报告已被勘误更新取代，引用的确切版次未指定。
+- 阅读来源：https://csrc.nist.gov/pubs/ir/8413/final。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Status report on the third round of the NIST Post-Quantum Cryptography Standardization process
+
+- 来源：[NIST IR 2022](https://doi.org/10.6028/nist.ir.8413-upd1)。
+- 判定依据：NIST IR 8413 勘误版本：官方说明仅补两条历史引用并重排引用号，作为标准化和版本背景。
+- 阅读来源：https://csrc.nist.gov/pubs/ir/8413/upd1/final。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Verified NTT Multiplications for NISTPQC KEM Lattice Finalists: Kyber, SABER, and NTRU
 
 - 来源：[TCHES 2022](https://doi.org/10.46586/tches.v2022.i4.718-750)。
@@ -315,6 +329,13 @@
 - 来源：[TCHES 2023](https://doi.org/10.46586/tches.v2023.i3.74-96)。
 - 判定依据：降低 FrodoKEM 的栈消耗并分析时间与内存折衷，部分结果需微调规范；摘要未报告侧信道保护，低内存不等于泄漏安全。
 - 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Error Detection Architectures for Hardware/Software Co-Design Approaches of Number-Theoretic Transform
+
+- 来源：[TCAD 2023](https://doi.org/10.1109/tcad.2022.3218614)。
+- 判定依据：NTT 错误检测与重算编码；摘要中的 stuck-at 覆盖来自模拟，FPGA 开销不等于侧信道安全评价。
+- 阅读来源：https://xplorestaging.ieee.org/document/9933800/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## FIDO2, CTAP 2.1, and WebAuthn 2: Provable Security and Post-Quantum Instantiation
@@ -429,6 +450,13 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/10179327/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Reconfigurable and High-Efficiency Polynomial Multiplication Accelerator for CRYSTALS-Kyber
+
+- 来源：[TCAD 2023](https://doi.org/10.1109/tcad.2022.3230359)。
+- 判定依据：Kyber 多项式乘法的 Barrett 约减、并行核与存储复用优化，摘要以性能和面积为主。
+- 阅读来源：https://xplorestaging.ieee.org/document/9992019/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations
 
 - 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
@@ -513,6 +541,13 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/10179284/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## A Configurable ML-KEM/Kyber Key-Encapsulation Hardware Accelerator Architecture
+
+- 来源：[TCAS-II 2024](https://doi.org/10.1109/tcsii.2024.3442228)。
+- 判定依据：ML-KEM/Kyber 加速器资源与性能比较；摘要未给出物理泄漏评价，题名不能证明最终 FIPS 203 完整一致性。
+- 阅读来源：https://xplorestaging.ieee.org/document/10634219/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## A Highly-efficient Lattice-based Post-Quantum Cryptography Processor for IoT Applications
 
 - 来源：[TCHES 2024](https://doi.org/10.46586/tches.v2024.i2.130-153)。
@@ -532,6 +567,13 @@
 - 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
 - 判定依据：水下声学注入使存储、分布式系统和调度降级，摘要核心是可用性与资源操纵；未证明通过观察间接信号恢复秘密，作为物理注入背景保留。
 - 阅读来源：https://xplorestaging.ieee.org/document/10646672/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Bitstream Fault Injection Attacks on CRYSTALS Kyber Implementations on FPGAs
+
+- 来源：[DATE 2024](https://doi.org/10.23919/date58400.2024.10546550)。
+- 判定依据：对 FPGA 比特流进行主动篡改的故障攻击及防护；本次摘要范围归入故障背景，不计为被动侧信道攻击。
+- 阅读来源：https://xplorestaging.ieee.org/document/10546550/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Breach Extraction Attacks: Exposing and Addressing the Leakage in Second Generation Compromised Credential Checking Services
@@ -728,6 +770,13 @@
 - 来源：[SP 2024](https://www.ieee-security.org/TC/SP2024/accepted-papers.html)。
 - 判定依据：素域多项式哈希设计的安全/性能综述与实现基准；摘要没有提出明确的实现侧信道目标，作为算术设计背景保留，正文恒时相关部分待核。
 - 阅读来源：https://xplorestaging.ieee.org/document/10646805/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Super-K: A Superscalar CRYSTALS-KYBER Processor Based on Efficient Arithmetic Array
+
+- 来源：[TCAS-II 2024](https://doi.org/10.1109/tcsii.2024.3382772)。
+- 判定依据：Kyber 处理器的性能、面积和功耗架构；摘要未给出侧信道攻击或防护评价，保留实现背景。
+- 阅读来源：https://xplorestaging.ieee.org/document/10485193/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Surveilling the Masses with Wi-Fi-Based Positioning Systems

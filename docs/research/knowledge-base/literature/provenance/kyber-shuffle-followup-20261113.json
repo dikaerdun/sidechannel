@@ -1,0 +1,544 @@
+{
+  "updated_on": "2026-11-13",
+  "batch": "kyber-shuffle-followup",
+  "sources": [
+    {
+      "source_id": "shuffle-fpt-eprint",
+      "url": "https://eprint.iacr.org/2022/1547",
+      "response_url": "https://eprint.iacr.org/2022/1547",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:05:57.978416+00:00",
+      "sha256": "ee5eeca6adb77ccc56b5b2822b8cab0fa952d85f1528c64691e47f16511b4674",
+      "bytes": 16356,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "shuffle-fpt-nist",
+      "url": "https://csrc.nist.gov/Presentations/2022/a-masked-pure-hardware-implementation-of-kyber-cry",
+      "response_url": "https://csrc.nist.gov/Presentations/2022/a-masked-pure-hardware-implementation-of-kyber-cry",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:08:40.319779+00:00",
+      "sha256": "8496ec6da2e9e6340d8713cedee694788a6202406a396faeb6feece6fe669dfd",
+      "bytes": 39609,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "shuffle-fpt-pdf",
+      "url": "https://eprint.iacr.org/2022/1547.pdf",
+      "response_url": "https://eprint.iacr.org/2022/1547.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T13:05:57.525315+00:00",
+      "sha256": "7b13cd60fe21c4cfa7ff144b62ae25a6f1fdc6c6016ebf4059f4cfd9fa9de858",
+      "bytes": 5583,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure only; body not treated as paper"
+    },
+    {
+      "source_id": "shuffle-indocrypt-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-35423-7_27",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-35423-7_27",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:04.731139+00:00",
+      "sha256": "47270d883bcbaa94aa4cd2e8b9d2de825992318186b533312722b759255f3f27",
+      "bytes": 326660,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "shuffle-jcen-crossref",
+      "url": "https://api.crossref.org/works/10.1007/s13389-025-00375-7",
+      "response_url": "https://api.crossref.org/works/10.1007/s13389-025-00375-7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:40.381065+00:00",
+      "sha256": "d323d9b9ba69d0f34cc8dcc9cf4f45238b9c9efcbb4daac9300077fa4c70dadc",
+      "bytes": 18843,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-jcen-publisher",
+      "url": "https://link.springer.com/article/10.1007/s13389-025-00375-7",
+      "response_url": "https://link.springer.com/article/10.1007/s13389-025-00375-7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:04.057180+00:00",
+      "sha256": "4616e70b0c0bacb42e943f8a07a3c3c285b2176d16098227a94be7f188acc0c2",
+      "bytes": 442118,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "shuffle-kth-indexed",
+      "url": "https://kth.diva-portal.org/smash/person.jsf?pid=authority-person%3A80558",
+      "retrieved_at": "2026-11-13T13:10:59.762126+00:00",
+      "sha256": "b6d8d21cc4c8560942541bad21c80b44484dd23b93906c155397b532c6619152",
+      "bytes": 32048,
+      "transport": "web search indexed primary institutional page",
+      "scope": "indexed abstract and bibliographic text only; direct page blocked by Anubis; no full paper access"
+    },
+    {
+      "source_id": "shuffle-localmask-crossref",
+      "url": "https://api.crossref.org/works/10.1109/TC.2026.3729145",
+      "response_url": "https://api.crossref.org/works/10.1109/TC.2026.3729145",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:41.807952+00:00",
+      "sha256": "4629a4ce8e69a92f401946b263e48e397cb3796a25769ae74d083b0b4544b8f6",
+      "bytes": 6727,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-localmask-eprint",
+      "url": "https://eprint.iacr.org/2024/1194",
+      "response_url": "https://eprint.iacr.org/2024/1194",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:05:59.953580+00:00",
+      "sha256": "1d5a61b3d77827a3367d0eaa3915cd8f75b37ee5d17ea7c4344082eb489324f1",
+      "bytes": 16796,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "shuffle-localmask-pdf",
+      "url": "https://eprint.iacr.org/2024/1194.pdf",
+      "response_url": "https://eprint.iacr.org/2024/1194.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T13:06:01.328838+00:00",
+      "sha256": "dd51894e7e0345ededd439b43df3ca3f2df68ca6c0fb2b32705f104358f8d2d4",
+      "bytes": 5583,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure only; body not treated as paper"
+    },
+    {
+      "source_id": "shuffle-localmask-publisher",
+      "url": "https://xplorestaging.ieee.org/document/11695086/",
+      "response_url": "https://xplorestaging.ieee.org/document/11695086/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:08:51.630044+00:00",
+      "sha256": "e7f0772add66cf53ca3a70107276e9b667347d2635399109d6392ea6d5493a0a",
+      "bytes": 50895,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "shuffle-nist-third-crossref",
+      "url": "https://api.crossref.org/works/10.6028/NIST.IR.8413",
+      "response_url": "https://api.crossref.org/works/10.6028/NIST.IR.8413",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:08:38.735302+00:00",
+      "sha256": "5494ed33fda2a16c8b25f2c9f87d023a93f53e406395351b31aef2f1f63f68b8",
+      "bytes": 7002,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-nist-third",
+      "url": "https://csrc.nist.gov/pubs/ir/8413/final",
+      "response_url": "https://csrc.nist.gov/pubs/ir/8413/final",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:08:37.431292+00:00",
+      "sha256": "608bcde73bf135b4420d5dde5ad7a1bfff0c1d20cd91f0fa08cc6e27ddbf8426",
+      "bytes": 54436,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "shuffle-nist-update-crossref",
+      "url": "https://api.crossref.org/works/10.6028/NIST.IR.8413-upd1",
+      "response_url": "https://api.crossref.org/works/10.6028/NIST.IR.8413-upd1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:29:12.975612+00:00",
+      "sha256": "23bde5a4835ade2994428ff8c119d1f230a62fac8ebc28496d1da64cbda20b34",
+      "bytes": 7505,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-nist-update",
+      "url": "https://csrc.nist.gov/pubs/ir/8413/upd1/final",
+      "response_url": "https://csrc.nist.gov/pubs/ir/8413/upd1/final",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:27:24.409157+00:00",
+      "sha256": "fdd761a75684d10900fb374bf7e799839dc8b934439271784bacf962690697ae",
+      "bytes": 54319,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "shuffle-ref-1-crossref",
+      "url": "https://api.crossref.org/works/10.6028/nist.ir.8240",
+      "response_url": "https://api.crossref.org/works/10.6028/nist.ir.8240",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:01.913304+00:00",
+      "sha256": "43da9c61447907567063ee2b99ede2753dd174a16ecf6ba3fbf4214fbed210b5",
+      "bytes": 3393,
+      "content_type": "application/json",
+      "evidence_use": "wrong target DOI from deposited reference; retained only for identity error audit, not added as cited target"
+    },
+    {
+      "source_id": "shuffle-ref-10-crossref",
+      "url": "https://api.crossref.org/works/10.1145/3587037",
+      "response_url": "https://api.crossref.org/works/10.1145/3587037",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:20.833203+00:00",
+      "sha256": "5951bdcdaf760c065d5bbf0a8b99693a024c046abf48ca1ce97864f880f3a929",
+      "bytes": 21580,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-11-crossref",
+      "url": "https://api.crossref.org/works/10.46586/tches.v2021.i2.328-356",
+      "response_url": "https://api.crossref.org/works/10.46586/tches.v2021.i2.328-356",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:22.438310+00:00",
+      "sha256": "cfbe62259ae87eb269234e97d201b714c148a9b02749a17c3dc38fa996892b41",
+      "bytes": 4196,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-12-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-66626-2_7",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-66626-2_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:24.756519+00:00",
+      "sha256": "cd93952885a04d92ae70c450751160073d3f0a052f3b03036abb40180bcc2da3",
+      "bytes": 16858,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-13-crossref",
+      "url": "https://api.crossref.org/works/10.1109/TCAD.2022.3174142",
+      "response_url": "https://api.crossref.org/works/10.1109/TCAD.2022.3174142",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:27.343921+00:00",
+      "sha256": "1e77101feda075bae2f41b831278f46a82c1bf65d978ebf799e0af549c940320",
+      "bytes": 5994,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-13-publisher",
+      "url": "https://xplorestaging.ieee.org/document/9772079/",
+      "response_url": "https://xplorestaging.ieee.org/document/9772079/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:08:38.075690+00:00",
+      "sha256": "8699e92ebc955814d9cc7c4299005973e345684537c5a7c11ae856d74aba9be8",
+      "bytes": 47280,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "shuffle-ref-14-crossref",
+      "url": "https://api.crossref.org/works/10.1007/978-3-030-35423-7_27",
+      "response_url": "https://api.crossref.org/works/10.1007/978-3-030-35423-7_27",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:29.904906+00:00",
+      "sha256": "ed682a97de5a925886de767b0408fa489d75dfe760032ca45af7bed4d6dd2b7b",
+      "bytes": 19598,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-15-crossref",
+      "url": "https://api.crossref.org/works/10.1145/2086696.2086699",
+      "response_url": "https://api.crossref.org/works/10.1145/2086696.2086699",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:34.824904+00:00",
+      "sha256": "7c8993f02e1b326cd348d953a8fca0b3e935e9195a462cb3da65a6702cd33659",
+      "bytes": 21613,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-16-crossref",
+      "url": "https://api.crossref.org/works/10.46586/tches.v2021.i4.88-113",
+      "response_url": "https://api.crossref.org/works/10.46586/tches.v2021.i4.88-113",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:36.784938+00:00",
+      "sha256": "4a1e8fd565540d68c6ef7884bd252ca82f8700bd948260e6210fe50187de3b7f",
+      "bytes": 4812,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-17-crossref",
+      "url": "https://api.crossref.org/works/10.1109/TCAD.2022.3230359",
+      "response_url": "https://api.crossref.org/works/10.1109/TCAD.2022.3230359",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:38.798926+00:00",
+      "sha256": "3e515fca4fe7dbaf1326135e4716cee019d5ff6bb07135b5614faa835108d05b",
+      "bytes": 7514,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-17-publisher",
+      "url": "https://xplorestaging.ieee.org/document/9992019/",
+      "response_url": "https://xplorestaging.ieee.org/document/9992019/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:08:45.110483+00:00",
+      "sha256": "2ce1feb2004f0df3f80f5f0bfe4a89c5cc96326fb338ef51774c1c341dbc4bb4",
+      "bytes": 52520,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "shuffle-ref-2-crossref",
+      "url": "https://api.crossref.org/works/10.1109/TCSII.2024.3382772",
+      "response_url": "https://api.crossref.org/works/10.1109/TCSII.2024.3382772",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:03.646863+00:00",
+      "sha256": "e57787a6dc9d0c116095634ab6d01ec0ccddf9bc6496c0ad0e1a3851708347c0",
+      "bytes": 8004,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-2-publisher",
+      "url": "https://xplorestaging.ieee.org/document/10485193/",
+      "response_url": "https://xplorestaging.ieee.org/document/10485193/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:08:14.814687+00:00",
+      "sha256": "0f6ae2b48e87c36e1402ed649f14d1a2333477178c2de072f4080f2a17afcc0d",
+      "bytes": 49324,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "shuffle-ref-3-crossref",
+      "url": "https://api.crossref.org/works/10.1109/TCSII.2024.3442228",
+      "response_url": "https://api.crossref.org/works/10.1109/TCSII.2024.3442228",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:05.132173+00:00",
+      "sha256": "0fa12db3137d507a5395084753593213ec0d98c0ff570ef0e8634f0039d0d41a",
+      "bytes": 6285,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-3-publisher",
+      "url": "https://xplorestaging.ieee.org/document/10634219/",
+      "response_url": "https://xplorestaging.ieee.org/document/10634219/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:08:14.004504+00:00",
+      "sha256": "ec17d8a6f7358b1912ee6714f2e8b83dbdc5e53f8390e0ffb293f6a510055cd2",
+      "bytes": 48177,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "shuffle-ref-4-crossref",
+      "url": "https://api.crossref.org/works/10.1109/TIFS.2024.3359890",
+      "response_url": "https://api.crossref.org/works/10.1109/TIFS.2024.3359890",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:06.315133+00:00",
+      "sha256": "3ab49a28a36c50bbb3b3a9d98bbd5efbd94fa8bf06472a7d51310ec1fbf71173",
+      "bytes": 7398,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-5-crossref",
+      "url": "https://api.crossref.org/works/10.1109/TCSI.2023.3288600",
+      "response_url": "https://api.crossref.org/works/10.1109/TCSI.2023.3288600",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:09.111788+00:00",
+      "sha256": "d08cc914e8947273f0c4ea4d181ea04e3c182e32b04ad6bdc517b40a72569c5f",
+      "bytes": 7046,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-6-crossref",
+      "url": "https://api.crossref.org/works/10.23919/DATE58400.2024.10546550",
+      "response_url": "https://api.crossref.org/works/10.23919/DATE58400.2024.10546550",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:10.949362+00:00",
+      "sha256": "5dace32deacfb7a219c63f6c7c1de6cbc621f9b739022d0c3f7edde60955627e",
+      "bytes": 5394,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-6-publisher",
+      "url": "https://xplorestaging.ieee.org/document/10546550/",
+      "response_url": "https://xplorestaging.ieee.org/document/10546550/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:08:34.363690+00:00",
+      "sha256": "baad655cf8d156969b228db3cbb1f8d1758ae3037147bdbf82f51c92bfec3f64",
+      "bytes": 47061,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "shuffle-ref-7-crossref",
+      "url": "https://api.crossref.org/works/10.1109/TCAD.2022.3218614",
+      "response_url": "https://api.crossref.org/works/10.1109/TCAD.2022.3218614",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:14.540264+00:00",
+      "sha256": "7490b4eae2a95d7d32c90ea7aa6929f561aeb518a257bb40d9eb9366c175a289",
+      "bytes": 5698,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-7-publisher",
+      "url": "https://xplorestaging.ieee.org/document/9933800/",
+      "response_url": "https://xplorestaging.ieee.org/document/9933800/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:08:34.243218+00:00",
+      "sha256": "51301aa9ac9dbc6a19047ed1851a80d64235c2ba215cceee48787d16f3582d3e",
+      "bytes": 47935,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "shuffle-ref-8-crossref",
+      "url": "https://api.crossref.org/works/10.1109/ICFPT56656.2022.9974404",
+      "response_url": "https://api.crossref.org/works/10.1109/ICFPT56656.2022.9974404",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:16.168605+00:00",
+      "sha256": "199d04cdbc9857691eb5a3320dc1429c4fa80ac458c533dc3ef8e32d4d416db3",
+      "bytes": 3449,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-8-publisher",
+      "url": "https://xplorestaging.ieee.org/document/9974404/",
+      "response_url": "https://xplorestaging.ieee.org/document/9974404/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:08:34.457158+00:00",
+      "sha256": "8d4c6417f489908e746abbd0e9eba4c58ce6e47d70180ab0b39d2792caf3f544",
+      "bytes": 45945,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "shuffle-ref-9-crossref",
+      "url": "https://api.crossref.org/works/10.1109/MDAT.2023.3298805",
+      "response_url": "https://api.crossref.org/works/10.1109/MDAT.2023.3298805",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:17.492242+00:00",
+      "sha256": "f3bad6ef1eb2a1eee6c4313c24f5af249ac22e7d8420300d31645034fbac5147",
+      "bytes": 5772,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "shuffle-ref-9-publisher",
+      "url": "https://xplorestaging.ieee.org/document/10193851/",
+      "response_url": "https://xplorestaging.ieee.org/document/10193851/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:08:30.564041+00:00",
+      "sha256": "d88feb10544b1208177d54ff7b76a9d16b78a6a32d402ade30950c0bb6952031",
+      "bytes": 47561,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "shuffle-space-eprint",
+      "url": "https://eprint.iacr.org/2020/1038",
+      "response_url": "https://eprint.iacr.org/2020/1038",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:00.024314+00:00",
+      "sha256": "b98e4ebdcd376bdf85ca8bdfdbf29fc4a1212d9c01309314a79fba3f30695767",
+      "bytes": 17256,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "shuffle-space-pdf",
+      "url": "https://eprint.iacr.org/2020/1038.pdf",
+      "response_url": "https://eprint.iacr.org/2020/1038.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T13:05:58.647664+00:00",
+      "sha256": "95ba936c163147d2195357edd5c9dd6ccf655626197744ce5837a6d8a5ffec88",
+      "bytes": 5583,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure only; body not treated as paper"
+    },
+    {
+      "source_id": "shuffle-space-publisher",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-66626-2_7",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-030-66626-2_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:02.414507+00:00",
+      "sha256": "c95178f19ab89587c5ed1877f60ff73f2bf66ada966d4c839cace48663aa2682",
+      "bytes": 333927,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "shuffle-tecs-eprint",
+      "url": "https://eprint.iacr.org/2021/1189",
+      "response_url": "https://eprint.iacr.org/2021/1189",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:05:58.763279+00:00",
+      "sha256": "5c2e9d16bd8da334d974aa258f7cafec8eb249feb6fa0010f3e4a4267d072658",
+      "bytes": 15524,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "shuffle-tecs-pdf",
+      "url": "https://eprint.iacr.org/2021/1189.pdf",
+      "response_url": "https://eprint.iacr.org/2021/1189.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T13:05:58.300312+00:00",
+      "sha256": "7f179fd5c249452d3d92db9f4fddb8636fe27ba306eb14eca291e88826abb4c1",
+      "bytes": 5583,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure only; body not treated as paper"
+    },
+    {
+      "source_id": "shuffle-tecs-publisher",
+      "url": "https://dl.acm.org/doi/10.1145/3587037",
+      "response_url": "https://dl.acm.org/doi/10.1145/3587037",
+      "status": 403,
+      "retrieved_at": "2026-11-13T13:08:35.276460+00:00",
+      "sha256": "a7ee68a1a1f1ec41023f18de5f15d44651090646dc80feec6453254c614f9d88",
+      "bytes": 5617,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "retrieval failure only; body not treated as paper"
+    },
+    {
+      "source_id": "shuffle-zero-institution",
+      "url": "https://research.sabanciuniv.edu/id/eprint/49123/",
+      "response_url": "https://research.sabanciuniv.edu/id/eprint/49123/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:05:58.703218+00:00",
+      "sha256": "7b2818905291e4f8f0825d854f10bd5d9f3b7ba5117bbad7fe5c6dad21228c73",
+      "bytes": 23264,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "shuffle-zero-pdf",
+      "url": "https://research.sabanciuniv.edu/id/eprint/49123/1/Zero-Value.pdf",
+      "response_url": "https://research.sabanciuniv.edu/id/eprint/49123/1/Zero-Value.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T13:06:08.950506+00:00",
+      "sha256": "dc365be68fd225b7c7d333259a2999dc250a31aecdaf613dbb882a7b3b589c1d",
+      "bytes": 5867752,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "kyber4-shuffle-arxiv-pdf",
+      "url": "https://arxiv.org/pdf/2407.02452v5",
+      "response_url": "https://arxiv.org/pdf/2407.02452v5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:47.971781+00:00",
+      "sha256": "c8ba38e233606ba9a063f450916de71e7596eaf8cb6d8213162addbbcd13fa06",
+      "bytes": 743958,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "kyber4-shuffle-crossref",
+      "url": "https://api.crossref.org/works/10.1109/TCSII.2025.3528751",
+      "response_url": "https://api.crossref.org/works/10.1109/TCSII.2025.3528751",
+      "status": 200,
+      "retrieved_at": "2026-11-13T12:12:51.786570+00:00",
+      "sha256": "b2f3f255e4767d505cde20f362d3b35793622243103033036313b0d566ff8c71",
+      "bytes": 5303,
+      "content_type": "application/json"
+    }
+  ],
+  "counts": {
+    "new_catalog_records": 16,
+    "new_included_cards": 9,
+    "upgraded_existing_cards": 1,
+    "new_adjacent_decisions": 7,
+    "seed_bibliography_entries": 17,
+    "new_citation_edges": 18,
+    "new_version_edges": 2,
+    "resolved_discoveries": 7
+  },
+  "evidence_scope": {
+    "zero_value": "accepted PDF selected sections and tables V/VI; not complete algorithm/proof/reference reading",
+    "jcen": "selected HTML sections; recovery rates from prose; target design reduced to fit FPGA",
+    "localmask": "abstract and deposited reference 11; no full-text reading",
+    "duplication": "indexed primary KTH author abstract; IEEE editor note not substituted for author abstract"
+  },
+  "identity_correction": {
+    "seed_id": "doi:10.1109/tcsii.2025.3528751",
+    "reference_number": 1,
+    "deposited_wrong_doi": "10.6028/nist.ir.8240",
+    "actual_title_target": "10.6028/nist.ir.8413",
+    "exact_original_or_update_edition": "unspecified by seed",
+    "related_errata_doi": "10.6028/nist.ir.8413-upd1"
+  },
+  "gaps": [
+    "Most new cards are abstract-only; code/data not inspected",
+    "ePrint full texts returned 403; no unverified version equality claimed",
+    "JCEN reference 23 cites ePrint 2021/1189, not the TECS DOI; mapping awaits version evidence",
+    "Unverified institutional record ID returned a challenge and is excluded from evidence",
+    "Initial NIST update Crossref request had transient TLS failure; retry obtained hash-verified metadata",
+    "Finite selected forward references do not prove exhaustive citation coverage"
+  ],
+  "literature_goal_complete": false
+}

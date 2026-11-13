@@ -12,6 +12,7 @@
 
 ## 从这里开始
 
+- [Kyber 打乱引用后续：九条新卡片、已有硬件攻击的正文升级及错链纠正](records/2026-11-13-literature-kyber-shuffle-followups.md)
 - [算法约束自校准、隐藏编码与可感知测量；BOLD-37 至 39 待验证](brainstorms/2026-11-13-self-calibration-hidden-encoding-observer.md)
 - [第十一批交接：可辨识性、编码节点和观察者反作用](records/2026-11-13-calibration-encoding-observer-handoff.md)
 - [三个更大胆的原型：泄漏回波、动态表示与机制发现；待验证](brainstorms/2026-11-13-echo-representations-mechanism-discovery.md)
@@ -35,7 +36,7 @@
 - [第四批交接：三项最小资格诊断与已知反例](records/2026-11-12-observation-handoff.md)
 - [再扩大研究对象：自动模型反例、测量与格求解联合设计、物理同步；BOLD-13 至 15 待验证](brainstorms/2026-11-12-model-breaking-directions.md)
 - [第三批构思修订与验证交接](records/2026-11-12-model-breaking-handoff.md)
-- [近五年文献库（建设中）：1,458 条标题初筛、258 条阅读卡片、引用扩展与版本追踪](literature/README.md)
+- [近五年文献库（建设中）：1,458 条标题初筛、267 条阅读卡片、引用扩展与版本追踪](literature/README.md)
 - [掩码与硬件补读：16 条新增记录、八条发现解析及版本/模拟边界](records/2026-11-13-literature-masking-lineage-hardware.md)
 - [S&P 2023 全标题、47 篇摘要补读及掩码/恒时引用](records/2026-11-13-literature-sp2023-candidates.md)
 - [S&P 2024 摘要补读、261 条目录核对与 Episode V 引用补漏](records/2026-11-13-literature-sp2024-candidates-kyber-v.md)

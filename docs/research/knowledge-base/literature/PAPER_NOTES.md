@@ -2,7 +2,19 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 258 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 267 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+
+## An architecture-independent instruction shuffler to protect against side-channel attacks
+
+- 来源：[TACO 2012](https://doi.org/10.1145/2086696.2086699)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：Ali Galip Bayrak; Nikola Velickovic; Paolo Ienne; Wayne Burleson
+- 对象：AES, instruction shuffling；类型：countermeasure。
+- 核心想法：在 CPU 与指令缓存/存储器之间加入架构独立的随机指令打乱单元。
+- 作者报告：摘要报告 OpenRISC 与 MicroBlaze FPGA 上的 AES 评估：约 2% 面积、1.5% 功耗开销及攻击工作量超过 360 倍。
+- 限制与下一步：数值属于作者指定平台和攻击，不是所有处理器的安全倍数；2012 年窗口外通用基础文献。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/works/10.1145/2086696.2086699。
+- [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
 
 ## Jasmin: High-Assurance and High-Speed Cryptography
 
@@ -59,6 +71,18 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-42068-0_5。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## FPGA Implementation and Comparison of Protections Against SCAs for RLWE
+
+- 来源：[INDOCRYPT 2019](https://doi.org/10.1007/978-3-030-35423-7_27)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：Timo Zijlstra; Karim Bigou; Arnaud Tisserand
+- 对象：RLWE；类型：countermeasure。
+- 核心想法：实现并比较 RLWE-PKE FPGA 防护，包含环元素冗余表示的随机化。
+- 作者报告：Springer 摘要报告既有保护改进与实现成本对比。
+- 限制与下一步：RLWE-PKE 不能自动视为 Kyber 或最终 ML-KEM；安全评估预算和硬件模型待全文。2019 年窗口外基础文献。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-35423-7_27。
+- [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
 ## A Key-Recovery Timing Attack on Post-quantum Primitives Using the Fujisaki-Okamoto Transformation and Its Application on FrodoKEM
 
 - 来源：[CRYPTO 2020](https://doi.org/10.1007/978-3-030-56880-1_13)；时间标记：outside rolling window; explicitly cited foundational work。
@@ -93,6 +117,18 @@
 - 已读章节：IEEE 18 页 PDF 第 1 页摘要与 §1 方法概述。
 - [详细阅读记录](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)
 - 代码/数据核查：not checked；引用追踪：pending。
+
+## On Configurable SCA Countermeasures Against Single Trace Attacks for the NTT: A Performance Evaluation Study over Kyber and Dilithium on the ARM Cortex-M4
+
+- 来源：[SPACE 2020](https://doi.org/10.1007/978-3-030-66626-2_7)；时间标记：outside rolling five-year window; cited foundation。
+- 作者：Prasanna Ravi; Romain Poussier; Shivam Bhasin; Anupam Chattopadhyay
+- 对象：Kyber, Dilithium, NTT；类型：countermeasure。
+- 核心想法：比较利用旋转因子性质的 NTT 局部掩码与不同粒度打乱。
+- 作者报告：摘要报告 pqm4 Cortex-M4 运行时间评价：Kyber 7%–78%，Dilithium 密钥生成 12%–197%、签名 32%–490% 开销。
+- 限制与下一步：这是具体实现的性能比较范围；尚未核查全文各配置的泄漏验证，不把开销评测等同于完整实测安全证明。窗口外基础文献。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-030-66626-2_7; https://eprint.iacr.org/2020/1038。
+- [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：selected backward/forward relation verified; complete tracing pending。
 
 ## Share-slicing: Friend or Foe?
 
@@ -331,6 +367,18 @@
 - 已读章节：作者 52 页稿 PDF 第 1 页摘要、§6–7 指定段落（PDF 17–19）：初步实现的非恒时限制、基准条件及探针掩码；未核对与正式章节的逐字差异。
 - [详细阅读记录](notes/masking-lineage-and-kyber-hardware-evidence-20261113.md)
 - 代码/数据核查：author manuscript links https://github.com/espitau/Mitaka-EC22 ; repository contents not retrieved；引用追踪：pending。
+
+## A Masked Pure-Hardware Implementation of Kyber Cryptographic Algorithm
+
+- 来源：[FPT 2022](https://doi.org/10.1109/icfpt56656.2022.9974404)；时间标记：within rolling five-year window。
+- 作者：Tendayi Kamucheka; Alexander Nelson; David Andrews; Miaoqing Huang
+- 对象：Kyber；类型：countermeasure。
+- 核心想法：给出纯硬件掩码 Kyber；相关同题预印本描述 Kyber-512 的隐藏与掩码组合。
+- 作者报告：IEEE 摘要报告功耗防护；同题 ePrint 摘要说明采用 TVLA 评价。后续 JCEN 2025 分析了由此设计裁减的消息解码模块。
+- 限制与下一步：正式记录页码仅 1-1，不能用预印本补齐冒充正式全文。有限 TVLA 不证明所有攻击安全；ePrint 未显式链接正式 DOI，版本等价未核实。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9974404/; https://eprint.iacr.org/2022/1547。
+- [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：selected backward/forward relation verified; complete tracing pending。
 
 ## PACMAN: attacking ARM pointer authentication with speculative execution
 
@@ -1270,6 +1318,18 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/10179484/。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## Low-Cost Shuffling Countermeasures Against Side-Channel Attacks for NTT-Based Post-Quantum Cryptography
+
+- 来源：[TCAD 2023](https://doi.org/10.1109/tcad.2022.3174142)；时间标记：within rolling five-year window。
+- 作者：Zhaohui Chen; Yuan Ma; Jiwu Jing
+- 对象：NTT, lattice-based PQC；类型：countermeasure。
+- 核心想法：把嵌套 NTT 循环改为单层控制，打乱系数索引与网络执行顺序。
+- 作者报告：IEEE 摘要报告 FPGA 资源开销约 9%，性能影响较小。
+- 限制与下一步：当前仅摘要与元数据；具体随机熵、攻击预算和联合/高阶攻击条件待全文。2022 是在线年，卷期为 2023 年 42(1)。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/9772079/。
+- [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
 ## Side Channel Security Oriented Evaluation and Protection on Hardware Implementations of Kyber
 
 - 来源：[TCAS-I 2023](https://doi.org/10.1109/tcsi.2023.3288600)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
@@ -1486,6 +1546,18 @@
 - 已读章节：Publisher abstract; May 29 author PDF p.1 abstract, pp.2–3 contributions/limitations, pp.21–22 section 7 and footnote 26; selected bibliography [8] on p.23, [36–39] on p.24 and [55,57,58] on p.25; ePrint revision metadata. Not full proof/artifact audit.
 - [详细阅读记录](notes/kyber-verification-episode-v-20261113.md)
 - 代码/数据核查：not checked；引用追踪：in_progress。
+
+## Securing CRYSTALS-Kyber in FPGA Using Duplication and Clock Randomization
+
+- 来源：[Design & Test 2024](https://doi.org/10.1109/mdat.2023.3298805)；时间标记：within rolling five-year window。
+- 作者：Michail Moraitis; Yanning Ji; Martin Brisfors; Elena Dubrova; Niklas Lindskog; Håkan Englund
+- 对象：Kyber；类型：countermeasure。
+- 核心想法：通过复制密码核与时钟随机化保护 FPGA Kyber。
+- 作者报告：KTH 作者摘要报告在 Xing 等轻量实现上构建防护，并评价深度学习侧信道抵抗性。
+- 限制与下一步：IEEE 摘要字段实际是编辑按语；作者摘要仅经机构页面的搜索索引取得，直接访问受限。攻击预算和全部配置尚未核查，不能推出普遍防护或故障安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://kth.diva-portal.org/smash/person.jsf?pid=authority-person%3A80558; https://xplorestaging.ieee.org/document/10193851/。
+- [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：selected backward/forward relation verified; complete tracing pending。
 
 ## PREFETCHX: Cross-Core Cache-Agnostic Prefetcher-based Side-Channel Attacks
 
@@ -1970,6 +2042,31 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## A Configurable CRYSTALS-Kyber Hardware Implementation with Side-Channel Protection
+
+- 来源：[TECS 2024](https://doi.org/10.1145/3587037)；时间标记：within rolling five-year window。
+- 作者：Arpan Jati; Naina Gupta; Anupam Chattopadhyay; Somitra Kumar Sanadhya
+- 对象：Kyber；类型：countermeasure。
+- 核心想法：组合指令随机化、FSM 保护与故障检测哈希，提供可配置 Kyber 硬件。
+- 作者报告：正式出版商提交的摘要报告低于 5% 防护开销以及 200K 迹线 TVLA 评估。
+- 限制与下一步：该迹线规模下未检出不等于无泄漏；TECS 正文访问 403。同题 ePrint 摘要没有 200K TVLA 表述，不能互换版本证据。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/works/10.1145/3587037; https://eprint.iacr.org/2021/1189。
+- [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## Zero-Value Filtering for Accelerating Non-Profiled Side-Channel Attack on Incomplete NTT-Based Implementations of Lattice-Based Cryptography
+
+- 来源：[TIFS 2024](https://doi.org/10.1109/tifs.2024.3359890)；时间标记：within rolling five-year window。
+- 作者：Tolun Tosun; Erkay Savas
+- 对象：Kyber, Dilithium；类型：attack。
+- 核心想法：利用零值条件分离不完整 NTT 乘法中的系数假设，并结合逆 NTT 验证与修正。
+- 作者报告：在 MAX32520 Cortex-M4F 上采集 EM，作者报告未保护 Kyber 的运行时间最高加速 1915 倍，并评估自建一阶掩码 Kyber。
+- 限制与下一步：1915 倍是指定基线下的计算时间加速，不是迹线减少；过滤迹线预算另计。Dilithium 使用载体素数 769 的特定实现；掩码基线仅实测前两个系数、整向量耗时含外推。
+- 阅读层级：selected_full_text_sections；来源：https://research.sabanciuniv.edu/id/eprint/49123/1/Zero-Value.pdf; https://research.sabanciuniv.edu/id/eprint/49123/。
+- 已读章节：Accepted manuscript PDF p1 abstract; p5 section VI; pp9–12 experimental setup/results/conclusion; tables V–VI visually checked on pp10–11. Algorithm section VII and complete bibliography not read.
+- [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
 ## GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers
 
 - 来源：[USENIX 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru)；时间标记：exact public date not yet verified。
@@ -1998,14 +2095,16 @@
 
 ## A side-channel attack on a masked hardware implementation of CRYSTALS-Kyber
 
-- 来源：[Journal of Cryptographic Engineering 2025](https://doi.org/10.1007/s13389-025-00375-7)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
+- 来源：[Journal of Cryptographic Engineering 2025](https://doi.org/10.1007/s13389-025-00375-7)；时间标记：within rolling five-year window。
 - 作者：Yanning Ji; Elena Dubrova
-- 对象：Kyber, masked FPGA, deep learning, message recovery；类型：hardware_side_channel_attack_and_countermeasure。
-- 核心想法：同一掩码硬件攻击研究的期刊记录，摘要还涉及封装过程与对策。
-- 作者报告：摘要报告消息解码 HD 泄漏、重复解封装提升共享密钥恢复，并分析封装及保护措施。
-- 限制与下一步：与 ASHES 2023 有显式书目关联，但逐项版本增量和实验差异未审计；保留两个出版记录，不计成两个独立攻击发现。
-- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/article/10.1007/s13389-025-00375-7。
-- 代码/数据核查：not checked；引用追踪：pending。
+- 对象：Kyber；类型：attack。
+- 核心想法：以相邻消息位的汉明距离攻击掩码 Kyber-512 的 FPGA 消息解码，提出降低扇出的寄存器修改。
+- 作者报告：作者在裁减设计上报告：399 次重复解封装，同设备剖析消息恢复 99.7%，异设备剖析 94.8%；测试 1000 条消息。
+- 限制与下一步：恢复消息及其导出的会话共享密钥；不能写成本研究已实测长期私钥恢复。1000 条原始训练迹线切分成 255000 个片段，不是独立采集。完整原设计超出实验 FPGA 容量，裁减等价性未独立验证。 已有 ASHES 2023 书目版本关系保留，完整版本差异仍待审计。
+- 阅读层级：selected_full_text_sections；来源：https://link.springer.com/article/10.1007/s13389-025-00375-7。
+- 已读章节：Publisher HTML abstract and sections 1–2, 4, 5 opening, 6, 8–10; reference entries 23/26/33 inspected, only 26/33 linked. Numerical recovery rates read from section 8 prose; tables 3/5 not independently transcribed. Section 7 and full bibliography not completely read.
+- [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：selected backward/forward relation verified; complete tracing pending。
 
 ## BPSniff: Continuously Surveilling Private Blood Pressure Information in the Metaverse via Unrestricted Inbuilt Motion Sensors
 
@@ -2331,7 +2430,7 @@
 - 阅读层级：selected_full_text_sections；来源：https://arxiv.org/abs/2407.02452v5。
 - 已读章节：五页 arXiv v5 PDF 第 1 页摘要、第 4–5 页 §IV–VI、图 4、表 II 及九条选读参考；第 4 页已视觉核查。
 - [详细阅读记录](notes/kyber-multiplication-and-shuffling-20261113.md)
-- 代码/数据核查：not inspected；引用追踪：pending。
+- 代码/数据核查：not inspected；引用追踪：all 17 bibliography entries identity/scope screened; original seven discoveries resolved; recursive/forward tracing incomplete。
 
 ## Adaptive Template Attacks on the Kyber Binomial Sampler
 
@@ -2552,6 +2651,18 @@
 - 限制与下一步：算法家族差异来自设定的泄漏模型与合成数据，不是实际恒时实现测量或三种 KEM 的风险排名；需平台验证。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://arxiv.org/abs/2512.22301。
 - 代码/数据核查：not checked；引用追踪：pending。
+
+## Hardware Implementation and Security Analysis of Local-Masked NTT for CRYSTALS-Kyber
+
+- 来源：[TC 2026](https://doi.org/10.1109/tc.2026.3729145)；时间标记：online 2026-09-17 within cutoff; assigned December 2026 issue is future at review date。
+- 作者：Rafael Carrera Rodriguez; Emanuele Valea; Florent Bruguier; Pascal Benoit
+- 对象：Kyber, NTT；类型：countermeasure_evaluation。
+- 核心想法：实现并评估基于旋转因子随机化的局部掩码 NTT，比较不同配置的泄漏。
+- 作者报告：IEEE 与同题 ePrint 摘要报告面积、性能和非特定 t 检验，指出配置之间泄漏倾向不同。
+- 限制与下一步：不是完整 Kyber 密钥恢复结果；具体配置、测试规模与物理模型待全文。预印本正文 403，正式版与预印本全文等价未核实。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://xplorestaging.ieee.org/document/11695086/; https://eprint.iacr.org/2024/1194。
+- [详细阅读记录](notes/kyber-shuffle-followups-and-evidence-20261113.md)
+- 代码/数据核查：not inspected; no author code executed；引用追踪：selected backward/forward relation verified; complete tracing pending。
 
 ## A Framework for designing High-Order Side-Channel Protected Hardware Implementations of ML-KEM
 
