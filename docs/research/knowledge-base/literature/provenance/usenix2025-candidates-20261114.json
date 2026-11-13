@@ -1,0 +1,116 @@
+{
+  "sources": [
+    {
+      "id": "usenix-2025",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "response_url": "https://www.usenix.org/conference/usenixsecurity25/technical-sessions",
+      "status": 200,
+      "sha256": "2d2071294c2e368212a07bda13be08d3400a3e481f20030e2c90c17e70480351",
+      "bytes": 1839092,
+      "type": "text/html; charset=utf-8",
+      "retrieved_at": "2026-11-12T06:53:59.474474+00:00",
+      "retrieval_time_basis": "local cache creation timestamp",
+      "source_id": "usenix-2025"
+    },
+    {
+      "source_id": "usenix-2025-errata-hastings",
+      "url": "https://www.usenix.org/system/files/sec25_errata_hastings.pdf",
+      "response_url": "https://www.usenix.org/system/files/sec25_errata_hastings.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:02:56.305489+00:00",
+      "sha256": "b15a64a8f53610dcf9cb17afd03819a25f14fc86c1805cad97553532a169d0ff",
+      "bytes": 92013,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix-2025-errata-kabir",
+      "url": "https://www.usenix.org/system/files/sec25_errata_kabir.pdf",
+      "response_url": "https://www.usenix.org/system/files/sec25_errata_kabir.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:02:56.310467+00:00",
+      "sha256": "c4058071ff043ce62ff8ce754d545c648b44e90d669e9f24d4a0c23edc4afcb3",
+      "bytes": 81082,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix25-page-rezaeezade",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade",
+      "response_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:20:55.337364+00:00",
+      "sha256": "903bac6c063e6e7a43ab6598784c0487ff209558d1d17e602de1262cef1c151e",
+      "bytes": 40394,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "usenix25-page-weissteiner",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner",
+      "response_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:20:54.556275+00:00",
+      "sha256": "fab40b81a210f0c4ec4654b9eab28fd4a049d38e2237dbae63bdbc447cc88079",
+      "bytes": 41418,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "usenix25-paper-rezaeezade",
+      "url": "https://www.usenix.org/system/files/usenixsecurity25-rezaeezade.pdf",
+      "response_url": "https://www.usenix.org/system/files/usenixsecurity25-rezaeezade.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:20:57.152616+00:00",
+      "sha256": "06a231fe8b449faa5147071ab3f8fb80a54af7e7e1f7c3621d3923504e03c519",
+      "bytes": 9534115,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix25-paper-weissteiner",
+      "url": "https://www.usenix.org/system/files/usenixsecurity25-weissteiner.pdf",
+      "response_url": "https://www.usenix.org/system/files/usenixsecurity25-weissteiner.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:20:55.769140+00:00",
+      "sha256": "4fabe7572a6e579290a6cf4b3bd1eacf92a9466720d27192393df41fadcd337b",
+      "bytes": 680729,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix25-appendix-weissteiner",
+      "url": "https://www.usenix.org/system/files/usenixsecurity25-appendix-weissteiner.pdf",
+      "response_url": "https://www.usenix.org/system/files/usenixsecurity25-appendix-weissteiner.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:20:55.223818+00:00",
+      "sha256": "2a8d0a0e8d6d5df23ea5f6f2d5da9799b48abbc7163c3c5a42f9afae41f6033e",
+      "bytes": 235742,
+      "content_type": "application/pdf"
+    }
+  ],
+  "reviewed_on": "2026-11-14",
+  "title_entries_read": 438,
+  "abstracts_read": 103,
+  "new_included_cards": 36,
+  "existing_card_upgraded": [
+    "url:https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade"
+  ],
+  "include_decisions_this_cell": 37,
+  "adjacent_decisions": 66,
+  "remaining_unread_abstracts": 335,
+  "selected_full_text_records": [
+    "url:https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade",
+    "url:https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner"
+  ],
+  "reference_screens": {
+    "blind": {
+      "background_provisional": 13,
+      "discovery_queued": 36,
+      "linked_catalog": 9
+    },
+    "tee": {
+      "discovery_queued": 2,
+      "linked_catalog": 4
+    }
+  },
+  "new_citation_edges": 13,
+  "new_pending_discoveries": 38,
+  "errata_reading": "both single-page slips fully read and rendered; Hastings swaps beta constants and fixes insurer/defender wording; Kabir adds funding acknowledgement, with truncated paper title on slip",
+  "scope": "official full abstracts read manually; named final PDF sections and appendix only; no complete scientific proof or implementation audit",
+  "scientific_evidence_status": "author reports and source consistency checks; no experiments, simulations or author code execution"
+}

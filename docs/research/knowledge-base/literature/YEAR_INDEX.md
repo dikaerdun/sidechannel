@@ -165,7 +165,43 @@
 | TCHES | [Rejected Signatures’ Challenges Pose New Challenges: Key Recovery of CRYSTALS-Dilithium via Side-Channel Attacks](https://doi.org/10.46586/tches.v2025.i4.817-847) | abstract_and_bibliographic_metadata |
 | TCHES | [Tailorable codes for lattice-based KEMs with applications to compact ML-KEM instantiations](https://doi.org/10.46586/tches.v2025.i3.139-163) | abstract_and_bibliographic_metadata |
 | TCHES | [dCTIDH: Fast & Deterministic CTIDH](https://doi.org/10.46586/tches.v2025.i3.516-541) | abstract_and_bibliographic_metadata |
-| USENIX | [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | abstract_and_bibliographic_metadata |
+| USENIX | [ALERT: Machine Learning-Enhanced Risk Estimation for Databases Supporting Encrypted Queries](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-longxiang) | abstract_and_bibliographic_metadata |
+| USENIX | [BarraCUDA: Edge GPUs do Leak DNN Weights](https://www.usenix.org/conference/usenixsecurity25/presentation/horvath) | abstract_and_bibliographic_metadata |
+| USENIX | [Branch Privilege Injection: Compromising Spectre v2 Hardware Mitigations by Exploiting Branch Predictor Race Conditions](https://www.usenix.org/conference/usenixsecurity25/presentation/ruegge) | abstract_and_bibliographic_metadata |
+| USENIX | [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | selected_full_text_sections |
+| USENIX | [DNS FLaRE: A Flush-Reload Attack on DNS Forwarders](https://www.usenix.org/conference/usenixsecurity25/presentation/moav) | abstract_and_bibliographic_metadata |
+| USENIX | [DiskSpy: Exploring a Long-Range Covert-Channel Attack via mmWave Sensing of μm-level HDD Vibrations](https://www.usenix.org/conference/usenixsecurity25/presentation/xu-weiye) | abstract_and_bibliographic_metadata |
+| USENIX | [Double-Edged Shield: On the Fingerprintability of Customized Ad Blockers](https://www.usenix.org/conference/usenixsecurity25/presentation/el-hajj-chehade) | abstract_and_bibliographic_metadata |
+| USENIX | [EchoLLM: LLM-Augmented Acoustic Eavesdropping Attack on Bone Conduction Headphones with mmWave Radar](https://www.usenix.org/conference/usenixsecurity25/presentation/yao-xin) | abstract_and_bibliographic_metadata |
+| USENIX | [Endangered Privacy: Large-Scale Monitoring of Video Streaming Services](https://www.usenix.org/conference/usenixsecurity25/presentation/bjorklund) | abstract_and_bibliographic_metadata |
+| USENIX | [Exploiting Inaccurate Branch History in Side-Channel Attacks](https://www.usenix.org/conference/usenixsecurity25/presentation/zhu-yuhui) | abstract_and_bibliographic_metadata |
+| USENIX | [FLOP: Breaking the Apple M3 CPU via False Load Output Predictions](https://www.usenix.org/conference/usenixsecurity25/presentation/kim-jason) | abstract_and_bibliographic_metadata |
+| USENIX | [Flexway O-Sort: Enclave-Friendly and Optimal Oblivious Sorting](https://www.usenix.org/conference/usenixsecurity25/presentation/gu-tianyao) | abstract_and_bibliographic_metadata |
+| USENIX | [Found in Translation: A Generative Language Modeling Approach to Memory Access Pattern Attacks](https://www.usenix.org/conference/usenixsecurity25/presentation/jia-grace) | abstract_and_bibliographic_metadata |
+| USENIX | [H2O2RAM: A High-Performance Hierarchical Doubly Oblivious RAM](https://www.usenix.org/conference/usenixsecurity25/presentation/zheng) | abstract_and_bibliographic_metadata |
+| USENIX | [HubBub: Contention-Based Side-Channel Attacks on USB Hubs](https://www.usenix.org/conference/usenixsecurity25/presentation/wan) | abstract_and_bibliographic_metadata |
+| USENIX | [I Know What You Said: Unveiling Hardware Cache Side-Channels in Local Large Language Model Inference](https://www.usenix.org/conference/usenixsecurity25/presentation/gao-zibo) | abstract_and_bibliographic_metadata |
+| USENIX | [Mitigating Injection Attacks against E2EE Applications via View-Based Partitioning](https://www.usenix.org/conference/usenixsecurity25/presentation/fabrega-partitioning) | abstract_and_bibliographic_metadata |
+| USENIX | [Not so Refreshing: Attacking GPUs using RFM Rowhammer Mitigation](https://www.usenix.org/conference/usenixsecurity25/presentation/nazaraliyev) | abstract_and_bibliographic_metadata |
+| USENIX | [OBLIVIATOR: OBLIVIous Parallel Joins and other OperATORs in Shared Memory Environments](https://www.usenix.org/conference/usenixsecurity25/presentation/mavrogiannakis) | abstract_and_bibliographic_metadata |
+| USENIX | [OwlC: Compiling Security Protocols to Verified, Secure, High-Performance Libraries](https://www.usenix.org/conference/usenixsecurity25/presentation/singh) | abstract_and_bibliographic_metadata |
+| USENIX | [Phantom Trails: Practical Pre-Silicon Discovery of Transient Data Leaks](https://www.usenix.org/conference/usenixsecurity25/presentation/de-faveri-tron) | abstract_and_bibliographic_metadata |
+| USENIX | [Place Protections at the Right Place: Targeted Hardening for Cryptographic Code against Spectre v1](https://www.usenix.org/conference/usenixsecurity25/presentation/zhu-yiming) | abstract_and_bibliographic_metadata |
+| USENIX | [PolySys: an Algebraic Leakage Attack Engine](https://www.usenix.org/conference/usenixsecurity25/presentation/espiritu) | abstract_and_bibliographic_metadata |
+| USENIX | [Relocate-Vote: Using Sparsity Information to Exploit Ciphertext Side-Channels](https://www.usenix.org/conference/usenixsecurity25/presentation/yan-yuqin) | abstract_and_bibliographic_metadata |
+| USENIX | [SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution](https://www.usenix.org/conference/usenixsecurity25/presentation/weber) | abstract_and_bibliographic_metadata |
+| USENIX | [Secure Caches for Compartmentalized Software](https://www.usenix.org/conference/usenixsecurity25/presentation/arikan) | abstract_and_bibliographic_metadata |
+| USENIX | [Shadows in Cipher Spaces: Exploiting Tweak Repetition in Hardware Memory Encryption](https://www.usenix.org/conference/usenixsecurity25/presentation/peng-wei) | abstract_and_bibliographic_metadata |
+| USENIX | [SoK: So, You Think You Know All About Secure Randomized Caches?](https://www.usenix.org/conference/usenixsecurity25/presentation/bhatla) | abstract_and_bibliographic_metadata |
+| USENIX | [Sound of Interference: Electromagnetic Eavesdropping Attack on Digital Microphones Using Pulse Density Modulation](https://www.usenix.org/conference/usenixsecurity25/presentation/onishi) | abstract_and_bibliographic_metadata |
+| USENIX | [Systematic Evaluation of Randomized Cache Designs against Cache Occupancy](https://www.usenix.org/conference/usenixsecurity25/presentation/chakraborty) | abstract_and_bibliographic_metadata |
+| USENIX | [TDXploit: Novel Techniques for Single-Stepping and Cache Attacks on Intel TDX](https://www.usenix.org/conference/usenixsecurity25/presentation/rauscher) | abstract_and_bibliographic_metadata |
+| USENIX | [TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs](https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner) | selected_full_text_sections |
+| USENIX | [TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms](https://www.usenix.org/conference/usenixsecurity25/presentation/vanoverloop) | abstract_and_bibliographic_metadata |
+| USENIX | [Treebeard: A Scalable and Fault Tolerant ORAM Datastore](https://www.usenix.org/conference/usenixsecurity25/presentation/setayesh) | abstract_and_bibliographic_metadata |
+| USENIX | [V-ORAM: A Versatile and Adaptive ORAM Framework with Service Transformation for Dynamic Workloads](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-bo-voram) | abstract_and_bibliographic_metadata |
+| USENIX | [Vest: Verified, Secure, High-Performance Parsing and Serialization for Rust](https://www.usenix.org/conference/usenixsecurity25/presentation/cai-yi) | abstract_and_bibliographic_metadata |
+| USENIX | [When Good Kernel Defenses Go Bad: Reliable and Stable Kernel Exploits via Defense-Amplified TLB Side-Channel Leaks](https://www.usenix.org/conference/usenixsecurity25/presentation/maar-kernel) | abstract_and_bibliographic_metadata |
 | arXiv | [A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography](https://arxiv.org/abs/2512.22301) | abstract_and_bibliographic_metadata |
 
 ## 2024

@@ -1,8 +1,8 @@
 # 引用与版本追踪进度
 
-已核对 179 条引用条目；版本关系共 39 条，其中 34 条书目核实、5 条为原始来源推定。它们不等于被引论文已全部读完。
-追踪任务共 748 项：in_progress=57, pending=691。
-已登记发现中，61 条完成身份与范围判定，39 条仍待核查；已解析记录继续保留历史。
+已核对 192 条引用条目；版本关系共 39 条，其中 34 条书目核实、5 条为原始来源推定。它们不等于被引论文已全部读完。
+追踪任务共 820 项：in_progress=59, pending=761。
+已登记发现中，61 条完成身份与范围判定，77 条仍待核查；已解析记录继续保留历史。
 
 GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan、Peek-a-Walk、EasyCrypt、Episode V 及 S&P 2023 的指定引用继续保留。追加 GLP 期刊、Protecting Dilithium、3D-Shield 合计九条选读；所有选读均不构成完整参考文献筛查。
 SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 条参考列表已逐条初筛，原 23 条发现现已解析，共 59 条对应、36 条暂列背景。背景条目未经原文最终排除，全部列表也不构成递归引用闭合。
@@ -13,6 +13,9 @@ SDitH 的 27 条、CiC FAEST 攻击的 38 条和 HQC 有效密文攻击的 30 �
 
 Goldilocks 的 49 条参考文献已初筛：11 条身份对应、18 条待查、20 条暂列背景。被引条目的完整摘要和前后向闭合仍待处理。
 [Goldilocks 引用清单](citations/goldilocks2026-reference-screen.jsonl) · [S&P 2026 证据与目录差异](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)
+
+USENIX 2025 的 DL-BSCA 全部 58 条及 TEEcorrelate 六条选读引用初筛：13 条目录对应、38 条待查、13 条暂列背景；TEEcorrelate 其余 76 条尚未完整筛查。
+[DL-BSCA 引用清单](citations/usenix2025-blind-reference-screen.jsonl) · [TEEcorrelate 六条选读](citations/usenix2025-tee-reference-screen.jsonl) · [盲分析与计数器防护证据](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
 
 [GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)
 
@@ -174,6 +177,19 @@ Goldilocks 的 49 条参考文献已初筛：11 条身份对应、18 条待查�
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 91 | [Exploiting the microarchitectural leakage of prefetching activities for side-channel attacks](https://doi.org/10.1016/j.sysarc.2023.102877) | selected_full_text_sections |
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 94 | [Synchronization Storage Channels (S2C): Timer-less Cache Side-Channel Attacks on the Apple M1 via Hardware Synchronization Instructions](https://www.usenix.org/conference/usenixsecurity23/presentation/yu-jiyong) | catalog only; abstract pending |
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 98 | [BunnyHop: Exploiting the Instruction Prefetcher](https://www.usenix.org/conference/usenixsecurity23/presentation/zhang-zhiyuan-bunnyhop) | catalog only; abstract pending |
+| [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | 23 | [Differential Power Analysis](https://doi.org/10.1007/3-540-48405-1_25) | abstract_and_bibliographic_metadata |
+| [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | 25 | [Pay Attention to Raw Traces: A Deep Learning Architecture for End-to-End Profiling Attacks](https://doi.org/10.46586/tches.v2021.i3.235-274) | catalog only; abstract pending |
+| [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | 29 | [Keep it Unsupervised: Horizontal Attacks Meet Deep Learning](https://doi.org/10.46586/tches.v2021.i1.343-372) | catalog only; abstract pending |
+| [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | 31 | [Exploring Feature Selection Scenarios for Deep Learning-based Side-channel Analysis](https://doi.org/10.46586/tches.v2022.i4.828-861) | catalog only; abstract pending |
+| [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | 39 | [Reinforcement Learning for Hyperparameter Tuning in Deep Learning-based Side-channel Analysis](https://doi.org/10.46586/tches.v2021.i3.677-707) | catalog only; abstract pending |
+| [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | 41 | [A Side Journey To Titan](https://www.usenix.org/conference/usenixsecurity21/presentation/roche) | catalog only; abstract pending |
+| [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | 45 | [Deep Learning Side-Channel Collision Attack](https://doi.org/10.46586/tches.v2023.i3.422-444) | catalog only; abstract pending |
+| [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | 47 | [EstraNet: An Efficient Shift-Invariant Transformer Network for Side-Channel Analysis](https://doi.org/10.46586/tches.v2024.i1.336-374) | catalog only; abstract pending |
+| [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | 49 | [Weakly Profiling Side-channel Analysis](https://doi.org/10.46586/tches.v2024.i3.707-730) | catalog only; abstract pending |
+| [TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs](https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner) | 24 | [CounterSEVeillance: Performance-Counter Attacks on AMD SEV-SNP](https://www.ndss-symposium.org/ndss-paper/counterseveillance-performance-counter-attacks-on-amd-sev-snp/) | catalog only; abstract pending |
+| [TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs](https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner) | 53 | [Divide and Surrender: Exploiting Variable Division Instruction Timing in HQC Key Recovery Attacks](https://www.usenix.org/conference/usenixsecurity24/presentation/schr%C3%B6der) | catalog only; abstract pending |
+| [TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs](https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner) | 74 | [TDXdown: Single-Stepping and Instruction Counting Attacks against Intel TDX](https://www.sigsac.org/ccs/CCS2024/program/accepted-papers.html) | catalog only; abstract pending |
+| [TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs](https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner) | 76 | [SEV-Step A Single-Stepping Framework for AMD-SEV](https://doi.org/10.46586/tches.v2024.i1.180-206) | catalog only; abstract pending |
 | [Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles](https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian) | 2 | [KyberSlash: Exploiting secret-dependent division timings in Kyber implementations](https://doi.org/10.46586/tches.v2025.i2.209-234) | abstract_and_bibliographic_metadata |
 | [Unlocking the True Potential of Decryption Failure Oracles: A Hybrid Adaptive-LDPC Attack on ML-KEM Using Imperfect Oracles](https://www.usenix.org/conference/usenixsecurity26/presentation/guo-qian) | 3 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | selected_full_text_sections |
 | [Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei) | 3 | [Side-Channel Protections for Picnic Signatures](https://doi.org/10.46586/tches.v2021.i4.239-282) | abstract_and_bibliographic_metadata |

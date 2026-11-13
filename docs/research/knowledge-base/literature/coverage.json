@@ -11,22 +11,22 @@
   },
   "core_catalog_records": 6628,
   "citation_expansion_records": 99,
-  "title_screened_records": 2074,
-  "abstract_screened_records": 644,
-  "included_papers": 374,
+  "title_screened_records": 2512,
+  "abstract_screened_records": 746,
+  "included_papers": 410,
   "reading_level_counts": {
-    "abstract_and_bibliographic_metadata": 329,
-    "selected_full_text_sections": 45
+    "abstract_and_bibliographic_metadata": 363,
+    "selected_full_text_sections": 47
   },
   "citation_progress": {
-    "verified_citation_edges": 179,
+    "verified_citation_edges": 192,
     "verified_version_edges": 34,
     "inferred_version_edges": 5,
     "task_status_counts": {
-      "pending": 691,
-      "in_progress": 57
+      "pending": 761,
+      "in_progress": 59
     },
-    "unresolved_discoveries": 39,
+    "unresolved_discoveries": 77,
     "resolved_discoveries": 61
   },
   "core_cells": [
@@ -249,12 +249,13 @@
       "catalog_records": 438,
       "catalog_parsed": true,
       "provenance_file": "provenance/usenix-2025.json",
-      "independent_toc_crosscheck": "pending",
-      "screened_records": 1,
-      "title_screened_records": 0,
-      "abstract_screened_records": 1,
+      "independent_toc_crosscheck": "matched_print_toc",
+      "screened_records": 103,
+      "title_screened_records": 438,
+      "abstract_screened_records": 103,
       "citation_chasing": "pending",
-      "complete": false
+      "complete": false,
+      "toc_crosscheck_provenance": "provenance/usenix2025-print-toc-crosscheck-20261114.json"
     },
     {
       "venue": "USENIX",

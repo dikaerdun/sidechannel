@@ -183,20 +183,20 @@
 | 2025 TCHES | [Sieving with Streaming Memory Access](https://doi.org/10.46586/tches.v2025.i2.362-384) | adjacent |
 | 2025 TCHES | [Tailorable codes for lattice-based KEMs with applications to compact ML-KEM instantiations](https://doi.org/10.46586/tches.v2025.i3.139-163) | include |
 | 2025 TCHES | [VeloFHE: GPU Acceleration for FHEW and TFHE Bootstrapping](https://doi.org/10.46586/tches.v2025.i3.81-114) | adjacent |
-| 2025 USENIX | ["That's my perspective from 30 years of doing this": An Interview Study on Practices, Experiences, and Challenges of Updating Cryptographic Code](https://www.usenix.org/conference/usenixsecurity25/presentation/krause) | pending |
-| 2025 USENIX | [A Formal Analysis of Apple's iMessage PQ3 Protocol](https://www.usenix.org/conference/usenixsecurity25/presentation/linker) | pending |
-| 2025 USENIX | [A Tale of Two Worlds, a Formal Story of WireGuard Hybridization](https://www.usenix.org/conference/usenixsecurity25/presentation/lafourcade) | pending |
-| 2025 USENIX | [Achilles: A Formal Framework of Leaking Secrets from Signature Schemes via Rowhammer](https://www.usenix.org/conference/usenixsecurity25/presentation/liang-achilles) | pending |
+| 2025 USENIX | ["That's my perspective from 30 years of doing this": An Interview Study on Practices, Experiences, and Challenges of Updating Cryptographic Code](https://www.usenix.org/conference/usenixsecurity25/presentation/krause) | adjacent |
+| 2025 USENIX | [A Formal Analysis of Apple's iMessage PQ3 Protocol](https://www.usenix.org/conference/usenixsecurity25/presentation/linker) | adjacent |
+| 2025 USENIX | [A Tale of Two Worlds, a Formal Story of WireGuard Hybridization](https://www.usenix.org/conference/usenixsecurity25/presentation/lafourcade) | adjacent |
+| 2025 USENIX | [Achilles: A Formal Framework of Leaking Secrets from Signature Schemes via Rowhammer](https://www.usenix.org/conference/usenixsecurity25/presentation/liang-achilles) | adjacent |
 | 2025 USENIX | [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) | include |
-| 2025 USENIX | [Bundled Authenticated Key Exchange: A Concrete Treatment of Signal's Handshake Protocol and Post-Quantum Security](https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-key-exchange) | pending |
-| 2025 USENIX | [Comprehensive Deniability Analysis of Signal Handshake Protocols: X3DH, PQXDH to Fully Post-Quantum with Deniable Ring Signatures](https://www.usenix.org/conference/usenixsecurity25/presentation/katsumata) | pending |
-| 2025 USENIX | [Exploring How to Authenticate Application Messages in MLS: More Efficient, Post-Quantum, and Anonymous Blocklistable](https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-blocklistable) | pending |
-| 2025 USENIX | [Hobbit: Space-Efficient zkSNARK with Optimal Prover Time](https://www.usenix.org/conference/usenixsecurity25/presentation/pappas) | pending |
-| 2025 USENIX | [How to Compare Bandwidth Constrained Two-Party Secure Messaging Protocols: A Quest for A More Efficient and Secure Post-Quantum Protocol](https://www.usenix.org/conference/usenixsecurity25/presentation/auerbach) | pending |
-| 2025 USENIX | [I Know What You Said: Unveiling Hardware Cache Side-Channels in Local Large Language Model Inference](https://www.usenix.org/conference/usenixsecurity25/presentation/gao-zibo) | pending |
-| 2025 USENIX | [Qelect: Lattice-based Single Secret Leader Election Made Practical](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-yunhao) | pending |
-| 2025 USENIX | [TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs](https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner) | pending |
-| 2025 USENIX | [Tracking You from a Thousand Miles Away! Turning a Bluetooth Device into an Apple AirTag Without Root Privileges](https://www.usenix.org/conference/usenixsecurity25/presentation/chen-junming) | pending |
+| 2025 USENIX | [Bundled Authenticated Key Exchange: A Concrete Treatment of Signal's Handshake Protocol and Post-Quantum Security](https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-key-exchange) | adjacent |
+| 2025 USENIX | [Comprehensive Deniability Analysis of Signal Handshake Protocols: X3DH, PQXDH to Fully Post-Quantum with Deniable Ring Signatures](https://www.usenix.org/conference/usenixsecurity25/presentation/katsumata) | adjacent |
+| 2025 USENIX | [Exploring How to Authenticate Application Messages in MLS: More Efficient, Post-Quantum, and Anonymous Blocklistable](https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-blocklistable) | adjacent |
+| 2025 USENIX | [Hobbit: Space-Efficient zkSNARK with Optimal Prover Time](https://www.usenix.org/conference/usenixsecurity25/presentation/pappas) | adjacent |
+| 2025 USENIX | [How to Compare Bandwidth Constrained Two-Party Secure Messaging Protocols: A Quest for A More Efficient and Secure Post-Quantum Protocol](https://www.usenix.org/conference/usenixsecurity25/presentation/auerbach) | adjacent |
+| 2025 USENIX | [I Know What You Said: Unveiling Hardware Cache Side-Channels in Local Large Language Model Inference](https://www.usenix.org/conference/usenixsecurity25/presentation/gao-zibo) | include |
+| 2025 USENIX | [Qelect: Lattice-based Single Secret Leader Election Made Practical](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-yunhao) | adjacent |
+| 2025 USENIX | [TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs](https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner) | include |
+| 2025 USENIX | [Tracking You from a Thousand Miles Away! Turning a Bluetooth Device into an Apple AirTag Without Root Privileges](https://www.usenix.org/conference/usenixsecurity25/presentation/chen-junming) | adjacent |
 | 2025 arXiv | [A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography](https://arxiv.org/abs/2512.22301) | include |
 | 2024 ACM TECS | [Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication](https://doi.org/10.1145/3569420) | include |
 | 2024 ACNS | [Breaking DPA-Protected Kyber via the Pair-Pointwise Multiplication](https://doi.org/10.1007/978-3-031-54773-7_5) | include |

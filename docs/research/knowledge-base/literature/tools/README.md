@@ -73,3 +73,9 @@ python3 docs/research/knowledge-base/literature/tools/reconcile_usenix2026_toc.p
 运行 `python3 docs/research/knowledge-base/literature/tools/audit_sp2026_print_toc.py --pdf <outside-repository-pdf>`。需要 PyMuPDF，来源见 [provenance](../provenance/sp2026-print-toc-crosscheck-20261114.json)。先校验冻结 PDF 的 SHA-256，再从第 3–18 页提取 252 条题名及印刷起始页。
 
 该目录比录用/出版元数据少两篇，状态必须保留为部分对应。校验器要求 `missing_catalog_ids` 与实际差集一致，且不能标成完整；生成器显示 252/254 与缺项数量。251 条起始页差异分别保存为印刷页与 Crossref 页，脚本不猜测差异原因。
+
+## USENIX 2025 印刷目录复核
+
+运行 `python3 docs/research/knowledge-base/literature/tools/audit_usenix2025_print_toc.py --pdf <outside-repository-pdf>`。需要 PyMuPDF，来源见 [provenance](../provenance/usenix2025-print-toc-crosscheck-20261114.json)。先检查冻结 PDF 的 SHA-256，再按其字体布局提取 438 条标题、起始页和目录页码，与保存清单逐行比较。
+
+它只证明该来源的提取与保存一致；目录身份的双向对应另由 `validate_library.py` 检查。主席致辞 407+32=439 与议程/目录 438 的差异仍未解释，工具不把成员对应升级成总数已解决，也不证明科学或引用覆盖完成。

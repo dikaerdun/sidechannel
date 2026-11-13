@@ -1,0 +1,20 @@
+{
+  "sources": [],
+  "reviewed_on": "2026-11-14",
+  "title_screening_batches": [
+    {
+      "venue": "USENIX",
+      "year": 2025,
+      "records": 438,
+      "decision_counts": {
+        "outside_title_scope": 292,
+        "uncertain": 70,
+        "adjacent": 43,
+        "candidate": 33
+      }
+    }
+  ],
+  "catalog_file": "catalogs/usenix-2025.jsonl",
+  "catalog_sha256": "ff212a81b9ba475ed3d079e45aa2e9e71eebb10f07d36180f994956839bdad11",
+  "scope": "103 candidate/uncertain abstracts read; remaining 335 abstracts not finally excluded"
+}

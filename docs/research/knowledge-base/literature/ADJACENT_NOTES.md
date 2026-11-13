@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 270 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 336 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA
 
@@ -793,6 +793,20 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/10646850/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## "That's my perspective from 30 years of doing this": An Interview Study on Practices, Experiences, and Challenges of Updating Cryptographic Code
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/krause)。
+- 判定依据：开发者访谈及密码/PQC 迁移实践；摘要没有测量或实现侧信道机制。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## A Formal Analysis of Apple's iMessage PQ3 Protocol
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/linker)。
+- 判定依据：iMessage PQ3 的 TAMARIN 协议证明；不是实现泄漏分析。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## A High-performance NTT/MSM Accelerator for Zero-knowledge Proof Using Load-balanced Fully-pipelined Montgomery Multiplier
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i1.275-313)。
@@ -807,6 +821,13 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## A Tale of Two Worlds, a Formal Story of WireGuard Hybridization
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/lafourcade)。
+- 判定依据：混合 WireGuard 协议弱点与形式证明；不提供功耗或实现侧信道保证。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Accelerating NTT with RISC-V Vector Extension for Fully Homomorphic Encryption
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i4.711-736)。
@@ -814,12 +835,152 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Achilles: A Formal Framework of Leaking Secrets from Signature Schemes via Rowhammer
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/liang-achilles)。
+- 判定依据：Rowhammer 故障修改签名参数后利用输出泄露秘密，涵盖经典/PQC 签名；保留故障邻接方向，不归为被动侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Algebraic Linear Analysis for Number Theoretic Transform in Lattice-Based Cryptography
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i3.668-692)。
 - 判定依据：摘要贡献是 CryptoLine/islpy 对 NTT 汇编范围与算术正确性的验证，未说明侧信道非干扰或泄漏评估；保留为 PQC 实现验证背景。
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Approximation Enforced Execution of Untrusted Linux Kernel Extensions
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/sun-hao)。
+- 判定依据：eBPF 内核扩展的空间内存安全与运行检查；摘要未建立侧信道非干扰。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Arbitrary-Threshold Fully Homomorphic Encryption with Lower Complexity
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/chang-yijia-encryption)。
+- 判定依据：任意阈值 FHE/近似秘密分享协议构造；不是实现中的物理掩码泄漏。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## BlueGuard: Accelerated Host and Guest Introspection Using DPUs
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/orenbach)。
+- 判定依据：DPU 提权观察下的主客机直接内省；非额外侧信道推断。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/xu-tianshi)。
+- 判定依据：CKKS/MPC 混合 Transformer 私有推理与性能；摘要未分析实现观察。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Bundled Authenticated Key Exchange: A Concrete Treatment of Signal's Handshake Protocol and Post-Quantum Security
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-key-exchange)。
+- 判定依据：Signal 握手的 bundled authenticated key exchange 与后量子协议安全；非物理实现分析。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/yan-jinzhu)。
+- 判定依据：流量分类器对填充、时序和虚假包的鲁棒性认证；摘要未明确秘密推断目标，保留方法背景待正文细化。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## CoVault: Secure, Scalable Analytics of Personal Data
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/de-viti)。
+- 判定依据：MPC/TEE 协同的隐私数据分析；摘要未给侧信道防护论证。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Comprehensive Deniability Analysis of Signal Handshake Protocols: X3DH, PQXDH to Fully Post-Quantum with Deniable Ring Signatures
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/katsumata)。
+- 判定依据：Signal 握手否认性与后量子环签名协议；非实现侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Deanonymizing Ethereum Validators: The P2P Network Has a Privacy Issue
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/heimbach)。
+- 判定依据：Ethereum P2P 验证者 IP 去匿名化；摘要未明确时序或共享资源观察机制，保留协议元数据邻接并待正文。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Detecting Compromise of Passkey Storage on the Cloud
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/islam)。
+- 判定依据：已被窃取的云端 passkey 的滥用检测；密钥直接失窃不等于侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## DiffLoc: WiFi Hidden Camera Localization Based on Electromagnetic Diffraction
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-xiang)。
+- 判定依据：利用主动金属板和 WiFi 衍射定位隐藏相机；观察正常无线发射，保留物理定位背景，不等同于计算的非预期电磁泄漏。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Dorami: Privilege Separating Security Monitor on RISC-V TEEs
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/kuhne)。
+- 判定依据：RISC-V 安全监控器的固件权限分离；不是侧信道安全证明。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## ECC.fail: Mounting Rowhammer Attacks on DDR4 Servers with ECC Memory
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/kamadan)。
+- 判定依据：DDR4 TRR/ECC 逆向及 RSA 公钥故障；主要是故障完整性攻击，不是 RSA 秘密的被动观察。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## EKC: A Portable and Extensible Kernel Compartment for De-Privileging Commodity OS
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/yan-jiaqin)。
+- 判定依据：Rust 内核 compartment 与操作系统隔离；摘要未分析侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Enabling Low-Cost Secure Computing on Untrusted In-Memory Architectures
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/ghinani)。
+- 判定依据：不可信存内计算架构上的安全计算协议；协议安全不等于物理观察安全。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Encarsia: Evaluating CPU Fuzzers via Automatic Bug Injection
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/bolcskei)。
+- 判定依据：通过自动注入架构 bug 评估 CPU fuzzer；无侧信道检测结论。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Encrypted Access Logging for Online Accounts: Device Attributions without Device Tracking
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/ortega-perez)。
+- 判定依据：加密设备归属日志及 FIDO2 协议隐私；无额外物理/时序观察。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Exploring How to Authenticate Application Messages in MLS: More Efficient, Post-Quantum, and Anonymous Blocklistable
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/hashimoto-blocklistable)。
+- 判定依据：MLS 消息认证的带宽、后量子和匿名黑名单协议；非实现泄漏。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Exploring and Exploiting the Resource Isolation Attack Surface of WebAssembly Containers
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/yu-zhaofeng)。
+- 判定依据：Wasm 容器的资源隔离与拒绝服务；摘要目标不是秘密推断。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## FINAL bootstrap acceleration on FPGA using DSP-free constant-multiplier NTTs
 
@@ -842,12 +1003,47 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## For Human Ears Only: Preventing Automated Monitoring on Voice Data
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/shahid)。
+- 判定依据：对直接录音作语音变换以限制 ASR；不是替代物理通道窃听。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## GPUHammer: Rowhammer Attacks on GPU Memories are Practical
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/lin-shaopeng)。
+- 判定依据：GDDR6 GPU Rowhammer 位翻转和 DNN 篡改；目标为故障完整性。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Game of Arrows: On the (In-)Security of Weight Obfuscation for On-Device TEE-Shielded LLM Partition Algorithms
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-pengli)。
+- 判定依据：对直接可访问的混淆权重作几何分析；不是缓存或功耗观察。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## GenHuzz: An Efficient Generative Hardware Fuzzer
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/wu-lichao)。
+- 判定依据：生成式 RISC-V 硬件 fuzzing 发现架构漏洞；架构 bug 不自动属于侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Generation of Fast Finite Field Arithmetic forCortex-M4 with ECDH and SQIsign Applications
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i4.588-620)。
 - 判定依据：m4-modarith 自动生成快速有限域算术并证明约减正确性；功能证明不能自动推得恒时保证。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## GlitchFHE: Attacking Fully Homomorphic Encryption Using Fault Injection
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/mankali)。
+- 判定依据：CKKS/BFV FHE 加速器故障注入改变输出完整性；保留故障邻接，摘要不主张被动秘密泄漏。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## GuardAIn: Protecting Emerging Generative AI Workloads on Heterogeneous NPU
 
@@ -862,6 +1058,34 @@
 - 判定依据：Keysentinel 检测代码与配置中的 API key、密码等直接暴露；此处 secret leakage 不是物理或共享资源侧信道。
 - 阅读来源：https://xplorestaging.ieee.org/document/11023280/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Hobbit: Space-Efficient zkSNARK with Optimal Prover Time
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/pappas)。
+- 判定依据：后量子 zkSNARK 的证明时间与空间；非实现侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## How to Compare Bandwidth Constrained Two-Party Secure Messaging Protocols: A Quest for A More Efficient and Secure Post-Quantum Protocol
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/auerbach)。
+- 判定依据：后量子消息协议在带宽约束下的安全比较和优化；非实现泄漏。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## HyTrack: Resurrectable and Persistent Tracking Across Android Apps and the Web
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/wessels)。
+- 判定依据：Android 原生/web 共享浏览器状态与持久标识符跟踪；摘要是可直接使用的状态而非侧信道测量。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## I Can Tell Your Secrets: Inferring Privacy Attributes from Mini-app Interaction History in Super-apps
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/cai-yifeng)。
+- 判定依据：super-app 内部部门利用可收集的交互日志推断属性；属直接数据用途与隐私推断。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Improving MPCitH with Preprocessing: Mask Is All You Need
 
@@ -884,6 +1108,20 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## LLMmap: Fingerprinting for Large Language Models
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/pasquini)。
+- 判定依据：主动查询 LLM 并从正常文本输出识别模型版本；不是缓存、时间或功耗指纹。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Learning from Functionality Outputs: Private Join and Compute in the Real World
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/falzon)。
+- 判定依据：PJC 协议功能输出本身导致隐私推断；保留功能泄漏边界背景。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Let us walk on the 3-isogeny graph: efficient, fast, and simple
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i4.644-666)。
@@ -891,12 +1129,47 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Lost in the Mists of Time: Expirations in DNS Footprints of Mobile Apps
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/so)。
+- 判定依据：移动应用过期域名依赖与接管风险；DNS footprint 不是本文中的秘密侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## McSee: Evaluating Advanced Rowhammer Attacks and Defenses via Automated DRAM Traffic Analysis
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/jattke)。
+- 判定依据：用示波器解码 DRAM 总线流量评估 Rowhammer 与防护；保留测量方法背景，摘要未作秘密推断。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## More is Less: Extra Features in Contactless Payments Break Security
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/pavlides)。
+- 判定依据：EMV 附加功能的协议交互漏洞与未授权支付；非实现侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Multiplying Polynomials without Powerful Multiplication Instructions
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i1.160-202)。
 - 判定依据：改进缺少强乘法指令平台的 Barrett/FFT 多项式乘法；shape-independent 指模数形状的效率/正确性，不是秘密独立性。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Narrowbeer: A Practical Replay Attack Against the Widevine DRM
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/roudot)。
+- 判定依据：Widevine 时间与随机性处理的重放/许可证新鲜性漏洞；非侧信道测量。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## NeuroScope: Reverse Engineering Deep Neural Network on Edge Devices using Dynamic Analysis
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/wu-ruoyu)。
+- 判定依据：对 DNN 二进制直接动态分析及逆向；摘要未限定非预期侧信道观察，保留方法背景。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## New Quantum Cryptanalysis of Binary Elliptic Curves
 
@@ -919,6 +1192,13 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## PICACHV: Formally Verified Data Use Policy Enforcement for Secure Data Analytics
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/chen-haobin)。
+- 判定依据：关系代数及 Coq 数据使用政策证明；TEE 运行信任不等于物理侧信道保证。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## PORTAL: Fast and Secure Device Access with Arm CCA for Modern Arm Mobile System-on-Chips (SoCs)
 
 - 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-48)。
@@ -926,12 +1206,47 @@
 - 阅读来源：https://sang.fan/assets/papers/portal_sp25.pdf。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Phantom: Privacy-Preserving Deep Neural Network Model Obfuscation in Heterogeneous TEE and GPU System
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/bai-juyang)。
+- 判定依据：TEE/GPU 异构系统中的 DNN 权重混淆与模型盗取防护；摘要没有侧信道观察模型。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Posthammer: Pervasive Browser-based Rowhammer Attacks with Postponed Refresh Commands
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/de-ridder)。
+- 判定依据：浏览器通过推迟刷新实施 Rowhammer 位翻转；主要为故障攻击。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Practically Secure Honey Password Vaults: New Design and New Evaluation against Online Guessing
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/cheng-haibo)。
+- 判定依据：honey password vault 的诱饵分布与在线猜测；不是实现侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Principled and Automated Approach for Investigating AR/VR Attacks
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/shoaib)。
+- 判定依据：从 AR/VR 日志建立攻击来源图和因果关联；日志审计不是秘密侧信道观察。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt
 
 - 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166)。
 - 判定依据：混合推演与电路等价检查用于 ML-KEM 优化代码的功能正确性。所读正文另介绍 Jasmin 对恒时/推测恒时属性的保持能力；功能等价证明本身不等于这些属性或模拟泄漏的证明。按功能验证与工具链背景保留。出版题名为 Faster Verification of Faster Implementations，录用目录的 Proving Faster Implementations Faster 是同一论文的题名别名。
 - 阅读来源：https://xplorestaging.ieee.org/document/11023411/ ; https://cryptosith.org/papers/mapreduce-20250907.pdf。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Qelect: Lattice-based Single Secret Leader Election Made Practical
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-yunhao)。
+- 判定依据：基于格和阈值 FHE 的秘密领导者选举协议；PQC 构造及性能不等于实现侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Quantum security analysis of Module-LWE PQC based on practical cost estimates
 
@@ -954,6 +1269,20 @@
 - 阅读来源：https://xplorestaging.ieee.org/document/11023297/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## RollingEvidence: Autoregressive Video Evidence via Rolling Shutter Effect
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/qian)。
+- 判定依据：用滚动快门主动嵌入视频完整性验证探针；主要为取证编码，不是非预期秘密观察。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Rowhammer-Based Trojan Injection: One Bit Flip Is Sufficient for Backdooring DNNs
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/li-xiang)。
+- 判定依据：用单比特 Rowhammer 故障为全精度 DNN 注入后门；属于完整性篡改。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Rudraksh: A compact and lightweight post-quantum key-encapsulation mechanism
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i2.647-680)。
@@ -961,12 +1290,40 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Save what must be saved: Secure context switching with Sailor
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/kalani)。
+- 判定依据：从 Sail ISA 规范推导上下文切换必须保存的架构状态；摘要未明确旁路观察，保留隔离及架构泄漏背景。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Secure Information Embedding in Forensic 3D Fingerprinting
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-canran)。
+- 判定依据：在三维打印品中主动嵌入抗破坏标识；为取证水印，不是实现侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## Security Attacks Abusing Pulse-level Quantum Circuits
 
 - 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-6)。
 - 判定依据：研究量子 SDK 自定义门的脉冲语义与逻辑电路语义不一致导致的恶意执行，属于量子软件完整性；不是后量子密码实现或被动波形侧信道。
 - 阅读来源：https://caslab.io/publications/xu2025security.pdf。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Seeing Through: Analyzing and Attacking Virtual Backgrounds in Video Calls
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/weissberg)。
+- 判定依据：聚合视频背景分割失败后直接可见的环境像素；属功能输出隐私泄漏。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Serverless Functions Made Confidential and Efficient with Split Containers
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/shi-jiacheng)。
+- 判定依据：机密 serverless 的 TCB、容器设计及性能；没有摘要级侧信道保证。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## Sharing the Mask: TFHE Bootstrapping on Packed Messages
 
@@ -982,12 +1339,82 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## SoK: A Security Architect's View of Printed Circuit Board Attacks
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/harrison)。
+- 判定依据：PCB 篡改威胁与防护架构综述；保留物理安全背景，摘要未给侧信道专项范围。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## SoK: Come Together – Unifying Security, Information Theory, and Cognition for a Mixed Reality Deception Attack Ontology & Analysis Framework
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/teymourian)。
+- 判定依据：混合现实欺骗的信息论与认知框架；不是密码实现或硬件侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## SoK: Decoding the Enigma of Encrypted Network Traffic Classifiers
 
 - 来源：[SP 2025](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-219)。
 - 判定依据：SoK 审查加密流量分类中的数据集、特征和评价假设，作为方法学背景；未据此推断所有网站指纹论文都使用同样有问题的数据。
 - 阅读来源：https://arxiv.org/abs/2503.20093。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## SoK: Efficiency Robustness of Dynamic Deep Learning Systems
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/rathnasuriya)。
+- 判定依据：动态深度学习的效率攻击与资源消耗；摘要针对可用性而非秘密推断。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Software Availability Protection in Cyber-Physical Systems
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/li-ao)。
+- 判定依据：网络物理系统的软件攻击恢复和可用性；非秘密推断。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## System Register Hijacking: Compromising Kernel Integrity By Turning System Registers Against the System
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/miller)。
+- 判定依据：通过系统寄存器劫持控制流和破坏内核完整性；非侧信道推断。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## TETD: Trusted Execution in Trust Domains
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-zhanbo)。
+- 判定依据：TDX 域内可信执行与权限分离；摘要未证明观察模式安全。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## THEMIS: Towards Practical Intellectual Property Protection for Post-Deployment On-Device Deep Learning Models
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/huang-yujin)。
+- 判定依据：从部署 DNN 重建可写模型并加水印，保护知识产权；非侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## TimeTravel: Real-time Timing Drift Attack on System Time Using Acoustic Waves
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/liu-jianshuo)。
+- 判定依据：利用声波操纵 RTC 石英振荡器造成时钟漂移；属于主动完整性/信号注入，而非被动读出。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Towards Practical, End-to-End Formally Verified X.509 Certificate Validators with Verdict
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/lin-zhengyao)。
+- 判定依据：X.509 解析、构建及验证策略正确性；摘要未给侧信道保证。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Tracking You from a Thousand Miles Away! Turning a Bluetooth Device into an Apple AirTag Without Root Privileges
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/chen-junming)。
+- 判定依据：利用 Find My 网络协议把蓝牙设备变为可跟踪标识；非 PQC，摘要没有实现泄漏机制。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## TrafficFormer: An Efficient Pre-trained Model for Traffic Data
 
@@ -996,12 +1423,47 @@
 - 阅读来源：https://liuzhuotao.github.io/publications/trafficformer/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Transparent Attested DNS for Confidential Computing Services
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/delignat-lavaud)。
+- 判定依据：通过 DNS 名称绑定 TEE 远程证明并作透明日志；协议认证不等于消除侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
 ## VeloFHE: GPU Acceleration for FHEW and TFHE Bootstrapping
 
 - 来源：[TCHES 2025](https://doi.org/10.46586/tches.v2025.i3.81-114)。
 - 判定依据：VeloFHE 通过 GPU NTT、批处理与异步执行优化 FHEW/TFHE 自举，摘要未研究侧信道。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Who Pays Whom? Anonymous EMV-Compliant Contactless Payments
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/olivier-anclin)。
+- 判定依据：EMV 支付的匿名性与可链接性协议；SCA 在这里指 Strong Customer Authentication，不是 side-channel analysis。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## X.509DoS: Exploiting and Detecting Denial-of-Service Vulnerabilities in Cryptographic Libraries using Crafted X.509 Certificates
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/shi-bing)。
+- 判定依据：X.509 证书触发密码库拒绝服务；不是秘密相关泄漏。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## Your Shield is My Sword: A Persistent Denial-of-Service Attack via the Reuse of Unvalidated Caches in DNSSEC Validation
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-shuhan)。
+- 判定依据：复用未验证 DNSSEC 缓存造成持久拒绝服务；不是缓存时间侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
+
+## eSIMplicity or eSIMplification? Privacy and Security Risks in the eSIM Ecosystem
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/motallebighomi)。
+- 判定依据：eSIM 提供商、路由与配置生态隐私；非实现侧信道。
+- 阅读来源：https://www.usenix.org/conference/usenixsecurity25/technical-sessions。
+- 核查日期：2026-11-14；没有独立第二审读或本地复现。
 
 ## "Tap" Without Tapping: A Tag Discovery Forgery Attack on Android NFC
 

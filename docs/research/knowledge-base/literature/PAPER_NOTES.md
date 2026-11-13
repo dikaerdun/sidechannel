@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 374 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 410 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Differential Power Analysis
 
@@ -3102,15 +3102,450 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：publisher-deposited Crossref abstract。
 - 代码/数据核查：not checked；引用追踪：pending。
 
+## ALERT: Machine Learning-Enhanced Risk Estimation for Databases Supporting Encrypted Queries
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-longxiang)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Longxiang Wang, City University of Hong Kong; Lei Xu, Nanjing University of Science and Technology and City University of Hong Kong; Yufei Chen, City University of Hong Kong; Ying Zou, Nanjing University of Science and Technology; Cong Wang, City University of Hong Kong
+- 对象：searchable symmetric encryption；类型：leakage risk estimation。
+- 核心想法：用辅助特征与机器学习估计可搜索加密数据库的查询模式泄漏风险。
+- 作者报告：作者报告在线风险估计及相对既有分析的加速。
+- 限制与下一步：风险分数和运行加速不是安全证明或秘密恢复率；依赖查询及辅助信息模型。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## BarraCUDA: Edge GPUs do Leak DNN Weights
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/horvath)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Peter Horvath, Radboud University; Lukasz Chmielewski, Masaryk University, Radboud University; Léo Weissbart and Lejla Batina, Radboud University; Yuval Yarom, Ruhr University Bochum
+- 对象：DNN convolution；类型：physical EM attack。
+- 核心想法：通过边缘 GPU 的电磁观察与卷积部分和关系推断 DNN 权重。
+- 作者报告：作者在 NVIDIA Jetson 上报告权重恢复。
+- 限制与下一步：假定物理观察及目标卷积实现；神经网络权重不是密码密钥，不能外推到所有 GPU。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Branch Privilege Injection: Compromising Spectre v2 Hardware Mitigations by Exploiting Branch Predictor Race Conditions
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/ruegge)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Sandro Rüegge, Johannes Wikner, and Kaveh Razavi, ETH Zurich Distinguished Paper Award Winner
+- 对象：branch prediction, Spectre v2；类型：microarchitectural attack。
+- 核心想法：利用分支预测器异步反馈的竞争条件跨越预测隔离边界。
+- 作者报告：作者报告三类跨边界变体，并在六代 Intel CPU 上演示内核信息泄漏。
+- 限制与下一步：需保留具体处理器与隔离配置；Raptor Cove 的 5.6 KiB/s 是所述场景性能。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
 ## Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis
 
-- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade)；时间标记：exact public date not yet verified。
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
 - 作者：Azade Rezaeezade, Delft University of Technology and Digital Security Group, Radboud University; Trevor Yap, Dirmanto Jap, and Shivam Bhasin, Temasek Laboratories and National integrated Centre For Evaluation, Nanyang Technological University; Stjepan Picek, Digital Security Group, Radboud University and University of Zagreb Faculty of Electrical Engineering and Computing
-- 对象：AES, Ascon, Kyber；类型：method。
-- 核心想法：用多点聚类标签及深度学习研究不知道明文/密文时的盲侧信道分析。
-- 作者报告：摘要报告多个真实测量数据集及含失同步防护的场景。
-- 限制与下一步：盲分析仍有自身训练与数据条件；不能自动推成完全无先验的非剖析攻击。
-- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX session abstract。
+- 对象：AES, Ascon, Kyber；类型：blind side-channel analysis。
+- 核心想法：用多点聚类和深度学习学习联合泄漏分布；Kyber 部分评价固定实现中单个 NTT 系数的候选排名。
+- 作者报告：正文表 3 的 CNN+MC 为 GE=2.01、MLP+MC 为 9.2；Kyber 固定密钥数据 10 万条，8 万训练、2 万攻击池，每次抽 5000 条重复 100 次。
+- 限制与下一步：选点使用真实 HW 与测量相关性；GE≤10 是平均排名指标，不保证每次位于前十，更不等于完整 Kyber 密钥恢复。实测掩码攻击仍开放；100 个候选网络及部分 top-10 选择的预算和真值使用需后续审计。
+- 阅读层级：selected_full_text_sections；来源：official USENIX technical-session abstract; selected final proceedings PDF sections。
+- 已读章节：PDF pp.6-7,9-11,14-16,19-20: threat/PoI assumptions, learning setup, Kyber target/results, limitations, artifact statement and appendices A/B; all 58 references on pp.16-19 initially screened; Table 3 p11 visually checked. Not a complete proof/artifact audit.
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：PDF p16 links version DOI 10.5281/zenodo.15614359 and parent search 15612978; contents not inspected or executed；引用追踪：in_progress。
+
+## DNS FLaRE: A Flush-Reload Attack on DNS Forwarders
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/moav)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Gilad Moav, Yehuda Afek, and Anat Bremler-Barr, Tel Aviv University; Amit Klein, Hebrew University of Jerusalem
+- 对象：DNS caching；类型：cache timing attack。
+- 核心想法：从网页利用 DNS 转发器缓存的时间差推断访问与家庭设备活动。
+- 作者报告：作者提出 DNS FLaRE 缓存刷新与重载观察。
+- 限制与下一步：依赖转发器、缓存及浏览器条件；不表示解密 DNS 内容。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## DiskSpy: Exploring a Long-Range Covert-Channel Attack via mmWave Sensing of μm-level HDD Vibrations
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/xu-weiye)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Weiye Xu, Zhejiang University; China Mobile Research Institute; Danli Wen, Zhejiang University; Jianwei Liu, Zhejiang University; Hangzhou City University; Zixin Lin, Zhejiang University; Yuanqing Zheng, The Hong Kong Polytechnic University; Xian Xu and Jinsong Han, Zhejiang University
+- 对象：HDD vibration；类型：physical covert channel。
+- 核心想法：利用毫米波雷达读取 HDD 微小振动构造隐蔽信道。
+- 作者报告：作者报告 22 米、20 bps 及低于 1.2% 的误码率场景。
+- 限制与下一步：需要合作的编码发送端或恶意软件；隐蔽通信不等于被动恢复任意受害者秘密。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Double-Edged Shield: On the Fingerprintability of Customized Ad Blockers
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/el-hajj-chehade)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Saiid El Hajj Chehade, EPFL; Ben Stock, CISPA Helmholtz Center for Information Security; Carmela Troncoso, EPFL and Max-Planck Institute for Security and Privacy (MPI-SP)
+- 对象：browser ad blocking；类型：configuration fingerprinting。
+- 核心想法：通过无脚本规则探测识别定制广告拦截列表并形成用户指纹。
+- 作者报告：作者报告过滤列表识别、熵及匿名集合大小评估。
+- 限制与下一步：列表配置和用户总体决定区分力；中位匿名集合 48 不等于唯一识别全部用户。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## EchoLLM: LLM-Augmented Acoustic Eavesdropping Attack on Bone Conduction Headphones with mmWave Radar
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/yao-xin)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Xin Yao and Kecheng Huang, Central South University; Yimin Chen, University of Massachusetts Lowell; Jiawei Guo, Jie Tang, and Ming Zhao, Central South University
+- 对象：bone conduction, ASR；类型：physical acoustic inference。
+- 核心想法：毫米波雷达感知骨传导耳机振动，结合使用者语音上下文辅助重建声音。
+- 作者报告：作者报告 LLM 辅助的多模态 ASR，并给出最低 5.23% WER 场景。
+- 限制与下一步：依赖物理位置、上下文与语言先验；最佳 WER 不是无条件逐字恢复保证。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Endangered Privacy: Large-Scale Monitoring of Video Streaming Services
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/bjorklund)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Martin Björklund and Romaric Duvignau, Chalmers University of Technology and University of Gothenburg
+- 对象：DASH；类型：encrypted traffic analysis。
+- 核心想法：通过加密 DASH 自适应码率流量的模式识别视频。
+- 作者报告：作者在三个服务约 24 万视频及 VPN/WiFi 场景报告评估。
+- 限制与下一步：依赖视频指纹库、先验和采集预算；高分类率不是 TLS 解密或任意视频覆盖。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Exploiting Inaccurate Branch History in Side-Channel Attacks
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/zhu-yuhui)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Yuhui Zhu, Scuola Superiore Sant'Anna and Scuola IMT Alti Studi Lucca; Alessandro Biondi, Scuola Superiore Sant'Anna
+- 对象：branch history, Spectre；类型：microarchitectural attack。
+- 核心想法：利用分支历史表示不准确及推测更新形成预测与控制流侧信道。
+- 作者报告：作者提出 Spectre BSE/BHS、BiasScope 与 eBPF 内核演示 Chimera。
+- 限制与下一步：24628 bit/s 是指定演示的比特率，不能改写成字节率或普遍处理器性能。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## FLOP: Breaking the Apple M3 CPU via False Load Output Predictions
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/kim-jason)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Jason Kim, Jalen Chuang, and Daniel Genkin, Georgia Tech; Yuval Yarom, Ruhr University Bochum
+- 对象：load value prediction；类型：transient execution attack。
+- 核心想法：利用 Apple M/A 系列的装载值预测器构造瞬态读出。
+- 作者报告：作者提出 FLOP 并在 Safari 和 Chrome 演示攻击。
+- 限制与下一步：小值预测与构造出的 64 位读取应区分；依赖具体芯片、浏览器及实现条件。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Flexway O-Sort: Enclave-Friendly and Optimal Oblivious Sorting
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/gu-tianyao)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Tianyao Gu, Carnegie Mellon University and Oblivious Labs Inc.; Yilei Wang, Alibaba Cloud; Afonso Tinoco, Carnegie Mellon University and Oblivious Labs Inc.; Bingnan Chen and Ke Yi, HKUST; Elaine Shi, Carnegie Mellon University and Oblivious Labs Inc.
+- 对象：oblivious sorting, SGX；类型：access-pattern defense。
+- 核心想法：面向 enclave 内外存储设计高效 oblivious 排序。
+- 作者报告：作者报告 Flexway O-Sort 在不同输入规模下的性能。
+- 限制与下一步：保证针对声明的访问模式；不自动覆盖功耗、电磁和全部微架构观察。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Found in Translation: A Generative Language Modeling Approach to Memory Access Pattern Attacks
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/jia-grace)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Grace Jia, Alex Wong, and Anurag Khandelwal, Yale University
+- 对象：page access patterns, sequence modeling；类型：controlled-channel inference。
+- 核心想法：以生成式序列模型把操作系统可见页访问模式映射到对象访问。
+- 作者报告：作者在 AI 推理与语义检索报告 71.7% 至 99.9% 的任务结果。
+- 限制与下一步：需要 OS 观察/控制及相应剖析对象映射；不是任意密文到明文的通用翻译。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## H2O2RAM: A High-Performance Hierarchical Doubly Oblivious RAM
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/zheng)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Leqian Zheng, City University of Hong Kong; Zheng Zhang, ByteDance Inc.; Wentao Dong, City University of Hong Kong; Yao Zhang and Ye Wu, ByteDance Inc.; Cong Wang, City University of Hong Kong
+- 对象：O2RAM, TEE；类型：access-pattern defense。
+- 核心想法：以分层结构构建同时隐藏 TEE 内外访问模式的 doubly oblivious RAM。
+- 作者报告：作者报告 H2O2RAM 的时间与内存开销优势。
+- 限制与下一步：最大约千倍加速及 5 至 44 倍节省依赖比较场景；双重 oblivious 不等于抵御所有物理观察。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## HubBub: Contention-Based Side-Channel Attacks on USB Hubs
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/wan)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Junpeng Wan, Purdue University; Yanxiang Bi, The Chinese University of Hong Kong; Han Gao and Dave (Jing) Tian, Purdue University
+- 对象：USB contention；类型：contention timing attack。
+- 核心想法：通过 USB hub 的共享总线争用时间变化推断用户活动。
+- 作者报告：作者在 VM、网页与 USB 外设场景评估浏览、相机活动及按键信息，报告 85% 至 99% 准确率。
+- 限制与下一步：三种观察能力与场景不能混合；多数受测 hub 脆弱不代表全部 USB 设备。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## I Know What You Said: Unveiling Hardware Cache Side-Channels in Local Large Language Model Inference
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/gao-zibo)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Zibo Gao, Junjie Hu, Feng Guo, Yixin Zhang, Yinglong Han, Siyuan Liu, Haiyang Li, and Zhiqiang Lv, Institute of Information Engineering, Chinese Academy of Sciences and School of Cyber Security, University of Chinese Academy of Sciences
+- 对象：Llama, Falcon LLM, Gemma；类型：cache attack。
+- 核心想法：利用本地 LLM 嵌入操作的缓存模式及自回归阶段时序推断 token 值和位置。
+- 作者报告：作者报告输入/输出文本重建的编辑距离与余弦相似度指标。
+- 限制与下一步：依赖本地共存、模型及推理实现；Falcon 在这里是语言模型，不是后量子签名。相似度不是逐字恢复率。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Mitigating Injection Attacks against E2EE Applications via View-Based Partitioning
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/fabrega-partitioning)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Andrés Fábrega, Samuel Breckenridge, and Armin Namavari, Cornell University; Thomas Ristenpart, Cornell Tech
+- 对象：E2EE backups, compression；类型：leakage defense and formal model。
+- 核心想法：对 E2EE 应用中的注入、压缩与加密备份可观察状态建立模型，以视图划分阻断机密推断。
+- 作者报告：作者给出形式模型与安全证明，并评估 SQLite/XML 备份实现开销。
+- 限制与下一步：证明限声明的注入及观察模型；压缩侧信道防护不等于消除所有 E2EE 实现泄漏。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Not so Refreshing: Attacking GPUs using RFM Rowhammer Mitigation
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/nazaraliyev)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Ravan Nazaraliyev and Yicheng Zhang, University of California, Riverside; Sankha Baran Dutta, Brookhaven National Laboratory; Andres Marquez and Kevin Barker, Pacific Northwest National Laboratory; Nael Abu-Ghazaleh, University of California, Riverside
+- 对象：RFM, GDDR6, LPDDR5；类型：memory timing attack。
+- 核心想法：利用 GPU 内存 Rowhammer 防护 RFM 触发的时间差构造隐蔽与侧信道。
+- 作者报告：作者在 GDDR6/LPDDR5 平台演示指纹识别、每 bank 超过 50 KBps 的隐蔽信道及 DoS。
+- 限制与下一步：这是防护引出的时间泄漏，不能因 Rowhammer 关键词归为纯故障；各平台、任务与最高 F1 需分开。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## OBLIVIATOR: OBLIVIous Parallel Joins and other OperATORs in Shared Memory Environments
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/mavrogiannakis)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Apostolos Mavrogiannakis, University of California, Santa Cruz; Xian Wang, The Hong Kong University of Science and Technology; Ioannis Demertzis, University of California, Santa Cruz; Dimitrios Papadopoulos, The Hong Kong University of Science and Technology; Minos Garofalakis, ATHENA Research Center and Technical University of Crete
+- 对象：oblivious database joins；类型：access-pattern defense。
+- 核心想法：设计共享内存 TEE 场景下隐藏访问模式的并行 join 和数据库算子。
+- 作者报告：作者报告对既有 oblivious join 的顺序及多线程性能改进。
+- 限制与下一步：声明允许输入输出大小泄漏；并行倍数取决于线程数和比较基线，不是所有数据库操作。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## OwlC: Compiling Security Protocols to Verified, Secure, High-Performance Libraries
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/singh)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Pratap Singh, Carnegie Mellon University; Joshua Gancher, Northeastern University; Bryan Parno, Carnegie Mellon University Distinguished Artifact Award Winner
+- 对象：WireGuard, HPKE, Owl；类型：verified implementation and compilation。
+- 核心想法：从已验证 Owl 协议生成正确且声明具备侧信道抵抗的 Rust 实现。
+- 作者报告：作者以 WireGuard 与 HPKE 等协议评估互操作性及端到端性能。
+- 限制与下一步：摘要未给完整侧信道模型；不能把高层证明外推到功耗、微架构或所有平台。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Phantom Trails: Practical Pre-Silicon Discovery of Transient Data Leaks
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/de-faveri-tron)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Alvise de Faveri Tron, Raphael Isemann, Hany Ragab, Cristiano Giuffrida, Klaus von Gleissenthall, and Herbert Bos, Vrije Universiteit Amsterdam
+- 对象：BOOM, RISC-V, transient execution；类型：pre-silicon leak detection。
+- 核心想法：以架构行为推断秘密位置，直接检测瞬态微架构数据泄漏的根因。
+- 作者报告：作者在 BOOM RISC-V 设计 fuzzing 中报告发现已知问题和 Spectre-LoopPredictor。
+- 限制与下一步：设计阶段检测独立于隐蔽传输通道；发现根因不等于已在真实芯片完成端到端泄漏。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Place Protections at the Right Place: Targeted Hardening for Cryptographic Code against Spectre v1
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/zhu-yiming)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Yiming Zhu, Wenchao Huang, and Yan Xiong, University of Science and Technology of China
+- 对象：Spectre v1, OpenSSL, Libsodium, NaCL；类型：targeted hardening。
+- 核心想法：LightSLH 以不动点分析跟踪逐步加固引起的程序行为变化，实施针对性 Spectre v1 防护。
+- 作者报告：作者报告编译器插入栈装载风险、scatter-gather 的缓存行粒度泄漏和多种密码库性能。
+- 限制与下一步：证明需保留对手和编译层边界；58.3% 测试例零开销不能泛化为所有实现。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## PolySys: an Algebraic Leakage Attack Engine
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/espiritu)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Zachary Espiritu, MongoDB Research; Seny Kamara, Brown University and MongoDB Research; Tarik Moataz, MongoDB Research; Andrew Park, Carnegie Mellon University and MongoDB Research
+- 对象：encrypted queries, polynomial constraints；类型：leakage inference framework。
+- 核心想法：以可逆编码、结构等式和泄漏等式把加密查询的模式泄漏建模为多项式约束求解。
+- 作者报告：作者报告 PolySys 在 point/range multi-map 的查询恢复和数据解析任务结果。
+- 限制与下一步：这是加密查询泄漏引擎，不是 PQC 格求解器；最高 60 倍恢复率依赖相同假设的场景，规模仍受限。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Relocate-Vote: Using Sparsity Information to Exploit Ciphertext Side-Channels
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/yan-yuqin)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Yuqin Yan, University of Toronto; Wei Huang, University of Toronto and Seneca Polytechnic; Ilya Grishchenko and Gururaj Saileshwar, University of Toronto; Aastha Mehta, University of British Columbia; David Lie, University of Toronto
+- 对象：AMD SEV-SNP, ciphertext equality；类型：ciphertext side-channel attack。
+- 核心想法：利用机密计算内存搬移命令与相同 tweak 下的密文等值关系，推断空间值分布。
+- 作者报告：作者演示去随机化 ASLR、OpenVDB 三维数据及稀疏 LLM token 信息。
+- 限制与下一步：需要恶意 hypervisor 与特定管理接口；空间分布泄漏不等于任意加密内存明文读出。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/weber)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Daniel Weber, Lukas Gerlach, and Leon Trampert, CISPA Helmholtz Center for Information Security; Youheng Lü, SCHUTZWERK GmbH; Jo Van Bulck, DistriNet, KU Leuven; Michael Schwarz, CISPA Helmholtz Center for Information Security
+- 对象：SGX, RSA, RC4, AES, symbolic execution；类型：automated side-channel inference。
+- 核心想法：用受控信道内存访问迹线剪枝符号执行，从不透明二进制自动推断秘密。
+- 作者报告：作者的 Athena 在 SGX 上报告 RSA、RC4、AES 与其他输入恢复。
+- 限制与下一步：依赖控制信道能力和被测二进制；RSA/RC4 的分钟级结果不是任意 enclave 自动恢复保证。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Secure Caches for Compartmentalized Software
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/arikan)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Kerem Arıkan, Huaxin Tang, Williams Zhang Cen, and Yu David Liu, Binghamton University; Nael Abu-Ghazaleh, University of California, Riverside; Dmitry Ponomarev, Binghamton University
+- 对象：cache partitioning, compartments；类型：cache defense。
+- 核心想法：为同地址空间 compartment 设计多级 cache 分区、按内存域分区与调用者专属共享库分区。
+- 作者报告：作者给出 SCC 操作语义证明及 gem5 性能评估。
+- 限制与下一步：性能来自模拟器；逻辑隔离、声明 cache 安全与全部物理共享资源隔离不可等同。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Shadows in Cipher Spaces: Exploiting Tweak Repetition in Hardware Memory Encryption
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/peng-wei)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Wei Peng, Yinshuai Li, and Yinqian Zhang, Southern University of Science and Technology
+- 对象：Hygon CSV, memory encryption；类型：ciphertext side-channel attack。
+- 核心想法：分析 Hygon CSV 内存加密的块内 tweak 重复，利用相等明文对应相等密文。
+- 作者报告：作者提出 CipherShadow，报告 OpenSSH 认证绕过和机器学习训练数据重建。
+- 限制与下一步：保留 Hygon CSV 及 64 B 内 16 B 子块条件；不把结论推广到所有 SGX/TDX/SEV。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## SoK: So, You Think You Know All About Secure Randomized Caches?
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/bhatla)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Anubhav Bhatla, Hari Rohit Bhavsar, Sayandeep Saha, and Biswabandan Panda, Indian Institute of Technology Bombay Distinguished Artifact Award Winner
+- 对象：randomized cache；类型：systematization。
+- 核心想法：系统比较随机化 cache 的五类设计因素及其组合对冲突和占用攻击的作用。
+- 作者报告：作者分析 skewing、无效 tag、高关联度、替换策略和 remapping。
+- 限制与下一步：单一参数无全面保证是所述设计空间的结果；不能把任意组合都称为已证明安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Sound of Interference: Electromagnetic Eavesdropping Attack on Digital Microphones Using Pulse Density Modulation
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/onishi)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Arifu Onishi, The University of Electro-Communications; S. Hrushikesh Bhupathiraju, Rishikesh Bhatt, and Sara Rampazzi, University of Florida; Takeshi Sugawara, The University of Electro-Communications
+- 对象：PDM microphones, EM emissions；类型：physical EM eavesdropping。
+- 核心想法：利用数字 MEMS 麦克风 PDM 脉冲的电磁谐波读取声音。
+- 作者报告：作者在设备上评估数字识别和语音转录，报告两米、25 cm 墙体场景及随机时钟防护。
+- 限制与下一步：数字识别准确率与语音转录误差不同；摘要写 maximum 14% transcription error rate，具体统计待正文，不擅改为最佳 WER。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Systematic Evaluation of Randomized Cache Designs against Cache Occupancy
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/chakraborty)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Anirban Chakraborty, Max Planck Institute for Security and Privacy; Nimish Mishra, Indian Institute of Technology Kharagpur; Sayandeep Saha, Indian Institute of Technology Bombay; Sarani Bhattacharya and Debdeep Mukhopadhyay, Indian Institute of Technology Kharagpur
+- 对象：CEASER, CEASER-S, MIRAGE, ScatterCache, SassCache, AES；类型：cache security evaluation。
+- 核心想法：在统一性能基准与多种对手模型下比较五种随机化 cache 对占用侧信道的防护。
+- 作者报告：作者评估隐蔽通信、进程指纹及 AES 密钥恢复。
+- 限制与下一步：需保留 cache 配置、替换策略和仿真/实物来源；随机地址映射并不自动消除占用通道。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## TDXploit: Novel Techniques for Single-Stepping and Cache Attacks on Intel TDX
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/rauscher)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Fabian Rauscher, Graz University of Technology; Luca Wilke, University of Lübeck; Hannes Weissteiner, Graz University of Technology; Thomas Eisenbarth, University of Lübeck; Daniel Gruss, Graz University of Technology
+- 对象：Intel TDX, ECDSA, AES, TOTP；类型：single-stepping and cache attack。
+- 核心想法：操纵 TDX 单步缓解内部状态，结合无需共享内存的 Flush+Flush 观察。
+- 作者报告：作者报告 ECDSA、AES T-table 与单迹线 TOTP 演示及高单步准确率。
+- 限制与下一步：单步准确率不等于秘密恢复率；需强主机权限及相应 TDX 模块版本，AES 的 8986 迹线与 TOTP 单迹线为不同任务。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## TEEcorrelate: An Information-Preserving Defense against Performance-Counter Attacks on TEEs
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/weissteiner)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Hannes Weissteiner and Fabian Rauscher, Graz University of Technology; Robin Leander Schröder, Fraunhofer SIT and Fraunhofer Austria; Jonas Juffinger and Stefan Gast, Graz University of Technology; Jan Wichelmann and Thomas Eisenbarth, University Luebeck; Daniel Gruss, Graz University of Technology
+- 对象：HQC, RSA, TOTP, AMD SEV-SNP；类型：performance-counter defense。
+- 核心想法：通过时间聚合与模糊计数增量减弱 TEE 性能计数器泄漏，同时保留监控用途。
+- 作者报告：表 4 对默认偏移窗口 2048 报告 HQC 约 27.0 天、RSA 824.6 天等估计；附录明确材料模拟防护行为，硬件开销也为估计。
+- 限制与下一步：摘要/引言/表格的运行时间不同；HQC 的 800 ms 是每条 trace、6.13 min 为理想预言机基线。印刷公式存在负被开方项及 Tt 时间单位不相容，影响需独立核查；大计数差异与跨核计数器不在完整保护范围。
+- 阅读层级：selected_full_text_sections；来源：official USENIX technical-session abstract; selected final proceedings PDF sections。
+- 已读章节：PDF pp.3,9-15: design summary, overhead estimate, threat/statistical model, Table 3/4, HQC cost and limitations; six selected refs 20/24/46/53/74/76 from pp.17-19; artifact appendix pp.1-3 read. PDF pp.11-12 and 14 visually checked. Other references not fully screened.
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：Main PDF cites 10.5281/zenodo.15592842; artifact appendix cites 10.5281/zenodo.15699920 and describes simulation/runtime calculation; version relation and contents not inspected or executed；引用追踪：in_progress。
+
+## TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/vanoverloop)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Daan Vanoverloop, DistriNet, KU Leuven; Andrés Sánchez, EPFL, Amazon; Flavio Toffalini, EPFL, RUB; Frank Piessens, DistriNet, KU Leuven; Mathias Payer, EPFL; Jo Van Bulck, DistriNet, KU Leuven
+- 对象：SGX, AEX-Notify, TLB；类型：controlled-channel defense。
+- 核心想法：借助 SGX AEX-Notify 与编译插桩，在中断后预取最近页面来模糊受控页信道。
+- 作者报告：作者在 libjpeg、yescrypt、wolfSSL 和 OpenSSL 上评价 TLBlur。
+- 限制与下一步：保护针对最近页面的匿名集合及特定硬件条件；限制页观察带宽不等于关闭全部 cache 或物理通道。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Treebeard: A Scalable and Fault Tolerant ORAM Datastore
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/setayesh)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Amin Setayesh, Cheran Mahalingam, Emily Chen, and Sujaya Maiyya, University of Waterloo
+- 对象：ORAM, datastore；类型：access-pattern defense。
+- 核心想法：通过多层架构、并发与复制构建可扩展容错 ORAM 存储。
+- 作者报告：作者报告 16 台机器 160K ops/sec、故障恢复及与 QuORAM/Snoopy 比较。
+- 限制与下一步：吞吐与容错结果依赖机器预算和配置；ORAM 模式保护不自动覆盖全部 TEE 物理观察。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## V-ORAM: A Versatile and Adaptive ORAM Framework with Service Transformation for Dynamic Workloads
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-bo-voram)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Bo Zhang and Helei Cui, Northwestern Polytechnical University; Xingliang Yuan, The University of Melbourne; Zhiwen Yu, Northwestern Polytechnical University and Harbin Engineering University; Bin Guo, Northwestern Polytechnical University
+- 对象：ORAM service transformation；类型：access-pattern defense。
+- 核心想法：以中介 ORAM 同步状态，允许安全转换不同 ORAM 服务来适应工作负载。
+- 作者报告：作者给出转换安全证明、规划器及三组医疗数据工作负载评估。
+- 限制与下一步：转换相对重建的最大节省不是每次访问提升；具体 client/server 假设和金额成本需正文固定。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## Vest: Verified, Secure, High-Performance Parsing and Serialization for Rust
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/cai-yi)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Yi Cai, University of Maryland, College Park; Pratap Singh and Zhengyao Lin, Carnegie Mellon University; Jay Bosamiya, Microsoft Research; Joshua Gancher, Northeastern University; Milijana Surbatovich, University of Maryland, College Park; Bryan Parno, Carnegie Mellon University
+- 对象：Rust parsing, TLS 1.3, WebAssembly；类型：verified implementation。
+- 核心想法：从 DSL 与验证组合子生成 Rust 解析/序列化代码，并声明抵抗基本数字侧信道。
+- 作者报告：作者在 Bitcoin、TLS 1.3 和 WebAssembly 格式上比较执行和证明性能。
+- 限制与下一步：basic digital side channels 的具体模型须全文确认；不将验证扩展为任意硬件或功耗安全。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
+- 代码/数据核查：not checked；引用追踪：pending。
+
+## When Good Kernel Defenses Go Bad: Reliable and Stable Kernel Exploits via Defense-Amplified TLB Side-Channel Leaks
+
+- 来源：[USENIX 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/maar-kernel)；时间标记：USENIX 2025 conference 2025-08-13 to 2025-08-15 within frozen window; earliest online date not established。
+- 作者：Lukas Maar, Lukas Giner, Daniel Gruss, and Stefan Mangard, Graz University of Technology
+- 对象：TLB, Linux kernel, ASLR；类型：defense-induced timing leak。
+- 核心想法：利用内核防护放大的 TLB 争用模式泄露内核对象位置。
+- 作者报告：作者分析 127 项防护，在三类配置及多种 Intel CPU/kernel 版本演示定位。
+- 限制与下一步：需要相应配置与分配器操纵；位置披露可辅助利用但不等于通用任意内存读出。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX technical-session abstract。
+- [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
 - 代码/数据核查：not checked；引用追踪：pending。
 
 ## A Statistical Side-Channel Risk Model for Timing Variability in Lattice-Based Post-Quantum Cryptography

@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-14 USENIX 2025 接续：[阅读来源与哈希](literature/provenance/usenix2025-candidates-20261114.json)登记 103 篇完整官方摘要、DL-BSCA/TEEcorrelate 指定正文及后者材料附录；[目录核对](literature/provenance/usenix2025-print-toc-crosscheck-20261114.json)保存 438 条成员对应与主席统计 439 的未解差异。[证据笔记](literature/notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)区分单系数平均排名、真实 HW 选点、模拟/成本估计、印刷表达式与单位问题。58 条完整引用初筛及六条选读新增 13 条引用边、38 条待查；没有实验或作者代码执行。
+
 2026-11-14 S&P 2026 接续：[阅读来源与哈希](literature/provenance/sp2026-candidates-20261114.json)登记 74 篇出版摘要、一篇 ePrint 摘要及 Goldilocks 指定正文；[目录核对](literature/provenance/sp2026-print-toc-crosscheck-20261114.json)保留 252/254 部分对应和 251 处起始页差异。[证据笔记](literature/notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)区分 FHE 提示与 ML-KEM 功耗、静态与自适应频率界限、τ 起点疑点和局部恢复。49 条引用初筛新增 18 条待查；没有实验或作者代码执行。
 
 2026-11-14 构思增补：[算法噪声、高维匿名性与跨尺度模型](brainstorms/2026-11-14-noise-labels-anonymity-and-scale.md)记录 FIPS 203 官方说明、distribution hints、NTT 去打乱与 robust probing 三篇论文的 ePrint 摘要及元数据阅读。区分三类随机性、三类推断困难、物理读出与数字后处理。TCHES 2026 Keep it Simple 页面受限；未据其页面新增事实。没有实验、独立核验或新增正式文献卡片。

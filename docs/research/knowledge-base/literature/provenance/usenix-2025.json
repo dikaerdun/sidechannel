@@ -23,7 +23,21 @@
   "reported_total": null,
   "count_reconciled": false,
   "warnings": [],
-  "external_toc_crosscheck": "pending",
-  "subject_screening": "pending",
-  "citation_chasing": "pending"
+  "external_toc_crosscheck": "438 exact normalized-title matches to separately retrieved print TOC",
+  "subject_screening": "438 titles; 103 abstract-or-above decisions; 335 abstracts remain unread",
+  "citation_chasing": "DL-BSCA full bibliography initial screen plus six TEEcorrelate references; incomplete",
+  "count_evidence": {
+    "schedule_research_records": 438,
+    "print_toc_records": 438,
+    "chairs_current_cycle_accepted": 407,
+    "chairs_carryover": 32,
+    "chairs_arithmetic_total": 439,
+    "status": "schedule/TOC members reconciled; chairs count difference remains unexplained",
+    "source_ids": [
+      "usenix-2025",
+      "usenix-2025-print-toc",
+      "usenix-2025-chairs",
+      "usenix-2025-chairs-addendum"
+    ]
+  }
 }

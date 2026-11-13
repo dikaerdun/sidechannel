@@ -1,0 +1,74 @@
+{
+  "sources": [
+    {
+      "source_id": "usenix-2025-print-toc",
+      "url": "https://www.usenix.org/sites/default/files/sec25_contents.pdf",
+      "response_url": "https://www.usenix.org/sites/default/files/sec25_contents.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:02:54.913132+00:00",
+      "sha256": "1802c2a8963a239e27f199d881713ab3ced63b4d983c4dd49fd55113ce8ebefa",
+      "bytes": 487869,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix-2025-chairs",
+      "url": "https://www.usenix.org/sites/default/files/sec25_message.pdf",
+      "response_url": "https://www.usenix.org/sites/default/files/sec25_message.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:02:54.541959+00:00",
+      "sha256": "3cf8186edad2b0efe955ad7ffc6170f1b8c896e676729568ab3a51571a1c8b32",
+      "bytes": 211970,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix-2025-chairs-addendum",
+      "url": "https://www.usenix.org/sites/default/files/sec25_message_addendum.pdf",
+      "response_url": "https://www.usenix.org/sites/default/files/sec25_message_addendum.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:02:56.607543+00:00",
+      "sha256": "f533a4a76c249ab42074d50ac2d8743ba105b1107947ba8bb2c7d17eb2e8cc18",
+      "bytes": 190210,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "usenix-2025-title",
+      "url": "https://www.usenix.org/sites/default/files/sec25_title_copyright_organizers.pdf",
+      "response_url": "https://www.usenix.org/sites/default/files/sec25_title_copyright_organizers.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:02:58.755405+00:00",
+      "sha256": "9d0fa3dc2590eec356e0f406a8d25ffafb4aba4ee31144be4289804e468db7f5",
+      "bytes": 189197,
+      "content_type": "application/pdf"
+    }
+  ],
+  "reviewed_on": "2026-11-14",
+  "core_cell_crosschecks": [
+    {
+      "venue": "USENIX",
+      "year": 2025,
+      "status": "matched_print_toc",
+      "inventory_file": "toc-crosschecks/usenix-2025.jsonl",
+      "accepted_records": 438,
+      "print_toc_records": 438,
+      "exact_normalized_title_matches": 438,
+      "manually_matched_title_changes": 0,
+      "unpaginated_records": 0,
+      "missing_from_toc": 0,
+      "extra_in_toc": 0,
+      "scope": "separately retrieved official schedule and printed TOC match; chairs acceptance arithmetic 407+32=439 remains unreconciled; not independent scientific review"
+    }
+  ],
+  "manual_checks": [
+    "TOC first page rendered and viewed",
+    "chairs PDF p1 rendered: 407 accepted plus 32 carried over",
+    "chairs addendum p1: reviewer/award acknowledgments, not count correction",
+    "title PDF p1: August 13–15 2025 Seattle"
+  ],
+  "unresolved_count_discrepancy": {
+    "schedule_and_print_toc": 438,
+    "chairs_current_cycle_acceptances": 407,
+    "chairs_prior_year_carryovers": 32,
+    "arithmetic_total": 439,
+    "status": "not reconciled; no omitted or withdrawn identity inferred"
+  }
+}
