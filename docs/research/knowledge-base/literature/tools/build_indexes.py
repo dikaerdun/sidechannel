@@ -64,7 +64,7 @@ def render_citations(root,catalogs):
       f'已核对 {len(citations)} 条引用条目；版本关系共 {len(versions)} 条，其中 {len(versions)-len(inferred_versions)} 条书目核实、{len(inferred_versions)} 条为原始来源推定。它们不等于被引论文已全部读完。',
       f'追踪任务共 {len(tasks)} 项：'+', '.join(f'{k}={v}' for k,v in sorted(Counter(t['status'] for t in tasks).items()))+'。',
       f'已登记发现中，{len(resolved_discoveries)} 条完成身份与范围判定，{len(pending_discoveries)} 条仍待核查；已解析记录继续保留历史。','',
-      'GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 选读 [61]，Peek-a-Walk 选读 [15]、[53]，EasyCrypt S&P 2025 选读 [11]、[12]，CRYPTO Episode V 选读八条。这些选读不构成完整参考文献筛查。',
+      'GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 选读 [61]，Peek-a-Walk 选读 [15]、[53]，EasyCrypt S&P 2025 选读 [11]、[12]，CRYPTO Episode V 选读八条，S&P 2023 Raccoon 与 selSLH 合计选读九条。这些选读不构成完整参考文献筛查。',
       '[GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)','',
       '| 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |','|---|---:|---|---|']
     papers={p['id']:p for p in (json.loads(x) for x in (root/'papers.jsonl').read_text().splitlines())}
@@ -82,7 +82,7 @@ def render_citations(root,catalogs):
         r=catalog[e['to']]
         lines.append(f"| [来源]({e['from']}) | [{md(r['title'])}]({r['url']}) | {e['type']}; {md(e['status'])} |")
     lines+=['','## 本批纠正与未完成项','',
-      '- GoFetch [89] 指向 S&P 2023 的 DVFS 论文：主列表漏列、另一官方日程有收录。已补条目并保留来源差异；独立论文集全量核对仍未完成。',
+      '- GoFetch [89] 指向 S&P 2023 的 DVFS 论文：主列表漏列、另一官方日程有收录。已补条目并保留来源差异；本批独立印刷目录 196 条对应也确认包含该篇。',
       '- GoFetch [58] 对应 SAC 2022 论文，但正式章节 2024 年上线；ePrint 与正式版作者顺序不同。书目关系已确认，全文差异未核对。',
       '- GoFetch [61] 的 Raccoon 是 TLS-DH(E) 攻击，不是同名后量子签名。',
       '- HOST 2021 采样论文的 ePrint 上传于 2022 年；会议年、出版日期和预印本日期分别保留。',
@@ -91,6 +91,7 @@ def render_citations(root,catalogs):
       '- Scheduled Disclosure 的密码实验对象为 SIKE-751；15 条引用已与目录对应，ASIACCS/DIMVA/ASPLOS 三条发现已读并解析。OpenTitan 的 Share-slicing 引用已补读摘要与讨论，作为窗口外基础文献保留；完整追踪仍未完成。',
       '- Peek-a-Walk 标题无 PQC 名称，正文包含参考 Dilithium-2 的 nonce 泄漏与格后处理；已对应 GoFetch 与 Too Many Hints 两条引用，其余参考文献尚待逐条筛查。',
       '- EasyCrypt S&P 2025 的 [11]、[12] 已对应 Episode IV、Episode V；后者补读恒时证明范围及 [八条选读引用](citations/kyber-v-selected-reference-screen.jsonl)，新增 CRYPTO 2020 与 CHES 2017 两篇窗口外基础卡片。ePrint 2025/1607 的 minor revision 与 2024/843 的 major revision 均有显式书目关系，全文差异尚未核对。见 [Episode V 范围记录](notes/kyber-verification-episode-v-20261113.md)。',
+      '- S&P 2023 的 Raccoon 五条与 selSLH 四条选读中，一条对应同届 Spectre Declassified，八条进入发现队列；包含窗口内 Mitaka/Leveling Dilithium 与窗口外掩码/恒时基础文献。见 [九条清单](citations/sp2023-selected-reference-screen.jsonl)。',
       '- 前向关系只记录当前实际看到的引用，不等于枚举了所有后续论文。扩展会议的系统目录、未解析引用及基础文献筛查继续进行。','']
     (root/'CITATION_PROGRESS.md').write_text('\n'.join(lines))
     return {'verified_citation_edges':len(citations),'verified_version_edges':len(versions)-len(inferred_versions),'inferred_version_edges':len(inferred_versions),
@@ -187,9 +188,9 @@ def main():
             toc_label=f"[{toc['print_toc_records']} 条对应{toc_caveat}]({toc['provenance_file']})" if toc else '待核对'
             lines.append(f'| {venue} | {year} | {n if n else "待补齐"} | {toc_label} | {title_reviewed}/{n} | {reviewed}/{n} | {link} |')
     lines.extend(['','## 当前已知缺口','',
-      '- S&P 2024、2025 已与另一来源取得的 IEEE 印刷论文集目录逐项对应；其余 28 个单元仍待独立核对。同一个来源的 JSON 与 HTML 不算独立证据。',
+      '- S&P 2023、2024、2025 已与另一来源取得的 IEEE 印刷论文集目录逐项对应；其余 27 个单元仍待独立核对。同一个来源的 JSON 与 HTML 不算独立证据。',
       '- IEEE S&P 2026 页面标题与目录年度为 2026，但有一个 cycle 小标题写 2025，保留为需复核的页面不一致。',
-      '- IEEE S&P 2023 主列表漏列 DVFS Frequently Leaks Secrets；GoFetch 引用与另一官方日程促成补录。两份官方页面的对照不替代独立论文集全量审计。',
+      '- IEEE S&P 2023 主列表漏列 DVFS Frequently Leaks Secrets；GoFetch 引用与另一官方日程促成补录，独立印刷目录现已确认全部 196 条。194 条规范化题名相同、2 条改题名；三个 N/A、两组重复 DOI 和五条作者字段差异保留待查。该年标题候选/不确定项共 48 条均有摘要判定，其余 148 条仍待摘要复核。',
       '- CCS 2026 为截至截点的官方录用目录；会议尚未举行，不能统一标为已正式发表。',
       '- Crossref 的 ISBN 查询只返回 CCS 论文集容器，不能用于证明其中没有论文；已改用官方网站目录。',
       '- TCHES 按卷年与出版日期分别处理，回看 2020 年元数据以补齐 2021 卷首期。Crossref 未提交引用列表不等于没有引用。',

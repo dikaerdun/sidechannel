@@ -1,6 +1,6 @@
 # 已阅读的相邻主题与方法背景
 
-当前 136 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
+当前 159 条；保留在目录与引用图中，不计入侧信道纳入论文数量。后续全文证据可以修订范围判定。
 
 ## A Compact Hardware Implementation of CCA-Secure Key Exchange Mechanism CRYSTALS-KYBER on FPGA
 
@@ -135,6 +135,34 @@
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Blue's Clues: Practical Discovery of Non-Discoverable Bluetooth Devices
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要直接发现非可发现蓝牙设备并取得 MAC/标识符；观察是否依赖额外侧信道仍待正文核对，先保留协议隐私背景。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179358/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## CSI:Rowhammer - Cryptographic Security and Integrity against Rowhammer
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要为 Rowhammer 错误检测/纠正，在 gem5 评估；不等于实测侧信道防护。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179390/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Control Flow and Pointer Integrity Enforcement in a Secure Tagged Architecture
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要保护控制流与指针完整性，未说明时间或物理观察非干扰。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179416/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## EC: Embedded Systems Compartmentalization via Intra-Kernel Isolation
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要为嵌入式权限与内存隔离；未给出观察通道保证。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179285/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Efficient Algorithms for Large Prime Characteristic Fields and Their Application to Bilinear Pairings
 
 - 来源：[TCHES 2023](https://doi.org/10.46586/tches.v2023.i3.445-472)。
@@ -147,6 +175,13 @@
 - 来源：[TCHES 2023](https://doi.org/10.46586/tches.v2023.i3.74-96)。
 - 判定依据：降低 FrodoKEM 的栈消耗并分析时间与内存折衷，部分结果需微调规范；摘要未报告侧信道保护，低内存不等于泄漏安全。
 - 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## FIDO2, CTAP 2.1, and WebAuthn 2: Provable Security and Post-Quantum Instantiation
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要证明 FIDO2 协议及条件性后量子实例化，未研究其实现泄漏。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179454/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Fast Practical Lattice Reduction Through Iterated Compression
@@ -177,11 +212,53 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## How IoT Re-using Threatens Your Sensitive Data: Exploring the User-Data Disposal in Used IoT Devices
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要研究数据删除、存储残留与直接读取，非此处的非侵入计算活动观察；保留生命周期背景。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179294/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## IPvSeeYou: Exploiting Leaked Identifiers in IPv6 for Street-Level Geolocation
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要从 IPv6 中直接暴露的 MAC 与地理数据库关联定位；先作标识符隐私背景，未确认实现侧信道。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179376/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Jolt: Recovering TLS Signing Keys via Rowhammer Faults
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：Jolt 的核心为故障签名与 Rowhammer 注入；侧信道只是动机背景，当前按纯故障相邻研究保留。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179450/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Leaking Arbitrarily Many Secrets: Any-out-of-Many Proofs and Applications to RingCT Protocols
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要是零知识证明与隐藏秘密数量的协议设计，不是物理或实现通道的密钥泄漏。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179292/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Loop Aborts Strike Back: Defeating Fault Countermeasures in Lattice Signatures with ILP
 
 - 来源：[TCHES 2023](https://doi.org/10.46586/tches.v2023.i4.367-392)。
 - 判定依据：用 ILP 处理 loop-abort 造成的噪声线性系统，突破打乱等防护并在 Cortex-M4 验证；恢复对象含等价签名密钥，所报少量签名是故障签名而非被动迹线。
 - 阅读来源：publisher-deposited Crossref abstract。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Low-Cost Privilege Separation with Compile Time Compartmentalization for Embedded Systems
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要以编译期约束实现权限分隔，未给出侧信道安全性质。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179388/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## OWL: Compositional Verification of Security Protocols via an Information-Flow Type System
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要为协议组合证明和信息流类型，未把执行时间/微架构观察纳入已说明模型。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179477/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## Oil and Vinegar: Modern Parameters and Implementations
@@ -198,6 +275,62 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Private Collaborative Data Cleaning via Non-Equi PSI
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要允许差分隐私的集合交大小泄漏以换取性能；这是协议泄漏模型，不是实现通道评估。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179337/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## REGA: Scalable Rowhammer Mitigation with Refresh-Generating Activations
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要针对 Rowhammer 刷新缓解及开销，不是侧信道观察防护。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179327/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要通过 GDSII 与 SEM 图像比对检测布局改动，非功耗/EM 木马侧信道评估。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179341/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## SPHINCS+C: Compressing SPHINCS+ With (Almost) No Cost
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要优化 SPHINCS+ 签名大小与速度；可变搜索次数不自动证明秘密泄漏，需另查实现模型。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179381/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## SecureCells: A Secure Compartmentalized Architecture
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要为 VMA 权限、上下文隔离和低成本跨域调用，未给出侧信道覆盖。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179472/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要通过 TEE 和权重变换保护外包模型，未核查时间、功耗或访问模式边界。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179382/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## SoK: Cryptographic Neural-Network Computation
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要综述基于密码学的神经网络计算，属于方法背景而非实现侧信道研究。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179483/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## Sound Verification of Security Protocols: From Design to Interoperable Implementations
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要保证代码继承 Tamarin 的协议 trace 性质；这里的 trace 不等于测量波形或时间泄漏。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179325/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## Vectorized and Parallel Computation of Large Smooth-Degree Isogenies using Precedence-Constrained Scheduling
 
 - 来源：[TCHES 2023](https://doi.org/10.46586/tches.v2023.i3.246-269)。
@@ -205,11 +338,39 @@
 - 阅读来源：publisher-deposited Crossref abstract。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
+## Volttack: Control IoT Devices by Manipulating Power Supply Voltage
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要操纵供电信号造成传感/执行错误，为主动注入背景而非秘密观察攻击。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179340/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## WaVe: A Verifiably Secure WebAssembly Sandboxing Runtime
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要证明 Wasm 内存安全及 OS 资源访问隔离，未承诺时序/微架构非干扰。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179357/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## WebSpec: Towards Machine-Checked Analysis of Browser Security Mechanisms
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要为浏览器逻辑安全机制的模型检查，不等于侧信道自动发现或功耗模型。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179465/。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
 ## cuZK: Accelerating Zero-Knowledge Proof with A Faster Parallel Multi-Scalar Multiplication Algorithm on GPUs
 
 - 来源：[TCHES 2023](https://doi.org/10.46586/tches.v2023.i3.194-220)。
 - 判定依据：cuZK 加速 GPU 上 zkSNARK 的矩阵乘法、NTT、MSM 与传输；零知识协议性质不自动覆盖证明过程的实现泄漏。
 - 阅读来源：publisher-deposited Crossref abstract; tches-crossref-page1。
+- 核查日期：2026-11-13；没有独立第二审读或本地复现。
+
+## uSWITCH: Fast Kernel Context Isolation with Implicit Context Switches
+
+- 来源：[SP 2023](https://www.ieee-security.org/TC/SP2023/program-papers.html)。
+- 判定依据：摘要为内核资源和内存隔离性能，不等于防住共享微架构观察。
+- 阅读来源：https://xplorestaging.ieee.org/document/10179284/。
 - 核查日期：2026-11-13；没有独立第二审读或本地复现。
 
 ## A Highly-efficient Lattice-based Post-Quantum Cryptography Processor for IoT Applications

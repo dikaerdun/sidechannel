@@ -1,0 +1,1789 @@
+{
+  "reviewed_on": "2026-11-13",
+  "sources": [
+    {
+      "source_id": "sp2023-crossref-container-discovery",
+      "url": "https://api.crossref.org/works?query.container-title=2023+IEEE+Symposium+on+Security+and+Privacy+%28SP%29&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2023-12-31&rows=1000&select=DOI%2Ctitle%2Csubtitle%2Cauthor%2Cpublished%2Cpublished-online%2Cpublished-print%2Cpage%2CISBN%2Ccontainer-title%2Cresource%2Ctype%2Cabstract",
+      "response_url": "https://api.crossref.org/works?query.container-title=2023+IEEE+Symposium+on+Security+and+Privacy+%28SP%29&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2023-12-31&rows=1000&select=DOI%2Ctitle%2Csubtitle%2Cauthor%2Cpublished%2Cpublished-online%2Cpublished-print%2Cpage%2CISBN%2Ccontainer-title%2Cresource%2Ctype%2Cabstract",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:00:39.923424+00:00",
+      "sha256": "5f168537bdef5bf382b2def178e5dc133d9896fb4a064afbbab863434c6b0e1a",
+      "bytes": 1230847,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-1",
+      "url": "https://xplorestaging.ieee.org/document/10179399/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179399/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:00.104195+00:00",
+      "sha256": "f5d35c4070db83347d09b9577303cc0129312fab66b5740d83c404cbd99fe80c",
+      "bytes": 49700,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-19",
+      "url": "https://xplorestaging.ieee.org/document/10179358/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179358/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:00.034479+00:00",
+      "sha256": "4c57a5b2f7d8a936225452a51e5e0a390b94d8cc3734d0aae10941ce82c444a5",
+      "bytes": 49423,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-28",
+      "url": "https://xplorestaging.ieee.org/document/10179416/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179416/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:03:59.669346+00:00",
+      "sha256": "023be06968e40bba5ca089e84829c0fe152cd262fbd6aeb1e6a458abc8d2779c",
+      "bytes": 50413,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-30",
+      "url": "https://xplorestaging.ieee.org/document/10179390/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179390/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:01.480149+00:00",
+      "sha256": "d0db344bd44a2a5ef6640b0d1b6018c3c8ec7f58b3909b0765a19024c9968d5d",
+      "bytes": 48706,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-33",
+      "url": "https://xplorestaging.ieee.org/document/10179359/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179359/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:02.391383+00:00",
+      "sha256": "62cebd9321e0b72f0fbb22f42e1e5fadd4f1c82844db7fa9086642b2412f3a3f",
+      "bytes": 47950,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-36",
+      "url": "https://xplorestaging.ieee.org/document/10179480/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179480/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:01.703434+00:00",
+      "sha256": "13ada0a715109f07c396f51d1140c8c81feabcad92a3384dccc15f4284bbebe7",
+      "bytes": 49790,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-41",
+      "url": "https://xplorestaging.ieee.org/document/10179283/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179283/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:03.770367+00:00",
+      "sha256": "649373b57787f263c039280c36fc22c7960d1364dd9fd84fe94052fb719ec122",
+      "bytes": 48808,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-45",
+      "url": "https://xplorestaging.ieee.org/document/10179285/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179285/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:03.719683+00:00",
+      "sha256": "d3c3a9b241023efcce73e34c8f2524742ce12339bb2a499e44a97256f9b741bb",
+      "bytes": 48561,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-50",
+      "url": "https://xplorestaging.ieee.org/document/10179437/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179437/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:04.721972+00:00",
+      "sha256": "2c3e17760ff48a3b49265e5c7400d9d4aa30c02a97672dce771faa89bfdbbe00",
+      "bytes": 49424,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-52",
+      "url": "https://xplorestaging.ieee.org/document/10179454/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179454/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:07.873279+00:00",
+      "sha256": "203d9117915842daa4c4ec69117e848c735ce2ad5d284c2d56766b0151746005",
+      "bytes": 48016,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-56",
+      "url": "https://xplorestaging.ieee.org/document/10179353/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179353/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:06.440976+00:00",
+      "sha256": "15a8accea7e6dec8123ce34279965ad76673eb1d639c2ee2f0fbc369f3f64a95",
+      "bytes": 48781,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-60",
+      "url": "https://xplorestaging.ieee.org/document/10179309/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179309/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:07.698488+00:00",
+      "sha256": "37bd6c06dad5d3d8b3646405012c5a876c8b291babb1bf326ac3a548c2ebc865",
+      "bytes": 48074,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-61",
+      "url": "https://xplorestaging.ieee.org/document/10179391/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179391/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:08.586581+00:00",
+      "sha256": "625dc48674ed71b18ca7e94ccf8c092be373f16daf5dcb8bcf948658fa04a48e",
+      "bytes": 47630,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-62",
+      "url": "https://xplorestaging.ieee.org/document/10179342/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179342/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:10.911481+00:00",
+      "sha256": "0ad7e02ca512a9c070a9a0c5ec7d30d319207aa309545ba066a9755333e841c1",
+      "bytes": 49606,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-63",
+      "url": "https://xplorestaging.ieee.org/document/10179294/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179294/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:09.697106+00:00",
+      "sha256": "8abda1dcdcd9d77ae3224e859dfb80ee486fe73b3d059c775df1a651b6979c71",
+      "bytes": 51424,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-70",
+      "url": "https://xplorestaging.ieee.org/document/10179376/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179376/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:10.270100+00:00",
+      "sha256": "9d25ed1e542f1d51e9e5fb6279f6aa1ab1fa59ec7cf17656971408ea38a2fe61",
+      "bytes": 49223,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-76",
+      "url": "https://xplorestaging.ieee.org/document/10179450/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179450/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:12.209649+00:00",
+      "sha256": "ef4516862384a360bd05bb8c803ed7f6a607ef2b17188e7df9398253c335be2e",
+      "bytes": 51596,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-79",
+      "url": "https://xplorestaging.ieee.org/document/10179292/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179292/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:11.789284+00:00",
+      "sha256": "ed087b0c15baaf1d5ecca358363a6845a93dadc47fa0d3d90d7efc7f8daf9c33",
+      "bytes": 50228,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-83",
+      "url": "https://xplorestaging.ieee.org/document/10179388/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179388/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:14.083038+00:00",
+      "sha256": "6c791a021a07c67709d79919f2b88ef60d5d7640aff82ff47516a7e664c14660",
+      "bytes": 49452,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-89",
+      "url": "https://xplorestaging.ieee.org/document/10179484/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179484/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:14.285718+00:00",
+      "sha256": "c83e2e05985d0bc9bc0f300b8791e2fcb84a07f5503209d01f569185332a0ed0",
+      "bytes": 48103,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-101",
+      "url": "https://xplorestaging.ieee.org/document/10179385/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179385/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:14.202675+00:00",
+      "sha256": "e09276c7337fa8e41021779c6d224579d5e9796949f7853fed5a98df6393a174",
+      "bytes": 48413,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-104",
+      "url": "https://xplorestaging.ieee.org/document/10179477/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179477/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:15.870888+00:00",
+      "sha256": "39a552cd9b0bb7e01ea2c54c677090c8bb0422b137c530d280632710cfb3786d",
+      "bytes": 47584,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-109",
+      "url": "https://xplorestaging.ieee.org/document/10179297/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179297/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:16.195321+00:00",
+      "sha256": "812ed28543151feb91eeafd13985c4d5710e6fe4456438ff0f60a1422203aeec",
+      "bytes": 49208,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-112",
+      "url": "https://xplorestaging.ieee.org/document/10179301/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179301/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:16.501305+00:00",
+      "sha256": "7451f885064b42118c8527f5b45159f68ee48d16b31bee23d8367d1c829d16a4",
+      "bytes": 50753,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-114",
+      "url": "https://xplorestaging.ieee.org/document/10179337/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179337/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:07:34.292833+00:00",
+      "sha256": "200731d17b0fd766f67a93fbbfe4cfd4e629f8e647cd09694b2863b4a15b1524",
+      "bytes": 48219,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-115",
+      "url": "https://xplorestaging.ieee.org/document/10179423/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179423/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:18.168069+00:00",
+      "sha256": "002f34d7f4fa79398ed0573b43d5b21490c3e49aeb16c2adf1238f944414d882",
+      "bytes": 52002,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-123",
+      "url": "https://xplorestaging.ieee.org/document/10179341/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179341/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:18.275020+00:00",
+      "sha256": "a4704d29aa3f2f4aa551f53b7134e418b6ee100947064d98f3af9a2cf2c39ee2",
+      "bytes": 51121,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-125",
+      "url": "https://xplorestaging.ieee.org/document/10179327/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179327/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:19.080227+00:00",
+      "sha256": "abfcd046e0b5c8d2cefd7d60c4df928419af16ec185fdc491d85d05a3ca51920",
+      "bytes": 50042,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-126",
+      "url": "https://xplorestaging.ieee.org/document/10179460/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179460/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:20.171034+00:00",
+      "sha256": "837997e3c3c36ea8edd98d625ecb9baa65b75dee9dc6929af62cd7854e7aa05a",
+      "bytes": 51098,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-127",
+      "url": "https://xplorestaging.ieee.org/document/10179464/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179464/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:20.236998+00:00",
+      "sha256": "3d8d682bf16273fc447fd6be457e02acef262e0eec7c421e580bc3ed3eec1b3f",
+      "bytes": 49693,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-134",
+      "url": "https://xplorestaging.ieee.org/document/10179440/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179440/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:21.681570+00:00",
+      "sha256": "0cbafb442d7deaec7252b1b7b87f7bf94655234905085c179ad97d56c3b58077",
+      "bytes": 48510,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-135",
+      "url": "https://xplorestaging.ieee.org/document/10179472/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179472/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:22.026738+00:00",
+      "sha256": "fd71f53946720633809b86f84b9c310e4071b0d9d8b5491adcd271fa4ff4b5a4",
+      "bytes": 49569,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-139",
+      "url": "https://xplorestaging.ieee.org/document/10179382/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179382/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:22.577044+00:00",
+      "sha256": "6eec82c961dc561d582f059c61f15abb021c35da88f470a13391e2368ecd8741",
+      "bytes": 49216,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-141",
+      "url": "https://xplorestaging.ieee.org/document/10179313/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179313/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:23.396250+00:00",
+      "sha256": "c6d224ba33f66fb04c820c062c01c26dea6226abf9874497981ac219a7029339",
+      "bytes": 50565,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-145",
+      "url": "https://xplorestaging.ieee.org/document/10179289/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179289/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:25.425078+00:00",
+      "sha256": "99510e8ef6446f59671f13df9d3804b5ac4c17f9d973932f4af63f4ae9847681",
+      "bytes": 48044,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-148",
+      "url": "https://xplorestaging.ieee.org/document/10179483/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179483/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:26.059073+00:00",
+      "sha256": "6e3d091ee6930afeab75587ea4b0c8c9908ac21a33f3c998f83eca49be551733",
+      "bytes": 46202,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-154",
+      "url": "https://xplorestaging.ieee.org/document/10179325/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179325/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:24.895624+00:00",
+      "sha256": "8da2529b8061c8c7519466c9883d104c0b2f01fc05de2e533ba9a6dc10e5bd9d",
+      "bytes": 48787,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-157",
+      "url": "https://xplorestaging.ieee.org/document/10179355/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179355/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:29.224990+00:00",
+      "sha256": "ec58a65a411ff82d496a9f46756231c9ecb241783e8961c3ce337f20a64d442a",
+      "bytes": 50954,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-158",
+      "url": "https://xplorestaging.ieee.org/document/10179381/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179381/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:26.885656+00:00",
+      "sha256": "bfd7e61e886559c8a2aaf673c61a33017e7638e66cd433fdef757fee49ee7022",
+      "bytes": 51012,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-160",
+      "url": "https://xplorestaging.ieee.org/document/10179368/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179368/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:28.944063+00:00",
+      "sha256": "b25805736ed9b2dffd95eb064c78075e7cb3a9e9068044cf3546e11f071167f9",
+      "bytes": 50018,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-166",
+      "url": "https://xplorestaging.ieee.org/document/10179311/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179311/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:29.401296+00:00",
+      "sha256": "cbc91b0edc783087957ad3bfc1682dc74ac1732a103e82539ed5158463feee8a",
+      "bytes": 49964,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-174",
+      "url": "https://xplorestaging.ieee.org/document/10179418/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179418/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:32.907624+00:00",
+      "sha256": "f9d7c13a450f637ee8b8e66221b2eafcd07a5cee4aff02dc1afb8fff417316cc",
+      "bytes": 50487,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-176",
+      "url": "https://xplorestaging.ieee.org/document/10179322/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179322/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:32.107892+00:00",
+      "sha256": "ab3b87064bee95f11898af03dde6cefd63ac75398d97e0c73bd3d9f76d681163",
+      "bytes": 49810,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-179",
+      "url": "https://xplorestaging.ieee.org/document/10179284/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179284/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:32.643893+00:00",
+      "sha256": "bbfd75e88d994c22803467a17aa9c93346620f2dc39fe81e32eb7f0f664c9009",
+      "bytes": 49280,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-183",
+      "url": "https://xplorestaging.ieee.org/document/10179340/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179340/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:35.129856+00:00",
+      "sha256": "d7c730e4a74af161ca4e45488a93ce5ef586b788136fc59b1bc5ff091d59d9d9",
+      "bytes": 49177,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-186",
+      "url": "https://xplorestaging.ieee.org/document/10179357/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179357/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:35.183500+00:00",
+      "sha256": "d7ce00dfb81009c33fd53c36151fe674aec51496c695ddc501fc9769ecc11f67",
+      "bytes": 49646,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-189",
+      "url": "https://xplorestaging.ieee.org/document/10179465/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179465/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:35.259469+00:00",
+      "sha256": "bc865762890bdab8e634e7021fb63d8516e1a20ec1614b5b88969153e7a4ee6e",
+      "bytes": 49876,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-1060",
+      "url": "https://xplorestaging.ieee.org/document/10179415/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179415/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:38.950874+00:00",
+      "sha256": "ce2a3811c6c50a15695bc2753957fbbd4e34eb3a628a8981566a68b2af828e1e",
+      "bytes": 48119,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-candidates-publisher-1114",
+      "url": "https://xplorestaging.ieee.org/document/10179396/",
+      "response_url": "https://xplorestaging.ieee.org/document/10179396/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:04:37.877573+00:00",
+      "sha256": "be430c84f2b0f19ca2f98afac43690928c6a522d84a5ab3823e6a671bd58456c",
+      "bytes": 48221,
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-raccoon-author-pdf",
+      "url": "https://trepo.tuni.fi/bitstream/10024/206346/1/High-Order_Masking.pdf",
+      "response_url": "https://trepo.tuni.fi/bitstream/handle/10024/206346/High-Order_Masking.pdf;jsessionid=E6EC2AC9CAD784AC6D80D7B2EA3FF9F8?sequence=1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:05:34.218136+00:00",
+      "sha256": "218a76c337a6328599ab9ff4bcd9ec2f1f41ddf4774d95738808a08f729af018",
+      "bytes": 903049,
+      "content_type": "application/pdf;charset=UTF-8"
+    },
+    {
+      "source_id": "sp23-selslh-author-pdf",
+      "url": "https://cryptojedi.org/papers/selslh-20220925.pdf",
+      "response_url": "https://cryptojedi.org/papers/selslh-20220925.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:05:32.531253+00:00",
+      "sha256": "e50dcb6a1ff1f7706357aac61dfbf037ccd104a0c059de62caaf27d96831c82b",
+      "bytes": 794161,
+      "content_type": "application/pdf"
+    }
+  ],
+  "batch": {
+    "new_unique_abstracts_read": 47,
+    "publisher_abstract_pages_read": 49,
+    "new_includes": 24,
+    "new_adjacent": 23,
+    "selected_manuscript_checks": 2,
+    "previously_read_sp2023_records": 1,
+    "title_records_screened": 196,
+    "new_doi_upgrades": 193,
+    "existing_doi_retained": 1,
+    "unresolved_duplicate_doi_pairs": 2,
+    "new_nonpaper_metadata": 8,
+    "new_verified_citation_edges": 1,
+    "new_pending_discoveries": 8
+  },
+  "identity_upgrades": [
+    {
+      "previous_id": "title:sp:2023:f68a4ff9b43d236c",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179401",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:7c94a07b3e5d6d8e",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179399",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:084bc08a1d277f3e",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179409",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:7f71040b4db8c3b9",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179463",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:f60d095cc4f04b24",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179424",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:5d0cb65633d8cacb",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179446",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:6ee8038a689ae8fe",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179286",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:7e43b2ff65411143",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179473",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:c76aa6fadea3b275",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179378",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:09894ee46a08000c",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179300",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:565ae27301ab5942",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179417",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:463b7eb415c2503f",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179384",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:a84fb10bd4899f2c",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179362",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:b30d4b20edc4a74c",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179461",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:15a12308544cf101",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179449",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:83dec65b180761cc",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179426",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:6fd29f14178b2d07",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179330",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:56910fd7b6e0cd5e",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179427",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:05f13c87ea7a0419",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179348",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:24314eea4d7a05cb",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179358",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:558ec178e356a614",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179374",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:cab35d52a426d0ae",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179482",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:22a55f8799589acf",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179476",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:eaddb28861c1ce7a",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179346",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:2d59fedd00e06875",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179448",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:fe6eb5655dd37a8c",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179365",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:f674d3a7dc1152ce",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179466",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:a2ba0bb63fe044c0",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179471",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:26e75bf5e464b4e1",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179416",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:6297d42c5dcb11a9",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179467",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:0ea5458a14caac6d",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179390",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:f38b63b9eddb3db6",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179307",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:2917ac8abf63845b",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179406",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:2b7c34b909c68b30",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179359",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:cd1fc869ec0903d5",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179310",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:e524cc3433a285d9",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179387",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:4a0f1becdf47ee60",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179480",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:62e1d31ecdd8cdc8",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179429",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:4e37175fe9853c77",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179407",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:fac794eb100c8d51",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179338",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:55c1d3b346b1bc3b",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179293",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:863d18f2f84c6805",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179283",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:cd1d90533331838e",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179287",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:5dcb5fcbc161c78a",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179308",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "doi:10.1109/sp46215.2023.10179326",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179326",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:3de2f246d5e9c907",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179285",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:61480c43f6f6691c",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179328",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:f362b14fa8576008",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179468",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:78882db2b5e89da5",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179321",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:9579f8cc8f250286",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179324",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:6d3d53ea56c788d6",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179437",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:22164575653baad8",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179336",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:5f378dbac41fa47c",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179454",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:45622ae23edc3f5c",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179438",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:de3fa319537d7916",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179434",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:d14636ccabdd84a0",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179345",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:bf64a7e5b160ea30",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179353",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:ee55fa8f15bc9fc6",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179453",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:688465f211df4513",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179379",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:f94f2708fecf9bc5",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179479",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:e0a1e8f3874992d1",
+      "canonical_id": "title:sp:2023:e0a1e8f3874992d1",
+      "doi_candidates": [
+        "10.1109/sp46215.2023.10179309",
+        "10.1109/sp46215.2023.10179415"
+      ],
+      "matching_basis": "stable title retained due to duplicate DOI records"
+    },
+    {
+      "previous_id": "title:sp:2023:a7d9cb4c29c9c835",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179391",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:17185d0834a97da0",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179342",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:7823cd569f9d836f",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179294",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:9d263ecbb9dbc91f",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179333",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:a726bff7c8cd5b84",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179442",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:4e4d91f09d5d778f",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179360",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:1c0a3cf701c14d26",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179363",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:cdfd0f83859b9514",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179332",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:30f33fd43b9d0b1f",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179288",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:156b42c1b736bd31",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179376",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:92b904ea3a38dac4",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179361",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:86022a81bd3048fd",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179344",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:3a210d1c3308a23f",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179403",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:2ff5dfe1cd320631",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179320",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:1ea2809af5d284f8",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179347",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:942ae5681a974729",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179450",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:9fcaefcd57fd334a",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179392",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:19b4e9ff50ba1d65",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179425",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:ac517da8c21d04a0",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179292",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:b02d64d4cfdc6a70",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179393",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:8a11f7711c73130d",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179372",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:691de8ef16c046cc",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179389",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:66624c5101d2479b",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179388",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:560ebe5348c90b8e",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179367",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:d4de2bd31015c3a7",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179364",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:64f6e2d2e643c574",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179441",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:1253168788fab899",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179290",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:9977d9427638629d",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179404",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:4b35e2ef8831217f",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179484",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:1c89e7881872760e",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179371",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:eb73ecb788f670c4",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179481",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:e53928f310262cb4",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179447",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:b22ced8b28d62424",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179413",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:f90f2a0edfbbbeaf",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179306",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:2e090a88c3037218",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179319",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:356ae6551071d8a1",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179377",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:7fc9272837d19488",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179291",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:0a8d2e4a647916bc",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179316",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:cb8f833efa86a444",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179315",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:f52c4171ed9a8a15",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179369",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:59e02b4ff9842f29",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179385",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:20b9a984a88ea218",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179475",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:4939e0be038ff19c",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179323",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:96379fe686cce694",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179477",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:eab4477d0293a850",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179318",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:1ad6ee118a8772e2",
+      "canonical_id": "doi:10.1109/sp46215.2023.10335652",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:a3ca9e13184c9140",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179458",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:2dcb2526ec934ea1",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179412",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:a38480670aa911e7",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179297",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:5f24a40af87bd217",
+      "canonical_id": "doi:10.1109/sp46215.2023.10351027",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:49ec1553839852f3",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179366",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:d480a58750987252",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179301",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:bc864f643b7b1caf",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179295",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:9505731bdb6a74b3",
+      "canonical_id": "title:sp:2023:9505731bdb6a74b3",
+      "doi_candidates": [
+        "10.1109/sp46215.2023.10179337",
+        "10.1109/sp46215.2023.10179396"
+      ],
+      "matching_basis": "stable title retained due to duplicate DOI records"
+    },
+    {
+      "previous_id": "title:sp:2023:7be7e932f2dafb08",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179423",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:ee5773c1c1e58d16",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179422",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:bbaab89d7143cfed",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179282",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:61800f07a1a6d801",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179349",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:568141902b094db8",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179380",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:1041ab00707c1efd",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179370",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:d39d55101c2090f9",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179314",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:4fea0b900cb22e19",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179451",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:aef2e2c3187190e8",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179341",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:f88f48ad7251fb04",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179375",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:56fb2a1c5e240d33",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179327",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:033d3301bd33427d",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179460",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:11db592115a4cf27",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179464",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:9f88037c0448c8c0",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179400",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:b79429b6a4a4b647",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179421",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:fc463c64b59b9458",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179395",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:a7dedb418f227254",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179350",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:85d474797ccb7581",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179352",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:d4e4b02dd19f56ec",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179411",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:76b7b565e101a9de",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179440",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:532055f8da5f2504",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179472",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:bc822f27b3b14bea",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179398",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:69419e46ac660ba5",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179296",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:bb673a22e96ac2e1",
+      "canonical_id": "doi:10.1109/sp46215.2023.10351028",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:82b8c9651bb4d16a",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179382",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:29c7648ee10797b9",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179343",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:5d30955d2fea5898",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179313",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:be93fd3ed6020ed1",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179397",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:ad94be48a0657300",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179469",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:7b4575021a879272",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179334",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:7ebe82c81d3d9008",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179289",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:e2456978a5eead38",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179445",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:6f9494b73aa30616",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179303",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:1fdd7849615f4931",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179483",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:380ad8ac3ddeb119",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179435",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:fb5b91976281ba69",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179419",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:e2ae44d235e100f1",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179405",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:e317bc9164605b5e",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179281",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:ef37445e7a1fef5d",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179304",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:63b77d9d01fca64d",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179325",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:7aa5988c0f9fe0a6",
+      "canonical_id": "doi:10.1109/sp46215.2023.10351029",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:54044b788c4b727f",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179457",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:813dc859c43373af",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179355",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:7915cbb4e9553849",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179381",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:ca27df8db7b64fa6",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179351",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:d99dc1aca55d9c25",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179368",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:039130879a601d28",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179383",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:71a1622016c563cd",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179298",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:6fc564ae09cf2e09",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179302",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:ae74bd986dcfc234",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179335",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:92e4df461702a551",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179402",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:2120908b80bc7cfe",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179311",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:b55b34a4f29ee2d2",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179456",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:09fd872975a978e8",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179470",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:6eda7cb3cb4788da",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179436",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:c488d0b4372f8455",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179373",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:494e06adde90c1b9",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179317",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:dd0e0a6bf8cf34df",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179431",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:63abb0e32ab6d6ad",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179331",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:8b9365206b709b81",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179418",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:20a331aba1cfbb6b",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179386",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:43d1334c40b65635",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179322",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:c118908d98700635",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179474",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:9b52692bff116298",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179459",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:d9e0bf13acef8c9d",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179284",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:6e20b9fab3c56330",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179394",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:0993b89a6f3ebe67",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179329",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:3e4ac2cc3a080732",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179354",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:367d9522d7f162b8",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179340",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:3b9468a4f65d288d",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179478",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:7c18bf185a7ba0a6",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179433",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:1437d929b6a7e013",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179357",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:3c9f0d7a1c8d885b",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179339",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:cba88da77183858e",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179408",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:c6088942d67dae73",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179465",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:6934ec26f035cfa7",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179444",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:7524d0a3090089d1",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179452",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:07e0a09b3660f18a",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179356",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:1d9c4cbb3c96fcf8",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179439",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:80b570ffc3fe935c",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179430",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    },
+    {
+      "previous_id": "title:sp:2023:3192ad5d389432f5",
+      "canonical_id": "doi:10.1109/sp46215.2023.10179410",
+      "doi_candidates": [],
+      "matching_basis": "unique title and publication metadata; named exceptions documented"
+    }
+  ],
+  "author_metadata_discrepancies": [
+    {
+      "index": 38,
+      "title": "Design and Evaluation of Inclusive Email Security Indicators for People with Visual Impairments",
+      "unmatched_names": [
+        "Kaushik"
+      ]
+    },
+    {
+      "index": 96,
+      "title": "ODDFUZZ: Discovering Java Deserialization Vulnerabilities via Structure-Aware Directed Greybox Fuzzing",
+      "unmatched_names": [
+        "Wei"
+      ]
+    },
+    {
+      "index": 116,
+      "title": "Private, Efficient, and Accurate: Protecting Models Trained by Multi-party Learning with Differential Privacy",
+      "unmatched_names": [
+        "Fang"
+      ]
+    },
+    {
+      "index": 152,
+      "title": "SoK: Let the Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning",
+      "unmatched_names": [
+        "Köpf"
+      ]
+    },
+    {
+      "index": 174,
+      "title": "Typing High-Speed Cryptography against Spectre v1",
+      "unmatched_names": [
+        "Oliveira"
+      ]
+    }
+  ],
+  "duplicate_doi_records": [
+    {
+      "catalog_id": "title:sp:2023:e0a1e8f3874992d1",
+      "title": "Half&Half: Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution",
+      "dois": [
+        "10.1109/sp46215.2023.10179309",
+        "10.1109/sp46215.2023.10179415"
+      ],
+      "publisher_abstracts_equal": true,
+      "status": "same title/authors/pages/abstract in two publisher records; canonical designation and cause unresolved; not counted twice"
+    },
+    {
+      "catalog_id": "title:sp:2023:9505731bdb6a74b3",
+      "title": "Private Collaborative Data Cleaning via Non-Equi PSI",
+      "dois": [
+        "10.1109/sp46215.2023.10179337",
+        "10.1109/sp46215.2023.10179396"
+      ],
+      "publisher_abstracts_equal": true,
+      "status": "same title/authors/pages/abstract in two publisher records; canonical designation and cause unresolved; not counted twice"
+    }
+  ],
+  "notes": [
+    "Crossref broad query returned 1000 of 498174 results; exact proceedings prefix yields 206 entries = 196 paper identities + two extra DOI records + eight nonpapers. Query itself is not exhaustive.",
+    "All 47 new unique abstracts read. Two extra publisher pages independently checked duplicate DOI pairs and have identical abstracts; they do not add paper cards.",
+    "Author lists and original titles retained. Five family-name/spelling discrepancies flagged; printed changed-title author lists visually checked.",
+    "No experiments, artifact execution or independent second reader."
+  ]
+}

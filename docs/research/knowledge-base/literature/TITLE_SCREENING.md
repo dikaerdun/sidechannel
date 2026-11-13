@@ -2,8 +2,8 @@
 
 这是一轮人工阅读后的 Codex 判定，不是关键词自动分类。全部判定均为标题层暂判；后续摘要判定见 decisions.jsonl。
 
-当前 1115 条：adjacent=290, candidate=324, outside_title_scope=456, uncertain=45。
-按来源计：SP=516, TCHES=599。未列来源仍待逐题筛查。
+当前 1311 条：adjacent=339, candidate=348, outside_title_scope=555, uncertain=69。
+按来源计：SP=712, TCHES=599。未列来源仍待逐题筛查。
 candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题层范围外暂判；uncertain=标题不足以判定。没有因此删除任何研究论文目录条目。
 
 | 年/会议 | 论文 | 暂判 | 主题提示 |
@@ -169,6 +169,202 @@ candidate=侧信道候选；adjacent=相邻主题；outside_title_scope=标题�
 | 2022 TCHES | [When Bad News Become Good News: Towards Usable Instances of Learning with Physical Errors](https://doi.org/10.46586/tches.v2022.i4.1-24) | candidate | candidate |
 | 2022 TCHES | [When the Decoder Has to Look Twice: Glitching a PUF Error Correction](https://doi.org/10.46586/tches.v2022.i3.26-70) | adjacent | fault_or_integrity |
 | 2022 TCHES | [Will You Cross the Threshold for Me?: Generic Side-Channel Assisted Chosen-Ciphertext Attacks on NTRU-based KEMs](https://doi.org/10.46586/tches.v2022.i1.722-761) | candidate | candidate |
+| 2023 SP | [3DFed: Adaptive and Extensible Framework for Covert Backdoor Attack in Federated Learning](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [A Security RISC: Microarchitectural Attacks on Hardware RISC-V CPUs](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [A Theory to Instruct Differentially-Private Learning via Clipping Bias Reduction](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [ADI: Adversarial Dominating Inputs in Vertical Federated Learning Systems](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [AEM: Facilitating Cross-Version Exploitability Assessment of Linux Kernel Vulnerabilities](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [AI-Guardian: Defeating Adversarial Attacks using Backdoors](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [AUC: Accountable Universal Composability](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Accuracy-Privacy Trade-off in Deep Ensemble: A Membership Inference Perspective](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Adaptive Risk-Limiting Comparison Audits](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Always Contribute Back: A Qualitative Study on Security Challenges of the Open Source Supply Chain](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Analyzing Leakage of Personally Identifiable Information in Language Models](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Attitudes towards Client-Side Scanning for CSAM, Terrorism, Drug Trafficking, Drug Use and Tax Evasion in Germany](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [BLEDiff : Scalable and Property-Agnostic Noncompliance Checking for BLE Implementations](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [BayBFed: Bayesian Backdoor Defense for Federated Learning](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Beyond Phish: Toward Detecting Fraudulent e-Commerce Websites at Scale](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Bicoptor: Two-round Secure Three-party Non-linear Computation without Preprocessing for Privacy-preserving Machine Learning](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Bitcoin-Enhanced Proof-of-Stake Security: Possibilities and Impossibilities](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [BlindHub: Bitcoin-Compatible Privacy-Preserving Payment Channel Hubs Supporting Variable Amounts](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Blue Is the New Black (Market): Privacy Leaks and Re-Victimization from Police-Auctioned Cellphones](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Blue's Clues: Practical Discovery of Non-Discoverable Bluetooth Devices](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [Breaking Security-Critical Voice Authentication](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [CSI:Rowhammer - Cryptographic Security and Integrity against Rowhammer](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [Callee: Recovering Call Graphs for Binaries with Transfer and Contrastive Learning](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Characterizing Everyday Misuse of Smart Home Devices](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Collaborative Ad Transparency: Promises and Limitations](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Confident Monte Carlo: Rigorous Analysis of Guessing Curves for Probabilistic Password Models](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Continual Observation under User-level Differential Privacy](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Continuous Intrusion: Characterizing the Security of Continuous Integration Services](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Control Flow and Pointer Integrity Enforcement in a Secure Tagged Architecture](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [Could you clean up the Internet with a Pit of Tar? Investigating tarpit feasibility on Internet worms](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [D-ARM: Disassembling ARM Binaries by Lightweight Superset Instruction Interpretation and Graph Modeling](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [D-DAE: Defense-Penetrating Model Extraction Attacks](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [DBREACH: Stealing from Databases Using Compression Side-Channels](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [DEVFUZZ: Automatic Device Model-Guided Device Driver Fuzzing](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) | candidate | side_channel_or_observation |
+| 2023 SP | [DeHiREC: Detecting Hidden Voice Recorders via ADC Electromagnetic Radiation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [Deep perceptual hashing algorithms with hidden dual purpose: when client-side scanning does facial recognition](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Deepfake Text Detection: Limitations and Opportunities](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [DepthFake: Spoofing 3D Face Authentication with a 2D Photo](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Design and Evaluation of Inclusive Email Security Indicators for People with Visual Impairments](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Detection of Inconsistencies in Privacy Practices of Browser Extensions](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [DevIOus: Device-Driven Side-Channel Attacks on the IOMMU](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [Discop: Provably Secure Steganography in Practice Based on “Distribution Copies”](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Disguising Attacks with Explanation-Aware Backdoors](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [EC: Embedded Systems Compartmentalization via Intra-Kernel Isolation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [ELSA: Secure Aggregation for Federated Learning with Malicious Actors](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Effective ReDoS Detection by Principled Vulnerability Modeling and Exploit Generation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Everybody’s Got ML, Tell Me What Else You Have: Practitioners' Perception of ML-Based Security Tools and Explanations](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Examining Zero-Shot Vulnerability Repair with Large Language Models](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [FIDO2, CTAP 2.1, and WebAuthn 2: Provable Security and Post-Quantum Instantiation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | pqc_protocol_or_implementation |
+| 2023 SP | [FLUTE: Fast and Secure Lookup Table Evaluations](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Fashion Faux Pas: Implicit Stylistic Fingerprints for Bypassing Browsers' Anti-Fingerprinting Defenses](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [FedRecover: Recovering from Poisoning Attacks in Federated Learning using Historical Information](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Finding Specification Blind Spots via Fuzz Testing](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Flamingo: Multi-Round Single-Server Secure Aggregation with Applications to Private Federated Learning](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [From 5G Sniffing to Harvesting Leakages of Privacy-Preserving Messengers](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [From Grim Reality to Practical Solution: Malware Classification in Real-World Noise](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [GeeSolver: A Generic, Efficient, and Effortless Solver with Self-Supervised Learning for Breaking Text Captchas](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [GraphSPD: Graph-Based Security Patch Detection with Enriched Code Semantics](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Half&Half: Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [Hide and Seek with Spectres: Efficient discovery of speculative vulnerabilities with random testing](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [High-Order Masking of Lattice Signatures in Quasilinear Time](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | pqc_masking |
+| 2023 SP | [How IoT Re-using Threatens Your Sensitive Data: Exploring the User-Data Disposal in Used IoT Devices](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [How technical do you get? I'm an English teacher: Teaching and Learning Cybersecurity and AI Ethics in High School](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [IPvSeeYou: Exploiting Leaked Identifiers in IPv6 for Street-Level Geolocation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [ImU: Physical Impersonating Attack for Face Recognition System with Natural Style Changes](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Improving Developers' Understanding of Regex Denial of Service Tools through Anti-Patterns and Fix Strategies](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Inducing Wireless Chargers to Voice Out for Inaudible Command Attacks](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Investigating Package Related Security Threats in Software Registries](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Investigating the Password Policy Practices of Website Administrators](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Is Cryptographic Deniability Sufficient? Non-Expert Perceptions of Deniability in Secure Messaging](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [It's up to the Consumer to be Smart: Understanding the Security and Privacy Attitudes of Smart Home Users on Reddit](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [It’s (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [It’s like flossing your teeth: On the Importance and Challenges of Reproducible Builds for Software Supply Chain Security](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Jigsaw Puzzle: Selective Backdoor Attack to Subvert Malware Classifiers](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Jolt: Recovering TLS Signing Keys via Rowhammer Faults](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [LAMBRETTA: Learning to Rank for Twitter Soft Moderation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [LazyTAP: On-Demand Data Minimization for Trigger-Action Applications](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Leaking Arbitrarily Many Secrets: Any-out-of-Many Proofs and Applications to RingCT Protocols](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [Less is more: refinement proofs for probabilistic proofs](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Limits of I/O Based Ransomware Detection: An Imitation Based Attack](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Locally Differentially Private Frequency Estimation Based on Convolution Framework](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Low-Cost Privilege Separation with Compile Time Compartmentalization for Embedded Systems](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [Low-effort VR Headset User Authentication Using Head-reverberated Sounds with Replay Resistance](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [MEGA: Malleable Encryption Goes Awry](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [MPCAuth: Multi-factor Authentication for Distributed-trust Systems](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [MagBackdoor: Beware of Your Loudspeaker as A Backdoor For Magnetic Injection Attacks](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Man-in-the-Middle Attacks without Rogue AP: When WPAs Meet ICMP Redirects](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Mew: Enabling Large-Scale and Dynamic Link-Flooding Defenses on Programmable Switches](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [No One Drinks From the Firehose: How Organizations Filter and Prioritize Vulnerability Information](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [No Privacy in the Electronics Repair Industry](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [ODDFUZZ: Discovering Java Deserialization Vulnerabilities via Structure-Aware Directed Greybox Fuzzing](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [OWL: Compositional Verification of Security Protocols via an Information-Flow Type System](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [ObjectSeeker: Certifiably Robust Object Detection against Patch Hiding Attacks via Patch-agnostic Masking](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [On The Empirical Effectiveness of Unrealistic Adversarial Hardening Against Realistic Adversarial Attacks](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [On the (In)security of Peer-to-Peer Decentralized Machine Learning](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [On the Evolution of (Hateful) Memes by Means of Multimodal Contrastive Learning](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [One Key to Rule Them All: Secure Group Pairing for Heterogeneous IoT Devices](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Only Pay for What You Leak: Leveraging Sandboxes for a Minimally Invasive Browser Fingerprinting Defense](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [Optimistic Access Control for the Smart Home](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Optimistic Fast Confirmation While Tolerating Malicious Majority in Blockchains](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [PCspooF: Compromising the Safety of Time-Triggered Ethernet](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [PLA-LiDAR: Physical Laser Attacks against LiDAR-based 3D Object Detection in Autonomous Vehicle](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Perceptions of Distributed Ledger Technology Key Management – An Interview Study with Finance Professionals](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Practical Program Modularization with Type-Based Dependence Analysis](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Practical Timing Side-Channel Attacks on Memory Compression](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [Practically-exploitable Cryptographic Vulnerabilities in Matrix](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Precise Detection of Kernel Data Races with Probabilistic Lockset Analysis](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Privacy Leakage via Unrestricted Motion-Position Sensors in the Age of Virtual Reality: A Study of Snooping Typed Input on Virtual Keyboards](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [Private Access Control for Function Secret Sharing](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Private Collaborative Data Cleaning via Non-Equi PSI](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [Private Eye: On the Limits of Textual Screen Peeking via Eyeglass Reflections in Video Conferencing](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [Private, Efficient, and Accurate: Protecting Models Trained by Multi-party Learning with Differential Privacy](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Protected or Porous: A Comparative Analysis of Threat Detection Capability of IoT Safeguards](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Public Verification for Private Hash Matching](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [PublicCheck: Public Integrity Verification for Services of Run-time Deep Models](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [PyFET: Forensically Equivalent Transformation for Python Binary Decompilation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [QueryX: Symbolic Query on Decompiled Code for Finding Bugs in COTS Binaries](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [RAB: Provable Robustness Against Backdoor Attacks](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [REDEEM MYSELF: Purifying Backdoors in Deep Learning Models using Self Attention Distillation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [REGA: Scalable Rowhammer Mitigation with Refresh-Generating Activations](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [RSFuzzer: Discovering Deep SMI Handler Vulnerabilities in UEFI Firmware with Hybrid Fuzzing](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [Rethinking Searchable Symmetric Encryption](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [RoFL: Robustness of Secure Federated Learning](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Robust Multi-tab Website Fingerprinting Attacks in the Wild](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [RuleKeeper: GDPR-Aware Personal Data Compliance for Web Frameworks](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [SCAPHY: Detecting Modern ICS Attacks by Correlating Behaviors in SCADA and PHYsical](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [SEGFUZZ: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [SNAP: Efficient Extraction of Private Properties with Poisoning](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [SPHINCS+C: Compressing SPHINCS+ With (Almost) No Cost](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | pqc_protocol_or_implementation |
+| 2023 SP | [SQUIP: Exploiting the Scheduler Queue Contention Side Channel](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [Scalable and Privacy-Preserving Federated Principal Component Analysis](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Scaling JavaScript Abstract Interpretation to Detect and Exploit Node.js Taint-style Vulnerability](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Scatter and Split Securely: Defeating Cache Contention and Occupancy Attacks](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [SecureCells: A Secure Compartmentalized Architecture](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [SelectFuzz: Efficient Directed Fuzzing with Selective Path Exploration](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Selective Amnesia: On Efficient, High-Fidelity and Blind Suppression of Backdoor Effects in Trojaned Machine Learning Models](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [Shedding Light on Inconsistencies in Grid Cybersecurity: Disconnects and Recommendations](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Side Eye: Characterizing the Limits of POV Acoustic Eavesdropping from Smartphone Cameras with Rolling Shutters and Movable Lenses](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [Silph: A Framework for Scalable and Accurate Generation of Hybrid MPC Protocols](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Skilled or Gullible? Gender Stereotypes Related to Computer Security and Privacy](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [SoK: A Critical Evaluation of Efficient Website Fingerprinting Defenses](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [SoK: Anti-Facial Recognition Technology](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [SoK: Certified Robustness for Deep Neural Networks](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [SoK: Cryptographic Neural-Network Computation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [SoK: Decentralized Finance (DeFi) Attacks](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [SoK: Distributed Randomness Beacons](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [SoK: History is a Vast Early Warning System: Auditing the Provenance of System Intrusions](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [SoK: Let the Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [SoK: Taxonomy of Attacks on Open-Source Software Supply Chains](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Sound Verification of Security Protocols: From Design to Interoperable Implementations](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [Space Odyssey: An Experimental Software Security Analysis of Satellites](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Spectral-DP: Differentially Private Deep Learning through Spectral Perturbation and Filtering](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Spectre Declassified: Reading from the Right Place at the Wrong Time](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [Spoofing Real-world Face Authentication Systems through Optical Synthesis](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [StyleFool: Fooling Video Classification Systems via Style Transfer](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [SyzDescribe: Principled, Automated, Static Generation of Syscall Descriptions for Kernel Drivers](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [TEEzz: Fuzzing Trusted Applications on COTS Android Devices](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [TELEPATH: A Minecraft-based Covert Communication System](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [TeSec: Accurate Server-side Attack Investigation for Web Applications](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [Three Birds with One Stone: Efficient Partitioning Attacks on Interdependent Cryptocurrency Networks](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Threshold BBS+ Signatures for Distributed Anonymous Credential Issuance](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Threshold Signatures in the Multiverse](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Token meets Wallet: Formalizing Privacy and Revocation for FIDO2](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Toss a Fault to Your Witcher: Applying Grey-box Coverage-Guided Mutational Fuzzing to Detect SQL and Command Injection Vulnerabilities](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Towards a Rigorous Statistical Analysis of Empirical Password Datasets](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [TrojanModel: A Practical Trojan Attack against Automatic Speech Recognition Systems](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Typing High-Speed Cryptography against Spectre v1](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | cryptographic_speculative_security |
+| 2023 SP | [Tyr: Finding Consensus Failure Bugs in Blockchain System with Behaviour Divergent Model](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [UTOPIA: Automatic Generation of Fuzz Driver using Unit Tests](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Uncovering User Interactions on Smartphones via Contactless Wireless Charging Side Channels](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [Understanding the (In)Security of Cross-side Face Verification Systems in Mobile Apps: A System Perspective](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [User Perceptions and Experiences with Smart Home Updates](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [VIDEZZO: Dependency-aware Virtual Device Fuzzing](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Vectorized Batch Private Information Retrieval](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [Volttack: Control IoT Devices by Manipulating Power Supply Voltage](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [Vulnerability Discovery for All: Experiences of Marginalization in Vulnerability Discovery](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [WaVe: A Verifiably Secure WebAssembly Sandboxing Runtime](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [WarpAttack: Bypassing CFI through Compiler-Introduced Double-Fetches](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [We are a startup to the core: A qualitative interview study on the security and privacy development practices in Turkish software startups](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [WeRLman: To Tackle Whale (Transactions), Go Deep (RL)](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [Weak Fiat-Shamir Attacks on Modern Proof Systems](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [WebSpec: Towards Machine-Checked Analysis of Browser Security Mechanisms](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [When Top-down Meets Bottom-up: Detecting and Exploiting Use-After-Cleanup Bugs in Linux Kernel](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [When and Why Do People Want Ad Targeting Explanations? Evidence from a Four-Week, Mixed-Methods Field Study](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [XFL: Naming Functions in Binaries with Extreme Multi-label Learning](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
+| 2023 SP | [mmEcho: A mmWave-based Acoustic Eavesdropping Method](https://www.ieee-security.org/TC/SP2023/program-papers.html) | candidate | side_channel_or_observation |
+| 2023 SP | [mmSpoof: Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [uSWITCH: Fast Kernel Context Isolation with Implicit Context Switches](https://www.ieee-security.org/TC/SP2023/program-papers.html) | uncertain | scope_to_check |
+| 2023 SP | [zk-creds: Flexible Anonymous Credentials from zkSNARKs and Existing Identity Infrastructure](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent | related_security_or_privacy |
+| 2023 SP | [“In Eighty Percent of the Cases, I Select the Password for Them”: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya](https://www.ieee-security.org/TC/SP2023/program-papers.html) | outside_title_scope | other_security_research |
 | 2023 TCHES | [A Closer Look at the Chaotic Ring Oscillators based TRNG Design](https://doi.org/10.46586/tches.v2023.i2.381-417) | adjacent | puf_or_entropy |
 | 2023 TCHES | [A Faster Third-Order Masking of Lookup Tables](https://doi.org/10.46586/tches.v2023.i1.538-556) | candidate | candidate |
 | 2023 TCHES | [Adapting Belief Propagation to Counter Shuffling of NTTs](https://doi.org/10.46586/tches.v2023.i1.60-88) | candidate | candidate |

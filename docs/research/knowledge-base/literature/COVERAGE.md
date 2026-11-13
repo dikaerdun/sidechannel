@@ -13,7 +13,7 @@
 | TCHES | 2026 | 148 | 待核对 | 148/148 | 73/148 | [记录](provenance/tches.json) |
 | SP | 2021 | 115 | 待核对 | 0/115 | 0/115 | [记录](provenance/sp-2021.json) |
 | SP | 2022 | 147 | 待核对 | 0/147 | 0/147 | [记录](provenance/sp-2022.json) |
-| SP | 2023 | 196 | 待核对 | 0/196 | 1/196 | [记录](provenance/sp-2023.json) |
+| SP | 2023 | 196 | [196 条对应；含 3 条无页码记录](provenance/sp2023-print-toc-crosscheck-20261113.json) | 196/196 | 48/196 | [记录](provenance/sp-2023.json) |
 | SP | 2024 | 261 | [261 条对应](provenance/sp2024-print-toc-crosscheck-20261113.json) | 261/261 | 42/261 | [记录](provenance/sp-2024.json) |
 | SP | 2025 | 255 | [255 条对应；含 1 条无页码记录](provenance/sp2025-print-toc-crosscheck-20261113.json) | 255/255 | 36/255 | [记录](provenance/sp-2025.json) |
 | SP | 2026 | 254 | 待核对 | 0/254 | 0/254 | [记录](provenance/sp-2026.json) |
@@ -38,9 +38,9 @@
 
 ## 当前已知缺口
 
-- S&P 2024、2025 已与另一来源取得的 IEEE 印刷论文集目录逐项对应；其余 28 个单元仍待独立核对。同一个来源的 JSON 与 HTML 不算独立证据。
+- S&P 2023、2024、2025 已与另一来源取得的 IEEE 印刷论文集目录逐项对应；其余 27 个单元仍待独立核对。同一个来源的 JSON 与 HTML 不算独立证据。
 - IEEE S&P 2026 页面标题与目录年度为 2026，但有一个 cycle 小标题写 2025，保留为需复核的页面不一致。
-- IEEE S&P 2023 主列表漏列 DVFS Frequently Leaks Secrets；GoFetch 引用与另一官方日程促成补录。两份官方页面的对照不替代独立论文集全量审计。
+- IEEE S&P 2023 主列表漏列 DVFS Frequently Leaks Secrets；GoFetch 引用与另一官方日程促成补录，独立印刷目录现已确认全部 196 条。194 条规范化题名相同、2 条改题名；三个 N/A、两组重复 DOI 和五条作者字段差异保留待查。该年标题候选/不确定项共 48 条均有摘要判定，其余 148 条仍待摘要复核。
 - CCS 2026 为截至截点的官方录用目录；会议尚未举行，不能统一标为已正式发表。
 - Crossref 的 ISBN 查询只返回 CCS 论文集容器，不能用于证明其中没有论文；已改用官方网站目录。
 - TCHES 按卷年与出版日期分别处理，回看 2020 年元数据以补齐 2021 卷首期。Crossref 未提交引用列表不等于没有引用。

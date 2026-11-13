@@ -39,6 +39,14 @@ python3 docs/research/knowledge-base/literature/tools/audit_sp2024_print_toc.py 
 
 缓存命中时核对原始内容 SHA-256。网站布局变化、年份不一致、分页变化、重复记录及访问失败应留下缺口并人工处理。协议中的独立目录核对和全文阅读不会因脚本成功而自动完成。
 
+S&P 2023 的 PDF 内嵌字体缺少可用 Unicode 映射，新增只读工具按渲染页校准的字形表提取 196 条标题/页码；遇到未知字形直接报错。第 28 页使用较小字号，两个同行页码也单独处理。
+
+```sh
+python3 docs/research/knowledge-base/literature/tools/audit_sp2023_print_toc.py --pdf <outside-repository-pdf>
+```
+
+[该届来源记录](../provenance/sp2023-print-toc-crosscheck-20261113.json)列明视觉校准页和三个 N/A；程序不声称自动 OCR 或全目录第二次视觉审读。两个重复 DOI 对保留稳定标题身份及所有候选 DOI，没有凭数据库返回条数重复计为论文。
+
 2026-11-12 修正：保留 Crossref 主标题与副标题，合并为可读标题；TCHES 卷首前言单列排除。S&P 2023 以另一官方日程补入主列表遗漏的 DVFS 论文，两个页面的差异留在 provenance。引用扩展条目放在 `catalogs/citation-expansion.jsonl`，不是完整会议目录；扩展来源与核心 30 单元分开计数。
 
 重建后运行 `python3 docs/research/knowledge-base/literature/tools/validate_library.py`，检查身份、阅读状态、覆盖数量、引用编号、来源和链接。此检查仅验证产物一致性，不确认论文结论、独立复现、新颖性或文献无遗漏。

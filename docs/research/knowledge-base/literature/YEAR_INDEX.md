@@ -148,7 +148,31 @@
 | DIMVA | [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) | abstract_and_bibliographic_metadata |
 | Journal of Systems Architecture | [Exploiting the microarchitectural leakage of prefetching activities for side-channel attacks](https://doi.org/10.1016/j.sysarc.2023.102877) | selected_full_text_sections |
 | PQCrypto | [Breaking and Protecting the Crystal: Side-Channel Analysis of Dilithium in Hardware](https://doi.org/10.1007/978-3-031-40003-2_25) | abstract_and_bibliographic_metadata |
+| SP | [A Security RISC: Microarchitectural Attacks on Hardware RISC-V CPUs](https://doi.org/10.1109/sp46215.2023.10179399) | abstract_and_bibliographic_metadata |
+| SP | [DBREACH: Stealing from Databases Using Compression Side-Channels](https://doi.org/10.1109/sp46215.2023.10179359) | abstract_and_bibliographic_metadata |
 | SP | [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) | abstract_and_bibliographic_metadata |
+| SP | [DeHiREC: Detecting Hidden Voice Recorders via ADC Electromagnetic Radiation](https://doi.org/10.1109/sp46215.2023.10179480) | abstract_and_bibliographic_metadata |
+| SP | [DevIOus: Device-Driven Side-Channel Attacks on the IOMMU](https://doi.org/10.1109/sp46215.2023.10179283) | abstract_and_bibliographic_metadata |
+| SP | [Fashion Faux Pas: Implicit Stylistic Fingerprints for Bypassing Browsers' Anti-Fingerprinting Defenses](https://doi.org/10.1109/sp46215.2023.10179437) | abstract_and_bibliographic_metadata |
+| SP | [From 5G Sniffing to Harvesting Leakages of Privacy-Preserving Messengers](https://doi.org/10.1109/sp46215.2023.10179353) | abstract_and_bibliographic_metadata |
+| SP | [Half&Half: Demystifying Intel’s Directional Branch Predictors for Fast, Secure Partitioned Execution](https://xplorestaging.ieee.org/document/10179309/) | abstract_and_bibliographic_metadata |
+| SP | [Hide and Seek with Spectres: Efficient discovery of speculative vulnerabilities with random testing](https://doi.org/10.1109/sp46215.2023.10179391) | abstract_and_bibliographic_metadata |
+| SP | [High-Order Masking of Lattice Signatures in Quasilinear Time](https://doi.org/10.1109/sp46215.2023.10179342) | selected_full_text_sections |
+| SP | [Only Pay for What You Leak: Leveraging Sandboxes for a Minimally Invasive Browser Fingerprinting Defense](https://doi.org/10.1109/sp46215.2023.10179385) | abstract_and_bibliographic_metadata |
+| SP | [Practical Timing Side-Channel Attacks on Memory Compression](https://doi.org/10.1109/sp46215.2023.10179297) | abstract_and_bibliographic_metadata |
+| SP | [Privacy Leakage via Unrestricted Motion-Position Sensors in the Age of Virtual Reality: A Study of Snooping Typed Input on Virtual Keyboards](https://doi.org/10.1109/sp46215.2023.10179301) | abstract_and_bibliographic_metadata |
+| SP | [Private Eye: On the Limits of Textual Screen Peeking via Eyeglass Reflections in Video Conferencing](https://doi.org/10.1109/sp46215.2023.10179423) | abstract_and_bibliographic_metadata |
+| SP | [Rethinking Searchable Symmetric Encryption](https://doi.org/10.1109/sp46215.2023.10179460) | abstract_and_bibliographic_metadata |
+| SP | [Robust Multi-tab Website Fingerprinting Attacks in the Wild](https://doi.org/10.1109/sp46215.2023.10179464) | abstract_and_bibliographic_metadata |
+| SP | [SQUIP: Exploiting the Scheduler Queue Contention Side Channel](https://doi.org/10.1109/sp46215.2023.10179368) | abstract_and_bibliographic_metadata |
+| SP | [Scatter and Split Securely: Defeating Cache Contention and Occupancy Attacks](https://doi.org/10.1109/sp46215.2023.10179440) | abstract_and_bibliographic_metadata |
+| SP | [Side Eye: Characterizing the Limits of POV Acoustic Eavesdropping from Smartphone Cameras with Rolling Shutters and Movable Lenses](https://doi.org/10.1109/sp46215.2023.10179313) | abstract_and_bibliographic_metadata |
+| SP | [SoK: A Critical Evaluation of Efficient Website Fingerprinting Defenses](https://doi.org/10.1109/sp46215.2023.10179289) | abstract_and_bibliographic_metadata |
+| SP | [Spectre Declassified: Reading from the Right Place at the Wrong Time](https://doi.org/10.1109/sp46215.2023.10179355) | abstract_and_bibliographic_metadata |
+| SP | [The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web](https://doi.org/10.1109/sp46215.2023.10179311) | abstract_and_bibliographic_metadata |
+| SP | [Typing High-Speed Cryptography against Spectre v1](https://doi.org/10.1109/sp46215.2023.10179418) | selected_full_text_sections |
+| SP | [Uncovering User Interactions on Smartphones via Contactless Wireless Charging Side Channels](https://doi.org/10.1109/sp46215.2023.10179322) | abstract_and_bibliographic_metadata |
+| SP | [mmEcho: A mmWave-based Acoustic Eavesdropping Method](https://doi.org/10.1109/sp46215.2023.10179484) | abstract_and_bibliographic_metadata |
 | TCHES | [Adapting Belief Propagation to Counter Shuffling of NTTs](https://doi.org/10.46586/tches.v2023.i1.60-88) | abstract_and_bibliographic_metadata |
 | TCHES | [Belief Propagation Meets Lattice Reduction: Security Estimates for Error-Tolerant Key Recovery from Decryption Errors](https://doi.org/10.46586/tches.v2023.i4.287-317) | abstract_and_bibliographic_metadata |
 | TCHES | [Cache-Timing Attack Against HQC](https://doi.org/10.46586/tches.v2023.i3.136-163) | abstract_and_bibliographic_metadata |

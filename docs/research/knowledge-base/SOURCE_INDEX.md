@@ -12,7 +12,9 @@
 
 2026-11-12 第三批构思增补：[模型反例、格的几何与物理同步](brainstorms/2026-11-12-model-breaking-directions.md) 文末记录 Scam-V、DDGR、distribution hints、2026/2654 结构化提示预印本、PhaseSCA 与 RO 注入锁定的定位性阅读范围。摘要阅读、PDF 局部阅读和直接访问失败分开记录；未进行全文普查或结果复现。
 
-2026-11-13 文献更新：统一放在[近五年文献库](literature/README.md)。[覆盖表](literature/COVERAGE.md)区分目录提取、1,115 条标题初筛、321 条摘要及以上判定和引用追踪；[185 篇卡片](literature/PAPER_NOTES.md)与[136 条相邻主题](literature/ADJACENT_NOTES.md)保留实际阅读范围。最新 [S&P 2024 与 Episode V 来源](literature/provenance/sp2024-candidates-kyber-v-20261113.json)记录 45 篇原始摘要、五篇指定正文、261 条 DOI 迁移及九条作者字段差异；[S&P 2024 印刷目录核对](literature/provenance/sp2024-print-toc-crosscheck-20261113.json)记录 261 条对应、两条改题名和四条渲染页转录。其八条引用选读不是全参考文献初筛。
+2026-11-13 文献更新：统一放在[近五年文献库](literature/README.md)。[覆盖表](literature/COVERAGE.md)区分 1,311 条标题初筛、368 条摘要及以上判定和引用追踪；[209 篇卡片](literature/PAPER_NOTES.md)与[159 条相邻主题](literature/ADJACENT_NOTES.md)保留实际阅读范围。最新 [S&P 2023 来源](literature/provenance/sp2023-candidates-20261113.json)记录 47 篇不同论文的摘要、两篇指定正文、两个重复 DOI 对及 193 条身份迁移；[印刷目录来源](literature/provenance/sp2023-print-toc-crosscheck-20261113.json)记录字形解码、196 条对应、两条改题名和三个 N/A。九条引用选读形成一条已对应关系与八项待查发现，不代表完整引用筛查。
+
+此前 [S&P 2024 与 Episode V 来源](literature/provenance/sp2024-candidates-kyber-v-20261113.json)记录 45 篇摘要、五篇指定正文、261 条 DOI 迁移及九条作者字段差异；[S&P 2024 印刷目录核对](literature/provenance/sp2024-print-toc-crosscheck-20261113.json)记录 261 条对应、两条改题名和四条渲染页转录。
 
 此前 [S&P 2025 候选补读来源](literature/provenance/sp2025-remaining-20261113.json)记录 25 篇摘要、六篇正文范围及身份迁移；[S&P 2025 印刷目录核对](literature/provenance/sp2025-print-toc-crosscheck-20261113.json)记录 255 条对应及 N/A 例外。[功耗与 S&P 来源](literature/provenance/power-sp2025-followup-20261113.json)、[TCHES 候选补读](literature/provenance/tches-remaining-20261113.json)、[TCHES 范围复核](literature/provenance/scope-boundaries-20261113.json)、[S&P 正文来源](literature/provenance/sp2025-scope-followup-20261113.json)和[引用解析来源](literature/provenance/citation-followup-20261113.json)继续保留。下列历史 SRC 编号、数据来源和旧阅读层级不因新目录建立而自动升级。
 

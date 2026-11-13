@@ -1,10 +1,10 @@
 # 引用与版本追踪进度
 
-已核对 58 条引用条目；版本关系共 12 条，其中 11 条书目核实、1 条为原始来源推定。它们不等于被引论文已全部读完。
-追踪任务共 370 项：in_progress=36, pending=334。
-已登记发现中，14 条完成身份与范围判定，0 条仍待核查；已解析记录继续保留历史。
+已核对 59 条引用条目；版本关系共 12 条，其中 11 条书目核实、1 条为原始来源推定。它们不等于被引论文已全部读完。
+追踪任务共 418 项：in_progress=39, pending=379。
+已登记发现中，14 条完成身份与范围判定，8 条仍待核查；已解析记录继续保留历史。
 
-GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 选读 [61]，Peek-a-Walk 选读 [15]、[53]，EasyCrypt S&P 2025 选读 [11]、[12]，CRYPTO Episode V 选读八条。这些选读不构成完整参考文献筛查。
+GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初筛；OpenTitan 选读 [61]，Peek-a-Walk 选读 [15]、[53]，EasyCrypt S&P 2025 选读 [11]、[12]，CRYPTO Episode V 选读八条，S&P 2023 Raccoon 与 selSLH 合计选读九条。这些选读不构成完整参考文献筛查。
 [GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)
 
 | 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |
@@ -17,6 +17,7 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 55 | [A Side-Channel Attack on a Masked IND-CCA Secure Saber KEM Implementation](https://doi.org/10.46586/tches.v2021.i4.676-707) | abstract_and_bibliographic_metadata |
 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 57 | [Fault Attacks on CCA-secure Lattice KEMs](https://doi.org/10.46586/tches.v2021.i2.37-60) | abstract read; adjacent (see ADJACENT_NOTES) |
 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | 58 | [Single-Trace Side-Channel Attacks on Masked Lattice-Based Encryption](https://doi.org/10.1007/978-3-319-66787-4_25) | abstract_and_bibliographic_metadata |
+| [Typing High-Speed Cryptography against Spectre v1](https://www.ieee-security.org/TC/SP2023/program-papers.html) | 8 | [Spectre Declassified: Reading from the Right Place at the Wrong Time](https://www.ieee-security.org/TC/SP2023/program-papers.html) | abstract_and_bibliographic_metadata |
 | [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | 11 | [Formally verifying Kyber: Episode IV: Implementation correctness](https://doi.org/10.46586/tches.v2023.i3.164-193) | abstract read; adjacent (see ADJACENT_NOTES) |
 | [Proving Faster Implementations Faster: Combining Deductive and Circuit-Based Reasoning in EasyCrypt](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-166) | 12 | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | selected_full_text_sections |
 | [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) | 61 | [Share-slicing: Friend or Foe?](https://doi.org/10.46586/tches.v2020.i1.152-174) | selected_full_text_sections |
@@ -44,7 +45,7 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 32 | [Don't Mesh Around: Side-Channel Attacks and Mitigations on Mesh Interconnects](https://www.usenix.org/conference/usenixsecurity22/presentation/dai) | catalog only; abstract pending |
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 46 | [Branch Different - Spectre Attacks on Apple Silicon](https://doi.org/10.1007/978-3-031-09484-2_7) | abstract_and_bibliographic_metadata |
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 49 | [Single-Trace Side-Channel Attacks on ω-Small Polynomial Sampling: With Applications to NTRU, NTRU Prime, and CRYSTALS-DILITHIUM](https://doi.org/10.1109/host49136.2021.9702284) | abstract_and_bibliographic_metadata |
-| [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 51 | [DevIOus: Device-Driven Side-Channel Attacks on the IOMMU](https://www.ieee-security.org/TC/SP2023/program-papers.html) | catalog only; abstract pending |
+| [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 51 | [DevIOus: Device-Driven Side-Channel Attacks on the IOMMU](https://www.ieee-security.org/TC/SP2023/program-papers.html) | abstract_and_bibliographic_metadata |
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 58 | [Profiling Side-Channel Attacks on Dilithium: A Small Bit-Fiddling Leak Breaks It All](https://doi.org/10.1007/978-3-031-58411-4_1) | abstract_and_bibliographic_metadata |
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 59 | [Too Many Hints – When LLL Breaks LWE](https://doi.org/10.1007/978-981-99-8730-6_4) | abstract_and_bibliographic_metadata |
 | [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) | 61 | [Raccoon Attack: Finding and Exploiting Most-Significant-Bit-Oracles in TLS-DH(E)](https://www.usenix.org/conference/usenixsecurity21/presentation/merget) | catalog only; abstract pending |
@@ -87,7 +88,7 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 
 ## 本批纠正与未完成项
 
-- GoFetch [89] 指向 S&P 2023 的 DVFS 论文：主列表漏列、另一官方日程有收录。已补条目并保留来源差异；独立论文集全量核对仍未完成。
+- GoFetch [89] 指向 S&P 2023 的 DVFS 论文：主列表漏列、另一官方日程有收录。已补条目并保留来源差异；本批独立印刷目录 196 条对应也确认包含该篇。
 - GoFetch [58] 对应 SAC 2022 论文，但正式章节 2024 年上线；ePrint 与正式版作者顺序不同。书目关系已确认，全文差异未核对。
 - GoFetch [61] 的 Raccoon 是 TLS-DH(E) 攻击，不是同名后量子签名。
 - HOST 2021 采样论文的 ePrint 上传于 2022 年；会议年、出版日期和预印本日期分别保留。
@@ -96,4 +97,5 @@ GoFetch 参考文献 [1]–[98] 与 Scheduled Disclosure [1]–[79] 已逐条初
 - Scheduled Disclosure 的密码实验对象为 SIKE-751；15 条引用已与目录对应，ASIACCS/DIMVA/ASPLOS 三条发现已读并解析。OpenTitan 的 Share-slicing 引用已补读摘要与讨论，作为窗口外基础文献保留；完整追踪仍未完成。
 - Peek-a-Walk 标题无 PQC 名称，正文包含参考 Dilithium-2 的 nonce 泄漏与格后处理；已对应 GoFetch 与 Too Many Hints 两条引用，其余参考文献尚待逐条筛查。
 - EasyCrypt S&P 2025 的 [11]、[12] 已对应 Episode IV、Episode V；后者补读恒时证明范围及 [八条选读引用](citations/kyber-v-selected-reference-screen.jsonl)，新增 CRYPTO 2020 与 CHES 2017 两篇窗口外基础卡片。ePrint 2025/1607 的 minor revision 与 2024/843 的 major revision 均有显式书目关系，全文差异尚未核对。见 [Episode V 范围记录](notes/kyber-verification-episode-v-20261113.md)。
+- S&P 2023 的 Raccoon 五条与 selSLH 四条选读中，一条对应同届 Spectre Declassified，八条进入发现队列；包含窗口内 Mitaka/Leveling Dilithium 与窗口外掩码/恒时基础文献。见 [九条清单](citations/sp2023-selected-reference-screen.jsonl)。
 - 前向关系只记录当前实际看到的引用，不等于枚举了所有后续论文。扩展会议的系统目录、未解析引用及基础文献筛查继续进行。

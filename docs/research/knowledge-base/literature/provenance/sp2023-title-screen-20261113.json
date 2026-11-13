@@ -1,0 +1,20 @@
+{
+  "reviewed_on": "2026-11-13",
+  "sources": [],
+  "title_screening_batches": [
+    {
+      "venue": "SP",
+      "year": 2023,
+      "records": 196,
+      "decision_counts": {
+        "outside_title_scope": 99,
+        "candidate": 24,
+        "adjacent": 49,
+        "uncertain": 24
+      }
+    }
+  ],
+  "catalog_file": "catalogs/sp-2023.jsonl",
+  "catalog_sha256": "480b1adb1a157633c851220976205c5cb3f3bcf10dbefa7ce8e3b3e1a4f4e467",
+  "scope": "manual title-only pass, not final inclusion/exclusion"
+}

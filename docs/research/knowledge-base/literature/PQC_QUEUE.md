@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6650 条，其中 342 条命中后量子相关关键词。
+当前目录记录 6650 条，其中 344 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -241,8 +241,10 @@
 | 2023 CCS | [Verifiable Mix-Nets and Distributed Decryption for Voting from Lattice-Based Assumptions](https://www.sigsac.org/ccs/CCS2023/program.html) | pending |
 | 2023 PQCrypto | [Breaking and Protecting the Crystal: Side-Channel Analysis of Dilithium in Hardware](https://doi.org/10.1007/978-3-031-40003-2_25) | include |
 | 2023 SP | [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) | include |
-| 2023 SP | [FIDO2, CTAP 2.1, and WebAuthn 2: Provable Security and Post-Quantum Instantiation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | pending |
-| 2023 SP | [SPHINCS+C: Compressing SPHINCS+ With (Almost) No Cost](https://www.ieee-security.org/TC/SP2023/program-papers.html) | pending |
+| 2023 SP | [FIDO2, CTAP 2.1, and WebAuthn 2: Provable Security and Post-Quantum Instantiation](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent |
+| 2023 SP | [High-Order Masking of Lattice Signatures in Quasilinear Time](https://www.ieee-security.org/TC/SP2023/program-papers.html) | include |
+| 2023 SP | [SPHINCS+C: Compressing SPHINCS+ With (Almost) No Cost](https://www.ieee-security.org/TC/SP2023/program-papers.html) | adjacent |
+| 2023 SP | [Typing High-Speed Cryptography against Spectre v1](https://www.ieee-security.org/TC/SP2023/program-papers.html) | include |
 | 2023 TCHES | [Adapting Belief Propagation to Counter Shuffling of NTTs](https://doi.org/10.46586/tches.v2023.i1.60-88) | include |
 | 2023 TCHES | [BASALISC: Programmable Hardware Accelerator for BGV Fully Homomorphic Encryption](https://doi.org/10.46586/tches.v2023.i4.32-57) | adjacent |
 | 2023 TCHES | [Belief Propagation Meets Lattice Reduction: Security Estimates for Error-Tolerant Key Recovery from Decryption Errors](https://doi.org/10.46586/tches.v2023.i4.287-317) | include |

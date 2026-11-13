@@ -51,9 +51,10 @@
   "reported_total": null,
   "count_reconciled": false,
   "warnings": [
-    "Primary list omits DVFS Frequently Leaks Secrets; official schedule supplement adds it. Full independent proceedings crosscheck still pending."
+    "Primary list omits DVFS Frequently Leaks Secrets; official schedule supplement adds it. Follow-up independent print audit now matches 196 retained papers; original source counts preserved."
   ],
-  "external_toc_crosscheck": "pending",
+  "external_toc_crosscheck": "matched_print_toc_with_caveat",
   "subject_screening": "pending",
-  "citation_chasing": "pending"
+  "citation_chasing": "pending",
+  "followup_provenance": "provenance/sp2023-print-toc-crosscheck-20261113.json"
 }

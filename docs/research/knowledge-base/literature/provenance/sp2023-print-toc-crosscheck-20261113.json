@@ -1,0 +1,51 @@
+{
+  "reviewed_on": "2026-11-13",
+  "sources": [
+    {
+      "source_id": "sp2023-print-toc",
+      "url": "https://www.proceedings.com/content/069/069833webtoc.pdf",
+      "response_url": "https://www.proceedings.com/content/069/069833webtoc.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:00:38.792405+00:00",
+      "sha256": "b48984e3b3e924160ce0405a335e2c350df87126af3f8ba27b7a18da1d11c1fc",
+      "bytes": 155156,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "sp2023-print-container",
+      "url": "https://www.proceedings.com/69833.html",
+      "response_url": "https://www.proceedings.com/69833.html",
+      "status": 200,
+      "retrieved_at": "2026-11-13T11:00:38.868493+00:00",
+      "sha256": "067e9672a59c7acfb3c1a4dca44dcf854599799d5d3f280dd267ae4004e49508",
+      "bytes": 557212,
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ],
+  "book_identity": {
+    "ieee_catalog": "CFP23020-POD",
+    "print_isbn": "978-1-6654-9337-6",
+    "online_isbn": "978-1-6654-9336-9"
+  },
+  "extraction_notes": [
+    "Embedded fonts have unusable Unicode mapping. Glyph substitution calibrated from rendered pages 3,5,7,8,11,13,20,28; page 28 uses smaller text. Changed titles additionally inspected on pages 15 and 22; third N/A visually checked on page 4. Not OCR or a full second visual read.",
+    "194 normalized exact titles plus two changed titles; all 196 records present, including DVFS omitted from the primary accepted list.",
+    "Three printed N/A entries also have publisher metadata; this discrepancy does not by itself establish non-publication."
+  ],
+  "core_cell_crosschecks": [
+    {
+      "venue": "SP",
+      "year": 2023,
+      "status": "matched_print_toc_with_caveat",
+      "inventory_file": "toc-crosschecks/sp-2023.jsonl",
+      "accepted_records": 196,
+      "print_toc_records": 196,
+      "exact_normalized_title_matches": 194,
+      "manually_matched_title_changes": 2,
+      "unpaginated_records": 3,
+      "missing_from_toc": 0,
+      "extra_in_toc": 0,
+      "scope": "membership only; source-specific glyph decoding, title changes, three N/A and two unresolved duplicate-DOI pairs retained"
+    }
+  ]
+}
