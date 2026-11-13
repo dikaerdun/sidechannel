@@ -12,6 +12,8 @@
 
 ## 从这里开始
 
+- [三个更大胆的原型：泄漏回波、动态表示与机制发现；待验证](brainstorms/2026-11-13-echo-representations-mechanism-discovery.md)
+- [原型交接：操作对、表示图与事前干预预测](records/2026-11-13-echo-representation-discovery-handoff.md)
 - [S&P 2022 与 Kyber 引用接续：33 条新卡片、147 条目录对应和恢复范围](records/2026-11-13-literature-sp2022-kyber-four.md)
 - [密钥与器件的交互、种子展开与防护规模；BOLD-34 至 36 待验证](brainstorms/2026-11-13-key-device-seeds-scaling.md)
 - [第十批交接：合法密钥总体、秘密生命周期与资源边界](records/2026-11-13-key-seed-scaling-handoff.md)

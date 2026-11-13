@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-13 原型增补：[泄漏回波、动态表示与机制发现](brainstorms/2026-11-13-echo-representations-mechanism-discovery.md)记录动态解耦、差分逻辑、汇编级平衡、局部 NTT 掩码、Kavach、Scam-V、Rosita++ 七项原始摘要及元数据的阅读范围。IEEE 同题记录直接打开返回 418，未建立经核实的版本关系。三个原型细化已有主线，未运行实验或增加正式文献卡片。
+
 2026-11-13 第十批构思增补：[密钥、种子与防护规模](brainstorms/2026-11-13-key-device-seeds-scaling.md)记录 NIST PQC FAQ 的种子格式条目、NIST 掩码 Technical note、硬件随机性生成与 Kyber 泄漏放大两篇论文的原始摘要及元数据阅读范围。种子格式允许不等于每次重新展开；逻辑阶数不等于物理观测范围。未复核完整证明，没有新实验，不增加正式文献卡片数量。
 
 2026-11-13 研究主线整理：[物理状态发现、关系计算与实现逆向设计](brainstorms/2026-11-13-three-research-programs.md)文末列出 Scam-V、输入输出预测状态、Rosita++、可模拟泄漏反例及 Pantomime 的原始摘要和元数据阅读范围。特别区分 Pantomime 的明确泄漏输入与仅公开信息的模拟目标；未复核完整证明，不改变正式文献卡片数量。

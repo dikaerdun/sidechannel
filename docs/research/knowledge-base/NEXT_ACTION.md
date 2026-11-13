@@ -14,6 +14,8 @@
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-13 增补[三个研究原型 E、R、M](brainstorms/2026-11-13-echo-representations-mechanism-discovery.md)：E 先交可实现的响应反向操作对及间隔扫描预测；R 先交小内核的正确表示图、转换成本与不变量；M 先交两个竞争机制和使预测分叉的合法干预。它们细化 RP-A、RP-C，不增加 BOLD 编号；E 保留小规模探索机会。用户安排其他人验证，详见[交接记录](records/2026-11-13-echo-representation-discovery-handoff.md)。没有执行实验或派发任务，文献普查接续保持不变。
+
 2026-11-13 增补[第十批 BOLD-20261113-34 至 36](brainstorms/2026-11-13-key-device-seeds-scaling.md)：34 先交合法密钥与器件的交互预测；35 先交秘密来源图及两种存储政策；36 先交可实现阶数、资源预算和共享节点隔离预测。均由用户安排其他人验证，36 保留长期探索机会。详见[交接记录](records/2026-11-13-key-seed-scaling-handoff.md)；未运行实验或派发任务，文献普查和既有实验状态继续保留。
 
 2026-11-13 增补[三条研究主线 RP-A 至 C](brainstorms/2026-11-13-three-research-programs.md)：A 先提交模型等价对及跨操作预测；B 先提交真实物理节点、关系函数及切断交互的预测；C 先提交有限观察模型、正确实现和受限模拟器。它们组织既有 33 条种子，不另增机制计数；用户安排其他人验证。详见[主线交接](records/2026-11-13-research-programs-handoff.md)，未运行实验或派发任务。
