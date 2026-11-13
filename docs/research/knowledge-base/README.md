@@ -12,6 +12,8 @@
 
 ## 从这里开始
 
+- [回路关系、正确性裕量与防护后的信息迁移：三项详细提案，待他人验证](brainstorms/2026-11-14-cycle-relations-correctness-margins-leakage-migration.md)
+- [本轮交接：真实关联、留出工作点与完整观察预算](records/2026-11-14-cycle-margin-migration-handoff.md)
 - [S&P 2026 文献接续：32 条新卡片、目录缺项及 Goldilocks 证据边界](records/2026-11-14-literature-sp2026.md)
 - [算法噪声的侧信息、高维去匿名化与跨尺度模型：三个大胆方向，待他人验证](brainstorms/2026-11-14-noise-labels-anonymity-and-scale.md)
 - [本轮交接：误差生命周期、图的等价类与尺度转换](records/2026-11-14-noise-anonymity-scale-handoff.md)
