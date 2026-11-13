@@ -1,5 +1,7 @@
 # 增补来源索引
 
+2026-11-13 第五批构思增补：[保护干预、时间组合与器件互补](brainstorms/2026-11-13-interventions-memory-device-diversity.md) 文末记录 PSVC、MIRACLE、NDSS 多设备模型、持续泄漏与矩阵刷新的摘要及页面元数据阅读范围。仅定位背景与模型条件，未复核证明或运行实验；不改变系统文献库纳入数量。
+
 2026-11-13 第四批构思增补：[清理轨迹、编排测量与整体结构](brainstorms/2026-11-12-observation-as-computation.md) 文末记录 OpenSSL RNG 分析、软件掩码实际评估、打乱执行研究、PhaseLift 与拒绝签名攻击的实际阅读范围。仅摘要/元数据与列明的原文搜索片段；未复现、未完成新颖性审查，不改变系统文献库数量。
 
 2026-11-12 第三批构思增补：[模型反例、格的几何与物理同步](brainstorms/2026-11-12-model-breaking-directions.md) 文末记录 Scam-V、DDGR、distribution hints、2026/2654 结构化提示预印本、PhaseSCA 与 RO 注入锁定的定位性阅读范围。摘要阅读、PDF 局部阅读和直接访问失败分开记录；未进行全文普查或结果复现。

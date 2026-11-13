@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-13 追加 [BOLD-20261113-19 至 21](brainstorms/2026-11-13-interventions-memory-device-diversity.md)：保护干预的机制辨认、跨调用物理记忆的安全组合、不同器件的互补观测。三项均为**待验证提案**；含两个待独立核对的数学例子，不构成实际芯片或 PQC 实现的证据。详见[第五批交接](records/2026-11-13-interventions-memory-diversity-handoff.md)，验证由用户另行安排。
+
 [BOLD-20261112-16 至 18](brainstorms/2026-11-12-observation-as-computation.md) 研究清理全轨迹、已知编排形成的关系测量、聚合响应中的秘密整体结构。三项均为**待验证提案**；明确普通 HD 与相位恢复已有先例，以及多位读出、测量矩阵秩、真实模运算和物理响应映射的缺口。未运行新实验或独立核验，详见[第四批交接](records/2026-11-12-observation-handoff.md)。
 
 [BOLD-20261112-13 至 15](brainstorms/2026-11-12-model-breaking-directions.md) 将研究对象推进到自动模型反例、测量与格求解联合设计、物理同步。三项均为**待验证提案**；已明确 Scam-V、hints/distribution hints、结构化提示和相位泄漏的先例。新增物理映射、方法增量及新颖性未确认，没有新实验或独立核验。
