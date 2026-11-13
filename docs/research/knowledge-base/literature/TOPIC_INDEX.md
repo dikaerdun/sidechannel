@@ -163,6 +163,8 @@
 
 ## Ascon
 
+- 2023 IACR ePrint · [Lightweight but Not Easy: Side-channel Analysis of the Ascon Authenticated Cipher on a 32-bit Microcontroller](https://eprint.iacr.org/2023/1598) · attack · abstract_and_bibliographic_metadata
+- 2024 ACNS Workshops · [One for All, All for Ascon: Ensemble-Based Deep Learning Side-Channel Analysis](https://doi.org/10.1007/978-3-031-61486-6_9) · attack · abstract_and_bibliographic_metadata
 - 2025 USENIX · [Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/rezaeezade) · blind side-channel analysis · selected_full_text_sections
 
 ## ASCON
@@ -270,6 +272,8 @@
 
 ## blind SCA
 
+- 2023 ICCAD · [Invited Paper: Machine Learning Based Blind Side-Channel Attacks on PQC-Based KEMs - A Case Study of Kyber KEM](https://doi.org/10.1109/iccad57390.2023.10323721) · attack · abstract_and_bibliographic_metadata
+- 2024 IACR ePrint · [Machine Learning based Blind Side-Channel Attacks on PQC-based KEMs - A Case Study of Kyber KEM](https://eprint.iacr.org/2024/169) · attack · abstract_and_bibliographic_metadata
 - 2026 TCHES · [TAME: A Deep Learning-based Blind Side-Channel Analysis Framework](https://doi.org/10.46586/tches.v2026.i4.632-655) · method · abstract_and_bibliographic_metadata
 
 ## blood pressure
@@ -283,6 +287,11 @@
 ## Bluetooth
 
 - 2022 SP · [Attacks on Wireless Coexistence](https://doi.org/10.1109/sp46214.2022.9833639) · cross_chip_metadata_side_channel · selected_full_text_sections
+
+## BOHB
+
+- 2024 SAC · [Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Deep Learning-Based Side-Channel Analysis](https://doi.org/10.1007/978-3-031-82841-6_12) · hyperparameter optimization · abstract_and_bibliographic_metadata
+- 2024 IACR ePrint · [Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Side-Channel Analysis](https://eprint.iacr.org/2024/170) · hyperparameter optimization · abstract_and_bibliographic_metadata
 
 ## bone conduction
 
@@ -478,6 +487,11 @@
 
 - 2023 SP · [Uncovering User Interactions on Smartphones via Contactless Wireless Charging Side Channels](https://doi.org/10.1109/sp46215.2023.10179322) · physical_side_channel · abstract_and_bibliographic_metadata
 
+## collision attacks
+
+- 2023 IACR ePrint · [An End-to-end Plaintext-based Side-channel Collision Attack without Trace Segmentation](https://eprint.iacr.org/2023/1109) · attack · abstract_and_bibliographic_metadata
+- 2024 CiC · [Plaintext-based Side-channel Collision Attack](https://doi.org/10.62056/a36cy7qiu) · attack · abstract_and_bibliographic_metadata
+
 ## Common Shares
 
 - 2026 USENIX · [Amortizing Randomness Cost: Efficient Masked Implementation of SDitH Signatures with Common Shares](https://www.usenix.org/conference/usenixsecurity26/presentation/liu-guowei) · masking_countermeasure · selected_full_text_sections
@@ -562,6 +576,7 @@
 
 ## CPA
 
+- 2023 IACR ePrint · [Lightweight but Not Easy: Side-channel Analysis of the Ascon Authenticated Cipher on a 32-bit Microcontroller](https://eprint.iacr.org/2023/1598) · attack · abstract_and_bibliographic_metadata
 - 2024 ACM TECS · [Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication](https://doi.org/10.1145/3569420) · polynomial_multiplication_side_channel · selected_full_text_sections
 - 2025 TCAS-II · [A Hardware-Friendly Shuffling Countermeasure Against Side-Channel Attacks for Kyber](https://doi.org/10.1109/tcsii.2025.3528751) · hardware_countermeasure · selected_full_text_sections
 
@@ -684,7 +699,10 @@
 ## deep learning
 
 - 2023 ASHES · [A Side-Channel Attack on a Masked Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1145/3605769.3623992) · hardware_side_channel_attack · abstract_and_bibliographic_metadata
+- 2023 IACR ePrint · [An End-to-end Plaintext-based Side-channel Collision Attack without Trace Segmentation](https://eprint.iacr.org/2023/1109) · attack · abstract_and_bibliographic_metadata
 - 2023 APKC · [Breaking a Fifth-Order Masked Implementation of CRYSTALS-Kyber by Copy-Paste](https://doi.org/10.1145/3591866.3593072) · attack · abstract_and_bibliographic_metadata
+- 2023 ACM Computing Surveys · [SoK: Deep Learning-based Physical Side-channel Analysis](https://doi.org/10.1145/3569577) · systematization · abstract_and_bibliographic_metadata
+- 2024 CiC · [Plaintext-based Side-channel Collision Attack](https://doi.org/10.62056/a36cy7qiu) · attack · abstract_and_bibliographic_metadata
 - 2025 IACR ePrint · [A Practical Tutorial on Deep Learning-based Side-channel Analysis](https://eprint.iacr.org/2025/471) · tutorial · abstract_and_bibliographic_metadata
 - 2026 IACR CiC · [Side-Channel Attacks on VOLEitH Signature Schemes: Breaking Masked FAEST](https://doi.org/10.62056/aebngyl7s) · attack · selected_full_text_sections
 - 2026 USENIX · [SoK: Deep Learning-based Physical Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity26/presentation/karayalcin) · systematization · abstract_and_bibliographic_metadata
@@ -720,6 +738,7 @@
 ## differential privacy
 
 - 2022 SP · [Are We There Yet? Timing and Floating-Point Attacks on Differential Privacy Systems](https://doi.org/10.1109/sp46214.2022.9833672) · implementation_side_channel · abstract_and_bibliographic_metadata
+- 2024 DSN · [Protecting Confidential Virtual Machines from Hardware Performance Counter Side Channels](https://doi.org/10.1109/DSN58291.2024.00031) · countermeasure · selected_full_text_sections
 - 2026 USENIX · [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors](https://www.usenix.org/conference/usenixsecurity26/presentation/murakami) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
 
 ## Diffie-Hellman
@@ -779,6 +798,13 @@
 
 ## DLSCA
 
+- 2023 IACR ePrint · [Lightweight but Not Easy: Side-channel Analysis of the Ascon Authenticated Cipher on a 32-bit Microcontroller](https://eprint.iacr.org/2023/1598) · attack · abstract_and_bibliographic_metadata
+- 2024 CiC · [Leakage Model-flexible Deep Learning-based Side-channel Analysis](https://doi.org/10.62056/ay4c3txol7) · leakage modeling · abstract_and_bibliographic_metadata
+- 2024 INDOCRYPT · [OccPoIs: Points of Interest Based on Neural Network’s Key Recovery in Side-Channel Analysis Through Occlusion](https://doi.org/10.1007/978-3-031-80311-6_1) · feature selection · abstract_and_bibliographic_metadata
+- 2024 ACNS Workshops · [One for All, All for Ascon: Ensemble-Based Deep Learning Side-Channel Analysis](https://doi.org/10.1007/978-3-031-61486-6_9) · attack · abstract_and_bibliographic_metadata
+- 2024 JCEN · [Regularizers to the rescue: fighting overfitting in deep learning-based side-channel analysis](https://doi.org/10.1007/s13389-024-00361-5) · evaluation methodology · abstract_and_bibliographic_metadata
+- 2024 SAC · [Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Deep Learning-Based Side-Channel Analysis](https://doi.org/10.1007/978-3-031-82841-6_12) · hyperparameter optimization · abstract_and_bibliographic_metadata
+- 2024 IACR ePrint · [Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Side-Channel Analysis](https://eprint.iacr.org/2024/170) · hyperparameter optimization · abstract_and_bibliographic_metadata
 - 2025 IACR ePrint · [A Practical Tutorial on Deep Learning-based Side-channel Analysis](https://eprint.iacr.org/2025/471) · tutorial · abstract_and_bibliographic_metadata
 
 ## DMA
@@ -947,6 +973,11 @@
 - 2022 SP · [DeepCoFFEA: Improved Flow Correlation Attacks on Tor via Metric Learning and Amplification](https://doi.org/10.1109/sp46214.2022.9833801) · traffic_metadata_side_channel · abstract_and_bibliographic_metadata
 - 2026 USENIX · [From Length to Content: Token-Length Side-Channel Attacks on LLM API Merged Outputs](https://www.usenix.org/conference/usenixsecurity26/presentation/li-sijia) · traffic_side_channel · abstract_and_bibliographic_metadata
 
+## ensembles
+
+- 2024 ACNS Workshops · [One for All, All for Ascon: Ensemble-Based Deep Learning Side-Channel Analysis](https://doi.org/10.1007/978-3-031-61486-6_9) · attack · abstract_and_bibliographic_metadata
+- 2024 COSADE · [The Need for MORE: Unsupervised Side-Channel Analysis with Single Network Training and Multi-output Regression](https://doi.org/10.1007/978-3-031-57543-3_7) · attack methodology · abstract_and_bibliographic_metadata
+
 ## error-correction codes
 
 - 2025 TCHES · [Tailorable codes for lattice-based KEMs with applications to compact ML-KEM instantiations](https://doi.org/10.46586/tches.v2025.i3.139-163) · constant_time_implementation · abstract_and_bibliographic_metadata
@@ -1036,6 +1067,10 @@
 ## FireSaber
 
 - 2023 TCHES · [Find the Bad Apples: An efficient method for perfect key recovery under imperfect SCA oracles – A case study of Kyber](https://doi.org/10.46586/tches.v2023.i1.89-112) · attack · abstract_and_bibliographic_metadata
+
+## first-order masking
+
+- 2024 INDOCRYPT · [OccPoIs: Points of Interest Based on Neural Network’s Key Recovery in Side-Channel Analysis Through Occlusion](https://doi.org/10.1007/978-3-031-80311-6_1) · feature selection · abstract_and_bibliographic_metadata
 
 ## fixed-weight polynomial sampling
 
@@ -1275,6 +1310,10 @@
 
 - 2022 AsianHOST · [Vulnerable PQC against Side Channel Analysis - A Case Study on Kyber](https://doi.org/10.1109/asianhost56390.2022.10022165) · hardware_side_channel_evaluation · selected_full_text_sections
 
+## HPC
+
+- 2024 DSN · [Protecting Confidential Virtual Machines from Hardware Performance Counter Side Channels](https://doi.org/10.1109/DSN58291.2024.00031) · countermeasure · selected_full_text_sections
+
 ## HPKE
 
 - 2025 USENIX · [OwlC: Compiling Security Protocols to Verified, Secure, High-Performance Libraries](https://www.usenix.org/conference/usenixsecurity25/presentation/singh) · verified implementation and compilation · abstract_and_bibliographic_metadata
@@ -1289,6 +1328,7 @@
 - 2022 TCHES · [Curse of Re-encryption: A Generic Power/EM Analysis on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2022.i1.296-322) · attack · abstract_and_bibliographic_metadata
 - 2022 TCHES · [Don’t Reject This: Key-Recovery Timing Attacks Due to Rejection-Sampling in HQC and BIKE](https://doi.org/10.46586/tches.v2022.i3.223-263) · attack · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Cache-Timing Attack Against HQC](https://doi.org/10.46586/tches.v2023.i3.136-163) · attack · abstract_and_bibliographic_metadata
+- 2024 IACR ePrint · [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://eprint.iacr.org/2024/1715) · attack · abstract_and_bibliographic_metadata
 - 2024 TCHES · [Single trace HQC shared key recovery with SASCA](https://doi.org/10.46586/tches.v2024.i2.64-87) · attack · abstract_and_bibliographic_metadata
 - 2025 PQCrypto · [Et tu, Brute? Side-Channel Assisted Chosen Ciphertext Attacks Using Valid Ciphertexts on HQC KEM](https://doi.org/10.1007/978-3-031-86602-9_11) · attack · abstract_and_bibliographic_metadata
 - 2025 TCHES · [Multi-Value Plaintext-Checking and Full-Decryption Oracle-Based Attacks on HQC from Offline Templates](https://doi.org/10.46586/tches.v2025.i4.254-289) · attack · abstract_and_bibliographic_metadata
@@ -1309,6 +1349,11 @@
 ## Hypercube
 
 - 2026 IACR ePrint · [HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without Masking](https://eprint.iacr.org/2026/081) · countermeasure_protocol · abstract_and_bibliographic_metadata
+
+## hyperparameter search
+
+- 2024 SAC · [Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Deep Learning-Based Side-Channel Analysis](https://doi.org/10.1007/978-3-031-82841-6_12) · hyperparameter optimization · abstract_and_bibliographic_metadata
+- 2024 IACR ePrint · [Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Side-Channel Analysis](https://eprint.iacr.org/2024/170) · hyperparameter optimization · abstract_and_bibliographic_metadata
 
 ## hypervisor
 
@@ -1358,6 +1403,10 @@
 ## instruction extraction
 
 - 2024 SP · [On (the Lack of) Code Confidentiality in Trusted Execution Environments](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · code_confidentiality_side_channel · abstract_and_bibliographic_metadata
+
+## instruction noise
+
+- 2024 DSN · [Protecting Confidential Virtual Machines from Hardware Performance Counter Side Channels](https://doi.org/10.1109/DSN58291.2024.00031) · countermeasure · selected_full_text_sections
 
 ## instruction retirement
 
@@ -1525,6 +1574,7 @@
 - 2023 ASID · [Evaluating Side-Channel Attack Vulnerabilities in Post-Quantum CRYSTALS-Kyber Hardware Based on Simple Power Analysis](https://doi.org/10.1109/asid60355.2023.10426450) · hardware_side_channel_evaluation · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Find the Bad Apples: An efficient method for perfect key recovery under imperfect SCA oracles – A case study of Kyber](https://doi.org/10.46586/tches.v2023.i1.89-112) · attack · abstract_and_bibliographic_metadata
 - 2023 TCHES · [High-order Polynomial Comparison and Masking Lattice-based Encryption](https://doi.org/10.46586/tches.v2023.i1.153-192) · countermeasure · abstract_and_bibliographic_metadata
+- 2023 ICCAD · [Invited Paper: Machine Learning Based Blind Side-Channel Attacks on PQC-Based KEMs - A Case Study of Kyber KEM](https://doi.org/10.1109/iccad57390.2023.10323721) · attack · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Multiple-Valued Plaintext-Checking Side-Channel Attacks on Post-Quantum KEMs](https://doi.org/10.46586/tches.v2023.i3.473-503) · attack · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Pushing the Limits of Generic Side-Channel Attacks on LWE-based KEMs - Parallel PC Oracle Attacks on Kyber KEM and Beyond](https://doi.org/10.46586/tches.v2023.i2.418-446) · attack · abstract_and_bibliographic_metadata
 - 2023 ACNS Workshops · [Secret Key Recovery Attack on Masked and Shuffled Implementations of CRYSTALS-Kyber and Saber](https://doi.org/10.1007/978-3-031-41181-6_9) · attack · abstract_and_bibliographic_metadata
@@ -1538,6 +1588,7 @@
 - 2024 CRYPTO · [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) · formal_pqc_security_and_constant_time · selected_full_text_sections
 - 2024 USENIX · [GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers](https://www.usenix.org/conference/usenixsecurity24/presentation/chen-boru) · attack · selected_full_text_sections
 - 2024 TCHES · [Hints from Hertz: Dynamic Frequency Scaling Side-Channel Analysis of Number Theoretic Transform in Lattice-Based KEMs](https://doi.org/10.46586/tches.v2024.i3.200-223) · attack · abstract_and_bibliographic_metadata
+- 2024 IACR ePrint · [Machine Learning based Blind Side-Channel Attacks on PQC-based KEMs - A Case Study of Kyber KEM](https://eprint.iacr.org/2024/169) · attack · abstract_and_bibliographic_metadata
 - 2024 TCHES · [SPA-GPT: General Pulse Tailor for Simple Power Analysis Based on Reinforcement Learning](https://doi.org/10.46586/tches.v2024.i4.40-83) · method · abstract_and_bibliographic_metadata
 - 2024 Design & Test · [Securing CRYSTALS-Kyber in FPGA Using Duplication and Clock Randomization](https://doi.org/10.1109/mdat.2023.3298805) · countermeasure · abstract_and_bibliographic_metadata
 - 2024 ACM TECS · [Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication](https://doi.org/10.1145/3569420) · polynomial_multiplication_side_channel · selected_full_text_sections
@@ -1998,13 +2049,25 @@
 
 - 2024 SP · [Sticky Tags: Efficient and Deterministic Spatial Memory Error Mitigation using Persistent Memory Tags](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · side_channel_analysis_and_memory_safety_defense · abstract_and_bibliographic_metadata
 
+## multi-bit labels
+
+- 2024 CiC · [Leakage Model-flexible Deep Learning-based Side-channel Analysis](https://doi.org/10.62056/ay4c3txol7) · leakage modeling · abstract_and_bibliographic_metadata
+
 ## multi-enclave
 
 - 2024 SP · [Distributed & Scalable Oblivious Sorting and Shuffling](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
 
+## multi-output regression
+
+- 2024 COSADE · [The Need for MORE: Unsupervised Side-Channel Analysis with Single Network Training and Multi-output Regression](https://doi.org/10.1007/978-3-031-57543-3_7) · attack methodology · abstract_and_bibliographic_metadata
+
 ## multi-tab
 
 - 2023 SP · [Robust Multi-tab Website Fingerprinting Attacks in the Wild](https://doi.org/10.1109/sp46215.2023.10179464) · traffic_side_channel · abstract_and_bibliographic_metadata
+
+## multi-task learning
+
+- 2023 IACR ePrint · [Lightweight but Not Easy: Side-channel Analysis of the Ascon Authenticated Cipher on a 32-bit Microcontroller](https://eprint.iacr.org/2023/1598) · attack · abstract_and_bibliographic_metadata
 
 ## multicore isolation
 
@@ -2044,6 +2107,10 @@
 ## non-interference
 
 - 2025 SP · [SCAD: Towards a Universal and Automated Network Side-Channel Vulnerability Detection](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-24) · automated_side_channel_detection · selected_full_text_sections
+
+## non-profiling SCA
+
+- 2024 COSADE · [The Need for MORE: Unsupervised Side-Channel Analysis with Single Network Training and Multi-output Regression](https://doi.org/10.1007/978-3-031-57543-3_7) · attack methodology · abstract_and_bibliographic_metadata
 
 ## noninterference
 
@@ -2131,8 +2198,13 @@
 
 - 2026 USENIX · [Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors](https://www.usenix.org/conference/usenixsecurity26/presentation/murakami) · access_pattern_countermeasure · abstract_and_bibliographic_metadata
 
+## occlusion
+
+- 2024 INDOCRYPT · [OccPoIs: Points of Interest Based on Neural Network’s Key Recovery in Side-Channel Analysis Through Occlusion](https://doi.org/10.1007/978-3-031-80311-6_1) · feature selection · abstract_and_bibliographic_metadata
+
 ## offline templates
 
+- 2024 IACR ePrint · [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://eprint.iacr.org/2024/1715) · attack · abstract_and_bibliographic_metadata
 - 2025 TCHES · [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://doi.org/10.46586/tches.v2025.i1.251-274) · attack · abstract_and_bibliographic_metadata
 
 ## OIS
@@ -2191,6 +2263,10 @@
 
 - 2025 SP · [Towards ML-KEM & ML-DSA on OpenTitan](https://doi.org/10.1109/SP61157.2025.00220) · implementation_security_design · selected_full_text_sections
 
+## overfitting
+
+- 2024 JCEN · [Regularizers to the rescue: fighting overfitting in deep learning-based side-channel analysis](https://doi.org/10.1007/s13389-024-00361-5) · evaluation methodology · abstract_and_bibliographic_metadata
+
 ## Owl
 
 - 2025 USENIX · [OwlC: Compiling Security Protocols to Verified, Secure, High-Performance Libraries](https://www.usenix.org/conference/usenixsecurity25/presentation/singh) · verified implementation and compilation · abstract_and_bibliographic_metadata
@@ -2224,6 +2300,7 @@
 - 2021 ASIACRYPT · [A Systematic Approach and Analysis of Key Mismatch Attacks on Lattice-Based NIST Candidate KEMs](https://doi.org/10.1007/978-3-030-92068-5_4) · method · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Find the Bad Apples: An efficient method for perfect key recovery under imperfect SCA oracles – A case study of Kyber](https://doi.org/10.46586/tches.v2023.i1.89-112) · attack · abstract_and_bibliographic_metadata
 - 2023 TCHES · [Pushing the Limits of Generic Side-Channel Attacks on LWE-based KEMs - Parallel PC Oracle Attacks on Kyber KEM and Beyond](https://doi.org/10.46586/tches.v2023.i2.418-446) · attack · abstract_and_bibliographic_metadata
+- 2024 IACR ePrint · [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://eprint.iacr.org/2024/1715) · attack · abstract_and_bibliographic_metadata
 - 2025 TCHES · [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://doi.org/10.46586/tches.v2025.i1.251-274) · attack · abstract_and_bibliographic_metadata
 
 ## PDM microphones
@@ -2244,6 +2321,7 @@
 
 ## physical side channels
 
+- 2023 ACM Computing Surveys · [SoK: Deep Learning-based Physical Side-channel Analysis](https://doi.org/10.1145/3569577) · systematization · abstract_and_bibliographic_metadata
 - 2026 USENIX · [SoK: Deep Learning-based Physical Side-channel Analysis](https://www.usenix.org/conference/usenixsecurity26/presentation/karayalcin) · systematization · abstract_and_bibliographic_metadata
 
 ## physical-layer fingerprints
@@ -2262,6 +2340,16 @@
 ## Pitchfork
 
 - 2020 PLDI · [Constant-time foundations for the new spectre era](https://doi.org/10.1145/3385412.3385970) · formal_model_and_analysis · abstract_and_bibliographic_metadata
+
+## plaintext labels
+
+- 2023 IACR ePrint · [An End-to-end Plaintext-based Side-channel Collision Attack without Trace Segmentation](https://eprint.iacr.org/2023/1109) · attack · abstract_and_bibliographic_metadata
+- 2024 CiC · [Plaintext-based Side-channel Collision Attack](https://doi.org/10.62056/a36cy7qiu) · attack · abstract_and_bibliographic_metadata
+
+## pointwise multiplication
+
+- 2023 ICCAD · [Invited Paper: Machine Learning Based Blind Side-Channel Attacks on PQC-Based KEMs - A Case Study of Kyber KEM](https://doi.org/10.1109/iccad57390.2023.10323721) · attack · abstract_and_bibliographic_metadata
+- 2024 IACR ePrint · [Machine Learning based Blind Side-Channel Attacks on PQC-based KEMs - A Case Study of Kyber KEM](https://eprint.iacr.org/2024/169) · attack · abstract_and_bibliographic_metadata
 
 ## Poly1305
 
@@ -2362,6 +2450,7 @@
 ## profiling
 
 - 2023 ETS · [A Side-Channel Attack on a Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1109/ets56758.2023.10174000) · hardware_side_channel_attack · selected_full_text_sections
+- 2024 CiC · [Leakage Model-flexible Deep Learning-based Side-channel Analysis](https://doi.org/10.62056/ay4c3txol7) · leakage modeling · abstract_and_bibliographic_metadata
 
 ## public-key compression
 
@@ -2471,6 +2560,10 @@
 ## Register Hiding
 
 - 2026 SP · [Defeating Transient Execution Attacks by Limiting Secret Reachability Through Register Hiding and ShadowCFI](https://doi.org/10.1109/sp63933.2026.00015) · microarchitectural_countermeasure · abstract_and_bibliographic_metadata
+
+## regularization
+
+- 2024 JCEN · [Regularizers to the rescue: fighting overfitting in deep learning-based side-channel analysis](https://doi.org/10.1007/s13389-024-00361-5) · evaluation methodology · abstract_and_bibliographic_metadata
 
 ## reinforcement learning
 
@@ -2685,6 +2778,7 @@
 ## SEV
 
 - 2024 SP · [On (the Lack of) Code Confidentiality in Trusted Execution Environments](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) · code_confidentiality_side_channel · abstract_and_bibliographic_metadata
+- 2024 DSN · [Protecting Confidential Virtual Machines from Hardware Performance Counter Side Channels](https://doi.org/10.1109/DSN58291.2024.00031) · countermeasure · selected_full_text_sections
 
 ## SEV-SNP
 
@@ -2969,6 +3063,7 @@
 ## template attacks
 
 - 2020 TCHES · [Single-Trace Attacks on Keccak](https://doi.org/10.46586/tches.v2020.i3.243-268) · attack · abstract_and_bibliographic_metadata
+- 2024 INDOCRYPT · [OccPoIs: Points of Interest Based on Neural Network’s Key Recovery in Side-Channel Analysis Through Occlusion](https://doi.org/10.1007/978-3-031-80311-6_1) · feature selection · abstract_and_bibliographic_metadata
 
 ## templates
 
@@ -2981,6 +3076,10 @@
 ## Thread Director
 
 - 2025 SP · [Scheduled Disclosure: Turning Power Into Timing Without Frequency Scaling](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-254) · attack · selected_full_text_sections
+
+## threat models
+
+- 2023 ACM Computing Surveys · [SoK: Deep Learning-based Physical Side-channel Analysis](https://doi.org/10.1145/3569577) · systematization · abstract_and_bibliographic_metadata
 
 ## time slicing
 

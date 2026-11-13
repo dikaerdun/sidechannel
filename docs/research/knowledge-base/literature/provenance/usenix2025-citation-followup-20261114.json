@@ -1,0 +1,331 @@
+{
+  "updated_on": "2026-11-14",
+  "batch": "usenix2025-citation-followup",
+  "sources": [
+    {
+      "source_id": "us25f-aegis-crossref",
+      "url": "https://api.crossref.org/works/10.1109%2FDSN58291.2024.00031",
+      "response_url": "https://api.crossref.org/works/10.1109%2FDSN58291.2024.00031",
+      "status": 429,
+      "retrieved_at": "2026-11-13T18:02:05.491098+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "Access failure/status only, not scholarly content"
+    },
+    {
+      "source_id": "us25f-aegis-paper",
+      "url": "https://dsn2024uq.github.io/Proceedings/pdfs/DSN2024-6rvE3SSpzFYmysif75Dkid/410500a195/410500a195.pdf",
+      "response_url": "https://dsn2024uq.github.io/Proceedings/pdfs/DSN2024-6rvE3SSpzFYmysif75Dkid/410500a195/410500a195.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:40.953318+00:00",
+      "sha256": "e987da6d06105dc7c77179961435bd645a267e5f56e4dc32b9d8b171d7fd5817",
+      "bytes": 512010,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "us25f-ascon-eprint",
+      "url": "https://eprint.iacr.org/2023/1598",
+      "response_url": "https://eprint.iacr.org/2023/1598",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:39.662775+00:00",
+      "sha256": "8b7b2fcdf18fd5636d069b925fed895561eb7c96b8756542d130db8f511f4fcc",
+      "bytes": 17669,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "us25f-collision-crossref",
+      "url": "https://api.crossref.org/works/10.62056%2Fa36cy7qiu",
+      "response_url": "https://api.crossref.org/works/10.62056%2Fa36cy7qiu",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:39.382713+00:00",
+      "sha256": "c0d12b9815ca4a118e5089554d1572959406c2f2a5c57987091a70cb4565834a",
+      "bytes": 17738,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "us25f-collision-eprint",
+      "url": "https://eprint.iacr.org/2023/1109",
+      "response_url": "https://eprint.iacr.org/2023/1109",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:02:12.481133+00:00",
+      "sha256": "1502c350612dc810cc1dc99b1b94750ce35d440cb91d2b9bc5c902881636cbbe",
+      "bytes": 17392,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "us25f-collision-page",
+      "url": "https://doi.org/10.62056/a36cy7qiu",
+      "response_url": "https://cic.iacr.org/p/1/3/20",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:41.178303+00:00",
+      "sha256": "5d437c49be7b31eacede73f980a38a34044dde6174312ad3e2eb539623341825",
+      "bytes": 75336,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "us25f-csur-crossref",
+      "url": "https://api.crossref.org/works/10.1145%2F3569577",
+      "response_url": "https://api.crossref.org/works/10.1145%2F3569577",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:38.668204+00:00",
+      "sha256": "f9865bd8801a54684dd5d7f6680f390f5b2ebbc9054b3ff5633a1849cf59b3ee",
+      "bytes": 40129,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "us25f-ensemble-crossref",
+      "url": "https://api.crossref.org/works/10.1007%2F978-3-031-61486-6_9",
+      "response_url": "https://api.crossref.org/works/10.1007%2F978-3-031-61486-6_9",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:02:05.536231+00:00",
+      "sha256": "9022e5e31d5cf948f37bee5a2b11e92e4ef30432ee5d530f22ad17189f111fd1",
+      "bytes": 18410,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "us25f-ensemble-lookup",
+      "url": "https://api.crossref.org/works?query.title=One+for+all%2C+all+for+ascon%3A+Ensemble-based+deep+learning+side-channel+analysis&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=One+for+all%2C+all+for+ascon%3A+Ensemble-based+deep+learning+side-channel+analysis&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:43.643563+00:00",
+      "sha256": "e0fc619a5b3fd53f5b057923a4d76ca440b604cd9627a0dac9a8bec39a453c61",
+      "bytes": 40821,
+      "content_type": "application/json",
+      "evidence_use": "Identity discovery only; result list is not abstract review"
+    },
+    {
+      "source_id": "us25f-ensemble-page",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-61486-6_9",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-61486-6_9",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:02:09.916355+00:00",
+      "sha256": "a3785749b2d4d3b74292fd8d29f7b3ca074427a187143c112f9a2403cda93160",
+      "bytes": 327320,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "us25f-kyberblind-crossref",
+      "url": "https://api.crossref.org/works/10.1109%2FICCAD57390.2023.10323721",
+      "response_url": "https://api.crossref.org/works/10.1109%2FICCAD57390.2023.10323721",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:38.348456+00:00",
+      "sha256": "5e07bce64765e4d95e9024d544738d20a75e7e000bccbaecf70878e0ec95fe95",
+      "bytes": 7525,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "us25f-kyberblind-eprint",
+      "url": "https://eprint.iacr.org/2024/169",
+      "response_url": "https://eprint.iacr.org/2024/169",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:02:11.334093+00:00",
+      "sha256": "7dce93ccc16c75830601085b1addda8b4d65a1861789b2106d52f16bfd0117c1",
+      "bytes": 17694,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "us25f-kyberblind-paper",
+      "url": "https://eprint.iacr.org/2024/169.pdf",
+      "response_url": "https://eprint.iacr.org/2024/169.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T18:02:11.223308+00:00",
+      "sha256": "5adf3bb997acb2258d5bb50b49de563238100f1afb251b6510bae1df41eccda7",
+      "bytes": 5580,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "Access failure/status only, not scholarly content"
+    },
+    {
+      "source_id": "us25f-more-crossref",
+      "url": "https://api.crossref.org/works/10.1007%2F978-3-031-57543-3_7",
+      "response_url": "https://api.crossref.org/works/10.1007%2F978-3-031-57543-3_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:02:05.508454+00:00",
+      "sha256": "59dbd438f0e1786868e5ca41fef1246abc27c38ed593bfce8b8afbdd1a1c6d38",
+      "bytes": 16918,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "us25f-more-lookup",
+      "url": "https://api.crossref.org/works?query.title=The+Need+for+MORE%3A+Unsupervised+Side-Channel+Analysis+with+Single+Network+Training+and+Multi-output+Regression&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=The+Need+for+MORE%3A+Unsupervised+Side-Channel+Analysis+with+Single+Network+Training+and+Multi-output+Regression&rows=3",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:43.209010+00:00",
+      "sha256": "e75f4ac27da0fc0f99a4186a4330ce008633aa7d3d585162b427e8fb49dc1a1b",
+      "bytes": 35841,
+      "content_type": "application/json",
+      "evidence_use": "Identity discovery only; result list is not abstract review"
+    },
+    {
+      "source_id": "us25f-more-page",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-57543-3_7",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-57543-3_7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:02:09.171774+00:00",
+      "sha256": "32e42d753636a84ee40c6bb65321be23066c44b5ad1697902768336465110138",
+      "bytes": 318753,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "us25f-multibit-crossref",
+      "url": "https://api.crossref.org/works/10.62056%2Fay4c3txol7",
+      "response_url": "https://api.crossref.org/works/10.62056%2Fay4c3txol7",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:38.287498+00:00",
+      "sha256": "4d113a5707605e17758691782cb2170c69b5edc1869bb4c63a1e2fa71673235b",
+      "bytes": 22673,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "us25f-multibit-page",
+      "url": "https://cic.iacr.org/p/1/3/41",
+      "response_url": "https://cic.iacr.org/p/1/3/41",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:40.543864+00:00",
+      "sha256": "8454475264c21812849014e737b0da581dd806b559a7f4152374dca19925287b",
+      "bytes": 97760,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "us25f-occpois-crossref",
+      "url": "https://api.crossref.org/works/10.1007%2F978-3-031-80311-6_1",
+      "response_url": "https://api.crossref.org/works/10.1007%2F978-3-031-80311-6_1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:02:06.802814+00:00",
+      "sha256": "2b9fa4f99ae07523eaf77ac0240573ab6fc3ab66fec1972fe3b1d112af3b1847",
+      "bytes": 20031,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "us25f-occpois-lookup",
+      "url": "https://api.crossref.org/works?query.title=OccPoIs%3A+Points+of+Interest+Based+on+Neural+Network%E2%80%99s+Key+Recovery+in+Side-Channel+Analysis+Through+Occlusion&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=OccPoIs%3A+Points+of+Interest+Based+on+Neural+Network%E2%80%99s+Key+Recovery+in+Side-Channel+Analysis+Through+Occlusion&rows=3",
+      "status": 429,
+      "retrieved_at": "2026-11-13T17:50:43.371150+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "Access failure/status only, not scholarly content"
+    },
+    {
+      "source_id": "us25f-occpois-page",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-80311-6_1",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-80311-6_1",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:02:12.608973+00:00",
+      "sha256": "260f8f6e5aad42ddfee31f8158e6637d4fcf84893a116aeb3aaed4e39ce2d4ed",
+      "bytes": 346265,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "us25f-otpca-eprint",
+      "url": "https://eprint.iacr.org/2024/1715",
+      "response_url": "https://eprint.iacr.org/2024/1715",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:39.454866+00:00",
+      "sha256": "e1eacfed8b8a299bd9fefa18d9d56a89b0d82b03147c769c6d1f8be20935d3b9",
+      "bytes": 16129,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "us25f-otpca-paper",
+      "url": "https://eprint.iacr.org/2024/1715.pdf",
+      "response_url": "https://eprint.iacr.org/2024/1715.pdf",
+      "status": 403,
+      "retrieved_at": "2026-11-13T17:50:41.128792+00:00",
+      "sha256": "c397cc796bff708808ac879d693a4d887543ca773b5b329fae1eaf6e0f1816e1",
+      "bytes": 5583,
+      "content_type": "text/html; charset=UTF-8",
+      "evidence_use": "Access failure/status only, not scholarly content"
+    },
+    {
+      "source_id": "us25f-regularizers-crossref",
+      "url": "https://api.crossref.org/works/10.1007%2Fs13389-024-00361-5",
+      "response_url": "https://api.crossref.org/works/10.1007%2Fs13389-024-00361-5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:39.455275+00:00",
+      "sha256": "aca97a1dbba4d03989d1b5e93d7820202c5fa891aebdced04311ebcb229b3e36",
+      "bytes": 22156,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "us25f-regularizers-page",
+      "url": "https://link.springer.com/article/10.1007/s13389-024-00361-5",
+      "response_url": "https://link.springer.com/article/10.1007/s13389-024-00361-5",
+      "status": 200,
+      "retrieved_at": "2026-11-13T17:50:42.286697+00:00",
+      "sha256": "d922b274a45b6e10793efbfa5e510c3dcb72242830173d5190dcbca0373727f7",
+      "bytes": 426769,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "us25f-wisely-crossref",
+      "url": "https://api.crossref.org/works/10.1007%2F978-3-031-82841-6_12",
+      "response_url": "https://api.crossref.org/works/10.1007%2F978-3-031-82841-6_12",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:02:06.925273+00:00",
+      "sha256": "4166c7ecb623240398d1551e9e79f9626388b1f8aa4bac849bd6eaa619481ccf",
+      "bytes": 16511,
+      "content_type": "application/json"
+    },
+    {
+      "source_id": "us25f-wisely-eprint",
+      "url": "https://eprint.iacr.org/2024/170",
+      "response_url": "https://eprint.iacr.org/2024/170",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:02:12.253859+00:00",
+      "sha256": "4cf1ea631640d2fb052f591d30754177722f47072ca4d7ad7e14d0f212c736d1",
+      "bytes": 16119,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "source_id": "us25f-wisely-lookup",
+      "url": "https://api.crossref.org/works?query.title=Train+Wisely%3A+Multifidelity+Bayesian+Optimization+Hyperparameter+Tuning+in+Deep+Learning-Based+Side-Channel+Analysis&rows=3",
+      "response_url": "https://api.crossref.org/works?query.title=Train+Wisely%3A+Multifidelity+Bayesian+Optimization+Hyperparameter+Tuning+in+Deep+Learning-Based+Side-Channel+Analysis&rows=3",
+      "status": 429,
+      "retrieved_at": "2026-11-13T17:50:42.271177+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "content_type": "",
+      "evidence_use": "Access failure/status only, not scholarly content"
+    },
+    {
+      "source_id": "us25f-wisely-page",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-82841-6_12",
+      "response_url": "https://link.springer.com/chapter/10.1007/978-3-031-82841-6_12",
+      "status": 200,
+      "retrieved_at": "2026-11-13T18:02:10.549785+00:00",
+      "sha256": "b720e48cecae4aaf1aeb90f2a3b794e8755647bba1f2b333ab38d2652c6c9b3b",
+      "bytes": 323483,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "counts": {
+    "new_catalog_records": 15,
+    "new_included_cards": 15,
+    "pqc_cards": 3,
+    "general_sca_cards": 12,
+    "resolved_discoveries": 12,
+    "new_pending_discoveries": 19,
+    "new_citation_edges": 15,
+    "new_version_edges": 4,
+    "verified_new_version_edges": 3,
+    "inferred_new_version_edges": 1,
+    "new_reference_positions": 27
+  },
+  "evidence_scope": {
+    "aegis": "Official DSN PDF pages 1-3,9-10,12; full bibliography not read",
+    "more": "Publisher abstract and all 27 reference entries; body not read",
+    "kyber": "Formal Crossref identity plus explicitly linked author minor-revision abstract; no formal full-text comparison",
+    "other_cards": "Primary or publisher-deposited abstracts and metadata"
+  },
+  "gaps": [
+    "No experiments or code/data execution",
+    "Kyber and OT-PCA ePrint PDFs inaccessible",
+    "Aegis Crossref 429; metadata taken from official PDF",
+    "Collision preprint relationship inferred only, timing figures differ",
+    "CSUR 2022 citation year versus 2023 metadata unresolved",
+    "Aegis DP composition and implementation mapping not independently verified",
+    "Nineteen new references remain pending; no citation closure"
+  ]
+}

@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 410 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 425 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Differential Power Analysis
 
@@ -1274,6 +1274,18 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：official USENIX session abstract。
 - 代码/数据核查：not checked；引用追踪：forward citation observed; exhaustive backward/forward closure pending。
 
+## SoK: Deep Learning-based Physical Side-channel Analysis
+
+- 来源：[ACM Computing Surveys 2023](https://doi.org/10.1145/3569577)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Stjepan Picek; Guilherme Perin; Luca Mariot; Lichao Wu; Lejla Batina
+- 对象：deep learning, physical side channels, threat models；类型：systematization。
+- 核心想法：按分析阶段整理深度学习物理侧信道方法、威胁模型、弱点与开放问题。
+- 作者报告：作者给出各阶段方法映射及评价建议。
+- 限制与下一步：仅出版商存入 Crossref 的摘要；与 USENIX 2026 同题 SoK 的作者和出版实体不同，未建立版本关系。全文建议和引用尚待读。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/works/10.1145%2F3569577。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
+
 ## Secret Key Recovery Attack on Masked and Shuffled Implementations of CRYSTALS-Kyber and Saber
 
 - 来源：[ACNS Workshops 2023](https://doi.org/10.1007/978-3-031-41181-6_9)；时间标记：within rolling five-year window by publication date。
@@ -1378,6 +1390,42 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-57537-2_26。
 - [详细阅读记录](notes/pqc-citation-followups-and-evidence-20261113.md)
 - 代码/数据核查：no author code or data executed; artifact contents not inspected；引用追踪：pending except explicitly inventoried citations。
+
+## An End-to-end Plaintext-based Side-channel Collision Attack without Trace Segmentation
+
+- 来源：[IACR ePrint 2023](https://eprint.iacr.org/2023/1109)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Lichao Wu; Sébastien Tiran; Guilherme Perin; Stjepan Picek
+- 对象：collision attacks, plaintext labels, deep learning；类型：attack。
+- 核心想法：记录不切割迹线的明文标签碰撞分析预印本。
+- 作者报告：预印本摘要报告其考虑设置中成功率 53% 至 100%，训练时间约两小时至十分钟。
+- 限制与下一步：与 CiC 2024 标题、作者及方法相近，但没有显式发表链接，只标记推定版本；正式摘要时间数字不同。成功率对象及绝对密钥恢复要求未读。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2023/1109。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
+
+## Lightweight but Not Easy: Side-channel Analysis of the Ascon Authenticated Cipher on a 32-bit Microcontroller
+
+- 来源：[IACR ePrint 2023](https://eprint.iacr.org/2023/1598)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Léo Weissbart; Stjepan Picek
+- 对象：Ascon, CPA, DLSCA, multi-task learning；类型：attack。
+- 核心想法：比较 32 位微控制器上参考与受保护 Ascon 的潜在泄漏函数和攻击效果。
+- 作者报告：摘要报告参考实现完整密钥约需 8000 条 CPA 或 1000 条 DL 迹线；保护实现 DL 用 800 条恢复部分密钥。
+- 限制与下一步：保护实现的多任务模型未能泛化到全部部分密钥，不能写成其完整密钥恢复；二阶 CPA 失败也不是普遍安全证明。版本与保护机制细节待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2023/1598。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
+
+## Invited Paper: Machine Learning Based Blind Side-Channel Attacks on PQC-Based KEMs - A Case Study of Kyber KEM
+
+- 来源：[ICCAD 2023](https://doi.org/10.1109/iccad57390.2023.10323721)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Prasanna Ravi; Dirmanto Jap; Shivam Bhasin; Anupam Chattopadhyay
+- 对象：Kyber, blind SCA, pointwise multiplication；类型：attack。
+- 核心想法：利用解密逐点乘法泄漏，在未知密文的条件下分析 Kyber 秘密。
+- 作者报告：作者关联的 ICCAD 小修订摘要报告 Cortex-M4 pqm4 参考实现上，使用足够准确的 HW 分类器，数百至数千条迹线恢复完整密钥。
+- 限制与下一步：正式 IEEE 摘要未直接读取；科学内容来自明确关联的作者小修订摘要。分类器准确性、建立成本及完整恢复流程仍待正文，不是无剖析成本或所有 ML-KEM 实现的保证。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/works/10.1109%2FICCAD57390.2023.10323721; https://eprint.iacr.org/2024/169。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
 
 ## A side-channel attack on a masked and shuffled software implementation of Saber
 
@@ -1910,6 +1958,30 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-54773-7_5。
 - 代码/数据核查：author repository README retrieved: https://github.com/crocs-muni/Attack_Kyber_ACNS2024 ; README declares source, example traces and simulations using mkm4; completeness not checked and nothing executed；引用追踪：pending。
 
+## One for All, All for Ascon: Ensemble-Based Deep Learning Side-Channel Analysis
+
+- 来源：[ACNS Workshops 2024](https://doi.org/10.1007/978-3-031-61486-6_9)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Azade Rezaeezade; Abraham Basurto-Becerra; Léo Weissbart; Guilherme Perin
+- 对象：Ascon, ensembles, DLSCA；类型：attack。
+- 核心想法：将五个 MLP 或 CNN 组成集成，研究两种软件 Ascon 实现。
+- 作者报告：作者摘要报告受保护实现少于 3000 条、未保护实现少于 100 条迹线识别秘密密钥。
+- 限制与下一步：摘要层级的密钥恢复主张，不能与 2023 预印本的部分密钥结果混并；保护细节、训练预算、完整恢复判据及最终 Ascon 标准对应待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-61486-6_9; https://api.crossref.org/works/10.1007%2F978-3-031-61486-6_9。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
+
+## The Need for MORE: Unsupervised Side-Channel Analysis with Single Network Training and Multi-output Regression
+
+- 来源：[COSADE 2024](https://doi.org/10.1007/978-3-031-57543-3_7)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Ioana Savu; Marina Krček; Guilherme Perin; Lichao Wu; Stjepan Picek
+- 对象：non-profiling SCA, multi-output regression, ensembles；类型：attack methodology。
+- 核心想法：改进 MOR 的损失、区分器与验证集用法，并结合集成和数据增强。
+- 作者报告：摘要报告 MORE 改善非剖析攻击表现及候选区分可靠性。
+- 限制与下一步：非剖析不等于未知明文/密文的盲分析；验证集如何构造、是否使用评估真值及总选择成本待正文。已初筛全部 27 条出版商参考文献，尚未递归闭合。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-57543-3_7; https://api.crossref.org/works/10.1007%2F978-3-031-57543-3_7。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：All 27 publisher entries screened: 3 linked, 19 pending discoveries, 5 provisional background. No recursive or forward closure.。
+
 ## Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt
 
 - 来源：[CRYPTO 2024](https://doi.org/10.1007/978-3-031-68379-4_12)；时间标记：within window; formal CRYPTO 2024 publication。
@@ -1922,6 +1994,43 @@
 - 已读章节：Publisher abstract; May 29 author PDF p.1 abstract, pp.2–3 contributions/limitations, pp.21–22 section 7 and footnote 26; selected bibliography [8] on p.23, [36–39] on p.24 and [55,57,58] on p.25; ePrint revision metadata. Not full proof/artifact audit.
 - [详细阅读记录](notes/kyber-verification-episode-v-20261113.md)
 - 代码/数据核查：not checked；引用追踪：in_progress。
+
+## Leakage Model-flexible Deep Learning-based Side-channel Analysis
+
+- 来源：[CiC 2024](https://doi.org/10.62056/ay4c3txol7)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Lichao Wu; Azade Rezaeezade; Amir Ali-pour; Guilherme Perin; Stjepan Picek
+- 对象：multi-bit labels, DLSCA, profiling；类型：leakage modeling。
+- 核心想法：将标签拆成逐比特分类，尝试适配多种泄漏函数，并联合学习多个子密钥字节。
+- 作者报告：作者报告在四个数据集恢复全部 16 个密钥字节，常规泄漏标签在这些设置下失败。
+- 限制与下一步：需要剖析测量和标签；分别分类不证明比特条件独立；只读摘要，数据集配置、选择预算及完整成功率仍待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/works/10.62056%2Fay4c3txol7; https://cic.iacr.org/p/1/3/41。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
+
+## Plaintext-based Side-channel Collision Attack
+
+- 来源：[CiC 2024](https://doi.org/10.62056/a36cy7qiu)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Lichao Wu; Sébastien Tiran; Guilherme Perin; Stjepan Picek
+- 对象：collision attacks, plaintext labels, deep learning；类型：attack。
+- 核心想法：用已知明文标签学习泄漏表示，以比较表示取代预先切割迹线来推断密钥差。
+- 作者报告：正式摘要报告同时取得密钥差并通过纠错改善结果；所述训练时间例子由约三小时降至五分钟。
+- 限制与下一步：密钥差不是自动恢复绝对完整密钥；候选预印本写约两小时到十分钟，版本关联仅推定，差异原因未核。模型训练预算及所需已知输入仍待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/works/10.62056%2Fa36cy7qiu; https://doi.org/10.62056/a36cy7qiu; https://eprint.iacr.org/2023/1109。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
+
+## Protecting Confidential Virtual Machines from Hardware Performance Counter Side Channels
+
+- 来源：[DSN 2024](https://doi.org/10.1109/DSN58291.2024.00031)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Xiaoxuan Lou; Kangjie Chen; Guowen Xu; Han Qiu; Shangwei Guo; Tianwei Zhang
+- 对象：HPC, SEV, differential privacy, instruction noise；类型：countermeasure。
+- 核心想法：在 SEV VM 内剖析性能事件、搜索指令噪声，并用差分隐私机制指导扰动。
+- 作者报告：作者在网站、DNN 模型与按键任务报告准确率由约 90% 降至约 2%；正文所列网站/推断时间开销为 3.18%–4.95%，另有离线剖析成本。
+- 限制与下一步：主要威胁模型为被动 HPC 观察及诚实但好奇的主机；细粒度密码密钥窃取防护被列为未来工作。逐时间片保证、完整序列预算及有符号噪声到指令扰动的实现映射需进一步审计；重复观察的固定秘密相关噪声建议未经本库验证。
+- 阅读层级：selected_full_text_sections；来源：https://dsn2024uq.github.io/Proceedings/pdfs/DSN2024-6rvE3SSpzFYmysif75Dkid/410500a195/410500a195.pdf。
+- 已读章节：Official DSN PDF pages 1-3, 9-10 and 12: abstract, introduction, threat model, DP mechanisms and implementation, profiling costs, discussion and conclusion. Remaining sections, proofs and bibliography not fully reviewed.
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
 
 ## Securing CRYSTALS-Kyber in FPGA Using Duplication and Clock Randomization
 
@@ -1959,6 +2068,30 @@
 - 已读章节：PDF page 1: abstract and introduction, including RSA implementation scope
 - 代码/数据核查：not checked；引用追踪：forward edge observed; backward and exhaustive forward search pending。
 
+## Machine Learning based Blind Side-Channel Attacks on PQC-based KEMs - A Case Study of Kyber KEM
+
+- 来源：[IACR ePrint 2024](https://eprint.iacr.org/2024/169)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Prasanna Ravi; Dirmanto Jap; Shivam Bhasin; Anupam Chattopadhyay
+- 对象：Kyber, blind SCA, pointwise multiplication；类型：attack。
+- 核心想法：保存 ICCAD 2023 盲分析的作者小修订版本及其实际能力前提。
+- 作者报告：摘要报告在合适 HW 分类器条件下，通过参考 Kyber 的逐点乘法泄漏实现完整密钥恢复。
+- 限制与下一步：与正式记录是版本关系，不是独立复现；PDF 403，分类器训练与总测量成本未核。作者 DOI 链接缺少文章后缀，不能直接当作完整 DOI。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2024/169。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
+
+## OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates
+
+- 来源：[IACR ePrint 2024](https://eprint.iacr.org/2024/1715)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Haiyue Dong; Qian Guo
+- 对象：HQC, PC oracle, offline templates；类型：attack。
+- 核心想法：用公开 HQC 译码器离线建立软信息模板，从单个 PC oracle 输出约束多个秘密位置。
+- 作者报告：摘要报告模拟中 hqc-128 查询数降低 2.4 倍，oracle 准确率 95% 时降低 7.6 倍，并有 Cortex-M4 功耗评估。
+- 限制与下一步：oracle 调用数不等于迹线、剖析或校准成本；只读摘要，预印本 PDF 403。TEEcorrelate 实际引用此版本，不直接替换成正式 TCHES 条目。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2024/1715。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
+
 ## Single-trace side-channel attacks on MAYO exploiting leaky modular multiplication
 
 - 来源：[IACR ePrint 2024](https://eprint.iacr.org/2024/1850)；时间标记：within rolling five-year window by publication date。
@@ -1971,6 +2104,42 @@
 - [详细阅读记录](notes/pqc-citation-followups-and-evidence-20261113.md)
 - 代码/数据核查：no author code or data executed; artifact contents not inspected；引用追踪：pending except explicitly inventoried citations。
 
+## Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Side-Channel Analysis
+
+- 来源：[IACR ePrint 2024](https://eprint.iacr.org/2024/170)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Trevor Yap Hong Eng; Shivam Bhasin; Léo Weissbart
+- 对象：BOHB, DLSCA, hyperparameter search；类型：hyperparameter optimization。
+- 核心想法：保留 Train Wisely 的作者版本及其预算化搜索目标。
+- 作者报告：摘要在四个公开数据集研究 BOHB 与 ge+ntge，并报告 CTF2018 identity 模型成功。
+- 限制与下一步：作者明确写 SAC 2024；正式版标题与 Trevor 作者姓名形式不同，不是独立实验。完整搜索成本与正文差异仍待核对。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2024/170。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
+
+## OccPoIs: Points of Interest Based on Neural Network’s Key Recovery in Side-Channel Analysis Through Occlusion
+
+- 来源：[INDOCRYPT 2024](https://doi.org/10.1007/978-3-031-80311-6_1)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Trevor Yap; Stjepan Picek; Shivam Bhasin
+- 对象：DLSCA, occlusion, template attacks, first-order masking；类型：feature selection。
+- 核心想法：用 Key Guessing Occlusion 寻找支撑网络密钥推断的采样点，再用于模板分析。
+- 作者报告：作者报告在考虑的同步数据集及一阶掩码数据上取得可用点集，ASCADf 中优于所比选点方法。
+- 限制与下一步：网络依赖点不自动等于物理因果节点；摘要的 minimal 不构成全局最小或唯一性证明。掩码真值不可见不等于评估密钥真值不可见，选择预算待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-80311-6_1; https://api.crossref.org/works/10.1007%2F978-3-031-80311-6_1。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
+
+## Regularizers to the rescue: fighting overfitting in deep learning-based side-channel analysis
+
+- 来源：[JCEN 2024](https://doi.org/10.1007/s13389-024-00361-5)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Azade Rezaeezade; Lejla Batina
+- 对象：DLSCA, regularization, overfitting；类型：evaluation methodology。
+- 核心想法：比较 L1、L2、dropout 与 early stopping 在八种数据/标签/拓扑组合中的作用。
+- 作者报告：作者在其随机选定模型上报告 L1/L2 总体较有效，关注训练时间时 early stopping 较好。
+- 限制与下一步：不是任意数据、模型或固定公平预算下的普遍排名；仅摘要，超参数选择与重复统计仍待正文。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://api.crossref.org/works/10.1007%2Fs13389-024-00361-5; https://link.springer.com/article/10.1007/s13389-024-00361-5。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
+
 ## Masking the GLP Lattice-Based Signature Scheme at Any Order
 
 - 来源：[Journal of Cryptology 2024](https://doi.org/10.1007/s00145-023-09485-z)；时间标记：within frozen 2021-11-12 to 2026-11-12 window; publication/version dates retained。
@@ -1981,6 +2150,18 @@
 - 限制与下一步：在线日期为 2023-11-29，卷年为 2024；不能当成与 2018 版无关的新研究或已核验全文等价。
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/article/10.1007/s00145-023-09485-z。
 - 代码/数据核查：not checked；引用追踪：in_progress; selected references only。
+
+## Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Deep Learning-Based Side-Channel Analysis
+
+- 来源：[SAC 2024](https://doi.org/10.1007/978-3-031-82841-6_12)；时间标记：within frozen rolling window by recorded publication or author-upload date。
+- 作者：Trevor Yap; Shivam Bhasin; Léo Weissbart
+- 对象：BOHB, DLSCA, hyperparameter search；类型：hyperparameter optimization。
+- 核心想法：把多保真贝叶斯 HyperBand 与组合 GE 目标用于有预算的超参数搜索。
+- 作者报告：正式摘要在四个公开数据集比较，并报告 CTF2018 的 HW/identity 标签实验结果。
+- 限制与下一步：最低目标迹线数不能替代总训练、搜索、验证成本；搜索与最终评估隔离及预算定义待全文。SAC 2024 会议、2025 正式出版分别记录。
+- 阅读层级：abstract_and_bibliographic_metadata；来源：https://link.springer.com/chapter/10.1007/978-3-031-82841-6_12; https://api.crossref.org/works/10.1007%2F978-3-031-82841-6_12; https://eprint.iacr.org/2024/170。
+- [详细阅读记录](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)
+- 代码/数据核查：no author code/data executed; artifacts not inspected；引用追踪：pending except explicit inventories。
 
 ## Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs
 
@@ -3149,7 +3330,7 @@
 - 阅读层级：selected_full_text_sections；来源：official USENIX technical-session abstract; selected final proceedings PDF sections。
 - 已读章节：PDF pp.6-7,9-11,14-16,19-20: threat/PoI assumptions, learning setup, Kyber target/results, limitations, artifact statement and appendices A/B; all 58 references on pp.16-19 initially screened; Table 3 p11 visually checked. Not a complete proof/artifact audit.
 - [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
-- 代码/数据核查：PDF p16 links version DOI 10.5281/zenodo.15614359 and parent search 15612978; contents not inspected or executed；引用追踪：in_progress。
+- 代码/数据核查：PDF p16 links version DOI 10.5281/zenodo.15614359 and parent search 15612978; contents not inspected or executed；引用追踪：All 58 entries initially screened; now 19 linked, 26 pending discoveries, 13 provisional background. Ten original discoveries resolved this batch; recursive and forward closure incomplete.。
 
 ## DNS FLaRE: A Flush-Reload Attack on DNS Forwarders
 
@@ -3486,7 +3667,7 @@
 - 阅读层级：selected_full_text_sections；来源：official USENIX technical-session abstract; selected final proceedings PDF sections。
 - 已读章节：PDF pp.3,9-15: design summary, overhead estimate, threat/statistical model, Table 3/4, HQC cost and limitations; six selected refs 20/24/46/53/74/76 from pp.17-19; artifact appendix pp.1-3 read. PDF pp.11-12 and 14 visually checked. Other references not fully screened.
 - [详细阅读记录](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)
-- 代码/数据核查：Main PDF cites 10.5281/zenodo.15592842; artifact appendix cites 10.5281/zenodo.15699920 and describes simulation/runtime calculation; version relation and contents not inspected or executed；引用追踪：in_progress。
+- 代码/数据核查：Main PDF cites 10.5281/zenodo.15592842; artifact appendix cites 10.5281/zenodo.15699920 and describes simulation/runtime calculation; version relation and contents not inspected or executed；引用追踪：Selected six of 82 references now linked; actual OT-PCA preprint and Aegis read. Remaining 76 references not completely screened; not citation closure.。
 
 ## TLBlur: Compiler-Assisted Automated Hardening against Controlled Channels on Off-the-Shelf Intel SGX Platforms
 

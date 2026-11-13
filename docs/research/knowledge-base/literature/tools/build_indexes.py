@@ -71,8 +71,10 @@ def render_citations(root,catalogs):
       '[Falcon 引用清单](citations/falcon-down2021-reference-screen.jsonl) · [HQC RM/RS 引用清单](citations/hqc-rmrs2022-reference-screen.jsonl) · [Saber 单条选读](citations/saber-journal2023-selected-reference-screen.jsonl) · [版本与恢复目标](notes/pqc-citation-followups-and-evidence-20261113.md)','',
       'Goldilocks 的 49 条参考文献已初筛：11 条身份对应、18 条待查、20 条暂列背景。被引条目的完整摘要和前后向闭合仍待处理。',
       '[Goldilocks 引用清单](citations/goldilocks2026-reference-screen.jsonl) · [S&P 2026 证据与目录差异](notes/sp2026-scope-identity-and-frequency-bounds-20261114.md)','',
-      'USENIX 2025 的 DL-BSCA 全部 58 条及 TEEcorrelate 六条选读引用初筛：13 条目录对应、38 条待查、13 条暂列背景；TEEcorrelate 其余 76 条尚未完整筛查。',
+      'USENIX 2025 的 DL-BSCA 全部 58 条及 TEEcorrelate 六条选读引用：原 38 条发现已解析 12 条，现为 25 条目录对应、26 条待查、13 条暂列背景；TEEcorrelate 其余 76 条尚未完整筛查。',
       '[DL-BSCA 引用清单](citations/usenix2025-blind-reference-screen.jsonl) · [TEEcorrelate 六条选读](citations/usenix2025-tee-reference-screen.jsonl) · [盲分析与计数器防护证据](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)','',
+      'MORE 的 27 条出版商引用已完整初筛：3 条对应、19 条待查、5 条暂列背景；只完成列表初筛，没有递归闭合。',
+      '[MORE 引用清单](citations/more2024-reference-screen.jsonl) · [本批版本与防护范围](notes/usenix2025-citation-followup-versions-and-defense-20261114.md)','',
       '[GoFetch 的 98 条初筛](citations/gofetch-reference-screen.jsonl) · [Scheduled Disclosure 的 79 条初筛](citations/scheduled-disclosure-reference-screen.jsonl) · [OpenTitan 单条选读](citations/opentitan-selected-reference-screen.jsonl) · [Peek-a-Walk 两条选读](citations/peek-walk-selected-reference-screen.jsonl) · [四篇 Kyber 来源](provenance/kyber-four-reference-followup-20261113.json) · [发现与解析历史](citations/discoveries.jsonl) · [全部任务](citations/queue.jsonl)','',
       '| 引用论文 | 引用号 | 已核对目标 | 目标阅读状态 |','|---|---:|---|---|']
     papers={p['id']:p for p in (json.loads(x) for x in (root/'papers.jsonl').read_text().splitlines())}
@@ -204,7 +206,7 @@ def main():
             lines.append(f'| {venue} | {year} | {n if n else "待补齐"} | {toc_label} | {title_reviewed}/{n} | {reviewed}/{n} | {link} |')
     lines.extend(['','## 当前已知缺口','',
       '- S&P 2022、2023、2024、2025 与 USENIX 2025、2026 共六个单元已和另取的论文集目录逐项对应；S&P 2026 部分对应（252/254，缺两条），其余 23 个单元待独立核对。同一个 HTML 的两种导出不算独立证据，目录核对也不是独立科学审查。',
-      '- USENIX 2025 的 438 条标题及 103 篇选定摘要已读，335 篇摘要仍待复核。438 条与印刷目录逐项对应，但主席致辞 407+32=439 的总数差异未解决。DL-BSCA 的单系数 GE、真实 HW 选点与 TEEcorrelate 的模拟/成本估计及公式问题见 [证据笔记](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)；新增 38 条引用发现继续追踪。',
+      '- USENIX 2025 的 438 条标题及 103 篇选定摘要已读，335 篇摘要仍待复核。438 条与印刷目录逐项对应，但主席致辞 407+32=439 的总数差异未解决。DL-BSCA 的单系数 GE、真实 HW 选点与 TEEcorrelate 的模拟/成本估计及公式问题见 [证据笔记](notes/usenix2025-scope-blind-analysis-and-counter-bounds-20261114.md)；原 38 条引用发现已解析 12 条，其余 26 条及 MORE 新增 19 条继续追踪。',
       '- USENIX 2026 的 381 个议程节点已分为 362 篇论文和 19 条其他活动；2016 论文的回顾讨论不计作 2026 新论文。362 个标题已读、76 篇有摘要及以上判定，286 篇摘要仍待复核。五条 SDitH 及后续 CiC/HQC 的 23 条发现已解析；继续沿 Falcon/HQC RM/RS 登记 21 条新线索，仍不构成递归闭合。目录一处 L∞/L_infinity 仅为数学记号差异。',
       '- S&P 2022 全部 147 条标题已读，49 个候选/不确定项有摘要判定，其余 98 条待复核。独立印刷目录 140 条规范化题名相同、7 条改题名；146 个可用出版起始页匹配，MSR Templating 的 Crossref 页码缺失。三处作者尾部字符已按印刷目录更正，其他名字形式及录用/出版差异保留。',
       '- S&P 2026 的 254 条标题已读、74 篇有摘要及以上判定，180 篇仍待摘要复核。全部取得唯一出版 DOI；八处录用/出版题名变化保留。另取印刷目录只有 252 条，缺 Audience Injection Attacks 与 Enter, Exit, Page Fault, Leak；两者仍见于官方日程和出版元数据，不据缺项推定撤回。252 条中 251 条起始页与 Crossref 不同，分别保留，原因待查。原录用页一个 cycle 小标题写 2025，出版元数据已确认 2026，页面错误仍记录。',

@@ -2,7 +2,7 @@
 
 状态：自动安排阅读顺序，**不是全部已经纳入的论文清单**。标题或摘要命中关键词可能是假阳性；未命中条目仍保留待筛查。
 
-当前目录记录 6727 条，其中 410 条命中后量子相关关键词。
+当前目录记录 6742 条，其中 413 条命中后量子相关关键词。
 
 | 年份/会议 | 候选论文 | 阅读判定 |
 |---|---|---|
@@ -209,6 +209,8 @@
 | 2024 DATE | [Bitstream Fault Injection Attacks on CRYSTALS Kyber Implementations on FPGAs](https://doi.org/10.23919/date58400.2024.10546550) | adjacent |
 | 2024 Design & Test | [Securing CRYSTALS-Kyber in FPGA Using Duplication and Clock Randomization](https://doi.org/10.1109/mdat.2023.3298805) | include |
 | 2024 HOST | [Breaking SCA-Protected CRYSTALS-Kyber with a Single Trace](https://doi.org/10.1109/host55342.2024.10545390) | include |
+| 2024 IACR ePrint | [Machine Learning based Blind Side-Channel Attacks on PQC-based KEMs - A Case Study of Kyber KEM](https://eprint.iacr.org/2024/169) | include |
+| 2024 IACR ePrint | [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://eprint.iacr.org/2024/1715) | include |
 | 2024 IACR ePrint | [Single-trace side-channel attacks on MAYO exploiting leaky modular multiplication](https://eprint.iacr.org/2024/1850) | include |
 | 2024 Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | include |
 | 2024 NDSS | [When Cryptography Needs a Hand: Practical Post-Quantum Authentication for V2V Communications](https://www.ndss-symposium.org/ndss-paper/when-cryptography-needs-a-hand-practical-post-quantum-authentication-for-v2v-communications/) | pending |
@@ -273,6 +275,7 @@
 | 2023 CCS | [Verifiable Mix-Nets and Distributed Decryption for Voting from Lattice-Based Assumptions](https://www.sigsac.org/ccs/CCS2023/program.html) | pending |
 | 2023 ETS | [A Side-Channel Attack on a Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1109/ets56758.2023.10174000) | include |
 | 2023 FPS | [A Shared Key Recovery Attack on a Masked Implementation of CRYSTALS-Kyber’s Encapsulation Algorithm](https://doi.org/10.1007/978-3-031-57537-2_26) | include |
+| 2023 ICCAD | [Invited Paper: Machine Learning Based Blind Side-Channel Attacks on PQC-Based KEMs - A Case Study of Kyber KEM](https://doi.org/10.1109/iccad57390.2023.10323721) | include |
 | 2023 JCEN | [A side-channel attack on a masked and shuffled software implementation of Saber](https://doi.org/10.1007/s13389-023-00315-3) | include |
 | 2023 PQCrypto | [Breaking and Protecting the Crystal: Side-Channel Analysis of Dilithium in Hardware](https://doi.org/10.1007/978-3-031-40003-2_25) | include |
 | 2023 SP | [DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data](https://doi.org/10.1109/sp46215.2023.10179326) | include |

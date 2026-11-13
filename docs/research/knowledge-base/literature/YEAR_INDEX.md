@@ -210,12 +210,23 @@
 |---|---|---|
 | ACM TECS | [Side-channel Analysis of Lattice-based Post-quantum Cryptography: Exploiting Polynomial Multiplication](https://doi.org/10.1145/3569420) | selected_full_text_sections |
 | ACNS | [Breaking DPA-Protected Kyber via the Pair-Pointwise Multiplication](https://doi.org/10.1007/978-3-031-54773-7_5) | abstract_and_bibliographic_metadata |
+| ACNS Workshops | [One for All, All for Ascon: Ensemble-Based Deep Learning Side-Channel Analysis](https://doi.org/10.1007/978-3-031-61486-6_9) | abstract_and_bibliographic_metadata |
+| COSADE | [The Need for MORE: Unsupervised Side-Channel Analysis with Single Network Training and Multi-output Regression](https://doi.org/10.1007/978-3-031-57543-3_7) | abstract_and_bibliographic_metadata |
 | CRYPTO | [Formally Verifying Kyber: Episode V: Machine-Checked IND-CCA Security and Correctness of ML-KEM in EasyCrypt](https://doi.org/10.1007/978-3-031-68379-4_12) | selected_full_text_sections |
+| CiC | [Leakage Model-flexible Deep Learning-based Side-channel Analysis](https://doi.org/10.62056/ay4c3txol7) | abstract_and_bibliographic_metadata |
+| CiC | [Plaintext-based Side-channel Collision Attack](https://doi.org/10.62056/a36cy7qiu) | abstract_and_bibliographic_metadata |
+| DSN | [Protecting Confidential Virtual Machines from Hardware Performance Counter Side Channels](https://doi.org/10.1109/DSN58291.2024.00031) | selected_full_text_sections |
 | Design & Test | [Securing CRYSTALS-Kyber in FPGA Using Duplication and Clock Randomization](https://doi.org/10.1109/mdat.2023.3298805) | abstract_and_bibliographic_metadata |
 | HOST | [Breaking SCA-Protected CRYSTALS-Kyber with a Single Trace](https://doi.org/10.1109/host55342.2024.10545390) | abstract_and_bibliographic_metadata |
 | HPCA | [PREFETCHX: Cross-Core Cache-Agnostic Prefetcher-based Side-Channel Attacks](https://doi.org/10.1109/hpca57654.2024.00037) | selected_full_text_sections |
+| IACR ePrint | [Machine Learning based Blind Side-Channel Attacks on PQC-based KEMs - A Case Study of Kyber KEM](https://eprint.iacr.org/2024/169) | abstract_and_bibliographic_metadata |
+| IACR ePrint | [OT-PCA: New Key-Recovery Plaintext-Checking Oracle Based Side-Channel Attacks on HQC with Offline Templates](https://eprint.iacr.org/2024/1715) | abstract_and_bibliographic_metadata |
 | IACR ePrint | [Single-trace side-channel attacks on MAYO exploiting leaky modular multiplication](https://eprint.iacr.org/2024/1850) | abstract_and_bibliographic_metadata |
+| IACR ePrint | [Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Side-Channel Analysis](https://eprint.iacr.org/2024/170) | abstract_and_bibliographic_metadata |
+| INDOCRYPT | [OccPoIs: Points of Interest Based on Neural Network’s Key Recovery in Side-Channel Analysis Through Occlusion](https://doi.org/10.1007/978-3-031-80311-6_1) | abstract_and_bibliographic_metadata |
+| JCEN | [Regularizers to the rescue: fighting overfitting in deep learning-based side-channel analysis](https://doi.org/10.1007/s13389-024-00361-5) | abstract_and_bibliographic_metadata |
 | Journal of Cryptology | [Masking the GLP Lattice-Based Signature Scheme at Any Order](https://doi.org/10.1007/s00145-023-09485-z) | abstract_and_bibliographic_metadata |
+| SAC | [Train Wisely: Multifidelity Bayesian Optimization Hyperparameter Tuning in Deep Learning-Based Side-Channel Analysis](https://doi.org/10.1007/978-3-031-82841-6_12) | abstract_and_bibliographic_metadata |
 | SP | [Architectural Mimicry: Innovative Instructions to Efficiently Address Control-Flow Leakage in Data-Oblivious Programs](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
 | SP | [BULKOR: Enabling Bulk Loading for Path ORAM](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | abstract_and_bibliographic_metadata |
 | SP | [BUSted!!! Microarchitectural Side-Channel Attacks on the MCU Bus Interconnect](https://www.ieee-security.org/TC/SP2024/accepted-papers.html) | selected_full_text_sections |
@@ -266,6 +277,7 @@
 
 | 来源 | 论文 | 阅读层级 |
 |---|---|---|
+| ACM Computing Surveys | [SoK: Deep Learning-based Physical Side-channel Analysis](https://doi.org/10.1145/3569577) | abstract_and_bibliographic_metadata |
 | ACNS Workshops | [Secret Key Recovery Attack on Masked and Shuffled Implementations of CRYSTALS-Kyber and Saber](https://doi.org/10.1007/978-3-031-41181-6_9) | abstract_and_bibliographic_metadata |
 | APKC | [Breaking a Fifth-Order Masked Implementation of CRYSTALS-Kyber by Copy-Paste](https://doi.org/10.1145/3591866.3593072) | abstract_and_bibliographic_metadata |
 | ASHES | [A Side-Channel Attack on a Masked Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1145/3605769.3623992) | abstract_and_bibliographic_metadata |
@@ -275,6 +287,9 @@
 | DIMVA | [The Finger in the Power: How to Fingerprint PCs by Monitoring Their Power Consumption](https://doi.org/10.1007/978-3-031-35504-2_2) | abstract_and_bibliographic_metadata |
 | ETS | [A Side-Channel Attack on a Hardware Implementation of CRYSTALS-Kyber](https://doi.org/10.1109/ets56758.2023.10174000) | selected_full_text_sections |
 | FPS | [A Shared Key Recovery Attack on a Masked Implementation of CRYSTALS-Kyber’s Encapsulation Algorithm](https://doi.org/10.1007/978-3-031-57537-2_26) | abstract_and_bibliographic_metadata |
+| IACR ePrint | [An End-to-end Plaintext-based Side-channel Collision Attack without Trace Segmentation](https://eprint.iacr.org/2023/1109) | abstract_and_bibliographic_metadata |
+| IACR ePrint | [Lightweight but Not Easy: Side-channel Analysis of the Ascon Authenticated Cipher on a 32-bit Microcontroller](https://eprint.iacr.org/2023/1598) | abstract_and_bibliographic_metadata |
+| ICCAD | [Invited Paper: Machine Learning Based Blind Side-Channel Attacks on PQC-Based KEMs - A Case Study of Kyber KEM](https://doi.org/10.1109/iccad57390.2023.10323721) | abstract_and_bibliographic_metadata |
 | JCEN | [A side-channel attack on a masked and shuffled software implementation of Saber](https://doi.org/10.1007/s13389-023-00315-3) | selected_full_text_sections |
 | Journal of Systems Architecture | [Exploiting the microarchitectural leakage of prefetching activities for side-channel attacks](https://doi.org/10.1016/j.sysarc.2023.102877) | selected_full_text_sections |
 | PQCrypto | [Breaking and Protecting the Crystal: Side-Channel Analysis of Dilithium in Hardware](https://doi.org/10.1007/978-3-031-40003-2_25) | abstract_and_bibliographic_metadata |
