@@ -4,6 +4,8 @@
 
 ## 2026-11-12 发散池增补（未进入实验判定）
 
+2026-11-14 追加[瞬态响应、顺序放大与防护相容性](brainstorms/2026-11-14-transients-switching-compatibility.md)：先交固定物理度量下的留出响应预测、合法编排的状态转移、逻辑方向明确的有限约束问题。前两项同属动力学路线，第三项保留不同于波形建模的理论诊断。由用户安排他人验证，不增加 40 条 BOLD 种子计数或升级实验状态；见[交接记录](records/2026-11-14-transient-switching-compatibility-handoff.md)。
+
 2026-11-14 追加[跨密钥物理关系、光子事件与后量子求解成本](brainstorms/2026-11-14-key-populations-photon-events-quantum-costs.md)：分别要求独立秘密之间的真实资源转换、同次执行事件关系及光子预算、PQC 相关约束到经典与量子求解的完整资源接口。光子方向保留远期资格诊断；第三项是安全评价模型，不声称新波形机制。三项待用户安排他人验证，不增加 40 条 BOLD 种子计数或升级实验状态，详见[交接记录](records/2026-11-14-key-photon-quantum-handoff.md)。
 
 2026-11-14 追加[物理遗忘、份额的时空隔离与可逆计算](brainstorms/2026-11-14-physical-forgetting-spacetime-reversible-computation.md)：分别要求考虑既有记录的未来观察界限、真实传播图与联合观察条件、能量和可区分性的完整记账。三项深化已有方向，BOLD 种子仍为 40 条；可逆计算保留远期理论诊断，验证由用户安排，无新实验或独立核验。见[交接记录](records/2026-11-14-forgetting-spacetime-reversible-handoff.md)。

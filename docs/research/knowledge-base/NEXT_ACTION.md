@@ -36,6 +36,8 @@ ICCAD Kyber、CSUR、OT-PCA 与 Aegis 身份已对应；继续补 Kyber 分类�
 
 ## 2026-11-12 新方向交接（与既有实验接续并列）
 
+2026-11-14 增补[瞬态响应、顺序放大与防护相容性](brainstorms/2026-11-14-transients-switching-compatibility.md)。验证者先交有物理坐标的响应模型与留出脉冲预测、两种正确编排及状态转移、有限实现库的满足解或相容约束冲突。相容性方向保留理论诊断；A、B 同属动力学路线。用户安排他人验证，本轮未派发或执行实验任务，不增加种子计数；见[交接记录](records/2026-11-14-transient-switching-compatibility-handoff.md)。
+
 2026-11-14 增补[跨密钥关系、光子事件与后量子求解成本](brainstorms/2026-11-14-key-populations-photon-events-quantum-costs.md)。验证者先交有无合法锚点的小型关系图及资源转换、合法电路与同次光子事件预算、有限 PQC 约束实例及完整求解资源表。光子方向保留远期诊断。用户安排验证，本轮未派发或执行任务，不增加种子计数，见[交接记录](records/2026-11-14-key-photon-quantum-handoff.md)。
 
 2026-11-14 增补[计算冗余、拒绝轨迹与随机计算图](brainstorms/2026-11-14-computation-codes-rejected-transcripts-random-graphs.md)。验证者先交两种正确实现及整体可辨识预测、完整拒绝流程与观察契约、少量图族及已知/未知路线的精确比较。第三项保留小规模理论诊断机会。三项深化旧方向，未增加种子计数、执行实验或派发任务，由用户安排他人验证；见[交接记录](records/2026-11-14-computation-rejection-graph-handoff.md)。
