@@ -2,7 +2,7 @@
 
 状态：持续整理，尚未覆盖全部相关论文。按每篇实际阅读层级报告；作者报告不等于本地复现。
 
-当前 576 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
+当前 577 篇；按 DOI 或官方页面关联目录，边界论文继续保留。
 
 ## Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
 
@@ -5208,6 +5208,19 @@
 - 阅读层级：abstract_and_bibliographic_metadata；来源：https://eprint.iacr.org/2026/081。
 - [详细阅读记录](notes/mpcith-revisions-and-evidence-20261113.md)
 - 代码/数据核查：not inspected; no author code executed；引用追踪：pending except explicitly linked references。
+
+## Beyond Conventional Triggers: Auto-Contextualized Covert Triggers for Android Logic Bombs
+
+- 来源：[NDSS 2026](https://www.ndss-symposium.org/ndss-paper/beyond-conventional-triggers-auto-contextualized-covert-triggers-for-android-logic-bombs/)；时间标记：within frozen 2021-11-12 to 2026-11-12 publication window (NDSS 2026)。
+- 作者：Ye Wang (Department of Electrical Engineering and Computer Science, Institute for Information Sciences, The University of Kansas), Bo Luo (Department of Electrical Engineering and Computer Science, Institute for Information Sciences, The University of Kansas), Fengjun Li (Department of Electrical Engineering and Computer Science, Institute for Information Sciences, The University of Kansas)
+- 对象：covert channels, physical sensors, Android, actuator-sensor coupling；类型：attack。
+- 核心想法：SensorBomb 将机载执行器与传感器间的物理耦合用作隐蔽触发通道，并研究应用上下文对现有检测的影响。
+- 作者报告：作者给出加速度计、摄像头及用户动作三类原型，并报告指定评估中的高触发可靠性及未观察到误触发；本批未完整核对评估表格和统计范围。
+- 限制与下一步：攻击模型要求恶意逻辑进入宿主应用、用户安装、对应传感器和执行器可用以及网络连接；不是无需安装的远程秘密恢复。正文 p.4 沿用宿主权限，p.9 同时指出注入缺失敏感操作可能需增加权限；不能概括成所有宿主均无需新权限。摘要零误触发不代表所有环境保证。原型包括屏幕光经人脸反射到前摄像头、振动到运动传感器及用户动作路径，须区分设备内部耦合与用户参与。防护章节提出白名单及相机补偿等方向并承认误拦与适用限制；没有完成全部防护有效性证明或本地复现。
+- 阅读层级：selected_full_text_sections；来源：https://www.ndss-symposium.org/ndss-paper/beyond-conventional-triggers-auto-contextualized-covert-triggers-for-android-logic-bombs/。
+- 已读章节：Complete official abstract and page metadata; PDF pp.1-3; p.4 threat model; p.9 prototypes and permission paragraph; p.14 defense discussion; eight selected references on p.15; p.16 reference numbers counted only; no complete evaluation or bibliography audit
+- [详细阅读记录](notes/ndss2026-second-abstracts-toc-and-sensor-channel-20261114.md)
+- 代码/数据核查：not audited or executed；引用追踪：eight selected backward references inventoried: one catalog identity linked, seven pending; remaining 53 references, recursive and forward coverage open。
 
 ## Beyond RTT: An Adversarially Robust Two-Tiered Approach For Residential Proxy Detection
 

@@ -74,6 +74,10 @@
 
 - 2023 SP · [DeHiREC: Detecting Hidden Voice Recorders via ADC Electromagnetic Radiation](https://doi.org/10.1109/sp46215.2023.10179480) · physical_side_channel_detection · abstract_and_bibliographic_metadata
 
+## actuator-sensor coupling
+
+- 2026 NDSS · [Beyond Conventional Triggers: Auto-Contextualized Covert Triggers for Android Logic Bombs](https://www.ndss-symposium.org/ndss-paper/beyond-conventional-triggers-auto-contextualized-covert-triggers-for-android-logic-bombs/) · attack · selected_full_text_sections
+
 ## adaptive defense
 
 - 2026 NDSS · [Lightening the Load: A Cluster-Based Framework for A Lower-Overhead, Provable Website Fingerprinting Defense](https://www.ndss-symposium.org/ndss-paper/lightening-the-load-a-cluster-based-framework-for-a-lower-overhead-provable-website-fingerprinting-defense/) · countermeasure · abstract_and_bibliographic_metadata
@@ -150,6 +154,7 @@
 - 2025 SP · [I Know What You Sync: Covert and Side Channel Attacks on File Systems via syncfs](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-158) · shared_resource_timing_side_channel · abstract_and_bibliographic_metadata
 - 2025 CCS · [Pixnapping: Bringing Pixel Stealing out of the Stone Age](https://doi.org/10.1145/3719027.3765093) · attack · abstract_and_bibliographic_metadata
 - 2025 NDSS · [Power-Related Side-Channel Attacks using the Android Sensor Framework](https://www.ndss-symposium.org/ndss-paper/power-related-side-channel-attacks-using-the-android-sensor-framework/) · attack · selected_full_text_sections
+- 2026 NDSS · [Beyond Conventional Triggers: Auto-Contextualized Covert Triggers for Android Logic Bombs](https://www.ndss-symposium.org/ndss-paper/beyond-conventional-triggers-auto-contextualized-covert-triggers-for-android-logic-bombs/) · attack · selected_full_text_sections
 - 2026 USENIX · [Bridges to Self: Silent Web-to-App Tracking on Mobile via Localhost](https://www.usenix.org/conference/usenixsecurity26/presentation/vlummens) · cross_context_tracking · abstract_and_bibliographic_metadata
 
 ## AnonSat
@@ -829,6 +834,7 @@
 
 - 2025 CCS · [IOValve: Leakage-Free I/O Sandbox for Large-Scale Untrusted Data Processing](https://doi.org/10.1145/3719027.3765121) · countermeasure · abstract_and_bibliographic_metadata
 - 2025 NDSS · [SketchFeature: High-Quality Per-Flow Feature Extractor Towards Security-Aware Data Plane](https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/) · evaluation · selected_full_text_sections
+- 2026 NDSS · [Beyond Conventional Triggers: Auto-Contextualized Covert Triggers for Android Logic Bombs](https://www.ndss-symposium.org/ndss-paper/beyond-conventional-triggers-auto-contextualized-covert-triggers-for-android-logic-bombs/) · attack · selected_full_text_sections
 
 ## CPA
 
@@ -3203,6 +3209,10 @@
 ## physical address
 
 - 2025 SP · [Rapid Reversing of Non-Linear CPU Cache Slice Functions: Unlocking Physical Address Leakage](https://www.ieee-security.org/TC/SP2025/accepted-papers.html#collapse-143) · microarchitectural_mapping_and_side_channel · abstract_and_bibliographic_metadata
+
+## physical sensors
+
+- 2026 NDSS · [Beyond Conventional Triggers: Auto-Contextualized Covert Triggers for Android Logic Bombs](https://www.ndss-symposium.org/ndss-paper/beyond-conventional-triggers-auto-contextualized-covert-triggers-for-android-logic-bombs/) · attack · selected_full_text_sections
 
 ## physical side channels
 

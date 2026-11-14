@@ -1,0 +1,1016 @@
+{
+  "reviewed_on": "2026-11-14",
+  "sources": [
+    {
+      "source_id": "ndss-2026",
+      "url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "response_url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
+      "status": 200,
+      "retrieved_at": "2026-11-12T06:57:40.596112+00:00",
+      "sha256": "daf015920827a7b7bfe32155e00fff6c1d9e810a6ac2c76ea305d2f26a5f993e",
+      "bytes": 282217,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-frontmatter",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/NDSS2026_Proceedings_Front_Matter.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/NDSS2026_Proceedings_Front_Matter.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:10:56.584642+00:00",
+      "sha256": "6077c645ff6015724fcb119ccf3834971ba1abc27708295fba3f91c63ad90471",
+      "bytes": 658643,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-page-1",
+      "url": "https://www.ndss-symposium.org/ndss-paper/a-causal-perspective-for-enhancing-jailbreak-attack-and-defense/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/a-causal-perspective-for-enhancing-jailbreak-attack-and-defense/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:40.653911+00:00",
+      "sha256": "cb03bdc293e9fc4c3e585d4bdcc2cd35fe1e1556ce21916c220724f4bf61d8ae",
+      "bytes": 70512,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-10",
+      "url": "https://www.ndss-symposium.org/ndss-paper/action-required-a-mixed-methods-study-of-security-practices-in-github-actions/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/action-required-a-mixed-methods-study-of-security-practices-in-github-actions/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:41.659874+00:00",
+      "sha256": "ffe5314200a5473534d18d54361157507bba6a217775b1f7bc61c4e0ec99ce4e",
+      "bytes": 70650,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-101",
+      "url": "https://www.ndss-symposium.org/ndss-paper/flytrap-physical-distance-pulling-attack-towards-camera-based-autonomous-target-tracking-systems/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/flytrap-physical-distance-pulling-attack-towards-camera-based-autonomous-target-tracking-systems/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:55.093274+00:00",
+      "sha256": "c0a0d27b576dafff4e982a9e81212c93bf86a7ea22440eb8f9aa90248b7f575f",
+      "bytes": 71091,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-102",
+      "url": "https://www.ndss-symposium.org/ndss-paper/formal-analysis-of-ble-secure-connection-pairing-and-revelation-of-the-pe-confusion-attack/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/formal-analysis-of-ble-secure-connection-pairing-and-revelation-of-the-pe-confusion-attack/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:55.205270+00:00",
+      "sha256": "101b05d60a0ff6200a73f1ba9bf6244ed085a149396d67c41ed76f760d7146bb",
+      "bytes": 71618,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-103",
+      "url": "https://www.ndss-symposium.org/ndss-paper/from-noise-to-signal-precisely-identify-affected-packages-of-known-vulnerabilities-in-npm-ecosystem/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/from-noise-to-signal-precisely-identify-affected-packages-of-known-vulnerabilities-in-npm-ecosystem/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:55.548251+00:00",
+      "sha256": "12de2ebdbe3bf503fc220c2dce24142c4281f7c00ef9e26ae96b1b6677af4f7f",
+      "bytes": 71324,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-104",
+      "url": "https://www.ndss-symposium.org/ndss-paper/from-obfuscated-to-obvious-a-comprehensive-javascript-deobfuscation-tool-for-security-analysis/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/from-obfuscated-to-obvious-a-comprehensive-javascript-deobfuscation-tool-for-security-analysis/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:55.812525+00:00",
+      "sha256": "c05fdbfd7f23ee32a4b319310f409f7d48544103c0ac151715f614f5bb9645ed",
+      "bytes": 71130,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-105",
+      "url": "https://www.ndss-symposium.org/ndss-paper/from-perception-to-protection-a-developer-centered-study-of-security-and-privacy-threats-in-extended-reality-xr/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/from-perception-to-protection-a-developer-centered-study-of-security-and-privacy-threats-in-extended-reality-xr/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:55.918507+00:00",
+      "sha256": "7705bf0a59a29cd999a5eae9a7a189302f531e3f5f2eefb4b2383e1d5fd60f7e",
+      "bytes": 71329,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-11",
+      "url": "https://www.ndss-symposium.org/ndss-paper/actively-understanding-the-dynamics-and-risks-of-the-threat-intelligence-ecosystem/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/actively-understanding-the-dynamics-and-risks-of-the-threat-intelligence-ecosystem/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:42.228759+00:00",
+      "sha256": "52c0974e4407a1d6545f31cf6010c26435e522b51f998b20452ca89765fe006f",
+      "bytes": 70948,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-110",
+      "url": "https://www.ndss-symposium.org/ndss-paper/honeysat-a-network-based-satellite-honeypot-framework/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/honeysat-a-network-based-satellite-honeypot-framework/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:56.096416+00:00",
+      "sha256": "06abb87f6a468f109c1c76cee8fbcd454f827ae5f13f6412a233d7498aa25d23",
+      "bytes": 70554,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-111",
+      "url": "https://www.ndss-symposium.org/ndss-paper/houston-real-time-anomaly-detection-of-attacks-against-ethereum-defi-protocols/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/houston-real-time-anomaly-detection-of-attacks-against-ethereum-defi-protocols/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:56.213444+00:00",
+      "sha256": "42f30ac05de15357817bf03559e0898b4590c28f0cadadd8de67c4ecd7a8c26f",
+      "bytes": 71569,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-114",
+      "url": "https://www.ndss-symposium.org/ndss-paper/icarus-achieving-performant-asynchronous-bft-with-only-optimistic-paths/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/icarus-achieving-performant-asynchronous-bft-with-only-optimistic-paths/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:56.553614+00:00",
+      "sha256": "61b8707e394edfa03088b79d8ebb6269074ddf617da8acffdee53bf0677d20dc",
+      "bytes": 71067,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-115",
+      "url": "https://www.ndss-symposium.org/ndss-paper/identifying-logical-vulnerabilities-in-quic-implementations/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/identifying-logical-vulnerabilities-in-quic-implementations/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:56.831118+00:00",
+      "sha256": "97c4bc9655dafd3a3796bdc1553f005fafb47ccb6728eda84b723ec9fbfec25e",
+      "bytes": 69257,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-116",
+      "url": "https://www.ndss-symposium.org/ndss-paper/idioms-a-simple-and-effective-framework-for-turbo-charging-local-neural-decompilation-with-well-defined-types/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/idioms-a-simple-and-effective-framework-for-turbo-charging-local-neural-decompilation-with-well-defined-types/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:56.912960+00:00",
+      "sha256": "2b8a3e174a9cf784b5ac5ddec8f91af8b9c1492a0f6eb58ee37c3a46794807b9",
+      "bytes": 71240,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-117",
+      "url": "https://www.ndss-symposium.org/ndss-paper/in-context-probing-for-membership-inference-in-fine-tuned-language-models/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/in-context-probing-for-membership-inference-in-fine-tuned-language-models/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:57.099502+00:00",
+      "sha256": "91ca0d61cb5242afff161191319c5a8ff6256282c77c39c62a88b36484ec7504",
+      "bytes": 70597,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-118",
+      "url": "https://www.ndss-symposium.org/ndss-paper/incident-response-planning-using-a-lightweight-large-language-model-with-reduced-hallucination/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/incident-response-planning-using-a-lightweight-large-language-model-with-reduced-hallucination/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:57.192764+00:00",
+      "sha256": "9c7bb1097b71e6bc9e5d31a5ad31cb6fae2ad921d1433833b648d7642be0cb01",
+      "bytes": 70673,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-119",
+      "url": "https://www.ndss-symposium.org/ndss-paper/indicator-of-benignity-an-industry-view-of-false-positive-in-malicious-domain-detection-and-its-mitigation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/indicator-of-benignity-an-industry-view-of-false-positive-in-malicious-domain-detection-and-its-mitigation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:57.559301+00:00",
+      "sha256": "6842b9b6e7ee093b56c80b6b26e89a7bc3a01d2e57eb08dc399f23134ed8d804",
+      "bytes": 71097,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-12",
+      "url": "https://www.ndss-symposium.org/ndss-paper/acts-attestations-of-contents-in-tls-sessions/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/acts-attestations-of-contents-in-tls-sessions/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:42.843579+00:00",
+      "sha256": "05b37153d9b82a8049b3595e3e2cb39f732856edf99ac72a15d74b7121b86f57",
+      "bytes": 70197,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-120",
+      "url": "https://www.ndss-symposium.org/ndss-paper/invertune-a-backdoor-defense-method-for-multimodal-contrastive-learning-via-backdoor-adversarial-correlation-analysis/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/invertune-a-backdoor-defense-method-for-multimodal-contrastive-learning-via-backdoor-adversarial-correlation-analysis/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:57.813718+00:00",
+      "sha256": "21187404adfa5bdbda5f5b344de3822224e38fa0764bdfa02e0d2b39253642c0",
+      "bytes": 71639,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-121",
+      "url": "https://www.ndss-symposium.org/ndss-paper/iotbec-an-accurate-and-efficient-recurring-vulnerability-detection-framework-for-black-box-iot-devices/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/iotbec-an-accurate-and-efficient-recurring-vulnerability-detection-framework-for-black-box-iot-devices/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:58.046459+00:00",
+      "sha256": "3014718f08a167b9f9cea873af145984770cc802b4ef97d2df064f0c1f774793",
+      "bytes": 72044,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-122",
+      "url": "https://www.ndss-symposium.org/ndss-paper/ipotane-balancing-the-good-and-bad-cases-of-asynchronous-bft/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/ipotane-balancing-the-good-and-bad-cases-of-asynchronous-bft/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:58.102983+00:00",
+      "sha256": "068e2f61651712ac3392c6ffc0bffc8ea6c6480a4965b579da4567f068fb5fd4",
+      "bytes": 70706,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-124",
+      "url": "https://www.ndss-symposium.org/ndss-paper/janus-enabling-expressive-and-efficient-acls-in-high-speed-rdma-clouds/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/janus-enabling-expressive-and-efficient-acls-in-high-speed-rdma-clouds/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:58.185223+00:00",
+      "sha256": "4013fe4b298b80c61ebaef859960b60f2414c46fe92f7275d2a34c185ad92553",
+      "bytes": 70326,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-125",
+      "url": "https://www.ndss-symposium.org/ndss-paper/kangaroo-a-private-and-amortized-inference-framework-over-wan-for-large-scale-decision-tree-evaluation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/kangaroo-a-private-and-amortized-inference-framework-over-wan-for-large-scale-decision-tree-evaluation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:58.544004+00:00",
+      "sha256": "d240b5dba75230bf4facea1c4b7adcd534a7938fd2ebee515cb2434e496696f0",
+      "bytes": 70816,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-127",
+      "url": "https://www.ndss-symposium.org/ndss-paper/knowhow-automatically-applying-high-level-cti-knowledge-for-interpretable-and-accurate-provenance-analysis/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/knowhow-automatically-applying-high-level-cti-knowledge-for-interpretable-and-accurate-provenance-analysis/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:58.935195+00:00",
+      "sha256": "d2528df5dda30d80f563292b9cc90dbd8e270b34734317f7cd9a1130c400b4e9",
+      "bytes": 72115,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-13",
+      "url": "https://www.ndss-symposium.org/ndss-paper/adgfuzz-assignment-dependency-guided-fuzzing-for-robotic-vehicles/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/adgfuzz-assignment-dependency-guided-fuzzing-for-robotic-vehicles/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:42.234003+00:00",
+      "sha256": "f02ba223bd210c9a89d95329a8db067bbbb85a2d390659d991d0642c1a0d44d0",
+      "bytes": 71319,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-14",
+      "url": "https://www.ndss-symposium.org/ndss-paper/airsnitch-demystifying-and-breaking-client-isolation-in-wi-fi-networks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/airsnitch-demystifying-and-breaking-client-isolation-in-wi-fi-networks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:42.371864+00:00",
+      "sha256": "26405d1d9e43af786a89535bb819bbd6838712d3000e105612c58efa02d23b3e",
+      "bytes": 70843,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-15",
+      "url": "https://www.ndss-symposium.org/ndss-paper/aliens-among-us-observing-private-or-reserved-ips-on-the-public-internet/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/aliens-among-us-observing-private-or-reserved-ips-on-the-public-internet/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:42.681899+00:00",
+      "sha256": "24496298b92d999aa2c57c9ce7a0a0c80c0f9628ec0c26df760e45520c9a202a",
+      "bytes": 70486,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-156",
+      "url": "https://www.ndss-symposium.org/ndss-paper/obliinjection-order-oblivious-prompt-injection-attack-to-llm-agents-with-multi-source-data/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/obliinjection-order-oblivious-prompt-injection-attack-to-llm-agents-with-multi-source-data/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:10:03.070520+00:00",
+      "sha256": "f86e4ffea8f0ec79ca1b2c94b9953559a522a65572ec697ce3187b0d1bdccb0f",
+      "bytes": 70536,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-16",
+      "url": "https://www.ndss-symposium.org/ndss-paper/an-llm-driven-fuzzing-framework-for-detecting-logic-instruction-bugs-in-plcs/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/an-llm-driven-fuzzing-framework-for-detecting-logic-instruction-bugs-in-plcs/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:43.227132+00:00",
+      "sha256": "71b2721ac01e189710836a3d2a2c4f29d43bc1f092e9c00ae3f3bb08fa7eaca6",
+      "bytes": 70656,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-18",
+      "url": "https://www.ndss-symposium.org/ndss-paper/anchors-of-trust-a-usability-study-on-user-awareness-consent-and-control-in-cross-device-authentication/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/anchors-of-trust-a-usability-study-on-user-awareness-consent-and-control-in-cross-device-authentication/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:43.343320+00:00",
+      "sha256": "233a58c9669b44b7eeb700930481f27eed61d6fc0b1982e4708e6f26d9f580a8",
+      "bytes": 71372,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-2",
+      "url": "https://www.ndss-symposium.org/ndss-paper/a-deep-dive-into-function-inlining-and-its-security-implications-for-ml-based-binary-analysis/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/a-deep-dive-into-function-inlining-and-its-security-implications-for-ml-based-binary-analysis/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:40.240477+00:00",
+      "sha256": "5c07616e9b71f9249d8c371834e9e37dee2dd5f8c6c3cf5c44c73ca9cd01607c",
+      "bytes": 71010,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-20",
+      "url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/anota-identifying-business-logic-vulnerabilities-via-annotation-based-sanitization/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:43.362137+00:00",
+      "sha256": "8f708526b947b939fac2b78b36ba4324cc7cbaa054b8ddebae96936a6f60d478",
+      "bytes": 71889,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-22",
+      "url": "https://www.ndss-symposium.org/ndss-paper/attention-is-all-you-need-to-defend-against-indirect-prompt-injection-attacks-in-llms/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/attention-is-all-you-need-to-defend-against-indirect-prompt-injection-attacks-in-llms/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:43.652634+00:00",
+      "sha256": "7d540343b8b8a54712912dabaad0f0de05118b788e6d21c0d48a65ba3cd6ffec",
+      "bytes": 70338,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-23",
+      "url": "https://www.ndss-symposium.org/ndss-paper/augmented-shuffle-differential-privacy-protocols-for-large-domain-categorical-and-key-value-data/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/augmented-shuffle-differential-privacy-protocols-for-large-domain-categorical-and-key-value-data/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:44.079286+00:00",
+      "sha256": "f31cba05c18e5029332482da3148e1014ea70859e20b0e544d67c9707ad0ee24",
+      "bytes": 70408,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-25",
+      "url": "https://www.ndss-symposium.org/ndss-paper/automating-function-level-tara-for-automotive-full-lifecycle-security/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/automating-function-level-tara-for-automotive-full-lifecycle-security/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:44.227198+00:00",
+      "sha256": "e4f30c4192baa9218614600de4a26ddde56c598230cdf0a6e215019524f365f4",
+      "bytes": 70951,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-27",
+      "url": "https://www.ndss-symposium.org/ndss-paper/benchmarking-and-understanding-safety-risks-in-ai-character-platforms/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/benchmarking-and-understanding-safety-risks-in-ai-character-platforms/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:44.477396+00:00",
+      "sha256": "52c13e4ca0fa22b329c2bee7fe71e252fe22c55662f67a5517873c4c50ea478f",
+      "bytes": 70428,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-29",
+      "url": "https://www.ndss-symposium.org/ndss-paper/beyond-conventional-triggers-auto-contextualized-covert-triggers-for-android-logic-bombs/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/beyond-conventional-triggers-auto-contextualized-covert-triggers-for-android-logic-bombs/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:44.383402+00:00",
+      "sha256": "0f7f0ad5a9bd43c8b89113999a36953331e542e1cb49bf93635d738b49748832",
+      "bytes": 71388,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-3",
+      "url": "https://www.ndss-symposium.org/ndss-paper/a-hard-label-black-box-evasion-attack-against-ml-based-malicious-traffic-detection-systems/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/a-hard-label-black-box-evasion-attack-against-ml-based-malicious-traffic-detection-systems/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:40.236017+00:00",
+      "sha256": "615fbdcb007eb3729c5b52a0baac62f2817e723d588656c6f166e0b610453728",
+      "bytes": 71522,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-30",
+      "url": "https://www.ndss-symposium.org/ndss-paper/beyond-jailbreak-unveiling-risks-in-llm-applications-arising-from-blurred-capability-boundaries/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/beyond-jailbreak-unveiling-risks-in-llm-applications-arising-from-blurred-capability-boundaries/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:44.662735+00:00",
+      "sha256": "e6a54dd0ef9c2e963e21f00f9fea50340b5f35a0b5a10d24e5241a0aa44d28e6",
+      "bytes": 71477,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-31",
+      "url": "https://www.ndss-symposium.org/ndss-paper/beyond-raw-bytes-towards-large-malware-language-models/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/beyond-raw-bytes-towards-large-malware-language-models/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:45.575267+00:00",
+      "sha256": "bfab7eac18910f0d8cf08acb104cfbf18a4c2de3be44b16722fb4ff73c7eb715",
+      "bytes": 70497,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-33",
+      "url": "https://www.ndss-symposium.org/ndss-paper/binaligner-aligning-binary-code-for-cross-compilation-environment-diffing/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/binaligner-aligning-binary-code-for-cross-compilation-environment-diffing/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:45.217169+00:00",
+      "sha256": "f995021c01ca010466e803daed46fed80b56cb22e759a850e02c0c06b74725e1",
+      "bytes": 71028,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-36",
+      "url": "https://www.ndss-symposium.org/ndss-paper/bleeding-pathways-vanishing-discriminability-in-llm-hidden-states-fuels-jailbreak-attacks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/bleeding-pathways-vanishing-discriminability-in-llm-hidden-states-fuels-jailbreak-attacks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:45.380774+00:00",
+      "sha256": "4420f5c44b805fd9e51e9ebfe032bc52f8f6e23623201e2c9908ae965c3f936e",
+      "bytes": 71074,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-37",
+      "url": "https://www.ndss-symposium.org/ndss-paper/blerp-ble-re-pairing-attacks-and-defenses/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/blerp-ble-re-pairing-attacks-and-defenses/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:45.608398+00:00",
+      "sha256": "00c21668a88ac158df75dcf2891210f734c118802b98c99ac4659ef55397e7f4",
+      "bytes": 71036,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-39",
+      "url": "https://www.ndss-symposium.org/ndss-paper/breaking-the-bulkhead-demystifying-cross-namespace-reference-vulnerabilities-in-kubernetes-operators/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/breaking-the-bulkhead-demystifying-cross-namespace-reference-vulnerabilities-in-kubernetes-operators/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:45.660866+00:00",
+      "sha256": "8b62aea95ae89b10f25bba2adbae5644a908ee4e3fd5ab664239208347e16f7d",
+      "bytes": 71386,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-4",
+      "url": "https://www.ndss-symposium.org/ndss-paper/a-unified-defense-framework-against-membership-inference-in-federated-learning-via-distillation-and-contribution-aware-aggregation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/a-unified-defense-framework-against-membership-inference-in-federated-learning-via-distillation-and-contribution-aware-aggregation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:40.228023+00:00",
+      "sha256": "8310771d1802a59ed81023ae08893ec6b8ddf7530a00c2bf9357bdb42b5cc36d",
+      "bytes": 71647,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-41",
+      "url": "https://www.ndss-symposium.org/ndss-paper/bsfuzzer-context-aware-semantic-fuzzing-for-ble-logic-flaw-detection/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/bsfuzzer-context-aware-semantic-fuzzing-for-ble-logic-flaw-detection/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:46.229945+00:00",
+      "sha256": "d3cccef1b8fae086e5aceb60b0c90702c1b92fbab1cf8aba8fd846fb5a3fb657",
+      "bytes": 70928,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-42",
+      "url": "https://www.ndss-symposium.org/ndss-paper/bullseye-detecting-prototype-pollution-in-npm-packages-with-proof-of-concept-exploits/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/bullseye-detecting-prototype-pollution-in-npm-packages-with-proof-of-concept-exploits/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:46.370389+00:00",
+      "sha256": "461325005b83a03086d9e462673b4f5eb11b9f22f2d91eac5f26a5184d4dad3e",
+      "bytes": 70586,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-43",
+      "url": "https://www.ndss-symposium.org/ndss-paper/bunnyfinder-finding-incentive-flaws-for-ethereum-consensus/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/bunnyfinder-finding-incentive-flaws-for-ethereum-consensus/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:46.551303+00:00",
+      "sha256": "0427e0b42a1d0c7abe853a668e761064271ed1d780f0d3d5e2b89ec717a969a8",
+      "bytes": 70937,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-46",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cat-can-trust-be-predicted-with-context-awareness-in-dynamic-heterogeneous-networks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cat-can-trust-be-predicted-with-context-awareness-in-dynamic-heterogeneous-networks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:46.703099+00:00",
+      "sha256": "ded1f8f0a1200017285f61bf87b13cbca7e37f10071cc169b8c00c9ddb127460",
+      "bytes": 71521,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-47",
+      "url": "https://www.ndss-symposium.org/ndss-paper/catback-universal-backdoor-attacks-on-tabular-data-via-categorical-encoding/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/catback-universal-backdoor-attacks-on-tabular-data-via-categorical-encoding/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:47.110842+00:00",
+      "sha256": "8bf890f3c060296e41c8f9744917b1aaf0f2b06d47d1274eb457071e636c36fd",
+      "bytes": 69512,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-48",
+      "url": "https://www.ndss-symposium.org/ndss-paper/causal-guided-detoxify-backdoor-attack-of-open-weight-lora-models/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/causal-guided-detoxify-backdoor-attack-of-open-weight-lora-models/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:47.250549+00:00",
+      "sha256": "f185956a6ae9e6342d356abf8ac7b80c9382c605c2526db20a3326bb25d773b0",
+      "bytes": 70036,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-5",
+      "url": "https://www.ndss-symposium.org/ndss-paper/abuse-resistant-traceability-with-minimal-trust-for-encrypted-messaging-systems/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/abuse-resistant-traceability-with-minimal-trust-for-encrypted-messaging-systems/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:40.232561+00:00",
+      "sha256": "24ea4c4ca1827e688c5f1180ddf9fefd0ec4ee7e8d5b16c2d31c848a75c490da",
+      "bytes": 70109,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-51",
+      "url": "https://www.ndss-symposium.org/ndss-paper/chameleoscan-demystifying-and-detecting-ios-chameleon-apps-via-llm-powered-ui-exploration/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/chameleoscan-demystifying-and-detecting-ios-chameleon-apps-via-llm-powered-ui-exploration/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:47.377314+00:00",
+      "sha256": "7f8e1188baf3437489fe000cf6b091c939aa5b3f4ab9cd640856172f2ec50088",
+      "bytes": 71139,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-52",
+      "url": "https://www.ndss-symposium.org/ndss-paper/character-level-perturbations-disrupt-llm-watermarks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/character-level-perturbations-disrupt-llm-watermarks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:47.632354+00:00",
+      "sha256": "98dd6ca5e2f9aa93d9ac55df8eec7f071c01996f79700c1b39723c398a14007b",
+      "bytes": 71296,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-53",
+      "url": "https://www.ndss-symposium.org/ndss-paper/characterizing-the-implementation-of-censorship-policies-in-chinese-llm-services/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/characterizing-the-implementation-of-censorship-policies-in-chinese-llm-services/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:47.823398+00:00",
+      "sha256": "6b2604d38e81b506dacfd025948e9cc4a371a26f5a07503a37dd1620cd57770b",
+      "bytes": 70605,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-54",
+      "url": "https://www.ndss-symposium.org/ndss-paper/chasing-shadows-pitfalls-in-llm-security-research/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/chasing-shadows-pitfalls-in-llm-security-research/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:48.117371+00:00",
+      "sha256": "c0433b2a7e577385a15d5569f298c6a4ba71ef2f8e700c44209c0b6ac159c4e0",
+      "bytes": 70192,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-55",
+      "url": "https://www.ndss-symposium.org/ndss-paper/chimera-harnessing-multi-agent-llms-for-automatic-insider-threat-simulation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/chimera-harnessing-multi-agent-llms-for-automatic-insider-threat-simulation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:48.250375+00:00",
+      "sha256": "b7c41a9d6b4051d46f0b18736a0676fa127d6b362776c0c3743a54ede6c52219",
+      "bytes": 71387,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-56",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cirrus-performant-and-accountable-distributed-snark/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cirrus-performant-and-accountable-distributed-snark/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:48.390198+00:00",
+      "sha256": "15d6bd0f402875d4d007a1052681be88add77b373e43ca76ba292fad2a4bfd46",
+      "bytes": 70934,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-57",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cold-collaborative-label-denoising-framework-for-network-intrusion-detection/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cold-collaborative-label-denoising-framework-for-network-intrusion-detection/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:48.771929+00:00",
+      "sha256": "3e95b1d1fa2216c17a78bd3b66e0419722fa11cf2b3d6b57fdff07ce403bed35",
+      "bytes": 70034,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-59",
+      "url": "https://www.ndss-symposium.org/ndss-paper/consensus-in-the-known-participation-model-with-byzantine-faults-and-sleepy-replicas/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/consensus-in-the-known-participation-model-with-byzantine-faults-and-sleepy-replicas/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:48.938932+00:00",
+      "sha256": "df1084fd70b9ef0533621e0e2c3004c3df7c279d95847ae464790212341fc372",
+      "bytes": 70272,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-6",
+      "url": "https://www.ndss-symposium.org/ndss-paper/accurate-identification-of-the-vulnerability-introducing-commit-based-on-differential-analysis-of-patching-patterns/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/accurate-identification-of-the-vulnerability-introducing-commit-based-on-differential-analysis-of-patching-patterns/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:41.259784+00:00",
+      "sha256": "753118a60241d4825148d657de0697f9e9f00b2e185306d6b084a002b4964c89",
+      "bytes": 70095,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-60",
+      "url": "https://www.ndss-symposium.org/ndss-paper/constructive-noise-defeats-adversarial-noise-adversarial-example-detection-for-commercial-dnn-services/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/constructive-noise-defeats-adversarial-noise-adversarial-example-detection-for-commercial-dnn-services/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:49.096532+00:00",
+      "sha256": "61b82215759764a0be9a6b8b3e6df7cb6d5b47385b1d36fb56d7684b591e2d44",
+      "bytes": 70865,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-62",
+      "url": "https://www.ndss-symposium.org/ndss-paper/convergent-privacy-framework-for-multi-layer-gnns-through-contractive-message-passing/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/convergent-privacy-framework-for-multi-layer-gnns-through-contractive-message-passing/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:49.334984+00:00",
+      "sha256": "cf17bedf271652a7e61a1fd48553baed06220eca98dfb32dff4311d23aebfd0b",
+      "bytes": 71209,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-63",
+      "url": "https://www.ndss-symposium.org/ndss-paper/coordmail-exploiting-smtp-timeout-and-command-interaction-to-coordinate-email-middleware-for-convergence-amplification-attack/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/coordmail-exploiting-smtp-timeout-and-command-interaction-to-coordinate-email-middleware-for-convergence-amplification-attack/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:49.390864+00:00",
+      "sha256": "02bba28a9258136767ca8800a88a51febaacefebd000fc718b312b75abe4c7d0",
+      "bytes": 72067,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-64",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cot-dpg-a-co-training-based-dynamic-password-guessing-method/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cot-dpg-a-co-training-based-dynamic-password-guessing-method/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:49.757535+00:00",
+      "sha256": "4aba7b1762cee3e8567ddb6d527af97630ef23ab24f57a44c60dcad4d74f7f89",
+      "bytes": 70097,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-65",
+      "url": "https://www.ndss-symposium.org/ndss-paper/crack-in-the-armor-underlying-infrastructure-threats-to-rpki-publication-point-reachability/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/crack-in-the-armor-underlying-infrastructure-threats-to-rpki-publication-point-reachability/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:49.926671+00:00",
+      "sha256": "50ce5dac9bc3bed7f41d78592df4d502e8621ca360bfa5875781d87a94390d32",
+      "bytes": 70895,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-66",
+      "url": "https://www.ndss-symposium.org/ndss-paper/crisp-an-efficient-cryptographic-framework-for-ml-inference-against-malicious-clients/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/crisp-an-efficient-cryptographic-framework-for-ml-inference-against-malicious-clients/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:50.104378+00:00",
+      "sha256": "8092f2ea2e6773f6dcc645df283dc858608caf6c6c14c16dbd7c2f2aab1853ca",
+      "bytes": 69946,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-69",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cross-consensus-reliable-broadcast-and-its-applications/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cross-consensus-reliable-broadcast-and-its-applications/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:50.330513+00:00",
+      "sha256": "f9bb91f9ece5b36ba42563210b32d544e023ad6dc59f8a343134a1f92ac59823",
+      "bytes": 70271,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-7",
+      "url": "https://www.ndss-symposium.org/ndss-paper/ace-a-security-architecture-for-llm-integrated-app-systems/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/ace-a-security-architecture-for-llm-integrated-app-systems/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:41.214084+00:00",
+      "sha256": "0e5c5e99de190f59adacaad3ac659d696bc7b1765492bc029e85924e29dd2d85",
+      "bytes": 70979,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-72",
+      "url": "https://www.ndss-symposium.org/ndss-paper/ctng-secure-certificate-and-revocation-transparency/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/ctng-secure-certificate-and-revocation-transparency/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:50.719625+00:00",
+      "sha256": "954fac43e94973d697a8e5c5df18487502bc50999a332dc8a787cb5c28145bc8",
+      "bytes": 70379,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-73",
+      "url": "https://www.ndss-symposium.org/ndss-paper/ctphishcapture-uncovering-credential-theft-based-phishing-scams-targeting-cryptocurrency-wallets/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/ctphishcapture-uncovering-credential-theft-based-phishing-scams-targeting-cryptocurrency-wallets/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:50.760912+00:00",
+      "sha256": "b0872fb3f25753f825d38cea1a4e721112ac15a18bfdc21cb10905850f357727",
+      "bytes": 71163,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-74",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cwpsu-efficient-unbalanced-private-set-union-via-constant-weight-codes/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/cwpsu-efficient-unbalanced-private-set-union-via-constant-weight-codes/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:50.925767+00:00",
+      "sha256": "43b70b66b785ccb957ac58f9e3b68d5c6bc5f366689463b054a9972ccdd374aa",
+      "bytes": 70524,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-75",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dataset-reduction-and-watermark-removal-via-self-supervised-learning-for-model-extraction-attack/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/dataset-reduction-and-watermark-removal-via-self-supervised-learning-for-model-extraction-attack/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:51.097512+00:00",
+      "sha256": "62343613c85529cbed5160c4a8c4266e96d648aeec586fe6f1928167cefaed6b",
+      "bytes": 72328,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-76",
+      "url": "https://www.ndss-symposium.org/ndss-paper/decompiling-the-synergy-an-empirical-study-of-human-llm-teaming-in-software-reverse-engineering/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/decompiling-the-synergy-an-empirical-study-of-human-llm-teaming-in-software-reverse-engineering/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:51.463164+00:00",
+      "sha256": "8d3a72e8f594d0249eae81f8209763cf9e46e9647e2023add4b8d2dc14fd3e41",
+      "bytes": 70850,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-77",
+      "url": "https://www.ndss-symposium.org/ndss-paper/demystifying-rpki-invalid-prefixes-hidden-causes-and-security-risks/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/demystifying-rpki-invalid-prefixes-hidden-causes-and-security-risks/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:52.115787+00:00",
+      "sha256": "8f968033e4878d0ff6a744073b9a9323b0eaabda2a5d0c1cf528d8e64d591058",
+      "bytes": 70494,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-79",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dirtyfree-simplified-data-oriented-programming-in-the-linux-kernel/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/dirtyfree-simplified-data-oriented-programming-in-the-linux-kernel/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:52.107609+00:00",
+      "sha256": "f759d523da0db7d5a4f8feb0554cc9be9a7d908698c1d77b6324fadb7c484e31",
+      "bytes": 71040,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-8",
+      "url": "https://www.ndss-symposium.org/ndss-paper/achieving-interpretable-dl-based-web-attack-detection-through-malicious-payload-localization/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/achieving-interpretable-dl-based-web-attack-detection-through-malicious-payload-localization/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:41.249446+00:00",
+      "sha256": "60ffbf13b4c1e928f9c15703bd2425ce39eec510454e64f697be28f50c6148ee",
+      "bytes": 71554,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-80",
+      "url": "https://www.ndss-symposium.org/ndss-paper/discovering-blind-trust-vulnerabilities-in-plc-binaries-via-state-machine-recovery/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/discovering-blind-trust-vulnerabilities-in-plc-binaries-via-state-machine-recovery/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:51.912646+00:00",
+      "sha256": "fa80aef6d34cb031e8b933feb5456bcd5762fc5efded18c9c8b61e9aebc41b18",
+      "bytes": 71024,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-81",
+      "url": "https://www.ndss-symposium.org/ndss-paper/distributed-broadcast-encryption-for-confidential-interoperability-across-private-blockchains/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/distributed-broadcast-encryption-for-confidential-interoperability-across-private-blockchains/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:52.457315+00:00",
+      "sha256": "43961c6510c4507a05991241cb137584b033ab3a2cfc799b8febc4d044eeb653",
+      "bytes": 70709,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-83",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dom-xss-detection-via-webpage-interaction-fuzzing-and-url-component-synthesis/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/dom-xss-detection-via-webpage-interaction-fuzzing-and-url-component-synthesis/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:52.549873+00:00",
+      "sha256": "2d400d320911a834fe56c2b2663942409f9a2c3e311cbb62cc48b0bf8656a1c5",
+      "bytes": 70534,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-84",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dualbreach-efficient-dual-jailbreaking-via-target-driven-initialization-and-multi-target-optimization/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/dualbreach-efficient-dual-jailbreaking-via-target-driven-initialization-and-multi-target-optimization/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:52.904826+00:00",
+      "sha256": "6bfb5e187c57a10915837f096baaa8704d01b122bfcdb343fe382d2d7ac261ef",
+      "bytes": 71238,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-86",
+      "url": "https://www.ndss-symposium.org/ndss-paper/efficiently-detecting-dbms-bugs-through-bottom-up-syntax-based-sql-generation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/efficiently-detecting-dbms-bugs-through-bottom-up-syntax-based-sql-generation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:53.084738+00:00",
+      "sha256": "1c4ec73d15174067388292bf21980b98765218ff1875e85d4348d7b1694fb394",
+      "bytes": 69727,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-87",
+      "url": "https://www.ndss-symposium.org/ndss-paper/enhancing-legal-document-security-and-accessibility-with-taf/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/enhancing-legal-document-security-and-accessibility-with-taf/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:53.089326+00:00",
+      "sha256": "f0dabcd0df621a55ccd1bddadab8bddd9bb6f4905e12b7aefdaf656bd63fabf0",
+      "bytes": 70826,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-88",
+      "url": "https://www.ndss-symposium.org/ndss-paper/enhancing-semantic-aware-binary-diffing-with-high-confidence-dynamic-instruction-alignment/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/enhancing-semantic-aware-binary-diffing-with-high-confidence-dynamic-instruction-alignment/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:53.568901+00:00",
+      "sha256": "d05a68c0ef1c72fe2504ed811ade3f762e0fd425235e7d306ac75f4f6c88223b",
+      "bytes": 70427,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-9",
+      "url": "https://www.ndss-symposium.org/ndss-paper/achieving-zen-combining-mathematical-and-programmatic-deep-learning-model-representations-for-attribution-and-reuse/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/achieving-zen-combining-mathematical-and-programmatic-deep-learning-model-representations-for-attribution-and-reuse/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:41.234880+00:00",
+      "sha256": "837de4f1c8df442b9d1bc4e22b2f6a758d964cc7ecd10ff4a6f30d52b7a1fdac",
+      "bytes": 70732,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-90",
+      "url": "https://www.ndss-symposium.org/ndss-paper/entente-cross-silo-intrusion-detection-on-network-log-graphs-with-federated-learning/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/entente-cross-silo-intrusion-detection-on-network-log-graphs-with-federated-learning/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:53.538113+00:00",
+      "sha256": "721814232bbb5fef7197f17fbe4241736805558e5867921bcb694205b8b7ffcb",
+      "bytes": 71253,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-94",
+      "url": "https://www.ndss-symposium.org/ndss-paper/expshield-safeguarding-web-text-from-unauthorized-crawling-and-llm-exploitation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/expshield-safeguarding-web-text-from-unauthorized-crawling-and-llm-exploitation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:53.922083+00:00",
+      "sha256": "6c6225725f686cdfbf5aace7c0204d1f2361c93d847dcccf3833ba8f4dad2f8a",
+      "bytes": 70322,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-95",
+      "url": "https://www.ndss-symposium.org/ndss-paper/fast-pointer-nullification-for-use-after-free-prevention/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/fast-pointer-nullification-for-use-after-free-prevention/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:54.228820+00:00",
+      "sha256": "2041354b98ee50bcdc42d2e396b5b58d2b48b4b87860193936f7431e279c4d94",
+      "bytes": 70243,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-96",
+      "url": "https://www.ndss-symposium.org/ndss-paper/faster-than-ever-a-new-lightweight-private-set-intersection-and-its-variants/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/faster-than-ever-a-new-lightweight-private-set-intersection-and-its-variants/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:54.074683+00:00",
+      "sha256": "92a5aa4eb0329e97b50d94a710dfc8fc12add450596f5f17aaf464d945cd172b",
+      "bytes": 70601,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-97",
+      "url": "https://www.ndss-symposium.org/ndss-paper/fidelitygpt-correcting-decompilation-distortions-with-retrieval-augmented-generation/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/fidelitygpt-correcting-decompilation-distortions-with-retrieval-augmented-generation/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:54.666306+00:00",
+      "sha256": "d1c5c58535f50be22dcd5ba5bb9f1c7fed1231741ff1e3118d46629d02d90340",
+      "bytes": 71302,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-98",
+      "url": "https://www.ndss-symposium.org/ndss-paper/firmagent-leveraging-fuzzing-to-assist-llm-agents-with-iot-firmware-vulnerability-discovery/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/firmagent-leveraging-fuzzing-to-assist-llm-agents-with-iot-firmware-vulnerability-discovery/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:54.537363+00:00",
+      "sha256": "a2f91acd799bd43e56f7a960817fd97148e93241d3f80e5ed283c588acac2220",
+      "bytes": 70491,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-page-99",
+      "url": "https://www.ndss-symposium.org/ndss-paper/firmcross-detecting-taint-style-vulnerabilities-in-modern-c-lua-hybrid-web-services-of-linux-based-firmware/",
+      "response_url": "https://www.ndss-symposium.org/ndss-paper/firmcross-detecting-taint-style-vulnerabilities-in-modern-c-lua-hybrid-web-services-of-linux-based-firmware/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:09:54.919139+00:00",
+      "sha256": "44d6872d0bdf494110d20efcd79f312f4d25444b4e4e1fb1017fd169f8616898",
+      "bytes": 71221,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-paper-59",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-s448-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-s448-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:12:24.833157+00:00",
+      "sha256": "a64f66d587fd3bed6033568ba6190bff37b3189faf78b23faee02f78629ce0b4",
+      "bytes": 2100966,
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "ndss26-program",
+      "url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
+      "response_url": "https://www.ndss-symposium.org/ndss-program/symposium-2026/",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:10:19.846032+00:00",
+      "sha256": "b29c7d6b56129dd059ee175db68b6e195fe145ad8adfb5b20bbed2b007fb9912",
+      "bytes": 1060761,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "source_id": "ndss26-sensorbomb-paper",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f348-paper.pdf",
+      "response_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f348-paper.pdf",
+      "status": 200,
+      "retrieved_at": "2026-11-13T23:31:04.464186+00:00",
+      "sha256": "f24864dc3cc1772736ce160ac8c017071bfecbc4fb786875d31a7545e9a0fa35",
+      "bytes": 3935949,
+      "content_type": "application/pdf"
+    }
+  ],
+  "new_abstract_decisions": 91,
+  "new_cards": 1,
+  "new_adjacent_decisions": 90,
+  "ndss_2026_abstracts_read_cumulative": 171,
+  "ndss_2026_abstracts_remaining": 94,
+  "downloaded_but_unread_abstracts": 94,
+  "read_batch_boundary": "First 90 previously undecided entries in stable catalog order, ending position 127 KnowHow, plus position 156 ObliInjection read during italic TOC verification. Next unread position 130 Les Dissonances. Downloads do not count as reading.",
+  "core_cell_crosschecks": [
+    {
+      "venue": "NDSS",
+      "year": 2026,
+      "status": "matched_print_toc",
+      "inventory_file": "toc-crosschecks/ndss-2026.jsonl",
+      "accepted_records": 265,
+      "print_toc_records": 265,
+      "exact_normalized_title_matches": 264,
+      "manually_matched_title_changes": 1,
+      "unpaginated_records": 265,
+      "missing_from_toc": 0,
+      "extra_in_toc": 0,
+      "scope": "All 265 distinct paper identities match independently fetched print TOC; one title variation confirmed against article title/authors. Not abstract/full-text/citation closure or independent scientific review."
+    }
+  ],
+  "printed_title_positions": 265,
+  "duplicate_printed_positions": [],
+  "italic_title_transcriptions": 1,
+  "program_unique_paper_path_links": 195,
+  "program_paper_links": 194,
+  "accepted_papers_absent_from_presentation_program": 71,
+  "program_nonpaper_links": 1,
+  "program_nonpaper_inventory": "catalog-exclusions/ndss-2026.jsonl",
+  "chairs_count": {
+    "pdf_page": 46,
+    "accepted": 265,
+    "optional_presentation_model": true,
+    "source_typo_note": "Paragraph about PC membership says NDSS 25; opening and conference metadata say 2026. Preserve as source typo, not a year change."
+  },
+  "new_citation_edges": 1,
+  "new_pending_discoveries": 7,
+  "selected_reference_inventory": {
+    "discovery_queued": 7,
+    "linked_catalog": 1
+  },
+  "manual_checks": [
+    "TOC PDF pp.22 and 35 rendered and read: one italic title and Faults/Failures variation",
+    "Consensus article PDF p.1 title and authors agree with print TOC variant",
+    "All 91 HTML cache hashes and paragraph-derived abstracts verified",
+    "SensorBomb printed reference numbers 1-61 counted; only eight positions formally inventoried"
+  ],
+  "reading_scope": "91 complete official abstracts; SensorBomb PDF pp.1-3, p.4 threat model, p.9 prototypes/permissions, p.14 defense discussion, eight p.15 references, p.16 numbers only. TOC pp.4-43 extracted; chairs p.46 read; Consensus article p.1 title/authors only. No full-paper or complete bibliography audit.",
+  "scientific_status": "No experiments, simulations, training or author-code execution; single Codex reading, no independent scientific reproduction"
+}
